@@ -11,11 +11,11 @@ Here is a quick starter summary for the most common use case.
 
 For **adding an ERC20 token**:
 - fork the Github repository
-- add/update the project file named `symbol.json` to the folder `projects/<main-chain>/<unique-project-identifier>`,
+- add/update the project file named `info.json` to the folder `projects/<projectname>-<symbol>`,
 where the last part is the token contract address for Smart contract based projects in  
 [_checksum format_](https://developer.trustwallet.com/add_new_asset#checksum_format)
 such as
-`projects/ethereum/0x1234567461d3f8Db7496581774Bd869C83D51c93/txl.json`.
+`projects/tixl-txl/info.json`.
 - Create a PR to the main repo
 - Pay the processing fee
 
