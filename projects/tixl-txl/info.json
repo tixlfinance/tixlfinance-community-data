@@ -1,0 +1,75 @@
+{
+    "name": "Tixl",
+    "symbol": "TXL",
+    "token_type": "Utility",
+    "coingecko_asset_id": "",
+    "coin_api_asset_id": "",
+    "website": "https://tixl.me",
+    "source_code": "https://github.com/tixlcurrency",
+    "white_paper": "https://tixl.me/whitepaper",
+    "short_description": "Tixl ($TXL) claims to be an interoperable ecosystem for DeFi.",
+    "description": "Tixl ($TXL) claims to be an interoperable ecosystem for DeFi.",
+    "socials": [
+        {
+            "name": "Twitter",
+            "url": "https://twitter.com/tixlcurrency",
+            "handle": "tixlcurrency"
+        },
+        {
+            "name": "Telegram",
+            "url": "https://t.me/tixlcurrency",
+            "handle": "tixlcurrency"
+        },
+        {
+            "name": "Medium",
+            "url": "https://medium.com/tixlcurrency",
+            "handle": "tixlcurrency"
+        },
+        {
+            "name": "Reddit",
+            "url": "https://www.reddit.com/r/tixlcurrency",
+            "handle": "tixlcurrency"
+        },
+        {
+            "name": "Youtube",
+            "url": "https://www.youtube.com/playlist?list=PLjOyvZEIlYaJPTOnhbruA2emVaHom0XsV",
+            "handle": "Tixl"
+        }
+    ],
+    "blockchains": [
+        {
+            "name": "Ethereum",
+            "explorer": "https://etherscan.io/token/0x8eEF5a82E6Aa222a60F009ac18c24EE12dBf4b41"
+        },
+        {
+            "name": "Binance Chain",
+            "explorer": "https://explorer.binance.org/asset/MTXLT-286"
+        }
+    ],
+    "exchanges": [
+        {
+            "name": "Binance DEX",
+            "url": "https://www.binance.org/en/trade/MTXLT-286_BNB"
+        },
+        {
+            "name": "Probit",
+            "url": "https://www.probit.com/app/exchange/TXL-BTC"
+        },
+        {
+            "name": "Uniswap",
+            "url": "https://uniswap.info/pair/0x0fdc86703c938e3e1cbc9e14f21c6bf709c13acc"
+        }
+    ],
+    "tokenomics": {
+        "max_supply": "900000000",
+        "total_supply": "900000000",
+        "circulating_supply": "https://api.tixl.me/v1/txl"
+    },
+    "keyfacts": {
+        "sector": "Decentralized Finance",
+        "category": "Infrastructure",
+        "consensus": "Stellar Consensus Protocol (SCP)"
+    },
+    "widgets": [],
+    "tags": ["DeFi", "Interoperability", "DEX", "Privacy", "Payments"]
+}

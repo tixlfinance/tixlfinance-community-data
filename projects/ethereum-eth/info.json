@@ -1,0 +1,52 @@
+{
+  "name": "Ethereum",
+  "symbol": "ETH",
+  "token_type": "Store of Value",
+  "coingecko_asset_id": "",
+  "coin_api_asset_id": "",
+  "website": "https://ethereum.org/",
+  "source_code": "https://github.com/ethereum",
+  "white_paper": "https://github.com/ethereum/wiki/wiki/White-Paper",
+  "short_description": "Open source platform to write and distribute decentralized applications.",
+  "description": "Open source platform to write and distribute decentralized applications.",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/ethereum",
+      "handle": "ethereum"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/ethereum",
+      "handle": "ethereum"
+    }
+  ],
+  "blockchains": [
+    {
+      "name": "Ethereum",
+      "explorer": "https://etherscan.io/"
+    }
+  ],
+  "exchanges": [
+    {
+      "name": "Binance",
+      "url": ""
+    },
+    {
+      "name": "Coinbase",
+      "url": ""
+    }
+  ],
+  "tokenomics": {
+    "max_supply": "xxxxxxxxx",
+    "total_supply": "xxxxxxxxx",
+    "circulating_supply": "xxxxxxxxx"
+  },
+  "keyfacts": {
+    "sector": "Decentralized Finance",
+    "category": "Infrastructure",
+    "consensus": "Proof of Work"
+  },
+  "widgets": [],
+  "tags": ["DeFi", "ERC-20", "Tokens"]
+}
