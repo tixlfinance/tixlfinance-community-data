@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "generate:schema-token": "npx typescript-json-validator scripts/schema.ts InformationTokenSchema",
-    "validate": "ts-node scripts/validator.ts"
+    "validate": "ts-node scripts/validator.ts",
+    "deploy": "ts-node scripts/deploy.ts"
   },
   "repository": {
     "type": "git",

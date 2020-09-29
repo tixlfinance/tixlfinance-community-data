@@ -1,0 +1,32 @@
+name: Deploy File to Server
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  validate-files:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+      - name: NPM Install
+        run: npm install
+        shell: bash
+      - name: Validate Files
+        run: npm run validate
+        shell: bash
+  deploy-files:
+    needs: validate-files
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Deploy File to Server
+        run: npm run deploy
+        shell: bash
