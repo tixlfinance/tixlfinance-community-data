@@ -1,11 +1,24 @@
-import validate from './schema.validator'
-import infoJson from "./../projects/bitcoin-btc/info.json";
+import fs from "fs";
+import path from "path";
+import validate from "./schema.validator";
 
-function main () {
-    const result = validate(infoJson);
-    if (result) {
-        console.log("successfully")
-    }
-}
+const directoryPath = path.join(__dirname, "../projects");
 
-main()
+fs.readdir(directoryPath, (err, fodlers) => {
+  if (err) {
+    return console.log("Unable to scan directory: " + err);
+  }
+  fodlers.forEach((subfolder) => {
+    const filePath = directoryPath + "/" + subfolder + "/info.json";
+    fs.readFile(filePath, "utf8", (err, data) => {
+      if (err) throw err;
+      try {
+        if (validate(JSON.parse(data))) {
+          console.log(`validated: ${filePath} is successfully`);
+        }
+      } catch (err) {
+          console.log(err)
+      }
+    });
+  });
+});

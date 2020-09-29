@@ -148,9 +148,7 @@ export default function validate(value: unknown): InformationTokenSchema {
       ajv.errorsText(
         isInformationTokenSchema.errors!.filter((e: any) => e.keyword !== "if"),
         { dataVar: "InformationTokenSchema" }
-      ) +
-        "\n\n" +
-        inspect(value)
+      )
     );
   }
 }
