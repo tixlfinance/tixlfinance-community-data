@@ -13,7 +13,6 @@
     "url": "git+https://github.com/tixlfinance/assets.git"
   },
   "dependencies": {
-    "chalk": "^4.1.0",
     "typescript-json-validator": "^2.4.2"
   },
   "devDependencies": {

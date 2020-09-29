@@ -1,7 +1,6 @@
 import fs from "fs";
 import path from "path";
 import validate from "./schema.validator";
-import chalk from "chalk";
 
 const directoryPath = path.join(__dirname, "./../projects");
 let isError = false;
@@ -17,27 +16,18 @@ fs.readdir(directoryPath, (err, dirs) => {
         if (err) throw err;
         try {
           if (validate(JSON.parse(data))) {
-            resolve({
-              message: `validated: ${filePath} is successfully`,
-            });
+            resolve(`validated: ${filePath} is successfully`);
           }
         } catch (err) {
           isError = true;
-          resolve({
-            message: err,
-            isError: true,
-          });
+          resolve(err);
         }
       });
     });
   });
   Promise.all(validatedValues)
     .then((values) => {
-      values.map((value: any) =>
-        console.log(
-          value.isError ? chalk.red(value.message) : chalk.green(value.message)
-        )
-      );
+      values.map((value: any) => console.log(value));
       if (isError) process.exit(1);
     })
     .catch((err) => {
