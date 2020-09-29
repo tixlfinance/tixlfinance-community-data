@@ -57,7 +57,13 @@ export default interface InformationTokenSchema {
    * @maximum 100
    */
   description: string;
+  /**
+   * @minItems 1
+   */
   socials: SocialSchema[];
+  /**
+   * @minItems 1
+   */
   blockchains: BlockchainSchema[];
   tokenomics: TokenomicsSchema;
 }
