@@ -14,6 +14,10 @@
     "url": "git+https://github.com/tixlfinance/assets.git"
   },
   "dependencies": {
+    "cross-fetch": "^3.0.6",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.3.0",
+    "graphql-request": "^3.1.0",
     "typescript-json-validator": "^2.4.2"
   },
   "devDependencies": {
