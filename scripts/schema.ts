@@ -16,9 +16,9 @@ interface BlockchainSchema {
 }
 
 interface TokenomicsSchema {
-  max_supply?: number;
-  total_supply?: number;
-  circulating_supply?: number;
+  max_supply?: string;
+  total_supply?: string;
+  circulating_supply?: string;
 }
 
 export default interface InformationTokenSchema {

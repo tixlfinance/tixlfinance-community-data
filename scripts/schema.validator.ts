@@ -56,13 +56,13 @@ export const InformationTokenSchemaSchema = {
       defaultProperties: [],
       properties: {
         circulating_supply: {
-          type: "number"
+          type: "string"
         },
         max_supply: {
-          type: "number"
+          type: "string"
         },
         total_supply: {
-          type: "number"
+          type: "string"
         }
       },
       type: "object"
