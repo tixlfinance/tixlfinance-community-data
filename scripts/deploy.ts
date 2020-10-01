@@ -29,34 +29,25 @@ fs.readdir(directoryPath, (err, dirs) => {
         authorization: `Bearer ${process.env.API_ASSETS_KET}`,
       });
 
-      // const mutation = gql`
-      //   mutation CrateAsset($data: [AssetInput]) {
-      //     createAsset(CreateAssetInput: { assets: $value }) {
-      //       [id]
-      //     }
-      //   }
-      // `;
-
       const mutation = gql`
-        mutation CrateAsset($data: String) {
-          createAsset(
-            CreateAssetInput: { asset_id: $value, coingecko_asset_id: "ididid" }
-          ) {
+        mutation CrateAsset($data: [AssetGithub!]) {
+          createAssetFromGithub(data: { assets: $data }) {
             id
-            coingecko_asset_id
           }
         }
       `;
 
       const variables = {
-        data: "test",
+        data: values,
       };
+
+      console.log(JSON.stringify(values, null, 2));
 
       const response = await graphQLClient.request(mutation, variables);
       console.log(response);
       if (!response) process.exit(1);
     })
     .catch((err) => {
-      console.log(err);
+      console.log(err.message);
     });
 });
