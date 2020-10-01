@@ -28,5 +28,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Deploy File to Server
+        env:
+          API_ASSETS_KEY: ${{ secrets.API_ASSETS_KEY }}
+          MAIN_API_ENDPOINT: ${{ secrets.MAIN_API_URL }}
         run: npm run deploy
         shell: bash

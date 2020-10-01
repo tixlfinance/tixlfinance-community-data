@@ -23,10 +23,10 @@ fs.readdir(directoryPath, (err, dirs) => {
   });
   Promise.all(validatedValues)
     .then(async (values) => {
-      const endpoint = process.env.MAIN_API_URL as string;
+      const endpoint = process.env.MAIN_API_ENDPOINT as string;
       const graphQLClient = new GraphQLClient(endpoint);
       graphQLClient.setHeaders({
-        authorization: `Bearer ${process.env.API_ASSETS_KET}`,
+        authorization: `Bearer ${process.env.API_ASSETS_KEY}`,
       });
 
       const mutation = gql`
