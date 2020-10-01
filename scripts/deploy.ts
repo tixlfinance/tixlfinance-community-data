@@ -29,16 +29,27 @@ fs.readdir(directoryPath, (err, dirs) => {
         authorization: `Bearer ${process.env.API_ASSETS_KET}`,
       });
 
+      // const mutation = gql`
+      //   mutation CrateAsset($data: [AssetInput]) {
+      //     createAsset(CreateAssetInput: { assets: $value }) {
+      //       [id]
+      //     }
+      //   }
+      // `;
+
       const mutation = gql`
-        mutation CrateAsset($data: [AssetInput]) {
-          createAsset(CreateAssetInput: { assets: $value }) {
-            [id]
+        mutation CrateAsset($data: String) {
+          createAsset(
+            CreateAssetInput: { asset_id: $value, coingecko_asset_id: "ididid" }
+          ) {
+            id
+            coingecko_asset_id
           }
         }
       `;
 
       const variables = {
-        data: values,
+        data: "test",
       };
 
       const response = await graphQLClient.request(mutation, variables);
