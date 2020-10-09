@@ -63,7 +63,7 @@
     "tokenomics": {
         "max_supply": "900000000",
         "total_supply": "900000000",
-        "circulating_supply": "https://api.tixl.me/v1/txl"
+        "circulating_supply": "900000000"
     },
     "keyfacts": {
         "sector": "Decentralized Finance",

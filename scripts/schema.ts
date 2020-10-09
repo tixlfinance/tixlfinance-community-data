@@ -16,18 +16,9 @@ interface BlockchainSchema {
 }
 
 interface TokenomicsSchema {
-  /**
-   * @format url
-   */
-  max_supply_url?: string;
-  /**
-   * @format url
-   */
-  total_supply_url?: string;
-  /**
-   * @format url
-   */
-  circulating_supply_url?: string;
+  max_supply?: string;
+  total_supply?: string;
+  circulating_supply?: string;
 }
 
 export default interface InformationTokenSchema {

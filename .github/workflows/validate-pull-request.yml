@@ -1,0 +1,15 @@
+name: 'Validate File JSON'
+
+on: pull_request
+
+jobs:
+  validate-file-json:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: NPM Install
+        run: npm install
+        shell: bash
+      - name: Validate Files
+        run: npm run validate
+        shell: bash

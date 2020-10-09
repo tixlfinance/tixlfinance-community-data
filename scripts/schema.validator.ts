@@ -55,16 +55,13 @@ export const InformationTokenSchemaSchema = {
     TokenomicsSchema: {
       defaultProperties: [],
       properties: {
-        circulating_supply_url: {
-          format: "url",
+        circulating_supply: {
           type: "string"
         },
-        max_supply_url: {
-          format: "url",
+        max_supply: {
           type: "string"
         },
-        total_supply_url: {
-          format: "url",
+        total_supply: {
           type: "string"
         }
       },
