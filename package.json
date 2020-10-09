@@ -1,0 +1,32 @@
+{
+  "name": "assets",
+  "version": "1.0.0",
+  "description": "## Overview Lorem ipsum dolor sit amet.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate:schema-token": "npx typescript-json-validator scripts/schema.ts InformationTokenSchema",
+    "validate": "ts-node scripts/validator.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tixlfinance/assets.git"
+  },
+  "dependencies": {
+    "typescript-json-validator": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.14",
+    "@types/node": "^14.11.1",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.4.0",
+    "ts-node-dev": "^1.0.0-pre.62",
+    "typescript": "^4.0.3"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tixlfinance/assets/issues"
+  },
+  "homepage": "https://github.com/tixlfinance/assets#readme"
+}
