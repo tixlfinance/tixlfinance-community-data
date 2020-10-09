@@ -24,6 +24,9 @@ fs.readdir(directoryPath, (err, dirs) => {
   Promise.all(validatedValues)
     .then(async (values) => {
       const endpoint = process.env.MAIN_API_ENDPOINT as string;
+      if (!endpoint) {
+        throw new Error("Endpint API invalid")
+      }
       const graphQLClient = new GraphQLClient(endpoint);
       graphQLClient.setHeaders({
         authorization: `Bearer ${process.env.API_ASSETS_KEY}`,
@@ -41,13 +44,12 @@ fs.readdir(directoryPath, (err, dirs) => {
         data: values,
       };
 
-      console.log(JSON.stringify(values, null, 2));
-
       const response = await graphQLClient.request(mutation, variables);
       console.log(response);
       if (!response) process.exit(1);
     })
     .catch((err) => {
       console.log(err.message);
+      process.exit(1);
     });
 });
