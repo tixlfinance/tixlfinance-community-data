@@ -30,7 +30,7 @@ jobs:
       - name: List PR changes
         run: |
           URL="https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files"
-          FILES=$(curl -s -X GET -G $URL | jq -r '.[] | .filename')
+          FILES=$(curl -H "Accept: application/vnd.github.v3+json" $URL)
           echo $FILES
       - name: NPM Install
         run: npm install
@@ -38,6 +38,6 @@ jobs:
       - name: Deploy File to Server
         env:
           API_ASSETS_KEY: ${{ secrets.API_ASSETS_KEY }}
-          MAIN_API_ENDPOINT: ${{ secrets.MAIN_API_ENDPOINT     }}
+          MAIN_API_ENDPOINT: ${{ secrets.MAIN_API_ENDPOINT }}
         run: npm run deploy
         shell: bash
