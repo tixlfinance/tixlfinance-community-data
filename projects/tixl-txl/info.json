@@ -8,7 +8,6 @@
     "source_code": "https://github.com/tixlcurrency",
     "white_paper": "https://tixl.me/whitepaper",
     "short_description": "Tixl ($TXL) claims to be an interoperable ecosystem for DeFi.",
-    "description": "Tixl ($TXL) claims to be an interoperable ecosystem for DeFi.",
     "socials": [
         {
             "name": "Twitter",
@@ -61,9 +60,9 @@
         }
     ],
     "tokenomics": {
-        "max_supply": "900000000",
-        "total_supply": "900000000",
-        "circulating_supply": "900000000"
+        "max_supply": 900000000,
+        "total_supply": 900000000,
+        "circulating_supply": 900000000
     },
     "keyfacts": {
         "sector": "Decentralized Finance",

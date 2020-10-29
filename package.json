@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "generate:schema-token": "npx typescript-json-validator scripts/schema.ts InformationTokenSchema",
-    "validate": "ts-node scripts/validator.ts",
+    "generate:token-schema": "npx typescript-json-validator scripts/schema.ts TokenInformationSchema",
+    "validate": "ts-node scripts/validate.ts",
     "deploy": "ts-node scripts/deploy.ts"
   },
   "repository": {

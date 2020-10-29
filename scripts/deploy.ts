@@ -13,11 +13,15 @@ fs.readdir(directoryPath, (err, dirs) => {
   if (err) {
     return console.log("Unable to scan directory: " + err);
   }
-  const validatedValues = dirs.map((subDirs) => {
-    const filePath = directoryPath + "/" + subDirs + "/info.json";
+  const validatedValues = dirs.map((projectDir) => {
+    const filePath = directoryPath + "/" + projectDir + "/info.json";
     return new Promise((resolve, _) => {
       fs.readFile(filePath, "utf8", (_, data) => {
-        resolve(JSON.parse(data));
+        const parsed = JSON.parse(data);
+        resolve({
+          ...parsed,
+          asset_id: projectDir,
+        });
       });
     });
   });
@@ -25,7 +29,7 @@ fs.readdir(directoryPath, (err, dirs) => {
     .then(async (values) => {
       const endpoint = process.env.MAIN_API_ENDPOINT as string;
       if (!endpoint) {
-        throw new Error("Endpint API invalid")
+        throw new Error("API endpoint invalid")
       }
       const graphQLClient = new GraphQLClient(endpoint);
       graphQLClient.setHeaders({

@@ -38,9 +38,9 @@
     }
   ],
   "tokenomics": {
-    "max_supply": "21000000",
-    "total_supply": "21000000",
-    "circulating_supply": "18498550"
+    "max_supply": 21000000,
+    "total_supply": 21000000,
+    "circulating_supply": 18498550
   },
   "keyfacts": {
     "sector": "Decentralized Finance",
