@@ -1,8 +1,18 @@
-**/.DS_Store
+# Deps
 node_modules/
+
+# IDE folders
 .idea
 .vscode/
-*~
-*.txt
+
+# Environment specific stuff
 .env
 .env.test
+
+# For testing pull request workflows locally
+pull_request.json
+
+# Other
+*~
+*.txt
+**/.DS_Store
