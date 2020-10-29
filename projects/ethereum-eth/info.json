@@ -3,7 +3,7 @@
   "symbol": "ETH",
   "token_type": "Store of Value",
   "coingecko_id": "ethereum",
-  "coin_api_asset_id": "",
+  "coin_api_id": "ETH",
   "website": "https://ethereum.org/",
   "source_code": "https://github.com/ethereum",
   "white_paper": "https://github.com/ethereum/wiki/wiki/White-Paper",
