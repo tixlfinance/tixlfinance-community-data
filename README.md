@@ -1,8 +1,5 @@
 # Tixl Finance Projects Info
 
-## Overview
-Lorem ipsum dolor sit amet.
-
 ## Contribution Quick Start
 
 Details of the repository structure and contribution guidelines are listed on the
