@@ -91,9 +91,14 @@ export const TokenInformationSchemaSchema = {
     "coingecko_asset_id": {
       "type": "string"
     },
+    "short_description": {
+      "maxLength": 200,
+      "minLength": 1,
+      "type": "string"
+    },
     "description": {
-      "maximum": 100,
-      "minimum": 1,
+      "maxLength": 2000,
+      "minLength": 201,
       "type": "string"
     },
     "name": {
