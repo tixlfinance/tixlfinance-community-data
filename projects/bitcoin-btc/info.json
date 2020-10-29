@@ -2,7 +2,7 @@
   "name": "Bitcoin",
   "symbol": "BTC",
   "token_type": "Store of Value",
-  "coingecko_asset_id": "",
+  "coingecko_id": "bitcoin",
   "coin_api_asset_id": "",
   "website": "https://bitcoin.org",
   "source_code": "https://github.com/bitcoin",

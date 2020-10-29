@@ -2,7 +2,7 @@
   "name": "Ethereum",
   "symbol": "ETH",
   "token_type": "Store of Value",
-  "coingecko_asset_id": "",
+  "coingecko_id": "ethereum",
   "coin_api_asset_id": "",
   "website": "https://ethereum.org/",
   "source_code": "https://github.com/ethereum",
