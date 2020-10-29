@@ -2,7 +2,7 @@
     "name": "Tixl",
     "symbol": "TXL",
     "token_type": "Utility",
-    "coingecko_asset_id": "",
+    "coingecko_id": "tixl-new",
     "coin_api_asset_id": "",
     "website": "https://tixl.me",
     "source_code": "https://github.com/tixlcurrency",

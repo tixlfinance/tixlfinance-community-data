@@ -2,6 +2,7 @@
   "name": "Uniswap",
   "symbol": "UNI",
   "website": "https://uniswap.org",
+  "coingecko_id": "tixl-new",
   "socials": [
     {
       "name": "Twitter",
