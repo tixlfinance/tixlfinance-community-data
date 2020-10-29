@@ -1,0 +1,22 @@
+{
+  "name": "Uniswap",
+  "symbol": "UNI",
+  "website": "https://uniswap.org",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/UniswapProtocol",
+      "handle": "@UniswapProtocol"
+    }
+  ],
+  "blockchains": [
+    {
+      "name": "Ethereum",
+      "explorer": "https://etherscan.io/token/0x1f9840a85d5af5bf1d1762f925bdaddc4201f984"
+    }
+  ],
+  "tokenomics": {
+    "circulating_supply": 211188693,
+    "total_supply": 1000000000
+  }
+}

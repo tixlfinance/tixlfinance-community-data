@@ -16,12 +16,12 @@ interface BlockchainSchema {
 }
 
 interface TokenomicsSchema {
-  max_supply?: string;
-  total_supply?: string;
-  circulating_supply?: string;
+  max_supply?: number;
+  total_supply?: number;
+  circulating_supply?: number;
 }
 
-export default interface InformationTokenSchema {
+export default interface TokenInformationSchema {
   name: string;
   symbol: string;
   coingecko_asset_id?: string;
@@ -42,12 +42,7 @@ export default interface InformationTokenSchema {
    * @minimum 1
    * @maximum 100
    */
-  short_description: string;
-  /**
-   * @minimum 1
-   * @maximum 100
-   */
-  description: string;
+  description?: string;
   /**
    * @minItems 1
    */
