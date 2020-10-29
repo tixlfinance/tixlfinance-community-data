@@ -16,7 +16,7 @@ fs.readdir(directoryPath, (err, dirs) => {
         if (err) throw err;
         try {
           if (validate(JSON.parse(data))) {
-            resolve(`validated: ${filePath} is successfully`);
+            resolve(`Successfully validated: ${filePath}`);
           }
         } catch (err) {
           isError = true;

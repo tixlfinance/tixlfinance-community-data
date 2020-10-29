@@ -131,8 +131,7 @@ export const TokenInformationSchemaSchema = {
     "socials",
     "symbol",
     "tokenomics",
-    "website",
-    "white_paper"
+    "website"
   ],
   "type": "object"
 };

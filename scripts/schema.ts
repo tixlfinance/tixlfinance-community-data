@@ -37,7 +37,7 @@ export default interface TokenInformationSchema {
   /**
    * @format url
    */
-  white_paper: string;
+  white_paper?: string;
   /**
    * @minimum 1
    * @maximum 100
