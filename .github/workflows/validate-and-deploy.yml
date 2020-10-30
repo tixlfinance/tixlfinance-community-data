@@ -30,9 +30,12 @@ jobs:
       - name: NPM Install
         run: npm install
         shell: bash
+      - id: files
+        uses: jitterbit/get-changed-files@v1
       - name: Deploy File to Server
         env:
           API_ASSETS_KEY: ${{ secrets.API_ASSETS_KEY }}
-          MAIN_API_ENDPOINT: ${{ secrets.MAIN_API_ENDPOINT     }}
-        run: npm run deploy
+          MAIN_API_ENDPOINT: ${{ secrets.MAIN_API_ENDPOINT }}
+        run: | 
+          npm run deploy --files ${{ steps.files.outputs.all }}
         shell: bash
