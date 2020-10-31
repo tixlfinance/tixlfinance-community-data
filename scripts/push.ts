@@ -52,7 +52,9 @@ fs.readdir(directoryPath, (err, _) => {
 
           const existsResponse = await graphQLClient.request(existsQuery);
           const alreadyExists = existsResponse.assetByAssetId !== null;
-          const mutationToUse = alreadyExists ? 'updateAssetFromGithub' : 'createAssetFromGithub';
+          const mutationToUse = alreadyExists
+            ? "updateAssetFromGithub"
+            : "createAssetFromGithub";
 
           const mutation = gql`
             mutation CreateAsset($data: AssetGithubInput!) {
@@ -68,9 +70,13 @@ fs.readdir(directoryPath, (err, _) => {
 
           const response = await graphQLClient.request(mutation, variables);
           if (!response) {
-            throw new Error('No response from mutation call');
+            throw new Error("No response from mutation call");
           }
-          console.info(`${alreadyExists ? 'Updated' : 'Created'} project ${project.asset_id}`);
+          console.info(
+            `${alreadyExists ? "Updated" : "Created"} project ${
+              project.asset_id
+            }`
+          );
         }
       })
       .catch((err) => {
