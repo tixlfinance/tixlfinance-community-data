@@ -29,7 +29,7 @@ fs.readdir(directoryPath, (err, dirs) => {
     .then(async (values) => {
       const endpoint = process.env.MAIN_API_ENDPOINT as string;
       if (!endpoint) {
-        throw new Error("API endpoint invalid")
+        throw new Error("API endpoint invalid");
       }
       const graphQLClient = new GraphQLClient(endpoint);
       graphQLClient.setHeaders({
@@ -38,7 +38,7 @@ fs.readdir(directoryPath, (err, dirs) => {
 
       const mutation = gql`
         mutation CrateAsset($data: [AssetGithub!]) {
-          createAssetFromGithub(data: { assets: $data }) {
+          updateOrCreateAssetFromGithub(data: { assets: $data }) {
             id
           }
         }

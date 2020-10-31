@@ -11,5 +11,5 @@ jobs:
         run: npm install
         shell: bash
       - name: Validate Files
-        run: npm run validate
+        run: npm run validate && npm run lint
         shell: bash
