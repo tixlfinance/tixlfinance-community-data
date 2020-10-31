@@ -7,14 +7,6 @@ interface SocialSchema {
   handle: string;
 }
 
-interface BlockchainSchema {
-  name: string;
-  /**
-   * @format url
-   */
-  explorer: string;
-}
-
 interface TokenomicsSchema {
   max_supply?: number;
   total_supply?: number;
@@ -24,8 +16,8 @@ interface TokenomicsSchema {
 export default interface TokenInformationSchema {
   name: string;
   symbol: string;
-  coingecko_asset_id?: string;
-  coin_api_asset_id?: string;
+  coingecko_id?: string;
+  coin_api_id?: string;
   /**
    * @format url
    */
@@ -39,17 +31,8 @@ export default interface TokenInformationSchema {
    */
   white_paper?: string;
   /**
-   * @minimum 1
-   * @maximum 100
-   */
-  description?: string;
-  /**
    * @minItems 1
    */
   socials: SocialSchema[];
-  /**
-   * @minItems 1
-   */
-  blockchains: BlockchainSchema[];
   tokenomics: TokenomicsSchema;
 }
