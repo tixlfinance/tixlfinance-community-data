@@ -1,4 +1,4 @@
-name: 'Validate File JSON'
+name: Validate asset JSON files
 
 on: pull_request
 

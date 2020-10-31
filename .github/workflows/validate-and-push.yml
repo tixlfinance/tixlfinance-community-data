@@ -1,4 +1,4 @@
-name: Deploy File to Server
+name: Push assets to server
 
 on:
   push:
@@ -22,7 +22,7 @@ jobs:
       - name: Validate Files
         run: npm run validate && npm run lint
         shell: bash
-  deploy-files:
+  push-files:
     needs: validate-files
     runs-on: ubuntu-latest
     steps:
@@ -32,10 +32,10 @@ jobs:
         shell: bash
       - id: files
         uses: jitterbit/get-changed-files@v1
-      - name: Deploy File to Server
+      - name: Push assets to server
         env:
           API_ASSETS_KEY: ${{ secrets.API_ASSETS_KEY }}
           MAIN_API_ENDPOINT: ${{ secrets.MAIN_API_ENDPOINT }}
-        run: | 
-          npm run deploy --files ${{ steps.files.outputs.all }}
+        run: |
+          npm run push --files ${{ steps.files.outputs.all }}
         shell: bash
