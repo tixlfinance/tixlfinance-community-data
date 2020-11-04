@@ -8,6 +8,7 @@ node_modules/
 # Environment specific stuff
 .env
 .env.test
+.env.development
 
 # For testing pull request workflows locally
 pull_request.json
