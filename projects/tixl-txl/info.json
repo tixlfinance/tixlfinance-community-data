@@ -35,8 +35,8 @@
     }
   ],
   "tokenomics": {
-    "max_supply": 900000000,
-    "total_supply": 900000000,
-    "circulating_supply": 900000000
+    "max_supply": 899994670,
+    "total_supply": 899994670,
+    "circulating_supply": 58594704
   }
 }
