@@ -40,6 +40,7 @@ fs.readdir(directoryPath, (err, _) => {
       .then(async (projects: any[]) => {
         for (const project of projects) {
           console.log("Processing project", JSON.stringify(project));
+          delete project.__triggerUpdate;
 
           const endpoint = process.env.MAIN_API_ENDPOINT as string;
           if (!endpoint) {
