@@ -23,5 +23,6 @@
     "max_supply": 21000000,
     "total_supply": 21000000,
     "circulating_supply": 18534937
-  }
+  },
+  "__triggerUpdate": 1
 }
