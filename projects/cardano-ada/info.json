@@ -1,0 +1,20 @@
+{
+  "name": "Cardano",
+  "symbol": "ADA",
+  "coingecko_id": "cardano",
+  "coin_api_id": "ADA",
+  "website": "https://cardano.org/",
+  "source_code": "https://github.com/cardano-foundation",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/cardano",
+      "handle": "cardano"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 45000000000,
+    "total_supply": 45000000000,
+    "circulating_supply": 31112484646
+  }
+}
