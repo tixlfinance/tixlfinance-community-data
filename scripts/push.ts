@@ -37,6 +37,8 @@ fs.readdir(directoryPath, (err, _) => {
     Promise.all(updatedProjects)
       .then(async (projects: any[]) => {
         for (const project of projects) {
+          console.log('Processing project', JSON.stringify(project));
+
           const endpoint = process.env.MAIN_API_ENDPOINT as string;
           if (!endpoint) {
             throw new Error("API endpoint invalid");
