@@ -1,0 +1,19 @@
+{
+  "name": "Ripple",
+  "symbol": "XRP",
+  "coingecko_id": "ripple",
+  "coin_api_id": "XRP",
+  "website": "https://ripple.com/",
+  "source_code": "https://github.com/ripple",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/ripple",
+      "handle": "ripple"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 99990859785,
+    "circulating_supply": 45312488850
+  }
+}

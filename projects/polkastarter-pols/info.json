@@ -1,0 +1,19 @@
+{
+  "name": "Polkastarter",
+  "symbol": "POLS",
+  "coingecko_id": "polkastarter",
+  "coin_api_id": "POLS",
+  "website": "https://www.polkastarter.com/",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/polkastarter",
+      "handle": "polkastarter"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 100000000,
+    "total_supply": 100000000,
+    "circulating_supply": 26461523
+  }
+}
