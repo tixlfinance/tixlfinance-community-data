@@ -16,4 +16,4 @@ jobs:
       - name: Execute score calculation
         # run only if relevant files have been changed
         if: steps.changes.outputs.score == 'true'
-        run: echo "Test"
+        run: npm run scores:calculate

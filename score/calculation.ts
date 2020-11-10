@@ -1,4 +1,4 @@
-// trigger action comment 1
+// trigger action comment 2
 interface Tokenomics {
   circulating_supply?: number;
   total_supply?: number;
