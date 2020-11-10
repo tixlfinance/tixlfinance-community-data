@@ -14,6 +14,9 @@ jobs:
             score:
               - 'score/**'
               - 'scripts/calcScoresAndGenerateCsv.ts'
+      - name: NPM Install
+        run: npm install
+        shell: bash
       - name: Execute score calculation
         # run only if relevant files have been changed
         if: steps.changes.outputs.score == 'true'
