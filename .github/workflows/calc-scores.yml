@@ -23,4 +23,10 @@ jobs:
           MAIN_API_ENDPOINT: ${{ secrets.MAIN_API_ENDPOINT }}
         # run only if relevant files have been changed
         if: steps.changes.outputs.score == 'true'
-        run: npm run scores:calculate
+        run: npm run scores:calculate > scores.csv
+      - name: Upload CSV file
+        uses: actions/upload-artifact@v2
+        with:
+          name: scores
+          path: scores.csv
+          retention-days: 5
