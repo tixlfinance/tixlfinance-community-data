@@ -17,27 +17,30 @@ fs.readdir(directoryPath, (err, _) => {
   }
 
   console.log("changedFiles", JSON.stringify(changedFiles));
-  const updatedProjects = changedFiles.map((dir) => {
-    const dirChange = dir.split("/", 3);
-    if (dir.includes("projects") && dir.includes("json")) {
-      const filePath = directoryPath + "/" + dirChange[1] + "/info.json";
-      return new Promise((resolve, _) => {
-        fs.readFile(filePath, "utf8", (_, data) => {
-          const parsed = JSON.parse(data);
-          resolve({
-            ...parsed,
-            asset_id: dirChange[1],
+  const updatedProjects = changedFiles
+    .map((dir) => {
+      const dirChange = dir.split("/", 3);
+      if (dir.includes("projects") && dir.includes("json")) {
+        const filePath = directoryPath + "/" + dirChange[1] + "/info.json";
+        return new Promise((resolve, _) => {
+          fs.readFile(filePath, "utf8", (_, data) => {
+            const parsed = JSON.parse(data);
+            resolve({
+              ...parsed,
+              asset_id: dirChange[1],
+            });
           });
         });
-      });
-    }
-  });
+      }
+    })
+    .filter((file) => !!file);
 
   if (updatedProjects.length > 0) {
     Promise.all(updatedProjects)
       .then(async (projects: any[]) => {
         for (const project of projects) {
           console.log("Processing project", JSON.stringify(project));
+          delete project.__triggerUpdate;
 
           const endpoint = process.env.MAIN_API_ENDPOINT as string;
           if (!endpoint) {
