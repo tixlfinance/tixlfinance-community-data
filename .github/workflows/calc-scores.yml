@@ -1,0 +1,18 @@
+name: Calculate Tixl Scores
+
+on: pull_request
+
+jobs:
+  calculate_tixl_scores:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: dorny/paths-filter@v2
+        id: changes
+        with:
+          filters: |
+            score:
+              - 'score/**'
+              - 'scripts/calcScoresAndGenerateCsv.ts'
+        # run only if relevant files have been changed
+        if: steps.changes.outputs.score == 'true'
+        run: echo "Test"

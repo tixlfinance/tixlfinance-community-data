@@ -13,7 +13,7 @@ const changedFiles = process.argv.slice(2);
 
 fs.readdir(directoryPath, (err, _) => {
   if (err) {
-    return console.log("Unable to scan directory: " + err);
+    throw err;
   }
 
   console.log("changedFiles", JSON.stringify(changedFiles));
