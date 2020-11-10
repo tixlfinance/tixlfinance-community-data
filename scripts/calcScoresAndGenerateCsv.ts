@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 import { Headers } from "cross-fetch";
 import { GraphQLClient, gql } from "graphql-request";
 import path from "path";
-import { calcScore } from '../score/calculation';
+import { calcScore } from "../score/calculation";
 
 dotenv.config();
 global.Headers = global.Headers || Headers;
@@ -22,7 +22,9 @@ async function calcScoresAndGenerateCsv() {
   const projectsPath = path.join(__dirname, "./../projects");
 
   // print the CSV header line
-  console.log('volume_score;real_liquidity_score;exchanges_score;supply_score;sentiment_score;total_score');
+  console.log(
+    "volume_score;real_liquidity_score;exchanges_score;supply_score;sentiment_score;total_score"
+  );
 
   fs.readdir(projectsPath, async (err, dirNames) => {
     if (err) {
@@ -30,7 +32,7 @@ async function calcScoresAndGenerateCsv() {
     }
 
     for (const dirName of dirNames) {
-      if (dirName.startsWith('.')) {
+      if (dirName.startsWith(".")) {
         continue;
       }
 
@@ -54,12 +56,11 @@ async function calcScoresAndGenerateCsv() {
 
       const assetResponse = await graphQLClient.request(assetQuery);
       const score = calcScore(assetResponse.assetByAssetId);
-      console.log(`${score.volume_score};${score.real_liquidity_score};${score.exchanges_score};${score.supply_score};${score.sentiment_score};${score.total_score}`);
+      console.log(
+        `${score.volume_score};${score.real_liquidity_score};${score.exchanges_score};${score.supply_score};${score.sentiment_score};${score.total_score}`
+      );
     }
   });
 }
 
-calcScoresAndGenerateCsv()
-  .then(() => null);
-
-
+calcScoresAndGenerateCsv().then(() => null);
