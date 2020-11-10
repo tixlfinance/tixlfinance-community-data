@@ -27,6 +27,6 @@ jobs:
       - name: Upload CSV file
         uses: actions/upload-artifact@v2
         with:
-          name: scores
+          name: scores.csv
           path: scores.csv
           retention-days: 5
