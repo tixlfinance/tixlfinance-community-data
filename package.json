@@ -1,9 +1,10 @@
 {
   "name": "@tixlfinance/tixlfinance-db",
   "version": "1.1.2",
-  "main": "index.ts",
-  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
     "generate:token-schema": "npx typescript-json-validator scripts/schema.ts TokenInformationSchema",
     "validate": "ts-node scripts/validate.ts",
@@ -12,7 +13,8 @@
     "prettier": "prettier --write scripts/**/*.ts",
     "sync": "ts-node scripts/sync.ts",
     "push": "ts-node scripts/push.ts",
-    "scores:calculate": "ts-node scripts/calcScoresAndGenerateCsv.ts"
+    "scores:calculate": "ts-node scripts/calcScoresAndGenerateCsv.ts",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",

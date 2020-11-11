@@ -1,5 +1,3 @@
-const { calcScore } = require('./score/calculation');
+import { calcScore } from './score/calculation';
 
-module.exports = {
-  calcScore,
-}
+export { calcScore };

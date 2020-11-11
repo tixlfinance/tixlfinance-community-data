@@ -17,3 +17,6 @@ pull_request.json
 *~
 *.txt
 **/.DS_Store
+
+# Build
+dist/
