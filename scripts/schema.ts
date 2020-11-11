@@ -36,3 +36,21 @@ export default interface TokenInformationSchema {
   socials: SocialSchema[];
   tokenomics: TokenomicsSchema;
 }
+
+interface ExchangeScoreSchema {
+  decentralization_score?: number;
+  regulation_score?: number;
+  users_choice_score?: number;
+  total_score: number;
+}
+
+export default interface ExchangeSchema {
+  name: string;
+  coingecko_id?: string;
+  coin_api_id?: string;
+  exchange_score: ExchangeScoreSchema;
+  /**
+   * @format url
+   */
+  website: string;
+}
