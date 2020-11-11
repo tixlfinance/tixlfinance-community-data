@@ -42,7 +42,11 @@ async function calcScoresAndGenerateCsv() {
           exchanges_data {
             _id,
             pair,
-            quality_score
+            exchange {
+              _id,
+              coingecko_trust_score
+            },
+            slippage_100000USD
           }, 
           id,
           market_cap_usd,
