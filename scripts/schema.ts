@@ -42,6 +42,7 @@ interface ExchangeScoreSchema {
   regulation_score?: number;
   users_choice_score?: number;
   total_score: number;
+  wash_trading_score: number;
 }
 
 export default interface ExchangeSchema {

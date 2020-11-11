@@ -21,10 +21,16 @@
   - 2: 2 star crypto exchange
   - 1: 1 star crypto exchange
   - 0: 0 star crypto exchange
+  
+- Wash Trading Score
+  - 3: Almost only wash trading. A lot of volume but bad liquidity.
+  - 2: Medium fake volume.
+  - 1: Some trading bots, but pretty good liquidity as well.
+  - 0: Only real volume  
 
 - Total Score
 
-Sum of the previous values. The total score has a maximum of 10.
+Sum of the previous values minus wash_trading_score. The total score has a maximum of 10.
 
 ## Disclaimer
 Tixl Finance team allows anyone to submit new exchanges to this repository. However, this does not mean that we are in direct partnership with all of the exchanges.
