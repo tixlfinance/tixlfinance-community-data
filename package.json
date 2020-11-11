@@ -1,7 +1,6 @@
 {
-  "name": "assets",
+  "name": "@tixlfinance/tixlfinance-db",
   "version": "1.0.0",
-  "description": "## Overview Lorem ipsum dolor sit amet.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
