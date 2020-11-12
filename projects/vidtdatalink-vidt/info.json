@@ -1,0 +1,15 @@
+{
+  "name": "VIDT Datalink",
+  "symbol": "VIDT",
+  "website": "https://about.v-id.org/",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/VIDT_Datalink"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 57386799,
+    "circulating_supply": 49428303
+  }
+}

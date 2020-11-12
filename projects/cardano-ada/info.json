@@ -8,12 +8,10 @@
   "socials": [
     {
       "name": "Twitter",
-      "url": "https://twitter.com/cardano",
-      "handle": "cardano"
+      "url": "https://twitter.com/cardano"
     }
   ],
   "tokenomics": {
-    "max_supply": 45000000000,
     "total_supply": 45000000000,
     "circulating_supply": 31112484646
   },

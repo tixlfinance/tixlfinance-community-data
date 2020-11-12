@@ -1,0 +1,15 @@
+{
+  "name": "Band Protocol",
+  "symbol": "BAND",
+  "website": "https://bandprotocol.com/",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/bandprotocol"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 100000000,
+    "circulating_supply": 20494033
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Ocean Protocol",
+  "symbol": "OCEAN",
+  "website": "https://oceanprotocol.com/",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/oceanprotocol"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 613099141,
+    "circulating_supply": 414026837
+  }
+}

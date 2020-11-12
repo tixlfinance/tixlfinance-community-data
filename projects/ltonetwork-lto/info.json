@@ -1,0 +1,15 @@
+{
+  "name": "LTO Network",
+  "symbol": "LTO",
+  "website": "https://ltonetwork.com/",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/ltonetwork"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 403393669,
+    "circulating_supply": 243349635
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Bitcoin SV",
+  "symbol": "BSV",
+  "website": "https://bitcoinsv.com/",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/_BitcoinSV"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 21000000,
+    "circulating_supply": 18568752
+  }
+}

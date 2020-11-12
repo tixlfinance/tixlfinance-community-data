@@ -1,0 +1,15 @@
+{
+  "name": "Utrust",
+  "symbol": "UTK",
+  "website": "https://utrust.com/",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/utrust"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 500000000,
+    "circulating_supply": 450000000
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Sentivate",
+  "symbol": "SNTVT",
+  "website": "https://sentivate.com/",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/sentivate"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 4200000000,
+    "circulating_supply": 3391980008
+  }
+}

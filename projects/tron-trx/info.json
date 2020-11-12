@@ -1,0 +1,15 @@
+{
+  "name": "Tron",
+  "symbol": "TRX",
+  "website": "https://tron.network/",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Tronfoundation"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 100850743812,
+    "circulating_supply": 71659657369
+  }
+}

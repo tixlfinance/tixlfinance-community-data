@@ -1,0 +1,15 @@
+{
+  "name": "Dash",
+  "symbol": "DASH",
+  "website": "https://www.dash.org/",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Dashpay"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 18900000,
+    "circulating_supply": 9810160
+  }
+}

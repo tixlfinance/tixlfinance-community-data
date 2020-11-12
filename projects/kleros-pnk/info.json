@@ -1,0 +1,15 @@
+{
+  "name": "Kleros",
+  "symbol": "PNK",
+  "website": "https://kleros.io/",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/kleros_io"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 764626704,
+    "circulating_supply": 570125435
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Injective Protocol",
+  "symbol": "INJ",
+  "website": "https://injectiveprotocol.com/",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/InjectiveLabs"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 100000000,
+    "circulating_supply": 13508281
+  }
+}

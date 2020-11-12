@@ -1,0 +1,15 @@
+{
+  "name": "Aave",
+  "symbol": "AAVE",
+  "website": "https://aave.com/",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/AaveAave"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 16000000,
+    "circulating_supply": 11686600
+  }
+}

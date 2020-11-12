@@ -1,0 +1,15 @@
+{
+  "name": "Binance Coin",
+  "symbol": "BNB",
+  "website": "https://www.binance.com/",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/binance"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 176406561,
+    "circulating_supply": 144406561
+  }
+}

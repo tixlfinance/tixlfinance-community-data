@@ -1,0 +1,15 @@
+{
+  "name": "Rio DeFi",
+  "symbol": "RFUEL",
+  "website": "https://riochain.io/",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/riodefiofficial"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 1000000000,
+    "circulating_supply": 111630583
+  }
+}

@@ -10,32 +10,26 @@
   "socials": [
     {
       "name": "Twitter",
-      "url": "https://twitter.com/tixlcurrency",
-      "handle": "tixlcurrency"
+      "url": "https://twitter.com/tixlcurrency"
     },
     {
       "name": "Telegram",
-      "url": "https://t.me/tixlcurrency",
-      "handle": "tixlcurrency"
+      "url": "https://t.me/tixlcurrency"
     },
     {
       "name": "Medium",
-      "url": "https://medium.com/tixlcurrency",
-      "handle": "tixlcurrency"
+      "url": "https://medium.com/tixlcurrency"
     },
     {
       "name": "Reddit",
-      "url": "https://www.reddit.com/r/tixlcurrency",
-      "handle": "tixlcurrency"
+      "url": "https://www.reddit.com/r/tixlcurrency"
     },
     {
       "name": "Youtube",
-      "url": "https://www.youtube.com/playlist?list=PLjOyvZEIlYaJPTOnhbruA2emVaHom0XsV",
-      "handle": "Tixl"
+      "url": "https://www.youtube.com/playlist?list=PLjOyvZEIlYaJPTOnhbruA2emVaHom0XsV"
     }
   ],
   "tokenomics": {
-    "max_supply": 899994670,
     "total_supply": 899994670,
     "circulating_supply": 58594704
   },

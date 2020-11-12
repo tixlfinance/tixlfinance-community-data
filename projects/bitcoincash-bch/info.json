@@ -1,0 +1,9 @@
+{
+  "name": "Bitcoin Cash",
+  "symbol": "BCH",
+  "website": "https://www.bitcoincash.org/",
+  "tokenomics": {
+    "total_supply": 1000000000,
+    "circulating_supply": 18570381
+  }
+}

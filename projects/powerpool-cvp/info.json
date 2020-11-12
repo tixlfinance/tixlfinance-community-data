@@ -1,0 +1,15 @@
+{
+  "name": "Powerpool",
+  "symbol": "CVP",
+  "website": "https://powerpool.finance/",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/powerpoolcvp/"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 100000000,
+    "circulating_supply": 5000000
+  }
+}

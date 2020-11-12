@@ -1,0 +1,15 @@
+{
+  "name": "Morpheus.Network",
+  "symbol": "MRPH",
+  "website": "https://morpheus.network/",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/MRPHSupplyChain"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 47897218,
+    "circulating_supply": 47178310
+  }
+}

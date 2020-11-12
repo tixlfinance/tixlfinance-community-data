@@ -1,0 +1,15 @@
+{
+  "name": "Reserve Rights",
+  "symbol": "RSR",
+  "website": "https://reserve.org/",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/ReserveRights"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 100000000000,
+    "circulating_supply": 9349999000
+  }
+}

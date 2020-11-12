@@ -1,0 +1,15 @@
+{
+  "name": "Aleph.im",
+  "symbol": "ALEPH",
+  "website": "https://aleph.im/",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/aleph_im"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 500000000,
+    "circulating_supply": 60870595
+  }
+}

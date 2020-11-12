@@ -10,8 +10,7 @@
   "socials": [
     {
       "name": "Twitter",
-      "url": "https://twitter.com/ethereum",
-      "handle": "ethereum"
+      "url": "https://twitter.com/ethereum"
     },
     {
       "name": "Reddit",
@@ -20,7 +19,6 @@
     }
   ],
   "tokenomics": {
-    "total_supply": 113306020,
     "circulating_supply": 113306020
   },
   "__triggerUpdate": 5

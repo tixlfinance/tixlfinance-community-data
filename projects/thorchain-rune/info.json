@@ -1,0 +1,15 @@
+{
+  "name": "THORChain",
+  "symbol": "RUNE",
+  "website": "https://thorchain.org/",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/thorchain_org"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 500000000,
+    "circulating_supply": 158432088
+  }
+}

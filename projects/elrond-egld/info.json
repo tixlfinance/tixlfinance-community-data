@@ -1,0 +1,15 @@
+{
+  "name": "Elrond",
+  "symbol": "EGLD",
+  "website": "https://elrond.com/",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/elrondnetwork"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 20202272,
+    "circulating_supply": 13710605
+  }
+}

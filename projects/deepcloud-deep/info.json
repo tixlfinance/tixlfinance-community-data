@@ -1,0 +1,15 @@
+{
+  "name": "DeepCloud AI",
+  "symbol": "DEEP",
+  "website": "https://www.deepcloudai.com/",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/DeepCloud_AI"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 200000000,
+    "circulating_supply": 39890468
+  }
+}

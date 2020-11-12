@@ -1,0 +1,15 @@
+{
+  "name": "Vechain",
+  "symbol": "VET",
+  "website": "https://www.vechain.org/",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/vechainofficial"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 86712634466,
+    "circulating_supply": 64315576989
+  }
+}

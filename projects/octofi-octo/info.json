@@ -1,0 +1,15 @@
+{
+  "name": "OctoFi",
+  "symbol": "OCTO",
+  "website": "https://octo.fi/",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/octofinance"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 800000,
+    "circulating_supply": 569848
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "MANTRA DAO",
+  "symbol": "OM",
+  "website": "https://mantradao.com/",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/MANTRADAO"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 190166666,
+    "circulating_supply": 167364583
+  }
+}

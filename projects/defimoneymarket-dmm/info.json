@@ -1,0 +1,15 @@
+{
+  "name": "DMM: Governance",
+  "symbol": "DMG",
+  "website": "https://defimoneymarket.com/",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/DmmDAO"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 249831133,
+    "circulating_supply": 46912281
+  }
+}

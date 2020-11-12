@@ -1,0 +1,14 @@
+{
+  "name": "Tezos",
+  "symbol": "XTZ",
+  "website": "https://tezos.com/",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/tezos"
+    }
+  ],
+  "tokenomics": {
+    "circulating_supply": 749821588
+  }
+}

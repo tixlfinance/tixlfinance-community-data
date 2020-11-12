@@ -1,0 +1,15 @@
+{
+  "name": "Chromia",
+  "symbol": "CHR",
+  "website": "https://chromia.com/",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Chromia"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 471970667,
+    "circulating_supply": 429562408
+  }
+}

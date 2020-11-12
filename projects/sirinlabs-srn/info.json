@@ -1,0 +1,15 @@
+{
+  "name": "SIRIN LABS Token",
+  "symbol": "SRN",
+  "website": "https://sirinlabs.com/",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/SIRINLABS"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 572166104,
+    "circulating_supply": 491820906
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "yearn.finance",
+  "symbol": "YFI",
+  "website": "https://yearn.finance/",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/iearnfinance"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 30000,
+    "circulating_supply": 29968
+  }
+}

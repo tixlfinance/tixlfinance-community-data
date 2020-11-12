@@ -1,0 +1,15 @@
+{
+  "name": "Energy Web Token",
+  "symbol": "EWT",
+  "website": "https://www.energyweb.org/",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/energywebx"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 48638535,
+    "circulating_supply": 30062138
+  }
+}

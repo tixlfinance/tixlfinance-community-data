@@ -1,0 +1,15 @@
+{
+  "name": "DIA",
+  "symbol": "DIA",
+  "website": "https://diadata.org/",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/diadata_org"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 200000000,
+    "circulating_supply": 28271916
+  }
+}

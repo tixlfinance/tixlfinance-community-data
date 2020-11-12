@@ -1,0 +1,15 @@
+{
+  "name": "Tether",
+  "symbol": "USDT",
+  "website": "https://tether.to/",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Tether_to"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 18118404168,
+    "circulating_supply": 17551209235
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Pundi X",
+  "symbol": "NPXS",
+  "website": "https://pundix.com/",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/PundiXLabs"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 258526640301,
+    "circulating_supply": 234544488396
+  }
+}

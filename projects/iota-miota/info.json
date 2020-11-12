@@ -1,0 +1,15 @@
+{
+  "name": "IOTA",
+  "symbol": "MIOTA",
+  "website": "https://www.iota.org/",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/iotatoken"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 2779530283,
+    "circulating_supply": 2779530283
+  }
+}

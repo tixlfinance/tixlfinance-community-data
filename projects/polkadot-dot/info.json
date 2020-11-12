@@ -1,0 +1,15 @@
+{
+  "name": "Polkadot",
+  "symbol": "DOT",
+  "website": "https://polkadot.network/",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Polkadot"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 1012295763,
+    "circulating_supply": 877490350
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "LCX",
+  "symbol": "LCX",
+  "website": "https://www.lcx.com/",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/lcx"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 953165775,
+    "circulating_supply": 548087302
+  }
+}

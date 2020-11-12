@@ -1,0 +1,15 @@
+{
+  "name": "Chainlink",
+  "symbol": "LINK",
+  "website": "https://chain.link/",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/chainlink"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 1000000000,
+    "circulating_supply": 391509556
+  }
+}

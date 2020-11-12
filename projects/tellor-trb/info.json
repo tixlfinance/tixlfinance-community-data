@@ -1,0 +1,15 @@
+{
+  "name": "Tellor",
+  "symbol": "TRB",
+  "website": "https://tellor.io/",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/WeAreTellor"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 1628209,
+    "circulating_supply": 1549846
+  }
+}
