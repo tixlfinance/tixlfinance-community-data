@@ -12,7 +12,7 @@
       "name": "Twitter",
       "url": "https://twitter.com/Bitcoin",
       "handle": "Bitcoin",
-      "searchStrings": ["@Bitcoin", "#bitcoin", "$BTC"]
+      "search_strings": ["@Bitcoin", "#bitcoin", "$BTC"]
     },
     {
       "name": "Reddit",

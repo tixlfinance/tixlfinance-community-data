@@ -10,7 +10,7 @@
       "name": "Twitter",
       "url": "https://twitter.com/cardano",
       "handle": "cardano",
-      "searchStrings": ["@cardano", "#cardano", "$ADA"]
+      "search_strings": ["@cardano", "#cardano", "$ADA"]
     }
   ],
   "tokenomics": {
