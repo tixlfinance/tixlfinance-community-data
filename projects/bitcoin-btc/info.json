@@ -1,6 +1,7 @@
 {
   "name": "Bitcoin",
   "symbol": "BTC",
+  "logo": "https://github.com/tixlfinance/assets/blob/master/projects/bitcoin-btc/logo.png?raw=true",
   "coingecko_id": "bitcoin",
   "coin_api_id": "BTC",
   "website": "https://bitcoin.org",
