@@ -8,7 +8,8 @@
     {
       "name": "Twitter",
       "url": "https://twitter.com/polkastarter",
-      "handle": "polkastarter"
+      "handle": "polkastarter",
+      "searchStrings": ["@polkastarter", "#polkastarter", "$POLS"]
     }
   ],
   "tokenomics": {

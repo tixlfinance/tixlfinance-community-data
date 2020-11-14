@@ -11,7 +11,8 @@
     {
       "name": "Twitter",
       "url": "https://twitter.com/ethereum",
-      "handle": "ethereum"
+      "handle": "ethereum",
+      "searchStrings": ["@ethereum", "#ethereum", "$ETH"]
     },
     {
       "name": "Reddit",
