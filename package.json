@@ -11,8 +11,7 @@
     "lint": "tslint scripts/**/*.ts{,x}",
     "lint:fix": "tslint scripts/**/*.ts{,x} --fix",
     "prettier": "prettier --write scripts/**/*.ts",
-    "sync": "ts-node scripts/sync.ts",
-    "push": "ts-node scripts/push.ts",
+    "push": "ts-node scripts/pushProjects.ts && ts-node scripts/pushExchanges.ts",
     "scores:calculate": "ts-node scripts/calcScoresAndGenerateCsv.ts",
     "prepare": "npm run build"
   },
