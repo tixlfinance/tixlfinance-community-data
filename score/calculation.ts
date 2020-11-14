@@ -1,4 +1,15 @@
 // trigger action comment 3
+
+// const to play around with
+const FACTOR_VOLUME = 1;
+const FACTOR_LIQUIDITY = 2;
+const FACTOR_EXCHANGES = 1;
+const FACTOR_SUPPLY = 1;
+const FACTOR_SOCIAL = 2;
+
+const SCORE_UNDEFINED = -1;
+const SCORE_MAX_VALUE = 100;
+
 interface Tokenomics {
   circulating_supply?: number;
   total_supply?: number;
@@ -35,14 +46,6 @@ interface Score {
   supply_score: number;
   sentiment_score: number;
 }
-
-const SCORE_UNDEFINED = -1;
-const SCORE_MAX_VALUE = 100;
-const FACTOR_VOLUME = 1;
-const FACTOR_LIQUIDITY = 2;
-const FACTOR_EXCHANGES = 1;
-const FACTOR_SUPPLY = 1;
-const FACTOR_SOCIAL = 2;
 
 const getSlippage = (asset: Asset, usd: number) => Math.min(
   ...asset.exchanges_data
