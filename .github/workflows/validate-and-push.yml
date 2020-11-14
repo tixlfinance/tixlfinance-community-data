@@ -22,7 +22,7 @@ jobs:
       - name: Validate Files
         run: npm run validate && npm run lint
         shell: bash
-  push-files:
+  push-project-files:
     needs: validate-files
     runs-on: ubuntu-latest
     steps:
@@ -37,5 +37,22 @@ jobs:
           API_ASSETS_KEY: ${{ secrets.API_ASSETS_KEY }}
           MAIN_API_ENDPOINT: ${{ secrets.MAIN_API_ENDPOINT }}
         run: |
-          npm run push --files ${{ steps.files.outputs.all }}
+          npm run push:projects --files ${{ steps.files.outputs.all }}
+        shell: bash
+  push-exchange-files:
+    needs: validate-files
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: NPM Install
+        run: npm install
+        shell: bash
+      - id: files
+        uses: jitterbit/get-changed-files@v1
+      - name: Push assets to server
+        env:
+          API_ASSETS_KEY: ${{ secrets.API_ASSETS_KEY }}
+          MAIN_API_ENDPOINT: ${{ secrets.MAIN_API_ENDPOINT }}
+        run: |
+          npm run push:exchanges --files ${{ steps.files.outputs.all }}
         shell: bash
