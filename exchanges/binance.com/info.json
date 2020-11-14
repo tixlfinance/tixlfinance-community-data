@@ -1,5 +1,5 @@
 {
-  "exchangeId": "binance.com",
+  "exchange_id": "binance.com",
   "name": "Binance",
   "coingecko_id": "binance",
   "coin_api_id": "binance",
