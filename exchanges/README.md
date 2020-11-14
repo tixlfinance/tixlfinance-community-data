@@ -14,7 +14,7 @@
   - 2: Licence in low reputation country
   - 0: no licence
 
-- Users choice
+- Adoption
   - 5: 5 star crypto exchange
   - 4: 4 star crypto exchange
   - 3: 3 star crypto exchange
