@@ -6,6 +6,7 @@ jobs:
   calculate_tixl_scores:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - uses: dorny/paths-filter@v2
         id: changes
         with:
@@ -13,7 +14,19 @@ jobs:
             score:
               - 'score/**'
               - 'scripts/calcScoresAndGenerateCsv.ts'
+      - name: NPM Install
+        run: npm install
+        shell: bash
       - name: Execute score calculation
+        env:
+          API_ASSETS_KEY: ${{ secrets.API_ASSETS_KEY }}
+          MAIN_API_ENDPOINT: ${{ secrets.MAIN_API_ENDPOINT }}
         # run only if relevant files have been changed
         if: steps.changes.outputs.score == 'true'
-        run: echo "Test"
+        run: npm run scores:calculate > scores.csv
+      - name: Upload CSV file
+        uses: actions/upload-artifact@v2
+        with:
+          name: scores.csv
+          path: scores.csv
+          retention-days: 5

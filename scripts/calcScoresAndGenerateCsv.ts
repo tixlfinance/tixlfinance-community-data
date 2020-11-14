@@ -23,7 +23,7 @@ async function calcScoresAndGenerateCsv() {
 
   // print the CSV header line
   console.log(
-    "volume_score;real_liquidity_score;exchanges_score;supply_score;sentiment_score;total_score"
+    "asset_id;volume_score;real_liquidity_score;exchanges_score;supply_score;sentiment_score;total_score"
   );
 
   fs.readdir(projectsPath, async (err, dirNames) => {
@@ -42,7 +42,11 @@ async function calcScoresAndGenerateCsv() {
           exchanges_data {
             _id,
             pair,
-            quality_score
+            exchange {
+              _id,
+              coingecko_trust_score
+            },
+            slippage_100000USD
           }, 
           id,
           market_cap_usd,
@@ -57,7 +61,7 @@ async function calcScoresAndGenerateCsv() {
       const assetResponse = await graphQLClient.request(assetQuery);
       const score = calcScore(assetResponse.assetByAssetId);
       console.log(
-        `${score.volume_score};${score.real_liquidity_score};${score.exchanges_score};${score.supply_score};${score.sentiment_score};${score.total_score}`
+        `${assetResponse.assetByAssetId.asset_id};${score.volume_score};${score.real_liquidity_score};${score.exchanges_score};${score.supply_score};${score.sentiment_score};${score.total_score}`
       );
     }
   });

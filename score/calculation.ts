@@ -1,3 +1,4 @@
+// trigger action comment 3
 interface Tokenomics {
   circulating_supply?: number;
   total_supply?: number;
@@ -12,7 +13,12 @@ interface Asset {
 }
 
 interface AssetExchangeData {
+  exchange: Exchange;
   quality_score?: 'green' | 'yellow' | 'red';
+}
+
+interface Exchange {
+  coingecko_trust_score?: number;
 }
 
 interface Score {
@@ -40,25 +46,24 @@ const getSlippage = (asset: Asset, usd: number) => Math.min(
 export function calcScore(asset: Asset): Score {
   let volumeScore = SCORE_UNDEFINED;
   let liquidityScore = SCORE_UNDEFINED;
-  // @todo - waiting for some data
-  let exchangesScore = 0.5;
+  let exchangesScore = SCORE_UNDEFINED;
   // @todo - to be implemented
-  let socialScore = 0.5;
+  let socialScore = 5;
   let supplyScore = SCORE_UNDEFINED;
 
   // the volume score is defined by
   if (asset.market_cap_usd && asset.volume_24h_usd) {
-    volumeScore = asset.volume_24h_usd / asset.market_cap_usd;
+    volumeScore = (asset.volume_24h_usd / asset.market_cap_usd) * 10;
   }
 
   if (asset.exchanges_data?.length > 0) {
     // calculate the exchange score according to the quality of exchanges a project is listed on
-    // asset.exchanges_data
-    //   .filter(exchange => !!exchange.quality_score)
-    //   .forEach((exchange: AssetExchangeData) => {
-    //     exchangesScore += exchangeQualityScoreMapping[exchange.quality_score!];
-    //   });
-    // exchangesScore = exchangesScore / asset.exchanges_data.length;
+    asset.exchanges_data
+      .filter(exchangeData => !!exchangeData.exchange.coingecko_trust_score)
+      .forEach((exchangeData: AssetExchangeData) => {
+        exchangesScore += exchangeData.exchange.coingecko_trust_score!;
+      });
+    exchangesScore = exchangesScore / asset.exchanges_data.length;
 
     // now lets calculate the liquidity score according to the slippage
     const slippage100000Usd = getSlippage(asset, 100000);
@@ -70,25 +75,15 @@ export function calcScore(asset: Asset): Score {
 
   // the supply score is determined by comparing the circulating vs the total supply
   if (asset.tokenomics?.circulating_supply && asset.tokenomics?.total_supply) {
-    supplyScore = asset.tokenomics?.circulating_supply / asset.tokenomics?.total_supply;
-  }
-
-  if (volumeScore === SCORE_UNDEFINED || liquidityScore === SCORE_UNDEFINED || exchangesScore === SCORE_UNDEFINED || supplyScore === SCORE_UNDEFINED || socialScore === SCORE_UNDEFINED) {
-    console.info(`Could not calculate score for asset ${asset.asset_id}, values are: `, JSON.stringify({
-      volumeScore,
-      liquidityScore,
-      exchangesScore,
-      supplyScore,
-      socialScore,
-    }));
+    supplyScore = (asset.tokenomics?.circulating_supply / asset.tokenomics?.total_supply) * 10;
   }
 
   const totalScore =
-    volumeScore +
+    (volumeScore +
     2 * liquidityScore +
     exchangesScore +
     supplyScore +
-    2 * socialScore;
+    2 * socialScore) / 7;
 
   return {
     total_score: totalScore,

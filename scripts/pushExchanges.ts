@@ -64,7 +64,7 @@ fs.readdir(directoryPath, (err, _) => {
             : "createExchangeFromGithub";
 
           const mutation = gql`
-            mutation CreateExchange($data: ExchangeGithubInput!) {
+            mutation CreateExchange($data: ExchangeInput!) {
               ${mutationToUse}(data: $data) {
                 id
               }

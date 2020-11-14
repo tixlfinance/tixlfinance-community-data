@@ -8,7 +8,8 @@
     {
       "name": "Twitter",
       "url": "https://twitter.com/polkastarter",
-      "handle": "polkastarter"
+      "handle": "polkastarter",
+      "searchStrings": ["@polkastarter", "#polkastarter", "$POLS"]
     }
   ],
   "tokenomics": {
@@ -16,5 +17,5 @@
     "total_supply": 100000000,
     "circulating_supply": 26461523
   },
-  "__triggerUpdate": 5
+  "__triggerUpdate": 6
 }

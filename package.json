@@ -1,9 +1,10 @@
 {
-  "name": "assets",
-  "version": "1.0.0",
-  "description": "## Overview Lorem ipsum dolor sit amet.",
-  "main": "index.js",
+  "name": "@tixlfinance/tixlfinance-db",
+  "version": "1.1.3",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
     "generate:token-schema": "npx typescript-json-validator scripts/schema.ts TokenInformationSchema",
     "validate": "ts-node scripts/validate.ts",
@@ -11,11 +12,13 @@
     "lint:fix": "tslint scripts/**/*.ts{,x} --fix",
     "prettier": "prettier --write scripts/**/*.ts",
     "sync": "ts-node scripts/sync.ts",
-    "push": "ts-node scripts/push.ts"
+    "push": "ts-node scripts/push.ts",
+    "scores:calculate": "ts-node scripts/calcScoresAndGenerateCsv.ts",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tixlfinance/assets.git"
+    "url": "git+https://github.com/tixlfinance/tixlfinance-db.git"
   },
   "husky": {
     "hooks": {
@@ -42,9 +45,10 @@
     "typescript": "^4.0.3"
   },
   "author": "",
-  "license": "ISC",
+  "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/tixlfinance/assets/issues"
+    "url": "https://github.com/tixlfinance/tixlfinance-db/issues"
   },
-  "homepage": "https://github.com/tixlfinance/assets#readme"
+  "homepage": "https://github.com/tixlfinance/tixlfinance-db#readme",
+  "description": "## Contribution Quick Start"
 }

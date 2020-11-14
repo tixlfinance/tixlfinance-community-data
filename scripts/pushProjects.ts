@@ -64,7 +64,7 @@ fs.readdir(directoryPath, (err, _) => {
             : "createAssetFromGithub";
 
           const mutation = gql`
-            mutation CreateAsset($data: AssetGithubInput!) {
+            mutation CreateAsset($data: AssetInput!) {
               ${mutationToUse}(data: $data) {
                 id
               }
