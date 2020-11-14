@@ -22,13 +22,13 @@ fs.readdir(directoryPath, (err, _) => {
       const dirChange = dir.split("/", 3);
       if (dir.includes("exchanges") && dir.includes("json")) {
         const filePath = directoryPath + "/" + dirChange[1] + "/info.json";
-        const logoPath = directoryPath + "/" + dirChange[1] + "/logo.png";
+        const logoPath = "/exchanges/" + dirChange[1] + "/logo.png";
         return new Promise((resolve, _) => {
           fs.readFile(filePath, "utf8", (_, data) => {
             const parsed = JSON.parse(data);
             resolve({
               ...parsed,
-              logo: logoPath,
+              logo: parsed.logo || logoPath,
               exchange_id: dirChange[1],
             });
           });
