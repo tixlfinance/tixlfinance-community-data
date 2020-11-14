@@ -24,5 +24,13 @@
     "total_supply": 21000000,
     "circulating_supply": 18534937
   },
-  "__triggerUpdate": 4
+  "tradingPairs": [
+    {
+      "base": "BTC",
+      "quote": "USDT",
+      "pairId": "binance-com_BTC_USDT",
+      "exchange": "binance.com"
+    }
+  ],
+  "__triggerUpdate": 5
 }
