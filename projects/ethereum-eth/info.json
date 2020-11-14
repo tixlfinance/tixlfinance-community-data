@@ -1,7 +1,6 @@
 {
   "name": "Ethereum",
   "symbol": "ETH",
-  "token_type": "Store of Value",
   "coingecko_id": "ethereum",
   "coin_api_id": "ETH",
   "website": "https://ethereum.org/",
