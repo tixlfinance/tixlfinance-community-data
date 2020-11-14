@@ -1,0 +1,16 @@
+{
+  "exchange_id": "pro.btcturk.com",
+  "name": "BtcTurk PRO",
+  "logo": "https://assets.coingecko.com/markets/images/223/small/BTCTurk-exchange.jpg?1536726120",
+  "coingecko_id": "btcturk",
+  "coin_api_id": "BTCTURK",
+  "website": "https://pro.btcturk.com",
+  "exchange_score": {
+    "decentralization_score": 0,
+    "regulation_score": 0,
+    "adoption_score": 2,
+    "wash_trading_score": 0,
+    "total_score": 2
+  },
+  "__triggerUpdate": 1
+}

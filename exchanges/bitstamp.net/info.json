@@ -1,0 +1,16 @@
+{
+  "exchange_id": "bitstamp.net",
+  "name": "Bitstamp",
+  "logo": "https://assets.coingecko.com/markets/images/9/small/bitstamp.jpg?1519627979",
+  "coingecko_id": "bitstamp",
+  "coin_api_id": "BITSTAMP",
+  "website": "https://bitstamp.net",
+  "exchange_score": {
+    "decentralization_score": 0,
+    "regulation_score": 0,
+    "adoption_score": 2,
+    "wash_trading_score": 0,
+    "total_score": 2
+  },
+  "__triggerUpdate": 1
+}

@@ -1,0 +1,16 @@
+{
+  "exchange_id": "coinone.co.kr",
+  "name": "Coinone",
+  "logo": "https://assets.coingecko.com/markets/images/20/small/coinone.jpg?1519639596",
+  "coingecko_id": "coinone",
+  "coin_api_id": "COINONE",
+  "website": "https://coinone.co.kr",
+  "exchange_score": {
+    "decentralization_score": 0,
+    "regulation_score": 0,
+    "adoption_score": 2,
+    "wash_trading_score": 0,
+    "total_score": 2
+  },
+  "__triggerUpdate": 1
+}
