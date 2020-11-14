@@ -37,7 +37,7 @@ fs.readdir(directoryPath, (err, dirs) => {
       });
 
       const mutation = gql`
-        mutation CrateAsset($data: [AssetGithub!]) {
+        mutation CrateAsset($data: [AssetInput!]) {
           updateOrCreateAssetFromGithub(data: { assets: $data }) {
             id
           }
