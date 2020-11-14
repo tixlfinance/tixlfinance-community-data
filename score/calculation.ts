@@ -34,7 +34,7 @@ const exchangeQualityScoreMapping = {
   green: 2,
   yellow: 1,
   red: 0,
-}
+};
 
 const SCORE_UNDEFINED = -1;
 

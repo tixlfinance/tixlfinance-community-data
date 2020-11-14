@@ -7,7 +7,7 @@ import { Headers } from "cross-fetch";
 dotenv.config();
 global.Headers = global.Headers || Headers;
 
-const directoryPath = path.join(__dirname, "./../projects");
+const directoryPath = path.join(__dirname, "./../exchanges");
 
 const changedFiles = process.argv.slice(2);
 
@@ -17,17 +17,19 @@ fs.readdir(directoryPath, (err, _) => {
   }
 
   console.log("changedFiles", JSON.stringify(changedFiles));
-  const updatedProjects = changedFiles
+  const updatedExchanges = changedFiles
     .map((dir) => {
       const dirChange = dir.split("/", 3);
-      if (dir.includes("projects") && dir.includes("json")) {
+      if (dir.includes("exchanges") && dir.includes("json")) {
         const filePath = directoryPath + "/" + dirChange[1] + "/info.json";
+        const logoPath = directoryPath + "/" + dirChange[1] + "/logo.png";
         return new Promise((resolve, _) => {
           fs.readFile(filePath, "utf8", (_, data) => {
             const parsed = JSON.parse(data);
             resolve({
               ...parsed,
-              asset_id: dirChange[1],
+              logo: logoPath,
+              exchange_id: dirChange[1],
             });
           });
         });
@@ -35,12 +37,12 @@ fs.readdir(directoryPath, (err, _) => {
     })
     .filter((file) => !!file);
 
-  if (updatedProjects.length > 0) {
-    Promise.all(updatedProjects)
-      .then(async (projects: any[]) => {
-        for (const project of projects) {
-          console.log("Processing project", JSON.stringify(project));
-          delete project.__triggerUpdate;
+  if (updatedExchanges.length > 0) {
+    Promise.all(updatedExchanges)
+      .then(async (exchanges: any[]) => {
+        for (const exchange of exchanges) {
+          console.log("Processing exchange", JSON.stringify(exchange));
+          delete exchange.__triggerUpdate;
 
           const endpoint = process.env.MAIN_API_ENDPOINT as string;
           if (!endpoint) {
@@ -52,17 +54,17 @@ fs.readdir(directoryPath, (err, _) => {
           });
 
           const existsQuery = gql`
-            query {assetByAssetId(asset_id: "${project.asset_id}") {id}}
+            query {exchangeByExchangeId(exchange_id: "${exchange.exchange_id}") {id}}
           `;
 
           const existsResponse = await graphQLClient.request(existsQuery);
-          const alreadyExists = existsResponse.assetByAssetId !== null;
+          const alreadyExists = existsResponse.exchangeByExchangeId !== null;
           const mutationToUse = alreadyExists
-            ? "updateAssetFromGithub"
-            : "createAssetFromGithub";
+            ? "updateExchangeFromGithub"
+            : "createExchangeFromGithub";
 
           const mutation = gql`
-            mutation CreateAsset($data: AssetInput!) {
+            mutation CreateExchange($data: ExchangeInput!) {
               ${mutationToUse}(data: $data) {
                 id
               }
@@ -70,7 +72,7 @@ fs.readdir(directoryPath, (err, _) => {
           `;
 
           const variables = {
-            data: project,
+            data: exchange,
           };
 
           const response = await graphQLClient.request(mutation, variables);
@@ -78,8 +80,8 @@ fs.readdir(directoryPath, (err, _) => {
             throw new Error("No response from mutation call");
           }
           console.info(
-            `${alreadyExists ? "Updated" : "Created"} project ${
-              project.asset_id
+            `${alreadyExists ? "Updated" : "Created"} exchange ${
+              exchange.exchange_id
             }`
           );
         }

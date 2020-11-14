@@ -1,0 +1,15 @@
+{
+  "exchange_id": "binance.com",
+  "name": "Binance",
+  "coingecko_id": "binance",
+  "coin_api_id": "binance",
+  "website": "https://binance.com",
+  "exchange_score": {
+    "decentralization_score": 0,
+    "regulation_score": 3,
+    "adoption_score": 5,
+    "wash_trading_score": 0,
+    "total_score": 8
+  },
+  "__triggerUpdate": 1
+}
