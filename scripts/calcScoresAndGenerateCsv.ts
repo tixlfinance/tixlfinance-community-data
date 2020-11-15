@@ -59,7 +59,10 @@ async function calcScoresAndGenerateCsv() {
       `;
 
       const assetResponse = await graphQLClient.request(assetQuery);
-      const score = calcScore(assetResponse.assetByAssetId);
+      const score = calcScore(assetResponse.assetByAssetId, {
+        socialVolumeNormalizationFactor: 4,
+        weightedSentiment: 0.4,
+      });
       console.log(
         `${assetResponse.assetByAssetId.asset_id};${score.volume_score};${score.real_liquidity_score};${score.exchanges_score};${score.supply_score};${score.sentiment_score};${score.total_score}`
       );
