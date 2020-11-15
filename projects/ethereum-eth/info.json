@@ -23,5 +23,115 @@
     "total_supply": 113306020,
     "circulating_supply": 113306020
   },
+  "trading_pairs": [
+    {
+      "base": "WBTC",
+      "quote": "ETH",
+      "pair_id": "uniswap.exchange_0xbb2b8038a1640196fbe3e38816f3e67cba72d940",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "USDC",
+      "quote": "ETH",
+      "pair_id": "uniswap.exchange_0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "USDT",
+      "quote": "ETH",
+      "pair_id": "uniswap.exchange_0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "WBTC",
+      "quote": "ETH",
+      "pair_id": "uniswap.exchange_0xbb2b8038a1640196fbe3e38816f3e67cba72d940",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "DAI",
+      "quote": "ETH",
+      "pair_id": "uniswap.exchange_0xa478c2975ab1ea89e8196811f51a7b7ade33eb11",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "UNI",
+      "quote": "ETH",
+      "pair_id": "uniswap.exchange_0xd3d2e2692501a5c9ca623199d38826e513033a17",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "POLS",
+      "quote": "ETH",
+      "pair_id": "uniswap.exchange_0xffa98a091331df4600f87c9164cd27e8a5cd2405",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "TXL",
+      "quote": "ETH",
+      "pair_id": "uniswap.exchange_0x0fdc86703c938e3e1cbc9e14f21c6bf709c13acc",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "ETH",
+      "quote": "USD",
+      "pair_id": "bitfinex.com_ETH_USD",
+      "exchange_id": "bitfinex.com"
+    },
+    {
+      "base": "ETH",
+      "quote": "USD",
+      "pair_id": "ftx.com_ETH_USD",
+      "exchange_id": "ftx.com"
+    },
+    {
+      "base": "ETH",
+      "quote": "USD",
+      "pair_id": "bitstamp.net_ETH_USD",
+      "exchange_id": "bitstamp.net"
+    },
+    {
+      "base": "ETH",
+      "quote": "USD",
+      "pair_id": "gemini.com_ETH_USD",
+      "exchange_id": "gemini.com"
+    },
+    {
+      "base": "ETH",
+      "quote": "USD",
+      "pair_id": "coinbase.com_ETH_USD",
+      "exchange_id": "coinbase.com"
+    },
+    {
+      "base": "ETH",
+      "quote": "USD",
+      "pair_id": "bittrex.com_ETH_USD",
+      "exchange_id": "bittrex.com"
+    },
+    {
+      "base": "ETH",
+      "quote": "USD",
+      "pair_id": "kraken.com_ETH_USD",
+      "exchange_id": "kraken.com"
+    },
+    {
+      "base": "ETH",
+      "quote": "USD",
+      "pair_id": "liquid.com_ETH_USD",
+      "exchange_id": "liquid.com"
+    },
+    {
+      "base": "ETH",
+      "quote": "USD",
+      "pair_id": "huobi.com_ETH_USD",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "ETH",
+      "quote": "USD",
+      "pair_id": "binance.com_ETH_USD",
+      "exchange_id": "binance.com"
+    }
+  ],
   "__triggerUpdate": 7
 }

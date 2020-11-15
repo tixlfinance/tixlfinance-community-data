@@ -17,5 +17,13 @@
     "total_supply": 100000000,
     "circulating_supply": 26461523
   },
+  "trading_pairs": [
+    {
+      "base": "POLS",
+      "quote": "ETH",
+      "pair_id": "uniswap.exchange_0xffa98a091331df4600f87c9164cd27e8a5cd2405",
+      "exchange_id": "uniswap.exchange"
+    }
+  ],
   "__triggerUpdate": 11
 }

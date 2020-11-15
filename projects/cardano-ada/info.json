@@ -18,5 +18,25 @@
     "total_supply": 45000000000,
     "circulating_supply": 31112484646
   },
+  "trading_pairs": [
+    {
+      "base": "ADA",
+      "quote": "USD",
+      "pair_id": "kraken.com_ADA_USD",
+      "exchange_id": "kraken.com"
+    },
+    {
+      "base": "ADA",
+      "quote": "USD",
+      "pair_id": "bitfinex.com_ADA_USD",
+      "exchange_id": "bitfinex.com"
+    },
+    {
+      "base": "ADA",
+      "quote": "USD",
+      "pair_id": "bittrex.com_ADA_USD",
+      "exchange_id": "bittrex.com"
+    }
+  ],
   "__triggerUpdate": 4
 }
