@@ -47,17 +47,21 @@ interface Score {
   sentiment_score: number;
 }
 
+interface SentimentData {
+  socialVolumeNormalizationFactor: number;
+  weightedSentiment: number;
+}
+
 const getSlippage = (asset: Asset, usd: number) => Math.min(
   ...asset.exchanges_data
     .filter((el) => !!el[`slippage_${usd}USD`])
     .map((el) => el[`slippage_${usd}USD`] || 1));
 
-export function calcScore(asset: Asset): Score {
+export function calcScore(asset: Asset, sentimentData: SentimentData): Score {
   let volumeScore = SCORE_UNDEFINED;
   let liquidityScore = SCORE_UNDEFINED;
   let exchangesScore = SCORE_UNDEFINED;
-  // @todo - to be implemented
-  let socialScore = 5;
+  let socialScore = SCORE_UNDEFINED;
   let supplyScore = SCORE_UNDEFINED;
 
   // the volume score is defined by
@@ -91,6 +95,20 @@ export function calcScore(asset: Asset): Score {
     if (liquidityScore < 0) {
       liquidityScore = 0;
     }
+  }
+
+  // the social score is calculated by sentiment and reach of this messages - normalized again bitcoin
+  if (sentimentData) {
+    const baseValue = SCORE_MAX_VALUE / 2;
+    const rangeFactor = baseValue / 10;
+
+    // sentiment is a value between -1 and 1
+    const sentiment = sentimentData.weightedSentiment;
+
+    // normalizationFactor is a value between 0 and 10
+    const normalizationFactor = sentimentData.socialVolumeNormalizationFactor;
+
+    socialScore = baseValue + (sentiment * normalizationFactor * rangeFactor);
   }
 
   // the supply score is determined by comparing the circulating vs the total supply
