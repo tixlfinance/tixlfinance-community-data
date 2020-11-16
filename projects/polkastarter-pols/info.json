@@ -19,11 +19,11 @@
   },
   "trading_pairs": [
     {
-      "base": "POLS",
+      "base": "0x83e6f1e41cdd28eaceb20cb649155049fac3d5aa",
       "quote": "ETH",
       "pair_id": "uniswap.exchange_0xffa98a091331df4600f87c9164cd27e8a5cd2405",
       "exchange_id": "uniswap.exchange"
     }
   ],
-  "__triggerUpdate": 11
+  "__triggerUpdate": 12
 }

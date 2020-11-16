@@ -76,8 +76,8 @@
     },
     {
       "base": "BTC",
-      "quote": "USD",
-      "pair_id": "huobi.com_BTC_USD",
+      "quote": "USDT",
+      "pair_id": "huobi.com_BTC_USDT",
       "exchange_id": "huobi.com"
     },
     {
