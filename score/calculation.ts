@@ -32,6 +32,7 @@ interface Asset {
 interface AssetExchangeData {
   exchange: Exchange;
   quality_score?: 'green' | 'yellow' | 'red';
+  slippage_100000USD?: number;
 }
 
 interface ExchangeScore {
@@ -64,6 +65,24 @@ const getSlippage = (asset: Asset, usd: number) =>
       .filter((el) => !!el[`slippage_${usd}USD`])
       .map((el) => el[`slippage_${usd}USD`] || 1)
   );
+
+const getLiquidityScoreFromSlippage = (slippage100000Usd: number) => {
+  let liquidityScore = SCORE_UNDEFINED;
+
+  if (slippage100000Usd) {
+    liquidityScore =
+      SCORE_MAX_VALUE - (slippage100000Usd || 1) * SCORE_MAX_VALUE;
+    if (liquidityScore < 0) {
+      liquidityScore = 0;
+    }
+  }
+
+  return liquidityScore;
+};
+
+export const calcLiquidityScore = (assetExchangeData: AssetExchangeData): number => {
+  return getLiquidityScoreFromSlippage(assetExchangeData.slippage_100000USD!);
+}
 
 export function calcScore(asset: Asset, sentimentData: SentimentData): Score {
   let volumeScore = SCORE_UNDEFINED;
@@ -100,12 +119,7 @@ export function calcScore(asset: Asset, sentimentData: SentimentData): Score {
     exchangesScore = exchangesScore / asset.exchanges_data.length;
 
     // now lets calculate the liquidity score according to the slippage
-    const slippage100000Usd = asset.slippage_100000USD;
-    liquidityScore =
-      SCORE_MAX_VALUE - (slippage100000Usd || 1) * SCORE_MAX_VALUE;
-    if (liquidityScore < 0) {
-      liquidityScore = 0;
-    }
+    liquidityScore = getLiquidityScoreFromSlippage(asset.slippage_100000USD);
   }
 
   // the social score is calculated by sentiment and reach of this messages - normalized again bitcoin
