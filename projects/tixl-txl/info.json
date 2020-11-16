@@ -1,7 +1,6 @@
 {
   "name": "Tixl",
   "symbol": "TXL",
-  "token_type": "Utility",
   "coingecko_id": "tixl-new",
   "coin_api_id": "TXL",
   "website": "https://tixl.me",
@@ -47,5 +46,5 @@
       "exchange_id": "uniswap.exchange"
     }
   ],
-  "__triggerUpdate": 5
+  "__triggerUpdate": 6
 }
