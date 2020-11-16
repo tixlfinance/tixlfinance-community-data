@@ -3,6 +3,7 @@
   "symbol": "ETH",
   "coingecko_id": "ethereum",
   "coin_api_id": "ETH",
+  "uniswap_id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
   "website": "https://ethereum.org/",
   "source_code": "https://github.com/ethereum",
   "white_paper": "https://github.com/ethereum/wiki/wiki/White-Paper",
