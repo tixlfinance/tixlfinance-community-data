@@ -61,8 +61,8 @@
     },
     {
       "base": "XRP",
-      "quote": "USD",
-      "pair_id": "huobi.com_XRP_USD",
+      "quote": "USDT",
+      "pair_id": "huobi.com_XRP_USDT",
       "exchange_id": "huobi.com"
     },
     {

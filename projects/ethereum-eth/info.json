@@ -122,8 +122,8 @@
     },
     {
       "base": "ETH",
-      "quote": "USD",
-      "pair_id": "huobi.com_ETH_USD",
+      "quote": "USDT",
+      "pair_id": "huobi.com_ETH_USDT",
       "exchange_id": "huobi.com"
     },
     {
