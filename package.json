@@ -6,8 +6,9 @@
   "scripts": {
     "build": "tsc",
     "test": "echo \"We don't have tests yet.\" && exit 0",
-    "generate:token-schema": "npx typescript-json-validator scripts/schema.ts TokenInformationSchema",
-    "validate": "ts-node scripts/validate.ts",
+    "generate:schema:project": "npx typescript-json-validator scripts/schemas/project.schema.ts ProjectSchema",
+    "generate:schema:exchange": "npx typescript-json-validator scripts/schemas/exchange.schema.ts ExchangeSchema",
+    "validate": "ts-node scripts/validate.ts projects && ts-node scripts/validate.ts exchanges",
     "lint": "tslint scripts/**/*.ts{,x}",
     "lint:fix": "tslint scripts/**/*.ts{,x} --fix",
     "prettier": "prettier --write scripts/**/*.ts",
