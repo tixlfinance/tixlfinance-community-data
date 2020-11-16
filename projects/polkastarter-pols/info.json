@@ -3,6 +3,7 @@
   "symbol": "POLS",
   "coingecko_id": "polkastarter",
   "coin_api_id": "POLS",
+  "uniswap_id": "0x83e6f1e41cdd28eaceb20cb649155049fac3d5aa",
   "website": "https://www.polkastarter.com/",
   "socials": [
     {
