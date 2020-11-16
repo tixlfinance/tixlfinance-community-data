@@ -28,8 +28,62 @@
   "trading_pairs": [
     {
       "base": "BTC",
-      "quote": "USDT",
-      "pair_id": "binance.com_BTC_USDT",
+      "quote": "USD",
+      "pair_id": "bitfinex.com_BTC_USD",
+      "exchange_id": "bitfinex.com"
+    },
+    {
+      "base": "BTC",
+      "quote": "USD",
+      "pair_id": "ftx.com_BTC_USD",
+      "exchange_id": "ftx.com"
+    },
+    {
+      "base": "BTC",
+      "quote": "USD",
+      "pair_id": "bitstamp.net_BTC_USD",
+      "exchange_id": "bitstamp.net"
+    },
+    {
+      "base": "BTC",
+      "quote": "USD",
+      "pair_id": "gemini.com_BTC_USD",
+      "exchange_id": "gemini.com"
+    },
+    {
+      "base": "BTC",
+      "quote": "USD",
+      "pair_id": "coinbase.com_BTC_USD",
+      "exchange_id": "coinbase.com"
+    },
+    {
+      "base": "BTC",
+      "quote": "USD",
+      "pair_id": "bittrex.com_BTC_USD",
+      "exchange_id": "bittrex.com"
+    },
+    {
+      "base": "BTC",
+      "quote": "USD",
+      "pair_id": "kraken.com_BTC_USD",
+      "exchange_id": "kraken.com"
+    },
+    {
+      "base": "BTC",
+      "quote": "USD",
+      "pair_id": "liquid.com_BTC_USD",
+      "exchange_id": "liquid.com"
+    },
+    {
+      "base": "BTC",
+      "quote": "USD",
+      "pair_id": "huobi.com_BTC_USD",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "BTC",
+      "quote": "USD",
+      "pair_id": "binance.com_BTC_USD",
       "exchange_id": "binance.com"
     }
   ],

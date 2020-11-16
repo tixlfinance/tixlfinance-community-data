@@ -39,5 +39,13 @@
     "total_supply": 899994670,
     "circulating_supply": 58594704
   },
+  "trading_pairs": [
+    {
+      "base": "TXL",
+      "quote": "ETH",
+      "pair_id": "uniswap.exchange_0x0fdc86703c938e3e1cbc9e14f21c6bf709c13acc",
+      "exchange_id": "uniswap.exchange"
+    }
+  ],
   "__triggerUpdate": 5
 }
