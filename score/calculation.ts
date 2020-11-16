@@ -1,5 +1,7 @@
 // trigger action comment 3
 
+import { assertType } from 'graphql';
+
 // const to play around with
 const FACTOR_VOLUME = 1;
 const FACTOR_LIQUIDITY = 2;
@@ -21,6 +23,10 @@ interface Asset {
   tokenomics: Tokenomics;
   market_cap_usd?: number;
   volume_24h_usd?: number;
+  slippage_100USD: number;
+  slippage_1000USD: number;
+  slippage_10000USD: number;
+  slippage_100000USD: number;
 }
 
 interface AssetExchangeData {
@@ -52,10 +58,12 @@ interface SentimentData {
   weightedSentiment: number;
 }
 
-const getSlippage = (asset: Asset, usd: number) => Math.min(
-  ...asset.exchanges_data
-    .filter((el) => !!el[`slippage_${usd}USD`])
-    .map((el) => el[`slippage_${usd}USD`] || 1));
+const getSlippage = (asset: Asset, usd: number) =>
+  Math.min(
+    ...asset.exchanges_data
+      .filter((el) => !!el[`slippage_${usd}USD`])
+      .map((el) => el[`slippage_${usd}USD`] || 1)
+  );
 
 export function calcScore(asset: Asset, sentimentData: SentimentData): Score {
   let volumeScore = SCORE_UNDEFINED;
@@ -79,19 +87,22 @@ export function calcScore(asset: Asset, sentimentData: SentimentData): Score {
     // calculate the exchange score according to the quality of exchanges a project is listed on
     exchangesScore = 0;
     asset.exchanges_data
-      .map(exchangeData => {
-        exchangeData.exchange.quality_score = exchangeData.exchange?.exchange_score?.total_score || exchangeData.exchange.coingecko_trust_score;
+      .map((exchangeData) => {
+        exchangeData.exchange.quality_score =
+          exchangeData.exchange?.exchange_score?.total_score ||
+          exchangeData.exchange.coingecko_trust_score;
         return exchangeData;
       })
-      .filter(exchangeData => !!exchangeData.exchange.quality_score)
+      .filter((exchangeData) => !!exchangeData.exchange.quality_score)
       .forEach((exchangeData: AssetExchangeData) => {
         exchangesScore += exchangeData.exchange.quality_score!;
       });
     exchangesScore = exchangesScore / asset.exchanges_data.length;
 
     // now lets calculate the liquidity score according to the slippage
-    const slippage100000Usd = getSlippage(asset, 100000);
-    liquidityScore = SCORE_MAX_VALUE - (slippage100000Usd || 1) * SCORE_MAX_VALUE;
+    const slippage100000Usd = asset.slippage_100000USD;
+    liquidityScore =
+      SCORE_MAX_VALUE - (slippage100000Usd || 1) * SCORE_MAX_VALUE;
     if (liquidityScore < 0) {
       liquidityScore = 0;
     }
@@ -108,23 +119,29 @@ export function calcScore(asset: Asset, sentimentData: SentimentData): Score {
     // normalizationFactor is a value between 0 and 10
     const normalizationFactor = sentimentData.socialVolumeNormalizationFactor;
 
-    socialScore = baseValue + (sentiment * normalizationFactor * rangeFactor);
+    socialScore = baseValue + sentiment * normalizationFactor * rangeFactor;
   }
 
   // the supply score is determined by comparing the circulating vs the total supply
   if (asset.tokenomics?.circulating_supply && asset.tokenomics?.total_supply) {
-    supplyScore = (asset.tokenomics?.circulating_supply / asset.tokenomics?.total_supply) * SCORE_MAX_VALUE;
+    supplyScore =
+      (asset.tokenomics?.circulating_supply / asset.tokenomics?.total_supply) *
+      SCORE_MAX_VALUE;
   }
 
-  const factorSum = FACTOR_VOLUME + FACTOR_LIQUIDITY + FACTOR_EXCHANGES + FACTOR_SUPPLY + FACTOR_SOCIAL;
+  const factorSum =
+    FACTOR_VOLUME +
+    FACTOR_LIQUIDITY +
+    FACTOR_EXCHANGES +
+    FACTOR_SUPPLY +
+    FACTOR_SOCIAL;
   const totalScore =
-    (
-      FACTOR_VOLUME * volumeScore
-      + FACTOR_LIQUIDITY * liquidityScore
-      + FACTOR_EXCHANGES * exchangesScore
-      + FACTOR_SUPPLY * supplyScore
-      + FACTOR_SOCIAL * socialScore
-    ) / factorSum;
+    (FACTOR_VOLUME * volumeScore +
+      FACTOR_LIQUIDITY * liquidityScore +
+      FACTOR_EXCHANGES * exchangesScore +
+      FACTOR_SUPPLY * supplyScore +
+      FACTOR_SOCIAL * socialScore) /
+    factorSum;
 
   return {
     total_score: totalScore,
