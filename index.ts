@@ -1,3 +1,3 @@
-import { calcScore } from './score/calculation';
+import { calcScore, calcLiquidityScore } from './score/calculation';
 
-export { calcScore };
+export { calcScore, calcLiquidityScore };
