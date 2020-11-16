@@ -7,7 +7,7 @@ const FACTOR_EXCHANGES = 1;
 const FACTOR_SUPPLY = 1;
 const FACTOR_SOCIAL = 2;
 
-const SCORE_UNDEFINED = -1;
+const SCORE_UNDEFINED = 0;
 const SCORE_MAX_VALUE = 100;
 
 interface Tokenomics {
@@ -126,12 +126,13 @@ export function calcScore(asset: Asset, sentimentData: SentimentData): Score {
       + FACTOR_SOCIAL * socialScore
     ) / factorSum;
 
+  // use Math.round(value * 100) / 100 to ensure 2 decimals
   return {
-    total_score: totalScore,
-    volume_score: volumeScore,
-    real_liquidity_score: liquidityScore,
-    exchanges_score: exchangesScore,
-    supply_score: supplyScore,
-    sentiment_score: socialScore,
+    total_score: Math.round(totalScore * 100) / 100,
+    volume_score: Math.round(volumeScore * 100) / 100,
+    real_liquidity_score: Math.round(liquidityScore * 100) / 100,
+    exchanges_score: Math.round(exchangesScore * 100) / 100,
+    supply_score: Math.round(supplyScore * 100) / 100,
+    sentiment_score: Math.round(socialScore * 100) / 100,
   };
 }
