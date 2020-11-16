@@ -1,0 +1,16 @@
+{
+  "exchange_id": "ftx.com",
+  "name": "FTX",
+  "logo": "https://assets.coingecko.com/markets/images/451/small/FTX-exchange.png?1564414329",
+  "coingecko_id": "ftx_spot",
+  "coin_api_id": "FTX",
+  "website": "https://ftx.com",
+  "exchange_score": {
+    "decentralization_score": 0,
+    "regulation_score": 0,
+    "adoption_score": 2,
+    "wash_trading_score": 0,
+    "total_score": 2
+  },
+  "__triggerUpdate": 1
+}

@@ -1,0 +1,16 @@
+{
+  "exchange_id": "kucoin.com",
+  "name": "KuCoin",
+  "logo": "https://assets.coingecko.com/markets/images/61/small/kucoin.jpg?1591610627",
+  "coingecko_id": "kucoin",
+  "coin_api_id": "KUCOIN",
+  "website": "https://kucoin.com",
+  "exchange_score": {
+    "decentralization_score": 0,
+    "regulation_score": 0,
+    "adoption_score": 2,
+    "wash_trading_score": 0,
+    "total_score": 2
+  },
+  "__triggerUpdate": 1
+}

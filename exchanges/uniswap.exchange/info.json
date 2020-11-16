@@ -1,0 +1,16 @@
+{
+  "exchange_id": "uniswap.exchange",
+  "name": "Uniswap (v2)",
+  "logo": "https://assets.coingecko.com/markets/images/535/small/256x256_Black-1.png?1590893262",
+  "coingecko_id": "uniswap",
+  "coin_api_id": "",
+  "website": "https://uniswap.exchange",
+  "exchange_score": {
+    "decentralization_score": 0,
+    "regulation_score": 0,
+    "adoption_score": 2,
+    "wash_trading_score": 0,
+    "total_score": 2
+  },
+  "__triggerUpdate": 1
+}

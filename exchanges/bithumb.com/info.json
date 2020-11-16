@@ -1,0 +1,16 @@
+{
+  "exchange_id": "bithumb.com",
+  "name": "Bithumb",
+  "logo": "https://assets.coingecko.com/markets/images/6/small/bithumb_BI.png?1573104549",
+  "coingecko_id": "bithumb",
+  "coin_api_id": "BITHUMB",
+  "website": "https://bithumb.com",
+  "exchange_score": {
+    "decentralization_score": 0,
+    "regulation_score": 0,
+    "adoption_score": 2,
+    "wash_trading_score": 0,
+    "total_score": 2
+  },
+  "__triggerUpdate": 1
+}

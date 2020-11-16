@@ -1,0 +1,16 @@
+{
+  "exchange_id": "gate.io",
+  "name": "Gate.io",
+  "logo": "https://assets.coingecko.com/markets/images/60/small/gateio.jpg?1519793974",
+  "coingecko_id": "gate",
+  "coin_api_id": "GATEIO",
+  "website": "https://gate.io",
+  "exchange_score": {
+    "decentralization_score": 0,
+    "regulation_score": 0,
+    "adoption_score": 2,
+    "wash_trading_score": 0,
+    "total_score": 2
+  },
+  "__triggerUpdate": 1
+}

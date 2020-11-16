@@ -1,8 +1,9 @@
 {
   "exchange_id": "binance.com",
   "name": "Binance",
+  "logo": "https://assets.coingecko.com/markets/images/52/small/binance.jpg?1519353250",
   "coingecko_id": "binance",
-  "coin_api_id": "binance",
+  "coin_api_id": "BINANCE",
   "website": "https://binance.com",
   "exchange_score": {
     "decentralization_score": 0,
@@ -11,5 +12,5 @@
     "wash_trading_score": 0,
     "total_score": 8
   },
-  "__triggerUpdate": 5
+  "__triggerUpdate": 6
 }

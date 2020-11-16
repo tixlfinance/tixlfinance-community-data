@@ -1,0 +1,16 @@
+{
+  "exchange_id": "poloniex.com",
+  "name": "Poloniex",
+  "logo": "https://assets.coingecko.com/markets/images/37/small/poloniex.jpg?1519639007",
+  "coingecko_id": "poloniex",
+  "coin_api_id": "POLONIEX",
+  "website": "https://poloniex.com",
+  "exchange_score": {
+    "decentralization_score": 0,
+    "regulation_score": 0,
+    "adoption_score": 2,
+    "wash_trading_score": 0,
+    "total_score": 2
+  },
+  "__triggerUpdate": 1
+}
