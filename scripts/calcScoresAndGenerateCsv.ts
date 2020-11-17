@@ -44,7 +44,9 @@ async function calcScoresAndGenerateCsv() {
             pair,
             exchange {
               _id,
-              coingecko_trust_score
+              exchange_score {
+                total_score
+              }  
             },
             slippage_100000USD
           }, 

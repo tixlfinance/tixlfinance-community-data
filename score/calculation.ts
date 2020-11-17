@@ -106,15 +106,9 @@ export function calcScore(asset: Asset, sentimentData: SentimentData): Score {
     // calculate the exchange score according to the quality of exchanges a project is listed on
     exchangesScore = 0;
     asset.exchanges_data
-      .map((exchangeData) => {
-        exchangeData.exchange.quality_score =
-          exchangeData.exchange?.exchange_score?.total_score ||
-          exchangeData.exchange.coingecko_trust_score;
-        return exchangeData;
-      })
-      .filter((exchangeData) => !!exchangeData.exchange.quality_score)
+      .filter((exchangeData) => !!exchangeData?.exchange?.exchange_score?.total_score)
       .forEach((exchangeData: AssetExchangeData) => {
-        exchangesScore += exchangeData.exchange.quality_score!;
+        exchangesScore += exchangeData.exchange?.exchange_score?.total_score!;
       });
     exchangesScore = exchangesScore / asset.exchanges_data.length;
 
