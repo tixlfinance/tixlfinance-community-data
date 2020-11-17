@@ -1,3 +1,5 @@
+name: Publish latest version on npm
+
 on: push
 
 jobs:
