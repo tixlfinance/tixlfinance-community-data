@@ -110,7 +110,6 @@ export function calcScore(asset: Asset, sentimentData: SentimentData): Score {
     asset.exchanges_data
       .filter((exchangeData) => !!exchangeData?.exchange?.exchange_score?.total_score)
       .forEach((exchangeData: AssetExchangeData) => {
-        console.log('# forEach', exchangeData.quality_score);
         exchangesScore += exchangeData.exchange?.exchange_score?.total_score!;
       });
     exchangesScore = exchangesScore / asset.exchanges_data.length;
