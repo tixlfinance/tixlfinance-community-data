@@ -91,8 +91,6 @@ export function calcScore(asset: Asset, sentimentData: SentimentData): Score {
   let socialScore = SCORE_UNDEFINED;
   let supplyScore = SCORE_UNDEFINED;
 
-  console.log('calc for', asset.asset_id);
-
   // the volume score is defined by
   if (asset.market_cap_usd && asset.volume_24h_usd) {
     let volumeScoreRatio = asset.volume_24h_usd / asset.market_cap_usd;
@@ -113,7 +111,6 @@ export function calcScore(asset: Asset, sentimentData: SentimentData): Score {
         exchangesScore += exchangeData.exchange?.exchange_score?.total_score!;
       });
     exchangesScore = exchangesScore / asset.exchanges_data.length;
-    console.log('exchangesScore', exchangesScore);
 
     // now lets calculate the liquidity score according to the slippage
     liquidityScore = getLiquidityScoreFromSlippage(asset.slippage_100000USD);
