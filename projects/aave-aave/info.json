@@ -15,9 +15,9 @@
   },
   "trading_pairs": [
     {
-      "base": "BTC",
+      "base": "AAVE",
       "quote": "USDT",
-      "pair_id": "BTC_USDT",
+      "pair_id": "AAVE_USDT",
       "exchange_id": "binance.com"
     }
   ]
