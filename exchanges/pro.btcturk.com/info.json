@@ -8,9 +8,9 @@
   "exchange_score": {
     "decentralization_score": 0,
     "regulation_score": 0,
-    "adoption_score": 2,
+    "adoption_score": 10,
     "wash_trading_score": 0,
-    "total_score": 2
+    "total_score": 10
   },
   "__triggerUpdate": 1
 }

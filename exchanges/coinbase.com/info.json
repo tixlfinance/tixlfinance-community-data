@@ -7,10 +7,10 @@
   "website": "https://coinbase.com",
   "exchange_score": {
     "decentralization_score": 0,
-    "regulation_score": 0,
-    "adoption_score": 2,
+    "regulation_score": 20,
+    "adoption_score": 40,
     "wash_trading_score": 0,
-    "total_score": 2
+    "total_score": 60
   },
   "__triggerUpdate": 1
 }
