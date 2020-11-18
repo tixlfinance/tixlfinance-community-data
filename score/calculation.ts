@@ -70,13 +70,12 @@ const getSlippage = (asset: Asset, usd: number) =>
 const getLiquidityScoreFromSlippage = (slippage10000Usd: number, slippage100000Usd: number) => {
   let liquidityScore = SCORE_UNDEFINED;
 
-  if (slippage10000Usd && slippage100000Usd) {
-    const slippageFactor = slippage10000Usd + 1.5 * slippage100000Usd;
-    liquidityScore =
-      SCORE_MAX_VALUE - (slippageFactor || 1) * SCORE_MAX_VALUE;
-    if (liquidityScore < 0) {
-      liquidityScore = 0;
-    }
+  const slippageFactor = (slippage10000Usd || 0.25) + 1.5 * (slippage100000Usd || 0.5);
+  liquidityScore =
+    SCORE_MAX_VALUE - (slippageFactor || 1) * SCORE_MAX_VALUE;
+
+  if (liquidityScore < 0) {
+    liquidityScore = 0;
   }
 
   return liquidityScore;
