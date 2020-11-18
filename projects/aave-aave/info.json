@@ -2,6 +2,8 @@
   "name": "Aave",
   "symbol": "AAVE",
   "website": "https://aave.com/",
+  "coingecko_id": "aave",
+  "coin_api_id": "AAVE",
   "socials": [
     {
       "name": "Twitter",
