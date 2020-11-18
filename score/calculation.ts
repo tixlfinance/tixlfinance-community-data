@@ -67,12 +67,15 @@ const getSlippage = (asset: Asset, usd: number) =>
       .map((el) => el[`slippage_${usd}USD`] || 1)
   );
 
-const getLiquidityScoreFromSlippage = (slippage10000Usd: number, slippage100000Usd: number) => {
+const getLiquidityScoreFromSlippage = (
+  slippage10000Usd: number,
+  slippage100000Usd: number
+) => {
   let liquidityScore = SCORE_UNDEFINED;
 
-  const slippageFactor = (slippage10000Usd || 0.25) + 1.5 * (slippage100000Usd || 0.5);
-  liquidityScore =
-    SCORE_MAX_VALUE - (slippageFactor || 1) * SCORE_MAX_VALUE;
+  const slippageFactor =
+    (slippage10000Usd ?? 0.25) + 1.5 * (slippage100000Usd ?? 0.5);
+  liquidityScore = SCORE_MAX_VALUE - (slippageFactor ?? 1) * SCORE_MAX_VALUE;
 
   if (liquidityScore < 0) {
     liquidityScore = 0;
@@ -81,12 +84,14 @@ const getLiquidityScoreFromSlippage = (slippage10000Usd: number, slippage100000U
   return liquidityScore;
 };
 
-export const calcLiquidityScore = (assetExchangeData: AssetExchangeData): number => {
+export const calcLiquidityScore = (
+  assetExchangeData: AssetExchangeData
+): number => {
   return getLiquidityScoreFromSlippage(
     assetExchangeData.slippage_10000USD!,
     assetExchangeData.slippage_100000USD!
   );
-}
+};
 
 export function calcScore(asset: Asset, sentimentData: SentimentData): Score {
   let volumeScore = SCORE_UNDEFINED;
@@ -110,14 +115,19 @@ export function calcScore(asset: Asset, sentimentData: SentimentData): Score {
     // calculate the exchange score according to the quality of exchanges a project is listed on
     exchangesScore = 0;
     asset.exchanges_data
-      .filter((exchangeData) => !!exchangeData?.exchange?.exchange_score?.total_score)
+      .filter(
+        (exchangeData) => !!exchangeData?.exchange?.exchange_score?.total_score
+      )
       .forEach((exchangeData: AssetExchangeData) => {
         exchangesScore += exchangeData.exchange?.exchange_score?.total_score!;
       });
     exchangesScore = exchangesScore / asset.exchanges_data.length;
 
     // now lets calculate the liquidity score according to the slippage
-    liquidityScore = getLiquidityScoreFromSlippage(asset.slippage_10000USD, asset.slippage_100000USD);
+    liquidityScore = getLiquidityScoreFromSlippage(
+      asset.slippage_10000USD,
+      asset.slippage_100000USD
+    );
   }
 
   // the social score is calculated by sentiment and reach of this messages - normalized again bitcoin
