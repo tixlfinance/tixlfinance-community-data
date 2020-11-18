@@ -1,21 +1,38 @@
 import fs from "fs";
 import path from "path";
-import validate from "./schema.validator";
+import validateProject from './schemas/project.schema.validator';
+import validateExchange from './schemas/exchange.schema.validator';
 
-const directoryPath = path.join(__dirname, "./../projects");
+// should be "projects" or "exchanges"
+const type = process.argv[2];
+if (!['projects', 'exchanges'].includes(type)) {
+  throw new Error('Unsupported type');
+}
+
+const validateFunctions = {
+  exchanges: validateExchange,
+  projects: validateProject,
+}
+
+const directoryPath = path.join(__dirname, `./../${type}`);
 let isError = false;
 
-fs.readdir(directoryPath, (err, dirs) => {
+fs.readdir(directoryPath, (err, dirsAndFiles) => {
   if (err) {
     return console.log("Unable to scan directory: " + err);
   }
+
+  const dirs = dirsAndFiles.filter(dirOrFile => {
+    return fs.lstatSync(`${directoryPath}/${dirOrFile}`).isDirectory();
+  })
+
   const validatedValues = dirs.map((subDirs) => {
     const filePath = directoryPath + "/" + subDirs + "/info.json";
     return new Promise((resolve, _) => {
       fs.readFile(filePath, "utf8", (err, data) => {
         if (err) throw err;
         try {
-          if (validate(JSON.parse(data))) {
+          if (validateFunctions[type](JSON.parse(data))) {
             resolve(`Successfully validated: ${filePath}`);
           }
         } catch (err) {

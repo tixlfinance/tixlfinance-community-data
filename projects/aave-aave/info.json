@@ -1,0 +1,24 @@
+{
+  "name": "Aave",
+  "symbol": "AAVE",
+  "website": "https://aave.com/",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/AaveAave"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 16000000,
+    "total_supply": 16000000,
+    "circulating_supply": 11756466
+  },
+  "trading_pairs": [
+    {
+      "base": "AAVE",
+      "quote": "USDT",
+      "pair_id": "AAVE_USDT",
+      "exchange_id": "binance.com"
+    }
+  ]
+}
