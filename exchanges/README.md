@@ -3,29 +3,29 @@
 ## Exchange Score Documentation
 
 - Decentralization
-  - 5: Fully decentralized (no centralized dependencies e.g. Infura)
-  - 4: Almost fully decentralized (no custody, exchange trough decentralized protocol)
-  - 2: Semi-decentralized
+  - 50: Fully decentralized (no centralized dependencies e.g. Infura)
+  - 40: Almost fully decentralized (no custody, exchange trough decentralized protocol)
+  - 20: Semi-decentralized
   - 0: Centralized
 
 - Regulated Exchange
-  - 5: Licence in top tier countries (US, Western Europe)
-  - 3: Licence in another country (Malta, Georgia, Asia)
-  - 2: Licence in low reputation country
+  - 50: Licence in top tier countries (US, Western Europe)
+  - 30: Licence in another country (Malta, Georgia, Asia)
+  - 20: Licence in low reputation country
   - 0: no licence
 
 - Adoption
-  - 5: 5 star crypto exchange
-  - 4: 4 star crypto exchange
-  - 3: 3 star crypto exchange
-  - 2: 2 star crypto exchange
-  - 1: 1 star crypto exchange
+  - 50: 5 star crypto exchange
+  - 40: 4 star crypto exchange
+  - 30: 3 star crypto exchange
+  - 20: 2 star crypto exchange
+  - 10: 1 star crypto exchange
   - 0: 0 star crypto exchange
   
 - Wash Trading Score
-  - 3: Almost only wash trading. A lot of volume but bad liquidity.
-  - 2: Medium fake volume.
-  - 1: Some trading bots, but pretty good liquidity as well.
+  - 30: Almost only wash trading. A lot of volume but bad liquidity.
+  - 20: Medium fake volume.
+  - 10: Some trading bots, but pretty good liquidity as well.
   - 0: Only real volume  
 
 - Total Score
