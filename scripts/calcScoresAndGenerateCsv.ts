@@ -67,9 +67,14 @@ async function calcScoresAndGenerateCsv() {
           weightedSentiment
         }}
       `;
-      const sentimentDataResponse = await graphQLClient.request(sentimentDataQuery);
+      const sentimentDataResponse = await graphQLClient.request(
+        sentimentDataQuery
+      );
 
-      const score = calcScore(assetResponse.assetByAssetId, sentimentDataResponse.tixlScoreSentimentInputDataByAssetId);
+      const score = calcScore(
+        assetResponse.assetByAssetId,
+        sentimentDataResponse.tixlScoreSentimentInputDataByAssetId
+      );
       console.log(
         `${assetResponse.assetByAssetId.asset_id};${score.volume_score};${score.real_liquidity_score};${score.exchanges_score};${score.supply_score};${score.sentiment_score};${score.total_score}`
       );
