@@ -37,7 +37,7 @@ async function calcScoresAndGenerateCsv() {
       }
 
       const assetQuery = gql`
-        query {assetByAssetId(asset_id: "${dirName}") {
+        query { assetByAssetId(asset_id: "${dirName}") {
           asset_id,
           exchanges_data {
             _id,
@@ -59,12 +59,17 @@ async function calcScoresAndGenerateCsv() {
           volume_24h_usd
         }}
       `;
-
       const assetResponse = await graphQLClient.request(assetQuery);
-      const score = calcScore(assetResponse.assetByAssetId, {
-        socialVolumeNormalizationFactor: 4,
-        weightedSentiment: 0.4,
-      });
+
+      const sentimentDataQuery = gql`
+        query { tixlScoreSentimentInputDataByAssetId(asset_id: "${dirName}") {
+          socialVolumeNormalizationFactor,
+          weightedSentiment
+        }}
+      `;
+      const sentimentDataResponse = await graphQLClient.request(sentimentDataQuery);
+
+      const score = calcScore(assetResponse.assetByAssetId, sentimentDataResponse.tixlScoreSentimentInputDataByAssetId);
       console.log(
         `${assetResponse.assetByAssetId.asset_id};${score.volume_score};${score.real_liquidity_score};${score.exchanges_score};${score.supply_score};${score.sentiment_score};${score.total_score}`
       );
