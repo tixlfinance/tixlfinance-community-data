@@ -47,8 +47,7 @@ async function calcScoresAndGenerateCsv() {
               exchange_score {
                 total_score
               }  
-            },
-            slippage_100000USD
+            }
           }, 
           id,
           market_cap_usd,
@@ -56,7 +55,9 @@ async function calcScoresAndGenerateCsv() {
             circulating_supply,
             total_supply
           },
-          volume_24h_usd
+          volume_24h_usd,
+          slippage_10000USD,
+          slippage_100000USD
         }}
       `;
       const assetResponse = await graphQLClient.request(assetQuery);

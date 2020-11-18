@@ -102,7 +102,7 @@ export function calcScore(asset: Asset, sentimentData: SentimentData): Score {
 
   // the volume score is defined by
   if (asset.market_cap_usd && asset.volume_24h_usd) {
-    let volumeScoreRatio = asset.volume_24h_usd / asset.market_cap_usd;
+    let volumeScoreRatio = (asset.volume_24h_usd / asset.market_cap_usd) * 100;
 
     if (volumeScoreRatio > 1) {
       volumeScoreRatio = 1;
