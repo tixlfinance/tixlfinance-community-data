@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
-import validateProject from './schemas/project.schema.validator';
-import validateExchange from './schemas/exchange.schema.validator';
+import validateProject from '../projects/0-schema/project.schema.validator';
+import validateExchange from '../exchanges/0-schema/exchange.schema.validator';
 
 // should be "projects" or "exchanges"
 const type = process.argv[2];
@@ -23,7 +23,7 @@ fs.readdir(directoryPath, (err, dirsAndFiles) => {
   }
 
   const dirs = dirsAndFiles.filter(dirOrFile => {
-    return fs.lstatSync(`${directoryPath}/${dirOrFile}`).isDirectory();
+    return fs.lstatSync(`${directoryPath}/${dirOrFile}`).isDirectory() && !dirOrFile.startsWith('0-');
   })
 
   const validatedValues = dirs.map((subDirs) => {

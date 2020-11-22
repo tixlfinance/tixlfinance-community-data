@@ -1,31 +1,20 @@
-# Tixl Finance Projects Info
+# Tixl Finance Community Data
 
-## Contribution Quick Start
+In this repository, you'll find all the data listed on the Tixl Finance platform. It's our approach, to be completely transparent about listed projects and exchanges. We'd like to encourage everyone to add new projects, to request exchange re-ratings or to optimize the Tixl Score calculation.
 
-Details of the repository structure and contribution guidelines are listed on the
-[Developers site](https://developer.tixl.finance/start).
-Here is a quick starter summary for the most common use case.
+## Who decides about pull requests?
 
-For **adding an ERC20 token**:
-- fork the Github repository
-- add/update the project file named `info.json` to the folder `projects/<projectname>-<symbol>`,
-where the last part is the token contract address for Smart contract based projects in  
-[_checksum format_](https://developer.trustwallet.com/add_new_asset#checksum_format)
-such as
-`projects/tixl-txl/info.json`.
-- Create a PR to the main repo
-- Pay the processing fee
+Right now, the Tixl organization will moderate and decide whether a pull request is merged or not. That means that in the eary stages, the transparency of the platform is it's core benefit and not a decentralized management/governance. 
 
-## Documentation
+Later on, the goal is to hand over the governance to the community. Potentially, the TXL token will act as a governance token in that case.
 
-For details, see the [Developers site](https://developer.tixl.finance/start):
+## How can you collaborate?
 
-- [Contribution guidelines](https://developer.tixl.finance/start#contribution-guidelines)
-
-- [Repository details](https://developer.tixl.finance/start#repository-details)
+- [Add or update project information](projects/README.md)
+- [Add or update exchange information, ratings or adapters](exchanges/README.md)
+- [Request a change in the score calculation](score/README.md)
 
 ## Disclaimer
-Tixl Finance team allows anyone to submit new projects to this repository. However, this does not mean that we are in direct partnership with all of the projects.
 
-Tixl Finance team will reject projects that are deemed as scam or fraudulent after careful review.
-Tixl Finance team reserves the right to change the terms of project submissions at any time due to changing market conditions, risk of fraud, or any other factors we deem relevant.
+The Tixl Finance team does not guarantee that all information in this repository is correct.
+

@@ -1,6 +1,18 @@
-# Tixl Finance Exchanges Info
+# Collaborate by adding or updating exchange information
+
+## How to add an exchange?
+
+1. Fork the repository and create a branch named `add-<exchange-domain>`. For example, a branch for adding Binance should be named `binance.com`.
+
+2. To add a new exchange, add a sub-folder below `/exchanges`. The folder should be named by using the domain of the exchange. Examples: `binance.com` or `coinbase.com`.
+
+3. In that directory, create a file named `info.json`. The file should be structured like the schema defined in [this schema](./0-schema/exchange.schema.ts).
+
+4. Optionally, add a logo of the exchange in PNG format and with the name `logo.png` to the directory next to the `info.json` file. 
 
 ## Exchange Score Documentation
+
+The exchange score is calculated by using different factors. It is a subjective but transparent rating.
 
 - Decentralization
   - 50: Fully decentralized (no centralized dependencies e.g. Infura)
@@ -31,9 +43,3 @@
 - Total Score
 
 Sum of the previous values minus wash_trading_score. The total score has a maximum of 10.
-
-## Disclaimer
-Tixl Finance team allows anyone to submit new exchanges to this repository. However, this does not mean that we are in direct partnership with all of the exchanges.
-
-Tixl Finance team will reject exchanges that are deemed as scam or fraudulent after careful review.
-Tixl Finance team reserves the right to change the terms of exchange submissions at any time due to changing market conditions, risk of fraud, or any other factors we deem relevant.
