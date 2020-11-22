@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 import { Headers } from "cross-fetch";
 import { GraphQLClient, gql } from "graphql-request";
 import path from "path";
-import { calcScore } from "../score/calculation";
+import { calcScore } from "../calculation";
 
 dotenv.config();
 global.Headers = global.Headers || Headers;
