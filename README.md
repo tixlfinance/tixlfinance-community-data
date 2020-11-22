@@ -4,7 +4,7 @@ In this repository, you'll find all the data listed on the Tixl Finance platform
 
 ## Who decides about pull requests?
 
-Right now, the Tixl organization will moderate and decide whether a pull request is merged or not. That means that in the eary stages, the transparency of the platform is it's core benefit and not a decentralized management/governance. 
+Right now, the Tixl organization will moderate and decide whether a pull request is merged or not. That means that in the early stages, the transparency of the platform is it's core benefit and not a decentralized management/governance.
 
 Later on, the goal is to hand over the governance to the community. Potentially, the TXL token will act as a governance token in that case.
 
@@ -17,4 +17,3 @@ Later on, the goal is to hand over the governance to the community. Potentially,
 ## Disclaimer
 
 The Tixl Finance team does not guarantee that all information in this repository is correct.
-
