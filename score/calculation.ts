@@ -3,7 +3,7 @@
 import { assertType } from 'graphql';
 
 // const to play around with
-const FACTOR_VOLUME = 1;
+const FACTOR_VOLUME = 2;
 const FACTOR_LIQUIDITY = 2;
 const FACTOR_EXCHANGES = 1;
 const FACTOR_SUPPLY = 1;
