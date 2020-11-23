@@ -1,5 +1,5 @@
 interface SocialSchema {
-  name: "Twitter" | "Telegram" | "Medium" | "Reddit" | "Youtube";
+  name: "Twitter" | "Telegram" | "Medium" | "Reddit" | "Youtube" | "Facebook";
   /**
    * @format url
    */
@@ -10,6 +10,13 @@ interface TokenomicsSchema {
   max_supply?: number;
   total_supply?: number;
   circulating_supply?: number;
+}
+
+interface TradingPair {
+  base: string;
+  quote: string;
+  pair_id: string;
+  exchange_id: string;
 }
 
 export default interface ProjectSchema {
@@ -35,4 +42,5 @@ export default interface ProjectSchema {
   socials: SocialSchema[];
   tokenomics: TokenomicsSchema;
   tokenomics_url?: string;
+  trading_pairs: TradingPair[];
 }

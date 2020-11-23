@@ -15,6 +15,7 @@
     "push:projects": "ts-node scripts/pushProjects.ts",
     "push:exchanges": "ts-node scripts/pushExchanges.ts",
     "scores:calculate": "ts-node score/scripts/calcScoresAndGenerateCsv.ts",
+    "fetch:coins": "ts-node scripts/fetchCoins.ts",
     "prepare": "npm run build"
   },
   "repository": {
@@ -27,15 +28,22 @@
     }
   },
   "dependencies": {
+    "@coingecko/cg-api-ts": "^0.0.41",
+    "@supercharge/promise-pool": "^1.6.0",
+    "axios": "^0.21.0",
     "cross-fetch": "^3.0.6",
     "dotenv": "^8.2.0",
     "graphql": "^15.3.0",
     "graphql-request": "^3.1.0",
+    "lodash": "^4.17.20",
     "typescript-json-validator": "^2.4.2"
   },
   "devDependencies": {
+    "@types/axios": "^0.14.0",
     "@types/jest": "^26.0.14",
+    "@types/lodash": "^4.14.165",
     "@types/node": "^14.11.1",
+    "@types/node-fetch": "^2.5.7",
     "husky": "^3.1.0",
     "jest": "^26.4.2",
     "prettier": "^2.1.2",
