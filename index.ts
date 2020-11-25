@@ -1,3 +1,7 @@
-import { calcScore, calcLiquidityScore } from './score/calculation';
+import {
+  calcScore,
+  calcLiquidityScore,
+  getLiquidityScoreFromSlippage,
+} from './score/calculation';
 
-export { calcScore, calcLiquidityScore };
+export { calcScore, calcLiquidityScore, getLiquidityScoreFromSlippage };
