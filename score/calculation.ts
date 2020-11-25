@@ -67,7 +67,7 @@ const getSlippage = (asset: Asset, usd: number) =>
       .map((el) => el[`slippage_${usd}USD`] || 1)
   );
 
-const getLiquidityScoreFromSlippage = (
+export const getLiquidityScoreFromSlippage = (
   slippage10000Usd: number,
   slippage100000Usd: number
 ) => {
