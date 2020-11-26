@@ -69,8 +69,8 @@
     },
     {
       "base": "XRP",
-      "quote": "USD",
-      "pair_id": "binance.com_XRP_USD",
+      "quote": "USDT",
+      "pair_id": "binance.com_XRP_USDT",
       "exchange_id": "binance.com"
     }
   ],
