@@ -82,8 +82,8 @@
     },
     {
       "base": "BTC",
-      "quote": "USD",
-      "pair_id": "binance.com_BTC_USD",
+      "quote": "USDT",
+      "pair_id": "binance.com_BTC_USDT",
       "exchange_id": "binance.com"
     }
   ],
