@@ -27,6 +27,7 @@ interface Asset {
   slippage_1000USD: number;
   slippage_10000USD: number;
   slippage_100000USD: number;
+  slippage_1000000USD: number;
 }
 
 interface AssetExchangeData {
@@ -34,6 +35,7 @@ interface AssetExchangeData {
   quality_score?: 'green' | 'yellow' | 'red';
   slippage_10000USD?: number;
   slippage_100000USD?: number;
+  slippage_1000000USD?: number;
 }
 
 interface ExchangeScore {
@@ -69,13 +71,34 @@ const getSlippage = (asset: Asset, usd: number) =>
 
 export const getLiquidityScoreFromSlippage = (
   slippage10000Usd: number,
-  slippage100000Usd: number
+  slippage100000Usd: number,
+  slippage1000000Usd: number
 ) => {
+  // Slippage 10,000 and 100,000 (liquidityScoreBase) should result in a range between 0 - 90
+  // Slippage 1,000,000 (liquidityScoreTop) is required for a score between 90 - 100
+
   let liquidityScore = SCORE_UNDEFINED;
 
-  const slippageFactor =
+  // Slippage 100k is more relevant than 10k slippage
+  const slippageFactorBase =
     (slippage10000Usd ?? 0.25) + 1.5 * (slippage100000Usd ?? 0.5);
-  liquidityScore = SCORE_MAX_VALUE - (slippageFactor ?? 1) * SCORE_MAX_VALUE;
+
+  let liquidityScoreBase = SCORE_MAX_VALUE - (slippageFactorBase ?? 1) * SCORE_MAX_VALUE;
+  let liquidityScoreTop = 0;
+
+  if (slippage1000000Usd !== null) {
+    liquidityScoreTop = SCORE_MAX_VALUE - (slippage1000000Usd ?? 1) * SCORE_MAX_VALUE;
+  }
+
+  if (liquidityScoreBase < 0) {
+    liquidityScoreBase = 0;
+  }
+
+  if (liquidityScoreTop < 0) {
+    liquidityScoreTop = 0;
+  }
+
+  liquidityScore = liquidityScoreBase * 0.9 + liquidityScoreTop * 0.1;
 
   if (liquidityScore < 0) {
     liquidityScore = 0;
