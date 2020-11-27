@@ -112,7 +112,8 @@ export const calcLiquidityScore = (
 ): number => {
   return getLiquidityScoreFromSlippage(
     assetExchangeData.slippage_10000USD!,
-    assetExchangeData.slippage_100000USD!
+    assetExchangeData.slippage_100000USD!,
+    assetExchangeData.slippage_1000000USD!
   );
 };
 
@@ -149,7 +150,8 @@ export function calcScore(asset: Asset, sentimentData: SentimentData): Score {
     // now lets calculate the liquidity score according to the slippage
     liquidityScore = getLiquidityScoreFromSlippage(
       asset.slippage_10000USD,
-      asset.slippage_100000USD
+      asset.slippage_100000USD,
+      asset.slippage_1000000USD
     );
   }
 
