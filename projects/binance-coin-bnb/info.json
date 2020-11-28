@@ -1,0 +1,631 @@
+{
+  "name": "Binance Coin",
+  "symbol": "BNB",
+  "website": "https://www.binance.com/",
+  "coingecko_id": "binancecoin",
+  "coin_api_id": "BINANCECOIN",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://www.twitter.com/binance",
+      "search_strings": [
+        "$BNB"
+      ]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/binanceexchange"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/binance"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "BNB",
+      "quote": "BTC",
+      "pair_id": "BNB_BTC",
+      "exchange_id": "p2pb2b"
+    },
+    {
+      "base": "BNB",
+      "quote": "USDT",
+      "pair_id": "BNB_USDT",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "BNB",
+      "quote": "USD",
+      "pair_id": "BNB_USD",
+      "exchange_id": "p2pb2b"
+    },
+    {
+      "base": "BNB",
+      "quote": "BTC",
+      "pair_id": "BNB_BTC",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "BNB",
+      "quote": "BTC",
+      "pair_id": "BNB_BTC",
+      "exchange_id": "indoex"
+    },
+    {
+      "base": "BNB",
+      "quote": "USDT",
+      "pair_id": "BNB_USDT",
+      "exchange_id": "p2pb2b"
+    },
+    {
+      "base": "BNB",
+      "quote": "USDT",
+      "pair_id": "BNB_USDT",
+      "exchange_id": "ftx_spot"
+    },
+    {
+      "base": "BNB",
+      "quote": "BUSD",
+      "pair_id": "BNB_BUSD",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "BNB",
+      "quote": "USD",
+      "pair_id": "BNB_USD",
+      "exchange_id": "ftx_spot"
+    },
+    {
+      "base": "BNB",
+      "quote": "BTC",
+      "pair_id": "BNB_BTC",
+      "exchange_id": "coinsbit"
+    },
+    {
+      "base": "BNB",
+      "quote": "ETH",
+      "pair_id": "BNB_ETH",
+      "exchange_id": "coinsbit"
+    },
+    {
+      "base": "BNB",
+      "quote": "USD",
+      "pair_id": "BNB_USD",
+      "exchange_id": "hitbtc"
+    },
+    {
+      "base": "BNB",
+      "quote": "USDT",
+      "pair_id": "BNB_USDT",
+      "exchange_id": "coinsbit"
+    },
+    {
+      "base": "BNB",
+      "quote": "USD",
+      "pair_id": "BNB_USD",
+      "exchange_id": "coinsbit"
+    },
+    {
+      "base": "BNB",
+      "quote": "ETH",
+      "pair_id": "BNB_ETH",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "BNB",
+      "quote": "USD",
+      "pair_id": "BNB_USD",
+      "exchange_id": "binance_us"
+    },
+    {
+      "base": "FTT",
+      "quote": "BNB",
+      "pair_id": "FTT_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "BNB",
+      "quote": "USDT",
+      "pair_id": "BNB_USDT",
+      "exchange_id": "dcoin"
+    },
+    {
+      "base": "BNB",
+      "quote": "USDC",
+      "pair_id": "BNB_USDC",
+      "exchange_id": "indoex"
+    },
+    {
+      "base": "BNB",
+      "quote": "BUSD",
+      "pair_id": "BNB_BUSD",
+      "exchange_id": "coinsbit"
+    },
+    {
+      "base": "BNB",
+      "quote": "USDT",
+      "pair_id": "BNB_USDT",
+      "exchange_id": "cointiger"
+    },
+    {
+      "base": "NEAR",
+      "quote": "BNB",
+      "pair_id": "NEAR_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "BNB",
+      "quote": "USDT",
+      "pair_id": "BNB_USDT",
+      "exchange_id": "hoo"
+    },
+    {
+      "base": "BNB",
+      "quote": "USDC",
+      "pair_id": "BNB_USDC",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "BNB.BNB",
+      "quote": "RUNE",
+      "pair_id": "BNB.BNB_RUNE",
+      "exchange_id": "bepswap"
+    },
+    {
+      "base": "BNB",
+      "quote": "USDT",
+      "pair_id": "BNB_USDT",
+      "exchange_id": "binance_us"
+    },
+    {
+      "base": "BNB",
+      "quote": "USDT",
+      "pair_id": "BNB_USDT",
+      "exchange_id": "mxc"
+    },
+    {
+      "base": "XRP",
+      "quote": "BNB",
+      "pair_id": "XRP_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "FIL",
+      "quote": "BNB",
+      "pair_id": "FIL_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "BNB",
+      "quote": "USDT",
+      "pair_id": "BNB_USDT",
+      "exchange_id": "bilaxy"
+    },
+    {
+      "base": "BNB",
+      "quote": "BTC",
+      "pair_id": "BNB_BTC",
+      "exchange_id": "bitmax"
+    },
+    {
+      "base": "BNB",
+      "quote": "USDT",
+      "pair_id": "BNB_USDT",
+      "exchange_id": "exrates"
+    },
+    {
+      "base": "BNB",
+      "quote": "BTC",
+      "pair_id": "BNB_BTC",
+      "exchange_id": "binance_us"
+    },
+    {
+      "base": "BNB",
+      "quote": "ETH",
+      "pair_id": "BNB_ETH",
+      "exchange_id": "p2pb2b"
+    },
+    {
+      "base": "BNB",
+      "quote": "USDT",
+      "pair_id": "BNB_USDT",
+      "exchange_id": "bitmax"
+    },
+    {
+      "base": "PAXG",
+      "quote": "BNB",
+      "pair_id": "PAXG_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "BNB",
+      "quote": "RUB",
+      "pair_id": "BNB_RUB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "BNB",
+      "quote": "DAI",
+      "pair_id": "BNB_DAI",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "BNB",
+      "quote": "ETH",
+      "pair_id": "BNB_ETH",
+      "exchange_id": "indoex"
+    },
+    {
+      "base": "BNB",
+      "quote": "BUSD",
+      "pair_id": "BNB_BUSD",
+      "exchange_id": "binance_us"
+    },
+    {
+      "base": "BNB",
+      "quote": "USD",
+      "pair_id": "BNB_USD",
+      "exchange_id": "exrates"
+    },
+    {
+      "base": "BNB",
+      "quote": "BTC",
+      "pair_id": "BNB_BTC",
+      "exchange_id": "exrates"
+    },
+    {
+      "base": "ADA",
+      "quote": "BNB",
+      "pair_id": "ADA_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "BNB",
+      "quote": "USDT",
+      "pair_id": "BNB_USDT",
+      "exchange_id": "indoex"
+    },
+    {
+      "base": "BNB",
+      "quote": "USDT",
+      "pair_id": "BNB_USDT",
+      "exchange_id": "kucoin"
+    },
+    {
+      "base": "TRX",
+      "quote": "BNB",
+      "pair_id": "TRX_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "OCEAN",
+      "quote": "BNB",
+      "pair_id": "OCEAN_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "XMR",
+      "quote": "BNB",
+      "pair_id": "XMR_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "BNB",
+      "quote": "USDT",
+      "pair_id": "BNB_USDT",
+      "exchange_id": "b2bx"
+    },
+    {
+      "base": "EOS",
+      "quote": "BNB",
+      "pair_id": "EOS_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "BTT",
+      "quote": "BNB",
+      "pair_id": "BTT_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "BNB",
+      "quote": "USDT",
+      "pair_id": "BNB_USDT",
+      "exchange_id": "bithumb_global"
+    },
+    {
+      "base": "UNI",
+      "quote": "BNB",
+      "pair_id": "UNI_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "BNB",
+      "quote": "USDT",
+      "pair_id": "BNB_USDT",
+      "exchange_id": "gate"
+    },
+    {
+      "base": "DOT",
+      "quote": "BNB",
+      "pair_id": "DOT_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "BNB",
+      "quote": "BTC",
+      "pair_id": "BNB_BTC",
+      "exchange_id": "kucoin"
+    },
+    {
+      "base": "BNB",
+      "quote": "USDT",
+      "pair_id": "BNB_USDT",
+      "exchange_id": "bkex"
+    },
+    {
+      "base": "BNB",
+      "quote": "USDT",
+      "pair_id": "BNB_USDT",
+      "exchange_id": "biki"
+    },
+    {
+      "base": "INJ",
+      "quote": "BNB",
+      "pair_id": "INJ_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "LTC",
+      "quote": "BNB",
+      "pair_id": "LTC_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "BNB",
+      "quote": "BIDR",
+      "pair_id": "BNB_BIDR",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "BNB",
+      "quote": "BKRW",
+      "pair_id": "BNB_BKRW",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "BNB",
+      "quote": "TUSD",
+      "pair_id": "BNB_TUSD",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "NEO",
+      "quote": "BNB",
+      "pair_id": "NEO_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "BNB",
+      "quote": "BTC",
+      "pair_id": "BNB_BTC",
+      "exchange_id": "bitubu"
+    },
+    {
+      "base": "BNB",
+      "quote": "USDT",
+      "pair_id": "BNB_USDT",
+      "exchange_id": "poloniex"
+    },
+    {
+      "base": "BNB",
+      "quote": "USDT",
+      "pair_id": "BNB_USDT",
+      "exchange_id": "coinex"
+    },
+    {
+      "base": "VET",
+      "quote": "BNB",
+      "pair_id": "VET_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "LUNA",
+      "quote": "BNB",
+      "pair_id": "LUNA_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "BCH",
+      "quote": "BNB",
+      "pair_id": "BCH_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "SXP",
+      "quote": "BNB",
+      "pair_id": "SXP_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "XLM",
+      "quote": "BNB",
+      "pair_id": "XLM_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "BNB",
+      "quote": "USDT",
+      "pair_id": "BNB_USDT",
+      "exchange_id": "nami_exchange"
+    },
+    {
+      "base": "BNB",
+      "quote": "USDT",
+      "pair_id": "BNB_USDT",
+      "exchange_id": "alterdice"
+    },
+    {
+      "base": "BNB",
+      "quote": "BTC",
+      "pair_id": "BNB_BTC",
+      "exchange_id": "bitforex"
+    },
+    {
+      "base": "ENJ",
+      "quote": "BNB",
+      "pair_id": "ENJ_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "BNB",
+      "quote": "USDT",
+      "pair_id": "BNB_USDT",
+      "exchange_id": "bw"
+    },
+    {
+      "base": "ZEC",
+      "quote": "BNB",
+      "pair_id": "ZEC_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "BNB",
+      "quote": "ETH",
+      "pair_id": "BNB_ETH",
+      "exchange_id": "alterdice"
+    },
+    {
+      "base": "ZIL",
+      "quote": "BNB",
+      "pair_id": "ZIL_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "SNX",
+      "quote": "BNB",
+      "pair_id": "SNX_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "ANT",
+      "quote": "BNB",
+      "pair_id": "ANT_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "ALPHA",
+      "quote": "BNB",
+      "pair_id": "ALPHA_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "SOL",
+      "quote": "BNB",
+      "pair_id": "SOL_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "ATOM",
+      "quote": "BNB",
+      "pair_id": "ATOM_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "XTZ",
+      "quote": "BNB",
+      "pair_id": "XTZ_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "THETA",
+      "quote": "BNB",
+      "pair_id": "THETA_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "YFI",
+      "quote": "BNB",
+      "pair_id": "YFI_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "BNB",
+      "quote": "USDT",
+      "pair_id": "BNB_USDT",
+      "exchange_id": "whitebit"
+    },
+    {
+      "base": "YFII",
+      "quote": "BNB",
+      "pair_id": "YFII_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "ALGO",
+      "quote": "BNB",
+      "pair_id": "ALGO_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "CRV",
+      "quote": "BNB",
+      "pair_id": "CRV_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "UNFI",
+      "quote": "BNB",
+      "pair_id": "UNFI_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "ICX",
+      "quote": "BNB",
+      "pair_id": "ICX_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "BNB",
+      "quote": "BTC",
+      "pair_id": "BNB_BTC",
+      "exchange_id": "whitebit"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "BNB",
+      "pair_id": "SUSHI_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "DASH",
+      "quote": "BNB",
+      "pair_id": "DASH_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "ONT",
+      "quote": "BNB",
+      "pair_id": "ONT_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "RUNE",
+      "quote": "BNB",
+      "pair_id": "RUNE_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "CTSI",
+      "quote": "BNB",
+      "pair_id": "CTSI_BNB",
+      "exchange_id": "binance"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 0,
+    "total_supply": 179883948,
+    "circulating_supply": 147883948
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "name": "Constellation",
+  "symbol": "DAG",
+  "website": "https://constellationlabs.io/",
+  "coingecko_id": "constellation-labs",
+  "coin_api_id": "CONSTELLATION-LABS",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://www.twitter.com/conste11ation",
+      "search_strings": [
+        "$DAG"
+      ]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/Conste11ation"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/constellation/"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "DAG",
+      "quote": "BTC",
+      "pair_id": "DAG_BTC",
+      "exchange_id": "kucoin"
+    },
+    {
+      "base": "DAG",
+      "quote": "USDT",
+      "pair_id": "DAG_USDT",
+      "exchange_id": "kucoin"
+    },
+    {
+      "base": "DAG",
+      "quote": "ETH",
+      "pair_id": "DAG_ETH",
+      "exchange_id": "kucoin"
+    },
+    {
+      "base": "DAG",
+      "quote": "ETH",
+      "pair_id": "DAG_ETH",
+      "exchange_id": "hitbtc"
+    },
+    {
+      "base": "DAG",
+      "quote": "BTC",
+      "pair_id": "DAG_BTC",
+      "exchange_id": "hitbtc"
+    },
+    {
+      "base": "0XA8258ABC8F2811DD48ECCD209DB68F25E3E34667",
+      "quote": "ETH",
+      "pair_id": "0XA8258ABC8F2811DD48ECCD209DB68F25E3E34667_ETH",
+      "exchange_id": "uniswap"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 0,
+    "total_supply": 3550000000,
+    "circulating_supply": 0
+  }
+}

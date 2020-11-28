@@ -1,0 +1,585 @@
+{
+  "name": "Band Protocol",
+  "symbol": "BAND",
+  "website": "https://bandprotocol.com/",
+  "coingecko_id": "band-protocol",
+  "coin_api_id": "BAND-PROTOCOL",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://www.twitter.com/bandprotocol",
+      "search_strings": [
+        "$BAND"
+      ]
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/bandprotocol"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "BAND",
+      "quote": "USDT",
+      "pair_id": "BAND_USDT",
+      "exchange_id": "whitebit"
+    },
+    {
+      "base": "BAND",
+      "quote": "USD",
+      "pair_id": "BAND_USD",
+      "exchange_id": "gdax"
+    },
+    {
+      "base": "BAND",
+      "quote": "USDT",
+      "pair_id": "BAND_USDT",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "BAND",
+      "quote": "EUR",
+      "pair_id": "BAND_EUR",
+      "exchange_id": "gdax"
+    },
+    {
+      "base": "BAND",
+      "quote": "BTC",
+      "pair_id": "BAND_BTC",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "BAND",
+      "quote": "BTC",
+      "pair_id": "BAND_BTC",
+      "exchange_id": "coinsbit"
+    },
+    {
+      "base": "BAND",
+      "quote": "BTC",
+      "pair_id": "BAND_BTC",
+      "exchange_id": "nominex"
+    },
+    {
+      "base": "BAND",
+      "quote": "USDT",
+      "pair_id": "BAND_USDT",
+      "exchange_id": "p2pb2b"
+    },
+    {
+      "base": "BAND",
+      "quote": "USD",
+      "pair_id": "BAND_USD",
+      "exchange_id": "p2pb2b"
+    },
+    {
+      "base": "BAND",
+      "quote": "USDT",
+      "pair_id": "BAND_USDT",
+      "exchange_id": "coinsbit"
+    },
+    {
+      "base": "0XBA11D00C5F74255F56A5E366F4F77F5A186D7F55",
+      "quote": "ETH",
+      "pair_id": "0XBA11D00C5F74255F56A5E366F4F77F5A186D7F55_ETH",
+      "exchange_id": "sushiswap"
+    },
+    {
+      "base": "BAND",
+      "quote": "USDT",
+      "pair_id": "BAND_USDT",
+      "exchange_id": "nominex"
+    },
+    {
+      "base": "BAND",
+      "quote": "USDT",
+      "pair_id": "BAND_USDT",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "BAND",
+      "quote": "USDT",
+      "pair_id": "BAND_USDT",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "BAND",
+      "quote": "USDT",
+      "pair_id": "BAND_USDT",
+      "exchange_id": "crypto_com"
+    },
+    {
+      "base": "BAND",
+      "quote": "GBP",
+      "pair_id": "BAND_GBP",
+      "exchange_id": "gdax"
+    },
+    {
+      "base": "BAND",
+      "quote": "BTC",
+      "pair_id": "BAND_BTC",
+      "exchange_id": "gdax"
+    },
+    {
+      "base": "BAND",
+      "quote": "BTC",
+      "pair_id": "BAND_BTC",
+      "exchange_id": "p2pb2b"
+    },
+    {
+      "base": "BAND",
+      "quote": "USDT",
+      "pair_id": "BAND_USDT",
+      "exchange_id": "bilaxy"
+    },
+    {
+      "base": "BAND",
+      "quote": "USD",
+      "pair_id": "BAND_USD",
+      "exchange_id": "binance_us"
+    },
+    {
+      "base": "BAND",
+      "quote": "BTC",
+      "pair_id": "BAND_BTC",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "BAND",
+      "quote": "USDT",
+      "pair_id": "BAND_USDT",
+      "exchange_id": "cointiger"
+    },
+    {
+      "base": "BAND",
+      "quote": "USDT",
+      "pair_id": "BAND_USDT",
+      "exchange_id": "aex"
+    },
+    {
+      "base": "BAND",
+      "quote": "CRO",
+      "pair_id": "BAND_CRO",
+      "exchange_id": "crypto_com"
+    },
+    {
+      "base": "BAND",
+      "quote": "BTC",
+      "pair_id": "BAND_BTC",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "BAND",
+      "quote": "BTC",
+      "pair_id": "BAND_BTC",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "0XBA11D00C5F74255F56A5E366F4F77F5A186D7F55",
+      "quote": "ETH",
+      "pair_id": "0XBA11D00C5F74255F56A5E366F4F77F5A186D7F55_ETH",
+      "exchange_id": "uniswap"
+    },
+    {
+      "base": "BAND",
+      "quote": "USDT",
+      "pair_id": "BAND_USDT",
+      "exchange_id": "binance_us"
+    },
+    {
+      "base": "BAND",
+      "quote": "BNB",
+      "pair_id": "BAND_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "BAND",
+      "quote": "USDT",
+      "pair_id": "BAND_USDT",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "BAND",
+      "quote": "ETH",
+      "pair_id": "BAND_ETH",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "BAND",
+      "quote": "UST",
+      "pair_id": "BAND_UST",
+      "exchange_id": "bitfinex"
+    },
+    {
+      "base": "BAND",
+      "quote": "USDT",
+      "pair_id": "BAND_USDT",
+      "exchange_id": "wazirx"
+    },
+    {
+      "base": "BAND",
+      "quote": "USDT",
+      "pair_id": "BAND_USDT",
+      "exchange_id": "bitmax"
+    },
+    {
+      "base": "BAND",
+      "quote": "USDT",
+      "pair_id": "BAND_USDT",
+      "exchange_id": "gate"
+    },
+    {
+      "base": "BAND",
+      "quote": "USDT",
+      "pair_id": "BAND_USDT",
+      "exchange_id": "bw"
+    },
+    {
+      "base": "BAND",
+      "quote": "USDT",
+      "pair_id": "BAND_USDT",
+      "exchange_id": "xt"
+    },
+    {
+      "base": "BAND",
+      "quote": "BTC",
+      "pair_id": "BAND_BTC",
+      "exchange_id": "atomars"
+    },
+    {
+      "base": "BAND",
+      "quote": "HUSD",
+      "pair_id": "BAND_HUSD",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "BAND",
+      "quote": "USDT",
+      "pair_id": "BAND_USDT",
+      "exchange_id": "bithumb_global"
+    },
+    {
+      "base": "BAND",
+      "quote": "USDT",
+      "pair_id": "BAND_USDT",
+      "exchange_id": "atomars"
+    },
+    {
+      "base": "BAND",
+      "quote": "ETH",
+      "pair_id": "BAND_ETH",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "BAND",
+      "quote": "KRW",
+      "pair_id": "BAND_KRW",
+      "exchange_id": "probit"
+    },
+    {
+      "base": "BAND",
+      "quote": "USDT",
+      "pair_id": "BAND_USDT",
+      "exchange_id": "probit"
+    },
+    {
+      "base": "BAND",
+      "quote": "BTC",
+      "pair_id": "BAND_BTC",
+      "exchange_id": "probit"
+    },
+    {
+      "base": "BAND",
+      "quote": "USDT",
+      "pair_id": "BAND_USDT",
+      "exchange_id": "latoken"
+    },
+    {
+      "base": "BAND",
+      "quote": "USDT",
+      "pair_id": "BAND_USDT",
+      "exchange_id": "vcc"
+    },
+    {
+      "base": "BAND",
+      "quote": "BTC",
+      "pair_id": "BAND_BTC",
+      "exchange_id": "vcc"
+    },
+    {
+      "base": "BAND",
+      "quote": "USDT",
+      "pair_id": "BAND_USDT",
+      "exchange_id": "bitrue"
+    },
+    {
+      "base": "BAND",
+      "quote": "USDT",
+      "pair_id": "BAND_USDT",
+      "exchange_id": "bit_z"
+    },
+    {
+      "base": "BAND",
+      "quote": "USDT",
+      "pair_id": "BAND_USDT",
+      "exchange_id": "bvnex"
+    },
+    {
+      "base": "BAND",
+      "quote": "TWD",
+      "pair_id": "BAND_TWD",
+      "exchange_id": "bitasset"
+    },
+    {
+      "base": "BAND",
+      "quote": "USDT",
+      "pair_id": "BAND_USDT",
+      "exchange_id": "dcoin"
+    },
+    {
+      "base": "BAND",
+      "quote": "CNYT",
+      "pair_id": "BAND_CNYT",
+      "exchange_id": "bitasset"
+    },
+    {
+      "base": "BAND",
+      "quote": "USDT",
+      "pair_id": "BAND_USDT",
+      "exchange_id": "bitasset"
+    },
+    {
+      "base": "BAND",
+      "quote": "USDT",
+      "pair_id": "BAND_USDT",
+      "exchange_id": "hbtc"
+    },
+    {
+      "base": "BAND",
+      "quote": "USDT",
+      "pair_id": "BAND_USDT",
+      "exchange_id": "dragonex"
+    },
+    {
+      "base": "BAND",
+      "quote": "USDT",
+      "pair_id": "BAND_USDT",
+      "exchange_id": "exx"
+    },
+    {
+      "base": "BAND",
+      "quote": "WBNB",
+      "pair_id": "BAND_WBNB",
+      "exchange_id": "pancakeswap"
+    },
+    {
+      "base": "BAND",
+      "quote": "ETH",
+      "pair_id": "BAND_ETH",
+      "exchange_id": "kyber_network"
+    },
+    {
+      "base": "BAND",
+      "quote": "USDT",
+      "pair_id": "BAND_USDT",
+      "exchange_id": "huobi_korea"
+    },
+    {
+      "base": "BAND",
+      "quote": "THB",
+      "pair_id": "BAND_THB",
+      "exchange_id": "bitkub"
+    },
+    {
+      "base": "BAND",
+      "quote": "UAH",
+      "pair_id": "BAND_UAH",
+      "exchange_id": "whitebit"
+    },
+    {
+      "base": "BAND",
+      "quote": "RUB",
+      "pair_id": "BAND_RUB",
+      "exchange_id": "whitebit"
+    },
+    {
+      "base": "BAND",
+      "quote": "USD",
+      "pair_id": "BAND_USD",
+      "exchange_id": "bitfinex"
+    },
+    {
+      "base": "BAND",
+      "quote": "SGD",
+      "pair_id": "BAND_SGD",
+      "exchange_id": "tokenize"
+    },
+    {
+      "base": "BAND",
+      "quote": "USD",
+      "pair_id": "BAND_USD",
+      "exchange_id": "tokenize"
+    },
+    {
+      "base": "BAND",
+      "quote": "BTC",
+      "pair_id": "BAND_BTC",
+      "exchange_id": "latoken"
+    },
+    {
+      "base": "BAND",
+      "quote": "USDT",
+      "pair_id": "BAND_USDT",
+      "exchange_id": "poloniex"
+    },
+    {
+      "base": "0XBA11D00C5F74255F56A5E366F4F77F5A186D7F55",
+      "quote": "ETH",
+      "pair_id": "0XBA11D00C5F74255F56A5E366F4F77F5A186D7F55_ETH",
+      "exchange_id": "sakeswap"
+    },
+    {
+      "base": "BAND",
+      "quote": "ETH",
+      "pair_id": "BAND_ETH",
+      "exchange_id": "gate"
+    },
+    {
+      "base": "BAND",
+      "quote": "BTC",
+      "pair_id": "BAND_BTC",
+      "exchange_id": "nice_hash"
+    },
+    {
+      "base": "BAND",
+      "quote": "USDC",
+      "pair_id": "BAND_USDC",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "0XBA11D00C5F74255F56A5E366F4F77F5A186D7F55",
+      "quote": "ETH",
+      "pair_id": "0XBA11D00C5F74255F56A5E366F4F77F5A186D7F55_ETH",
+      "exchange_id": "one_inch"
+    },
+    {
+      "base": "BAND",
+      "quote": "USD",
+      "pair_id": "BAND_USD",
+      "exchange_id": "coinflex"
+    },
+    {
+      "base": "BAND",
+      "quote": "BTC",
+      "pair_id": "BAND_BTC",
+      "exchange_id": "huobi_korea"
+    },
+    {
+      "base": "BAND",
+      "quote": "ETH",
+      "pair_id": "BAND_ETH",
+      "exchange_id": "huobi_korea"
+    },
+    {
+      "base": "BAND",
+      "quote": "ETH",
+      "pair_id": "BAND_ETH",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "BAND",
+      "quote": "KRW",
+      "pair_id": "BAND_KRW",
+      "exchange_id": "coinone"
+    },
+    {
+      "base": "BAND",
+      "quote": "THB",
+      "pair_id": "BAND_THB",
+      "exchange_id": "tdax"
+    },
+    {
+      "base": "0XBA11D00C5F74255F56A5E366F4F77F5A186D7F55",
+      "quote": "ETH",
+      "pair_id": "0XBA11D00C5F74255F56A5E366F4F77F5A186D7F55_ETH",
+      "exchange_id": "mooniswap"
+    },
+    {
+      "base": "BAND",
+      "quote": "USDT",
+      "pair_id": "BAND_USDT",
+      "exchange_id": "cex"
+    },
+    {
+      "base": "BAND",
+      "quote": "PAX",
+      "pair_id": "BAND_PAX",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "BAND",
+      "quote": "TUSD",
+      "pair_id": "BAND_TUSD",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "BAND",
+      "quote": "USDT",
+      "pair_id": "BAND_USDT",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "BAND",
+      "quote": "BTC",
+      "pair_id": "BAND_BTC",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "BAND",
+      "quote": "EUR",
+      "pair_id": "BAND_EUR",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "BAND",
+      "quote": "GBP",
+      "pair_id": "BAND_GBP",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "BAND",
+      "quote": "KRW",
+      "pair_id": "BAND_KRW",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "BAND",
+      "quote": "NGN",
+      "pair_id": "BAND_NGN",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "BAND",
+      "quote": "BURGER",
+      "pair_id": "BAND_BURGER",
+      "exchange_id": "burgerswap"
+    },
+    {
+      "base": "BAND",
+      "quote": "ETH",
+      "pair_id": "BAND_ETH",
+      "exchange_id": "uniswap_v1"
+    },
+    {
+      "base": "BAND",
+      "quote": "USDT",
+      "pair_id": "BAND_USDT",
+      "exchange_id": "whale_ex"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 100000000,
+    "total_supply": 100000000,
+    "circulating_supply": 22568073
+  }
+}

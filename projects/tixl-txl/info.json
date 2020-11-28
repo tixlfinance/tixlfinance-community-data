@@ -12,7 +12,7 @@
       "name": "Twitter",
       "url": "https://twitter.com/tixlcurrency",
       "handle": "tixlcurrency",
-      "search_strings": ["@TixlOrg", "#tixl", "$TXL"]
+      "search_strings": ["#tixl", "$TXL"]
     },
     {
       "name": "Telegram",
@@ -40,7 +40,6 @@
     "total_supply": 899994670,
     "circulating_supply": 58594704
   },
-  "tokenomics_url": "http://api.tixl.org/v1/tokenomicsV2?fromTixlFinance=1",
   "trading_pairs": [
     {
       "base": "0x8eef5a82e6aa222a60f009ac18c24ee12dbf4b41",

@@ -1,0 +1,255 @@
+{
+  "name": "DIA",
+  "symbol": "DIA",
+  "website": "https://diadata.org/",
+  "coingecko_id": "dia-data",
+  "coin_api_id": "DIA-DATA",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://www.twitter.com/DIAdata_org",
+      "search_strings": [
+        "$DIA"
+      ]
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.comr/DIAdata"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "DIA",
+      "quote": "USDT",
+      "pair_id": "DIA_USDT",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "DIA",
+      "quote": "BTC",
+      "pair_id": "DIA_BTC",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "0X84CA8BC7997272C7CFB4D0CD3D55CD942B3C9419",
+      "quote": "ETH",
+      "pair_id": "0X84CA8BC7997272C7CFB4D0CD3D55CD942B3C9419_ETH",
+      "exchange_id": "uniswap"
+    },
+    {
+      "base": "DIA",
+      "quote": "USDT",
+      "pair_id": "DIA_USDT",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "DIA",
+      "quote": "USDT",
+      "pair_id": "DIA_USDT",
+      "exchange_id": "biki"
+    },
+    {
+      "base": "DIA",
+      "quote": "USDT",
+      "pair_id": "DIA_USDT",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "DIA",
+      "quote": "BTC",
+      "pair_id": "DIA_BTC",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "DIA",
+      "quote": "USDT",
+      "pair_id": "DIA_USDT",
+      "exchange_id": "kucoin"
+    },
+    {
+      "base": "DIA",
+      "quote": "USDT",
+      "pair_id": "DIA_USDT",
+      "exchange_id": "bkex"
+    },
+    {
+      "base": "DIA",
+      "quote": "BUSD",
+      "pair_id": "DIA_BUSD",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "DIA",
+      "quote": "BNB",
+      "pair_id": "DIA_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "DIA",
+      "quote": "BTC",
+      "pair_id": "DIA_BTC",
+      "exchange_id": "kucoin"
+    },
+    {
+      "base": "DIA",
+      "quote": "USDT",
+      "pair_id": "DIA_USDT",
+      "exchange_id": "bitmax"
+    },
+    {
+      "base": "DIA",
+      "quote": "USDT",
+      "pair_id": "DIA_USDT",
+      "exchange_id": "aex"
+    },
+    {
+      "base": "DIA",
+      "quote": "USDT",
+      "pair_id": "DIA_USDT",
+      "exchange_id": "atomars"
+    },
+    {
+      "base": "DIA",
+      "quote": "ETH",
+      "pair_id": "DIA_ETH",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "DIA",
+      "quote": "BTC",
+      "pair_id": "DIA_BTC",
+      "exchange_id": "atomars"
+    },
+    {
+      "base": "DIA",
+      "quote": "USDT",
+      "pair_id": "DIA_USDT",
+      "exchange_id": "xt"
+    },
+    {
+      "base": "DIA",
+      "quote": "USDT",
+      "pair_id": "DIA_USDT",
+      "exchange_id": "coinex"
+    },
+    {
+      "base": "DIA",
+      "quote": "USDT",
+      "pair_id": "DIA_USDT",
+      "exchange_id": "vcc"
+    },
+    {
+      "base": "DIA",
+      "quote": "BTC",
+      "pair_id": "DIA_BTC",
+      "exchange_id": "vcc"
+    },
+    {
+      "base": "DIA",
+      "quote": "USDT",
+      "pair_id": "DIA_USDT",
+      "exchange_id": "hbtc"
+    },
+    {
+      "base": "0X84CA8BC7997272C7CFB4D0CD3D55CD942B3C9419",
+      "quote": "ETH",
+      "pair_id": "0X84CA8BC7997272C7CFB4D0CD3D55CD942B3C9419_ETH",
+      "exchange_id": "mooniswap"
+    },
+    {
+      "base": "DIA",
+      "quote": "USDT",
+      "pair_id": "DIA_USDT",
+      "exchange_id": "bvnex"
+    },
+    {
+      "base": "DIA",
+      "quote": "USDT",
+      "pair_id": "DIA_USDT",
+      "exchange_id": "bitmart"
+    },
+    {
+      "base": "DIA",
+      "quote": "USDT",
+      "pair_id": "DIA_USDT",
+      "exchange_id": "poloniex"
+    },
+    {
+      "base": "DIA",
+      "quote": "ETH",
+      "pair_id": "DIA_ETH",
+      "exchange_id": "coinex"
+    },
+    {
+      "base": "DIA",
+      "quote": "USDT",
+      "pair_id": "DIA_USDT",
+      "exchange_id": "gate"
+    },
+    {
+      "base": "DIA",
+      "quote": "BTC",
+      "pair_id": "DIA_BTC",
+      "exchange_id": "coinex"
+    },
+    {
+      "base": "DIA",
+      "quote": "ETH",
+      "pair_id": "DIA_ETH",
+      "exchange_id": "hoo"
+    },
+    {
+      "base": "DIA",
+      "quote": "USDT",
+      "pair_id": "DIA_USDT",
+      "exchange_id": "hoo"
+    },
+    {
+      "base": "DIA",
+      "quote": "ETH",
+      "pair_id": "DIA_ETH",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "DIA",
+      "quote": "KRW",
+      "pair_id": "DIA_KRW",
+      "exchange_id": "coinone"
+    },
+    {
+      "base": "DIA",
+      "quote": "USDT",
+      "pair_id": "DIA_USDT",
+      "exchange_id": "bibox"
+    },
+    {
+      "base": "DIA",
+      "quote": "USDT",
+      "pair_id": "DIA_USDT",
+      "exchange_id": "bidesk"
+    },
+    {
+      "base": "DIA",
+      "quote": "ETH",
+      "pair_id": "DIA_ETH",
+      "exchange_id": "bibox"
+    },
+    {
+      "base": "0X84CA8BC7997272C7CFB4D0CD3D55CD942B3C9419",
+      "quote": "ETH",
+      "pair_id": "0X84CA8BC7997272C7CFB4D0CD3D55CD942B3C9419_ETH",
+      "exchange_id": "one_inch"
+    },
+    {
+      "base": "DIA",
+      "quote": "ETH",
+      "pair_id": "DIA_ETH",
+      "exchange_id": "gate"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 200000000,
+    "total_supply": 200000000,
+    "circulating_supply": 25549170.383025188
+  }
+}

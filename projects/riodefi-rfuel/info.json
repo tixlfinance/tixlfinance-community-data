@@ -1,0 +1,123 @@
+{
+  "name": "RioDeFi",
+  "symbol": "RFUEL",
+  "website": "https://riodefi.com/",
+  "coingecko_id": "rio-defi",
+  "coin_api_id": "RIO-DEFI",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://www.twitter.com/riodefiofficial",
+      "search_strings": [
+        "$RFUEL"
+      ]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/riodefiofficial"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "0XAF9F549774ECEDBD0966C52F250ACC548D3F36E5",
+      "quote": "ETH",
+      "pair_id": "0XAF9F549774ECEDBD0966C52F250ACC548D3F36E5_ETH",
+      "exchange_id": "uniswap"
+    },
+    {
+      "base": "RFUEL",
+      "quote": "USDT",
+      "pair_id": "RFUEL_USDT",
+      "exchange_id": "bitmax"
+    },
+    {
+      "base": "RFUEL",
+      "quote": "USDT",
+      "pair_id": "RFUEL_USDT",
+      "exchange_id": "bithumb_global"
+    },
+    {
+      "base": "RFUEL",
+      "quote": "USDT",
+      "pair_id": "RFUEL_USDT",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "RFUEL",
+      "quote": "USDT",
+      "pair_id": "RFUEL_USDT",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "RFUEL",
+      "quote": "USDT",
+      "pair_id": "RFUEL_USDT",
+      "exchange_id": "kucoin"
+    },
+    {
+      "base": "RFUEL",
+      "quote": "ETH",
+      "pair_id": "RFUEL_ETH",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "RFUEL",
+      "quote": "BTC",
+      "pair_id": "RFUEL_BTC",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "RFUEL",
+      "quote": "ETH",
+      "pair_id": "RFUEL_ETH",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "RFUEL",
+      "quote": "ETH",
+      "pair_id": "RFUEL_ETH",
+      "exchange_id": "bilaxy"
+    },
+    {
+      "base": "RFUEL",
+      "quote": "INR",
+      "pair_id": "RFUEL_INR",
+      "exchange_id": "bitbns"
+    },
+    {
+      "base": "RFUEL",
+      "quote": "USDT",
+      "pair_id": "RFUEL_USDT",
+      "exchange_id": "hoo"
+    },
+    {
+      "base": "RFUEL",
+      "quote": "USDT",
+      "pair_id": "RFUEL_USDT",
+      "exchange_id": "bitmart"
+    },
+    {
+      "base": "RFUEL",
+      "quote": "USDT",
+      "pair_id": "RFUEL_USDT",
+      "exchange_id": "gate"
+    },
+    {
+      "base": "RFUEL",
+      "quote": "USDT",
+      "pair_id": "RFUEL_USDT",
+      "exchange_id": "poloniex"
+    },
+    {
+      "base": "RFUEL",
+      "quote": "ETH",
+      "pair_id": "RFUEL_ETH",
+      "exchange_id": "hoo"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 1000000000,
+    "total_supply": 171567909,
+    "circulating_supply": 111630583.26
+  }
+}

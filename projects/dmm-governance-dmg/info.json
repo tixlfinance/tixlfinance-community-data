@@ -1,0 +1,173 @@
+{
+  "name": "DMM: Governance",
+  "symbol": "DMG",
+  "website": "https://defimoneymarket.com",
+  "coingecko_id": "dmm-governance",
+  "coin_api_id": "DMM-GOVERNANCE",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://www.twitter.com/DMMDAO",
+      "search_strings": [
+        "$DMG"
+      ]
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "0XED91879919B71BB6905F23AF0A68D231ECF87B14",
+      "quote": "ETH",
+      "pair_id": "0XED91879919B71BB6905F23AF0A68D231ECF87B14_ETH",
+      "exchange_id": "uniswap"
+    },
+    {
+      "base": "DMG",
+      "quote": "USD",
+      "pair_id": "DMG_USD",
+      "exchange_id": "ftx_spot"
+    },
+    {
+      "base": "DMG",
+      "quote": "USDT",
+      "pair_id": "DMG_USDT",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "DMG",
+      "quote": "USDT",
+      "pair_id": "DMG_USDT",
+      "exchange_id": "ftx_spot"
+    },
+    {
+      "base": "DMG",
+      "quote": "USDT",
+      "pair_id": "DMG_USDT",
+      "exchange_id": "bitmax"
+    },
+    {
+      "base": "DMG",
+      "quote": "USDT",
+      "pair_id": "DMG_USDT",
+      "exchange_id": "kucoin"
+    },
+    {
+      "base": "DMG",
+      "quote": "USDT",
+      "pair_id": "DMG_USDT",
+      "exchange_id": "bkex"
+    },
+    {
+      "base": "DMG",
+      "quote": "USDT",
+      "pair_id": "DMG_USDT",
+      "exchange_id": "aex"
+    },
+    {
+      "base": "DMG",
+      "quote": "USDT",
+      "pair_id": "DMG_USDT",
+      "exchange_id": "mxc"
+    },
+    {
+      "base": "DMG",
+      "quote": "USDT",
+      "pair_id": "DMG_USDT",
+      "exchange_id": "xt"
+    },
+    {
+      "base": "DMG",
+      "quote": "ETH",
+      "pair_id": "DMG_ETH",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "DMG",
+      "quote": "ETH",
+      "pair_id": "DMG_ETH",
+      "exchange_id": "mxc"
+    },
+    {
+      "base": "DMG",
+      "quote": "USDT",
+      "pair_id": "DMG_USDT",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "DMG",
+      "quote": "BTC",
+      "pair_id": "DMG_BTC",
+      "exchange_id": "poloniex"
+    },
+    {
+      "base": "DMG",
+      "quote": "USDT",
+      "pair_id": "DMG_USDT",
+      "exchange_id": "bit_z"
+    },
+    {
+      "base": "DMG",
+      "quote": "ETH",
+      "pair_id": "DMG_ETH",
+      "exchange_id": "bilaxy"
+    },
+    {
+      "base": "DMG",
+      "quote": "USDT",
+      "pair_id": "DMG_USDT",
+      "exchange_id": "poloniex"
+    },
+    {
+      "base": "DMG",
+      "quote": "ETH",
+      "pair_id": "DMG_ETH",
+      "exchange_id": "hoo"
+    },
+    {
+      "base": "DMG",
+      "quote": "USDT",
+      "pair_id": "DMG_USDT",
+      "exchange_id": "hoo"
+    },
+    {
+      "base": "0XED91879919B71BB6905F23AF0A68D231ECF87B14",
+      "quote": "ETH",
+      "pair_id": "0XED91879919B71BB6905F23AF0A68D231ECF87B14_ETH",
+      "exchange_id": "balancer"
+    },
+    {
+      "base": "DMG",
+      "quote": "KRW",
+      "pair_id": "DMG_KRW",
+      "exchange_id": "coinone"
+    },
+    {
+      "base": "DMG",
+      "quote": "ETH",
+      "pair_id": "DMG_ETH",
+      "exchange_id": "idex"
+    },
+    {
+      "base": "DMG",
+      "quote": "WETH",
+      "pair_id": "DMG_WETH",
+      "exchange_id": "dolomite"
+    },
+    {
+      "base": "0XED91879919B71BB6905F23AF0A68D231ECF87B14",
+      "quote": "ETH",
+      "pair_id": "0XED91879919B71BB6905F23AF0A68D231ECF87B14_ETH",
+      "exchange_id": "one_inch"
+    },
+    {
+      "base": "DMG",
+      "quote": "TRX",
+      "pair_id": "DMG_TRX",
+      "exchange_id": "poloniex"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 250000000,
+    "total_supply": 250000000,
+    "circulating_supply": 48093747.24202881
+  }
+}

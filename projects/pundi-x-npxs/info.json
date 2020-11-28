@@ -1,0 +1,469 @@
+{
+  "name": "Pundi X",
+  "symbol": "NPXS",
+  "website": "https://pundix.com",
+  "coingecko_id": "pundi-x",
+  "coin_api_id": "PUNDI-X",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://www.twitter.com/PundiXLabs",
+      "search_strings": [
+        "$NPXS"
+      ]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/pundixlabs"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/PundiX/"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "NPXS",
+      "quote": "KRW",
+      "pair_id": "NPXS_KRW",
+      "exchange_id": "bithumb"
+    },
+    {
+      "base": "NPXS",
+      "quote": "USDT",
+      "pair_id": "NPXS_USDT",
+      "exchange_id": "digifinex"
+    },
+    {
+      "base": "NPXS",
+      "quote": "ETH",
+      "pair_id": "NPXS_ETH",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "NPXS",
+      "quote": "USDT",
+      "pair_id": "NPXS_USDT",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "NPXS",
+      "quote": "BTC",
+      "pair_id": "NPXS_BTC",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "NPXS",
+      "quote": "USDT",
+      "pair_id": "NPXS_USDT",
+      "exchange_id": "wazirx"
+    },
+    {
+      "base": "NPXS",
+      "quote": "BTC",
+      "pair_id": "NPXS_BTC",
+      "exchange_id": "kucoin"
+    },
+    {
+      "base": "NPXS",
+      "quote": "BRL",
+      "pair_id": "NPXS_BRL",
+      "exchange_id": "novadax"
+    },
+    {
+      "base": "NPXS",
+      "quote": "ETH",
+      "pair_id": "NPXS_ETH",
+      "exchange_id": "bittrex"
+    },
+    {
+      "base": "NPXS",
+      "quote": "USDT",
+      "pair_id": "NPXS_USDT",
+      "exchange_id": "vcc"
+    },
+    {
+      "base": "NPXS",
+      "quote": "USDT",
+      "pair_id": "NPXS_USDT",
+      "exchange_id": "resfinex"
+    },
+    {
+      "base": "NPXS",
+      "quote": "ETH",
+      "pair_id": "NPXS_ETH",
+      "exchange_id": "bitrue"
+    },
+    {
+      "base": "NPXS",
+      "quote": "USDT",
+      "pair_id": "NPXS_USDT",
+      "exchange_id": "bitrue"
+    },
+    {
+      "base": "NPXS",
+      "quote": "USDT",
+      "pair_id": "NPXS_USDT",
+      "exchange_id": "novadax"
+    },
+    {
+      "base": "NPXS",
+      "quote": "ETH",
+      "pair_id": "NPXS_ETH",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "NPXS",
+      "quote": "BTC",
+      "pair_id": "NPXS_BTC",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "NPXS",
+      "quote": "USDT",
+      "pair_id": "NPXS_USDT",
+      "exchange_id": "emirex"
+    },
+    {
+      "base": "NPXS",
+      "quote": "ETH",
+      "pair_id": "NPXS_ETH",
+      "exchange_id": "kucoin"
+    },
+    {
+      "base": "NPXS",
+      "quote": "ETH",
+      "pair_id": "NPXS_ETH",
+      "exchange_id": "bkex"
+    },
+    {
+      "base": "NPXS",
+      "quote": "BTC",
+      "pair_id": "NPXS_BTC",
+      "exchange_id": "hitbtc"
+    },
+    {
+      "base": "NPXS",
+      "quote": "KRW",
+      "pair_id": "NPXS_KRW",
+      "exchange_id": "upbit"
+    },
+    {
+      "base": "NPXS",
+      "quote": "ETH",
+      "pair_id": "NPXS_ETH",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "NPXS",
+      "quote": "BTC",
+      "pair_id": "NPXS_BTC",
+      "exchange_id": "probit"
+    },
+    {
+      "base": "NPXS",
+      "quote": "ETH",
+      "pair_id": "NPXS_ETH",
+      "exchange_id": "lukki"
+    },
+    {
+      "base": "NPXS",
+      "quote": "USDT",
+      "pair_id": "NPXS_USDT",
+      "exchange_id": "indodax"
+    },
+    {
+      "base": "NPXS",
+      "quote": "ETH",
+      "pair_id": "NPXS_ETH",
+      "exchange_id": "latoken"
+    },
+    {
+      "base": "NPXS",
+      "quote": "USDT",
+      "pair_id": "NPXS_USDT",
+      "exchange_id": "atomars"
+    },
+    {
+      "base": "NPXS",
+      "quote": "ETH",
+      "pair_id": "NPXS_ETH",
+      "exchange_id": "exrates"
+    },
+    {
+      "base": "NPXS",
+      "quote": "ETH",
+      "pair_id": "NPXS_ETH",
+      "exchange_id": "atomars"
+    },
+    {
+      "base": "NPXS",
+      "quote": "BTC",
+      "pair_id": "NPXS_BTC",
+      "exchange_id": "bittrex"
+    },
+    {
+      "base": "NPXS",
+      "quote": "TRY",
+      "pair_id": "NPXS_TRY",
+      "exchange_id": "sistemkoin"
+    },
+    {
+      "base": "NPXS",
+      "quote": "ETH",
+      "pair_id": "NPXS_ETH",
+      "exchange_id": "sistemkoin"
+    },
+    {
+      "base": "NPXS",
+      "quote": "USDT",
+      "pair_id": "NPXS_USDT",
+      "exchange_id": "bittrex"
+    },
+    {
+      "base": "NPXS",
+      "quote": "USDT",
+      "pair_id": "NPXS_USDT",
+      "exchange_id": "coinex"
+    },
+    {
+      "base": "NPXS",
+      "quote": "XRP",
+      "pair_id": "NPXS_XRP",
+      "exchange_id": "bitrue"
+    },
+    {
+      "base": "NPXS",
+      "quote": "KRW",
+      "pair_id": "NPXS_KRW",
+      "exchange_id": "probit"
+    },
+    {
+      "base": "NPXS",
+      "quote": "ETH",
+      "pair_id": "NPXS_ETH",
+      "exchange_id": "vindax"
+    },
+    {
+      "base": "NPXS",
+      "quote": "BTC",
+      "pair_id": "NPXS_BTC",
+      "exchange_id": "coinex"
+    },
+    {
+      "base": "NPXS",
+      "quote": "USDT",
+      "pair_id": "NPXS_USDT",
+      "exchange_id": "omgfin"
+    },
+    {
+      "base": "NPXS",
+      "quote": "ETH",
+      "pair_id": "NPXS_ETH",
+      "exchange_id": "coinex"
+    },
+    {
+      "base": "NPXS",
+      "quote": "ETH",
+      "pair_id": "NPXS_ETH",
+      "exchange_id": "omgfin"
+    },
+    {
+      "base": "NPXS",
+      "quote": "USDT",
+      "pair_id": "NPXS_USDT",
+      "exchange_id": "probit"
+    },
+    {
+      "base": "NPXS",
+      "quote": "TRY",
+      "pair_id": "NPXS_TRY",
+      "exchange_id": "vebitcoin"
+    },
+    {
+      "base": "NPXS",
+      "quote": "BTC",
+      "pair_id": "NPXS_BTC",
+      "exchange_id": "omgfin"
+    },
+    {
+      "base": "NPXS",
+      "quote": "ETH",
+      "pair_id": "NPXS_ETH",
+      "exchange_id": "localtrade"
+    },
+    {
+      "base": "NPXS",
+      "quote": "IDR",
+      "pair_id": "NPXS_IDR",
+      "exchange_id": "upbit_indonesia"
+    },
+    {
+      "base": "NPXS",
+      "quote": "BTC",
+      "pair_id": "NPXS_BTC",
+      "exchange_id": "wazirx"
+    },
+    {
+      "base": "NPXS",
+      "quote": "INR",
+      "pair_id": "NPXS_INR",
+      "exchange_id": "bitbns"
+    },
+    {
+      "base": "NPXS",
+      "quote": "USDT",
+      "pair_id": "NPXS_USDT",
+      "exchange_id": "bitbns"
+    },
+    {
+      "base": "0XA15C7EBE1F07CAF6BFF097D8A589FB8AC49AE5B3",
+      "quote": "ETH",
+      "pair_id": "0XA15C7EBE1F07CAF6BFF097D8A589FB8AC49AE5B3_ETH",
+      "exchange_id": "uniswap"
+    },
+    {
+      "base": "NPXS",
+      "quote": "BTC",
+      "pair_id": "NPXS_BTC",
+      "exchange_id": "upbit"
+    },
+    {
+      "base": "NPXS",
+      "quote": "BTC",
+      "pair_id": "NPXS_BTC",
+      "exchange_id": "livecoin"
+    },
+    {
+      "base": "NPXS",
+      "quote": "ETH",
+      "pair_id": "NPXS_ETH",
+      "exchange_id": "zebitex"
+    },
+    {
+      "base": "NPXS",
+      "quote": "USDT",
+      "pair_id": "NPXS_USDT",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "NPXS",
+      "quote": "USDT",
+      "pair_id": "NPXS_USDT",
+      "exchange_id": "zebitex"
+    },
+    {
+      "base": "NPXS",
+      "quote": "KRW",
+      "pair_id": "NPXS_KRW",
+      "exchange_id": "bitsonic"
+    },
+    {
+      "base": "NPXS",
+      "quote": "TUSD",
+      "pair_id": "NPXS_TUSD",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "NPXS",
+      "quote": "BTC",
+      "pair_id": "NPXS_BTC",
+      "exchange_id": "graviex"
+    },
+    {
+      "base": "NPXS",
+      "quote": "USDT",
+      "pair_id": "NPXS_USDT",
+      "exchange_id": "coinbene"
+    },
+    {
+      "base": "NPXS",
+      "quote": "BTC",
+      "pair_id": "NPXS_BTC",
+      "exchange_id": "upbit_indonesia"
+    },
+    {
+      "base": "0XA15C7EBE1F07CAF6BFF097D8A589FB8AC49AE5B3",
+      "quote": "ETH",
+      "pair_id": "0XA15C7EBE1F07CAF6BFF097D8A589FB8AC49AE5B3_ETH",
+      "exchange_id": "one_inch"
+    },
+    {
+      "base": "NPXS",
+      "quote": "ETH",
+      "pair_id": "NPXS_ETH",
+      "exchange_id": "etherflyer"
+    },
+    {
+      "base": "NPXS",
+      "quote": "CHFT",
+      "pair_id": "NPXS_CHFT",
+      "exchange_id": "bitci"
+    },
+    {
+      "base": "NPXS",
+      "quote": "BTC",
+      "pair_id": "NPXS_BTC",
+      "exchange_id": "bitbay"
+    },
+    {
+      "base": "NPXS",
+      "quote": "BTC",
+      "pair_id": "NPXS_BTC",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "NPXS",
+      "quote": "ETH",
+      "pair_id": "NPXS_ETH",
+      "exchange_id": "graviex"
+    },
+    {
+      "base": "NPXS",
+      "quote": "ETH",
+      "pair_id": "NPXS_ETH",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "NPXS",
+      "quote": "USDT",
+      "pair_id": "NPXS_USDT",
+      "exchange_id": "okex_korea"
+    },
+    {
+      "base": "NPXS",
+      "quote": "EUR",
+      "pair_id": "NPXS_EUR",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "NPXS",
+      "quote": "PAX",
+      "pair_id": "NPXS_PAX",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "NPXS",
+      "quote": "GBP",
+      "pair_id": "NPXS_GBP",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "NPXS",
+      "quote": "KRW",
+      "pair_id": "NPXS_KRW",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "NPXS",
+      "quote": "XQR",
+      "pair_id": "NPXS_XQR",
+      "exchange_id": "altilly"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 0,
+    "total_supply": 258526640300.57,
+    "circulating_supply": 236519288706.32507
+  }
+}

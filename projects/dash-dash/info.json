@@ -1,0 +1,627 @@
+{
+  "name": "Dash",
+  "symbol": "DASH",
+  "website": "https://www.dash.org",
+  "coingecko_id": "dash",
+  "coin_api_id": "DASH",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://www.twitter.com/dashpay",
+      "search_strings": [
+        "$DASH"
+      ]
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/dashpay"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "DASH",
+      "quote": "BTC",
+      "pair_id": "DASH_BTC",
+      "exchange_id": "waves"
+    },
+    {
+      "base": "DASH",
+      "quote": "USDT",
+      "pair_id": "DASH_USDT",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "DASH",
+      "quote": "USDT",
+      "pair_id": "DASH_USDT",
+      "exchange_id": "coineal"
+    },
+    {
+      "base": "DASH",
+      "quote": "USDT",
+      "pair_id": "DASH_USDT",
+      "exchange_id": "xt"
+    },
+    {
+      "base": "DASH",
+      "quote": "BTC",
+      "pair_id": "DASH_BTC",
+      "exchange_id": "p2pb2b"
+    },
+    {
+      "base": "DASH",
+      "quote": "USD",
+      "pair_id": "DASH_USD",
+      "exchange_id": "p2pb2b"
+    },
+    {
+      "base": "DASH",
+      "quote": "USDT",
+      "pair_id": "DASH_USDT",
+      "exchange_id": "digifinex"
+    },
+    {
+      "base": "DASH",
+      "quote": "SXC",
+      "pair_id": "DASH_SXC",
+      "exchange_id": "xt"
+    },
+    {
+      "base": "DASH",
+      "quote": "USDT",
+      "pair_id": "DASH_USDT",
+      "exchange_id": "p2pb2b"
+    },
+    {
+      "base": "DASH",
+      "quote": "USD",
+      "pair_id": "DASH_USD",
+      "exchange_id": "bitcoin_com"
+    },
+    {
+      "base": "DASH",
+      "quote": "USD",
+      "pair_id": "DASH_USD",
+      "exchange_id": "hitbtc"
+    },
+    {
+      "base": "DASH",
+      "quote": "USDT",
+      "pair_id": "DASH_USDT",
+      "exchange_id": "zb"
+    },
+    {
+      "base": "DASH",
+      "quote": "BTC",
+      "pair_id": "DASH_BTC",
+      "exchange_id": "bitcoin_com"
+    },
+    {
+      "base": "DASH",
+      "quote": "BTC",
+      "pair_id": "DASH_BTC",
+      "exchange_id": "hitbtc"
+    },
+    {
+      "base": "DASH",
+      "quote": "TRY",
+      "pair_id": "DASH_TRY",
+      "exchange_id": "btcturk"
+    },
+    {
+      "base": "DASH",
+      "quote": "BTC",
+      "pair_id": "DASH_BTC",
+      "exchange_id": "digifinex"
+    },
+    {
+      "base": "DASH",
+      "quote": "USD",
+      "pair_id": "DASH_USD",
+      "exchange_id": "gdax"
+    },
+    {
+      "base": "DASH",
+      "quote": "USDT",
+      "pair_id": "DASH_USDT",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "DASH",
+      "quote": "BTC",
+      "pair_id": "DASH_BTC",
+      "exchange_id": "indoex"
+    },
+    {
+      "base": "DASH",
+      "quote": "USDT",
+      "pair_id": "DASH_USDT",
+      "exchange_id": "gate"
+    },
+    {
+      "base": "DASH",
+      "quote": "USDT",
+      "pair_id": "DASH_USDT",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "DASH",
+      "quote": "USDT",
+      "pair_id": "DASH_USDT",
+      "exchange_id": "nominex"
+    },
+    {
+      "base": "DSH",
+      "quote": "BTC",
+      "pair_id": "DSH_BTC",
+      "exchange_id": "bitfinex"
+    },
+    {
+      "base": "DASH",
+      "quote": "BTC",
+      "pair_id": "DASH_BTC",
+      "exchange_id": "whitebit"
+    },
+    {
+      "base": "DASH",
+      "quote": "USDT",
+      "pair_id": "DASH_USDT",
+      "exchange_id": "bw"
+    },
+    {
+      "base": "DASH",
+      "quote": "BTC",
+      "pair_id": "DASH_BTC",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "DASH",
+      "quote": "BTC",
+      "pair_id": "DASH_BTC",
+      "exchange_id": "decoin"
+    },
+    {
+      "base": "DASH",
+      "quote": "USDT",
+      "pair_id": "DASH_USDT",
+      "exchange_id": "cointiger"
+    },
+    {
+      "base": "DASH",
+      "quote": "BTC",
+      "pair_id": "DASH_BTC",
+      "exchange_id": "coineal"
+    },
+    {
+      "base": "DASH",
+      "quote": "ETH",
+      "pair_id": "DASH_ETH",
+      "exchange_id": "bitcoin_com"
+    },
+    {
+      "base": "DSH",
+      "quote": "USD",
+      "pair_id": "DSH_USD",
+      "exchange_id": "bitfinex"
+    },
+    {
+      "base": "DASH",
+      "quote": "USDT",
+      "pair_id": "DASH_USDT",
+      "exchange_id": "lbank"
+    },
+    {
+      "base": "DASH",
+      "quote": "USDT",
+      "pair_id": "DASH_USDT",
+      "exchange_id": "mxc"
+    },
+    {
+      "base": "DASH",
+      "quote": "ETH",
+      "pair_id": "DASH_ETH",
+      "exchange_id": "hitbtc"
+    },
+    {
+      "base": "DASH",
+      "quote": "QC",
+      "pair_id": "DASH_QC",
+      "exchange_id": "zb"
+    },
+    {
+      "base": "DASH",
+      "quote": "BTC",
+      "pair_id": "DASH_BTC",
+      "exchange_id": "cointiger"
+    },
+    {
+      "base": "DASH",
+      "quote": "ETH",
+      "pair_id": "DASH_ETH",
+      "exchange_id": "bibox"
+    },
+    {
+      "base": "DASH",
+      "quote": "USD",
+      "pair_id": "DASH_USD",
+      "exchange_id": "whitebit"
+    },
+    {
+      "base": "DASH",
+      "quote": "BTC",
+      "pair_id": "DASH_BTC",
+      "exchange_id": "nominex"
+    },
+    {
+      "base": "DASH",
+      "quote": "USDT",
+      "pair_id": "DASH_USDT",
+      "exchange_id": "exrates"
+    },
+    {
+      "base": "DASH",
+      "quote": "USD",
+      "pair_id": "DASH_USD",
+      "exchange_id": "kraken"
+    },
+    {
+      "base": "DASH",
+      "quote": "CNC",
+      "pair_id": "DASH_CNC",
+      "exchange_id": "aex"
+    },
+    {
+      "base": "DASH",
+      "quote": "EUR",
+      "pair_id": "DASH_EUR",
+      "exchange_id": "kraken"
+    },
+    {
+      "base": "DASH",
+      "quote": "BTC",
+      "pair_id": "DASH_BTC",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "DASH",
+      "quote": "BTC",
+      "pair_id": "DASH_BTC",
+      "exchange_id": "bibox"
+    },
+    {
+      "base": "DASH",
+      "quote": "USDT",
+      "pair_id": "DASH_USDT",
+      "exchange_id": "kucoin"
+    },
+    {
+      "base": "DASH",
+      "quote": "USDT",
+      "pair_id": "DASH_USDT",
+      "exchange_id": "btcturk"
+    },
+    {
+      "base": "DASH",
+      "quote": "ETH",
+      "pair_id": "DASH_ETH",
+      "exchange_id": "catex"
+    },
+    {
+      "base": "DASH",
+      "quote": "USDT",
+      "pair_id": "DASH_USDT",
+      "exchange_id": "dcoin"
+    },
+    {
+      "base": "DASH",
+      "quote": "KRW",
+      "pair_id": "DASH_KRW",
+      "exchange_id": "bithumb"
+    },
+    {
+      "base": "DASH",
+      "quote": "ETH",
+      "pair_id": "DASH_ETH",
+      "exchange_id": "bitubu"
+    },
+    {
+      "base": "DASH",
+      "quote": "USDT",
+      "pair_id": "DASH_USDT",
+      "exchange_id": "whitebit"
+    },
+    {
+      "base": "DASH",
+      "quote": "USDT",
+      "pair_id": "DASH_USDT",
+      "exchange_id": "bibox"
+    },
+    {
+      "base": "DASH",
+      "quote": "XBT",
+      "pair_id": "DASH_XBT",
+      "exchange_id": "kraken"
+    },
+    {
+      "base": "DASH",
+      "quote": "BTC",
+      "pair_id": "DASH_BTC",
+      "exchange_id": "catex"
+    },
+    {
+      "base": "DASH",
+      "quote": "USD",
+      "pair_id": "DASH_USD",
+      "exchange_id": "exrates"
+    },
+    {
+      "base": "DASH",
+      "quote": "USDT",
+      "pair_id": "DASH_USDT",
+      "exchange_id": "zbg"
+    },
+    {
+      "base": "DASH",
+      "quote": "USDT",
+      "pair_id": "DASH_USDT",
+      "exchange_id": "indoex"
+    },
+    {
+      "base": "DASH",
+      "quote": "BTC",
+      "pair_id": "DASH_BTC",
+      "exchange_id": "gdax"
+    },
+    {
+      "base": "DASH",
+      "quote": "USDT",
+      "pair_id": "DASH_USDT",
+      "exchange_id": "bkex"
+    },
+    {
+      "base": "DASH",
+      "quote": "USDT",
+      "pair_id": "DASH_USDT",
+      "exchange_id": "aex"
+    },
+    {
+      "base": "DASH",
+      "quote": "EOS",
+      "pair_id": "DASH_EOS",
+      "exchange_id": "hitbtc"
+    },
+    {
+      "base": "DASH",
+      "quote": "BTC",
+      "pair_id": "DASH_BTC",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "DASH",
+      "quote": "USDT",
+      "pair_id": "DASH_USDT",
+      "exchange_id": "bitmax"
+    },
+    {
+      "base": "DASH",
+      "quote": "USDT",
+      "pair_id": "DASH_USDT",
+      "exchange_id": "biki"
+    },
+    {
+      "base": "DASH",
+      "quote": "ETH",
+      "pair_id": "DASH_ETH",
+      "exchange_id": "indoex"
+    },
+    {
+      "base": "DASH",
+      "quote": "USDT",
+      "pair_id": "DASH_USDT",
+      "exchange_id": "c2cx"
+    },
+    {
+      "base": "DASH",
+      "quote": "USDT",
+      "pair_id": "DASH_USDT",
+      "exchange_id": "poloniex"
+    },
+    {
+      "base": "DASH",
+      "quote": "BTC",
+      "pair_id": "DASH_BTC",
+      "exchange_id": "bkex"
+    },
+    {
+      "base": "DASH",
+      "quote": "USDT",
+      "pair_id": "DASH_USDT",
+      "exchange_id": "exmo"
+    },
+    {
+      "base": "DASH",
+      "quote": "BTC",
+      "pair_id": "DASH_BTC",
+      "exchange_id": "nice_hash"
+    },
+    {
+      "base": "DASH",
+      "quote": "BTC",
+      "pair_id": "DASH_BTC",
+      "exchange_id": "exmo"
+    },
+    {
+      "base": "DASH",
+      "quote": "BUSD",
+      "pair_id": "DASH_BUSD",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "DASH",
+      "quote": "ETH",
+      "pair_id": "DASH_ETH",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "DASH",
+      "quote": "USD",
+      "pair_id": "DASH_USD",
+      "exchange_id": "exmo"
+    },
+    {
+      "base": "DASH",
+      "quote": "BTC",
+      "pair_id": "DASH_BTC",
+      "exchange_id": "kucoin"
+    },
+    {
+      "base": "DASH",
+      "quote": "BTC",
+      "pair_id": "DASH_BTC",
+      "exchange_id": "bigone"
+    },
+    {
+      "base": "DASH",
+      "quote": "USD",
+      "pair_id": "DASH_USD",
+      "exchange_id": "bittrex"
+    },
+    {
+      "base": "DASH",
+      "quote": "USDT",
+      "pair_id": "DASH_USDT",
+      "exchange_id": "bigone"
+    },
+    {
+      "base": "DASH",
+      "quote": "BTC",
+      "pair_id": "DASH_BTC",
+      "exchange_id": "bittrex"
+    },
+    {
+      "base": "DASH",
+      "quote": "BTC",
+      "pair_id": "DASH_BTC",
+      "exchange_id": "poloniex"
+    },
+    {
+      "base": "DASH",
+      "quote": "BTC",
+      "pair_id": "DASH_BTC",
+      "exchange_id": "c2cx"
+    },
+    {
+      "base": "DASH",
+      "quote": "QC",
+      "pair_id": "DASH_QC",
+      "exchange_id": "bw"
+    },
+    {
+      "base": "DASH",
+      "quote": "USD",
+      "pair_id": "DASH_USD",
+      "exchange_id": "binance_us"
+    },
+    {
+      "base": "DASH",
+      "quote": "BTC",
+      "pair_id": "DASH_BTC",
+      "exchange_id": "zb"
+    },
+    {
+      "base": "DASH",
+      "quote": "USDT",
+      "pair_id": "DASH_USDT",
+      "exchange_id": "bitmart"
+    },
+    {
+      "base": "DASH",
+      "quote": "USDT",
+      "pair_id": "DASH_USDT",
+      "exchange_id": "cex"
+    },
+    {
+      "base": "DASH",
+      "quote": "ETH",
+      "pair_id": "DASH_ETH",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "DASH",
+      "quote": "USDC",
+      "pair_id": "DASH_USDC",
+      "exchange_id": "poloniex"
+    },
+    {
+      "base": "DASH",
+      "quote": "ETH",
+      "pair_id": "DASH_ETH",
+      "exchange_id": "kucoin"
+    },
+    {
+      "base": "DASH",
+      "quote": "ETH",
+      "pair_id": "DASH_ETH",
+      "exchange_id": "whitebit"
+    },
+    {
+      "base": "DASH",
+      "quote": "USDT",
+      "pair_id": "DASH_USDT",
+      "exchange_id": "coinex"
+    },
+    {
+      "base": "DASH",
+      "quote": "BTC",
+      "pair_id": "DASH_BTC",
+      "exchange_id": "exrates"
+    },
+    {
+      "base": "DASH",
+      "quote": "PLN",
+      "pair_id": "DASH_PLN",
+      "exchange_id": "bitbay"
+    },
+    {
+      "base": "DASH",
+      "quote": "BNB",
+      "pair_id": "DASH_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "DASH",
+      "quote": "USDT",
+      "pair_id": "DASH_USDT",
+      "exchange_id": "tidex"
+    },
+    {
+      "base": "DASH",
+      "quote": "BTC",
+      "pair_id": "DASH_BTC",
+      "exchange_id": "bitmax"
+    },
+    {
+      "base": "DASH",
+      "quote": "USDT",
+      "pair_id": "DASH_USDT",
+      "exchange_id": "atomars"
+    },
+    {
+      "base": "DASH",
+      "quote": "ETH",
+      "pair_id": "DASH_ETH",
+      "exchange_id": "p2pb2b"
+    },
+    {
+      "base": "DASH",
+      "quote": "ETH",
+      "pair_id": "DASH_ETH",
+      "exchange_id": "bitmart"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 0,
+    "total_supply": 18920000,
+    "circulating_supply": 9840629.24612759
+  }
+}

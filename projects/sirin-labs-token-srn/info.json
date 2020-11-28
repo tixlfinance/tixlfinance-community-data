@@ -1,0 +1,115 @@
+{
+  "name": "Sirin Labs Token",
+  "symbol": "SRN",
+  "website": "https://www.sirinlabs.com",
+  "coingecko_id": "sirin-labs-token",
+  "coin_api_id": "SIRIN-LABS-TOKEN",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://www.twitter.com/sirinlabs",
+      "search_strings": [
+        "$SRN"
+      ]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/SirinLabs"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/SirinLabs"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "SRN",
+      "quote": "KRW",
+      "pair_id": "SRN_KRW",
+      "exchange_id": "upbit"
+    },
+    {
+      "base": "SRN",
+      "quote": "BTC",
+      "pair_id": "SRN_BTC",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "SRN",
+      "quote": "ETH",
+      "pair_id": "SRN_ETH",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "SRN",
+      "quote": "ETH",
+      "pair_id": "SRN_ETH",
+      "exchange_id": "bittrex"
+    },
+    {
+      "base": "SRN",
+      "quote": "BTC",
+      "pair_id": "SRN_BTC",
+      "exchange_id": "bittrex"
+    },
+    {
+      "base": "SRN",
+      "quote": "BTC",
+      "pair_id": "SRN_BTC",
+      "exchange_id": "bitbay"
+    },
+    {
+      "base": "SRN",
+      "quote": "BTC",
+      "pair_id": "SRN_BTC",
+      "exchange_id": "huobi_korea"
+    },
+    {
+      "base": "SRN",
+      "quote": "BTC",
+      "pair_id": "SRN_BTC",
+      "exchange_id": "hitbtc"
+    },
+    {
+      "base": "SRN",
+      "quote": "BTC",
+      "pair_id": "SRN_BTC",
+      "exchange_id": "upbit"
+    },
+    {
+      "base": "SRN",
+      "quote": "USD",
+      "pair_id": "SRN_USD",
+      "exchange_id": "hitbtc"
+    },
+    {
+      "base": "SRN",
+      "quote": "ETH",
+      "pair_id": "SRN_ETH",
+      "exchange_id": "hitbtc"
+    },
+    {
+      "base": "SRN",
+      "quote": "BNT",
+      "pair_id": "SRN_BNT",
+      "exchange_id": "bancor"
+    },
+    {
+      "base": "SRN",
+      "quote": "ETH",
+      "pair_id": "SRN_ETH",
+      "exchange_id": "huobi_korea"
+    },
+    {
+      "base": "0X68D57C9A1C35F63E2C83EE8E49A64E9D70528D25",
+      "quote": "ETH",
+      "pair_id": "0X68D57C9A1C35F63E2C83EE8E49A64E9D70528D25_ETH",
+      "exchange_id": "uniswap"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 0,
+    "total_supply": 572166103,
+    "circulating_supply": 532779058.95786244
+  }
+}

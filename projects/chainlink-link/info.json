@@ -1,0 +1,628 @@
+{
+  "name": "Chainlink",
+  "symbol": "LINK",
+  "website": "https://chain.link/",
+  "coingecko_id": "chainlink",
+  "coin_api_id": "CHAINLINK",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://www.twitter.com/chainlink",
+      "search_strings": [
+        "$LINK",
+        "#linkmarines"
+      ]
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/Chainlink/"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "LINK",
+      "quote": "USDT",
+      "pair_id": "LINK_USDT",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "LINK",
+      "quote": "USD",
+      "pair_id": "LINK_USD",
+      "exchange_id": "kraken"
+    },
+    {
+      "base": "LINK",
+      "quote": "EUR",
+      "pair_id": "LINK_EUR",
+      "exchange_id": "kraken"
+    },
+    {
+      "base": "LINK",
+      "quote": "USDT",
+      "pair_id": "LINK_USDT",
+      "exchange_id": "digifinex"
+    },
+    {
+      "base": "LINK",
+      "quote": "USD",
+      "pair_id": "LINK_USD",
+      "exchange_id": "gdax"
+    },
+    {
+      "base": "LINK",
+      "quote": "USDT",
+      "pair_id": "LINK_USDT",
+      "exchange_id": "coineal"
+    },
+    {
+      "base": "LINK",
+      "quote": "USDT",
+      "pair_id": "LINK_USDT",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "LINK",
+      "quote": "USDT",
+      "pair_id": "LINK_USDT",
+      "exchange_id": "crypto_com"
+    },
+    {
+      "base": "LINK",
+      "quote": "BTC",
+      "pair_id": "LINK_BTC",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "LINK",
+      "quote": "USD",
+      "pair_id": "LINK_USD",
+      "exchange_id": "gemini"
+    },
+    {
+      "base": "LINK",
+      "quote": "USD",
+      "pair_id": "LINK_USD",
+      "exchange_id": "bitfinex"
+    },
+    {
+      "base": "LINK",
+      "quote": "USDT",
+      "pair_id": "LINK_USDT",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "LINK",
+      "quote": "TRY",
+      "pair_id": "LINK_TRY",
+      "exchange_id": "btcturk"
+    },
+    {
+      "base": "LINK",
+      "quote": "EUR",
+      "pair_id": "LINK_EUR",
+      "exchange_id": "gdax"
+    },
+    {
+      "base": "LINK",
+      "quote": "USDC",
+      "pair_id": "LINK_USDC",
+      "exchange_id": "serum_dex"
+    },
+    {
+      "base": "0X514910771AF9CA656AF840DFF83E8264ECF986CA",
+      "quote": "ETH",
+      "pair_id": "0X514910771AF9CA656AF840DFF83E8264ECF986CA_ETH",
+      "exchange_id": "uniswap"
+    },
+    {
+      "base": "LINK",
+      "quote": "BTC",
+      "pair_id": "LINK_BTC",
+      "exchange_id": "crypto_com"
+    },
+    {
+      "base": "LINK",
+      "quote": "USD",
+      "pair_id": "LINK_USD",
+      "exchange_id": "ftx_spot"
+    },
+    {
+      "base": "LINK",
+      "quote": "ETH",
+      "pair_id": "LINK_ETH",
+      "exchange_id": "coinsbit"
+    },
+    {
+      "base": "LINK",
+      "quote": "BTC",
+      "pair_id": "LINK_BTC",
+      "exchange_id": "coineal"
+    },
+    {
+      "base": "LINK",
+      "quote": "GBP",
+      "pair_id": "LINK_GBP",
+      "exchange_id": "gdax"
+    },
+    {
+      "base": "LINK",
+      "quote": "USDT",
+      "pair_id": "LINK_USDT",
+      "exchange_id": "coinsbit"
+    },
+    {
+      "base": "LINK",
+      "quote": "USDT",
+      "pair_id": "LINK_USDT",
+      "exchange_id": "ftx_spot"
+    },
+    {
+      "base": "LINK",
+      "quote": "KRW",
+      "pair_id": "LINK_KRW",
+      "exchange_id": "bithumb"
+    },
+    {
+      "base": "LINK",
+      "quote": "USDT",
+      "pair_id": "LINK_USDT",
+      "exchange_id": "okex_korea"
+    },
+    {
+      "base": "LINK",
+      "quote": "XBT",
+      "pair_id": "LINK_XBT",
+      "exchange_id": "kraken"
+    },
+    {
+      "base": "LINK",
+      "quote": "USD",
+      "pair_id": "LINK_USD",
+      "exchange_id": "bitstamp"
+    },
+    {
+      "base": "LINK",
+      "quote": "BTC",
+      "pair_id": "LINK_BTC",
+      "exchange_id": "decoin"
+    },
+    {
+      "base": "LINK",
+      "quote": "USDT",
+      "pair_id": "LINK_USDT",
+      "exchange_id": "btcturk"
+    },
+    {
+      "base": "LINK",
+      "quote": "KRW",
+      "pair_id": "LINK_KRW",
+      "exchange_id": "upbit"
+    },
+    {
+      "base": "LINK",
+      "quote": "BTC",
+      "pair_id": "LINK_BTC",
+      "exchange_id": "coinsbit"
+    },
+    {
+      "base": "LINK",
+      "quote": "BTC",
+      "pair_id": "LINK_BTC",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "LINK",
+      "quote": "USDT",
+      "pair_id": "LINK_USDT",
+      "exchange_id": "coinall"
+    },
+    {
+      "base": "LINK",
+      "quote": "UST",
+      "pair_id": "LINK_UST",
+      "exchange_id": "bitfinex"
+    },
+    {
+      "base": "LINK",
+      "quote": "BTC",
+      "pair_id": "LINK_BTC",
+      "exchange_id": "indoex"
+    },
+    {
+      "base": "LINK",
+      "quote": "USDT",
+      "pair_id": "LINK_USDT",
+      "exchange_id": "serum_dex"
+    },
+    {
+      "base": "LINK",
+      "quote": "BTC",
+      "pair_id": "LINK_BTC",
+      "exchange_id": "tokenize"
+    },
+    {
+      "base": "LINK",
+      "quote": "USDT",
+      "pair_id": "LINK_USDT",
+      "exchange_id": "nominex"
+    },
+    {
+      "base": "LINK",
+      "quote": "USDT",
+      "pair_id": "LINK_USDT",
+      "exchange_id": "resfinex"
+    },
+    {
+      "base": "LINK",
+      "quote": "ETH",
+      "pair_id": "LINK_ETH",
+      "exchange_id": "gdax"
+    },
+    {
+      "base": "LINK",
+      "quote": "BTC",
+      "pair_id": "LINK_BTC",
+      "exchange_id": "nominex"
+    },
+    {
+      "base": "LINK",
+      "quote": "USD",
+      "pair_id": "LINK_USD",
+      "exchange_id": "hitbtc"
+    },
+    {
+      "base": "LINK",
+      "quote": "USD",
+      "pair_id": "LINK_USD",
+      "exchange_id": "binance_us"
+    },
+    {
+      "base": "0X514910771AF9CA656AF840DFF83E8264ECF986CA",
+      "quote": "ETH",
+      "pair_id": "0X514910771AF9CA656AF840DFF83E8264ECF986CA_ETH",
+      "exchange_id": "sushiswap"
+    },
+    {
+      "base": "LINK",
+      "quote": "EUR",
+      "pair_id": "LINK_EUR",
+      "exchange_id": "bitstamp"
+    },
+    {
+      "base": "LINK",
+      "quote": "BUSD",
+      "pair_id": "LINK_BUSD",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "LINK",
+      "quote": "USDT",
+      "pair_id": "LINK_USDT",
+      "exchange_id": "bitmax"
+    },
+    {
+      "base": "LINK",
+      "quote": "USDT",
+      "pair_id": "LINK_USDT",
+      "exchange_id": "gate"
+    },
+    {
+      "base": "LINK",
+      "quote": "USDT",
+      "pair_id": "LINK_USDT",
+      "exchange_id": "kucoin"
+    },
+    {
+      "base": "LINK",
+      "quote": "ETH",
+      "pair_id": "LINK_ETH",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "LINK",
+      "quote": "USDT",
+      "pair_id": "LINK_USDT",
+      "exchange_id": "bkex"
+    },
+    {
+      "base": "LINK",
+      "quote": "ETH",
+      "pair_id": "LINK_ETH",
+      "exchange_id": "kraken"
+    },
+    {
+      "base": "LINK",
+      "quote": "USDT",
+      "pair_id": "LINK_USDT",
+      "exchange_id": "p2pb2b"
+    },
+    {
+      "base": "LINK",
+      "quote": "USDT",
+      "pair_id": "LINK_USDT",
+      "exchange_id": "phemex"
+    },
+    {
+      "base": "LINK",
+      "quote": "BTC",
+      "pair_id": "LINK_BTC",
+      "exchange_id": "bitcoin_com"
+    },
+    {
+      "base": "LINK",
+      "quote": "USD",
+      "pair_id": "LINK_USD",
+      "exchange_id": "currency"
+    },
+    {
+      "base": "LINK",
+      "quote": "USDT",
+      "pair_id": "LINK_USDT",
+      "exchange_id": "cointiger"
+    },
+    {
+      "base": "LINK",
+      "quote": "USDC",
+      "pair_id": "LINK_USDC",
+      "exchange_id": "nominex"
+    },
+    {
+      "base": "LINK",
+      "quote": "ETH",
+      "pair_id": "LINK_ETH",
+      "exchange_id": "nominex"
+    },
+    {
+      "base": "LINK",
+      "quote": "BTC",
+      "pair_id": "LINK_BTC",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "LINK",
+      "quote": "USDT",
+      "pair_id": "LINK_USDT",
+      "exchange_id": "xt"
+    },
+    {
+      "base": "LINK",
+      "quote": "USDC",
+      "pair_id": "LINK_USDC",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "LINK",
+      "quote": "ETH",
+      "pair_id": "LINK_ETH",
+      "exchange_id": "tokenize"
+    },
+    {
+      "base": "LINK",
+      "quote": "BTC",
+      "pair_id": "LINK_BTC",
+      "exchange_id": "bitmax"
+    },
+    {
+      "base": "LINK",
+      "quote": "BTC",
+      "pair_id": "LINK_BTC",
+      "exchange_id": "bitforex"
+    },
+    {
+      "base": "LINK",
+      "quote": "BTC",
+      "pair_id": "LINK_BTC",
+      "exchange_id": "whitebit"
+    },
+    {
+      "base": "LINK",
+      "quote": "BTC",
+      "pair_id": "LINK_BTC",
+      "exchange_id": "okex_korea"
+    },
+    {
+      "base": "LINK",
+      "quote": "BTC",
+      "pair_id": "LINK_BTC",
+      "exchange_id": "bittrex"
+    },
+    {
+      "base": "LINK",
+      "quote": "ETH",
+      "pair_id": "LINK_ETH",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "LINK",
+      "quote": "USD",
+      "pair_id": "LINK_USD",
+      "exchange_id": "bittrex"
+    },
+    {
+      "base": "LINK",
+      "quote": "USD",
+      "pair_id": "LINK_USD",
+      "exchange_id": "p2pb2b"
+    },
+    {
+      "base": "0X514910771AF9CA656AF840DFF83E8264ECF986CA",
+      "quote": "USDC",
+      "pair_id": "0X514910771AF9CA656AF840DFF83E8264ECF986CA_USDC",
+      "exchange_id": "dodo"
+    },
+    {
+      "base": "LINK",
+      "quote": "USDT",
+      "pair_id": "LINK_USDT",
+      "exchange_id": "bibox"
+    },
+    {
+      "base": "LINK",
+      "quote": "TRY",
+      "pair_id": "LINK_TRY",
+      "exchange_id": "paribu"
+    },
+    {
+      "base": "LINK",
+      "quote": "CRO",
+      "pair_id": "LINK_CRO",
+      "exchange_id": "crypto_com"
+    },
+    {
+      "base": "LINK",
+      "quote": "USDT",
+      "pair_id": "LINK_USDT",
+      "exchange_id": "bigone"
+    },
+    {
+      "base": "LINK",
+      "quote": "ETH",
+      "pair_id": "LINK_ETH",
+      "exchange_id": "bitcoin_com"
+    },
+    {
+      "base": "LINK",
+      "quote": "USDT",
+      "pair_id": "LINK_USDT",
+      "exchange_id": "decoin"
+    },
+    {
+      "base": "LINK",
+      "quote": "USD",
+      "pair_id": "LINK_USD",
+      "exchange_id": "tokenize"
+    },
+    {
+      "base": "LINK",
+      "quote": "ETH",
+      "pair_id": "LINK_ETH",
+      "exchange_id": "hitbtc"
+    },
+    {
+      "base": "LINK",
+      "quote": "BTC",
+      "pair_id": "LINK_BTC",
+      "exchange_id": "gemini"
+    },
+    {
+      "base": "LINK",
+      "quote": "USDT",
+      "pair_id": "LINK_USDT",
+      "exchange_id": "biki"
+    },
+    {
+      "base": "LINK",
+      "quote": "USDT",
+      "pair_id": "LINK_USDT",
+      "exchange_id": "bittrex"
+    },
+    {
+      "base": "LINK",
+      "quote": "USDT",
+      "pair_id": "LINK_USDT",
+      "exchange_id": "indoex"
+    },
+    {
+      "base": "LINK",
+      "quote": "USDT",
+      "pair_id": "LINK_USDT",
+      "exchange_id": "bilaxy"
+    },
+    {
+      "base": "LINK",
+      "quote": "EUR",
+      "pair_id": "LINK_EUR",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "LINK",
+      "quote": "USDT",
+      "pair_id": "LINK_USDT",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "LINK",
+      "quote": "USDT",
+      "pair_id": "LINK_USDT",
+      "exchange_id": "coinex"
+    },
+    {
+      "base": "LINK",
+      "quote": "BTC",
+      "pair_id": "LINK_BTC",
+      "exchange_id": "binance_us"
+    },
+    {
+      "base": "LINK",
+      "quote": "CNC",
+      "pair_id": "LINK_CNC",
+      "exchange_id": "aex"
+    },
+    {
+      "base": "LINK",
+      "quote": "USDT",
+      "pair_id": "LINK_USDT",
+      "exchange_id": "mxc"
+    },
+    {
+      "base": "LINK",
+      "quote": "ETH",
+      "pair_id": "LINK_ETH",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "LINK",
+      "quote": "TUSD",
+      "pair_id": "LINK_TUSD",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "LINK",
+      "quote": "ETH",
+      "pair_id": "LINK_ETH",
+      "exchange_id": "indoex"
+    },
+    {
+      "base": "LINK",
+      "quote": "ETH",
+      "pair_id": "LINK_ETH",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "LINK",
+      "quote": "USDT",
+      "pair_id": "LINK_USDT",
+      "exchange_id": "emirex"
+    },
+    {
+      "base": "LINK",
+      "quote": "ETH",
+      "pair_id": "LINK_ETH",
+      "exchange_id": "bitmax"
+    },
+    {
+      "base": "LINK",
+      "quote": "KRW",
+      "pair_id": "LINK_KRW",
+      "exchange_id": "coinone"
+    },
+    {
+      "base": "LINK",
+      "quote": "ETH",
+      "pair_id": "LINK_ETH",
+      "exchange_id": "okex_korea"
+    },
+    {
+      "base": "LINK",
+      "quote": "USDT",
+      "pair_id": "LINK_USDT",
+      "exchange_id": "nami_exchange"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 1000000000,
+    "total_supply": 1000000000,
+    "circulating_supply": 394509556.43444455
+  }
+}

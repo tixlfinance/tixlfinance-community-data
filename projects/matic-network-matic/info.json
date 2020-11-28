@@ -1,0 +1,519 @@
+{
+  "name": "Matic Network",
+  "symbol": "MATIC",
+  "website": "https://matic.network",
+  "coingecko_id": "matic-network",
+  "coin_api_id": "MATIC-NETWORK",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://www.twitter.com/maticnetwork",
+      "search_strings": [
+        "$MATIC"
+      ]
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/maticnetwork/"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "MATIC",
+      "quote": "USDT",
+      "pair_id": "MATIC_USDT",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "MATIC",
+      "quote": "BTC",
+      "pair_id": "MATIC_BTC",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "MATIC",
+      "quote": "USDT",
+      "pair_id": "MATIC_USDT",
+      "exchange_id": "nami_exchange"
+    },
+    {
+      "base": "MATIC",
+      "quote": "USDT",
+      "pair_id": "MATIC_USDT",
+      "exchange_id": "mxc"
+    },
+    {
+      "base": "MATIC",
+      "quote": "BTC",
+      "pair_id": "MATIC_BTC",
+      "exchange_id": "hitbtc"
+    },
+    {
+      "base": "MATIC",
+      "quote": "BUSD",
+      "pair_id": "MATIC_BUSD",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "MATIC",
+      "quote": "USDT",
+      "pair_id": "MATIC_USDT",
+      "exchange_id": "cointiger"
+    },
+    {
+      "base": "MATIC",
+      "quote": "USDT",
+      "pair_id": "MATIC_USDT",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "MATIC",
+      "quote": "USDT",
+      "pair_id": "MATIC_USDT",
+      "exchange_id": "bitmax"
+    },
+    {
+      "base": "MATIC",
+      "quote": "USDT",
+      "pair_id": "MATIC_USDT",
+      "exchange_id": "bkex"
+    },
+    {
+      "base": "MATIC",
+      "quote": "USDT",
+      "pair_id": "MATIC_USDT",
+      "exchange_id": "bilaxy"
+    },
+    {
+      "base": "MATIC",
+      "quote": "KRW",
+      "pair_id": "MATIC_KRW",
+      "exchange_id": "coinone"
+    },
+    {
+      "base": "MATIC",
+      "quote": "BNB",
+      "pair_id": "MATIC_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "MATIC",
+      "quote": "INR",
+      "pair_id": "MATIC_INR",
+      "exchange_id": "wazirx"
+    },
+    {
+      "base": "MATIC",
+      "quote": "USDT",
+      "pair_id": "MATIC_USDT",
+      "exchange_id": "wazirx"
+    },
+    {
+      "base": "MATIC-84A",
+      "quote": "BNB",
+      "pair_id": "MATIC-84A_BNB",
+      "exchange_id": "binance_dex"
+    },
+    {
+      "base": "MATIC",
+      "quote": "USDT",
+      "pair_id": "MATIC_USDT",
+      "exchange_id": "whitebit"
+    },
+    {
+      "base": "MATIC",
+      "quote": "USDT",
+      "pair_id": "MATIC_USDT",
+      "exchange_id": "aex"
+    },
+    {
+      "base": "MATIC",
+      "quote": "USD",
+      "pair_id": "MATIC_USD",
+      "exchange_id": "whitebit"
+    },
+    {
+      "base": "MATIC",
+      "quote": "USD",
+      "pair_id": "MATIC_USD",
+      "exchange_id": "binance_us"
+    },
+    {
+      "base": "MATIC",
+      "quote": "USDT",
+      "pair_id": "MATIC_USDT",
+      "exchange_id": "emirex"
+    },
+    {
+      "base": "0X7D1AFA7B718FB893DB30A3ABC0CFC608AACFEBB0",
+      "quote": "ETH",
+      "pair_id": "0X7D1AFA7B718FB893DB30A3ABC0CFC608AACFEBB0_ETH",
+      "exchange_id": "uniswap"
+    },
+    {
+      "base": "MATIC",
+      "quote": "BTC",
+      "pair_id": "MATIC_BTC",
+      "exchange_id": "wazirx"
+    },
+    {
+      "base": "MATIC",
+      "quote": "USDT",
+      "pair_id": "MATIC_USDT",
+      "exchange_id": "bw"
+    },
+    {
+      "base": "MATIC",
+      "quote": "USDT",
+      "pair_id": "MATIC_USDT",
+      "exchange_id": "probit"
+    },
+    {
+      "base": "MATIC",
+      "quote": "KRW",
+      "pair_id": "MATIC_KRW",
+      "exchange_id": "probit"
+    },
+    {
+      "base": "MATIC",
+      "quote": "USDT",
+      "pair_id": "MATIC_USDT",
+      "exchange_id": "atomars"
+    },
+    {
+      "base": "MATIC",
+      "quote": "USD",
+      "pair_id": "MATIC_USD",
+      "exchange_id": "ftx_spot"
+    },
+    {
+      "base": "MATIC",
+      "quote": "BTC",
+      "pair_id": "MATIC_BTC",
+      "exchange_id": "whitebit"
+    },
+    {
+      "base": "MATIC",
+      "quote": "BTC",
+      "pair_id": "MATIC_BTC",
+      "exchange_id": "poloniex"
+    },
+    {
+      "base": "MATIC",
+      "quote": "BTC",
+      "pair_id": "MATIC_BTC",
+      "exchange_id": "probit"
+    },
+    {
+      "base": "MATIC",
+      "quote": "BTC",
+      "pair_id": "MATIC_BTC",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "MATIC",
+      "quote": "USDT",
+      "pair_id": "MATIC_USDT",
+      "exchange_id": "coinex"
+    },
+    {
+      "base": "MATIC",
+      "quote": "BTC",
+      "pair_id": "MATIC_BTC",
+      "exchange_id": "bittrex"
+    },
+    {
+      "base": "MATIC",
+      "quote": "IDR",
+      "pair_id": "MATIC_IDR",
+      "exchange_id": "indodax"
+    },
+    {
+      "base": "MATIC",
+      "quote": "BTC",
+      "pair_id": "MATIC_BTC",
+      "exchange_id": "bitforex"
+    },
+    {
+      "base": "MATIC",
+      "quote": "BTC",
+      "pair_id": "MATIC_BTC",
+      "exchange_id": "atomars"
+    },
+    {
+      "base": "MATIC",
+      "quote": "BTC",
+      "pair_id": "MATIC_BTC",
+      "exchange_id": "bitmart"
+    },
+    {
+      "base": "MATIC",
+      "quote": "BTC",
+      "pair_id": "MATIC_BTC",
+      "exchange_id": "vcc"
+    },
+    {
+      "base": "MATIC",
+      "quote": "USDT",
+      "pair_id": "MATIC_USDT",
+      "exchange_id": "vcc"
+    },
+    {
+      "base": "MATIC",
+      "quote": "BTC",
+      "pair_id": "MATIC_BTC",
+      "exchange_id": "bitcoin_com"
+    },
+    {
+      "base": "MATIC",
+      "quote": "EUR",
+      "pair_id": "MATIC_EUR",
+      "exchange_id": "cex"
+    },
+    {
+      "base": "MATIC",
+      "quote": "USD",
+      "pair_id": "MATIC_USD",
+      "exchange_id": "cex"
+    },
+    {
+      "base": "MATIC",
+      "quote": "USDT",
+      "pair_id": "MATIC_USDT",
+      "exchange_id": "cex"
+    },
+    {
+      "base": "MATIC",
+      "quote": "BTC",
+      "pair_id": "MATIC_BTC",
+      "exchange_id": "omgfin"
+    },
+    {
+      "base": "MATIC",
+      "quote": "ETH",
+      "pair_id": "MATIC_ETH",
+      "exchange_id": "omgfin"
+    },
+    {
+      "base": "MATIC",
+      "quote": "USDT",
+      "pair_id": "MATIC_USDT",
+      "exchange_id": "omgfin"
+    },
+    {
+      "base": "MATIC",
+      "quote": "USDT",
+      "pair_id": "MATIC_USDT",
+      "exchange_id": "poloniex"
+    },
+    {
+      "base": "MATIC",
+      "quote": "BTC",
+      "pair_id": "MATIC_BTC",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "MATIC",
+      "quote": "BTC",
+      "pair_id": "MATIC_BTC",
+      "exchange_id": "emirex"
+    },
+    {
+      "base": "MATIC",
+      "quote": "USDT",
+      "pair_id": "MATIC_USDT",
+      "exchange_id": "bitmart"
+    },
+    {
+      "base": "MATIC",
+      "quote": "ETH",
+      "pair_id": "MATIC_ETH",
+      "exchange_id": "catex"
+    },
+    {
+      "base": "MATIC",
+      "quote": "BTC",
+      "pair_id": "MATIC_BTC",
+      "exchange_id": "catex"
+    },
+    {
+      "base": "MATIC",
+      "quote": "ETH",
+      "pair_id": "MATIC_ETH",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "MATIC",
+      "quote": "XRP",
+      "pair_id": "MATIC_XRP",
+      "exchange_id": "bitrue"
+    },
+    {
+      "base": "MATIC",
+      "quote": "USDT",
+      "pair_id": "MATIC_USDT",
+      "exchange_id": "bitrue"
+    },
+    {
+      "base": "MATIC",
+      "quote": "BTC",
+      "pair_id": "MATIC_BTC",
+      "exchange_id": "coinex"
+    },
+    {
+      "base": "MATIC",
+      "quote": "INR",
+      "pair_id": "MATIC_INR",
+      "exchange_id": "zebpay"
+    },
+    {
+      "base": "MATIC",
+      "quote": "USDT",
+      "pair_id": "MATIC_USDT",
+      "exchange_id": "btcnext"
+    },
+    {
+      "base": "MATIC",
+      "quote": "ETH",
+      "pair_id": "MATIC_ETH",
+      "exchange_id": "kyber_network"
+    },
+    {
+      "base": "MATIC",
+      "quote": "INR",
+      "pair_id": "MATIC_INR",
+      "exchange_id": "bitbns"
+    },
+    {
+      "base": "MATIC",
+      "quote": "AUD",
+      "pair_id": "MATIC_AUD",
+      "exchange_id": "zebpay"
+    },
+    {
+      "base": "MATIC",
+      "quote": "GBP",
+      "pair_id": "MATIC_GBP",
+      "exchange_id": "cex"
+    },
+    {
+      "base": "MATIC",
+      "quote": "BUSD",
+      "pair_id": "MATIC_BUSD",
+      "exchange_id": "binance_us"
+    },
+    {
+      "base": "MATIC",
+      "quote": "BTC",
+      "pair_id": "MATIC_BTC",
+      "exchange_id": "bitmax"
+    },
+    {
+      "base": "0X7D1AFA7B718FB893DB30A3ABC0CFC608AACFEBB0",
+      "quote": "ETH",
+      "pair_id": "0X7D1AFA7B718FB893DB30A3ABC0CFC608AACFEBB0_ETH",
+      "exchange_id": "balancer"
+    },
+    {
+      "base": "MATIC",
+      "quote": "USDT",
+      "pair_id": "MATIC_USDT",
+      "exchange_id": "bittrex"
+    },
+    {
+      "base": "MATIC",
+      "quote": "BTC",
+      "pair_id": "MATIC_BTC",
+      "exchange_id": "nice_hash"
+    },
+    {
+      "base": "MATIC",
+      "quote": "ETH",
+      "pair_id": "MATIC_ETH",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "MATIC",
+      "quote": "PAX",
+      "pair_id": "MATIC_PAX",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "MATIC",
+      "quote": "TRX",
+      "pair_id": "MATIC_TRX",
+      "exchange_id": "poloniex"
+    },
+    {
+      "base": "MATIC",
+      "quote": "BTC",
+      "pair_id": "MATIC_BTC",
+      "exchange_id": "coinsuper"
+    },
+    {
+      "base": "MATIC",
+      "quote": "BTC",
+      "pair_id": "MATIC_BTC",
+      "exchange_id": "bitrue"
+    },
+    {
+      "base": "0X7D1AFA7B718FB893DB30A3ABC0CFC608AACFEBB0",
+      "quote": "ETH",
+      "pair_id": "0X7D1AFA7B718FB893DB30A3ABC0CFC608AACFEBB0_ETH",
+      "exchange_id": "one_inch"
+    },
+    {
+      "base": "MATIC",
+      "quote": "USDT",
+      "pair_id": "MATIC_USDT",
+      "exchange_id": "whale_ex"
+    },
+    {
+      "base": "MATIC",
+      "quote": "ETH",
+      "pair_id": "MATIC_ETH",
+      "exchange_id": "uniswap_v1"
+    },
+    {
+      "base": "MATIC",
+      "quote": "KRW",
+      "pair_id": "MATIC_KRW",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "MATIC",
+      "quote": "EUR",
+      "pair_id": "MATIC_EUR",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "MATIC",
+      "quote": "USDT",
+      "pair_id": "MATIC_USDT",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "MATIC",
+      "quote": "GBP",
+      "pair_id": "MATIC_GBP",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "MATIC",
+      "quote": "USDC",
+      "pair_id": "MATIC_USDC",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "MATIC",
+      "quote": "TUSD",
+      "pair_id": "MATIC_TUSD",
+      "exchange_id": "dove_wallet"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 0,
+    "total_supply": 10000000000,
+    "circulating_supply": 4757759104
+  }
+}

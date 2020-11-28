@@ -1,0 +1,627 @@
+{
+  "name": "VeChain",
+  "symbol": "VET",
+  "website": "https://www.vechain.org",
+  "coingecko_id": "vechain",
+  "coin_api_id": "VECHAIN",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://www.twitter.com/vechainofficial",
+      "search_strings": [
+        "$VET"
+      ]
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/Vechain"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "VET",
+      "quote": "BTC",
+      "pair_id": "VET_BTC",
+      "exchange_id": "oceanex"
+    },
+    {
+      "base": "VET",
+      "quote": "USDT",
+      "pair_id": "VET_USDT",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "VET",
+      "quote": "USDT",
+      "pair_id": "VET_USDT",
+      "exchange_id": "oceanex"
+    },
+    {
+      "base": "VET",
+      "quote": "BTC",
+      "pair_id": "VET_BTC",
+      "exchange_id": "bitcoin_com"
+    },
+    {
+      "base": "VET",
+      "quote": "BTC",
+      "pair_id": "VET_BTC",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "VET",
+      "quote": "BTC",
+      "pair_id": "VET_BTC",
+      "exchange_id": "hitbtc"
+    },
+    {
+      "base": "VET",
+      "quote": "USDT",
+      "pair_id": "VET_USDT",
+      "exchange_id": "crypto_com"
+    },
+    {
+      "base": "VET",
+      "quote": "USDT",
+      "pair_id": "VET_USDT",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "VET",
+      "quote": "USDT",
+      "pair_id": "VET_USDT",
+      "exchange_id": "lbank"
+    },
+    {
+      "base": "VET",
+      "quote": "USDT",
+      "pair_id": "VET_USDT",
+      "exchange_id": "mxc"
+    },
+    {
+      "base": "VET",
+      "quote": "BTC",
+      "pair_id": "VET_BTC",
+      "exchange_id": "crypto_com"
+    },
+    {
+      "base": "VET",
+      "quote": "ETH",
+      "pair_id": "VET_ETH",
+      "exchange_id": "hitbtc"
+    },
+    {
+      "base": "VET",
+      "quote": "USD",
+      "pair_id": "VET_USD",
+      "exchange_id": "binance_us"
+    },
+    {
+      "base": "VET",
+      "quote": "ETH",
+      "pair_id": "VET_ETH",
+      "exchange_id": "oceanex"
+    },
+    {
+      "base": "VET",
+      "quote": "KRW",
+      "pair_id": "VET_KRW",
+      "exchange_id": "bithumb"
+    },
+    {
+      "base": "VET",
+      "quote": "ETH",
+      "pair_id": "VET_ETH",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "VET",
+      "quote": "BTC",
+      "pair_id": "VET_BTC",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "VET",
+      "quote": "BUSD",
+      "pair_id": "VET_BUSD",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "VET",
+      "quote": "USDT",
+      "pair_id": "VET_USDT",
+      "exchange_id": "bitmax"
+    },
+    {
+      "base": "VET",
+      "quote": "USDT",
+      "pair_id": "VET_USDT",
+      "exchange_id": "kucoin"
+    },
+    {
+      "base": "VET",
+      "quote": "KRW",
+      "pair_id": "VET_KRW",
+      "exchange_id": "upbit"
+    },
+    {
+      "base": "VET",
+      "quote": "USDT",
+      "pair_id": "VET_USDT",
+      "exchange_id": "binance_us"
+    },
+    {
+      "base": "VET",
+      "quote": "USDT",
+      "pair_id": "VET_USDT",
+      "exchange_id": "bkex"
+    },
+    {
+      "base": "XRP",
+      "quote": "VET",
+      "pair_id": "XRP_VET",
+      "exchange_id": "oceanex"
+    },
+    {
+      "base": "VET",
+      "quote": "USDT",
+      "pair_id": "VET_USDT",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "VET",
+      "quote": "BNB",
+      "pair_id": "VET_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "VET",
+      "quote": "ETH",
+      "pair_id": "VET_ETH",
+      "exchange_id": "kucoin"
+    },
+    {
+      "base": "VET",
+      "quote": "BTC",
+      "pair_id": "VET_BTC",
+      "exchange_id": "kucoin"
+    },
+    {
+      "base": "VET",
+      "quote": "BTC",
+      "pair_id": "VET_BTC",
+      "exchange_id": "bittrex"
+    },
+    {
+      "base": "VET",
+      "quote": "ETH",
+      "pair_id": "VET_ETH",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "VET",
+      "quote": "USD",
+      "pair_id": "VET_USD",
+      "exchange_id": "bitfinex"
+    },
+    {
+      "base": "VET",
+      "quote": "USDT",
+      "pair_id": "VET_USDT",
+      "exchange_id": "gate"
+    },
+    {
+      "base": "VET",
+      "quote": "ETH",
+      "pair_id": "VET_ETH",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "VET",
+      "quote": "USDT",
+      "pair_id": "VET_USDT",
+      "exchange_id": "bitmart"
+    },
+    {
+      "base": "LTC",
+      "quote": "VET",
+      "pair_id": "LTC_VET",
+      "exchange_id": "oceanex"
+    },
+    {
+      "base": "OCE",
+      "quote": "VET",
+      "pair_id": "OCE_VET",
+      "exchange_id": "oceanex"
+    },
+    {
+      "base": "VET",
+      "quote": "BTC",
+      "pair_id": "VET_BTC",
+      "exchange_id": "binance_us"
+    },
+    {
+      "base": "XLM",
+      "quote": "VET",
+      "pair_id": "XLM_VET",
+      "exchange_id": "oceanex"
+    },
+    {
+      "base": "VET",
+      "quote": "CRO",
+      "pair_id": "VET_CRO",
+      "exchange_id": "crypto_com"
+    },
+    {
+      "base": "LINK",
+      "quote": "VET",
+      "pair_id": "LINK_VET",
+      "exchange_id": "oceanex"
+    },
+    {
+      "base": "VET",
+      "quote": "ETH",
+      "pair_id": "VET_ETH",
+      "exchange_id": "bitmart"
+    },
+    {
+      "base": "XTZ",
+      "quote": "VET",
+      "pair_id": "XTZ_VET",
+      "exchange_id": "oceanex"
+    },
+    {
+      "base": "OMG",
+      "quote": "VET",
+      "pair_id": "OMG_VET",
+      "exchange_id": "oceanex"
+    },
+    {
+      "base": "VTHO",
+      "quote": "VET",
+      "pair_id": "VTHO_VET",
+      "exchange_id": "oceanex"
+    },
+    {
+      "base": "VET",
+      "quote": "USDT",
+      "pair_id": "VET_USDT",
+      "exchange_id": "bittrex"
+    },
+    {
+      "base": "VET",
+      "quote": "BTC",
+      "pair_id": "VET_BTC",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "VET",
+      "quote": "BTC",
+      "pair_id": "VET_BTC",
+      "exchange_id": "bitfinex"
+    },
+    {
+      "base": "DASH",
+      "quote": "VET",
+      "pair_id": "DASH_VET",
+      "exchange_id": "oceanex"
+    },
+    {
+      "base": "ZRX",
+      "quote": "VET",
+      "pair_id": "ZRX_VET",
+      "exchange_id": "oceanex"
+    },
+    {
+      "base": "ZEC",
+      "quote": "VET",
+      "pair_id": "ZEC_VET",
+      "exchange_id": "oceanex"
+    },
+    {
+      "base": "DCR",
+      "quote": "VET",
+      "pair_id": "DCR_VET",
+      "exchange_id": "oceanex"
+    },
+    {
+      "base": "ATOM",
+      "quote": "VET",
+      "pair_id": "ATOM_VET",
+      "exchange_id": "oceanex"
+    },
+    {
+      "base": "MKR",
+      "quote": "VET",
+      "pair_id": "MKR_VET",
+      "exchange_id": "oceanex"
+    },
+    {
+      "base": "ETC",
+      "quote": "VET",
+      "pair_id": "ETC_VET",
+      "exchange_id": "oceanex"
+    },
+    {
+      "base": "VET",
+      "quote": "HUSD",
+      "pair_id": "VET_HUSD",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "VET",
+      "quote": "USDT",
+      "pair_id": "VET_USDT",
+      "exchange_id": "wazirx"
+    },
+    {
+      "base": "VET",
+      "quote": "USDT",
+      "pair_id": "VET_USDT",
+      "exchange_id": "atomars"
+    },
+    {
+      "base": "VET",
+      "quote": "ETH",
+      "pair_id": "VET_ETH",
+      "exchange_id": "lbank"
+    },
+    {
+      "base": "VET",
+      "quote": "BTC",
+      "pair_id": "VET_BTC",
+      "exchange_id": "lbank"
+    },
+    {
+      "base": "BAT",
+      "quote": "VET",
+      "pair_id": "BAT_VET",
+      "exchange_id": "oceanex"
+    },
+    {
+      "base": "BNB",
+      "quote": "VET",
+      "pair_id": "BNB_VET",
+      "exchange_id": "oceanex"
+    },
+    {
+      "base": "DOGE",
+      "quote": "VET",
+      "pair_id": "DOGE_VET",
+      "exchange_id": "oceanex"
+    },
+    {
+      "base": "VET",
+      "quote": "BTC",
+      "pair_id": "VET_BTC",
+      "exchange_id": "bigone"
+    },
+    {
+      "base": "VET",
+      "quote": "BTC",
+      "pair_id": "VET_BTC",
+      "exchange_id": "bitmart"
+    },
+    {
+      "base": "VET",
+      "quote": "USDT",
+      "pair_id": "VET_USDT",
+      "exchange_id": "coinex"
+    },
+    {
+      "base": "SHA",
+      "quote": "VET",
+      "pair_id": "SHA_VET",
+      "exchange_id": "oceanex"
+    },
+    {
+      "base": "RVN",
+      "quote": "VET",
+      "pair_id": "RVN_VET",
+      "exchange_id": "oceanex"
+    },
+    {
+      "base": "VET",
+      "quote": "ETH",
+      "pair_id": "VET_ETH",
+      "exchange_id": "latoken"
+    },
+    {
+      "base": "VET",
+      "quote": "BTC",
+      "pair_id": "VET_BTC",
+      "exchange_id": "atomars"
+    },
+    {
+      "base": "VET",
+      "quote": "USDT",
+      "pair_id": "VET_USDT",
+      "exchange_id": "latoken"
+    },
+    {
+      "base": "VET",
+      "quote": "USDT",
+      "pair_id": "VET_USDT",
+      "exchange_id": "vcc"
+    },
+    {
+      "base": "VET",
+      "quote": "USDT",
+      "pair_id": "VET_USDT",
+      "exchange_id": "bitrue"
+    },
+    {
+      "base": "VET",
+      "quote": "BTC",
+      "pair_id": "VET_BTC",
+      "exchange_id": "bitrue"
+    },
+    {
+      "base": "VET",
+      "quote": "ETH",
+      "pair_id": "VET_ETH",
+      "exchange_id": "bitrue"
+    },
+    {
+      "base": "VET",
+      "quote": "BTC",
+      "pair_id": "VET_BTC",
+      "exchange_id": "bitmax"
+    },
+    {
+      "base": "ADA",
+      "quote": "VET",
+      "pair_id": "ADA_VET",
+      "exchange_id": "oceanex"
+    },
+    {
+      "base": "BCH",
+      "quote": "VET",
+      "pair_id": "BCH_VET",
+      "exchange_id": "oceanex"
+    },
+    {
+      "base": "VET",
+      "quote": "ETH",
+      "pair_id": "VET_ETH",
+      "exchange_id": "gate"
+    },
+    {
+      "base": "HOT",
+      "quote": "VET",
+      "pair_id": "HOT_VET",
+      "exchange_id": "oceanex"
+    },
+    {
+      "base": "VET",
+      "quote": "USDT",
+      "pair_id": "VET_USDT",
+      "exchange_id": "bitasset"
+    },
+    {
+      "base": "PLA",
+      "quote": "VET",
+      "pair_id": "PLA_VET",
+      "exchange_id": "oceanex"
+    },
+    {
+      "base": "VET",
+      "quote": "XRP",
+      "pair_id": "VET_XRP",
+      "exchange_id": "bitrue"
+    },
+    {
+      "base": "VET",
+      "quote": "ETH",
+      "pair_id": "VET_ETH",
+      "exchange_id": "sistemkoin"
+    },
+    {
+      "base": "VET",
+      "quote": "BTC",
+      "pair_id": "VET_BTC",
+      "exchange_id": "sistemkoin"
+    },
+    {
+      "base": "VET",
+      "quote": "TRY",
+      "pair_id": "VET_TRY",
+      "exchange_id": "sistemkoin"
+    },
+    {
+      "base": "VET",
+      "quote": "BTC",
+      "pair_id": "VET_BTC",
+      "exchange_id": "coinex"
+    },
+    {
+      "base": "EHRT",
+      "quote": "VET",
+      "pair_id": "EHRT_VET",
+      "exchange_id": "oceanex"
+    },
+    {
+      "base": "VET",
+      "quote": "ETH",
+      "pair_id": "VET_ETH",
+      "exchange_id": "coinex"
+    },
+    {
+      "base": "VET",
+      "quote": "BCH",
+      "pair_id": "VET_BCH",
+      "exchange_id": "coinex"
+    },
+    {
+      "base": "VET",
+      "quote": "BTC",
+      "pair_id": "VET_BTC",
+      "exchange_id": "livecoin"
+    },
+    {
+      "base": "VET",
+      "quote": "ETH",
+      "pair_id": "VET_ETH",
+      "exchange_id": "dragonex"
+    },
+    {
+      "base": "VET",
+      "quote": "USDT",
+      "pair_id": "VET_USDT",
+      "exchange_id": "huobi_korea"
+    },
+    {
+      "base": "VET",
+      "quote": "BTC",
+      "pair_id": "VET_BTC",
+      "exchange_id": "huobi_korea"
+    },
+    {
+      "base": "VET",
+      "quote": "INR",
+      "pair_id": "VET_INR",
+      "exchange_id": "bitbns"
+    },
+    {
+      "base": "VET",
+      "quote": "USDT",
+      "pair_id": "VET_USDT",
+      "exchange_id": "hoo"
+    },
+    {
+      "base": "HAI",
+      "quote": "VET",
+      "pair_id": "HAI_VET",
+      "exchange_id": "oceanex"
+    },
+    {
+      "base": "VET",
+      "quote": "BTC",
+      "pair_id": "VET_BTC",
+      "exchange_id": "upbit"
+    },
+    {
+      "base": "JUR",
+      "quote": "VET",
+      "pair_id": "JUR_VET",
+      "exchange_id": "oceanex"
+    },
+    {
+      "base": "BTR",
+      "quote": "VET",
+      "pair_id": "BTR_VET",
+      "exchange_id": "oceanex"
+    },
+    {
+      "base": "VET",
+      "quote": "ETH",
+      "pair_id": "VET_ETH",
+      "exchange_id": "livecoin"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 0,
+    "total_supply": 86712634466,
+    "circulating_supply": 64850448123
+  }
+}

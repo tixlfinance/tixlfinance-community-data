@@ -1,0 +1,253 @@
+{
+  "name": "THORChain",
+  "symbol": "RUNE",
+  "website": "https://thorchain.org/",
+  "coingecko_id": "thorchain",
+  "coin_api_id": "THORCHAIN",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://www.twitter.com/thorchain_org",
+      "search_strings": [
+        "$RUNE"
+      ]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/thorchain.org"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/thorchain"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "BNB.BTCB-1DE",
+      "quote": "RUNE",
+      "pair_id": "BNB.BTCB-1DE_RUNE",
+      "exchange_id": "bepswap"
+    },
+    {
+      "base": "RUNE",
+      "quote": "USDT",
+      "pair_id": "RUNE_USDT",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "RUNE",
+      "quote": "USDT",
+      "pair_id": "RUNE_USDT",
+      "exchange_id": "mxc"
+    },
+    {
+      "base": "BNB.BUSD-BD1",
+      "quote": "RUNE",
+      "pair_id": "BNB.BUSD-BD1_RUNE",
+      "exchange_id": "bepswap"
+    },
+    {
+      "base": "RUNE",
+      "quote": "BTC",
+      "pair_id": "RUNE_BTC",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "BNB.ETH-1C9",
+      "quote": "RUNE",
+      "pair_id": "BNB.ETH-1C9_RUNE",
+      "exchange_id": "bepswap"
+    },
+    {
+      "base": "RUNE",
+      "quote": "BTC",
+      "pair_id": "RUNE_BTC",
+      "exchange_id": "cointiger"
+    },
+    {
+      "base": "RUNE",
+      "quote": "USDT",
+      "pair_id": "RUNE_USDT",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "RUNE",
+      "quote": "BNB",
+      "pair_id": "RUNE_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "RUNE",
+      "quote": "BUSD",
+      "pair_id": "RUNE_BUSD",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "RUNE",
+      "quote": "USDT",
+      "pair_id": "RUNE_USDT",
+      "exchange_id": "bitmax"
+    },
+    {
+      "base": "RUNE",
+      "quote": "BTC",
+      "pair_id": "RUNE_BTC",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "BNB.TWT-8C2",
+      "quote": "RUNE",
+      "pair_id": "BNB.TWT-8C2_RUNE",
+      "exchange_id": "bepswap"
+    },
+    {
+      "base": "BNB.AVA-645",
+      "quote": "RUNE",
+      "pair_id": "BNB.AVA-645_RUNE",
+      "exchange_id": "bepswap"
+    },
+    {
+      "base": "BNB.FTM-A64",
+      "quote": "RUNE",
+      "pair_id": "BNB.FTM-A64_RUNE",
+      "exchange_id": "bepswap"
+    },
+    {
+      "base": "RUNE",
+      "quote": "USDT",
+      "pair_id": "RUNE_USDT",
+      "exchange_id": "bilaxy"
+    },
+    {
+      "base": "RUNE-B1A",
+      "quote": "BNB",
+      "pair_id": "RUNE-B1A_BNB",
+      "exchange_id": "binance_dex"
+    },
+    {
+      "base": "BNB.BCH-1FD",
+      "quote": "RUNE",
+      "pair_id": "BNB.BCH-1FD_RUNE",
+      "exchange_id": "bepswap"
+    },
+    {
+      "base": "RUNE",
+      "quote": "USDT",
+      "pair_id": "RUNE_USDT",
+      "exchange_id": "atomars"
+    },
+    {
+      "base": "RUNE",
+      "quote": "USD",
+      "pair_id": "RUNE_USD",
+      "exchange_id": "ftx_spot"
+    },
+    {
+      "base": "RUNE",
+      "quote": "USDT",
+      "pair_id": "RUNE_USDT",
+      "exchange_id": "probit"
+    },
+    {
+      "base": "RUNE",
+      "quote": "USDT",
+      "pair_id": "RUNE_USDT",
+      "exchange_id": "hoo"
+    },
+    {
+      "base": "RUNE",
+      "quote": "BTC",
+      "pair_id": "RUNE_BTC",
+      "exchange_id": "atomars"
+    },
+    {
+      "base": "RUNE",
+      "quote": "KRW",
+      "pair_id": "RUNE_KRW",
+      "exchange_id": "probit"
+    },
+    {
+      "base": "RUNE",
+      "quote": "USDT",
+      "pair_id": "RUNE_USDT",
+      "exchange_id": "ftx_spot"
+    },
+    {
+      "base": "RUNE",
+      "quote": "BTC",
+      "pair_id": "RUNE_BTC",
+      "exchange_id": "probit"
+    },
+    {
+      "base": "BNB.SWINGBY-888",
+      "quote": "RUNE",
+      "pair_id": "BNB.SWINGBY-888_RUNE",
+      "exchange_id": "bepswap"
+    },
+    {
+      "base": "RUNE",
+      "quote": "USDT",
+      "pair_id": "RUNE_USDT",
+      "exchange_id": "bithumb_global"
+    },
+    {
+      "base": "BNB.LIT-099",
+      "quote": "RUNE",
+      "pair_id": "BNB.LIT-099_RUNE",
+      "exchange_id": "bepswap"
+    },
+    {
+      "base": "RUNE",
+      "quote": "USDT",
+      "pair_id": "RUNE_USDT",
+      "exchange_id": "vcc"
+    },
+    {
+      "base": "RUNE",
+      "quote": "BTC",
+      "pair_id": "RUNE_BTC",
+      "exchange_id": "vcc"
+    },
+    {
+      "base": "BNB.BNB",
+      "quote": "RUNE",
+      "pair_id": "BNB.BNB_RUNE",
+      "exchange_id": "bepswap"
+    },
+    {
+      "base": "BNB.CAN-677",
+      "quote": "RUNE",
+      "pair_id": "BNB.CAN-677_RUNE",
+      "exchange_id": "bepswap"
+    },
+    {
+      "base": "BNB.SHR-DB6",
+      "quote": "RUNE",
+      "pair_id": "BNB.SHR-DB6_RUNE",
+      "exchange_id": "bepswap"
+    },
+    {
+      "base": "BNB.BZNT-464",
+      "quote": "RUNE",
+      "pair_id": "BNB.BZNT-464_RUNE",
+      "exchange_id": "bepswap"
+    },
+    {
+      "base": "RUNE",
+      "quote": "USDT",
+      "pair_id": "RUNE_USDT",
+      "exchange_id": "multi"
+    },
+    {
+      "base": "BNB.DOS-120",
+      "quote": "RUNE",
+      "pair_id": "BNB.DOS-120_RUNE",
+      "exchange_id": "bepswap"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 500000000,
+    "total_supply": 500000000,
+    "circulating_supply": 218291149.88080728
+  }
+}

@@ -1,0 +1,323 @@
+{
+  "name": "Tellor",
+  "symbol": "TRB",
+  "website": "http://www.tellor.io/",
+  "coingecko_id": "tellor",
+  "coin_api_id": "TELLOR",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://www.twitter.com/WeAreTellor",
+      "search_strings": [
+        "$TRB"
+      ]
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "TRB",
+      "quote": "USDT",
+      "pair_id": "TRB_USDT",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "TRB",
+      "quote": "USDT",
+      "pair_id": "TRB_USDT",
+      "exchange_id": "aex"
+    },
+    {
+      "base": "TRB",
+      "quote": "USDT",
+      "pair_id": "TRB_USDT",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "TRB",
+      "quote": "USDT",
+      "pair_id": "TRB_USDT",
+      "exchange_id": "hoo"
+    },
+    {
+      "base": "TRB",
+      "quote": "USDT",
+      "pair_id": "TRB_USDT",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "TRB",
+      "quote": "USDT",
+      "pair_id": "TRB_USDT",
+      "exchange_id": "p2pb2b"
+    },
+    {
+      "base": "TRB",
+      "quote": "BTC",
+      "pair_id": "TRB_BTC",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "TRB",
+      "quote": "USD",
+      "pair_id": "TRB_USD",
+      "exchange_id": "p2pb2b"
+    },
+    {
+      "base": "TRB",
+      "quote": "BTC",
+      "pair_id": "TRB_BTC",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "TRB",
+      "quote": "BTC",
+      "pair_id": "TRB_BTC",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "TRB",
+      "quote": "USDT",
+      "pair_id": "TRB_USDT",
+      "exchange_id": "bilaxy"
+    },
+    {
+      "base": "TRB",
+      "quote": "USDT",
+      "pair_id": "TRB_USDT",
+      "exchange_id": "bkex"
+    },
+    {
+      "base": "TRB",
+      "quote": "USDT",
+      "pair_id": "TRB_USDT",
+      "exchange_id": "biki"
+    },
+    {
+      "base": "0X0BA45A8B5D5575935B8158A88C631E9F9C95A2E5",
+      "quote": "ETH",
+      "pair_id": "0X0BA45A8B5D5575935B8158A88C631E9F9C95A2E5_ETH",
+      "exchange_id": "uniswap"
+    },
+    {
+      "base": "TRB",
+      "quote": "USDT",
+      "pair_id": "TRB_USDT",
+      "exchange_id": "bibox"
+    },
+    {
+      "base": "TRB",
+      "quote": "BNB",
+      "pair_id": "TRB_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "TRB",
+      "quote": "ETH",
+      "pair_id": "TRB_ETH",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "TRB",
+      "quote": "BTC",
+      "pair_id": "TRB_BTC",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "TRB",
+      "quote": "BUSD",
+      "pair_id": "TRB_BUSD",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "TRB",
+      "quote": "USDT",
+      "pair_id": "TRB_USDT",
+      "exchange_id": "bithumb_global"
+    },
+    {
+      "base": "TRB",
+      "quote": "ETH",
+      "pair_id": "TRB_ETH",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "0X0BA45A8B5D5575935B8158A88C631E9F9C95A2E5",
+      "quote": "USDC",
+      "pair_id": "0X0BA45A8B5D5575935B8158A88C631E9F9C95A2E5_USDC",
+      "exchange_id": "balancer"
+    },
+    {
+      "base": "TRB",
+      "quote": "USDT",
+      "pair_id": "TRB_USDT",
+      "exchange_id": "vcc"
+    },
+    {
+      "base": "TRB",
+      "quote": "BTC",
+      "pair_id": "TRB_BTC",
+      "exchange_id": "vcc"
+    },
+    {
+      "base": "TRB",
+      "quote": "KRW",
+      "pair_id": "TRB_KRW",
+      "exchange_id": "aprobit"
+    },
+    {
+      "base": "TRB",
+      "quote": "USDT",
+      "pair_id": "TRB_USDT",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "TRB",
+      "quote": "USDT",
+      "pair_id": "TRB_USDT",
+      "exchange_id": "gate"
+    },
+    {
+      "base": "TRB",
+      "quote": "USDT",
+      "pair_id": "TRB_USDT",
+      "exchange_id": "poloniex"
+    },
+    {
+      "base": "TRB",
+      "quote": "USDT",
+      "pair_id": "TRB_USDT",
+      "exchange_id": "hbtc"
+    },
+    {
+      "base": "TRB",
+      "quote": "USDT",
+      "pair_id": "TRB_USDT",
+      "exchange_id": "huobi_korea"
+    },
+    {
+      "base": "0X0BA45A8B5D5575935B8158A88C631E9F9C95A2E5",
+      "quote": "ETH",
+      "pair_id": "0X0BA45A8B5D5575935B8158A88C631E9F9C95A2E5_ETH",
+      "exchange_id": "balancer"
+    },
+    {
+      "base": "TRB",
+      "quote": "BTC",
+      "pair_id": "TRB_BTC",
+      "exchange_id": "vitex"
+    },
+    {
+      "base": "TRB",
+      "quote": "ETH",
+      "pair_id": "TRB_ETH",
+      "exchange_id": "biki"
+    },
+    {
+      "base": "0X0BA45A8B5D5575935B8158A88C631E9F9C95A2E5",
+      "quote": "DAI",
+      "pair_id": "0X0BA45A8B5D5575935B8158A88C631E9F9C95A2E5_DAI",
+      "exchange_id": "balancer"
+    },
+    {
+      "base": "TRB",
+      "quote": "ETH",
+      "pair_id": "TRB_ETH",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "TRB",
+      "quote": "PAX",
+      "pair_id": "TRB_PAX",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "TRB",
+      "quote": "USDT",
+      "pair_id": "TRB_USDT",
+      "exchange_id": "bidesk"
+    },
+    {
+      "base": "0X0BA45A8B5D5575935B8158A88C631E9F9C95A2E5",
+      "quote": "ETH",
+      "pair_id": "0X0BA45A8B5D5575935B8158A88C631E9F9C95A2E5_ETH",
+      "exchange_id": "one_inch"
+    },
+    {
+      "base": "TRB",
+      "quote": "ETH",
+      "pair_id": "TRB_ETH",
+      "exchange_id": "huobi_korea"
+    },
+    {
+      "base": "TRB",
+      "quote": "BTC",
+      "pair_id": "TRB_BTC",
+      "exchange_id": "huobi_korea"
+    },
+    {
+      "base": "TRB",
+      "quote": "NGN",
+      "pair_id": "TRB_NGN",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "TRB",
+      "quote": "BTC",
+      "pair_id": "TRB_BTC",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "TRB",
+      "quote": "USDC",
+      "pair_id": "TRB_USDC",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "TRB",
+      "quote": "EUR",
+      "pair_id": "TRB_EUR",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "TRB",
+      "quote": "KRW",
+      "pair_id": "TRB_KRW",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "TRB",
+      "quote": "USDT",
+      "pair_id": "TRB_USDT",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "TRB",
+      "quote": "TUSD",
+      "pair_id": "TRB_TUSD",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "TRB",
+      "quote": "ETH",
+      "pair_id": "TRB_ETH",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "TRB",
+      "quote": "GBP",
+      "pair_id": "TRB_GBP",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "TT",
+      "quote": "ETH",
+      "pair_id": "TT_ETH",
+      "exchange_id": "uniswap_v1"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 1655524.36685715,
+    "total_supply": 1655524.36685715,
+    "circulating_supply": 1575209.0483650914
+  }
+}

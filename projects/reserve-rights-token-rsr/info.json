@@ -1,0 +1,419 @@
+{
+  "name": "Reserve Rights Token",
+  "symbol": "RSR",
+  "website": "https://reserve.org/",
+  "coingecko_id": "reserve-rights-token",
+  "coin_api_id": "RESERVE-RIGHTS-TOKEN",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://www.twitter.com/reserveprotocol",
+      "search_strings": [
+        "$RSR"
+      ]
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "RSR",
+      "quote": "USDT",
+      "pair_id": "RSR_USDT",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "RSR",
+      "quote": "USDT",
+      "pair_id": "RSR_USDT",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "RSR",
+      "quote": "USDT",
+      "pair_id": "RSR_USDT",
+      "exchange_id": "cointiger"
+    },
+    {
+      "base": "RSR",
+      "quote": "USDT",
+      "pair_id": "RSR_USDT",
+      "exchange_id": "coinsbit"
+    },
+    {
+      "base": "RSR",
+      "quote": "USDT",
+      "pair_id": "RSR_USDT",
+      "exchange_id": "mxc"
+    },
+    {
+      "base": "RSR",
+      "quote": "BTC",
+      "pair_id": "RSR_BTC",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "RSR",
+      "quote": "USDT",
+      "pair_id": "RSR_USDT",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "0X8762DB106B2C2A0BCCB3A80D1ED41273552616E8",
+      "quote": "ETH",
+      "pair_id": "0X8762DB106B2C2A0BCCB3A80D1ED41273552616E8_ETH",
+      "exchange_id": "uniswap"
+    },
+    {
+      "base": "RSR",
+      "quote": "USDT",
+      "pair_id": "RSR_USDT",
+      "exchange_id": "bilaxy"
+    },
+    {
+      "base": "RSR",
+      "quote": "USDT",
+      "pair_id": "RSR_USDT",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "RSR",
+      "quote": "BTC",
+      "pair_id": "RSR_BTC",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "RSR",
+      "quote": "ETH",
+      "pair_id": "RSR_ETH",
+      "exchange_id": "mxc"
+    },
+    {
+      "base": "RSR",
+      "quote": "BUSD",
+      "pair_id": "RSR_BUSD",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "RSR",
+      "quote": "BTC",
+      "pair_id": "RSR_BTC",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "RSR",
+      "quote": "USDT",
+      "pair_id": "RSR_USDT",
+      "exchange_id": "bkex"
+    },
+    {
+      "base": "RSR",
+      "quote": "BNB",
+      "pair_id": "RSR_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "RSR",
+      "quote": "USDT",
+      "pair_id": "RSR_USDT",
+      "exchange_id": "digifinex"
+    },
+    {
+      "base": "RSR",
+      "quote": "BTC",
+      "pair_id": "RSR_BTC",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "RSR",
+      "quote": "HT",
+      "pair_id": "RSR_HT",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "RSR",
+      "quote": "USDT",
+      "pair_id": "RSR_USDT",
+      "exchange_id": "bitmart"
+    },
+    {
+      "base": "RSR",
+      "quote": "USDT",
+      "pair_id": "RSR_USDT",
+      "exchange_id": "atomars"
+    },
+    {
+      "base": "RSR",
+      "quote": "USDT",
+      "pair_id": "RSR_USDT",
+      "exchange_id": "emirex"
+    },
+    {
+      "base": "RSR",
+      "quote": "USDT",
+      "pair_id": "RSR_USDT",
+      "exchange_id": "coinex"
+    },
+    {
+      "base": "RSR",
+      "quote": "ETH",
+      "pair_id": "RSR_ETH",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "RSR",
+      "quote": "USDT",
+      "pair_id": "RSR_USDT",
+      "exchange_id": "latoken"
+    },
+    {
+      "base": "RSR",
+      "quote": "BTC",
+      "pair_id": "RSR_BTC",
+      "exchange_id": "atomars"
+    },
+    {
+      "base": "RSR",
+      "quote": "BTC",
+      "pair_id": "RSR_BTC",
+      "exchange_id": "probit"
+    },
+    {
+      "base": "RSR",
+      "quote": "USDT",
+      "pair_id": "RSR_USDT",
+      "exchange_id": "hbtc"
+    },
+    {
+      "base": "RSR",
+      "quote": "USDT",
+      "pair_id": "RSR_USDT",
+      "exchange_id": "gate"
+    },
+    {
+      "base": "RSR",
+      "quote": "USDT",
+      "pair_id": "RSR_USDT",
+      "exchange_id": "quoine"
+    },
+    {
+      "base": "RSR",
+      "quote": "BTC",
+      "pair_id": "RSR_BTC",
+      "exchange_id": "quoine"
+    },
+    {
+      "base": "RSR",
+      "quote": "USDT",
+      "pair_id": "RSR_USDT",
+      "exchange_id": "probit"
+    },
+    {
+      "base": "RSR",
+      "quote": "KRW",
+      "pair_id": "RSR_KRW",
+      "exchange_id": "probit"
+    },
+    {
+      "base": "RSR",
+      "quote": "USDT",
+      "pair_id": "RSR_USDT",
+      "exchange_id": "xt"
+    },
+    {
+      "base": "RSR",
+      "quote": "USDT",
+      "pair_id": "RSR_USDT",
+      "exchange_id": "fatbtc"
+    },
+    {
+      "base": "RSR",
+      "quote": "BTC",
+      "pair_id": "RSR_BTC",
+      "exchange_id": "emirex"
+    },
+    {
+      "base": "RSR",
+      "quote": "USDT",
+      "pair_id": "RSR_USDT",
+      "exchange_id": "poloniex"
+    },
+    {
+      "base": "RSR",
+      "quote": "USDT",
+      "pair_id": "RSR_USDT",
+      "exchange_id": "idcm"
+    },
+    {
+      "base": "RSR",
+      "quote": "BTC",
+      "pair_id": "RSR_BTC",
+      "exchange_id": "upbit"
+    },
+    {
+      "base": "RSR",
+      "quote": "BTC",
+      "pair_id": "RSR_BTC",
+      "exchange_id": "coinex"
+    },
+    {
+      "base": "RSR",
+      "quote": "ETH",
+      "pair_id": "RSR_ETH",
+      "exchange_id": "coinex"
+    },
+    {
+      "base": "RSR",
+      "quote": "ETH",
+      "pair_id": "RSR_ETH",
+      "exchange_id": "kyber_network"
+    },
+    {
+      "base": "RSR",
+      "quote": "BTC",
+      "pair_id": "RSR_BTC",
+      "exchange_id": "upbit_indonesia"
+    },
+    {
+      "base": "RSR",
+      "quote": "USDT",
+      "pair_id": "RSR_USDT",
+      "exchange_id": "huobi_korea"
+    },
+    {
+      "base": "RSR",
+      "quote": "BTC",
+      "pair_id": "RSR_BTC",
+      "exchange_id": "huobi_korea"
+    },
+    {
+      "base": "0X8762DB106B2C2A0BCCB3A80D1ED41273552616E8",
+      "quote": "ETH",
+      "pair_id": "0X8762DB106B2C2A0BCCB3A80D1ED41273552616E8_ETH",
+      "exchange_id": "one_inch"
+    },
+    {
+      "base": "RSR",
+      "quote": "USDT",
+      "pair_id": "RSR_USDT",
+      "exchange_id": "hoo"
+    },
+    {
+      "base": "RSR",
+      "quote": "ETH",
+      "pair_id": "RSR_ETH",
+      "exchange_id": "hoo"
+    },
+    {
+      "base": "RSR",
+      "quote": "USDT",
+      "pair_id": "RSR_USDT",
+      "exchange_id": "floatsv"
+    },
+    {
+      "base": "RSR",
+      "quote": "ETH",
+      "pair_id": "RSR_ETH",
+      "exchange_id": "switcheo"
+    },
+    {
+      "base": "0X8762DB106B2C2A0BCCB3A80D1ED41273552616E8",
+      "quote": "ETH",
+      "pair_id": "0X8762DB106B2C2A0BCCB3A80D1ED41273552616E8_ETH",
+      "exchange_id": "balancer"
+    },
+    {
+      "base": "RSR",
+      "quote": "ETH",
+      "pair_id": "RSR_ETH",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "RSR",
+      "quote": "TUSD",
+      "pair_id": "RSR_TUSD",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "RSR",
+      "quote": "HT",
+      "pair_id": "RSR_HT",
+      "exchange_id": "huobi_korea"
+    },
+    {
+      "base": "RSR",
+      "quote": "ETH",
+      "pair_id": "RSR_ETH",
+      "exchange_id": "uniswap_v1"
+    },
+    {
+      "base": "0X8762DB106B2C2A0BCCB3A80D1ED41273552616E8",
+      "quote": "DAI",
+      "pair_id": "0X8762DB106B2C2A0BCCB3A80D1ED41273552616E8_DAI",
+      "exchange_id": "balancer"
+    },
+    {
+      "base": "RSR",
+      "quote": "ETH",
+      "pair_id": "RSR_ETH",
+      "exchange_id": "idex"
+    },
+    {
+      "base": "RSR",
+      "quote": "BTC",
+      "pair_id": "RSR_BTC",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "RSR",
+      "quote": "KRW",
+      "pair_id": "RSR_KRW",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "RSR",
+      "quote": "ETH",
+      "pair_id": "RSR_ETH",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "RSR",
+      "quote": "EUR",
+      "pair_id": "RSR_EUR",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "RSR",
+      "quote": "USDC",
+      "pair_id": "RSR_USDC",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "RSR",
+      "quote": "PAX",
+      "pair_id": "RSR_PAX",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "RSR",
+      "quote": "USDT",
+      "pair_id": "RSR_USDT",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "RSR",
+      "quote": "NGN",
+      "pair_id": "RSR_NGN",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "RSR",
+      "quote": "GBP",
+      "pair_id": "RSR_GBP",
+      "exchange_id": "dove_wallet"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 100000000000,
+    "total_supply": 100000000000,
+    "circulating_supply": 9347804000
+  }
+}

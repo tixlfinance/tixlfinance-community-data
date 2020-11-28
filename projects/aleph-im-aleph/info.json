@@ -1,0 +1,93 @@
+{
+  "name": "Aleph.im",
+  "symbol": "ALEPH",
+  "website": "https://aleph.im",
+  "coingecko_id": "aleph",
+  "coin_api_id": "ALEPH",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://www.twitter.com/aleph_im",
+      "search_strings": [
+        "$ALEPH"
+      ]
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/Aleph_im/"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "0X27702A26126E0B3702AF63EE09AC4D1A084EF628",
+      "quote": "ETH",
+      "pair_id": "0X27702A26126E0B3702AF63EE09AC4D1A084EF628_ETH",
+      "exchange_id": "uniswap"
+    },
+    {
+      "base": "ALEPH",
+      "quote": "USDT",
+      "pair_id": "ALEPH_USDT",
+      "exchange_id": "bkex"
+    },
+    {
+      "base": "ALEPH",
+      "quote": "USDT",
+      "pair_id": "ALEPH_USDT",
+      "exchange_id": "mxc"
+    },
+    {
+      "base": "ALEPH",
+      "quote": "USDT",
+      "pair_id": "ALEPH_USDT",
+      "exchange_id": "kucoin"
+    },
+    {
+      "base": "ALEPH",
+      "quote": "USDT",
+      "pair_id": "ALEPH_USDT",
+      "exchange_id": "serum_dex"
+    },
+    {
+      "base": "ALEPH",
+      "quote": "USDC",
+      "pair_id": "ALEPH_USDC",
+      "exchange_id": "serum_dex"
+    },
+    {
+      "base": "ALEPH",
+      "quote": "ETH",
+      "pair_id": "ALEPH_ETH",
+      "exchange_id": "idex"
+    },
+    {
+      "base": "ALEPH",
+      "quote": "BTC",
+      "pair_id": "ALEPH_BTC",
+      "exchange_id": "probit"
+    },
+    {
+      "base": "ALEPH",
+      "quote": "USDT",
+      "pair_id": "ALEPH_USDT",
+      "exchange_id": "probit"
+    },
+    {
+      "base": "ALEPH",
+      "quote": "ETH",
+      "pair_id": "ALEPH_ETH",
+      "exchange_id": "kyber_network"
+    },
+    {
+      "base": "ALEPH",
+      "quote": "ETH",
+      "pair_id": "ALEPH_ETH",
+      "exchange_id": "beaxy"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 500000000,
+    "total_supply": 500000000,
+    "circulating_supply": 66582041.80016376
+  }
+}

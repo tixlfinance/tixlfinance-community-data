@@ -1,0 +1,627 @@
+{
+  "name": "Tether",
+  "symbol": "USDT",
+  "website": "https://tether.to/",
+  "coingecko_id": "tether",
+  "coin_api_id": "TETHER",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://www.twitter.com/Tether_to",
+      "search_strings": [
+        "$USDT"
+      ]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/tether.to"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "BTC",
+      "quote": "USDT",
+      "pair_id": "BTC_USDT",
+      "exchange_id": "ftx_spot"
+    },
+    {
+      "base": "UST",
+      "quote": "USD",
+      "pair_id": "UST_USD",
+      "exchange_id": "bitfinex"
+    },
+    {
+      "base": "GUSD",
+      "quote": "USDT",
+      "pair_id": "GUSD_USDT",
+      "exchange_id": "bw"
+    },
+    {
+      "base": "TUSD",
+      "quote": "USDT",
+      "pair_id": "TUSD_USDT",
+      "exchange_id": "bw"
+    },
+    {
+      "base": "BTC",
+      "quote": "USDT",
+      "pair_id": "BTC_USDT",
+      "exchange_id": "digifinex"
+    },
+    {
+      "base": "PAX",
+      "quote": "USDT",
+      "pair_id": "PAX_USDT",
+      "exchange_id": "bw"
+    },
+    {
+      "base": "BTC",
+      "quote": "USDT",
+      "pair_id": "BTC_USDT",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "GUSD",
+      "quote": "USDT",
+      "pair_id": "GUSD_USDT",
+      "exchange_id": "zb"
+    },
+    {
+      "base": "BUSD",
+      "quote": "USDT",
+      "pair_id": "BUSD_USDT",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "ETH",
+      "quote": "USDT",
+      "pair_id": "ETH_USDT",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "ETH",
+      "quote": "USDT",
+      "pair_id": "ETH_USDT",
+      "exchange_id": "digifinex"
+    },
+    {
+      "base": "XRP",
+      "quote": "USDT",
+      "pair_id": "XRP_USDT",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "TUSD",
+      "quote": "USDT",
+      "pair_id": "TUSD_USDT",
+      "exchange_id": "zb"
+    },
+    {
+      "base": "ETH",
+      "quote": "USDT",
+      "pair_id": "ETH_USDT",
+      "exchange_id": "ftx_us"
+    },
+    {
+      "base": "BTC",
+      "quote": "USDT",
+      "pair_id": "BTC_USDT",
+      "exchange_id": "indoex"
+    },
+    {
+      "base": "BTC",
+      "quote": "USDT",
+      "pair_id": "BTC_USDT",
+      "exchange_id": "serum_dex"
+    },
+    {
+      "base": "USDT",
+      "quote": "HUSD",
+      "pair_id": "USDT_HUSD",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "BTC",
+      "quote": "UST",
+      "pair_id": "BTC_UST",
+      "exchange_id": "bitfinex"
+    },
+    {
+      "base": "BTC",
+      "quote": "USDT",
+      "pair_id": "BTC_USDT",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "ETH",
+      "quote": "USDT",
+      "pair_id": "ETH_USDT",
+      "exchange_id": "ftx_spot"
+    },
+    {
+      "base": "USDT",
+      "quote": "USD",
+      "pair_id": "USDT_USD",
+      "exchange_id": "ftx_spot"
+    },
+    {
+      "base": "BTC",
+      "quote": "USDT",
+      "pair_id": "BTC_USDT",
+      "exchange_id": "lbank"
+    },
+    {
+      "base": "BTC",
+      "quote": "USDT",
+      "pair_id": "BTC_USDT",
+      "exchange_id": "biki"
+    },
+    {
+      "base": "USDT",
+      "quote": "USD",
+      "pair_id": "USDT_USD",
+      "exchange_id": "kraken"
+    },
+    {
+      "base": "PAX",
+      "quote": "USDT",
+      "pair_id": "PAX_USDT",
+      "exchange_id": "xt"
+    },
+    {
+      "base": "ETH",
+      "quote": "USDT",
+      "pair_id": "ETH_USDT",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "BTC",
+      "quote": "USDT",
+      "pair_id": "BTC_USDT",
+      "exchange_id": "vb"
+    },
+    {
+      "base": "XRP",
+      "quote": "USDT",
+      "pair_id": "XRP_USDT",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "BTC",
+      "quote": "USDT",
+      "pair_id": "BTC_USDT",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "XRP",
+      "quote": "USDT",
+      "pair_id": "XRP_USDT",
+      "exchange_id": "digifinex"
+    },
+    {
+      "base": "USDT",
+      "quote": "USD",
+      "pair_id": "USDT_USD",
+      "exchange_id": "b2bx"
+    },
+    {
+      "base": "BTC",
+      "quote": "USDT",
+      "pair_id": "BTC_USDT",
+      "exchange_id": "crypto_com"
+    },
+    {
+      "base": "0XDAC17F958D2EE523A2206206994597C13D831EC7",
+      "quote": "ETH",
+      "pair_id": "0XDAC17F958D2EE523A2206206994597C13D831EC7_ETH",
+      "exchange_id": "uniswap"
+    },
+    {
+      "base": "ETH",
+      "quote": "USDT",
+      "pair_id": "ETH_USDT",
+      "exchange_id": "zbg"
+    },
+    {
+      "base": "BTC",
+      "quote": "USDT",
+      "pair_id": "BTC_USDT",
+      "exchange_id": "kucoin"
+    },
+    {
+      "base": "BTC",
+      "quote": "USDT",
+      "pair_id": "BTC_USDT",
+      "exchange_id": "zbg"
+    },
+    {
+      "base": "BTC",
+      "quote": "USDT",
+      "pair_id": "BTC_USDT",
+      "exchange_id": "xt"
+    },
+    {
+      "base": "ETH",
+      "quote": "USDT",
+      "pair_id": "ETH_USDT",
+      "exchange_id": "serum_dex"
+    },
+    {
+      "base": "ETH",
+      "quote": "USDT",
+      "pair_id": "ETH_USDT",
+      "exchange_id": "lbank"
+    },
+    {
+      "base": "ETH",
+      "quote": "USDT",
+      "pair_id": "ETH_USDT",
+      "exchange_id": "bw"
+    },
+    {
+      "base": "LTC",
+      "quote": "USDT",
+      "pair_id": "LTC_USDT",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "LTC",
+      "quote": "USDT",
+      "pair_id": "LTC_USDT",
+      "exchange_id": "digifinex"
+    },
+    {
+      "base": "XRP",
+      "quote": "USDT",
+      "pair_id": "XRP_USDT",
+      "exchange_id": "zbg"
+    },
+    {
+      "base": "BTC",
+      "quote": "USDT",
+      "pair_id": "BTC_USDT",
+      "exchange_id": "okex_korea"
+    },
+    {
+      "base": "BTC",
+      "quote": "USDT",
+      "pair_id": "BTC_USDT",
+      "exchange_id": "floatsv"
+    },
+    {
+      "base": "BTC",
+      "quote": "USDT",
+      "pair_id": "BTC_USDT",
+      "exchange_id": "coinall"
+    },
+    {
+      "base": "ETH",
+      "quote": "USDT",
+      "pair_id": "ETH_USDT",
+      "exchange_id": "kucoin"
+    },
+    {
+      "base": "ETH",
+      "quote": "USDT",
+      "pair_id": "ETH_USDT",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "BTC",
+      "quote": "USDT",
+      "pair_id": "BTC_USDT",
+      "exchange_id": "whitebit"
+    },
+    {
+      "base": "ETH",
+      "quote": "USDT",
+      "pair_id": "ETH_USDT",
+      "exchange_id": "coinall"
+    },
+    {
+      "base": "XLM",
+      "quote": "USDT",
+      "pair_id": "XLM_USDT",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "ETH",
+      "quote": "UST",
+      "pair_id": "ETH_UST",
+      "exchange_id": "bitfinex"
+    },
+    {
+      "base": "ETH",
+      "quote": "USDT",
+      "pair_id": "ETH_USDT",
+      "exchange_id": "floatsv"
+    },
+    {
+      "base": "BCH",
+      "quote": "USDT",
+      "pair_id": "BCH_USDT",
+      "exchange_id": "digifinex"
+    },
+    {
+      "base": "USDC",
+      "quote": "USDT",
+      "pair_id": "USDC_USDT",
+      "exchange_id": "b2bx"
+    },
+    {
+      "base": "XRP",
+      "quote": "USDT",
+      "pair_id": "XRP_USDT",
+      "exchange_id": "zb"
+    },
+    {
+      "base": "BTC",
+      "quote": "USDT",
+      "pair_id": "BTC_USDT",
+      "exchange_id": "bibox"
+    },
+    {
+      "base": "ADA",
+      "quote": "USDT",
+      "pair_id": "ADA_USDT",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "USDC",
+      "quote": "USDT",
+      "pair_id": "USDC_USDT",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "LINK",
+      "quote": "USDT",
+      "pair_id": "LINK_USDT",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "BTC",
+      "quote": "USDT",
+      "pair_id": "BTC_USDT",
+      "exchange_id": "bitmax"
+    },
+    {
+      "base": "LTC",
+      "quote": "USDT",
+      "pair_id": "LTC_USDT",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "LTC",
+      "quote": "USDT",
+      "pair_id": "LTC_USDT",
+      "exchange_id": "zbg"
+    },
+    {
+      "base": "ADA",
+      "quote": "USDT",
+      "pair_id": "ADA_USDT",
+      "exchange_id": "zbg"
+    },
+    {
+      "base": "BTC",
+      "quote": "USDT",
+      "pair_id": "BTC_USDT",
+      "exchange_id": "c2cx"
+    },
+    {
+      "base": "ETH",
+      "quote": "USDT",
+      "pair_id": "ETH_USDT",
+      "exchange_id": "bibox"
+    },
+    {
+      "base": "BTC",
+      "quote": "USDT",
+      "pair_id": "BTC_USDT",
+      "exchange_id": "cointiger"
+    },
+    {
+      "base": "LTC",
+      "quote": "USDT",
+      "pair_id": "LTC_USDT",
+      "exchange_id": "bw"
+    },
+    {
+      "base": "USDT",
+      "quote": "TRY",
+      "pair_id": "USDT_TRY",
+      "exchange_id": "btcturk"
+    },
+    {
+      "base": "XRP",
+      "quote": "USDT",
+      "pair_id": "XRP_USDT",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "LTC",
+      "quote": "USDT",
+      "pair_id": "LTC_USDT",
+      "exchange_id": "coineal"
+    },
+    {
+      "base": "BTC",
+      "quote": "USDT",
+      "pair_id": "BTC_USDT",
+      "exchange_id": "hoo"
+    },
+    {
+      "base": "ETH",
+      "quote": "USDT",
+      "pair_id": "ETH_USDT",
+      "exchange_id": "crypto_com"
+    },
+    {
+      "base": "ETH",
+      "quote": "USDT",
+      "pair_id": "ETH_USDT",
+      "exchange_id": "zb"
+    },
+    {
+      "base": "USDT",
+      "quote": "QC",
+      "pair_id": "USDT_QC",
+      "exchange_id": "zbg"
+    },
+    {
+      "base": "BTC",
+      "quote": "USDT",
+      "pair_id": "BTC_USDT",
+      "exchange_id": "bkex"
+    },
+    {
+      "base": "ETH",
+      "quote": "USDT",
+      "pair_id": "ETH_USDT",
+      "exchange_id": "coineal"
+    },
+    {
+      "base": "BTC3L",
+      "quote": "USDT",
+      "pair_id": "BTC3L_USDT",
+      "exchange_id": "cointiger"
+    },
+    {
+      "base": "BTC",
+      "quote": "USDT",
+      "pair_id": "BTC_USDT",
+      "exchange_id": "coinsbit"
+    },
+    {
+      "base": "ETH",
+      "quote": "USDT",
+      "pair_id": "ETH_USDT",
+      "exchange_id": "coinsbit"
+    },
+    {
+      "base": "BTC",
+      "quote": "USDT",
+      "pair_id": "BTC_USDT",
+      "exchange_id": "zb"
+    },
+    {
+      "base": "BTC",
+      "quote": "USDT",
+      "pair_id": "BTC_USDT",
+      "exchange_id": "bigone"
+    },
+    {
+      "base": "ETH",
+      "quote": "USDT",
+      "pair_id": "ETH_USDT",
+      "exchange_id": "xt"
+    },
+    {
+      "base": "BTC",
+      "quote": "USDT",
+      "pair_id": "BTC_USDT",
+      "exchange_id": "binance_us"
+    },
+    {
+      "base": "BCH",
+      "quote": "USDT",
+      "pair_id": "BCH_USDT",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "BTC",
+      "quote": "USDT",
+      "pair_id": "BTC_USDT",
+      "exchange_id": "exrates"
+    },
+    {
+      "base": "BULL",
+      "quote": "USDT",
+      "pair_id": "BULL_USDT",
+      "exchange_id": "ftx_spot"
+    },
+    {
+      "base": "XRP",
+      "quote": "USDT",
+      "pair_id": "XRP_USDT",
+      "exchange_id": "lbank"
+    },
+    {
+      "base": "BCH",
+      "quote": "USDT",
+      "pair_id": "BCH_USDT",
+      "exchange_id": "lbank"
+    },
+    {
+      "base": "BNB",
+      "quote": "USDT",
+      "pair_id": "BNB_USDT",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "USDC",
+      "quote": "USDT",
+      "pair_id": "USDC_USDT",
+      "exchange_id": "mxc"
+    },
+    {
+      "base": "TUSD",
+      "quote": "USDT",
+      "pair_id": "TUSD_USDT",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "ETH",
+      "quote": "USDT",
+      "pair_id": "ETH_USDT",
+      "exchange_id": "indoex"
+    },
+    {
+      "base": "ETH",
+      "quote": "USDT",
+      "pair_id": "ETH_USDT",
+      "exchange_id": "bitmax"
+    },
+    {
+      "base": "EOS",
+      "quote": "USDT",
+      "pair_id": "EOS_USDT",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "BCH",
+      "quote": "USDT",
+      "pair_id": "BCH_USDT",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "BTC",
+      "quote": "USDT",
+      "pair_id": "BTC_USDT",
+      "exchange_id": "poloniex"
+    },
+    {
+      "base": "LTC",
+      "quote": "USDT",
+      "pair_id": "LTC_USDT",
+      "exchange_id": "zb"
+    },
+    {
+      "base": "ETH",
+      "quote": "USDT",
+      "pair_id": "ETH_USDT",
+      "exchange_id": "biki"
+    },
+    {
+      "base": "BCH",
+      "quote": "USDT",
+      "pair_id": "BCH_USDT",
+      "exchange_id": "huobi"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 0,
+    "total_supply": 19044288051.7054,
+    "circulating_supply": 19044288051.7054
+  }
+}
