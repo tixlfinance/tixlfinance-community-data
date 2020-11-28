@@ -1,0 +1,97 @@
+{
+  "name": "Energy Web Token",
+  "symbol": "EWT",
+  "website": "https://www.energyweb.org/",
+  "coingecko_id": "energy-web-token",
+  "coin_api_id": "ENERGY-WEB-TOKEN",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://www.twitter.com/energywebx",
+      "search_strings": [
+        "$EWT"
+      ]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/EnergyWebFoundation"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/EnergyWeb/"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "EWT",
+      "quote": "USDT",
+      "pair_id": "EWT_USDT",
+      "exchange_id": "kucoin"
+    },
+    {
+      "base": "0X178C820F862B14F316509EC36B13123DA19A6054",
+      "quote": "ETH",
+      "pair_id": "0X178C820F862B14F316509EC36B13123DA19A6054_ETH",
+      "exchange_id": "uniswap"
+    },
+    {
+      "base": "EWT",
+      "quote": "BTC",
+      "pair_id": "EWT_BTC",
+      "exchange_id": "kucoin"
+    },
+    {
+      "base": "EWT",
+      "quote": "BTC",
+      "pair_id": "EWT_BTC",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "EWT",
+      "quote": "BTC",
+      "pair_id": "EWT_BTC",
+      "exchange_id": "bitmart"
+    },
+    {
+      "base": "EWT",
+      "quote": "BTC",
+      "pair_id": "EWT_BTC",
+      "exchange_id": "quoine"
+    },
+    {
+      "base": "EWT",
+      "quote": "ETH",
+      "pair_id": "EWT_ETH",
+      "exchange_id": "quoine"
+    },
+    {
+      "base": "EWT",
+      "quote": "USDT",
+      "pair_id": "EWT_USDT",
+      "exchange_id": "quoine"
+    },
+    {
+      "base": "EWT",
+      "quote": "USD",
+      "pair_id": "EWT_USD",
+      "exchange_id": "quoine"
+    },
+    {
+      "base": "EWT",
+      "quote": "USDT",
+      "pair_id": "EWT_USDT",
+      "exchange_id": "bitmart"
+    },
+    {
+      "base": "0X178C820F862B14F316509EC36B13123DA19A6054",
+      "quote": "ETH",
+      "pair_id": "0X178C820F862B14F316509EC36B13123DA19A6054_ETH",
+      "exchange_id": "one_inch"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 100000000,
+    "total_supply": 60255772.6369345,
+    "circulating_supply": 31447050.9317659
+  }
+}

@@ -15,8 +15,6 @@ const validateFunctions = {
 };
 
 const directoryPath = path.join(__dirname, `./../${type}`);
-let isError = false;
-
 fs.readdir(directoryPath, (err, dirsAndFiles) => {
   if (err) {
     return console.log("Unable to scan directory: " + err);
@@ -31,7 +29,7 @@ fs.readdir(directoryPath, (err, dirsAndFiles) => {
 
   const validatedValues = dirs.map((subDirs) => {
     const filePath = directoryPath + "/" + subDirs + "/info.json";
-    return new Promise((resolve, _) => {
+    return new Promise((resolve, reject) => {
       fs.readFile(filePath, "utf8", (err, data) => {
         if (err) throw err;
         try {
@@ -39,17 +37,14 @@ fs.readdir(directoryPath, (err, dirsAndFiles) => {
             resolve(`Successfully validated: ${filePath}`);
           }
         } catch (err) {
-          isError = true;
-          resolve(err);
+          console.info(`Current file path ${filePath}`)
+          reject(err);
         }
       });
     });
   });
   Promise.all(validatedValues)
-    .then((values) => {
-      values.map((value: any) => console.log(value));
-      if (isError) process.exit(1);
-    })
+    .then(() => null)
     .catch((err) => {
       console.log(err);
     });

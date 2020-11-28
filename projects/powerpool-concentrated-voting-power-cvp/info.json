@@ -1,0 +1,239 @@
+{
+  "name": "PowerPool Concentrated Voting Power",
+  "symbol": "CVP",
+  "website": "https://powerpool.finance",
+  "coingecko_id": "concentrated-voting-power",
+  "coin_api_id": "CONCENTRATED-VOTING-POWER",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://www.twitter.com/powerpoolcvp",
+      "search_strings": [
+        "$CVP"
+      ]
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "0X38E4ADB44EF08F22F5B5B76A8F0C2D0DCBE7DCA1",
+      "quote": "ETH",
+      "pair_id": "0X38E4ADB44EF08F22F5B5B76A8F0C2D0DCBE7DCA1_ETH",
+      "exchange_id": "uniswap"
+    },
+    {
+      "base": "CVP",
+      "quote": "USDT",
+      "pair_id": "CVP_USDT",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "CVP",
+      "quote": "USDT",
+      "pair_id": "CVP_USDT",
+      "exchange_id": "mxc"
+    },
+    {
+      "base": "CVP",
+      "quote": "USDT",
+      "pair_id": "CVP_USDT",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "CVP",
+      "quote": "USDT",
+      "pair_id": "CVP_USDT",
+      "exchange_id": "bw"
+    },
+    {
+      "base": "CVP",
+      "quote": "ETH",
+      "pair_id": "CVP_ETH",
+      "exchange_id": "bilaxy"
+    },
+    {
+      "base": "CVP",
+      "quote": "ETH",
+      "pair_id": "CVP_ETH",
+      "exchange_id": "mxc"
+    },
+    {
+      "base": "CVP",
+      "quote": "BTC",
+      "pair_id": "CVP_BTC",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "CVP",
+      "quote": "ETH",
+      "pair_id": "CVP_ETH",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "CVP",
+      "quote": "ETH",
+      "pair_id": "CVP_ETH",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "CVP",
+      "quote": "BUSD",
+      "pair_id": "CVP_BUSD",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "CVP",
+      "quote": "USDT",
+      "pair_id": "CVP_USDT",
+      "exchange_id": "lbank"
+    },
+    {
+      "base": "CVP",
+      "quote": "USDT",
+      "pair_id": "CVP_USDT",
+      "exchange_id": "probit"
+    },
+    {
+      "base": "CVP",
+      "quote": "ETH",
+      "pair_id": "CVP_ETH",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "CVP",
+      "quote": "KRW",
+      "pair_id": "CVP_KRW",
+      "exchange_id": "probit"
+    },
+    {
+      "base": "CVP",
+      "quote": "BTC",
+      "pair_id": "CVP_BTC",
+      "exchange_id": "probit"
+    },
+    {
+      "base": "CVP",
+      "quote": "USDT",
+      "pair_id": "CVP_USDT",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "CVP",
+      "quote": "USDT",
+      "pair_id": "CVP_USDT",
+      "exchange_id": "bithumb_global"
+    },
+    {
+      "base": "0X38E4ADB44EF08F22F5B5B76A8F0C2D0DCBE7DCA1",
+      "quote": "ETH",
+      "pair_id": "0X38E4ADB44EF08F22F5B5B76A8F0C2D0DCBE7DCA1_ETH",
+      "exchange_id": "balancer"
+    },
+    {
+      "base": "CVP",
+      "quote": "USDT",
+      "pair_id": "CVP_USDT",
+      "exchange_id": "hbtc"
+    },
+    {
+      "base": "CVP",
+      "quote": "USDT",
+      "pair_id": "CVP_USDT",
+      "exchange_id": "bvnex"
+    },
+    {
+      "base": "CVP",
+      "quote": "USDT",
+      "pair_id": "CVP_USDT",
+      "exchange_id": "aex"
+    },
+    {
+      "base": "CVP",
+      "quote": "ETH",
+      "pair_id": "CVP_ETH",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "CVP",
+      "quote": "USDT",
+      "pair_id": "CVP_USDT",
+      "exchange_id": "gate"
+    },
+    {
+      "base": "CVP",
+      "quote": "USDT",
+      "pair_id": "CVP_USDT",
+      "exchange_id": "coinbene"
+    },
+    {
+      "base": "CVP",
+      "quote": "TWD",
+      "pair_id": "CVP_TWD",
+      "exchange_id": "bitasset"
+    },
+    {
+      "base": "CVP",
+      "quote": "USDT",
+      "pair_id": "CVP_USDT",
+      "exchange_id": "bitasset"
+    },
+    {
+      "base": "CVP",
+      "quote": "BTC",
+      "pair_id": "CVP_BTC",
+      "exchange_id": "huobi_korea"
+    },
+    {
+      "base": "CVP",
+      "quote": "USDT",
+      "pair_id": "CVP_USDT",
+      "exchange_id": "hoo"
+    },
+    {
+      "base": "CVP",
+      "quote": "ETH",
+      "pair_id": "CVP_ETH",
+      "exchange_id": "hoo"
+    },
+    {
+      "base": "CVP",
+      "quote": "USDT",
+      "pair_id": "CVP_USDT",
+      "exchange_id": "bibox"
+    },
+    {
+      "base": "CVP",
+      "quote": "USDT",
+      "pair_id": "CVP_USDT",
+      "exchange_id": "bkex"
+    },
+    {
+      "base": "CVP",
+      "quote": "USD",
+      "pair_id": "CVP_USD",
+      "exchange_id": "zero_ex"
+    },
+    {
+      "base": "0X38E4ADB44EF08F22F5B5B76A8F0C2D0DCBE7DCA1",
+      "quote": "ETH",
+      "pair_id": "0X38E4ADB44EF08F22F5B5B76A8F0C2D0DCBE7DCA1_ETH",
+      "exchange_id": "one_inch"
+    },
+    {
+      "base": "CVP",
+      "quote": "USDT",
+      "pair_id": "CVP_USDT",
+      "exchange_id": "huobi_korea"
+    },
+    {
+      "base": "CVP",
+      "quote": "ETH",
+      "pair_id": "CVP_ETH",
+      "exchange_id": "gate"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 100000000,
+    "total_supply": 100000000,
+    "circulating_supply": 5970000.1151
+  }
+}

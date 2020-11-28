@@ -1,0 +1,47 @@
+{
+  "name": "OctoFi",
+  "symbol": "OCTO",
+  "website": "https://octo.fi",
+  "coingecko_id": "octofi",
+  "coin_api_id": "OCTOFI",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://www.twitter.com/octofinance",
+      "search_strings": [
+        "$OCTO"
+      ]
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "0X7240AC91F01233BAAF8B064248E80FEAA5912BA3",
+      "quote": "ETH",
+      "pair_id": "0X7240AC91F01233BAAF8B064248E80FEAA5912BA3_ETH",
+      "exchange_id": "uniswap"
+    },
+    {
+      "base": "OCTO",
+      "quote": "IDR",
+      "pair_id": "OCTO_IDR",
+      "exchange_id": "indodax"
+    },
+    {
+      "base": "OCTO",
+      "quote": "ETH",
+      "pair_id": "OCTO_ETH",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "OCTO",
+      "quote": "USDC",
+      "pair_id": "OCTO_USDC",
+      "exchange_id": "bilaxy"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 800000,
+    "total_supply": 800000,
+    "circulating_supply": 352866.3299723429
+  }
+}

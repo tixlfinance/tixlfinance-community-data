@@ -1,0 +1,621 @@
+{
+  "name": "Bitcoin Cash",
+  "symbol": "BCH",
+  "website": "https://bch.info/",
+  "coingecko_id": "bitcoin-cash",
+  "coin_api_id": "BITCOIN-CASH",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/BitcoinCom",
+      "search_strings": ["$BCH"]
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "BCH",
+      "quote": "USDT",
+      "pair_id": "BCH_USDT",
+      "exchange_id": "digifinex"
+    },
+    {
+      "base": "BCH",
+      "quote": "USD",
+      "pair_id": "BCH_USD",
+      "exchange_id": "ftx_us"
+    },
+    {
+      "base": "BCH",
+      "quote": "USDT",
+      "pair_id": "BCH_USDT",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "BCH",
+      "quote": "USDT",
+      "pair_id": "BCH_USDT",
+      "exchange_id": "lbank"
+    },
+    {
+      "base": "BCH",
+      "quote": "USDT",
+      "pair_id": "BCH_USDT",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "BCH",
+      "quote": "USDT",
+      "pair_id": "BCH_USDT",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "BCH",
+      "quote": "USDT",
+      "pair_id": "BCH_USDT",
+      "exchange_id": "coineal"
+    },
+    {
+      "base": "BCH",
+      "quote": "USDT",
+      "pair_id": "BCH_USDT",
+      "exchange_id": "indoex"
+    },
+    {
+      "base": "BCH",
+      "quote": "USDT",
+      "pair_id": "BCH_USDT",
+      "exchange_id": "whitebit"
+    },
+    {
+      "base": "BCH",
+      "quote": "BTC",
+      "pair_id": "BCH_BTC",
+      "exchange_id": "indoex"
+    },
+    {
+      "base": "BCH",
+      "quote": "USDT",
+      "pair_id": "BCH_USDT",
+      "exchange_id": "p2pb2b"
+    },
+    {
+      "base": "BCH",
+      "quote": "BTC",
+      "pair_id": "BCH_BTC",
+      "exchange_id": "p2pb2b"
+    },
+    {
+      "base": "BCH",
+      "quote": "USD",
+      "pair_id": "BCH_USD",
+      "exchange_id": "gdax"
+    },
+    {
+      "base": "BCH",
+      "quote": "USD",
+      "pair_id": "BCH_USD",
+      "exchange_id": "hitbtc"
+    },
+    {
+      "base": "BCH",
+      "quote": "EUR",
+      "pair_id": "BCH_EUR",
+      "exchange_id": "kraken"
+    },
+    {
+      "base": "BCH",
+      "quote": "USD",
+      "pair_id": "BCH_USD",
+      "exchange_id": "bitcoin_com"
+    },
+    {
+      "base": "BCH",
+      "quote": "USDT",
+      "pair_id": "BCH_USDT",
+      "exchange_id": "vb"
+    },
+    {
+      "base": "BCH",
+      "quote": "USD",
+      "pair_id": "BCH_USD",
+      "exchange_id": "coinsbit"
+    },
+    {
+      "base": "BCH",
+      "quote": "USD",
+      "pair_id": "BCH_USD",
+      "exchange_id": "ftx_spot"
+    },
+    {
+      "base": "BCH",
+      "quote": "USDT",
+      "pair_id": "BCH_USDT",
+      "exchange_id": "okex_korea"
+    },
+    {
+      "base": "BCH",
+      "quote": "USDT",
+      "pair_id": "BCH_USDT",
+      "exchange_id": "gate"
+    },
+    {
+      "base": "BCH",
+      "quote": "USD",
+      "pair_id": "BCH_USD",
+      "exchange_id": "kraken"
+    },
+    {
+      "base": "BCH",
+      "quote": "ETH",
+      "pair_id": "BCH_ETH",
+      "exchange_id": "indoex"
+    },
+    {
+      "base": "BCH",
+      "quote": "BTC",
+      "pair_id": "BCH_BTC",
+      "exchange_id": "bibox"
+    },
+    {
+      "base": "BCH",
+      "quote": "USD",
+      "pair_id": "BCH_USD",
+      "exchange_id": "currency"
+    },
+    {
+      "base": "BCH",
+      "quote": "KRW",
+      "pair_id": "BCH_KRW",
+      "exchange_id": "bithumb"
+    },
+    {
+      "base": "BCH",
+      "quote": "USDC",
+      "pair_id": "BCH_USDC",
+      "exchange_id": "indoex"
+    },
+    {
+      "base": "BCH",
+      "quote": "USDT",
+      "pair_id": "BCH_USDT",
+      "exchange_id": "b2bx"
+    },
+    {
+      "base": "BCH",
+      "quote": "USD",
+      "pair_id": "BCH_USD",
+      "exchange_id": "p2pb2b"
+    },
+    {
+      "base": "BCH",
+      "quote": "USDT",
+      "pair_id": "BCH_USDT",
+      "exchange_id": "zbg"
+    },
+    {
+      "base": "BCH",
+      "quote": "BTC",
+      "pair_id": "BCH_BTC",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "BCH",
+      "quote": "BTC",
+      "pair_id": "BCH_BTC",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "BCH",
+      "quote": "USD",
+      "pair_id": "BCH_USD",
+      "exchange_id": "bitstamp"
+    },
+    {
+      "base": "BCH",
+      "quote": "EUR",
+      "pair_id": "BCH_EUR",
+      "exchange_id": "gdax"
+    },
+    {
+      "base": "BCH",
+      "quote": "USD",
+      "pair_id": "BCH_USD",
+      "exchange_id": "gemini"
+    },
+    {
+      "base": "BCH",
+      "quote": "SGD",
+      "pair_id": "BCH_SGD",
+      "exchange_id": "tokenize"
+    },
+    {
+      "base": "BCH",
+      "quote": "BTC",
+      "pair_id": "BCH_BTC",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "BCH",
+      "quote": "BTC",
+      "pair_id": "BCH_BTC",
+      "exchange_id": "coinsbit"
+    },
+    {
+      "base": "BCH",
+      "quote": "EUR",
+      "pair_id": "BCH_EUR",
+      "exchange_id": "bitstamp"
+    },
+    {
+      "base": "BCH",
+      "quote": "BTC",
+      "pair_id": "BCH_BTC",
+      "exchange_id": "digifinex"
+    },
+    {
+      "base": "BCH",
+      "quote": "XBT",
+      "pair_id": "BCH_XBT",
+      "exchange_id": "kraken"
+    },
+    {
+      "base": "BCH",
+      "quote": "USDT",
+      "pair_id": "BCH_USDT",
+      "exchange_id": "bibox"
+    },
+    {
+      "base": "BCH",
+      "quote": "USD",
+      "pair_id": "BCH_USD",
+      "exchange_id": "tokenize"
+    },
+    {
+      "base": "BCH",
+      "quote": "USDT",
+      "pair_id": "BCH_USDT",
+      "exchange_id": "kucoin"
+    },
+    {
+      "base": "BCHABC",
+      "quote": "USDT",
+      "pair_id": "BCHABC_USDT",
+      "exchange_id": "bigone"
+    },
+    {
+      "base": "BCH",
+      "quote": "KRW",
+      "pair_id": "BCH_KRW",
+      "exchange_id": "coinone"
+    },
+    {
+      "base": "BCH",
+      "quote": "USDT",
+      "pair_id": "BCH_USDT",
+      "exchange_id": "hoo"
+    },
+    {
+      "base": "BCH",
+      "quote": "BTC",
+      "pair_id": "BCH_BTC",
+      "exchange_id": "bitmax"
+    },
+    {
+      "base": "EOS",
+      "quote": "BCH",
+      "pair_id": "EOS_BCH",
+      "exchange_id": "hitbtc"
+    },
+    {
+      "base": "BCH",
+      "quote": "USD",
+      "pair_id": "BCH_USD",
+      "exchange_id": "okcoin"
+    },
+    {
+      "base": "BCH",
+      "quote": "USDT",
+      "pair_id": "BCH_USDT",
+      "exchange_id": "bigone"
+    },
+    {
+      "base": "BCH",
+      "quote": "USDT",
+      "pair_id": "BCH_USDT",
+      "exchange_id": "nominex"
+    },
+    {
+      "base": "BCH",
+      "quote": "USDT",
+      "pair_id": "BCH_USDT",
+      "exchange_id": "bitmax"
+    },
+    {
+      "base": "BCH",
+      "quote": "BUSD",
+      "pair_id": "BCH_BUSD",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "BCH",
+      "quote": "BTC",
+      "pair_id": "BCH_BTC",
+      "exchange_id": "bitcoin_com"
+    },
+    {
+      "base": "BCHABC",
+      "quote": "BTC",
+      "pair_id": "BCHABC_BTC",
+      "exchange_id": "cointiger"
+    },
+    {
+      "base": "BCH",
+      "quote": "USDT",
+      "pair_id": "BCH_USDT",
+      "exchange_id": "mxc"
+    },
+    {
+      "base": "BCH",
+      "quote": "BTC",
+      "pair_id": "BCH_BTC",
+      "exchange_id": "currency"
+    },
+    {
+      "base": "BCH",
+      "quote": "KRW",
+      "pair_id": "BCH_KRW",
+      "exchange_id": "upbit"
+    },
+    {
+      "base": "BCH",
+      "quote": "BTC",
+      "pair_id": "BCH_BTC",
+      "exchange_id": "whitebit"
+    },
+    {
+      "base": "BCH",
+      "quote": "USDT",
+      "pair_id": "BCH_USDT",
+      "exchange_id": "crypto_com"
+    },
+    {
+      "base": "BCH",
+      "quote": "USD",
+      "pair_id": "BCH_USD",
+      "exchange_id": "b2bx"
+    },
+    {
+      "base": "BCH",
+      "quote": "GBP",
+      "pair_id": "BCH_GBP",
+      "exchange_id": "gdax"
+    },
+    {
+      "base": "BCH",
+      "quote": "USDT",
+      "pair_id": "BCH_USDT",
+      "exchange_id": "biki"
+    },
+    {
+      "base": "BCH",
+      "quote": "BTC",
+      "pair_id": "BCH_BTC",
+      "exchange_id": "okex_korea"
+    },
+    {
+      "base": "XRP",
+      "quote": "BCH",
+      "pair_id": "XRP_BCH",
+      "exchange_id": "hitbtc"
+    },
+    {
+      "base": "BCH",
+      "quote": "USDT",
+      "pair_id": "BCH_USDT",
+      "exchange_id": "aex"
+    },
+    {
+      "base": "BCH",
+      "quote": "CNC",
+      "pair_id": "BCH_CNC",
+      "exchange_id": "aex"
+    },
+    {
+      "base": "BCH",
+      "quote": "HUSD",
+      "pair_id": "BCH_HUSD",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "BCH",
+      "quote": "BTC",
+      "pair_id": "BCH_BTC",
+      "exchange_id": "hitbtc"
+    },
+    {
+      "base": "BCH",
+      "quote": "BTC",
+      "pair_id": "BCH_BTC",
+      "exchange_id": "binance_us"
+    },
+    {
+      "base": "BCH",
+      "quote": "BTC",
+      "pair_id": "BCH_BTC",
+      "exchange_id": "gdax"
+    },
+    {
+      "base": "BCH",
+      "quote": "BTC",
+      "pair_id": "BCH_BTC",
+      "exchange_id": "crypto_com"
+    },
+    {
+      "base": "BCH",
+      "quote": "USDT",
+      "pair_id": "BCH_USDT",
+      "exchange_id": "coinex"
+    },
+    {
+      "base": "BCHABC",
+      "quote": "USDT",
+      "pair_id": "BCHABC_USDT",
+      "exchange_id": "cointiger"
+    },
+    {
+      "base": "BCH",
+      "quote": "BSV",
+      "pair_id": "BCH_BSV",
+      "exchange_id": "indoex"
+    },
+    {
+      "base": "BCH",
+      "quote": "USDT",
+      "pair_id": "BCH_USDT",
+      "exchange_id": "bitubu"
+    },
+    {
+      "base": "BCHABC",
+      "quote": "BTC",
+      "pair_id": "BCHABC_BTC",
+      "exchange_id": "bigone"
+    },
+    {
+      "base": "BCH",
+      "quote": "USDC",
+      "pair_id": "BCH_USDC",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "BCH",
+      "quote": "USD",
+      "pair_id": "BCH_USD",
+      "exchange_id": "whitebit"
+    },
+    {
+      "base": "BCH",
+      "quote": "USDK",
+      "pair_id": "BCH_USDK",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "BCH",
+      "quote": "BTC",
+      "pair_id": "BCH_BTC",
+      "exchange_id": "bigone"
+    },
+    {
+      "base": "BCH",
+      "quote": "USDC",
+      "pair_id": "BCH_USDC",
+      "exchange_id": "nominex"
+    },
+    {
+      "base": "BCH",
+      "quote": "USDT",
+      "pair_id": "BCH_USDT",
+      "exchange_id": "dcoin"
+    },
+    {
+      "base": "BCH",
+      "quote": "BTC",
+      "pair_id": "BCH_BTC",
+      "exchange_id": "nominex"
+    },
+    {
+      "base": "BCH",
+      "quote": "USDT",
+      "pair_id": "BCH_USDT",
+      "exchange_id": "c2cx"
+    },
+    {
+      "base": "BCH",
+      "quote": "USDT",
+      "pair_id": "BCH_USDT",
+      "exchange_id": "bkex"
+    },
+    {
+      "base": "BCH",
+      "quote": "USDT",
+      "pair_id": "BCH_USDT",
+      "exchange_id": "bitforex"
+    },
+    {
+      "base": "BCH",
+      "quote": "JPY",
+      "pair_id": "BCH_JPY",
+      "exchange_id": "btcbox"
+    },
+    {
+      "base": "BCH",
+      "quote": "USD",
+      "pair_id": "BCH_USD",
+      "exchange_id": "binance_us"
+    },
+    {
+      "base": "BCH",
+      "quote": "BTC",
+      "pair_id": "BCH_BTC",
+      "exchange_id": "bitubu"
+    },
+    {
+      "base": "BCH",
+      "quote": "ETH",
+      "pair_id": "BCH_ETH",
+      "exchange_id": "bibox"
+    },
+    {
+      "base": "BCH",
+      "quote": "USD",
+      "pair_id": "BCH_USD",
+      "exchange_id": "exrates"
+    },
+    {
+      "base": "BCH",
+      "quote": "BTC",
+      "pair_id": "BCH_BTC",
+      "exchange_id": "exrates"
+    },
+    {
+      "base": "BCH",
+      "quote": "BTC",
+      "pair_id": "BCH_BTC",
+      "exchange_id": "catex"
+    },
+    {
+      "base": "BCH",
+      "quote": "USDT",
+      "pair_id": "BCH_USDT",
+      "exchange_id": "bw"
+    },
+    {
+      "base": "BCH",
+      "quote": "USDT",
+      "pair_id": "BCH_USDT",
+      "exchange_id": "decoin"
+    },
+    {
+      "base": "BCH",
+      "quote": "ETH",
+      "pair_id": "BCH_ETH",
+      "exchange_id": "catex"
+    },
+    {
+      "base": "BCH",
+      "quote": "CRO",
+      "pair_id": "BCH_CRO",
+      "exchange_id": "crypto_com"
+    },
+    {
+      "base": "BCH",
+      "quote": "ETH",
+      "pair_id": "BCH_ETH",
+      "exchange_id": "hitbtc"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 0,
+    "total_supply": 21000000,
+    "circulating_supply": 18585008.3967898
+  }
+}

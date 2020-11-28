@@ -1,0 +1,141 @@
+{
+  "name": "LCX",
+  "symbol": "LCX",
+  "website": "https://www.LCX.com",
+  "coingecko_id": "lcx",
+  "coin_api_id": "LCX",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://www.twitter.com/lcx",
+      "search_strings": [
+        "$LCX"
+      ]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/lcx.exchange"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "0X037A54AAB062628C9BBAE1FDB1583C195585FE41",
+      "quote": "ETH",
+      "pair_id": "0X037A54AAB062628C9BBAE1FDB1583C195585FE41_ETH",
+      "exchange_id": "uniswap"
+    },
+    {
+      "base": "LCX",
+      "quote": "USDT",
+      "pair_id": "LCX_USDT",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "LCX",
+      "quote": "ETH",
+      "pair_id": "LCX_ETH",
+      "exchange_id": "bilaxy"
+    },
+    {
+      "base": "LCX",
+      "quote": "BTC",
+      "pair_id": "LCX_BTC",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "LCX",
+      "quote": "BTC",
+      "pair_id": "LCX_BTC",
+      "exchange_id": "quoine"
+    },
+    {
+      "base": "LCX",
+      "quote": "ETH",
+      "pair_id": "LCX_ETH",
+      "exchange_id": "quoine"
+    },
+    {
+      "base": "LCX",
+      "quote": "ETH",
+      "pair_id": "LCX_ETH",
+      "exchange_id": "vindax"
+    },
+    {
+      "base": "LCX",
+      "quote": "ETH",
+      "pair_id": "LCX_ETH",
+      "exchange_id": "hitbtc"
+    },
+    {
+      "base": "LCX",
+      "quote": "USDC",
+      "pair_id": "LCX_USDC",
+      "exchange_id": "quoine"
+    },
+    {
+      "base": "LCX",
+      "quote": "BTC",
+      "pair_id": "LCX_BTC",
+      "exchange_id": "hitbtc"
+    },
+    {
+      "base": "LCX",
+      "quote": "ETH",
+      "pair_id": "LCX_ETH",
+      "exchange_id": "idex"
+    },
+    {
+      "base": "LCX",
+      "quote": "BTC",
+      "pair_id": "LCX_BTC",
+      "exchange_id": "probit"
+    },
+    {
+      "base": "LCX",
+      "quote": "BTC",
+      "pair_id": "LCX_BTC",
+      "exchange_id": "bidesk"
+    },
+    {
+      "base": "LCX",
+      "quote": "USDT",
+      "pair_id": "LCX_USDT",
+      "exchange_id": "bidesk"
+    },
+    {
+      "base": "LCX",
+      "quote": "ETH",
+      "pair_id": "LCX_ETH",
+      "exchange_id": "bidesk"
+    },
+    {
+      "base": "LCX",
+      "quote": "KRW",
+      "pair_id": "LCX_KRW",
+      "exchange_id": "probit"
+    },
+    {
+      "base": "LCX",
+      "quote": "BTC",
+      "pair_id": "LCX_BTC",
+      "exchange_id": "bitubu"
+    },
+    {
+      "base": "LCX",
+      "quote": "ETH",
+      "pair_id": "LCX_ETH",
+      "exchange_id": "bitubu"
+    },
+    {
+      "base": "LCX",
+      "quote": "USDT",
+      "pair_id": "LCX_USDT",
+      "exchange_id": "bitubu"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 0,
+    "total_supply": 953165775,
+    "circulating_supply": 555032428.9975452
+  }
+}

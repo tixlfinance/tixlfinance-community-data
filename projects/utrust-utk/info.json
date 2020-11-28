@@ -1,0 +1,223 @@
+{
+  "name": "UTRUST",
+  "symbol": "UTK",
+  "website": "https://utrust.com",
+  "coingecko_id": "utrust",
+  "coin_api_id": "UTRUST",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://www.twitter.com/UTRUST",
+      "search_strings": [
+        "$UTK"
+      ]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/utrust.io"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/UTRUST_Official"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "UTK",
+      "quote": "BTC",
+      "pair_id": "UTK_BTC",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "UTK",
+      "quote": "BTC",
+      "pair_id": "UTK_BTC",
+      "exchange_id": "hitbtc"
+    },
+    {
+      "base": "UTK",
+      "quote": "BTC",
+      "pair_id": "UTK_BTC",
+      "exchange_id": "kucoin"
+    },
+    {
+      "base": "UTK",
+      "quote": "BTC",
+      "pair_id": "UTK_BTC",
+      "exchange_id": "bittrex"
+    },
+    {
+      "base": "UTK",
+      "quote": "ETH",
+      "pair_id": "UTK_ETH",
+      "exchange_id": "kucoin"
+    },
+    {
+      "base": "UTK",
+      "quote": "USDT",
+      "pair_id": "UTK_USDT",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "0XDC9AC3C20D1ED0B540DF9B1FEDC10039DF13F99C",
+      "quote": "ETH",
+      "pair_id": "0XDC9AC3C20D1ED0B540DF9B1FEDC10039DF13F99C_ETH",
+      "exchange_id": "uniswap"
+    },
+    {
+      "base": "UTK",
+      "quote": "USD",
+      "pair_id": "UTK_USD",
+      "exchange_id": "hitbtc"
+    },
+    {
+      "base": "UTK",
+      "quote": "USDT",
+      "pair_id": "UTK_USDT",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "UTK",
+      "quote": "BTC",
+      "pair_id": "UTK_BTC",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "UTK",
+      "quote": "USDT",
+      "pair_id": "UTK_USDT",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "UTK",
+      "quote": "ETH",
+      "pair_id": "UTK_ETH",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "UTK",
+      "quote": "USDT",
+      "pair_id": "UTK_USDT",
+      "exchange_id": "hoo"
+    },
+    {
+      "base": "UTK",
+      "quote": "USDT",
+      "pair_id": "UTK_USDT",
+      "exchange_id": "bithumb_global"
+    },
+    {
+      "base": "UTK",
+      "quote": "BTC",
+      "pair_id": "UTK_BTC",
+      "exchange_id": "bilaxy"
+    },
+    {
+      "base": "UTK",
+      "quote": "USDT",
+      "pair_id": "UTK_USDT",
+      "exchange_id": "probit"
+    },
+    {
+      "base": "UTK",
+      "quote": "KRW",
+      "pair_id": "UTK_KRW",
+      "exchange_id": "probit"
+    },
+    {
+      "base": "UTK",
+      "quote": "BTC",
+      "pair_id": "UTK_BTC",
+      "exchange_id": "probit"
+    },
+    {
+      "base": "UTK",
+      "quote": "ETH",
+      "pair_id": "UTK_ETH",
+      "exchange_id": "hitbtc"
+    },
+    {
+      "base": "UTK",
+      "quote": "BTC",
+      "pair_id": "UTK_BTC",
+      "exchange_id": "vcc"
+    },
+    {
+      "base": "UTK",
+      "quote": "USDT",
+      "pair_id": "UTK_USDT",
+      "exchange_id": "vcc"
+    },
+    {
+      "base": "UTK",
+      "quote": "BTC",
+      "pair_id": "UTK_BTC",
+      "exchange_id": "digifinex"
+    },
+    {
+      "base": "UTK",
+      "quote": "USDT",
+      "pair_id": "UTK_USDT",
+      "exchange_id": "zg"
+    },
+    {
+      "base": "UTK",
+      "quote": "BTC",
+      "pair_id": "UTK_BTC",
+      "exchange_id": "huobi_korea"
+    },
+    {
+      "base": "UTK",
+      "quote": "ETH",
+      "pair_id": "UTK_ETH",
+      "exchange_id": "hoo"
+    },
+    {
+      "base": "UTK",
+      "quote": "ETH",
+      "pair_id": "UTK_ETH",
+      "exchange_id": "digifinex"
+    },
+    {
+      "base": "UTK",
+      "quote": "USDT",
+      "pair_id": "UTK_USDT",
+      "exchange_id": "okex_korea"
+    },
+    {
+      "base": "UTK",
+      "quote": "USD",
+      "pair_id": "UTK_USD",
+      "exchange_id": "bitfinex"
+    },
+    {
+      "base": "UTK",
+      "quote": "BTC",
+      "pair_id": "UTK_BTC",
+      "exchange_id": "bithumb_global"
+    },
+    {
+      "base": "UTK",
+      "quote": "USDT",
+      "pair_id": "UTK_USDT",
+      "exchange_id": "lbank"
+    },
+    {
+      "base": "UTK",
+      "quote": "ETH",
+      "pair_id": "UTK_ETH",
+      "exchange_id": "bithumb_global"
+    },
+    {
+      "base": "UTK",
+      "quote": "ETH",
+      "pair_id": "UTK_ETH",
+      "exchange_id": "forkdelta"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 500000000,
+    "total_supply": 500000000,
+    "circulating_supply": 450000000
+  }
+}

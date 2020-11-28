@@ -7,7 +7,8 @@
   "socials": [
     {
       "name": "Twitter",
-      "url": "https://twitter.com/AaveAave"
+      "url": "https://twitter.com/AaveAave",
+      "search_strings": ["$AAVE"]
     }
   ],
   "tokenomics": {

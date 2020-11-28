@@ -1,0 +1,424 @@
+{
+  "name": "IOTA",
+  "symbol": "MIOTA",
+  "website": "http://iota.org/",
+  "coingecko_id": "iota",
+  "coin_api_id": "IOTA",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://www.twitter.com/iotatoken",
+      "search_strings": [
+        "$IOTA",
+        "$MIOTA"
+      ]
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/Iota"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "IOT",
+      "quote": "JPY",
+      "pair_id": "IOT_JPY",
+      "exchange_id": "bitfinex"
+    },
+    {
+      "base": "IOT",
+      "quote": "USD",
+      "pair_id": "IOT_USD",
+      "exchange_id": "bitfinex"
+    },
+    {
+      "base": "IOT",
+      "quote": "GBP",
+      "pair_id": "IOT_GBP",
+      "exchange_id": "bitfinex"
+    },
+    {
+      "base": "IOT",
+      "quote": "EUR",
+      "pair_id": "IOT_EUR",
+      "exchange_id": "bitfinex"
+    },
+    {
+      "base": "IOTA",
+      "quote": "USDT",
+      "pair_id": "IOTA_USDT",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "IOT",
+      "quote": "BTC",
+      "pair_id": "IOT_BTC",
+      "exchange_id": "bitfinex"
+    },
+    {
+      "base": "IOTA",
+      "quote": "USD",
+      "pair_id": "IOTA_USD",
+      "exchange_id": "hitbtc"
+    },
+    {
+      "base": "IOTA",
+      "quote": "BTC",
+      "pair_id": "IOTA_BTC",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "IOTA",
+      "quote": "BTC",
+      "pair_id": "IOTA_BTC",
+      "exchange_id": "hitbtc"
+    },
+    {
+      "base": "IOTA",
+      "quote": "ETH",
+      "pair_id": "IOTA_ETH",
+      "exchange_id": "hitbtc"
+    },
+    {
+      "base": "IOTA",
+      "quote": "USDT",
+      "pair_id": "IOTA_USDT",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "IOTA",
+      "quote": "USDT",
+      "pair_id": "IOTA_USDT",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "IOTA",
+      "quote": "KRW",
+      "pair_id": "IOTA_KRW",
+      "exchange_id": "upbit"
+    },
+    {
+      "base": "IOTA",
+      "quote": "ETH",
+      "pair_id": "IOTA_ETH",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "IOTA",
+      "quote": "USDT",
+      "pair_id": "IOTA_USDT",
+      "exchange_id": "exrates"
+    },
+    {
+      "base": "IOTA",
+      "quote": "USD",
+      "pair_id": "IOTA_USD",
+      "exchange_id": "exrates"
+    },
+    {
+      "base": "IOTA",
+      "quote": "BTC",
+      "pair_id": "IOTA_BTC",
+      "exchange_id": "exrates"
+    },
+    {
+      "base": "IOT",
+      "quote": "ETH",
+      "pair_id": "IOT_ETH",
+      "exchange_id": "bitfinex"
+    },
+    {
+      "base": "IOTA",
+      "quote": "KRW",
+      "pair_id": "IOTA_KRW",
+      "exchange_id": "coinone"
+    },
+    {
+      "base": "IOTA",
+      "quote": "BUSD",
+      "pair_id": "IOTA_BUSD",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "IOTA",
+      "quote": "BTC",
+      "pair_id": "IOTA_BTC",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "IOTA",
+      "quote": "USD",
+      "pair_id": "IOTA_USD",
+      "exchange_id": "binance_us"
+    },
+    {
+      "base": "IOTA",
+      "quote": "BNB",
+      "pair_id": "IOTA_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "IOTA",
+      "quote": "BTC",
+      "pair_id": "IOTA_BTC",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "IOTA",
+      "quote": "USDT",
+      "pair_id": "IOTA_USDT",
+      "exchange_id": "coinex"
+    },
+    {
+      "base": "IOTA",
+      "quote": "ETH",
+      "pair_id": "IOTA_ETH",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "IOTA",
+      "quote": "BTC",
+      "pair_id": "IOTA_BTC",
+      "exchange_id": "bittrex"
+    },
+    {
+      "base": "MIOTA",
+      "quote": "EUR",
+      "pair_id": "MIOTA_EUR",
+      "exchange_id": "bitpanda"
+    },
+    {
+      "base": "IOTA",
+      "quote": "USDT",
+      "pair_id": "IOTA_USDT",
+      "exchange_id": "gate"
+    },
+    {
+      "base": "IOTA",
+      "quote": "USDT",
+      "pair_id": "IOTA_USDT",
+      "exchange_id": "novadax"
+    },
+    {
+      "base": "IOTA",
+      "quote": "BRL",
+      "pair_id": "IOTA_BRL",
+      "exchange_id": "novadax"
+    },
+    {
+      "base": "IOTA",
+      "quote": "IDR",
+      "pair_id": "IOTA_IDR",
+      "exchange_id": "indodax"
+    },
+    {
+      "base": "IOT",
+      "quote": "EUR",
+      "pair_id": "IOT_EUR",
+      "exchange_id": "coinfalcon"
+    },
+    {
+      "base": "IOTA",
+      "quote": "OKB",
+      "pair_id": "IOTA_OKB",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "IOTA",
+      "quote": "XRP",
+      "pair_id": "IOTA_XRP",
+      "exchange_id": "bitrue"
+    },
+    {
+      "base": "IOTA",
+      "quote": "BTC",
+      "pair_id": "IOTA_BTC",
+      "exchange_id": "bitrue"
+    },
+    {
+      "base": "IOTA",
+      "quote": "USDT",
+      "pair_id": "IOTA_USDT",
+      "exchange_id": "dragonex"
+    },
+    {
+      "base": "IOTA",
+      "quote": "USDT",
+      "pair_id": "IOTA_USDT",
+      "exchange_id": "wazirx"
+    },
+    {
+      "base": "IOTA",
+      "quote": "BCH",
+      "pair_id": "IOTA_BCH",
+      "exchange_id": "coinex"
+    },
+    {
+      "base": "IOTA",
+      "quote": "DOGE",
+      "pair_id": "IOTA_DOGE",
+      "exchange_id": "south_xchange"
+    },
+    {
+      "base": "IOTA",
+      "quote": "BTC",
+      "pair_id": "IOTA_BTC",
+      "exchange_id": "south_xchange"
+    },
+    {
+      "base": "IOTA",
+      "quote": "BTC",
+      "pair_id": "IOTA_BTC",
+      "exchange_id": "coinex"
+    },
+    {
+      "base": "IOTA",
+      "quote": "DASH",
+      "pair_id": "IOTA_DASH",
+      "exchange_id": "south_xchange"
+    },
+    {
+      "base": "IOTA",
+      "quote": "USDT",
+      "pair_id": "IOTA_USDT",
+      "exchange_id": "huobi_korea"
+    },
+    {
+      "base": "IOTA",
+      "quote": "USD",
+      "pair_id": "IOTA_USD",
+      "exchange_id": "south_xchange"
+    },
+    {
+      "base": "IOTA",
+      "quote": "ETH",
+      "pair_id": "IOTA_ETH",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "MIOTA",
+      "quote": "ETH",
+      "pair_id": "MIOTA_ETH",
+      "exchange_id": "livecoin"
+    },
+    {
+      "base": "MIOTA",
+      "quote": "BTC",
+      "pair_id": "MIOTA_BTC",
+      "exchange_id": "livecoin"
+    },
+    {
+      "base": "IOT",
+      "quote": "BTC",
+      "pair_id": "IOT_BTC",
+      "exchange_id": "coinfalcon"
+    },
+    {
+      "base": "IOTA",
+      "quote": "USD",
+      "pair_id": "IOTA_USD",
+      "exchange_id": "etorox"
+    },
+    {
+      "base": "IOTA",
+      "quote": "USDT",
+      "pair_id": "IOTA_USDT",
+      "exchange_id": "coinall"
+    },
+    {
+      "base": "IOTA",
+      "quote": "BTC",
+      "pair_id": "IOTA_BTC",
+      "exchange_id": "okex_korea"
+    },
+    {
+      "base": "IOTA",
+      "quote": "BTC",
+      "pair_id": "IOTA_BTC",
+      "exchange_id": "coinall"
+    },
+    {
+      "base": "IOTA",
+      "quote": "BTC",
+      "pair_id": "IOTA_BTC",
+      "exchange_id": "gate"
+    },
+    {
+      "base": "IOTA",
+      "quote": "BTC",
+      "pair_id": "IOTA_BTC",
+      "exchange_id": "novadax"
+    },
+    {
+      "base": "IOTA",
+      "quote": "ETH",
+      "pair_id": "IOTA_ETH",
+      "exchange_id": "novadax"
+    },
+    {
+      "base": "IOTA",
+      "quote": "USDC",
+      "pair_id": "IOTA_USDC",
+      "exchange_id": "south_xchange"
+    },
+    {
+      "base": "IOTA",
+      "quote": "TUSD",
+      "pair_id": "IOTA_TUSD",
+      "exchange_id": "south_xchange"
+    },
+    {
+      "base": "MIOTA",
+      "quote": "BTC",
+      "pair_id": "MIOTA_BTC",
+      "exchange_id": "quoine"
+    },
+    {
+      "base": "IOTA",
+      "quote": "DAI",
+      "pair_id": "IOTA_DAI",
+      "exchange_id": "south_xchange"
+    },
+    {
+      "base": "IOTA",
+      "quote": "BCH",
+      "pair_id": "IOTA_BCH",
+      "exchange_id": "south_xchange"
+    },
+    {
+      "base": "IOTA",
+      "quote": "BTC",
+      "pair_id": "IOTA_BTC",
+      "exchange_id": "huobi_korea"
+    },
+    {
+      "base": "IOTA",
+      "quote": "USDT",
+      "pair_id": "IOTA_USDT",
+      "exchange_id": "okex_korea"
+    },
+    {
+      "base": "IOTA",
+      "quote": "LTC",
+      "pair_id": "IOTA_LTC",
+      "exchange_id": "south_xchange"
+    },
+    {
+      "base": "IOTA",
+      "quote": "PAX",
+      "pair_id": "IOTA_PAX",
+      "exchange_id": "south_xchange"
+    },
+    {
+      "base": "MIOTA",
+      "quote": "USD",
+      "pair_id": "MIOTA_USD",
+      "exchange_id": "quoine"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 0,
+    "total_supply": 2779530283,
+    "circulating_supply": 2779530283.277761
+  }
+}

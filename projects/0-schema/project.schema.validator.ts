@@ -24,8 +24,21 @@ export const ProjectSchemaSchema = {
       defaultProperties: [],
       properties: {
         name: {
-          enum: ["Medium", "Reddit", "Telegram", "Twitter", "Youtube"],
+          enum: [
+            "Facebook",
+            "Medium",
+            "Reddit",
+            "Telegram",
+            "Twitter",
+            "Youtube",
+          ],
           type: "string",
+        },
+        search_strings: {
+          items: {
+            type: "string",
+          },
+          type: "array",
         },
         url: {
           format: "url",
@@ -48,6 +61,25 @@ export const ProjectSchemaSchema = {
           type: "number",
         },
       },
+      type: "object",
+    },
+    TradingPair: {
+      defaultProperties: [],
+      properties: {
+        base: {
+          type: "string",
+        },
+        exchange_id: {
+          type: "string",
+        },
+        pair_id: {
+          type: "string",
+        },
+        quote: {
+          type: "string",
+        },
+      },
+      required: ["base", "exchange_id", "pair_id", "quote"],
       type: "object",
     },
   },
@@ -78,6 +110,15 @@ export const ProjectSchemaSchema = {
     tokenomics: {
       $ref: "#/definitions/TokenomicsSchema",
     },
+    tokenomics_url: {
+      type: "string",
+    },
+    trading_pairs: {
+      items: {
+        $ref: "#/definitions/TradingPair",
+      },
+      type: "array",
+    },
     website: {
       format: "url",
       type: "string",
@@ -87,7 +128,14 @@ export const ProjectSchemaSchema = {
       type: "string",
     },
   },
-  required: ["name", "socials", "symbol", "tokenomics", "website"],
+  required: [
+    "name",
+    "socials",
+    "symbol",
+    "tokenomics",
+    "trading_pairs",
+    "website",
+  ],
   type: "object",
 };
 export type ValidateFunction<T> = ((data: unknown) => data is T) &

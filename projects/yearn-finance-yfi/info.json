@@ -1,0 +1,627 @@
+{
+  "name": "yearn.finance",
+  "symbol": "YFI",
+  "website": "https://yearn.finance",
+  "coingecko_id": "yearn-finance",
+  "coin_api_id": "YEARN-FINANCE",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://www.twitter.com/iearnfinance",
+      "search_strings": [
+        "$YFI"
+      ]
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/yearn_finance/"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "YFI",
+      "quote": "USDT",
+      "pair_id": "YFI_USDT",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "YFI",
+      "quote": "USDT",
+      "pair_id": "YFI_USDT",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "YFI",
+      "quote": "BTC",
+      "pair_id": "YFI_BTC",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "0X0BC529C00C6401AEF6D220BE8C6EA1667F6AD93E",
+      "quote": "ETH",
+      "pair_id": "0X0BC529C00C6401AEF6D220BE8C6EA1667F6AD93E_ETH",
+      "exchange_id": "sushiswap"
+    },
+    {
+      "base": "YFI",
+      "quote": "USD",
+      "pair_id": "YFI_USD",
+      "exchange_id": "gdax"
+    },
+    {
+      "base": "YFI",
+      "quote": "BTC",
+      "pair_id": "YFI_BTC",
+      "exchange_id": "coinsbit"
+    },
+    {
+      "base": "YFI",
+      "quote": "USDT",
+      "pair_id": "YFI_USDT",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "YFI",
+      "quote": "USD",
+      "pair_id": "YFI_USD",
+      "exchange_id": "bitfinex"
+    },
+    {
+      "base": "YFI",
+      "quote": "USDT",
+      "pair_id": "YFI_USDT",
+      "exchange_id": "whitebit"
+    },
+    {
+      "base": "YFI",
+      "quote": "USD",
+      "pair_id": "YFI_USD",
+      "exchange_id": "hitbtc"
+    },
+    {
+      "base": "0X0BC529C00C6401AEF6D220BE8C6EA1667F6AD93E",
+      "quote": "ETH",
+      "pair_id": "0X0BC529C00C6401AEF6D220BE8C6EA1667F6AD93E_ETH",
+      "exchange_id": "uniswap"
+    },
+    {
+      "base": "YFI",
+      "quote": "USDT",
+      "pair_id": "YFI_USDT",
+      "exchange_id": "digifinex"
+    },
+    {
+      "base": "YFI",
+      "quote": "USD",
+      "pair_id": "YFI_USD",
+      "exchange_id": "kraken"
+    },
+    {
+      "base": "YFI",
+      "quote": "USDT",
+      "pair_id": "YFI_USDT",
+      "exchange_id": "coinsbit"
+    },
+    {
+      "base": "YFI",
+      "quote": "EUR",
+      "pair_id": "YFI_EUR",
+      "exchange_id": "kraken"
+    },
+    {
+      "base": "YFI",
+      "quote": "BTC",
+      "pair_id": "YFI_BTC",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "YFI",
+      "quote": "USDT",
+      "pair_id": "YFI_USDT",
+      "exchange_id": "nominex"
+    },
+    {
+      "base": "YFI",
+      "quote": "USDT",
+      "pair_id": "YFI_USDT",
+      "exchange_id": "bkex"
+    },
+    {
+      "base": "YFI",
+      "quote": "BUSD",
+      "pair_id": "YFI_BUSD",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "YFI",
+      "quote": "USDT",
+      "pair_id": "YFI_USDT",
+      "exchange_id": "gate"
+    },
+    {
+      "base": "YFI",
+      "quote": "USDT",
+      "pair_id": "YFI_USDT",
+      "exchange_id": "deversifi"
+    },
+    {
+      "base": "YFI",
+      "quote": "KRW",
+      "pair_id": "YFI_KRW",
+      "exchange_id": "bithumb"
+    },
+    {
+      "base": "YFI",
+      "quote": "BTC",
+      "pair_id": "YFI_BTC",
+      "exchange_id": "nominex"
+    },
+    {
+      "base": "YFI",
+      "quote": "BTC",
+      "pair_id": "YFI_BTC",
+      "exchange_id": "p2pb2b"
+    },
+    {
+      "base": "YFI",
+      "quote": "IDR",
+      "pair_id": "YFI_IDR",
+      "exchange_id": "indodax"
+    },
+    {
+      "base": "YFI",
+      "quote": "BTC",
+      "pair_id": "YFI_BTC",
+      "exchange_id": "tokenize"
+    },
+    {
+      "base": "YFI",
+      "quote": "BTC",
+      "pair_id": "YFI_BTC",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "YFI",
+      "quote": "USDT",
+      "pair_id": "YFI_USDT",
+      "exchange_id": "lbank"
+    },
+    {
+      "base": "YFI",
+      "quote": "USDT",
+      "pair_id": "YFI_USDT",
+      "exchange_id": "cointiger"
+    },
+    {
+      "base": "YFI",
+      "quote": "USD",
+      "pair_id": "YFI_USD",
+      "exchange_id": "gemini"
+    },
+    {
+      "base": "YFI",
+      "quote": "USD",
+      "pair_id": "YFI_USD",
+      "exchange_id": "tokenize"
+    },
+    {
+      "base": "YFI",
+      "quote": "SGD",
+      "pair_id": "YFI_SGD",
+      "exchange_id": "tokenize"
+    },
+    {
+      "base": "YFI",
+      "quote": "USDT",
+      "pair_id": "YFI_USDT",
+      "exchange_id": "hoo"
+    },
+    {
+      "base": "YFI",
+      "quote": "USDT",
+      "pair_id": "YFI_USDT",
+      "exchange_id": "crypto_com"
+    },
+    {
+      "base": "YFI",
+      "quote": "XBT",
+      "pair_id": "YFI_XBT",
+      "exchange_id": "kraken"
+    },
+    {
+      "base": "YFI",
+      "quote": "UST",
+      "pair_id": "YFI_UST",
+      "exchange_id": "bitfinex"
+    },
+    {
+      "base": "YFI",
+      "quote": "USDT",
+      "pair_id": "YFI_USDT",
+      "exchange_id": "virgox"
+    },
+    {
+      "base": "YFI",
+      "quote": "USDT",
+      "pair_id": "YFI_USDT",
+      "exchange_id": "mxc"
+    },
+    {
+      "base": "YFI",
+      "quote": "USDT",
+      "pair_id": "YFI_USDT",
+      "exchange_id": "bilaxy"
+    },
+    {
+      "base": "0X0BC529C00C6401AEF6D220BE8C6EA1667F6AD93E",
+      "quote": "ETH",
+      "pair_id": "0X0BC529C00C6401AEF6D220BE8C6EA1667F6AD93E_ETH",
+      "exchange_id": "balancer"
+    },
+    {
+      "base": "YFI",
+      "quote": "BTC",
+      "pair_id": "YFI_BTC",
+      "exchange_id": "hitbtc"
+    },
+    {
+      "base": "YFI",
+      "quote": "USDT",
+      "pair_id": "YFI_USDT",
+      "exchange_id": "p2pb2b"
+    },
+    {
+      "base": "YFI",
+      "quote": "USD",
+      "pair_id": "YFI_USD",
+      "exchange_id": "p2pb2b"
+    },
+    {
+      "base": "YFI",
+      "quote": "ETH",
+      "pair_id": "YFI_ETH",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "YFI",
+      "quote": "CRO",
+      "pair_id": "YFI_CRO",
+      "exchange_id": "crypto_com"
+    },
+    {
+      "base": "YFI",
+      "quote": "BTC",
+      "pair_id": "YFI_BTC",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "YFI",
+      "quote": "USDT",
+      "pair_id": "YFI_USDT",
+      "exchange_id": "serum_dex"
+    },
+    {
+      "base": "YFI",
+      "quote": "USDC",
+      "pair_id": "YFI_USDC",
+      "exchange_id": "serum_dex"
+    },
+    {
+      "base": "YFI",
+      "quote": "USDT",
+      "pair_id": "YFI_USDT",
+      "exchange_id": "zb"
+    },
+    {
+      "base": "0X0BC529C00C6401AEF6D220BE8C6EA1667F6AD93E",
+      "quote": "USDC",
+      "pair_id": "0X0BC529C00C6401AEF6D220BE8C6EA1667F6AD93E_USDC",
+      "exchange_id": "dodo"
+    },
+    {
+      "base": "YFI",
+      "quote": "USDT",
+      "pair_id": "YFI_USDT",
+      "exchange_id": "ftx_spot"
+    },
+    {
+      "base": "YFI",
+      "quote": "USD",
+      "pair_id": "YFI_USD",
+      "exchange_id": "ftx_spot"
+    },
+    {
+      "base": "YFI",
+      "quote": "ETH",
+      "pair_id": "YFI_ETH",
+      "exchange_id": "mxc"
+    },
+    {
+      "base": "YFI",
+      "quote": "USD",
+      "pair_id": "YFI_USD",
+      "exchange_id": "okcoin"
+    },
+    {
+      "base": "YFI",
+      "quote": "USDT",
+      "pair_id": "YFI_USDT",
+      "exchange_id": "btc_alpha"
+    },
+    {
+      "base": "YFI",
+      "quote": "USDT",
+      "pair_id": "YFI_USDT",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "YFI",
+      "quote": "USDT",
+      "pair_id": "YFI_USDT",
+      "exchange_id": "poloniex"
+    },
+    {
+      "base": "YFI",
+      "quote": "USDT",
+      "pair_id": "YFI_USDT",
+      "exchange_id": "biki"
+    },
+    {
+      "base": "YFI",
+      "quote": "USDT",
+      "pair_id": "YFI_USDT",
+      "exchange_id": "bw"
+    },
+    {
+      "base": "YFI",
+      "quote": "USDT",
+      "pair_id": "YFI_USDT",
+      "exchange_id": "emirex"
+    },
+    {
+      "base": "YFI",
+      "quote": "USDT",
+      "pair_id": "YFI_USDT",
+      "exchange_id": "kucoin"
+    },
+    {
+      "base": "YFI",
+      "quote": "USDT",
+      "pair_id": "YFI_USDT",
+      "exchange_id": "coinex"
+    },
+    {
+      "base": "YFI",
+      "quote": "ETH",
+      "pair_id": "YFI_ETH",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "YFI",
+      "quote": "ETH",
+      "pair_id": "YFI_ETH",
+      "exchange_id": "kraken"
+    },
+    {
+      "base": "YFI",
+      "quote": "USDT",
+      "pair_id": "YFI_USDT",
+      "exchange_id": "aax"
+    },
+    {
+      "base": "YFI",
+      "quote": "BNB",
+      "pair_id": "YFI_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "YFI",
+      "quote": "UAH",
+      "pair_id": "YFI_UAH",
+      "exchange_id": "whitebit"
+    },
+    {
+      "base": "YFI",
+      "quote": "RUB",
+      "pair_id": "YFI_RUB",
+      "exchange_id": "whitebit"
+    },
+    {
+      "base": "YFI",
+      "quote": "ETH",
+      "pair_id": "YFI_ETH",
+      "exchange_id": "hoo"
+    },
+    {
+      "base": "YFI",
+      "quote": "INR",
+      "pair_id": "YFI_INR",
+      "exchange_id": "wazirx"
+    },
+    {
+      "base": "YFI",
+      "quote": "TWD",
+      "pair_id": "YFI_TWD",
+      "exchange_id": "bitopro"
+    },
+    {
+      "base": "YFI",
+      "quote": "USDT",
+      "pair_id": "YFI_USDT",
+      "exchange_id": "dcoin"
+    },
+    {
+      "base": "YFI",
+      "quote": "BTC",
+      "pair_id": "YFI_BTC",
+      "exchange_id": "emirex"
+    },
+    {
+      "base": "YFI",
+      "quote": "USDT",
+      "pair_id": "YFI_USDT",
+      "exchange_id": "bibox"
+    },
+    {
+      "base": "YFI",
+      "quote": "USDT",
+      "pair_id": "YFI_USDT",
+      "exchange_id": "wazirx"
+    },
+    {
+      "base": "YFI",
+      "quote": "USDT",
+      "pair_id": "YFI_USDT",
+      "exchange_id": "atomars"
+    },
+    {
+      "base": "0X0BC529C00C6401AEF6D220BE8C6EA1667F6AD93E",
+      "quote": "USDC",
+      "pair_id": "0X0BC529C00C6401AEF6D220BE8C6EA1667F6AD93E_USDC",
+      "exchange_id": "balancer"
+    },
+    {
+      "base": "YFI",
+      "quote": "BTC",
+      "pair_id": "YFI_BTC",
+      "exchange_id": "atomars"
+    },
+    {
+      "base": "YFI",
+      "quote": "ETH",
+      "pair_id": "YFI_ETH",
+      "exchange_id": "gate"
+    },
+    {
+      "base": "YFI",
+      "quote": "BTC",
+      "pair_id": "YFI_BTC",
+      "exchange_id": "coinex"
+    },
+    {
+      "base": "YFI",
+      "quote": "BTC",
+      "pair_id": "YFI_BTC",
+      "exchange_id": "goku"
+    },
+    {
+      "base": "0X0BC529C00C6401AEF6D220BE8C6EA1667F6AD93E",
+      "quote": "DAI",
+      "pair_id": "0X0BC529C00C6401AEF6D220BE8C6EA1667F6AD93E_DAI",
+      "exchange_id": "balancer"
+    },
+    {
+      "base": "YFI",
+      "quote": "ETH",
+      "pair_id": "YFI_ETH",
+      "exchange_id": "coinex"
+    },
+    {
+      "base": "YFI",
+      "quote": "BTC",
+      "pair_id": "YFI_BTC",
+      "exchange_id": "latoken"
+    },
+    {
+      "base": "YFI",
+      "quote": "KRW",
+      "pair_id": "YFI_KRW",
+      "exchange_id": "probit"
+    },
+    {
+      "base": "YFI",
+      "quote": "BTC",
+      "pair_id": "YFI_BTC",
+      "exchange_id": "probit"
+    },
+    {
+      "base": "YFI",
+      "quote": "USDT",
+      "pair_id": "YFI_USDT",
+      "exchange_id": "latoken"
+    },
+    {
+      "base": "YFI",
+      "quote": "USDT",
+      "pair_id": "YFI_USDT",
+      "exchange_id": "probit"
+    },
+    {
+      "base": "YFI",
+      "quote": "USDT",
+      "pair_id": "YFI_USDT",
+      "exchange_id": "vcc"
+    },
+    {
+      "base": "YFI",
+      "quote": "BTC",
+      "pair_id": "YFI_BTC",
+      "exchange_id": "vcc"
+    },
+    {
+      "base": "YFI",
+      "quote": "USD",
+      "pair_id": "YFI_USD",
+      "exchange_id": "bitcoin_com"
+    },
+    {
+      "base": "YFI",
+      "quote": "BTC",
+      "pair_id": "YFI_BTC",
+      "exchange_id": "bitcoin_com"
+    },
+    {
+      "base": "YFI",
+      "quote": "USDT",
+      "pair_id": "YFI_USDT",
+      "exchange_id": "bvnex"
+    },
+    {
+      "base": "YFI",
+      "quote": "USDT",
+      "pair_id": "YFI_USDT",
+      "exchange_id": "bitasset"
+    },
+    {
+      "base": "0X0BC529C00C6401AEF6D220BE8C6EA1667F6AD93E",
+      "quote": "ETH",
+      "pair_id": "0X0BC529C00C6401AEF6D220BE8C6EA1667F6AD93E_ETH",
+      "exchange_id": "mooniswap"
+    },
+    {
+      "base": "YFI",
+      "quote": "AUD",
+      "pair_id": "YFI_AUD",
+      "exchange_id": "independent_reserve"
+    },
+    {
+      "base": "YFI",
+      "quote": "KRW",
+      "pair_id": "YFI_KRW",
+      "exchange_id": "aprobit"
+    },
+    {
+      "base": "YFI",
+      "quote": "USDT",
+      "pair_id": "YFI_USDT",
+      "exchange_id": "crex24"
+    },
+    {
+      "base": "YFI",
+      "quote": "USDT",
+      "pair_id": "YFI_USDT",
+      "exchange_id": "hbtc"
+    },
+    {
+      "base": "YFI",
+      "quote": "USDT",
+      "pair_id": "YFI_USDT",
+      "exchange_id": "huobi_id"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 30000,
+    "total_supply": 30000,
+    "circulating_supply": 30000
+  }
+}

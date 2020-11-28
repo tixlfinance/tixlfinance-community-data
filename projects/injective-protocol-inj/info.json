@@ -1,0 +1,123 @@
+{
+  "name": "Injective Protocol",
+  "symbol": "INJ",
+  "website": "https://injectiveprotocol.com/",
+  "coingecko_id": "injective-protocol",
+  "coin_api_id": "INJECTIVE-PROTOCOL",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://www.twitter.com/InjectiveLabs",
+      "search_strings": [
+        "$INJ"
+      ]
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/injective/"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "INJ",
+      "quote": "USDT",
+      "pair_id": "INJ_USDT",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "INJ",
+      "quote": "BTC",
+      "pair_id": "INJ_BTC",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "INJ",
+      "quote": "BNB",
+      "pair_id": "INJ_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "INJ",
+      "quote": "BUSD",
+      "pair_id": "INJ_BUSD",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "INJ",
+      "quote": "USDT",
+      "pair_id": "INJ_USDT",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "INJ",
+      "quote": "USDT",
+      "pair_id": "INJ_USDT",
+      "exchange_id": "poloniex"
+    },
+    {
+      "base": "INJ",
+      "quote": "BTC",
+      "pair_id": "INJ_BTC",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "INJ",
+      "quote": "USDT",
+      "pair_id": "INJ_USDT",
+      "exchange_id": "aex"
+    },
+    {
+      "base": "INJ",
+      "quote": "BTC",
+      "pair_id": "INJ_BTC",
+      "exchange_id": "poloniex"
+    },
+    {
+      "base": "INJ",
+      "quote": "USDT",
+      "pair_id": "INJ_USDT",
+      "exchange_id": "vcc"
+    },
+    {
+      "base": "INJ",
+      "quote": "BTC",
+      "pair_id": "INJ_BTC",
+      "exchange_id": "vcc"
+    },
+    {
+      "base": "INJ",
+      "quote": "USDT",
+      "pair_id": "INJ_USDT",
+      "exchange_id": "gate"
+    },
+    {
+      "base": "INJ",
+      "quote": "ETH",
+      "pair_id": "INJ_ETH",
+      "exchange_id": "gate"
+    },
+    {
+      "base": "INJ",
+      "quote": "WBNB",
+      "pair_id": "INJ_WBNB",
+      "exchange_id": "pancakeswap"
+    },
+    {
+      "base": "0XE28B3B32B6C345A34FF64674606124DD5ACECA30",
+      "quote": "ETH",
+      "pair_id": "0XE28B3B32B6C345A34FF64674606124DD5ACECA30_ETH",
+      "exchange_id": "uniswap"
+    },
+    {
+      "base": "INJ",
+      "quote": "KRW",
+      "pair_id": "INJ_KRW",
+      "exchange_id": "coinone"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 100000000,
+    "total_supply": 100000000,
+    "circulating_supply": 13508281
+  }
+}

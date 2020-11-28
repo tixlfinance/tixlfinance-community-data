@@ -1,0 +1,169 @@
+{
+  "name": "Kleros",
+  "symbol": "PNK",
+  "website": "https://kleros.io",
+  "coingecko_id": "kleros",
+  "coin_api_id": "KLEROS",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://www.twitter.com/kleros_io",
+      "search_strings": [
+        "$PNK"
+      ]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/kleros.io"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/Kleros/"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "0X93ED3FBE21207EC2E8F2D3C3DE6E058CB73BC04D",
+      "quote": "ETH",
+      "pair_id": "0X93ED3FBE21207EC2E8F2D3C3DE6E058CB73BC04D_ETH",
+      "exchange_id": "balancer"
+    },
+    {
+      "base": "0X93ED3FBE21207EC2E8F2D3C3DE6E058CB73BC04D",
+      "quote": "ETH",
+      "pair_id": "0X93ED3FBE21207EC2E8F2D3C3DE6E058CB73BC04D_ETH",
+      "exchange_id": "uniswap"
+    },
+    {
+      "base": "PNK",
+      "quote": "USDT",
+      "pair_id": "PNK_USDT",
+      "exchange_id": "coinex"
+    },
+    {
+      "base": "PNK",
+      "quote": "ETH",
+      "pair_id": "PNK_ETH",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "PNK",
+      "quote": "ETH",
+      "pair_id": "PNK_ETH",
+      "exchange_id": "bitfinex"
+    },
+    {
+      "base": "PNK",
+      "quote": "USDT",
+      "pair_id": "PNK_USDT",
+      "exchange_id": "bvnex"
+    },
+    {
+      "base": "PNK",
+      "quote": "ETH",
+      "pair_id": "PNK_ETH",
+      "exchange_id": "mxc"
+    },
+    {
+      "base": "PNK",
+      "quote": "USDT",
+      "pair_id": "PNK_USDT",
+      "exchange_id": "mxc"
+    },
+    {
+      "base": "PNK",
+      "quote": "USDT",
+      "pair_id": "PNK_USDT",
+      "exchange_id": "bibox"
+    },
+    {
+      "base": "PNK",
+      "quote": "USDT",
+      "pair_id": "PNK_USDT",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "PNK",
+      "quote": "ETH",
+      "pair_id": "PNK_ETH",
+      "exchange_id": "coinex"
+    },
+    {
+      "base": "PNK",
+      "quote": "BTC",
+      "pair_id": "PNK_BTC",
+      "exchange_id": "coinex"
+    },
+    {
+      "base": "PNK",
+      "quote": "USD",
+      "pair_id": "PNK_USD",
+      "exchange_id": "bitfinex"
+    },
+    {
+      "base": "PNK",
+      "quote": "ETH",
+      "pair_id": "PNK_ETH",
+      "exchange_id": "hoo"
+    },
+    {
+      "base": "PNK",
+      "quote": "USDT",
+      "pair_id": "PNK_USDT",
+      "exchange_id": "hoo"
+    },
+    {
+      "base": "PNK",
+      "quote": "USDT",
+      "pair_id": "PNK_USDT",
+      "exchange_id": "hbtc"
+    },
+    {
+      "base": "PNK",
+      "quote": "ETH",
+      "pair_id": "PNK_ETH",
+      "exchange_id": "deversifi"
+    },
+    {
+      "base": "PNK",
+      "quote": "USDT",
+      "pair_id": "PNK_USDT",
+      "exchange_id": "deversifi"
+    },
+    {
+      "base": "0X93ED3FBE21207EC2E8F2D3C3DE6E058CB73BC04D",
+      "quote": "ETH",
+      "pair_id": "0X93ED3FBE21207EC2E8F2D3C3DE6E058CB73BC04D_ETH",
+      "exchange_id": "one_inch"
+    },
+    {
+      "base": "PNK",
+      "quote": "ETH",
+      "pair_id": "PNK_ETH",
+      "exchange_id": "kyber_network"
+    },
+    {
+      "base": "PNK",
+      "quote": "ETH",
+      "pair_id": "PNK_ETH",
+      "exchange_id": "uniswap_v1"
+    },
+    {
+      "base": "PNK",
+      "quote": "ETH",
+      "pair_id": "PNK_ETH",
+      "exchange_id": "idex"
+    },
+    {
+      "base": "PNK",
+      "quote": "ETH",
+      "pair_id": "PNK_ETH",
+      "exchange_id": "loopring"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 0,
+    "total_supply": 764626704,
+    "circulating_supply": 523496520.08232003
+  }
+}

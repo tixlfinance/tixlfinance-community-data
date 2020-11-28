@@ -1,0 +1,91 @@
+{
+  "name": "Morpheus Network",
+  "symbol": "MRPH",
+  "website": "https://morpheus.network",
+  "coingecko_id": "morpheus-network",
+  "coin_api_id": "MORPHEUS-NETWORK",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://www.twitter.com/MRPHSupplyChain",
+      "search_strings": [
+        "$MRPH"
+      ]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/themorpheusnetwork"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/MorpheusNetwork"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "MRPH",
+      "quote": "ETH",
+      "pair_id": "MRPH_ETH",
+      "exchange_id": "bilaxy"
+    },
+    {
+      "base": "0X7B0C06043468469967DBA22D1AF33D77D44056C8",
+      "quote": "ETH",
+      "pair_id": "0X7B0C06043468469967DBA22D1AF33D77D44056C8_ETH",
+      "exchange_id": "uniswap"
+    },
+    {
+      "base": "MRPH",
+      "quote": "ETH",
+      "pair_id": "MRPH_ETH",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "MRPH",
+      "quote": "BTC",
+      "pair_id": "MRPH_BTC",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "MRPH",
+      "quote": "USDT",
+      "pair_id": "MRPH_USDT",
+      "exchange_id": "fatbtc"
+    },
+    {
+      "base": "MRPH",
+      "quote": "BTC",
+      "pair_id": "MRPH_BTC",
+      "exchange_id": "bittrex"
+    },
+    {
+      "base": "MRPH",
+      "quote": "BTC",
+      "pair_id": "MRPH_BTC",
+      "exchange_id": "livecoin"
+    },
+    {
+      "base": "MRPH",
+      "quote": "BNT",
+      "pair_id": "MRPH_BNT",
+      "exchange_id": "bancor"
+    },
+    {
+      "base": "MRPH",
+      "quote": "ETH",
+      "pair_id": "MRPH_ETH",
+      "exchange_id": "idex"
+    },
+    {
+      "base": "0X7B0C06043468469967DBA22D1AF33D77D44056C8",
+      "quote": "ETH",
+      "pair_id": "0X7B0C06043468469967DBA22D1AF33D77D44056C8_ETH",
+      "exchange_id": "one_inch"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 47897218,
+    "total_supply": 47897218,
+    "circulating_supply": 34980013.3855
+  }
+}
