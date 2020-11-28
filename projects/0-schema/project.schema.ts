@@ -34,4 +34,5 @@ export default interface ProjectSchema {
    */
   socials: SocialSchema[];
   tokenomics: TokenomicsSchema;
+  tokenomics_url?: string;
 }
