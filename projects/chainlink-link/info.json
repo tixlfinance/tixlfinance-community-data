@@ -8,10 +8,7 @@
     {
       "name": "Twitter",
       "url": "https://www.twitter.com/chainlink",
-      "search_strings": [
-        "$LINK",
-        "#linkmarines"
-      ]
+      "search_strings": ["$LINK", "#linkmarines"]
     },
     {
       "name": "Reddit",
@@ -23,19 +20,19 @@
       "base": "LINK",
       "quote": "USDT",
       "pair_id": "LINK_USDT",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "LINK",
       "quote": "USD",
       "pair_id": "LINK_USD",
-      "exchange_id": "kraken"
+      "exchange_id": "kraken.com"
     },
     {
       "base": "LINK",
       "quote": "EUR",
       "pair_id": "LINK_EUR",
-      "exchange_id": "kraken"
+      "exchange_id": "kraken.com"
     },
     {
       "base": "LINK",
@@ -59,7 +56,7 @@
       "base": "LINK",
       "quote": "USDT",
       "pair_id": "LINK_USDT",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "LINK",
@@ -71,31 +68,31 @@
       "base": "LINK",
       "quote": "BTC",
       "pair_id": "LINK_BTC",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "LINK",
       "quote": "USD",
       "pair_id": "LINK_USD",
-      "exchange_id": "gemini"
+      "exchange_id": "gemini.com"
     },
     {
       "base": "LINK",
       "quote": "USD",
       "pair_id": "LINK_USD",
-      "exchange_id": "bitfinex"
+      "exchange_id": "bitfinex.com"
     },
     {
       "base": "LINK",
       "quote": "USDT",
       "pair_id": "LINK_USDT",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "LINK",
       "quote": "TRY",
       "pair_id": "LINK_TRY",
-      "exchange_id": "btcturk"
+      "exchange_id": "pro.btcturk.com"
     },
     {
       "base": "LINK",
@@ -113,7 +110,7 @@
       "base": "0X514910771AF9CA656AF840DFF83E8264ECF986CA",
       "quote": "ETH",
       "pair_id": "0X514910771AF9CA656AF840DFF83E8264ECF986CA_ETH",
-      "exchange_id": "uniswap"
+      "exchange_id": "uniswap.exchange"
     },
     {
       "base": "LINK",
@@ -161,7 +158,7 @@
       "base": "LINK",
       "quote": "KRW",
       "pair_id": "LINK_KRW",
-      "exchange_id": "bithumb"
+      "exchange_id": "bithumb.com"
     },
     {
       "base": "LINK",
@@ -173,13 +170,13 @@
       "base": "LINK",
       "quote": "XBT",
       "pair_id": "LINK_XBT",
-      "exchange_id": "kraken"
+      "exchange_id": "kraken.com"
     },
     {
       "base": "LINK",
       "quote": "USD",
       "pair_id": "LINK_USD",
-      "exchange_id": "bitstamp"
+      "exchange_id": "bitstamp.net"
     },
     {
       "base": "LINK",
@@ -191,13 +188,13 @@
       "base": "LINK",
       "quote": "USDT",
       "pair_id": "LINK_USDT",
-      "exchange_id": "btcturk"
+      "exchange_id": "pro.btcturk.com"
     },
     {
       "base": "LINK",
       "quote": "KRW",
       "pair_id": "LINK_KRW",
-      "exchange_id": "upbit"
+      "exchange_id": "upbit.com"
     },
     {
       "base": "LINK",
@@ -209,7 +206,7 @@
       "base": "LINK",
       "quote": "BTC",
       "pair_id": "LINK_BTC",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "LINK",
@@ -221,7 +218,7 @@
       "base": "LINK",
       "quote": "UST",
       "pair_id": "LINK_UST",
-      "exchange_id": "bitfinex"
+      "exchange_id": "bitfinex.com"
     },
     {
       "base": "LINK",
@@ -287,13 +284,13 @@
       "base": "LINK",
       "quote": "EUR",
       "pair_id": "LINK_EUR",
-      "exchange_id": "bitstamp"
+      "exchange_id": "bitstamp.net"
     },
     {
       "base": "LINK",
       "quote": "BUSD",
       "pair_id": "LINK_BUSD",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "LINK",
@@ -305,19 +302,19 @@
       "base": "LINK",
       "quote": "USDT",
       "pair_id": "LINK_USDT",
-      "exchange_id": "gate"
+      "exchange_id": "gate.io"
     },
     {
       "base": "LINK",
       "quote": "USDT",
       "pair_id": "LINK_USDT",
-      "exchange_id": "kucoin"
+      "exchange_id": "kucoin.com"
     },
     {
       "base": "LINK",
       "quote": "ETH",
       "pair_id": "LINK_ETH",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "LINK",
@@ -329,7 +326,7 @@
       "base": "LINK",
       "quote": "ETH",
       "pair_id": "LINK_ETH",
-      "exchange_id": "kraken"
+      "exchange_id": "kraken.com"
     },
     {
       "base": "LINK",
@@ -377,7 +374,7 @@
       "base": "LINK",
       "quote": "BTC",
       "pair_id": "LINK_BTC",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "LINK",
@@ -389,7 +386,7 @@
       "base": "LINK",
       "quote": "USDC",
       "pair_id": "LINK_USDC",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "LINK",
@@ -425,19 +422,19 @@
       "base": "LINK",
       "quote": "BTC",
       "pair_id": "LINK_BTC",
-      "exchange_id": "bittrex"
+      "exchange_id": "bittrex.com"
     },
     {
       "base": "LINK",
       "quote": "ETH",
       "pair_id": "LINK_ETH",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "LINK",
       "quote": "USD",
       "pair_id": "LINK_USD",
-      "exchange_id": "bittrex"
+      "exchange_id": "bittrex.com"
     },
     {
       "base": "LINK",
@@ -503,7 +500,7 @@
       "base": "LINK",
       "quote": "BTC",
       "pair_id": "LINK_BTC",
-      "exchange_id": "gemini"
+      "exchange_id": "gemini.com"
     },
     {
       "base": "LINK",
@@ -515,7 +512,7 @@
       "base": "LINK",
       "quote": "USDT",
       "pair_id": "LINK_USDT",
-      "exchange_id": "bittrex"
+      "exchange_id": "bittrex.com"
     },
     {
       "base": "LINK",
@@ -533,7 +530,7 @@
       "base": "LINK",
       "quote": "EUR",
       "pair_id": "LINK_EUR",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "LINK",
@@ -575,7 +572,7 @@
       "base": "LINK",
       "quote": "TUSD",
       "pair_id": "LINK_TUSD",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "LINK",
@@ -587,7 +584,7 @@
       "base": "LINK",
       "quote": "ETH",
       "pair_id": "LINK_ETH",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "LINK",
@@ -605,7 +602,7 @@
       "base": "LINK",
       "quote": "KRW",
       "pair_id": "LINK_KRW",
-      "exchange_id": "coinone"
+      "exchange_id": "coinone.co.kr"
     },
     {
       "base": "LINK",

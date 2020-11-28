@@ -8,10 +8,7 @@
     {
       "name": "Twitter",
       "url": "https://www.twitter.com/iotatoken",
-      "search_strings": [
-        "$IOTA",
-        "$MIOTA"
-      ]
+      "search_strings": ["$IOTA", "$MIOTA"]
     },
     {
       "name": "Reddit",
@@ -23,37 +20,37 @@
       "base": "IOT",
       "quote": "JPY",
       "pair_id": "IOT_JPY",
-      "exchange_id": "bitfinex"
+      "exchange_id": "bitfinex.com"
     },
     {
       "base": "IOT",
       "quote": "USD",
       "pair_id": "IOT_USD",
-      "exchange_id": "bitfinex"
+      "exchange_id": "bitfinex.com"
     },
     {
       "base": "IOT",
       "quote": "GBP",
       "pair_id": "IOT_GBP",
-      "exchange_id": "bitfinex"
+      "exchange_id": "bitfinex.com"
     },
     {
       "base": "IOT",
       "quote": "EUR",
       "pair_id": "IOT_EUR",
-      "exchange_id": "bitfinex"
+      "exchange_id": "bitfinex.com"
     },
     {
       "base": "IOTA",
       "quote": "USDT",
       "pair_id": "IOTA_USDT",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "IOT",
       "quote": "BTC",
       "pair_id": "IOT_BTC",
-      "exchange_id": "bitfinex"
+      "exchange_id": "bitfinex.com"
     },
     {
       "base": "IOTA",
@@ -65,7 +62,7 @@
       "base": "IOTA",
       "quote": "BTC",
       "pair_id": "IOTA_BTC",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "IOTA",
@@ -83,25 +80,25 @@
       "base": "IOTA",
       "quote": "USDT",
       "pair_id": "IOTA_USDT",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "IOTA",
       "quote": "USDT",
       "pair_id": "IOTA_USDT",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "IOTA",
       "quote": "KRW",
       "pair_id": "IOTA_KRW",
-      "exchange_id": "upbit"
+      "exchange_id": "upbit.com"
     },
     {
       "base": "IOTA",
       "quote": "ETH",
       "pair_id": "IOTA_ETH",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "IOTA",
@@ -125,25 +122,25 @@
       "base": "IOT",
       "quote": "ETH",
       "pair_id": "IOT_ETH",
-      "exchange_id": "bitfinex"
+      "exchange_id": "bitfinex.com"
     },
     {
       "base": "IOTA",
       "quote": "KRW",
       "pair_id": "IOTA_KRW",
-      "exchange_id": "coinone"
+      "exchange_id": "coinone.co.kr"
     },
     {
       "base": "IOTA",
       "quote": "BUSD",
       "pair_id": "IOTA_BUSD",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "IOTA",
       "quote": "BTC",
       "pair_id": "IOTA_BTC",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "IOTA",
@@ -155,13 +152,13 @@
       "base": "IOTA",
       "quote": "BNB",
       "pair_id": "IOTA_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "IOTA",
       "quote": "BTC",
       "pair_id": "IOTA_BTC",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "IOTA",
@@ -173,13 +170,13 @@
       "base": "IOTA",
       "quote": "ETH",
       "pair_id": "IOTA_ETH",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "IOTA",
       "quote": "BTC",
       "pair_id": "IOTA_BTC",
-      "exchange_id": "bittrex"
+      "exchange_id": "bittrex.com"
     },
     {
       "base": "MIOTA",
@@ -191,7 +188,7 @@
       "base": "IOTA",
       "quote": "USDT",
       "pair_id": "IOTA_USDT",
-      "exchange_id": "gate"
+      "exchange_id": "gate.io"
     },
     {
       "base": "IOTA",
@@ -209,7 +206,7 @@
       "base": "IOTA",
       "quote": "IDR",
       "pair_id": "IOTA_IDR",
-      "exchange_id": "indodax"
+      "exchange_id": "indodax.com"
     },
     {
       "base": "IOT",
@@ -221,7 +218,7 @@
       "base": "IOTA",
       "quote": "OKB",
       "pair_id": "IOTA_OKB",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "IOTA",
@@ -293,7 +290,7 @@
       "base": "IOTA",
       "quote": "ETH",
       "pair_id": "IOTA_ETH",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "MIOTA",
@@ -341,7 +338,7 @@
       "base": "IOTA",
       "quote": "BTC",
       "pair_id": "IOTA_BTC",
-      "exchange_id": "gate"
+      "exchange_id": "gate.io"
     },
     {
       "base": "IOTA",

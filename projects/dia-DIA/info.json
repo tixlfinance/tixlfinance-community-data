@@ -8,9 +8,7 @@
     {
       "name": "Twitter",
       "url": "https://www.twitter.com/DIAdata_org",
-      "search_strings": [
-        "$DIA"
-      ]
+      "search_strings": ["$DIA"]
     },
     {
       "name": "Reddit",
@@ -22,19 +20,19 @@
       "base": "DIA",
       "quote": "USDT",
       "pair_id": "DIA_USDT",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "DIA",
       "quote": "BTC",
       "pair_id": "DIA_BTC",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "0X84CA8BC7997272C7CFB4D0CD3D55CD942B3C9419",
       "quote": "ETH",
       "pair_id": "0X84CA8BC7997272C7CFB4D0CD3D55CD942B3C9419_ETH",
-      "exchange_id": "uniswap"
+      "exchange_id": "uniswap.exchange"
     },
     {
       "base": "DIA",
@@ -52,7 +50,7 @@
       "base": "DIA",
       "quote": "USDT",
       "pair_id": "DIA_USDT",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "DIA",
@@ -64,7 +62,7 @@
       "base": "DIA",
       "quote": "USDT",
       "pair_id": "DIA_USDT",
-      "exchange_id": "kucoin"
+      "exchange_id": "kucoin.com"
     },
     {
       "base": "DIA",
@@ -76,19 +74,19 @@
       "base": "DIA",
       "quote": "BUSD",
       "pair_id": "DIA_BUSD",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "DIA",
       "quote": "BNB",
       "pair_id": "DIA_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "DIA",
       "quote": "BTC",
       "pair_id": "DIA_BTC",
-      "exchange_id": "kucoin"
+      "exchange_id": "kucoin.com"
     },
     {
       "base": "DIA",
@@ -112,7 +110,7 @@
       "base": "DIA",
       "quote": "ETH",
       "pair_id": "DIA_ETH",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "DIA",
@@ -172,7 +170,7 @@
       "base": "DIA",
       "quote": "USDT",
       "pair_id": "DIA_USDT",
-      "exchange_id": "poloniex"
+      "exchange_id": "poloniex.com"
     },
     {
       "base": "DIA",
@@ -184,7 +182,7 @@
       "base": "DIA",
       "quote": "USDT",
       "pair_id": "DIA_USDT",
-      "exchange_id": "gate"
+      "exchange_id": "gate.io"
     },
     {
       "base": "DIA",
@@ -214,7 +212,7 @@
       "base": "DIA",
       "quote": "KRW",
       "pair_id": "DIA_KRW",
-      "exchange_id": "coinone"
+      "exchange_id": "coinone.co.kr"
     },
     {
       "base": "DIA",
@@ -244,7 +242,7 @@
       "base": "DIA",
       "quote": "ETH",
       "pair_id": "DIA_ETH",
-      "exchange_id": "gate"
+      "exchange_id": "gate.io"
     }
   ],
   "tokenomics": {

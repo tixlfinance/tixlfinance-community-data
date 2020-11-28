@@ -8,9 +8,7 @@
     {
       "name": "Twitter",
       "url": "https://www.twitter.com/elrondnetwork",
-      "search_strings": [
-        "$EGLD"
-      ]
+      "search_strings": ["$EGLD"]
     },
     {
       "name": "Reddit",
@@ -28,25 +26,25 @@
       "base": "EGLD",
       "quote": "USDT",
       "pair_id": "EGLD_USDT",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "EGLD",
       "quote": "UST",
       "pair_id": "EGLD_UST",
-      "exchange_id": "bitfinex"
+      "exchange_id": "bitfinex.com"
     },
     {
       "base": "EGLD",
       "quote": "USD",
       "pair_id": "EGLD_USD",
-      "exchange_id": "bitfinex"
+      "exchange_id": "bitfinex.com"
     },
     {
       "base": "EGLD",
       "quote": "BTC",
       "pair_id": "EGLD_BTC",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "EGLD",
@@ -58,7 +56,7 @@
       "base": "EGLD",
       "quote": "BUSD",
       "pair_id": "EGLD_BUSD",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "EGLD",
@@ -70,7 +68,7 @@
       "base": "EGLD",
       "quote": "USDT",
       "pair_id": "EGLD_USDT",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "EGLD",
@@ -88,13 +86,13 @@
       "base": "EGLD",
       "quote": "BNB",
       "pair_id": "EGLD_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "EGLD",
       "quote": "BTC",
       "pair_id": "EGLD_BTC",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "EGLD",
@@ -106,7 +104,7 @@
       "base": "EGLD",
       "quote": "IDR",
       "pair_id": "EGLD_IDR",
-      "exchange_id": "indodax"
+      "exchange_id": "indodax.com"
     },
     {
       "base": "EGLD",

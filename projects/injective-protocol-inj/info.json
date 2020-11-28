@@ -8,9 +8,7 @@
     {
       "name": "Twitter",
       "url": "https://www.twitter.com/InjectiveLabs",
-      "search_strings": [
-        "$INJ"
-      ]
+      "search_strings": ["$INJ"]
     },
     {
       "name": "Reddit",
@@ -22,25 +20,25 @@
       "base": "INJ",
       "quote": "USDT",
       "pair_id": "INJ_USDT",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "INJ",
       "quote": "BTC",
       "pair_id": "INJ_BTC",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "INJ",
       "quote": "BNB",
       "pair_id": "INJ_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "INJ",
       "quote": "BUSD",
       "pair_id": "INJ_BUSD",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "INJ",
@@ -52,7 +50,7 @@
       "base": "INJ",
       "quote": "USDT",
       "pair_id": "INJ_USDT",
-      "exchange_id": "poloniex"
+      "exchange_id": "poloniex.com"
     },
     {
       "base": "INJ",
@@ -70,7 +68,7 @@
       "base": "INJ",
       "quote": "BTC",
       "pair_id": "INJ_BTC",
-      "exchange_id": "poloniex"
+      "exchange_id": "poloniex.com"
     },
     {
       "base": "INJ",
@@ -88,13 +86,13 @@
       "base": "INJ",
       "quote": "USDT",
       "pair_id": "INJ_USDT",
-      "exchange_id": "gate"
+      "exchange_id": "gate.io"
     },
     {
       "base": "INJ",
       "quote": "ETH",
       "pair_id": "INJ_ETH",
-      "exchange_id": "gate"
+      "exchange_id": "gate.io"
     },
     {
       "base": "INJ",
@@ -106,13 +104,13 @@
       "base": "0XE28B3B32B6C345A34FF64674606124DD5ACECA30",
       "quote": "ETH",
       "pair_id": "0XE28B3B32B6C345A34FF64674606124DD5ACECA30_ETH",
-      "exchange_id": "uniswap"
+      "exchange_id": "uniswap.exchange"
     },
     {
       "base": "INJ",
       "quote": "KRW",
       "pair_id": "INJ_KRW",
-      "exchange_id": "coinone"
+      "exchange_id": "coinone.co.kr"
     }
   ],
   "tokenomics": {

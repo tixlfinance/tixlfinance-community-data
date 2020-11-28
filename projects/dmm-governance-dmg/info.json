@@ -8,9 +8,7 @@
     {
       "name": "Twitter",
       "url": "https://www.twitter.com/DMMDAO",
-      "search_strings": [
-        "$DMG"
-      ]
+      "search_strings": ["$DMG"]
     }
   ],
   "trading_pairs": [
@@ -18,7 +16,7 @@
       "base": "0XED91879919B71BB6905F23AF0A68D231ECF87B14",
       "quote": "ETH",
       "pair_id": "0XED91879919B71BB6905F23AF0A68D231ECF87B14_ETH",
-      "exchange_id": "uniswap"
+      "exchange_id": "uniswap.exchange"
     },
     {
       "base": "DMG",
@@ -30,7 +28,7 @@
       "base": "DMG",
       "quote": "USDT",
       "pair_id": "DMG_USDT",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "DMG",
@@ -48,7 +46,7 @@
       "base": "DMG",
       "quote": "USDT",
       "pair_id": "DMG_USDT",
-      "exchange_id": "kucoin"
+      "exchange_id": "kucoin.com"
     },
     {
       "base": "DMG",
@@ -96,7 +94,7 @@
       "base": "DMG",
       "quote": "BTC",
       "pair_id": "DMG_BTC",
-      "exchange_id": "poloniex"
+      "exchange_id": "poloniex.com"
     },
     {
       "base": "DMG",
@@ -114,7 +112,7 @@
       "base": "DMG",
       "quote": "USDT",
       "pair_id": "DMG_USDT",
-      "exchange_id": "poloniex"
+      "exchange_id": "poloniex.com"
     },
     {
       "base": "DMG",
@@ -138,7 +136,7 @@
       "base": "DMG",
       "quote": "KRW",
       "pair_id": "DMG_KRW",
-      "exchange_id": "coinone"
+      "exchange_id": "coinone.co.kr"
     },
     {
       "base": "DMG",
@@ -162,7 +160,7 @@
       "base": "DMG",
       "quote": "TRX",
       "pair_id": "DMG_TRX",
-      "exchange_id": "poloniex"
+      "exchange_id": "poloniex.com"
     }
   ],
   "tokenomics": {

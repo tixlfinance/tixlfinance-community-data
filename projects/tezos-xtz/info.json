@@ -8,9 +8,7 @@
     {
       "name": "Twitter",
       "url": "https://www.twitter.com/tezos",
-      "search_strings": [
-        "$XTZ"
-      ]
+      "search_strings": ["$XTZ"]
     },
     {
       "name": "Reddit",
@@ -34,49 +32,49 @@
       "base": "XTZ",
       "quote": "USD",
       "pair_id": "XTZ_USD",
-      "exchange_id": "kraken"
+      "exchange_id": "kraken.com"
     },
     {
       "base": "XTZ",
       "quote": "EUR",
       "pair_id": "XTZ_EUR",
-      "exchange_id": "kraken"
+      "exchange_id": "kraken.com"
     },
     {
       "base": "XTZ",
       "quote": "USDT",
       "pair_id": "XTZ_USDT",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "XTZ",
       "quote": "USD",
       "pair_id": "XTZ_USD",
-      "exchange_id": "bitfinex"
+      "exchange_id": "bitfinex.com"
     },
     {
       "base": "XTZ",
       "quote": "TRY",
       "pair_id": "XTZ_TRY",
-      "exchange_id": "btcturk"
+      "exchange_id": "pro.btcturk.com"
     },
     {
       "base": "XTZ",
       "quote": "USDT",
       "pair_id": "XTZ_USDT",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "XTZ",
       "quote": "XBT",
       "pair_id": "XTZ_XBT",
-      "exchange_id": "kraken"
+      "exchange_id": "kraken.com"
     },
     {
       "base": "XTZ",
       "quote": "BTC",
       "pair_id": "XTZ_BTC",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "XTZ",
@@ -88,19 +86,19 @@
       "base": "XTZ",
       "quote": "BTC",
       "pair_id": "XTZ_BTC",
-      "exchange_id": "bitfinex"
+      "exchange_id": "bitfinex.com"
     },
     {
       "base": "XTZ",
       "quote": "USDT",
       "pair_id": "XTZ_USDT",
-      "exchange_id": "gate"
+      "exchange_id": "gate.io"
     },
     {
       "base": "XTZ",
       "quote": "USDT",
       "pair_id": "XTZ_USDT",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "XTZ",
@@ -136,7 +134,7 @@
       "base": "XTZ",
       "quote": "ETH",
       "pair_id": "XTZ_ETH",
-      "exchange_id": "kraken"
+      "exchange_id": "kraken.com"
     },
     {
       "base": "XTZ",
@@ -154,25 +152,25 @@
       "base": "XTZ",
       "quote": "BTC",
       "pair_id": "XTZ_BTC",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "XTZ",
       "quote": "USDT",
       "pair_id": "XTZ_USDT",
-      "exchange_id": "btcturk"
+      "exchange_id": "pro.btcturk.com"
     },
     {
       "base": "XTZ",
       "quote": "BTC",
       "pair_id": "XTZ_BTC",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "XTZ",
       "quote": "KRW",
       "pair_id": "XTZ_KRW",
-      "exchange_id": "bithumb"
+      "exchange_id": "bithumb.com"
     },
     {
       "base": "XTZ",
@@ -184,7 +182,7 @@
       "base": "XTZ",
       "quote": "USDT",
       "pair_id": "XTZ_USDT",
-      "exchange_id": "kucoin"
+      "exchange_id": "kucoin.com"
     },
     {
       "base": "XTZ",
@@ -208,7 +206,7 @@
       "base": "XTZ",
       "quote": "KRW",
       "pair_id": "XTZ_KRW",
-      "exchange_id": "upbit"
+      "exchange_id": "upbit.com"
     },
     {
       "base": "XTZ",
@@ -220,7 +218,7 @@
       "base": "XTZ",
       "quote": "BUSD",
       "pair_id": "XTZ_BUSD",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "XTZ",
@@ -232,7 +230,7 @@
       "base": "XTZ",
       "quote": "KRW",
       "pair_id": "XTZ_KRW",
-      "exchange_id": "coinone"
+      "exchange_id": "coinone.co.kr"
     },
     {
       "base": "XTZ",
@@ -244,7 +242,7 @@
       "base": "XTZ",
       "quote": "BTC",
       "pair_id": "XTZ_BTC",
-      "exchange_id": "kucoin"
+      "exchange_id": "kucoin.com"
     },
     {
       "base": "XTZ",
@@ -262,7 +260,7 @@
       "base": "XTZ",
       "quote": "BTC",
       "pair_id": "XTZ_BTC",
-      "exchange_id": "bittrex"
+      "exchange_id": "bittrex.com"
     },
     {
       "base": "XTZ",
@@ -274,7 +272,7 @@
       "base": "XTZ",
       "quote": "USD",
       "pair_id": "XTZ_USD",
-      "exchange_id": "bittrex"
+      "exchange_id": "bittrex.com"
     },
     {
       "base": "XTZ",
@@ -292,7 +290,7 @@
       "base": "XTZ",
       "quote": "ETH",
       "pair_id": "XTZ_ETH",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "XTZ",
@@ -346,25 +344,25 @@
       "base": "XTZ",
       "quote": "BNB",
       "pair_id": "XTZ_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "XTZ",
       "quote": "USDT",
       "pair_id": "XTZ_USDT",
-      "exchange_id": "bittrex"
+      "exchange_id": "bittrex.com"
     },
     {
       "base": "XTZ",
       "quote": "IDR",
       "pair_id": "XTZ_IDR",
-      "exchange_id": "indodax"
+      "exchange_id": "indodax.com"
     },
     {
       "base": "XTZ",
       "quote": "ETH",
       "pair_id": "XTZ_ETH",
-      "exchange_id": "bittrex"
+      "exchange_id": "bittrex.com"
     },
     {
       "base": "XTZ",
@@ -376,7 +374,7 @@
       "base": "XTZ",
       "quote": "HUSD",
       "pair_id": "XTZ_HUSD",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "XTZ",
@@ -412,7 +410,7 @@
       "base": "XTZ",
       "quote": "USDT",
       "pair_id": "XTZ_USDT",
-      "exchange_id": "poloniex"
+      "exchange_id": "poloniex.com"
     },
     {
       "base": "XTZ",
@@ -454,7 +452,7 @@
       "base": "XTZ",
       "quote": "BTC",
       "pair_id": "XTZ_BTC",
-      "exchange_id": "poloniex"
+      "exchange_id": "poloniex.com"
     },
     {
       "base": "XTZ",
@@ -538,7 +536,7 @@
       "base": "XTZ",
       "quote": "BTC",
       "pair_id": "XTZ_BTC",
-      "exchange_id": "gate"
+      "exchange_id": "gate.io"
     },
     {
       "base": "XTZ",
@@ -550,7 +548,7 @@
       "base": "XTZ",
       "quote": "ETH",
       "pair_id": "XTZ_ETH",
-      "exchange_id": "gate"
+      "exchange_id": "gate.io"
     },
     {
       "base": "XTZ",
@@ -580,7 +578,7 @@
       "base": "XTZ",
       "quote": "BTC",
       "pair_id": "XTZ_BTC",
-      "exchange_id": "btcturk"
+      "exchange_id": "pro.btcturk.com"
     },
     {
       "base": "XTZ",
@@ -604,7 +602,7 @@
       "base": "XTZ",
       "quote": "TRX",
       "pair_id": "XTZ_TRX",
-      "exchange_id": "poloniex"
+      "exchange_id": "poloniex.com"
     },
     {
       "base": "XTZ",

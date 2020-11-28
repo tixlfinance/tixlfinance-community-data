@@ -8,9 +8,7 @@
     {
       "name": "Twitter",
       "url": "https://www.twitter.com/chromia",
-      "search_strings": [
-        "CHR"
-      ]
+      "search_strings": ["CHR"]
     },
     {
       "name": "Facebook",
@@ -22,19 +20,19 @@
       "base": "CHR",
       "quote": "BTC",
       "pair_id": "CHR_BTC",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "CHR",
       "quote": "USDT",
       "pair_id": "CHR_USDT",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "CHR",
       "quote": "KRW",
       "pair_id": "CHR_KRW",
-      "exchange_id": "bithumb"
+      "exchange_id": "bithumb.com"
     },
     {
       "base": "CHR",
@@ -52,13 +50,13 @@
       "base": "CHR",
       "quote": "BNB",
       "pair_id": "CHR_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "CHR",
       "quote": "USDT",
       "pair_id": "CHR_USDT",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "CHR",
@@ -70,13 +68,13 @@
       "base": "CHR",
       "quote": "BTC",
       "pair_id": "CHR_BTC",
-      "exchange_id": "kucoin"
+      "exchange_id": "kucoin.com"
     },
     {
       "base": "CHR",
       "quote": "BTC",
       "pair_id": "CHR_BTC",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "CHR",
@@ -88,13 +86,13 @@
       "base": "CHR",
       "quote": "USDT",
       "pair_id": "CHR_USDT",
-      "exchange_id": "kucoin"
+      "exchange_id": "kucoin.com"
     },
     {
       "base": "CHR",
       "quote": "USDT",
       "pair_id": "CHR_USDT",
-      "exchange_id": "poloniex"
+      "exchange_id": "poloniex.com"
     },
     {
       "base": "CHR",
@@ -106,13 +104,13 @@
       "base": "CHR",
       "quote": "HT",
       "pair_id": "CHR_HT",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "CHR",
       "quote": "BTC",
       "pair_id": "CHR_BTC",
-      "exchange_id": "poloniex"
+      "exchange_id": "poloniex.com"
     },
     {
       "base": "CHR",
@@ -136,7 +134,7 @@
       "base": "CHR",
       "quote": "TRX",
       "pair_id": "CHR_TRX",
-      "exchange_id": "poloniex"
+      "exchange_id": "poloniex.com"
     },
     {
       "base": "CHR",
@@ -148,7 +146,7 @@
       "base": "CHR",
       "quote": "BTC",
       "pair_id": "CHR_BTC",
-      "exchange_id": "upbit"
+      "exchange_id": "upbit.com"
     },
     {
       "base": "CHR",

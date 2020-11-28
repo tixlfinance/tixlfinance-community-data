@@ -8,9 +8,7 @@
     {
       "name": "Twitter",
       "url": "https://www.twitter.com/bandprotocol",
-      "search_strings": [
-        "$BAND"
-      ]
+      "search_strings": ["$BAND"]
     },
     {
       "name": "Reddit",
@@ -34,7 +32,7 @@
       "base": "BAND",
       "quote": "USDT",
       "pair_id": "BAND_USDT",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "BAND",
@@ -46,7 +44,7 @@
       "base": "BAND",
       "quote": "BTC",
       "pair_id": "BAND_BTC",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "BAND",
@@ -94,13 +92,13 @@
       "base": "BAND",
       "quote": "USDT",
       "pair_id": "BAND_USDT",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "BAND",
       "quote": "USDT",
       "pair_id": "BAND_USDT",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "BAND",
@@ -142,7 +140,7 @@
       "base": "BAND",
       "quote": "BTC",
       "pair_id": "BAND_BTC",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "BAND",
@@ -166,7 +164,7 @@
       "base": "BAND",
       "quote": "BTC",
       "pair_id": "BAND_BTC",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "BAND",
@@ -178,7 +176,7 @@
       "base": "0XBA11D00C5F74255F56A5E366F4F77F5A186D7F55",
       "quote": "ETH",
       "pair_id": "0XBA11D00C5F74255F56A5E366F4F77F5A186D7F55_ETH",
-      "exchange_id": "uniswap"
+      "exchange_id": "uniswap.exchange"
     },
     {
       "base": "BAND",
@@ -190,7 +188,7 @@
       "base": "BAND",
       "quote": "BNB",
       "pair_id": "BAND_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "BAND",
@@ -202,13 +200,13 @@
       "base": "BAND",
       "quote": "ETH",
       "pair_id": "BAND_ETH",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "BAND",
       "quote": "UST",
       "pair_id": "BAND_UST",
-      "exchange_id": "bitfinex"
+      "exchange_id": "bitfinex.com"
     },
     {
       "base": "BAND",
@@ -226,7 +224,7 @@
       "base": "BAND",
       "quote": "USDT",
       "pair_id": "BAND_USDT",
-      "exchange_id": "gate"
+      "exchange_id": "gate.io"
     },
     {
       "base": "BAND",
@@ -250,7 +248,7 @@
       "base": "BAND",
       "quote": "HUSD",
       "pair_id": "BAND_HUSD",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "BAND",
@@ -268,7 +266,7 @@
       "base": "BAND",
       "quote": "ETH",
       "pair_id": "BAND_ETH",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "BAND",
@@ -406,7 +404,7 @@
       "base": "BAND",
       "quote": "USD",
       "pair_id": "BAND_USD",
-      "exchange_id": "bitfinex"
+      "exchange_id": "bitfinex.com"
     },
     {
       "base": "BAND",
@@ -430,7 +428,7 @@
       "base": "BAND",
       "quote": "USDT",
       "pair_id": "BAND_USDT",
-      "exchange_id": "poloniex"
+      "exchange_id": "poloniex.com"
     },
     {
       "base": "0XBA11D00C5F74255F56A5E366F4F77F5A186D7F55",
@@ -442,7 +440,7 @@
       "base": "BAND",
       "quote": "ETH",
       "pair_id": "BAND_ETH",
-      "exchange_id": "gate"
+      "exchange_id": "gate.io"
     },
     {
       "base": "BAND",
@@ -490,7 +488,7 @@
       "base": "BAND",
       "quote": "KRW",
       "pair_id": "BAND_KRW",
-      "exchange_id": "coinone"
+      "exchange_id": "coinone.co.kr"
     },
     {
       "base": "BAND",

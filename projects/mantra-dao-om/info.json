@@ -8,9 +8,7 @@
     {
       "name": "Twitter",
       "url": "https://www.twitter.com/MANTRADAO",
-      "search_strings": [
-        "$OM"
-      ]
+      "search_strings": ["$OM"]
     }
   ],
   "trading_pairs": [
@@ -18,7 +16,7 @@
       "base": "0X2BAECDF43734F22FD5C152DB08E3C27233F0C7D2",
       "quote": "ETH",
       "pair_id": "0X2BAECDF43734F22FD5C152DB08E3C27233F0C7D2_ETH",
-      "exchange_id": "uniswap"
+      "exchange_id": "uniswap.exchange"
     },
     {
       "base": "OM",
@@ -36,13 +34,13 @@
       "base": "OM",
       "quote": "USDT",
       "pair_id": "OM_USDT",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "OM",
       "quote": "USDT",
       "pair_id": "OM_USDT",
-      "exchange_id": "poloniex"
+      "exchange_id": "poloniex.com"
     },
     {
       "base": "OM",
@@ -54,13 +52,13 @@
       "base": "OM",
       "quote": "USDT",
       "pair_id": "OM_USDT",
-      "exchange_id": "gate"
+      "exchange_id": "gate.io"
     },
     {
       "base": "OM",
       "quote": "ETH",
       "pair_id": "OM_ETH",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "OM",
@@ -102,7 +100,7 @@
       "base": "OM",
       "quote": "ETH",
       "pair_id": "OM_ETH",
-      "exchange_id": "gate"
+      "exchange_id": "gate.io"
     }
   ],
   "tokenomics": {

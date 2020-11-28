@@ -8,9 +8,7 @@
     {
       "name": "Twitter",
       "url": "https://www.twitter.com/oceanprotocol",
-      "search_strings": [
-        "$OCEAN"
-      ]
+      "search_strings": ["$OCEAN"]
     },
     {
       "name": "Reddit",
@@ -22,19 +20,19 @@
       "base": "OCEAN",
       "quote": "USDT",
       "pair_id": "OCEAN_USDT",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "OCEAN",
       "quote": "BTC",
       "pair_id": "OCEAN_BTC",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "OCEAN",
       "quote": "BUSD",
       "pair_id": "OCEAN_BUSD",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "OCEAN",
@@ -46,13 +44,13 @@
       "base": "OCEAN",
       "quote": "BNB",
       "pair_id": "OCEAN_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "OCEAN",
       "quote": "BTC",
       "pair_id": "OCEAN_BTC",
-      "exchange_id": "kucoin"
+      "exchange_id": "kucoin.com"
     },
     {
       "base": "OCEAN",
@@ -76,13 +74,13 @@
       "base": "0X967DA4048CD07AB37855C090AAF366E4CE1B9F48",
       "quote": "ETH",
       "pair_id": "0X967DA4048CD07AB37855C090AAF366E4CE1B9F48_ETH",
-      "exchange_id": "uniswap"
+      "exchange_id": "uniswap.exchange"
     },
     {
       "base": "OCEAN",
       "quote": "ETH",
       "pair_id": "OCEAN_ETH",
-      "exchange_id": "kucoin"
+      "exchange_id": "kucoin.com"
     },
     {
       "base": "OCEAN",
@@ -94,7 +92,7 @@
       "base": "OCEAN",
       "quote": "USDT",
       "pair_id": "OCEAN_USDT",
-      "exchange_id": "gate"
+      "exchange_id": "gate.io"
     },
     {
       "base": "OCEAN",
@@ -106,7 +104,7 @@
       "base": "OCEAN",
       "quote": "BTC",
       "pair_id": "OCEAN_BTC",
-      "exchange_id": "bittrex"
+      "exchange_id": "bittrex.com"
     },
     {
       "base": "OCEAN",
@@ -124,7 +122,7 @@
       "base": "OCEAN",
       "quote": "IDR",
       "pair_id": "OCEAN_IDR",
-      "exchange_id": "indodax"
+      "exchange_id": "indodax.com"
     },
     {
       "base": "OCEAN",
@@ -202,7 +200,7 @@
       "base": "OCEAN",
       "quote": "USDT",
       "pair_id": "OCEAN_USDT",
-      "exchange_id": "poloniex"
+      "exchange_id": "poloniex.com"
     },
     {
       "base": "OCEAN",
@@ -232,7 +230,7 @@
       "base": "OCEAN",
       "quote": "USDT",
       "pair_id": "OCEAN_USDT",
-      "exchange_id": "bittrex"
+      "exchange_id": "bittrex.com"
     },
     {
       "base": "0X967DA4048CD07AB37855C090AAF366E4CE1B9F48",

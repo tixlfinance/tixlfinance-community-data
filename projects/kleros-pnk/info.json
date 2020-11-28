@@ -8,9 +8,7 @@
     {
       "name": "Twitter",
       "url": "https://www.twitter.com/kleros_io",
-      "search_strings": [
-        "$PNK"
-      ]
+      "search_strings": ["$PNK"]
     },
     {
       "name": "Facebook",
@@ -32,7 +30,7 @@
       "base": "0X93ED3FBE21207EC2E8F2D3C3DE6E058CB73BC04D",
       "quote": "ETH",
       "pair_id": "0X93ED3FBE21207EC2E8F2D3C3DE6E058CB73BC04D_ETH",
-      "exchange_id": "uniswap"
+      "exchange_id": "uniswap.exchange"
     },
     {
       "base": "PNK",
@@ -50,7 +48,7 @@
       "base": "PNK",
       "quote": "ETH",
       "pair_id": "PNK_ETH",
-      "exchange_id": "bitfinex"
+      "exchange_id": "bitfinex.com"
     },
     {
       "base": "PNK",
@@ -98,7 +96,7 @@
       "base": "PNK",
       "quote": "USD",
       "pair_id": "PNK_USD",
-      "exchange_id": "bitfinex"
+      "exchange_id": "bitfinex.com"
     },
     {
       "base": "PNK",

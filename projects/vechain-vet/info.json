@@ -8,9 +8,7 @@
     {
       "name": "Twitter",
       "url": "https://www.twitter.com/vechainofficial",
-      "search_strings": [
-        "$VET"
-      ]
+      "search_strings": ["$VET"]
     },
     {
       "name": "Reddit",
@@ -28,7 +26,7 @@
       "base": "VET",
       "quote": "USDT",
       "pair_id": "VET_USDT",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "VET",
@@ -46,7 +44,7 @@
       "base": "VET",
       "quote": "BTC",
       "pair_id": "VET_BTC",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "VET",
@@ -64,7 +62,7 @@
       "base": "VET",
       "quote": "USDT",
       "pair_id": "VET_USDT",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "VET",
@@ -106,25 +104,25 @@
       "base": "VET",
       "quote": "KRW",
       "pair_id": "VET_KRW",
-      "exchange_id": "bithumb"
+      "exchange_id": "bithumb.com"
     },
     {
       "base": "VET",
       "quote": "ETH",
       "pair_id": "VET_ETH",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "VET",
       "quote": "BTC",
       "pair_id": "VET_BTC",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "VET",
       "quote": "BUSD",
       "pair_id": "VET_BUSD",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "VET",
@@ -136,13 +134,13 @@
       "base": "VET",
       "quote": "USDT",
       "pair_id": "VET_USDT",
-      "exchange_id": "kucoin"
+      "exchange_id": "kucoin.com"
     },
     {
       "base": "VET",
       "quote": "KRW",
       "pair_id": "VET_KRW",
-      "exchange_id": "upbit"
+      "exchange_id": "upbit.com"
     },
     {
       "base": "VET",
@@ -172,43 +170,43 @@
       "base": "VET",
       "quote": "BNB",
       "pair_id": "VET_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "VET",
       "quote": "ETH",
       "pair_id": "VET_ETH",
-      "exchange_id": "kucoin"
+      "exchange_id": "kucoin.com"
     },
     {
       "base": "VET",
       "quote": "BTC",
       "pair_id": "VET_BTC",
-      "exchange_id": "kucoin"
+      "exchange_id": "kucoin.com"
     },
     {
       "base": "VET",
       "quote": "BTC",
       "pair_id": "VET_BTC",
-      "exchange_id": "bittrex"
+      "exchange_id": "bittrex.com"
     },
     {
       "base": "VET",
       "quote": "ETH",
       "pair_id": "VET_ETH",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "VET",
       "quote": "USD",
       "pair_id": "VET_USD",
-      "exchange_id": "bitfinex"
+      "exchange_id": "bitfinex.com"
     },
     {
       "base": "VET",
       "quote": "USDT",
       "pair_id": "VET_USDT",
-      "exchange_id": "gate"
+      "exchange_id": "gate.io"
     },
     {
       "base": "VET",
@@ -286,7 +284,7 @@
       "base": "VET",
       "quote": "USDT",
       "pair_id": "VET_USDT",
-      "exchange_id": "bittrex"
+      "exchange_id": "bittrex.com"
     },
     {
       "base": "VET",
@@ -298,7 +296,7 @@
       "base": "VET",
       "quote": "BTC",
       "pair_id": "VET_BTC",
-      "exchange_id": "bitfinex"
+      "exchange_id": "bitfinex.com"
     },
     {
       "base": "DASH",
@@ -346,7 +344,7 @@
       "base": "VET",
       "quote": "HUSD",
       "pair_id": "VET_HUSD",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "VET",
@@ -484,7 +482,7 @@
       "base": "VET",
       "quote": "ETH",
       "pair_id": "VET_ETH",
-      "exchange_id": "gate"
+      "exchange_id": "gate.io"
     },
     {
       "base": "HOT",
@@ -598,7 +596,7 @@
       "base": "VET",
       "quote": "BTC",
       "pair_id": "VET_BTC",
-      "exchange_id": "upbit"
+      "exchange_id": "upbit.com"
     },
     {
       "base": "JUR",

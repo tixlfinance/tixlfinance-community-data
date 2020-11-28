@@ -8,9 +8,7 @@
     {
       "name": "Twitter",
       "url": "https://www.twitter.com/iearnfinance",
-      "search_strings": [
-        "$YFI"
-      ]
+      "search_strings": ["$YFI"]
     },
     {
       "name": "Reddit",
@@ -22,19 +20,19 @@
       "base": "YFI",
       "quote": "USDT",
       "pair_id": "YFI_USDT",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "YFI",
       "quote": "USDT",
       "pair_id": "YFI_USDT",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "YFI",
       "quote": "BTC",
       "pair_id": "YFI_BTC",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "0X0BC529C00C6401AEF6D220BE8C6EA1667F6AD93E",
@@ -58,13 +56,13 @@
       "base": "YFI",
       "quote": "USDT",
       "pair_id": "YFI_USDT",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "YFI",
       "quote": "USD",
       "pair_id": "YFI_USD",
-      "exchange_id": "bitfinex"
+      "exchange_id": "bitfinex.com"
     },
     {
       "base": "YFI",
@@ -82,7 +80,7 @@
       "base": "0X0BC529C00C6401AEF6D220BE8C6EA1667F6AD93E",
       "quote": "ETH",
       "pair_id": "0X0BC529C00C6401AEF6D220BE8C6EA1667F6AD93E_ETH",
-      "exchange_id": "uniswap"
+      "exchange_id": "uniswap.exchange"
     },
     {
       "base": "YFI",
@@ -94,7 +92,7 @@
       "base": "YFI",
       "quote": "USD",
       "pair_id": "YFI_USD",
-      "exchange_id": "kraken"
+      "exchange_id": "kraken.com"
     },
     {
       "base": "YFI",
@@ -106,13 +104,13 @@
       "base": "YFI",
       "quote": "EUR",
       "pair_id": "YFI_EUR",
-      "exchange_id": "kraken"
+      "exchange_id": "kraken.com"
     },
     {
       "base": "YFI",
       "quote": "BTC",
       "pair_id": "YFI_BTC",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "YFI",
@@ -130,13 +128,13 @@
       "base": "YFI",
       "quote": "BUSD",
       "pair_id": "YFI_BUSD",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "YFI",
       "quote": "USDT",
       "pair_id": "YFI_USDT",
-      "exchange_id": "gate"
+      "exchange_id": "gate.io"
     },
     {
       "base": "YFI",
@@ -148,7 +146,7 @@
       "base": "YFI",
       "quote": "KRW",
       "pair_id": "YFI_KRW",
-      "exchange_id": "bithumb"
+      "exchange_id": "bithumb.com"
     },
     {
       "base": "YFI",
@@ -166,7 +164,7 @@
       "base": "YFI",
       "quote": "IDR",
       "pair_id": "YFI_IDR",
-      "exchange_id": "indodax"
+      "exchange_id": "indodax.com"
     },
     {
       "base": "YFI",
@@ -178,7 +176,7 @@
       "base": "YFI",
       "quote": "BTC",
       "pair_id": "YFI_BTC",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "YFI",
@@ -196,7 +194,7 @@
       "base": "YFI",
       "quote": "USD",
       "pair_id": "YFI_USD",
-      "exchange_id": "gemini"
+      "exchange_id": "gemini.com"
     },
     {
       "base": "YFI",
@@ -226,13 +224,13 @@
       "base": "YFI",
       "quote": "XBT",
       "pair_id": "YFI_XBT",
-      "exchange_id": "kraken"
+      "exchange_id": "kraken.com"
     },
     {
       "base": "YFI",
       "quote": "UST",
       "pair_id": "YFI_UST",
-      "exchange_id": "bitfinex"
+      "exchange_id": "bitfinex.com"
     },
     {
       "base": "YFI",
@@ -280,7 +278,7 @@
       "base": "YFI",
       "quote": "ETH",
       "pair_id": "YFI_ETH",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "YFI",
@@ -358,7 +356,7 @@
       "base": "YFI",
       "quote": "USDT",
       "pair_id": "YFI_USDT",
-      "exchange_id": "poloniex"
+      "exchange_id": "poloniex.com"
     },
     {
       "base": "YFI",
@@ -382,7 +380,7 @@
       "base": "YFI",
       "quote": "USDT",
       "pair_id": "YFI_USDT",
-      "exchange_id": "kucoin"
+      "exchange_id": "kucoin.com"
     },
     {
       "base": "YFI",
@@ -394,13 +392,13 @@
       "base": "YFI",
       "quote": "ETH",
       "pair_id": "YFI_ETH",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "YFI",
       "quote": "ETH",
       "pair_id": "YFI_ETH",
-      "exchange_id": "kraken"
+      "exchange_id": "kraken.com"
     },
     {
       "base": "YFI",
@@ -412,7 +410,7 @@
       "base": "YFI",
       "quote": "BNB",
       "pair_id": "YFI_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "YFI",
@@ -490,7 +488,7 @@
       "base": "YFI",
       "quote": "ETH",
       "pair_id": "YFI_ETH",
-      "exchange_id": "gate"
+      "exchange_id": "gate.io"
     },
     {
       "base": "YFI",

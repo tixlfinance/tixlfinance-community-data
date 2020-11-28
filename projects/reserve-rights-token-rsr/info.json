@@ -8,9 +8,7 @@
     {
       "name": "Twitter",
       "url": "https://www.twitter.com/reserveprotocol",
-      "search_strings": [
-        "$RSR"
-      ]
+      "search_strings": ["$RSR"]
     }
   ],
   "trading_pairs": [
@@ -18,13 +16,13 @@
       "base": "RSR",
       "quote": "USDT",
       "pair_id": "RSR_USDT",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "RSR",
       "quote": "USDT",
       "pair_id": "RSR_USDT",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "RSR",
@@ -48,19 +46,19 @@
       "base": "RSR",
       "quote": "BTC",
       "pair_id": "RSR_BTC",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "RSR",
       "quote": "USDT",
       "pair_id": "RSR_USDT",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "0X8762DB106B2C2A0BCCB3A80D1ED41273552616E8",
       "quote": "ETH",
       "pair_id": "0X8762DB106B2C2A0BCCB3A80D1ED41273552616E8_ETH",
-      "exchange_id": "uniswap"
+      "exchange_id": "uniswap.exchange"
     },
     {
       "base": "RSR",
@@ -78,7 +76,7 @@
       "base": "RSR",
       "quote": "BTC",
       "pair_id": "RSR_BTC",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "RSR",
@@ -90,13 +88,13 @@
       "base": "RSR",
       "quote": "BUSD",
       "pair_id": "RSR_BUSD",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "RSR",
       "quote": "BTC",
       "pair_id": "RSR_BTC",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "RSR",
@@ -108,7 +106,7 @@
       "base": "RSR",
       "quote": "BNB",
       "pair_id": "RSR_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "RSR",
@@ -126,7 +124,7 @@
       "base": "RSR",
       "quote": "HT",
       "pair_id": "RSR_HT",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "RSR",
@@ -156,7 +154,7 @@
       "base": "RSR",
       "quote": "ETH",
       "pair_id": "RSR_ETH",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "RSR",
@@ -186,7 +184,7 @@
       "base": "RSR",
       "quote": "USDT",
       "pair_id": "RSR_USDT",
-      "exchange_id": "gate"
+      "exchange_id": "gate.io"
     },
     {
       "base": "RSR",
@@ -234,7 +232,7 @@
       "base": "RSR",
       "quote": "USDT",
       "pair_id": "RSR_USDT",
-      "exchange_id": "poloniex"
+      "exchange_id": "poloniex.com"
     },
     {
       "base": "RSR",
@@ -246,7 +244,7 @@
       "base": "RSR",
       "quote": "BTC",
       "pair_id": "RSR_BTC",
-      "exchange_id": "upbit"
+      "exchange_id": "upbit.com"
     },
     {
       "base": "RSR",

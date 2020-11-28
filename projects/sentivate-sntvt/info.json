@@ -8,9 +8,7 @@
     {
       "name": "Twitter",
       "url": "https://www.twitter.com/sentivate",
-      "search_strings": [
-        "$SNTVT"
-      ]
+      "search_strings": ["$SNTVT"]
     },
     {
       "name": "Facebook",
@@ -26,13 +24,13 @@
       "base": "0X7865AF71CF0B288B4E7F654F4F7851EB46A2B7F8",
       "quote": "ETH",
       "pair_id": "0X7865AF71CF0B288B4E7F654F4F7851EB46A2B7F8_ETH",
-      "exchange_id": "uniswap"
+      "exchange_id": "uniswap.exchange"
     },
     {
       "base": "SNTVT",
       "quote": "BTC",
       "pair_id": "SNTVT_BTC",
-      "exchange_id": "kucoin"
+      "exchange_id": "kucoin.com"
     },
     {
       "base": "SNTVT",
@@ -44,7 +42,7 @@
       "base": "SNTVT",
       "quote": "ETH",
       "pair_id": "SNTVT_ETH",
-      "exchange_id": "kucoin"
+      "exchange_id": "kucoin.com"
     },
     {
       "base": "SNTVT",

@@ -8,9 +8,7 @@
     {
       "name": "Twitter",
       "url": "https://www.twitter.com/binance",
-      "search_strings": [
-        "$BNB"
-      ]
+      "search_strings": ["$BNB"]
     },
     {
       "name": "Facebook",
@@ -32,7 +30,7 @@
       "base": "BNB",
       "quote": "USDT",
       "pair_id": "BNB_USDT",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "BNB",
@@ -44,7 +42,7 @@
       "base": "BNB",
       "quote": "BTC",
       "pair_id": "BNB_BTC",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "BNB",
@@ -68,7 +66,7 @@
       "base": "BNB",
       "quote": "BUSD",
       "pair_id": "BNB_BUSD",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "BNB",
@@ -110,7 +108,7 @@
       "base": "BNB",
       "quote": "ETH",
       "pair_id": "BNB_ETH",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "BNB",
@@ -122,7 +120,7 @@
       "base": "FTT",
       "quote": "BNB",
       "pair_id": "FTT_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "BNB",
@@ -152,7 +150,7 @@
       "base": "NEAR",
       "quote": "BNB",
       "pair_id": "NEAR_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "BNB",
@@ -164,7 +162,7 @@
       "base": "BNB",
       "quote": "USDC",
       "pair_id": "BNB_USDC",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "BNB.BNB",
@@ -188,13 +186,13 @@
       "base": "XRP",
       "quote": "BNB",
       "pair_id": "XRP_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "FIL",
       "quote": "BNB",
       "pair_id": "FIL_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "BNB",
@@ -236,19 +234,19 @@
       "base": "PAXG",
       "quote": "BNB",
       "pair_id": "PAXG_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "BNB",
       "quote": "RUB",
       "pair_id": "BNB_RUB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "BNB",
       "quote": "DAI",
       "pair_id": "BNB_DAI",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "BNB",
@@ -278,7 +276,7 @@
       "base": "ADA",
       "quote": "BNB",
       "pair_id": "ADA_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "BNB",
@@ -290,25 +288,25 @@
       "base": "BNB",
       "quote": "USDT",
       "pair_id": "BNB_USDT",
-      "exchange_id": "kucoin"
+      "exchange_id": "kucoin.com"
     },
     {
       "base": "TRX",
       "quote": "BNB",
       "pair_id": "TRX_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "OCEAN",
       "quote": "BNB",
       "pair_id": "OCEAN_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "XMR",
       "quote": "BNB",
       "pair_id": "XMR_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "BNB",
@@ -320,13 +318,13 @@
       "base": "EOS",
       "quote": "BNB",
       "pair_id": "EOS_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "BTT",
       "quote": "BNB",
       "pair_id": "BTT_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "BNB",
@@ -338,25 +336,25 @@
       "base": "UNI",
       "quote": "BNB",
       "pair_id": "UNI_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "BNB",
       "quote": "USDT",
       "pair_id": "BNB_USDT",
-      "exchange_id": "gate"
+      "exchange_id": "gate.io"
     },
     {
       "base": "DOT",
       "quote": "BNB",
       "pair_id": "DOT_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "BNB",
       "quote": "BTC",
       "pair_id": "BNB_BTC",
-      "exchange_id": "kucoin"
+      "exchange_id": "kucoin.com"
     },
     {
       "base": "BNB",
@@ -374,37 +372,37 @@
       "base": "INJ",
       "quote": "BNB",
       "pair_id": "INJ_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "LTC",
       "quote": "BNB",
       "pair_id": "LTC_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "BNB",
       "quote": "BIDR",
       "pair_id": "BNB_BIDR",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "BNB",
       "quote": "BKRW",
       "pair_id": "BNB_BKRW",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "BNB",
       "quote": "TUSD",
       "pair_id": "BNB_TUSD",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "NEO",
       "quote": "BNB",
       "pair_id": "NEO_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "BNB",
@@ -416,7 +414,7 @@
       "base": "BNB",
       "quote": "USDT",
       "pair_id": "BNB_USDT",
-      "exchange_id": "poloniex"
+      "exchange_id": "poloniex.com"
     },
     {
       "base": "BNB",
@@ -428,31 +426,31 @@
       "base": "VET",
       "quote": "BNB",
       "pair_id": "VET_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "LUNA",
       "quote": "BNB",
       "pair_id": "LUNA_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "BCH",
       "quote": "BNB",
       "pair_id": "BCH_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "SXP",
       "quote": "BNB",
       "pair_id": "SXP_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "XLM",
       "quote": "BNB",
       "pair_id": "XLM_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "BNB",
@@ -476,7 +474,7 @@
       "base": "ENJ",
       "quote": "BNB",
       "pair_id": "ENJ_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "BNB",
@@ -488,7 +486,7 @@
       "base": "ZEC",
       "quote": "BNB",
       "pair_id": "ZEC_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "BNB",
@@ -500,55 +498,55 @@
       "base": "ZIL",
       "quote": "BNB",
       "pair_id": "ZIL_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "SNX",
       "quote": "BNB",
       "pair_id": "SNX_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "ANT",
       "quote": "BNB",
       "pair_id": "ANT_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "ALPHA",
       "quote": "BNB",
       "pair_id": "ALPHA_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "SOL",
       "quote": "BNB",
       "pair_id": "SOL_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "ATOM",
       "quote": "BNB",
       "pair_id": "ATOM_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "XTZ",
       "quote": "BNB",
       "pair_id": "XTZ_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "THETA",
       "quote": "BNB",
       "pair_id": "THETA_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "YFI",
       "quote": "BNB",
       "pair_id": "YFI_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "BNB",
@@ -560,31 +558,31 @@
       "base": "YFII",
       "quote": "BNB",
       "pair_id": "YFII_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "ALGO",
       "quote": "BNB",
       "pair_id": "ALGO_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "CRV",
       "quote": "BNB",
       "pair_id": "CRV_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "UNFI",
       "quote": "BNB",
       "pair_id": "UNFI_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "ICX",
       "quote": "BNB",
       "pair_id": "ICX_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "BNB",
@@ -596,31 +594,31 @@
       "base": "SUSHI",
       "quote": "BNB",
       "pair_id": "SUSHI_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "DASH",
       "quote": "BNB",
       "pair_id": "DASH_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "ONT",
       "quote": "BNB",
       "pair_id": "ONT_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "RUNE",
       "quote": "BNB",
       "pair_id": "RUNE_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "CTSI",
       "quote": "BNB",
       "pair_id": "CTSI_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     }
   ],
   "tokenomics": {

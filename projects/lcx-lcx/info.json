@@ -8,9 +8,7 @@
     {
       "name": "Twitter",
       "url": "https://www.twitter.com/lcx",
-      "search_strings": [
-        "$LCX"
-      ]
+      "search_strings": ["$LCX"]
     },
     {
       "name": "Facebook",
@@ -22,7 +20,7 @@
       "base": "0X037A54AAB062628C9BBAE1FDB1583C195585FE41",
       "quote": "ETH",
       "pair_id": "0X037A54AAB062628C9BBAE1FDB1583C195585FE41_ETH",
-      "exchange_id": "uniswap"
+      "exchange_id": "uniswap.exchange"
     },
     {
       "base": "LCX",
