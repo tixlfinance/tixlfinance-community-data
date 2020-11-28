@@ -4,7 +4,15 @@
   "website": "https://bitcoinsv.com/",
   "coingecko_id": "bitcoin-cash-sv",
   "coin_api_id": "BITCOIN-CASH-SV",
-  "socials": [],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/BitcoinSVNode",
+      "search_strings": [
+        "$BSV"
+      ]
+    }
+  ],
   "trading_pairs": [
     {
       "base": "BSV",
