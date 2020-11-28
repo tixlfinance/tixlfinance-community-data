@@ -8,9 +8,7 @@
     {
       "name": "Twitter",
       "url": "https://www.twitter.com/sirinlabs",
-      "search_strings": [
-        "$SRN"
-      ]
+      "search_strings": ["$SRN"]
     },
     {
       "name": "Facebook",
@@ -26,31 +24,31 @@
       "base": "SRN",
       "quote": "KRW",
       "pair_id": "SRN_KRW",
-      "exchange_id": "upbit"
+      "exchange_id": "upbit.com"
     },
     {
       "base": "SRN",
       "quote": "BTC",
       "pair_id": "SRN_BTC",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "SRN",
       "quote": "ETH",
       "pair_id": "SRN_ETH",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "SRN",
       "quote": "ETH",
       "pair_id": "SRN_ETH",
-      "exchange_id": "bittrex"
+      "exchange_id": "bittrex.com"
     },
     {
       "base": "SRN",
       "quote": "BTC",
       "pair_id": "SRN_BTC",
-      "exchange_id": "bittrex"
+      "exchange_id": "bittrex.com"
     },
     {
       "base": "SRN",
@@ -74,7 +72,7 @@
       "base": "SRN",
       "quote": "BTC",
       "pair_id": "SRN_BTC",
-      "exchange_id": "upbit"
+      "exchange_id": "upbit.com"
     },
     {
       "base": "SRN",
@@ -104,7 +102,7 @@
       "base": "0X68D57C9A1C35F63E2C83EE8E49A64E9D70528D25",
       "quote": "ETH",
       "pair_id": "0X68D57C9A1C35F63E2C83EE8E49A64E9D70528D25_ETH",
-      "exchange_id": "uniswap"
+      "exchange_id": "uniswap.exchange"
     }
   ],
   "tokenomics": {

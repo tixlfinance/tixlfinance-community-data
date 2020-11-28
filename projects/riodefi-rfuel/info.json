@@ -8,9 +8,7 @@
     {
       "name": "Twitter",
       "url": "https://www.twitter.com/riodefiofficial",
-      "search_strings": [
-        "$RFUEL"
-      ]
+      "search_strings": ["$RFUEL"]
     },
     {
       "name": "Facebook",
@@ -22,7 +20,7 @@
       "base": "0XAF9F549774ECEDBD0966C52F250ACC548D3F36E5",
       "quote": "ETH",
       "pair_id": "0XAF9F549774ECEDBD0966C52F250ACC548D3F36E5_ETH",
-      "exchange_id": "uniswap"
+      "exchange_id": "uniswap.exchange"
     },
     {
       "base": "RFUEL",
@@ -40,7 +38,7 @@
       "base": "RFUEL",
       "quote": "USDT",
       "pair_id": "RFUEL_USDT",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "RFUEL",
@@ -52,13 +50,13 @@
       "base": "RFUEL",
       "quote": "USDT",
       "pair_id": "RFUEL_USDT",
-      "exchange_id": "kucoin"
+      "exchange_id": "kucoin.com"
     },
     {
       "base": "RFUEL",
       "quote": "ETH",
       "pair_id": "RFUEL_ETH",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "RFUEL",
@@ -100,13 +98,13 @@
       "base": "RFUEL",
       "quote": "USDT",
       "pair_id": "RFUEL_USDT",
-      "exchange_id": "gate"
+      "exchange_id": "gate.io"
     },
     {
       "base": "RFUEL",
       "quote": "USDT",
       "pair_id": "RFUEL_USDT",
-      "exchange_id": "poloniex"
+      "exchange_id": "poloniex.com"
     },
     {
       "base": "RFUEL",

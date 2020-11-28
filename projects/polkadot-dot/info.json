@@ -8,9 +8,7 @@
     {
       "name": "Twitter",
       "url": "https://www.twitter.com/Polkadot",
-      "search_strings": [
-        "$DOT"
-      ]
+      "search_strings": ["$DOT"]
     },
     {
       "name": "Reddit",
@@ -22,19 +20,19 @@
       "base": "DOT",
       "quote": "USDT",
       "pair_id": "DOT_USDT",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "DOT",
       "quote": "USDT",
       "pair_id": "DOT_USDT",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "DOT",
       "quote": "USDT",
       "pair_id": "DOT_USDT",
-      "exchange_id": "gate"
+      "exchange_id": "gate.io"
     },
     {
       "base": "DOT",
@@ -46,19 +44,19 @@
       "base": "DOT",
       "quote": "USD",
       "pair_id": "DOT_USD",
-      "exchange_id": "bitfinex"
+      "exchange_id": "bitfinex.com"
     },
     {
       "base": "DOT",
       "quote": "BTC",
       "pair_id": "DOT_BTC",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "DOT",
       "quote": "USD",
       "pair_id": "DOT_USD",
-      "exchange_id": "kraken"
+      "exchange_id": "kraken.com"
     },
     {
       "base": "DOT",
@@ -70,19 +68,19 @@
       "base": "DOT",
       "quote": "USDT",
       "pair_id": "DOT_USDT",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "DOT",
       "quote": "EUR",
       "pair_id": "DOT_EUR",
-      "exchange_id": "kraken"
+      "exchange_id": "kraken.com"
     },
     {
       "base": "DOT",
       "quote": "USDT",
       "pair_id": "DOT_USDT",
-      "exchange_id": "kucoin"
+      "exchange_id": "kucoin.com"
     },
     {
       "base": "DOT",
@@ -100,7 +98,7 @@
       "base": "DOT",
       "quote": "BTC",
       "pair_id": "DOT_BTC",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "DOT",
@@ -118,19 +116,19 @@
       "base": "DOT",
       "quote": "UST",
       "pair_id": "DOT_UST",
-      "exchange_id": "bitfinex"
+      "exchange_id": "bitfinex.com"
     },
     {
       "base": "DOT",
       "quote": "XBT",
       "pair_id": "DOT_XBT",
-      "exchange_id": "kraken"
+      "exchange_id": "kraken.com"
     },
     {
       "base": "DOT",
       "quote": "KRW",
       "pair_id": "DOT_KRW",
-      "exchange_id": "upbit"
+      "exchange_id": "upbit.com"
     },
     {
       "base": "DOT",
@@ -142,7 +140,7 @@
       "base": "DOT",
       "quote": "BTC",
       "pair_id": "DOT_BTC",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "DOT",
@@ -154,7 +152,7 @@
       "base": "DOT",
       "quote": "BUSD",
       "pair_id": "DOT_BUSD",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "DOT",
@@ -178,7 +176,7 @@
       "base": "DOT",
       "quote": "BTC",
       "pair_id": "DOT_BTC",
-      "exchange_id": "kucoin"
+      "exchange_id": "kucoin.com"
     },
     {
       "base": "DOT",
@@ -196,13 +194,13 @@
       "base": "DOT",
       "quote": "ETH",
       "pair_id": "DOT_ETH",
-      "exchange_id": "kraken"
+      "exchange_id": "kraken.com"
     },
     {
       "base": "DOT",
       "quote": "BNB",
       "pair_id": "DOT_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "DOT",
@@ -220,7 +218,7 @@
       "base": "DOT",
       "quote": "EUR",
       "pair_id": "DOT_EUR",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "DOT",
@@ -232,19 +230,19 @@
       "base": "DOT",
       "quote": "USDT",
       "pair_id": "DOT_USDT",
-      "exchange_id": "kraken"
+      "exchange_id": "kraken.com"
     },
     {
       "base": "DOT",
       "quote": "IDR",
       "pair_id": "DOT_IDR",
-      "exchange_id": "indodax"
+      "exchange_id": "indodax.com"
     },
     {
       "base": "DOT",
       "quote": "BKRW",
       "pair_id": "DOT_BKRW",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "DOT",
@@ -256,19 +254,19 @@
       "base": "DOT",
       "quote": "BTC",
       "pair_id": "DOT_BTC",
-      "exchange_id": "bittrex"
+      "exchange_id": "bittrex.com"
     },
     {
       "base": "DOT",
       "quote": "ETH",
       "pair_id": "DOT_ETH",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "DOT",
       "quote": "HUSD",
       "pair_id": "DOT_HUSD",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "DOT",
@@ -292,7 +290,7 @@
       "base": "DOT",
       "quote": "KRW",
       "pair_id": "DOT_KRW",
-      "exchange_id": "coinone"
+      "exchange_id": "coinone.co.kr"
     },
     {
       "base": "DOT",
@@ -304,7 +302,7 @@
       "base": "DOT",
       "quote": "BTC",
       "pair_id": "DOT_BTC",
-      "exchange_id": "gate"
+      "exchange_id": "gate.io"
     },
     {
       "base": "DOT",
@@ -340,13 +338,13 @@
       "base": "DOT",
       "quote": "USDT",
       "pair_id": "DOT_USDT",
-      "exchange_id": "bittrex"
+      "exchange_id": "bittrex.com"
     },
     {
       "base": "DOT",
       "quote": "ETH",
       "pair_id": "DOT_ETH",
-      "exchange_id": "bittrex"
+      "exchange_id": "bittrex.com"
     },
     {
       "base": "DOT",
@@ -400,7 +398,7 @@
       "base": "DOT",
       "quote": "USD",
       "pair_id": "DOT_USD",
-      "exchange_id": "bittrex"
+      "exchange_id": "bittrex.com"
     },
     {
       "base": "DOT",
@@ -424,7 +422,7 @@
       "base": "DOT",
       "quote": "BIDR",
       "pair_id": "DOT_BIDR",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "DOT",
@@ -442,7 +440,7 @@
       "base": "DOT",
       "quote": "KRW",
       "pair_id": "DOT_KRW",
-      "exchange_id": "bithumb"
+      "exchange_id": "bithumb.com"
     },
     {
       "base": "DOT",
@@ -466,7 +464,7 @@
       "base": "DOT",
       "quote": "USDT",
       "pair_id": "DOT_USDT",
-      "exchange_id": "poloniex"
+      "exchange_id": "poloniex.com"
     },
     {
       "base": "DOT",
@@ -484,7 +482,7 @@
       "base": "DOT",
       "quote": "BTC",
       "pair_id": "DOT_BTC",
-      "exchange_id": "upbit"
+      "exchange_id": "upbit.com"
     },
     {
       "base": "DOT",
@@ -496,7 +494,7 @@
       "base": "DOT",
       "quote": "EUR",
       "pair_id": "DOT_EUR",
-      "exchange_id": "bittrex"
+      "exchange_id": "bittrex.com"
     },
     {
       "base": "DOT",

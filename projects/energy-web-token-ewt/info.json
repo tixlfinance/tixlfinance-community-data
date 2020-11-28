@@ -8,9 +8,7 @@
     {
       "name": "Twitter",
       "url": "https://www.twitter.com/energywebx",
-      "search_strings": [
-        "$EWT"
-      ]
+      "search_strings": ["$EWT"]
     },
     {
       "name": "Facebook",
@@ -26,19 +24,19 @@
       "base": "EWT",
       "quote": "USDT",
       "pair_id": "EWT_USDT",
-      "exchange_id": "kucoin"
+      "exchange_id": "kucoin.com"
     },
     {
       "base": "0X178C820F862B14F316509EC36B13123DA19A6054",
       "quote": "ETH",
       "pair_id": "0X178C820F862B14F316509EC36B13123DA19A6054_ETH",
-      "exchange_id": "uniswap"
+      "exchange_id": "uniswap.exchange"
     },
     {
       "base": "EWT",
       "quote": "BTC",
       "pair_id": "EWT_BTC",
-      "exchange_id": "kucoin"
+      "exchange_id": "kucoin.com"
     },
     {
       "base": "EWT",

@@ -8,9 +8,7 @@
     {
       "name": "Twitter",
       "url": "https://www.twitter.com/powerpoolcvp",
-      "search_strings": [
-        "$CVP"
-      ]
+      "search_strings": ["$CVP"]
     }
   ],
   "trading_pairs": [
@@ -18,13 +16,13 @@
       "base": "0X38E4ADB44EF08F22F5B5B76A8F0C2D0DCBE7DCA1",
       "quote": "ETH",
       "pair_id": "0X38E4ADB44EF08F22F5B5B76A8F0C2D0DCBE7DCA1_ETH",
-      "exchange_id": "uniswap"
+      "exchange_id": "uniswap.exchange"
     },
     {
       "base": "CVP",
       "quote": "USDT",
       "pair_id": "CVP_USDT",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "CVP",
@@ -36,7 +34,7 @@
       "base": "CVP",
       "quote": "USDT",
       "pair_id": "CVP_USDT",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "CVP",
@@ -60,25 +58,25 @@
       "base": "CVP",
       "quote": "BTC",
       "pair_id": "CVP_BTC",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "CVP",
       "quote": "ETH",
       "pair_id": "CVP_ETH",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "CVP",
       "quote": "ETH",
       "pair_id": "CVP_ETH",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "CVP",
       "quote": "BUSD",
       "pair_id": "CVP_BUSD",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "CVP",
@@ -150,13 +148,13 @@
       "base": "CVP",
       "quote": "ETH",
       "pair_id": "CVP_ETH",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "CVP",
       "quote": "USDT",
       "pair_id": "CVP_USDT",
-      "exchange_id": "gate"
+      "exchange_id": "gate.io"
     },
     {
       "base": "CVP",
@@ -228,7 +226,7 @@
       "base": "CVP",
       "quote": "ETH",
       "pair_id": "CVP_ETH",
-      "exchange_id": "gate"
+      "exchange_id": "gate.io"
     }
   ],
   "tokenomics": {

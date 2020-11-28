@@ -8,9 +8,7 @@
     {
       "name": "Twitter",
       "url": "https://www.twitter.com/conste11ation",
-      "search_strings": [
-        "$DAG"
-      ]
+      "search_strings": ["$DAG"]
     },
     {
       "name": "Facebook",
@@ -26,19 +24,19 @@
       "base": "DAG",
       "quote": "BTC",
       "pair_id": "DAG_BTC",
-      "exchange_id": "kucoin"
+      "exchange_id": "kucoin.com"
     },
     {
       "base": "DAG",
       "quote": "USDT",
       "pair_id": "DAG_USDT",
-      "exchange_id": "kucoin"
+      "exchange_id": "kucoin.com"
     },
     {
       "base": "DAG",
       "quote": "ETH",
       "pair_id": "DAG_ETH",
-      "exchange_id": "kucoin"
+      "exchange_id": "kucoin.com"
     },
     {
       "base": "DAG",
@@ -56,7 +54,7 @@
       "base": "0XA8258ABC8F2811DD48ECCD209DB68F25E3E34667",
       "quote": "ETH",
       "pair_id": "0XA8258ABC8F2811DD48ECCD209DB68F25E3E34667_ETH",
-      "exchange_id": "uniswap"
+      "exchange_id": "uniswap.exchange"
     }
   ],
   "tokenomics": {

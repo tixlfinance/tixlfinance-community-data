@@ -8,9 +8,7 @@
     {
       "name": "Twitter",
       "url": "https://www.twitter.com/thorchain_org",
-      "search_strings": [
-        "$RUNE"
-      ]
+      "search_strings": ["$RUNE"]
     },
     {
       "name": "Facebook",
@@ -32,7 +30,7 @@
       "base": "RUNE",
       "quote": "USDT",
       "pair_id": "RUNE_USDT",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "RUNE",
@@ -50,7 +48,7 @@
       "base": "RUNE",
       "quote": "BTC",
       "pair_id": "RUNE_BTC",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "BNB.ETH-1C9",
@@ -74,13 +72,13 @@
       "base": "RUNE",
       "quote": "BNB",
       "pair_id": "RUNE_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "RUNE",
       "quote": "BUSD",
       "pair_id": "RUNE_BUSD",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "RUNE",

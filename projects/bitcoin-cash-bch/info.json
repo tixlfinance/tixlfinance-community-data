@@ -28,7 +28,7 @@
       "base": "BCH",
       "quote": "USDT",
       "pair_id": "BCH_USDT",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "BCH",
@@ -40,13 +40,13 @@
       "base": "BCH",
       "quote": "USDT",
       "pair_id": "BCH_USDT",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "BCH",
       "quote": "USDT",
       "pair_id": "BCH_USDT",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "BCH",
@@ -100,7 +100,7 @@
       "base": "BCH",
       "quote": "EUR",
       "pair_id": "BCH_EUR",
-      "exchange_id": "kraken"
+      "exchange_id": "kraken.com"
     },
     {
       "base": "BCH",
@@ -136,13 +136,13 @@
       "base": "BCH",
       "quote": "USDT",
       "pair_id": "BCH_USDT",
-      "exchange_id": "gate"
+      "exchange_id": "gate.io"
     },
     {
       "base": "BCH",
       "quote": "USD",
       "pair_id": "BCH_USD",
-      "exchange_id": "kraken"
+      "exchange_id": "kraken.com"
     },
     {
       "base": "BCH",
@@ -166,7 +166,7 @@
       "base": "BCH",
       "quote": "KRW",
       "pair_id": "BCH_KRW",
-      "exchange_id": "bithumb"
+      "exchange_id": "bithumb.com"
     },
     {
       "base": "BCH",
@@ -196,19 +196,19 @@
       "base": "BCH",
       "quote": "BTC",
       "pair_id": "BCH_BTC",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "BCH",
       "quote": "BTC",
       "pair_id": "BCH_BTC",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "BCH",
       "quote": "USD",
       "pair_id": "BCH_USD",
-      "exchange_id": "bitstamp"
+      "exchange_id": "bitstamp.net"
     },
     {
       "base": "BCH",
@@ -220,7 +220,7 @@
       "base": "BCH",
       "quote": "USD",
       "pair_id": "BCH_USD",
-      "exchange_id": "gemini"
+      "exchange_id": "gemini.com"
     },
     {
       "base": "BCH",
@@ -232,7 +232,7 @@
       "base": "BCH",
       "quote": "BTC",
       "pair_id": "BCH_BTC",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "BCH",
@@ -244,7 +244,7 @@
       "base": "BCH",
       "quote": "EUR",
       "pair_id": "BCH_EUR",
-      "exchange_id": "bitstamp"
+      "exchange_id": "bitstamp.net"
     },
     {
       "base": "BCH",
@@ -256,7 +256,7 @@
       "base": "BCH",
       "quote": "XBT",
       "pair_id": "BCH_XBT",
-      "exchange_id": "kraken"
+      "exchange_id": "kraken.com"
     },
     {
       "base": "BCH",
@@ -274,7 +274,7 @@
       "base": "BCH",
       "quote": "USDT",
       "pair_id": "BCH_USDT",
-      "exchange_id": "kucoin"
+      "exchange_id": "kucoin.com"
     },
     {
       "base": "BCHABC",
@@ -286,7 +286,7 @@
       "base": "BCH",
       "quote": "KRW",
       "pair_id": "BCH_KRW",
-      "exchange_id": "coinone"
+      "exchange_id": "coinone.co.kr"
     },
     {
       "base": "BCH",
@@ -334,7 +334,7 @@
       "base": "BCH",
       "quote": "BUSD",
       "pair_id": "BCH_BUSD",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "BCH",
@@ -364,7 +364,7 @@
       "base": "BCH",
       "quote": "KRW",
       "pair_id": "BCH_KRW",
-      "exchange_id": "upbit"
+      "exchange_id": "upbit.com"
     },
     {
       "base": "BCH",
@@ -424,7 +424,7 @@
       "base": "BCH",
       "quote": "HUSD",
       "pair_id": "BCH_HUSD",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "BCH",
@@ -484,7 +484,7 @@
       "base": "BCH",
       "quote": "USDC",
       "pair_id": "BCH_USDC",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "BCH",
@@ -496,7 +496,7 @@
       "base": "BCH",
       "quote": "USDK",
       "pair_id": "BCH_USDK",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "BCH",

@@ -8,9 +8,7 @@
     {
       "name": "Twitter",
       "url": "https://www.twitter.com/maticnetwork",
-      "search_strings": [
-        "$MATIC"
-      ]
+      "search_strings": ["$MATIC"]
     },
     {
       "name": "Reddit",
@@ -22,13 +20,13 @@
       "base": "MATIC",
       "quote": "USDT",
       "pair_id": "MATIC_USDT",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "MATIC",
       "quote": "BTC",
       "pair_id": "MATIC_BTC",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "MATIC",
@@ -52,7 +50,7 @@
       "base": "MATIC",
       "quote": "BUSD",
       "pair_id": "MATIC_BUSD",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "MATIC",
@@ -88,13 +86,13 @@
       "base": "MATIC",
       "quote": "KRW",
       "pair_id": "MATIC_KRW",
-      "exchange_id": "coinone"
+      "exchange_id": "coinone.co.kr"
     },
     {
       "base": "MATIC",
       "quote": "BNB",
       "pair_id": "MATIC_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "MATIC",
@@ -148,7 +146,7 @@
       "base": "0X7D1AFA7B718FB893DB30A3ABC0CFC608AACFEBB0",
       "quote": "ETH",
       "pair_id": "0X7D1AFA7B718FB893DB30A3ABC0CFC608AACFEBB0_ETH",
-      "exchange_id": "uniswap"
+      "exchange_id": "uniswap.exchange"
     },
     {
       "base": "MATIC",
@@ -196,7 +194,7 @@
       "base": "MATIC",
       "quote": "BTC",
       "pair_id": "MATIC_BTC",
-      "exchange_id": "poloniex"
+      "exchange_id": "poloniex.com"
     },
     {
       "base": "MATIC",
@@ -220,13 +218,13 @@
       "base": "MATIC",
       "quote": "BTC",
       "pair_id": "MATIC_BTC",
-      "exchange_id": "bittrex"
+      "exchange_id": "bittrex.com"
     },
     {
       "base": "MATIC",
       "quote": "IDR",
       "pair_id": "MATIC_IDR",
-      "exchange_id": "indodax"
+      "exchange_id": "indodax.com"
     },
     {
       "base": "MATIC",
@@ -304,7 +302,7 @@
       "base": "MATIC",
       "quote": "USDT",
       "pair_id": "MATIC_USDT",
-      "exchange_id": "poloniex"
+      "exchange_id": "poloniex.com"
     },
     {
       "base": "MATIC",
@@ -418,7 +416,7 @@
       "base": "MATIC",
       "quote": "USDT",
       "pair_id": "MATIC_USDT",
-      "exchange_id": "bittrex"
+      "exchange_id": "bittrex.com"
     },
     {
       "base": "MATIC",
@@ -442,7 +440,7 @@
       "base": "MATIC",
       "quote": "TRX",
       "pair_id": "MATIC_TRX",
-      "exchange_id": "poloniex"
+      "exchange_id": "poloniex.com"
     },
     {
       "base": "MATIC",

@@ -8,9 +8,7 @@
     {
       "name": "Twitter",
       "url": "https://www.twitter.com/dashpay",
-      "search_strings": [
-        "$DASH"
-      ]
+      "search_strings": ["$DASH"]
     },
     {
       "name": "Reddit",
@@ -28,7 +26,7 @@
       "base": "DASH",
       "quote": "USDT",
       "pair_id": "DASH_USDT",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "DASH",
@@ -106,7 +104,7 @@
       "base": "DASH",
       "quote": "TRY",
       "pair_id": "DASH_TRY",
-      "exchange_id": "btcturk"
+      "exchange_id": "pro.btcturk.com"
     },
     {
       "base": "DASH",
@@ -124,7 +122,7 @@
       "base": "DASH",
       "quote": "USDT",
       "pair_id": "DASH_USDT",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "DASH",
@@ -136,13 +134,13 @@
       "base": "DASH",
       "quote": "USDT",
       "pair_id": "DASH_USDT",
-      "exchange_id": "gate"
+      "exchange_id": "gate.io"
     },
     {
       "base": "DASH",
       "quote": "USDT",
       "pair_id": "DASH_USDT",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "DASH",
@@ -154,7 +152,7 @@
       "base": "DSH",
       "quote": "BTC",
       "pair_id": "DSH_BTC",
-      "exchange_id": "bitfinex"
+      "exchange_id": "bitfinex.com"
     },
     {
       "base": "DASH",
@@ -172,7 +170,7 @@
       "base": "DASH",
       "quote": "BTC",
       "pair_id": "DASH_BTC",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "DASH",
@@ -202,7 +200,7 @@
       "base": "DSH",
       "quote": "USD",
       "pair_id": "DSH_USD",
-      "exchange_id": "bitfinex"
+      "exchange_id": "bitfinex.com"
     },
     {
       "base": "DASH",
@@ -262,7 +260,7 @@
       "base": "DASH",
       "quote": "USD",
       "pair_id": "DASH_USD",
-      "exchange_id": "kraken"
+      "exchange_id": "kraken.com"
     },
     {
       "base": "DASH",
@@ -274,13 +272,13 @@
       "base": "DASH",
       "quote": "EUR",
       "pair_id": "DASH_EUR",
-      "exchange_id": "kraken"
+      "exchange_id": "kraken.com"
     },
     {
       "base": "DASH",
       "quote": "BTC",
       "pair_id": "DASH_BTC",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "DASH",
@@ -292,13 +290,13 @@
       "base": "DASH",
       "quote": "USDT",
       "pair_id": "DASH_USDT",
-      "exchange_id": "kucoin"
+      "exchange_id": "kucoin.com"
     },
     {
       "base": "DASH",
       "quote": "USDT",
       "pair_id": "DASH_USDT",
-      "exchange_id": "btcturk"
+      "exchange_id": "pro.btcturk.com"
     },
     {
       "base": "DASH",
@@ -316,7 +314,7 @@
       "base": "DASH",
       "quote": "KRW",
       "pair_id": "DASH_KRW",
-      "exchange_id": "bithumb"
+      "exchange_id": "bithumb.com"
     },
     {
       "base": "DASH",
@@ -340,7 +338,7 @@
       "base": "DASH",
       "quote": "XBT",
       "pair_id": "DASH_XBT",
-      "exchange_id": "kraken"
+      "exchange_id": "kraken.com"
     },
     {
       "base": "DASH",
@@ -394,7 +392,7 @@
       "base": "DASH",
       "quote": "BTC",
       "pair_id": "DASH_BTC",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "DASH",
@@ -424,7 +422,7 @@
       "base": "DASH",
       "quote": "USDT",
       "pair_id": "DASH_USDT",
-      "exchange_id": "poloniex"
+      "exchange_id": "poloniex.com"
     },
     {
       "base": "DASH",
@@ -454,13 +452,13 @@
       "base": "DASH",
       "quote": "BUSD",
       "pair_id": "DASH_BUSD",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "DASH",
       "quote": "ETH",
       "pair_id": "DASH_ETH",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "DASH",
@@ -472,7 +470,7 @@
       "base": "DASH",
       "quote": "BTC",
       "pair_id": "DASH_BTC",
-      "exchange_id": "kucoin"
+      "exchange_id": "kucoin.com"
     },
     {
       "base": "DASH",
@@ -484,7 +482,7 @@
       "base": "DASH",
       "quote": "USD",
       "pair_id": "DASH_USD",
-      "exchange_id": "bittrex"
+      "exchange_id": "bittrex.com"
     },
     {
       "base": "DASH",
@@ -496,13 +494,13 @@
       "base": "DASH",
       "quote": "BTC",
       "pair_id": "DASH_BTC",
-      "exchange_id": "bittrex"
+      "exchange_id": "bittrex.com"
     },
     {
       "base": "DASH",
       "quote": "BTC",
       "pair_id": "DASH_BTC",
-      "exchange_id": "poloniex"
+      "exchange_id": "poloniex.com"
     },
     {
       "base": "DASH",
@@ -544,19 +542,19 @@
       "base": "DASH",
       "quote": "ETH",
       "pair_id": "DASH_ETH",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "DASH",
       "quote": "USDC",
       "pair_id": "DASH_USDC",
-      "exchange_id": "poloniex"
+      "exchange_id": "poloniex.com"
     },
     {
       "base": "DASH",
       "quote": "ETH",
       "pair_id": "DASH_ETH",
-      "exchange_id": "kucoin"
+      "exchange_id": "kucoin.com"
     },
     {
       "base": "DASH",
@@ -586,7 +584,7 @@
       "base": "DASH",
       "quote": "BNB",
       "pair_id": "DASH_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "DASH",

@@ -8,9 +8,7 @@
     {
       "name": "Twitter",
       "url": "https://www.twitter.com/octofinance",
-      "search_strings": [
-        "$OCTO"
-      ]
+      "search_strings": ["$OCTO"]
     }
   ],
   "trading_pairs": [
@@ -18,13 +16,13 @@
       "base": "0X7240AC91F01233BAAF8B064248E80FEAA5912BA3",
       "quote": "ETH",
       "pair_id": "0X7240AC91F01233BAAF8B064248E80FEAA5912BA3_ETH",
-      "exchange_id": "uniswap"
+      "exchange_id": "uniswap.exchange"
     },
     {
       "base": "OCTO",
       "quote": "IDR",
       "pair_id": "OCTO_IDR",
-      "exchange_id": "indodax"
+      "exchange_id": "indodax.com"
     },
     {
       "base": "OCTO",

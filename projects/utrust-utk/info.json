@@ -8,9 +8,7 @@
     {
       "name": "Twitter",
       "url": "https://www.twitter.com/UTRUST",
-      "search_strings": [
-        "$UTK"
-      ]
+      "search_strings": ["$UTK"]
     },
     {
       "name": "Facebook",
@@ -26,7 +24,7 @@
       "base": "UTK",
       "quote": "BTC",
       "pair_id": "UTK_BTC",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "UTK",
@@ -38,31 +36,31 @@
       "base": "UTK",
       "quote": "BTC",
       "pair_id": "UTK_BTC",
-      "exchange_id": "kucoin"
+      "exchange_id": "kucoin.com"
     },
     {
       "base": "UTK",
       "quote": "BTC",
       "pair_id": "UTK_BTC",
-      "exchange_id": "bittrex"
+      "exchange_id": "bittrex.com"
     },
     {
       "base": "UTK",
       "quote": "ETH",
       "pair_id": "UTK_ETH",
-      "exchange_id": "kucoin"
+      "exchange_id": "kucoin.com"
     },
     {
       "base": "UTK",
       "quote": "USDT",
       "pair_id": "UTK_USDT",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "0XDC9AC3C20D1ED0B540DF9B1FEDC10039DF13F99C",
       "quote": "ETH",
       "pair_id": "0XDC9AC3C20D1ED0B540DF9B1FEDC10039DF13F99C_ETH",
-      "exchange_id": "uniswap"
+      "exchange_id": "uniswap.exchange"
     },
     {
       "base": "UTK",
@@ -74,25 +72,25 @@
       "base": "UTK",
       "quote": "USDT",
       "pair_id": "UTK_USDT",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "UTK",
       "quote": "BTC",
       "pair_id": "UTK_BTC",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "UTK",
       "quote": "USDT",
       "pair_id": "UTK_USDT",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "UTK",
       "quote": "ETH",
       "pair_id": "UTK_ETH",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "UTK",
@@ -188,7 +186,7 @@
       "base": "UTK",
       "quote": "USD",
       "pair_id": "UTK_USD",
-      "exchange_id": "bitfinex"
+      "exchange_id": "bitfinex.com"
     },
     {
       "base": "UTK",

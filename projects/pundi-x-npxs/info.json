@@ -8,9 +8,7 @@
     {
       "name": "Twitter",
       "url": "https://www.twitter.com/PundiXLabs",
-      "search_strings": [
-        "$NPXS"
-      ]
+      "search_strings": ["$NPXS"]
     },
     {
       "name": "Facebook",
@@ -26,7 +24,7 @@
       "base": "NPXS",
       "quote": "KRW",
       "pair_id": "NPXS_KRW",
-      "exchange_id": "bithumb"
+      "exchange_id": "bithumb.com"
     },
     {
       "base": "NPXS",
@@ -38,19 +36,19 @@
       "base": "NPXS",
       "quote": "ETH",
       "pair_id": "NPXS_ETH",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "NPXS",
       "quote": "USDT",
       "pair_id": "NPXS_USDT",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "NPXS",
       "quote": "BTC",
       "pair_id": "NPXS_BTC",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "NPXS",
@@ -62,7 +60,7 @@
       "base": "NPXS",
       "quote": "BTC",
       "pair_id": "NPXS_BTC",
-      "exchange_id": "kucoin"
+      "exchange_id": "kucoin.com"
     },
     {
       "base": "NPXS",
@@ -74,7 +72,7 @@
       "base": "NPXS",
       "quote": "ETH",
       "pair_id": "NPXS_ETH",
-      "exchange_id": "bittrex"
+      "exchange_id": "bittrex.com"
     },
     {
       "base": "NPXS",
@@ -110,7 +108,7 @@
       "base": "NPXS",
       "quote": "ETH",
       "pair_id": "NPXS_ETH",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "NPXS",
@@ -128,7 +126,7 @@
       "base": "NPXS",
       "quote": "ETH",
       "pair_id": "NPXS_ETH",
-      "exchange_id": "kucoin"
+      "exchange_id": "kucoin.com"
     },
     {
       "base": "NPXS",
@@ -146,7 +144,7 @@
       "base": "NPXS",
       "quote": "KRW",
       "pair_id": "NPXS_KRW",
-      "exchange_id": "upbit"
+      "exchange_id": "upbit.com"
     },
     {
       "base": "NPXS",
@@ -170,7 +168,7 @@
       "base": "NPXS",
       "quote": "USDT",
       "pair_id": "NPXS_USDT",
-      "exchange_id": "indodax"
+      "exchange_id": "indodax.com"
     },
     {
       "base": "NPXS",
@@ -200,7 +198,7 @@
       "base": "NPXS",
       "quote": "BTC",
       "pair_id": "NPXS_BTC",
-      "exchange_id": "bittrex"
+      "exchange_id": "bittrex.com"
     },
     {
       "base": "NPXS",
@@ -218,7 +216,7 @@
       "base": "NPXS",
       "quote": "USDT",
       "pair_id": "NPXS_USDT",
-      "exchange_id": "bittrex"
+      "exchange_id": "bittrex.com"
     },
     {
       "base": "NPXS",
@@ -320,13 +318,13 @@
       "base": "0XA15C7EBE1F07CAF6BFF097D8A589FB8AC49AE5B3",
       "quote": "ETH",
       "pair_id": "0XA15C7EBE1F07CAF6BFF097D8A589FB8AC49AE5B3_ETH",
-      "exchange_id": "uniswap"
+      "exchange_id": "uniswap.exchange"
     },
     {
       "base": "NPXS",
       "quote": "BTC",
       "pair_id": "NPXS_BTC",
-      "exchange_id": "upbit"
+      "exchange_id": "upbit.com"
     },
     {
       "base": "NPXS",

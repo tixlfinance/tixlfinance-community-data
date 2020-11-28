@@ -8,9 +8,7 @@
     {
       "name": "Twitter",
       "url": "https://www.twitter.com/ltonetwork",
-      "search_strings": [
-        "$LTO"
-      ]
+      "search_strings": ["$LTO"]
     },
     {
       "name": "Reddit",
@@ -22,13 +20,13 @@
       "base": "LTO",
       "quote": "BTC",
       "pair_id": "LTO_BTC",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "LTO",
       "quote": "USDT",
       "pair_id": "LTO_USDT",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "LTO",
@@ -40,7 +38,7 @@
       "base": "0X3DB6BA6AB6F95EFED1A6E794CAD492FAAABF294D",
       "quote": "ETH",
       "pair_id": "0X3DB6BA6AB6F95EFED1A6E794CAD492FAAABF294D_ETH",
-      "exchange_id": "uniswap"
+      "exchange_id": "uniswap.exchange"
     },
     {
       "base": "LTO",

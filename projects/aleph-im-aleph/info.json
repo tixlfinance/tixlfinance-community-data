@@ -8,9 +8,7 @@
     {
       "name": "Twitter",
       "url": "https://www.twitter.com/aleph_im",
-      "search_strings": [
-        "$ALEPH"
-      ]
+      "search_strings": ["$ALEPH"]
     },
     {
       "name": "Reddit",
@@ -22,7 +20,7 @@
       "base": "0X27702A26126E0B3702AF63EE09AC4D1A084EF628",
       "quote": "ETH",
       "pair_id": "0X27702A26126E0B3702AF63EE09AC4D1A084EF628_ETH",
-      "exchange_id": "uniswap"
+      "exchange_id": "uniswap.exchange"
     },
     {
       "base": "ALEPH",
@@ -40,7 +38,7 @@
       "base": "ALEPH",
       "quote": "USDT",
       "pair_id": "ALEPH_USDT",
-      "exchange_id": "kucoin"
+      "exchange_id": "kucoin.com"
     },
     {
       "base": "ALEPH",

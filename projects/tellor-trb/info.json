@@ -8,9 +8,7 @@
     {
       "name": "Twitter",
       "url": "https://www.twitter.com/WeAreTellor",
-      "search_strings": [
-        "$TRB"
-      ]
+      "search_strings": ["$TRB"]
     }
   ],
   "trading_pairs": [
@@ -18,7 +16,7 @@
       "base": "TRB",
       "quote": "USDT",
       "pair_id": "TRB_USDT",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "TRB",
@@ -30,7 +28,7 @@
       "base": "TRB",
       "quote": "USDT",
       "pair_id": "TRB_USDT",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "TRB",
@@ -42,7 +40,7 @@
       "base": "TRB",
       "quote": "USDT",
       "pair_id": "TRB_USDT",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "TRB",
@@ -54,7 +52,7 @@
       "base": "TRB",
       "quote": "BTC",
       "pair_id": "TRB_BTC",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "TRB",
@@ -66,7 +64,7 @@
       "base": "TRB",
       "quote": "BTC",
       "pair_id": "TRB_BTC",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "TRB",
@@ -96,7 +94,7 @@
       "base": "0X0BA45A8B5D5575935B8158A88C631E9F9C95A2E5",
       "quote": "ETH",
       "pair_id": "0X0BA45A8B5D5575935B8158A88C631E9F9C95A2E5_ETH",
-      "exchange_id": "uniswap"
+      "exchange_id": "uniswap.exchange"
     },
     {
       "base": "TRB",
@@ -108,25 +106,25 @@
       "base": "TRB",
       "quote": "BNB",
       "pair_id": "TRB_BNB",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "TRB",
       "quote": "ETH",
       "pair_id": "TRB_ETH",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "TRB",
       "quote": "BTC",
       "pair_id": "TRB_BTC",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "TRB",
       "quote": "BUSD",
       "pair_id": "TRB_BUSD",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "TRB",
@@ -138,7 +136,7 @@
       "base": "TRB",
       "quote": "ETH",
       "pair_id": "TRB_ETH",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "0X0BA45A8B5D5575935B8158A88C631E9F9C95A2E5",
@@ -174,13 +172,13 @@
       "base": "TRB",
       "quote": "USDT",
       "pair_id": "TRB_USDT",
-      "exchange_id": "gate"
+      "exchange_id": "gate.io"
     },
     {
       "base": "TRB",
       "quote": "USDT",
       "pair_id": "TRB_USDT",
-      "exchange_id": "poloniex"
+      "exchange_id": "poloniex.com"
     },
     {
       "base": "TRB",

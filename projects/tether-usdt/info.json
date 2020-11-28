@@ -8,9 +8,7 @@
     {
       "name": "Twitter",
       "url": "https://www.twitter.com/Tether_to",
-      "search_strings": [
-        "$USDT"
-      ]
+      "search_strings": ["$USDT"]
     },
     {
       "name": "Facebook",
@@ -28,7 +26,7 @@
       "base": "UST",
       "quote": "USD",
       "pair_id": "UST_USD",
-      "exchange_id": "bitfinex"
+      "exchange_id": "bitfinex.com"
     },
     {
       "base": "GUSD",
@@ -58,7 +56,7 @@
       "base": "BTC",
       "quote": "USDT",
       "pair_id": "BTC_USDT",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "GUSD",
@@ -70,13 +68,13 @@
       "base": "BUSD",
       "quote": "USDT",
       "pair_id": "BUSD_USDT",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "ETH",
       "quote": "USDT",
       "pair_id": "ETH_USDT",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "ETH",
@@ -88,7 +86,7 @@
       "base": "XRP",
       "quote": "USDT",
       "pair_id": "XRP_USDT",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "TUSD",
@@ -118,19 +116,19 @@
       "base": "USDT",
       "quote": "HUSD",
       "pair_id": "USDT_HUSD",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "BTC",
       "quote": "UST",
       "pair_id": "BTC_UST",
-      "exchange_id": "bitfinex"
+      "exchange_id": "bitfinex.com"
     },
     {
       "base": "BTC",
       "quote": "USDT",
       "pair_id": "BTC_USDT",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "ETH",
@@ -160,7 +158,7 @@
       "base": "USDT",
       "quote": "USD",
       "pair_id": "USDT_USD",
-      "exchange_id": "kraken"
+      "exchange_id": "kraken.com"
     },
     {
       "base": "PAX",
@@ -172,7 +170,7 @@
       "base": "ETH",
       "quote": "USDT",
       "pair_id": "ETH_USDT",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "BTC",
@@ -184,13 +182,13 @@
       "base": "XRP",
       "quote": "USDT",
       "pair_id": "XRP_USDT",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "BTC",
       "quote": "USDT",
       "pair_id": "BTC_USDT",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "XRP",
@@ -214,7 +212,7 @@
       "base": "0XDAC17F958D2EE523A2206206994597C13D831EC7",
       "quote": "ETH",
       "pair_id": "0XDAC17F958D2EE523A2206206994597C13D831EC7_ETH",
-      "exchange_id": "uniswap"
+      "exchange_id": "uniswap.exchange"
     },
     {
       "base": "ETH",
@@ -226,7 +224,7 @@
       "base": "BTC",
       "quote": "USDT",
       "pair_id": "BTC_USDT",
-      "exchange_id": "kucoin"
+      "exchange_id": "kucoin.com"
     },
     {
       "base": "BTC",
@@ -262,7 +260,7 @@
       "base": "LTC",
       "quote": "USDT",
       "pair_id": "LTC_USDT",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "LTC",
@@ -298,13 +296,13 @@
       "base": "ETH",
       "quote": "USDT",
       "pair_id": "ETH_USDT",
-      "exchange_id": "kucoin"
+      "exchange_id": "kucoin.com"
     },
     {
       "base": "ETH",
       "quote": "USDT",
       "pair_id": "ETH_USDT",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "BTC",
@@ -322,13 +320,13 @@
       "base": "XLM",
       "quote": "USDT",
       "pair_id": "XLM_USDT",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "ETH",
       "quote": "UST",
       "pair_id": "ETH_UST",
-      "exchange_id": "bitfinex"
+      "exchange_id": "bitfinex.com"
     },
     {
       "base": "ETH",
@@ -364,19 +362,19 @@
       "base": "ADA",
       "quote": "USDT",
       "pair_id": "ADA_USDT",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "USDC",
       "quote": "USDT",
       "pair_id": "USDC_USDT",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "LINK",
       "quote": "USDT",
       "pair_id": "LINK_USDT",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "BTC",
@@ -388,7 +386,7 @@
       "base": "LTC",
       "quote": "USDT",
       "pair_id": "LTC_USDT",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "LTC",
@@ -430,13 +428,13 @@
       "base": "USDT",
       "quote": "TRY",
       "pair_id": "USDT_TRY",
-      "exchange_id": "btcturk"
+      "exchange_id": "pro.btcturk.com"
     },
     {
       "base": "XRP",
       "quote": "USDT",
       "pair_id": "XRP_USDT",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "LTC",
@@ -526,7 +524,7 @@
       "base": "BCH",
       "quote": "USDT",
       "pair_id": "BCH_USDT",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "BTC",
@@ -556,7 +554,7 @@
       "base": "BNB",
       "quote": "USDT",
       "pair_id": "BNB_USDT",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "USDC",
@@ -568,7 +566,7 @@
       "base": "TUSD",
       "quote": "USDT",
       "pair_id": "TUSD_USDT",
-      "exchange_id": "binance"
+      "exchange_id": "binance.com"
     },
     {
       "base": "ETH",
@@ -586,19 +584,19 @@
       "base": "EOS",
       "quote": "USDT",
       "pair_id": "EOS_USDT",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "BCH",
       "quote": "USDT",
       "pair_id": "BCH_USDT",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "BTC",
       "quote": "USDT",
       "pair_id": "BTC_USDT",
-      "exchange_id": "poloniex"
+      "exchange_id": "poloniex.com"
     },
     {
       "base": "LTC",
@@ -616,7 +614,7 @@
       "base": "BCH",
       "quote": "USDT",
       "pair_id": "BCH_USDT",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     }
   ],
   "tokenomics": {

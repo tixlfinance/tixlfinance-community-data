@@ -8,9 +8,7 @@
     {
       "name": "Twitter",
       "url": "https://twitter.com/BitcoinSVNode",
-      "search_strings": [
-        "$BSV"
-      ]
+      "search_strings": ["$BSV"]
     }
   ],
   "trading_pairs": [
@@ -36,7 +34,7 @@
       "base": "BSV",
       "quote": "USDT",
       "pair_id": "BSV_USDT",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "BSV",
@@ -60,7 +58,7 @@
       "base": "BSV",
       "quote": "USDT",
       "pair_id": "BSV_USDT",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "BSV",
@@ -72,7 +70,7 @@
       "base": "BSV",
       "quote": "BTC",
       "pair_id": "BSV_BTC",
-      "exchange_id": "bitfinex"
+      "exchange_id": "bitfinex.com"
     },
     {
       "base": "BSV",
@@ -84,37 +82,37 @@
       "base": "BSV",
       "quote": "KRW",
       "pair_id": "BSV_KRW",
-      "exchange_id": "bithumb"
+      "exchange_id": "bithumb.com"
     },
     {
       "base": "BSV",
       "quote": "BTC",
       "pair_id": "BSV_BTC",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "BCHSV",
       "quote": "USDT",
       "pair_id": "BCHSV_USDT",
-      "exchange_id": "gate"
+      "exchange_id": "gate.io"
     },
     {
       "base": "BSV",
       "quote": "USD",
       "pair_id": "BSV_USD",
-      "exchange_id": "bitfinex"
+      "exchange_id": "bitfinex.com"
     },
     {
       "base": "BCHSV",
       "quote": "USDT",
       "pair_id": "BCHSV_USDT",
-      "exchange_id": "kucoin"
+      "exchange_id": "kucoin.com"
     },
     {
       "base": "BSV",
       "quote": "KRW",
       "pair_id": "BSV_KRW",
-      "exchange_id": "upbit"
+      "exchange_id": "upbit.com"
     },
     {
       "base": "BSV",
@@ -126,7 +124,7 @@
       "base": "BSV",
       "quote": "BTC",
       "pair_id": "BSV_BTC",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "BSV",
@@ -156,7 +154,7 @@
       "base": "BSV",
       "quote": "BTC",
       "pair_id": "BSV_BTC",
-      "exchange_id": "bittrex"
+      "exchange_id": "bittrex.com"
     },
     {
       "base": "BSV",
@@ -210,7 +208,7 @@
       "base": "BSV",
       "quote": "HUSD",
       "pair_id": "BSV_HUSD",
-      "exchange_id": "huobi"
+      "exchange_id": "huobi.com"
     },
     {
       "base": "BTC",
@@ -228,7 +226,7 @@
       "base": "BSV",
       "quote": "KRW",
       "pair_id": "BSV_KRW",
-      "exchange_id": "coinone"
+      "exchange_id": "coinone.co.kr"
     },
     {
       "base": "BSV",
@@ -276,7 +274,7 @@
       "base": "BSV",
       "quote": "USDT",
       "pair_id": "BSV_USDT",
-      "exchange_id": "bittrex"
+      "exchange_id": "bittrex.com"
     },
     {
       "base": "BSV",
@@ -312,7 +310,7 @@
       "base": "BSV",
       "quote": "USD",
       "pair_id": "BSV_USD",
-      "exchange_id": "bittrex"
+      "exchange_id": "bittrex.com"
     },
     {
       "base": "BSV",
@@ -330,7 +328,7 @@
       "base": "BCHSV",
       "quote": "BTC",
       "pair_id": "BCHSV_BTC",
-      "exchange_id": "kucoin"
+      "exchange_id": "kucoin.com"
     },
     {
       "base": "BSV",
@@ -348,13 +346,13 @@
       "base": "BCHSV",
       "quote": "BTC",
       "pair_id": "BCHSV_BTC",
-      "exchange_id": "poloniex"
+      "exchange_id": "poloniex.com"
     },
     {
       "base": "BSV",
       "quote": "USDK",
       "pair_id": "BSV_USDK",
-      "exchange_id": "okex"
+      "exchange_id": "okex.com"
     },
     {
       "base": "BSV",
@@ -402,7 +400,7 @@
       "base": "BCHSV",
       "quote": "USDT",
       "pair_id": "BCHSV_USDT",
-      "exchange_id": "poloniex"
+      "exchange_id": "poloniex.com"
     },
     {
       "base": "BSV",
@@ -438,13 +436,13 @@
       "base": "BCHSV",
       "quote": "ETH",
       "pair_id": "BCHSV_ETH",
-      "exchange_id": "kucoin"
+      "exchange_id": "kucoin.com"
     },
     {
       "base": "BSV",
       "quote": "ETH",
       "pair_id": "BSV_ETH",
-      "exchange_id": "bittrex"
+      "exchange_id": "bittrex.com"
     },
     {
       "base": "BSV",
@@ -456,7 +454,7 @@
       "base": "BSV",
       "quote": "EUR",
       "pair_id": "BSV_EUR",
-      "exchange_id": "bittrex"
+      "exchange_id": "bittrex.com"
     },
     {
       "base": "BSV",
@@ -504,7 +502,7 @@
       "base": "BCHSV",
       "quote": "IDR",
       "pair_id": "BCHSV_IDR",
-      "exchange_id": "indodax"
+      "exchange_id": "indodax.com"
     },
     {
       "base": "BSV",
