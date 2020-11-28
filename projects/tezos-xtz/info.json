@@ -1,0 +1,627 @@
+{
+  "name": "Tezos",
+  "symbol": "XTZ",
+  "website": "https://www.tezos.com/",
+  "coingecko_id": "tezos",
+  "coin_api_id": "TEZOS",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://www.twitter.com/tezos",
+      "search_strings": [
+        "$XTZ"
+      ]
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/tezos"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "XTZ",
+      "quote": "USD",
+      "pair_id": "XTZ_USD",
+      "exchange_id": "gdax"
+    },
+    {
+      "base": "XTZ",
+      "quote": "BTC",
+      "pair_id": "XTZ_BTC",
+      "exchange_id": "decoin"
+    },
+    {
+      "base": "XTZ",
+      "quote": "USD",
+      "pair_id": "XTZ_USD",
+      "exchange_id": "kraken"
+    },
+    {
+      "base": "XTZ",
+      "quote": "EUR",
+      "pair_id": "XTZ_EUR",
+      "exchange_id": "kraken"
+    },
+    {
+      "base": "XTZ",
+      "quote": "USDT",
+      "pair_id": "XTZ_USDT",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "XTZ",
+      "quote": "USD",
+      "pair_id": "XTZ_USD",
+      "exchange_id": "bitfinex"
+    },
+    {
+      "base": "XTZ",
+      "quote": "TRY",
+      "pair_id": "XTZ_TRY",
+      "exchange_id": "btcturk"
+    },
+    {
+      "base": "XTZ",
+      "quote": "USDT",
+      "pair_id": "XTZ_USDT",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "XTZ",
+      "quote": "XBT",
+      "pair_id": "XTZ_XBT",
+      "exchange_id": "kraken"
+    },
+    {
+      "base": "XTZ",
+      "quote": "BTC",
+      "pair_id": "XTZ_BTC",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "XTZ",
+      "quote": "USDT",
+      "pair_id": "XTZ_USDT",
+      "exchange_id": "decoin"
+    },
+    {
+      "base": "XTZ",
+      "quote": "BTC",
+      "pair_id": "XTZ_BTC",
+      "exchange_id": "bitfinex"
+    },
+    {
+      "base": "XTZ",
+      "quote": "USDT",
+      "pair_id": "XTZ_USDT",
+      "exchange_id": "gate"
+    },
+    {
+      "base": "XTZ",
+      "quote": "USDT",
+      "pair_id": "XTZ_USDT",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "XTZ",
+      "quote": "EUR",
+      "pair_id": "XTZ_EUR",
+      "exchange_id": "gdax"
+    },
+    {
+      "base": "XTZ",
+      "quote": "BTC",
+      "pair_id": "XTZ_BTC",
+      "exchange_id": "gdax"
+    },
+    {
+      "base": "XTZ",
+      "quote": "USDT",
+      "pair_id": "XTZ_USDT",
+      "exchange_id": "digifinex"
+    },
+    {
+      "base": "XTZ",
+      "quote": "USDT",
+      "pair_id": "XTZ_USDT",
+      "exchange_id": "crypto_com"
+    },
+    {
+      "base": "XTZ",
+      "quote": "USDT",
+      "pair_id": "XTZ_USDT",
+      "exchange_id": "okex_korea"
+    },
+    {
+      "base": "XTZ",
+      "quote": "ETH",
+      "pair_id": "XTZ_ETH",
+      "exchange_id": "kraken"
+    },
+    {
+      "base": "XTZ",
+      "quote": "USD",
+      "pair_id": "XTZ_USD",
+      "exchange_id": "p2pb2b"
+    },
+    {
+      "base": "XTZ",
+      "quote": "GBP",
+      "pair_id": "XTZ_GBP",
+      "exchange_id": "gdax"
+    },
+    {
+      "base": "XTZ",
+      "quote": "BTC",
+      "pair_id": "XTZ_BTC",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "XTZ",
+      "quote": "USDT",
+      "pair_id": "XTZ_USDT",
+      "exchange_id": "btcturk"
+    },
+    {
+      "base": "XTZ",
+      "quote": "BTC",
+      "pair_id": "XTZ_BTC",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "XTZ",
+      "quote": "KRW",
+      "pair_id": "XTZ_KRW",
+      "exchange_id": "bithumb"
+    },
+    {
+      "base": "XTZ",
+      "quote": "USDT",
+      "pair_id": "XTZ_USDT",
+      "exchange_id": "mxc"
+    },
+    {
+      "base": "XTZ",
+      "quote": "USDT",
+      "pair_id": "XTZ_USDT",
+      "exchange_id": "kucoin"
+    },
+    {
+      "base": "XTZ",
+      "quote": "CNC",
+      "pair_id": "XTZ_CNC",
+      "exchange_id": "aex"
+    },
+    {
+      "base": "XTZ",
+      "quote": "BTC",
+      "pair_id": "XTZ_BTC",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "XTZ",
+      "quote": "BTC",
+      "pair_id": "XTZ_BTC",
+      "exchange_id": "crypto_com"
+    },
+    {
+      "base": "XTZ",
+      "quote": "KRW",
+      "pair_id": "XTZ_KRW",
+      "exchange_id": "upbit"
+    },
+    {
+      "base": "XTZ",
+      "quote": "BTC",
+      "pair_id": "XTZ_BTC",
+      "exchange_id": "digifinex"
+    },
+    {
+      "base": "XTZ",
+      "quote": "BUSD",
+      "pair_id": "XTZ_BUSD",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "XTZ",
+      "quote": "USDT",
+      "pair_id": "XTZ_USDT",
+      "exchange_id": "bitmax"
+    },
+    {
+      "base": "XTZ",
+      "quote": "KRW",
+      "pair_id": "XTZ_KRW",
+      "exchange_id": "coinone"
+    },
+    {
+      "base": "XTZ",
+      "quote": "TRY",
+      "pair_id": "XTZ_TRY",
+      "exchange_id": "paribu"
+    },
+    {
+      "base": "XTZ",
+      "quote": "BTC",
+      "pair_id": "XTZ_BTC",
+      "exchange_id": "kucoin"
+    },
+    {
+      "base": "XTZ",
+      "quote": "BTC",
+      "pair_id": "XTZ_BTC",
+      "exchange_id": "binance_us"
+    },
+    {
+      "base": "XTZ",
+      "quote": "BTC",
+      "pair_id": "XTZ_BTC",
+      "exchange_id": "hitbtc"
+    },
+    {
+      "base": "XTZ",
+      "quote": "BTC",
+      "pair_id": "XTZ_BTC",
+      "exchange_id": "bittrex"
+    },
+    {
+      "base": "XTZ",
+      "quote": "SXC",
+      "pair_id": "XTZ_SXC",
+      "exchange_id": "xt"
+    },
+    {
+      "base": "XTZ",
+      "quote": "USD",
+      "pair_id": "XTZ_USD",
+      "exchange_id": "bittrex"
+    },
+    {
+      "base": "XTZ",
+      "quote": "USDT",
+      "pair_id": "XTZ_USDT",
+      "exchange_id": "bkex"
+    },
+    {
+      "base": "XTZ",
+      "quote": "USD",
+      "pair_id": "XTZ_USD",
+      "exchange_id": "binance_us"
+    },
+    {
+      "base": "XTZ",
+      "quote": "ETH",
+      "pair_id": "XTZ_ETH",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "XTZ",
+      "quote": "ETH",
+      "pair_id": "XTZ_ETH",
+      "exchange_id": "hitbtc"
+    },
+    {
+      "base": "XTZ",
+      "quote": "BTC",
+      "pair_id": "XTZ_BTC",
+      "exchange_id": "bitmax"
+    },
+    {
+      "base": "XTZ",
+      "quote": "USDT",
+      "pair_id": "XTZ_USDT",
+      "exchange_id": "xt"
+    },
+    {
+      "base": "XTZ",
+      "quote": "USDT",
+      "pair_id": "XTZ_USDT",
+      "exchange_id": "p2pb2b"
+    },
+    {
+      "base": "XTZ",
+      "quote": "USDT",
+      "pair_id": "XTZ_USDT",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "XTZ",
+      "quote": "BUSD",
+      "pair_id": "XTZ_BUSD",
+      "exchange_id": "binance_us"
+    },
+    {
+      "base": "XTZ",
+      "quote": "USDT",
+      "pair_id": "XTZ_USDT",
+      "exchange_id": "coinex"
+    },
+    {
+      "base": "XTZ",
+      "quote": "USDT",
+      "pair_id": "XTZ_USDT",
+      "exchange_id": "biki"
+    },
+    {
+      "base": "XTZ",
+      "quote": "BNB",
+      "pair_id": "XTZ_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "XTZ",
+      "quote": "USDT",
+      "pair_id": "XTZ_USDT",
+      "exchange_id": "bittrex"
+    },
+    {
+      "base": "XTZ",
+      "quote": "IDR",
+      "pair_id": "XTZ_IDR",
+      "exchange_id": "indodax"
+    },
+    {
+      "base": "XTZ",
+      "quote": "ETH",
+      "pair_id": "XTZ_ETH",
+      "exchange_id": "bittrex"
+    },
+    {
+      "base": "XTZ",
+      "quote": "BTC",
+      "pair_id": "XTZ_BTC",
+      "exchange_id": "bitforex"
+    },
+    {
+      "base": "XTZ",
+      "quote": "HUSD",
+      "pair_id": "XTZ_HUSD",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "XTZ",
+      "quote": "CRO",
+      "pair_id": "XTZ_CRO",
+      "exchange_id": "crypto_com"
+    },
+    {
+      "base": "XTZ",
+      "quote": "USDT",
+      "pair_id": "XTZ_USDT",
+      "exchange_id": "oceanex"
+    },
+    {
+      "base": "XTZ",
+      "quote": "VET",
+      "pair_id": "XTZ_VET",
+      "exchange_id": "oceanex"
+    },
+    {
+      "base": "XTZ",
+      "quote": "BTC",
+      "pair_id": "XTZ_BTC",
+      "exchange_id": "exmo"
+    },
+    {
+      "base": "XTZ",
+      "quote": "USDT",
+      "pair_id": "XTZ_USDT",
+      "exchange_id": "wazirx"
+    },
+    {
+      "base": "XTZ",
+      "quote": "USDT",
+      "pair_id": "XTZ_USDT",
+      "exchange_id": "poloniex"
+    },
+    {
+      "base": "XTZ",
+      "quote": "BTC",
+      "pair_id": "XTZ_BTC",
+      "exchange_id": "latoken"
+    },
+    {
+      "base": "XTZ",
+      "quote": "USDT",
+      "pair_id": "XTZ_USDT",
+      "exchange_id": "bigone"
+    },
+    {
+      "base": "XTZ",
+      "quote": "USDT",
+      "pair_id": "XTZ_USDT",
+      "exchange_id": "cex"
+    },
+    {
+      "base": "XTZ",
+      "quote": "USDT",
+      "pair_id": "XTZ_USDT",
+      "exchange_id": "latoken"
+    },
+    {
+      "base": "XTZ",
+      "quote": "BTC",
+      "pair_id": "XTZ_BTC",
+      "exchange_id": "p2pb2b"
+    },
+    {
+      "base": "XTZ",
+      "quote": "BTC",
+      "pair_id": "XTZ_BTC",
+      "exchange_id": "xt"
+    },
+    {
+      "base": "XTZ",
+      "quote": "BTC",
+      "pair_id": "XTZ_BTC",
+      "exchange_id": "poloniex"
+    },
+    {
+      "base": "XTZ",
+      "quote": "GBP",
+      "pair_id": "XTZ_GBP",
+      "exchange_id": "cex"
+    },
+    {
+      "base": "XTZ",
+      "quote": "BCH",
+      "pair_id": "XTZ_BCH",
+      "exchange_id": "coinex"
+    },
+    {
+      "base": "XTZ",
+      "quote": "BTC",
+      "pair_id": "XTZ_BTC",
+      "exchange_id": "bigone"
+    },
+    {
+      "base": "XTZ",
+      "quote": "KRW",
+      "pair_id": "XTZ_KRW",
+      "exchange_id": "probit"
+    },
+    {
+      "base": "XTZ",
+      "quote": "XT",
+      "pair_id": "XTZ_XT",
+      "exchange_id": "xt"
+    },
+    {
+      "base": "XTZ",
+      "quote": "USDT",
+      "pair_id": "XTZ_USDT",
+      "exchange_id": "probit"
+    },
+    {
+      "base": "XTZ",
+      "quote": "USD",
+      "pair_id": "XTZ_USD",
+      "exchange_id": "exmo"
+    },
+    {
+      "base": "XTZ",
+      "quote": "IDK",
+      "pair_id": "XTZ_IDK",
+      "exchange_id": "tokenomy"
+    },
+    {
+      "base": "XTZ",
+      "quote": "USDT",
+      "pair_id": "XTZ_USDT",
+      "exchange_id": "vcc"
+    },
+    {
+      "base": "XTZ",
+      "quote": "BTC",
+      "pair_id": "XTZ_BTC",
+      "exchange_id": "bitrue"
+    },
+    {
+      "base": "XTZ",
+      "quote": "USDT",
+      "pair_id": "XTZ_USDT",
+      "exchange_id": "bit_z"
+    },
+    {
+      "base": "XTZ",
+      "quote": "USDT",
+      "pair_id": "XTZ_USDT",
+      "exchange_id": "bitasset"
+    },
+    {
+      "base": "XTZ",
+      "quote": "TWD",
+      "pair_id": "XTZ_TWD",
+      "exchange_id": "bitasset"
+    },
+    {
+      "base": "XTZ",
+      "quote": "BTC",
+      "pair_id": "XTZ_BTC",
+      "exchange_id": "gate"
+    },
+    {
+      "base": "XTZ",
+      "quote": "USDT",
+      "pair_id": "XTZ_USDT",
+      "exchange_id": "novadax"
+    },
+    {
+      "base": "XTZ",
+      "quote": "ETH",
+      "pair_id": "XTZ_ETH",
+      "exchange_id": "gate"
+    },
+    {
+      "base": "XTZ",
+      "quote": "XRP",
+      "pair_id": "XTZ_XRP",
+      "exchange_id": "bitrue"
+    },
+    {
+      "base": "XTZ",
+      "quote": "KRW",
+      "pair_id": "XTZ_KRW",
+      "exchange_id": "bitsonic"
+    },
+    {
+      "base": "XTZ",
+      "quote": "BTC",
+      "pair_id": "XTZ_BTC",
+      "exchange_id": "quoine"
+    },
+    {
+      "base": "XTZ",
+      "quote": "USDT",
+      "pair_id": "XTZ_USDT",
+      "exchange_id": "zg"
+    },
+    {
+      "base": "XTZ",
+      "quote": "BTC",
+      "pair_id": "XTZ_BTC",
+      "exchange_id": "btcturk"
+    },
+    {
+      "base": "XTZ",
+      "quote": "RUB",
+      "pair_id": "XTZ_RUB",
+      "exchange_id": "exmo"
+    },
+    {
+      "base": "XTZ",
+      "quote": "BTC",
+      "pair_id": "XTZ_BTC",
+      "exchange_id": "chainex"
+    },
+    {
+      "base": "XTZ",
+      "quote": "BTC",
+      "pair_id": "XTZ_BTC",
+      "exchange_id": "livecoin"
+    },
+    {
+      "base": "XTZ",
+      "quote": "TRX",
+      "pair_id": "XTZ_TRX",
+      "exchange_id": "poloniex"
+    },
+    {
+      "base": "XTZ",
+      "quote": "USDT",
+      "pair_id": "XTZ_USDT",
+      "exchange_id": "bidesk"
+    },
+    {
+      "base": "XTZ",
+      "quote": "USDT",
+      "pair_id": "XTZ_USDT",
+      "exchange_id": "hbtc"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 0,
+    "total_supply": 0,
+    "circulating_supply": 751538132.39813
+  }
+}

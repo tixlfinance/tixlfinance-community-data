@@ -1,0 +1,537 @@
+{
+  "name": "Polkadot",
+  "symbol": "DOT",
+  "website": "https://polkadot.network/",
+  "coingecko_id": "polkadot",
+  "coin_api_id": "POLKADOT",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://www.twitter.com/Polkadot",
+      "search_strings": [
+        "$DOT"
+      ]
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "DOT",
+      "quote": "USDT",
+      "pair_id": "DOT_USDT",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "DOT",
+      "quote": "USDT",
+      "pair_id": "DOT_USDT",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "DOT",
+      "quote": "USDT",
+      "pair_id": "DOT_USDT",
+      "exchange_id": "gate"
+    },
+    {
+      "base": "DOT",
+      "quote": "USDT",
+      "pair_id": "DOT_USDT",
+      "exchange_id": "coineal"
+    },
+    {
+      "base": "DOT",
+      "quote": "USD",
+      "pair_id": "DOT_USD",
+      "exchange_id": "bitfinex"
+    },
+    {
+      "base": "DOT",
+      "quote": "BTC",
+      "pair_id": "DOT_BTC",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "DOT",
+      "quote": "USD",
+      "pair_id": "DOT_USD",
+      "exchange_id": "kraken"
+    },
+    {
+      "base": "DOT",
+      "quote": "USDT",
+      "pair_id": "DOT_USDT",
+      "exchange_id": "mxc"
+    },
+    {
+      "base": "DOT",
+      "quote": "USDT",
+      "pair_id": "DOT_USDT",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "DOT",
+      "quote": "EUR",
+      "pair_id": "DOT_EUR",
+      "exchange_id": "kraken"
+    },
+    {
+      "base": "DOT",
+      "quote": "USDT",
+      "pair_id": "DOT_USDT",
+      "exchange_id": "kucoin"
+    },
+    {
+      "base": "DOT",
+      "quote": "BTC",
+      "pair_id": "DOT_BTC",
+      "exchange_id": "coineal"
+    },
+    {
+      "base": "DOT",
+      "quote": "USDT",
+      "pair_id": "DOT_USDT",
+      "exchange_id": "floatsv"
+    },
+    {
+      "base": "DOT",
+      "quote": "BTC",
+      "pair_id": "DOT_BTC",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "DOT",
+      "quote": "USDT",
+      "pair_id": "DOT_USDT",
+      "exchange_id": "bitmax"
+    },
+    {
+      "base": "DOT",
+      "quote": "USDT",
+      "pair_id": "DOT_USDT",
+      "exchange_id": "cointiger"
+    },
+    {
+      "base": "DOT",
+      "quote": "UST",
+      "pair_id": "DOT_UST",
+      "exchange_id": "bitfinex"
+    },
+    {
+      "base": "DOT",
+      "quote": "XBT",
+      "pair_id": "DOT_XBT",
+      "exchange_id": "kraken"
+    },
+    {
+      "base": "DOT",
+      "quote": "KRW",
+      "pair_id": "DOT_KRW",
+      "exchange_id": "upbit"
+    },
+    {
+      "base": "DOT",
+      "quote": "USDT",
+      "pair_id": "DOT_USDT",
+      "exchange_id": "bibox"
+    },
+    {
+      "base": "DOT",
+      "quote": "BTC",
+      "pair_id": "DOT_BTC",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "DOT",
+      "quote": "USDT",
+      "pair_id": "DOT_USDT",
+      "exchange_id": "crypto_com"
+    },
+    {
+      "base": "DOT",
+      "quote": "BUSD",
+      "pair_id": "DOT_BUSD",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "DOT",
+      "quote": "USDT",
+      "pair_id": "DOT_USDT",
+      "exchange_id": "bkex"
+    },
+    {
+      "base": "DOT",
+      "quote": "USDT",
+      "pair_id": "DOT_USDT",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "DOT",
+      "quote": "USDT",
+      "pair_id": "DOT_USDT",
+      "exchange_id": "zbg"
+    },
+    {
+      "base": "DOT",
+      "quote": "BTC",
+      "pair_id": "DOT_BTC",
+      "exchange_id": "kucoin"
+    },
+    {
+      "base": "DOT",
+      "quote": "USDT",
+      "pair_id": "DOT_USDT",
+      "exchange_id": "xt"
+    },
+    {
+      "base": "DOT",
+      "quote": "BTC",
+      "pair_id": "DOT_BTC",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "DOT",
+      "quote": "ETH",
+      "pair_id": "DOT_ETH",
+      "exchange_id": "kraken"
+    },
+    {
+      "base": "DOT",
+      "quote": "BNB",
+      "pair_id": "DOT_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "DOT",
+      "quote": "USDT",
+      "pair_id": "DOT_USDT",
+      "exchange_id": "bilaxy"
+    },
+    {
+      "base": "DOT",
+      "quote": "USDT",
+      "pair_id": "DOT_USDT",
+      "exchange_id": "aex"
+    },
+    {
+      "base": "DOT",
+      "quote": "EUR",
+      "pair_id": "DOT_EUR",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "DOT",
+      "quote": "BTC",
+      "pair_id": "DOT_BTC",
+      "exchange_id": "mxc"
+    },
+    {
+      "base": "DOT",
+      "quote": "USDT",
+      "pair_id": "DOT_USDT",
+      "exchange_id": "kraken"
+    },
+    {
+      "base": "DOT",
+      "quote": "IDR",
+      "pair_id": "DOT_IDR",
+      "exchange_id": "indodax"
+    },
+    {
+      "base": "DOT",
+      "quote": "BKRW",
+      "pair_id": "DOT_BKRW",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "DOT",
+      "quote": "BTC",
+      "pair_id": "DOT_BTC",
+      "exchange_id": "bkex"
+    },
+    {
+      "base": "DOT",
+      "quote": "BTC",
+      "pair_id": "DOT_BTC",
+      "exchange_id": "bittrex"
+    },
+    {
+      "base": "DOT",
+      "quote": "ETH",
+      "pair_id": "DOT_ETH",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "DOT",
+      "quote": "HUSD",
+      "pair_id": "DOT_HUSD",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "DOT",
+      "quote": "USDT",
+      "pair_id": "DOT_USDT",
+      "exchange_id": "bitmart"
+    },
+    {
+      "base": "DOT",
+      "quote": "USDT",
+      "pair_id": "DOT_USDT",
+      "exchange_id": "wazirx"
+    },
+    {
+      "base": "DOT",
+      "quote": "USDT",
+      "pair_id": "DOT_USDT",
+      "exchange_id": "atomars"
+    },
+    {
+      "base": "DOT",
+      "quote": "KRW",
+      "pair_id": "DOT_KRW",
+      "exchange_id": "coinone"
+    },
+    {
+      "base": "DOT",
+      "quote": "USDT",
+      "pair_id": "DOT_USDT",
+      "exchange_id": "bw"
+    },
+    {
+      "base": "DOT",
+      "quote": "BTC",
+      "pair_id": "DOT_BTC",
+      "exchange_id": "gate"
+    },
+    {
+      "base": "DOT",
+      "quote": "USDT",
+      "pair_id": "DOT_USDT",
+      "exchange_id": "oceanex"
+    },
+    {
+      "base": "DOT",
+      "quote": "BTC",
+      "pair_id": "DOT_BTC",
+      "exchange_id": "oceanex"
+    },
+    {
+      "base": "DOT",
+      "quote": "BTC",
+      "pair_id": "DOT_BTC",
+      "exchange_id": "atomars"
+    },
+    {
+      "base": "DOT",
+      "quote": "USDT",
+      "pair_id": "DOT_USDT",
+      "exchange_id": "coinex"
+    },
+    {
+      "base": "DOT",
+      "quote": "USDT",
+      "pair_id": "DOT_USDT",
+      "exchange_id": "bithumb_global"
+    },
+    {
+      "base": "DOT",
+      "quote": "USDT",
+      "pair_id": "DOT_USDT",
+      "exchange_id": "bittrex"
+    },
+    {
+      "base": "DOT",
+      "quote": "ETH",
+      "pair_id": "DOT_ETH",
+      "exchange_id": "bittrex"
+    },
+    {
+      "base": "DOT",
+      "quote": "USDT",
+      "pair_id": "DOT_USDT",
+      "exchange_id": "bidesk"
+    },
+    {
+      "base": "DOT",
+      "quote": "USDT",
+      "pair_id": "DOT_USDT",
+      "exchange_id": "vcc"
+    },
+    {
+      "base": "DOT",
+      "quote": "USDT",
+      "pair_id": "DOT_USDT",
+      "exchange_id": "huobi_id"
+    },
+    {
+      "base": "DOT",
+      "quote": "BTC",
+      "pair_id": "DOT_BTC",
+      "exchange_id": "vcc"
+    },
+    {
+      "base": "DOT",
+      "quote": "USDT",
+      "pair_id": "DOT_USDT",
+      "exchange_id": "bitasset"
+    },
+    {
+      "base": "DOT",
+      "quote": "TWD",
+      "pair_id": "DOT_TWD",
+      "exchange_id": "bitasset"
+    },
+    {
+      "base": "DOT",
+      "quote": "USDT",
+      "pair_id": "DOT_USDT",
+      "exchange_id": "dcoin"
+    },
+    {
+      "base": "DOT",
+      "quote": "USD",
+      "pair_id": "DOT_USD",
+      "exchange_id": "okcoin"
+    },
+    {
+      "base": "DOT",
+      "quote": "USD",
+      "pair_id": "DOT_USD",
+      "exchange_id": "bittrex"
+    },
+    {
+      "base": "DOT",
+      "quote": "BTC",
+      "pair_id": "DOT_BTC",
+      "exchange_id": "quoine"
+    },
+    {
+      "base": "DOT",
+      "quote": "USDT",
+      "pair_id": "DOT_USDT",
+      "exchange_id": "bit_z"
+    },
+    {
+      "base": "DOT",
+      "quote": "CRO",
+      "pair_id": "DOT_CRO",
+      "exchange_id": "crypto_com"
+    },
+    {
+      "base": "DOT",
+      "quote": "BIDR",
+      "pair_id": "DOT_BIDR",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "DOT",
+      "quote": "WBNB",
+      "pair_id": "DOT_WBNB",
+      "exchange_id": "pancakeswap"
+    },
+    {
+      "base": "DOT",
+      "quote": "USDT",
+      "pair_id": "DOT_USDT",
+      "exchange_id": "abcc"
+    },
+    {
+      "base": "DOT",
+      "quote": "KRW",
+      "pair_id": "DOT_KRW",
+      "exchange_id": "bithumb"
+    },
+    {
+      "base": "DOT",
+      "quote": "USD",
+      "pair_id": "DOT_USD",
+      "exchange_id": "cex"
+    },
+    {
+      "base": "DOT",
+      "quote": "USDT",
+      "pair_id": "DOT_USDT",
+      "exchange_id": "hoo"
+    },
+    {
+      "base": "DOT",
+      "quote": "THB",
+      "pair_id": "DOT_THB",
+      "exchange_id": "bitkub"
+    },
+    {
+      "base": "DOT",
+      "quote": "USDT",
+      "pair_id": "DOT_USDT",
+      "exchange_id": "poloniex"
+    },
+    {
+      "base": "DOT",
+      "quote": "USDT",
+      "pair_id": "DOT_USDT",
+      "exchange_id": "cex"
+    },
+    {
+      "base": "DOT",
+      "quote": "USD",
+      "pair_id": "DOT_USD",
+      "exchange_id": "bitcoin_com"
+    },
+    {
+      "base": "DOT",
+      "quote": "BTC",
+      "pair_id": "DOT_BTC",
+      "exchange_id": "upbit"
+    },
+    {
+      "base": "DOT",
+      "quote": "BTC",
+      "pair_id": "DOT_BTC",
+      "exchange_id": "coinex"
+    },
+    {
+      "base": "DOT",
+      "quote": "EUR",
+      "pair_id": "DOT_EUR",
+      "exchange_id": "bittrex"
+    },
+    {
+      "base": "DOT",
+      "quote": "BTC",
+      "pair_id": "DOT_BTC",
+      "exchange_id": "upbit_indonesia"
+    },
+    {
+      "base": "DOT",
+      "quote": "WBNB",
+      "pair_id": "DOT_WBNB",
+      "exchange_id": "burgerswap"
+    },
+    {
+      "base": "DOT",
+      "quote": "BURGER",
+      "pair_id": "DOT_BURGER",
+      "exchange_id": "burgerswap"
+    },
+    {
+      "base": "DOT",
+      "quote": "USDT",
+      "pair_id": "DOT_USDT",
+      "exchange_id": "quoine"
+    },
+    {
+      "base": "DOT",
+      "quote": "THB",
+      "pair_id": "DOT_THB",
+      "exchange_id": "tdax"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 0,
+    "total_supply": 1016324894.89223,
+    "circulating_supply": 935381974.99141
+  }
+}

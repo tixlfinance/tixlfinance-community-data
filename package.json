@@ -29,7 +29,6 @@
   },
   "dependencies": {
     "@coingecko/cg-api-ts": "^0.0.41",
-    "@supercharge/promise-pool": "^1.6.0",
     "axios": "^0.21.0",
     "cross-fetch": "^3.0.6",
     "dotenv": "^8.2.0",

@@ -1,0 +1,105 @@
+{
+  "name": "LTO Network",
+  "symbol": "LTO",
+  "website": "https://lto.network/",
+  "coingecko_id": "lto-network",
+  "coin_api_id": "LTO-NETWORK",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://www.twitter.com/ltonetwork",
+      "search_strings": [
+        "$LTO"
+      ]
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/LTONetwork/"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "LTO",
+      "quote": "BTC",
+      "pair_id": "LTO_BTC",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "LTO",
+      "quote": "USDT",
+      "pair_id": "LTO_USDT",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "LTO",
+      "quote": "USDT",
+      "pair_id": "LTO_USDT",
+      "exchange_id": "bilaxy"
+    },
+    {
+      "base": "0X3DB6BA6AB6F95EFED1A6E794CAD492FAAABF294D",
+      "quote": "ETH",
+      "pair_id": "0X3DB6BA6AB6F95EFED1A6E794CAD492FAAABF294D_ETH",
+      "exchange_id": "uniswap"
+    },
+    {
+      "base": "LTO",
+      "quote": "USDT",
+      "pair_id": "LTO_USDT",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "LTO",
+      "quote": "BTC",
+      "pair_id": "LTO_BTC",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "LTO",
+      "quote": "ETH",
+      "pair_id": "LTO_ETH",
+      "exchange_id": "omgfin"
+    },
+    {
+      "base": "LTO",
+      "quote": "BTC",
+      "pair_id": "LTO_BTC",
+      "exchange_id": "omgfin"
+    },
+    {
+      "base": "LTO",
+      "quote": "USDT",
+      "pair_id": "LTO_USDT",
+      "exchange_id": "omgfin"
+    },
+    {
+      "base": "LTO",
+      "quote": "USDT",
+      "pair_id": "LTO_USDT",
+      "exchange_id": "bitmax"
+    },
+    {
+      "base": "LTO-BDF",
+      "quote": "BNB",
+      "pair_id": "LTO-BDF_BNB",
+      "exchange_id": "binance_dex"
+    },
+    {
+      "base": "LTO",
+      "quote": "BTC",
+      "pair_id": "LTO_BTC",
+      "exchange_id": "bitmax"
+    },
+    {
+      "base": "LTO",
+      "quote": "ETH",
+      "pair_id": "LTO_ETH",
+      "exchange_id": "hotbit"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 0,
+    "total_supply": 403395188,
+    "circulating_supply": 273119133.319305
+  }
+}

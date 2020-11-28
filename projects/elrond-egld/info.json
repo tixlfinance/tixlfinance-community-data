@@ -1,0 +1,165 @@
+{
+  "name": "Elrond",
+  "symbol": "EGLD",
+  "website": "https://elrond.com",
+  "coingecko_id": "elrond-erd-2",
+  "coin_api_id": "ELROND-ERD-2",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://www.twitter.com/elrondnetwork",
+      "search_strings": [
+        "$EGLD"
+      ]
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/elrondnetwork/"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "EGLD",
+      "quote": "USDT",
+      "pair_id": "EGLD_USDT",
+      "exchange_id": "crypto_com"
+    },
+    {
+      "base": "EGLD",
+      "quote": "USDT",
+      "pair_id": "EGLD_USDT",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "EGLD",
+      "quote": "UST",
+      "pair_id": "EGLD_UST",
+      "exchange_id": "bitfinex"
+    },
+    {
+      "base": "EGLD",
+      "quote": "USD",
+      "pair_id": "EGLD_USD",
+      "exchange_id": "bitfinex"
+    },
+    {
+      "base": "EGLD",
+      "quote": "BTC",
+      "pair_id": "EGLD_BTC",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "EGLD",
+      "quote": "CRO",
+      "pair_id": "EGLD_CRO",
+      "exchange_id": "crypto_com"
+    },
+    {
+      "base": "EGLD",
+      "quote": "BUSD",
+      "pair_id": "EGLD_BUSD",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "EGLD",
+      "quote": "USD",
+      "pair_id": "EGLD_USD",
+      "exchange_id": "binance_us"
+    },
+    {
+      "base": "EGLD",
+      "quote": "USDT",
+      "pair_id": "EGLD_USDT",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "EGLD",
+      "quote": "USDT",
+      "pair_id": "EGLD_USDT",
+      "exchange_id": "binance_us"
+    },
+    {
+      "base": "EGLD",
+      "quote": "USDT",
+      "pair_id": "EGLD_USDT",
+      "exchange_id": "bilaxy"
+    },
+    {
+      "base": "EGLD",
+      "quote": "BNB",
+      "pair_id": "EGLD_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "EGLD",
+      "quote": "BTC",
+      "pair_id": "EGLD_BTC",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "EGLD",
+      "quote": "USDT",
+      "pair_id": "EGLD_USDT",
+      "exchange_id": "bitmax"
+    },
+    {
+      "base": "EGLD",
+      "quote": "IDR",
+      "pair_id": "EGLD_IDR",
+      "exchange_id": "indodax"
+    },
+    {
+      "base": "EGLD",
+      "quote": "USDT",
+      "pair_id": "EGLD_USDT",
+      "exchange_id": "vcc"
+    },
+    {
+      "base": "EGLD",
+      "quote": "BTC",
+      "pair_id": "EGLD_BTC",
+      "exchange_id": "vcc"
+    },
+    {
+      "base": "EGLD",
+      "quote": "USDT",
+      "pair_id": "EGLD_USDT",
+      "exchange_id": "wazirx"
+    },
+    {
+      "base": "EGLD",
+      "quote": "USDT",
+      "pair_id": "EGLD_USDT",
+      "exchange_id": "quoine"
+    },
+    {
+      "base": "EGLD",
+      "quote": "BTC",
+      "pair_id": "EGLD_BTC",
+      "exchange_id": "quoine"
+    },
+    {
+      "base": "EGLD",
+      "quote": "USDT",
+      "pair_id": "EGLD_USDT",
+      "exchange_id": "sistemkoin"
+    },
+    {
+      "base": "EGLD",
+      "quote": "USDT",
+      "pair_id": "EGLD_USDT",
+      "exchange_id": "dragonex"
+    },
+    {
+      "base": "EGLD",
+      "quote": "USDT",
+      "pair_id": "EGLD_USDT",
+      "exchange_id": "bithumb_global"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 0,
+    "total_supply": 20397843,
+    "circulating_supply": 14462010
+  }
+}

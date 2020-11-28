@@ -4,6 +4,7 @@ interface SocialSchema {
    * @format url
    */
   url: string;
+  search_strings?: string[];
 }
 
 interface TokenomicsSchema {

@@ -1,0 +1,291 @@
+{
+  "name": "Ocean Protocol",
+  "symbol": "OCEAN",
+  "website": "https://oceanprotocol.com/",
+  "coingecko_id": "ocean-protocol",
+  "coin_api_id": "OCEAN-PROTOCOL",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://www.twitter.com/oceanprotocol",
+      "search_strings": [
+        "$OCEAN"
+      ]
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/oceanprotocol/"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "OCEAN",
+      "quote": "USDT",
+      "pair_id": "OCEAN_USDT",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "OCEAN",
+      "quote": "BTC",
+      "pair_id": "OCEAN_BTC",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "OCEAN",
+      "quote": "BUSD",
+      "pair_id": "OCEAN_BUSD",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "OCEAN",
+      "quote": "USDT",
+      "pair_id": "OCEAN_USDT",
+      "exchange_id": "cointiger"
+    },
+    {
+      "base": "OCEAN",
+      "quote": "BNB",
+      "pair_id": "OCEAN_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "OCEAN",
+      "quote": "BTC",
+      "pair_id": "OCEAN_BTC",
+      "exchange_id": "kucoin"
+    },
+    {
+      "base": "OCEAN",
+      "quote": "ETH",
+      "pair_id": "OCEAN_ETH",
+      "exchange_id": "mxc"
+    },
+    {
+      "base": "OCEAN",
+      "quote": "USDT",
+      "pair_id": "OCEAN_USDT",
+      "exchange_id": "bkex"
+    },
+    {
+      "base": "OCEAN",
+      "quote": "USDT",
+      "pair_id": "OCEAN_USDT",
+      "exchange_id": "mxc"
+    },
+    {
+      "base": "0X967DA4048CD07AB37855C090AAF366E4CE1B9F48",
+      "quote": "ETH",
+      "pair_id": "0X967DA4048CD07AB37855C090AAF366E4CE1B9F48_ETH",
+      "exchange_id": "uniswap"
+    },
+    {
+      "base": "OCEAN",
+      "quote": "ETH",
+      "pair_id": "OCEAN_ETH",
+      "exchange_id": "kucoin"
+    },
+    {
+      "base": "OCEAN",
+      "quote": "USDT",
+      "pair_id": "OCEAN_USDT",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "OCEAN",
+      "quote": "USDT",
+      "pair_id": "OCEAN_USDT",
+      "exchange_id": "gate"
+    },
+    {
+      "base": "OCEAN",
+      "quote": "BTC",
+      "pair_id": "OCEAN_BTC",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "OCEAN",
+      "quote": "BTC",
+      "pair_id": "OCEAN_BTC",
+      "exchange_id": "bittrex"
+    },
+    {
+      "base": "OCEAN",
+      "quote": "USDT",
+      "pair_id": "OCEAN_USDT",
+      "exchange_id": "aex"
+    },
+    {
+      "base": "OCEAN",
+      "quote": "USDT",
+      "pair_id": "OCEAN_USDT",
+      "exchange_id": "p2pb2b"
+    },
+    {
+      "base": "OCEAN",
+      "quote": "IDR",
+      "pair_id": "OCEAN_IDR",
+      "exchange_id": "indodax"
+    },
+    {
+      "base": "OCEAN",
+      "quote": "USD",
+      "pair_id": "OCEAN_USD",
+      "exchange_id": "p2pb2b"
+    },
+    {
+      "base": "OCEAN",
+      "quote": "USDT",
+      "pair_id": "OCEAN_USDT",
+      "exchange_id": "bigone"
+    },
+    {
+      "base": "OCEAN",
+      "quote": "USDT",
+      "pair_id": "OCEAN_USDT",
+      "exchange_id": "emirex"
+    },
+    {
+      "base": "0X967DA4048CD07AB37855C090AAF366E4CE1B9F48",
+      "quote": "ETH",
+      "pair_id": "0X967DA4048CD07AB37855C090AAF366E4CE1B9F48_ETH",
+      "exchange_id": "balancer"
+    },
+    {
+      "base": "OCEAN",
+      "quote": "BTC",
+      "pair_id": "OCEAN_BTC",
+      "exchange_id": "emirex"
+    },
+    {
+      "base": "OCEAN",
+      "quote": "BTC",
+      "pair_id": "OCEAN_BTC",
+      "exchange_id": "p2pb2b"
+    },
+    {
+      "base": "OCEAN",
+      "quote": "BTC",
+      "pair_id": "OCEAN_BTC",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "OCEAN",
+      "quote": "KRW",
+      "pair_id": "OCEAN_KRW",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "OCEAN",
+      "quote": "ETH",
+      "pair_id": "OCEAN_ETH",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "OCEAN",
+      "quote": "EUR",
+      "pair_id": "OCEAN_EUR",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "OCEAN",
+      "quote": "USDT",
+      "pair_id": "OCEAN_USDT",
+      "exchange_id": "vcc"
+    },
+    {
+      "base": "OCEAN",
+      "quote": "BTC",
+      "pair_id": "OCEAN_BTC",
+      "exchange_id": "vcc"
+    },
+    {
+      "base": "OCEAN",
+      "quote": "USDT",
+      "pair_id": "OCEAN_USDT",
+      "exchange_id": "poloniex"
+    },
+    {
+      "base": "OCEAN",
+      "quote": "USDT",
+      "pair_id": "OCEAN_USDT",
+      "exchange_id": "bit_z"
+    },
+    {
+      "base": "OCEAN",
+      "quote": "USDT",
+      "pair_id": "OCEAN_USDT",
+      "exchange_id": "bvnex"
+    },
+    {
+      "base": "OCEAN",
+      "quote": "USDT",
+      "pair_id": "OCEAN_USDT",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "OCEAN",
+      "quote": "USDT",
+      "pair_id": "OCEAN_USDT",
+      "exchange_id": "hbtc"
+    },
+    {
+      "base": "OCEAN",
+      "quote": "USDT",
+      "pair_id": "OCEAN_USDT",
+      "exchange_id": "bittrex"
+    },
+    {
+      "base": "0X967DA4048CD07AB37855C090AAF366E4CE1B9F48",
+      "quote": "ETH",
+      "pair_id": "0X967DA4048CD07AB37855C090AAF366E4CE1B9F48_ETH",
+      "exchange_id": "one_inch"
+    },
+    {
+      "base": "OCEAN",
+      "quote": "USDT",
+      "pair_id": "OCEAN_USDT",
+      "exchange_id": "whale_ex"
+    },
+    {
+      "base": "OCEAN",
+      "quote": "ETH",
+      "pair_id": "OCEAN_ETH",
+      "exchange_id": "kyber_network"
+    },
+    {
+      "base": "OCEAN",
+      "quote": "ETH",
+      "pair_id": "OCEAN_ETH",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "OCEAN",
+      "quote": "PAX",
+      "pair_id": "OCEAN_PAX",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "OCEAN",
+      "quote": "GBP",
+      "pair_id": "OCEAN_GBP",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "OCEAN",
+      "quote": "TUSD",
+      "pair_id": "OCEAN_TUSD",
+      "exchange_id": "dove_wallet"
+    },
+    {
+      "base": "OCEAN",
+      "quote": "USDC",
+      "pair_id": "OCEAN_USDC",
+      "exchange_id": "dove_wallet"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 0,
+    "total_supply": 613099141,
+    "circulating_supply": 347265615.0416602
+  }
+}

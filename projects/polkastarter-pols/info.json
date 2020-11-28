@@ -10,7 +10,7 @@
       "name": "Twitter",
       "url": "https://twitter.com/polkastarter",
       "handle": "polkastarter",
-      "search_strings": ["@polkastarter", "#polkastarter", "$POLS"]
+      "search_strings": ["$POLS"]
     }
   ],
   "tokenomics": {

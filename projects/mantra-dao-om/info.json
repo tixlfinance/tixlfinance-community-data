@@ -1,0 +1,113 @@
+{
+  "name": "MANTRA DAO",
+  "symbol": "OM",
+  "website": "https://www.mantradao.com/",
+  "coingecko_id": "mantra-dao",
+  "coin_api_id": "MANTRA-DAO",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://www.twitter.com/MANTRADAO",
+      "search_strings": [
+        "$OM"
+      ]
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "0X2BAECDF43734F22FD5C152DB08E3C27233F0C7D2",
+      "quote": "ETH",
+      "pair_id": "0X2BAECDF43734F22FD5C152DB08E3C27233F0C7D2_ETH",
+      "exchange_id": "uniswap"
+    },
+    {
+      "base": "OM",
+      "quote": "USDT",
+      "pair_id": "OM_USDT",
+      "exchange_id": "bitmax"
+    },
+    {
+      "base": "OM",
+      "quote": "USDT",
+      "pair_id": "OM_USDT",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "OM",
+      "quote": "USDT",
+      "pair_id": "OM_USDT",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "OM",
+      "quote": "USDT",
+      "pair_id": "OM_USDT",
+      "exchange_id": "poloniex"
+    },
+    {
+      "base": "OM",
+      "quote": "USDT",
+      "pair_id": "OM_USDT",
+      "exchange_id": "bithumb_global"
+    },
+    {
+      "base": "OM",
+      "quote": "USDT",
+      "pair_id": "OM_USDT",
+      "exchange_id": "gate"
+    },
+    {
+      "base": "OM",
+      "quote": "ETH",
+      "pair_id": "OM_ETH",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "OM",
+      "quote": "ETH",
+      "pair_id": "OM_ETH",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "OM",
+      "quote": "LUA",
+      "pair_id": "OM_LUA",
+      "exchange_id": "luaswap"
+    },
+    {
+      "base": "OM",
+      "quote": "USDT",
+      "pair_id": "OM_USDT",
+      "exchange_id": "bitmart"
+    },
+    {
+      "base": "OM",
+      "quote": "USDT",
+      "pair_id": "OM_USDT",
+      "exchange_id": "bilaxy"
+    },
+    {
+      "base": "OM",
+      "quote": "USDT",
+      "pair_id": "OM_USDT",
+      "exchange_id": "hoo"
+    },
+    {
+      "base": "OM",
+      "quote": "BTC",
+      "pair_id": "OM_BTC",
+      "exchange_id": "hoo"
+    },
+    {
+      "base": "OM",
+      "quote": "ETH",
+      "pair_id": "OM_ETH",
+      "exchange_id": "gate"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 0,
+    "total_supply": 211499999.96,
+    "circulating_supply": 185827371.9251453
+  }
+}

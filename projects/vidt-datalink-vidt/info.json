@@ -1,0 +1,115 @@
+{
+  "name": "VIDT Datalink",
+  "symbol": "VIDT",
+  "website": "https://about.v-id.org/",
+  "coingecko_id": "v-id-blockchain",
+  "coin_api_id": "V-ID-BLOCKCHAIN",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://www.twitter.com/VIDT_Datalink",
+      "search_strings": [
+        "$VIDT"
+      ]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/V-ID-277311629500577"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/vidt/"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "VIDT",
+      "quote": "BTC",
+      "pair_id": "VIDT_BTC",
+      "exchange_id": "kucoin"
+    },
+    {
+      "base": "VIDT",
+      "quote": "BTC",
+      "pair_id": "VIDT_BTC",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "VIDT",
+      "quote": "BUSD",
+      "pair_id": "VIDT_BUSD",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "0XFEF4185594457050CC9C23980D301908FE057BB1",
+      "quote": "ETH",
+      "pair_id": "0XFEF4185594457050CC9C23980D301908FE057BB1_ETH",
+      "exchange_id": "uniswap"
+    },
+    {
+      "base": "VIDT",
+      "quote": "BTC",
+      "pair_id": "VIDT_BTC",
+      "exchange_id": "bilaxy"
+    },
+    {
+      "base": "VIDT",
+      "quote": "USDT",
+      "pair_id": "VIDT_USDT",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "VIDT",
+      "quote": "BTC",
+      "pair_id": "VIDT_BTC",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "VIDT",
+      "quote": "USDT",
+      "pair_id": "VIDT_USDT",
+      "exchange_id": "kucoin"
+    },
+    {
+      "base": "VIDT",
+      "quote": "ETH",
+      "pair_id": "VIDT_ETH",
+      "exchange_id": "kyber_network"
+    },
+    {
+      "base": "0XFEF4185594457050CC9C23980D301908FE057BB1",
+      "quote": "ETH",
+      "pair_id": "0XFEF4185594457050CC9C23980D301908FE057BB1_ETH",
+      "exchange_id": "one_inch"
+    },
+    {
+      "base": "VIDT",
+      "quote": "USDT",
+      "pair_id": "VIDT_USDT",
+      "exchange_id": "hoo"
+    },
+    {
+      "base": "VIDT",
+      "quote": "ETH",
+      "pair_id": "VIDT_ETH",
+      "exchange_id": "hoo"
+    },
+    {
+      "base": "VIDT",
+      "quote": "ETH",
+      "pair_id": "VIDT_ETH",
+      "exchange_id": "idex"
+    },
+    {
+      "base": "VIDT-F53",
+      "quote": "BNB",
+      "pair_id": "VIDT-F53_BNB",
+      "exchange_id": "binance_dex"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 0,
+    "total_supply": 56883808.6,
+    "circulating_supply": 46282792
+  }
+}

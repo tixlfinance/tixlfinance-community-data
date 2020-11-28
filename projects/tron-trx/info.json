@@ -1,0 +1,631 @@
+{
+  "name": "TRON",
+  "symbol": "TRX",
+  "website": "https://tron.network",
+  "coingecko_id": "tron",
+  "coin_api_id": "TRON",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://www.twitter.com/tronfoundation",
+      "search_strings": [
+        "$TRX"
+      ]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/tronfoundation"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/Tronix"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "TRX",
+      "quote": "USD",
+      "pair_id": "TRX_USD",
+      "exchange_id": "bitcoin_com"
+    },
+    {
+      "base": "TRX",
+      "quote": "USD",
+      "pair_id": "TRX_USD",
+      "exchange_id": "hitbtc"
+    },
+    {
+      "base": "TRX",
+      "quote": "USDT",
+      "pair_id": "TRX_USDT",
+      "exchange_id": "whitebit"
+    },
+    {
+      "base": "TRX",
+      "quote": "USDT",
+      "pair_id": "TRX_USDT",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "TRX",
+      "quote": "USDT",
+      "pair_id": "TRX_USDT",
+      "exchange_id": "digifinex"
+    },
+    {
+      "base": "TRX",
+      "quote": "USDT",
+      "pair_id": "TRX_USDT",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "TRX",
+      "quote": "USDT",
+      "pair_id": "TRX_USDT",
+      "exchange_id": "coinsbit"
+    },
+    {
+      "base": "TRX",
+      "quote": "BTC",
+      "pair_id": "TRX_BTC",
+      "exchange_id": "yobit"
+    },
+    {
+      "base": "TRX",
+      "quote": "BTC",
+      "pair_id": "TRX_BTC",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "TRX",
+      "quote": "USDT",
+      "pair_id": "TRX_USDT",
+      "exchange_id": "lbank"
+    },
+    {
+      "base": "TRX",
+      "quote": "USDT",
+      "pair_id": "TRX_USDT",
+      "exchange_id": "mxc"
+    },
+    {
+      "base": "TRX",
+      "quote": "USDT",
+      "pair_id": "TRX_USDT",
+      "exchange_id": "ftx_spot"
+    },
+    {
+      "base": "TRX",
+      "quote": "USD",
+      "pair_id": "TRX_USD",
+      "exchange_id": "ftx_spot"
+    },
+    {
+      "base": "TRX",
+      "quote": "USDT",
+      "pair_id": "TRX_USDT",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "TRX",
+      "quote": "KRW",
+      "pair_id": "TRX_KRW",
+      "exchange_id": "upbit"
+    },
+    {
+      "base": "TRX",
+      "quote": "BTC",
+      "pair_id": "TRX_BTC",
+      "exchange_id": "hitbtc"
+    },
+    {
+      "base": "TRX",
+      "quote": "BTC",
+      "pair_id": "TRX_BTC",
+      "exchange_id": "bitcoin_com"
+    },
+    {
+      "base": "TRX",
+      "quote": "USDT",
+      "pair_id": "TRX_USDT",
+      "exchange_id": "coinall"
+    },
+    {
+      "base": "TRX",
+      "quote": "USDT",
+      "pair_id": "TRX_USDT",
+      "exchange_id": "okex_korea"
+    },
+    {
+      "base": "TRX",
+      "quote": "USDT",
+      "pair_id": "TRX_USDT",
+      "exchange_id": "biki"
+    },
+    {
+      "base": "TRX",
+      "quote": "KRW",
+      "pair_id": "TRX_KRW",
+      "exchange_id": "bithumb"
+    },
+    {
+      "base": "TRX",
+      "quote": "USDT",
+      "pair_id": "TRX_USDT",
+      "exchange_id": "gate"
+    },
+    {
+      "base": "TRX",
+      "quote": "USD",
+      "pair_id": "TRX_USD",
+      "exchange_id": "bitfinex"
+    },
+    {
+      "base": "TRX",
+      "quote": "ETH",
+      "pair_id": "TRX_ETH",
+      "exchange_id": "bitcoin_com"
+    },
+    {
+      "base": "TRX",
+      "quote": "ETH",
+      "pair_id": "TRX_ETH",
+      "exchange_id": "hitbtc"
+    },
+    {
+      "base": "TRX",
+      "quote": "USDT",
+      "pair_id": "TRX_USDT",
+      "exchange_id": "nominex"
+    },
+    {
+      "base": "TRX",
+      "quote": "BTC",
+      "pair_id": "TRX_BTC",
+      "exchange_id": "whitebit"
+    },
+    {
+      "base": "TRX",
+      "quote": "BTC",
+      "pair_id": "TRX_BTC",
+      "exchange_id": "okex_korea"
+    },
+    {
+      "base": "TRX",
+      "quote": "ETH",
+      "pair_id": "TRX_ETH",
+      "exchange_id": "coinsbit"
+    },
+    {
+      "base": "TRX",
+      "quote": "BTC",
+      "pair_id": "TRX_BTC",
+      "exchange_id": "digifinex"
+    },
+    {
+      "base": "TRX",
+      "quote": "BTC",
+      "pair_id": "TRX_BTC",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "TRX",
+      "quote": "BTC",
+      "pair_id": "TRX_BTC",
+      "exchange_id": "aax"
+    },
+    {
+      "base": "TRX",
+      "quote": "BTC",
+      "pair_id": "TRX_BTC",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "TRX",
+      "quote": "BTC",
+      "pair_id": "TRX_BTC",
+      "exchange_id": "coineal"
+    },
+    {
+      "base": "TRX",
+      "quote": "USDT",
+      "pair_id": "TRX_USDT",
+      "exchange_id": "poloniex"
+    },
+    {
+      "base": "TRX",
+      "quote": "USD",
+      "pair_id": "TRX_USD",
+      "exchange_id": "kraken"
+    },
+    {
+      "base": "TRX",
+      "quote": "ETH",
+      "pair_id": "TRX_ETH",
+      "exchange_id": "indoex"
+    },
+    {
+      "base": "TRX",
+      "quote": "USDT",
+      "pair_id": "TRX_USDT",
+      "exchange_id": "kucoin"
+    },
+    {
+      "base": "TRX",
+      "quote": "USDT",
+      "pair_id": "TRX_USDT",
+      "exchange_id": "aax"
+    },
+    {
+      "base": "TRX",
+      "quote": "BTC",
+      "pair_id": "TRX_BTC",
+      "exchange_id": "decoin"
+    },
+    {
+      "base": "TRX",
+      "quote": "USDT",
+      "pair_id": "TRX_USDT",
+      "exchange_id": "hoo"
+    },
+    {
+      "base": "TRX",
+      "quote": "BUSD",
+      "pair_id": "TRX_BUSD",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "TRX",
+      "quote": "USD",
+      "pair_id": "TRX_USD",
+      "exchange_id": "okcoin"
+    },
+    {
+      "base": "TRX",
+      "quote": "TRY",
+      "pair_id": "TRX_TRY",
+      "exchange_id": "btcturk"
+    },
+    {
+      "base": "TRX",
+      "quote": "ETH",
+      "pair_id": "TRX_ETH",
+      "exchange_id": "catex"
+    },
+    {
+      "base": "TRX",
+      "quote": "ETH",
+      "pair_id": "TRX_ETH",
+      "exchange_id": "digifinex"
+    },
+    {
+      "base": "TRX",
+      "quote": "USD",
+      "pair_id": "TRX_USD",
+      "exchange_id": "exrates"
+    },
+    {
+      "base": "TRX",
+      "quote": "ETH",
+      "pair_id": "TRX_ETH",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "TRX",
+      "quote": "EUR",
+      "pair_id": "TRX_EUR",
+      "exchange_id": "kraken"
+    },
+    {
+      "base": "TRX",
+      "quote": "BTC",
+      "pair_id": "TRX_BTC",
+      "exchange_id": "bittrex"
+    },
+    {
+      "base": "TRX",
+      "quote": "USDT",
+      "pair_id": "TRX_USDT",
+      "exchange_id": "bitmax"
+    },
+    {
+      "base": "TRX",
+      "quote": "USDC",
+      "pair_id": "TRX_USDC",
+      "exchange_id": "nominex"
+    },
+    {
+      "base": "TRX",
+      "quote": "USDC",
+      "pair_id": "TRX_USDC",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "TRX",
+      "quote": "ETH",
+      "pair_id": "TRX_ETH",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "TRX",
+      "quote": "ETH",
+      "pair_id": "TRX_ETH",
+      "exchange_id": "nominex"
+    },
+    {
+      "base": "TRX",
+      "quote": "KRW",
+      "pair_id": "TRX_KRW",
+      "exchange_id": "coinone"
+    },
+    {
+      "base": "TRX",
+      "quote": "USDT",
+      "pair_id": "TRX_USDT",
+      "exchange_id": "catex"
+    },
+    {
+      "base": "TRX",
+      "quote": "BTC",
+      "pair_id": "TRX_BTC",
+      "exchange_id": "bitfinex"
+    },
+    {
+      "base": "TRX",
+      "quote": "IDR",
+      "pair_id": "TRX_IDR",
+      "exchange_id": "indodax"
+    },
+    {
+      "base": "TRX",
+      "quote": "USDT",
+      "pair_id": "TRX_USDT",
+      "exchange_id": "coinex"
+    },
+    {
+      "base": "TRX",
+      "quote": "QC",
+      "pair_id": "TRX_QC",
+      "exchange_id": "zb"
+    },
+    {
+      "base": "TRX",
+      "quote": "BNB",
+      "pair_id": "TRX_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "TRX",
+      "quote": "USDT",
+      "pair_id": "TRX_USDT",
+      "exchange_id": "bkex"
+    },
+    {
+      "base": "TRX",
+      "quote": "BTC",
+      "pair_id": "TRX_BTC",
+      "exchange_id": "poloniex"
+    },
+    {
+      "base": "TRX",
+      "quote": "USDT",
+      "pair_id": "TRX_USDT",
+      "exchange_id": "bigone"
+    },
+    {
+      "base": "TRX",
+      "quote": "USDT",
+      "pair_id": "TRX_USDT",
+      "exchange_id": "bittrex"
+    },
+    {
+      "base": "TRX",
+      "quote": "USDT",
+      "pair_id": "TRX_USDT",
+      "exchange_id": "virgox"
+    },
+    {
+      "base": "TRX",
+      "quote": "BTC",
+      "pair_id": "TRX_BTC",
+      "exchange_id": "kucoin"
+    },
+    {
+      "base": "TRX",
+      "quote": "BTC",
+      "pair_id": "TRX_BTC",
+      "exchange_id": "coinsbit"
+    },
+    {
+      "base": "TRX",
+      "quote": "BTC",
+      "pair_id": "TRX_BTC",
+      "exchange_id": "biki"
+    },
+    {
+      "base": "TRX",
+      "quote": "USDT",
+      "pair_id": "TRX_USDT",
+      "exchange_id": "indoex"
+    },
+    {
+      "base": "TRX",
+      "quote": "USD",
+      "pair_id": "TRX_USD",
+      "exchange_id": "bittrex"
+    },
+    {
+      "base": "TRX",
+      "quote": "USDT",
+      "pair_id": "TRX_USDT",
+      "exchange_id": "dcoin"
+    },
+    {
+      "base": "TRX",
+      "quote": "XBT",
+      "pair_id": "TRX_XBT",
+      "exchange_id": "kraken"
+    },
+    {
+      "base": "TRX",
+      "quote": "USDT",
+      "pair_id": "TRX_USDT",
+      "exchange_id": "bitexlive"
+    },
+    {
+      "base": "TRX",
+      "quote": "ETH",
+      "pair_id": "TRX_ETH",
+      "exchange_id": "coineal"
+    },
+    {
+      "base": "TRX",
+      "quote": "TRY",
+      "pair_id": "TRX_TRY",
+      "exchange_id": "paribu"
+    },
+    {
+      "base": "TRX",
+      "quote": "USDT",
+      "pair_id": "TRX_USDT",
+      "exchange_id": "btcturk"
+    },
+    {
+      "base": "TRX",
+      "quote": "ETH",
+      "pair_id": "TRX_ETH",
+      "exchange_id": "bitfinex"
+    },
+    {
+      "base": "TRX",
+      "quote": "USDT",
+      "pair_id": "TRX_USDT",
+      "exchange_id": "bibox"
+    },
+    {
+      "base": "TRX",
+      "quote": "BITCNY",
+      "pair_id": "TRX_BITCNY",
+      "exchange_id": "cointiger"
+    },
+    {
+      "base": "TRX",
+      "quote": "USDK",
+      "pair_id": "TRX_USDK",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "TRX",
+      "quote": "ETH",
+      "pair_id": "TRX_ETH",
+      "exchange_id": "kucoin"
+    },
+    {
+      "base": "TRX",
+      "quote": "ETH",
+      "pair_id": "TRX_ETH",
+      "exchange_id": "bittrex"
+    },
+    {
+      "base": "TRX",
+      "quote": "USDT",
+      "pair_id": "TRX_USDT",
+      "exchange_id": "xt"
+    },
+    {
+      "base": "TRX",
+      "quote": "ETH",
+      "pair_id": "TRX_ETH",
+      "exchange_id": "exrates"
+    },
+    {
+      "base": "TRX",
+      "quote": "ETH",
+      "pair_id": "TRX_ETH",
+      "exchange_id": "bibox"
+    },
+    {
+      "base": "TRX",
+      "quote": "USDT",
+      "pair_id": "TRX_USDT",
+      "exchange_id": "phemex"
+    },
+    {
+      "base": "TRX",
+      "quote": "USDT",
+      "pair_id": "TRX_USDT",
+      "exchange_id": "bitmart"
+    },
+    {
+      "base": "TRX",
+      "quote": "XRP",
+      "pair_id": "TRX_XRP",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "TRX",
+      "quote": "HUSD",
+      "pair_id": "TRX_HUSD",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "TRX",
+      "quote": "ETH",
+      "pair_id": "TRX_ETH",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "TRX",
+      "quote": "ETH",
+      "pair_id": "TRX_ETH",
+      "exchange_id": "whitebit"
+    },
+    {
+      "base": "TRX",
+      "quote": "ETH",
+      "pair_id": "TRX_ETH",
+      "exchange_id": "okex_korea"
+    },
+    {
+      "base": "TRX",
+      "quote": "USDT",
+      "pair_id": "TRX_USDT",
+      "exchange_id": "bw"
+    },
+    {
+      "base": "TRX",
+      "quote": "ETH",
+      "pair_id": "TRX_ETH",
+      "exchange_id": "bkex"
+    },
+    {
+      "base": "TRX",
+      "quote": "OKB",
+      "pair_id": "TRX_OKB",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "TRX",
+      "quote": "BTC",
+      "pair_id": "TRX_BTC",
+      "exchange_id": "xt"
+    },
+    {
+      "base": "TRX",
+      "quote": "USDT",
+      "pair_id": "TRX_USDT",
+      "exchange_id": "latoken"
+    },
+    {
+      "base": "TRX",
+      "quote": "INR",
+      "pair_id": "TRX_INR",
+      "exchange_id": "wazirx"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 0,
+    "total_supply": 100850743812,
+    "circulating_supply": 71660220128
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "name": "Chromia",
+  "symbol": "CHR",
+  "website": "https://chromia.com/",
+  "coingecko_id": "chromaway",
+  "coin_api_id": "CHROMAWAY",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://www.twitter.com/chromia",
+      "search_strings": [
+        "CHR"
+      ]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/chromaway"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "CHR",
+      "quote": "BTC",
+      "pair_id": "CHR_BTC",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "CHR",
+      "quote": "USDT",
+      "pair_id": "CHR_USDT",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "CHR",
+      "quote": "KRW",
+      "pair_id": "CHR_KRW",
+      "exchange_id": "bithumb"
+    },
+    {
+      "base": "CHR",
+      "quote": "USDT",
+      "pair_id": "CHR_USDT",
+      "exchange_id": "bkex"
+    },
+    {
+      "base": "CHR",
+      "quote": "USDT",
+      "pair_id": "CHR_USDT",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "CHR",
+      "quote": "BNB",
+      "pair_id": "CHR_BNB",
+      "exchange_id": "binance"
+    },
+    {
+      "base": "CHR",
+      "quote": "USDT",
+      "pair_id": "CHR_USDT",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "CHR",
+      "quote": "USDT",
+      "pair_id": "CHR_USDT",
+      "exchange_id": "bilaxy"
+    },
+    {
+      "base": "CHR",
+      "quote": "BTC",
+      "pair_id": "CHR_BTC",
+      "exchange_id": "kucoin"
+    },
+    {
+      "base": "CHR",
+      "quote": "BTC",
+      "pair_id": "CHR_BTC",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "CHR",
+      "quote": "USDT",
+      "pair_id": "CHR_USDT",
+      "exchange_id": "wazirx"
+    },
+    {
+      "base": "CHR",
+      "quote": "USDT",
+      "pair_id": "CHR_USDT",
+      "exchange_id": "kucoin"
+    },
+    {
+      "base": "CHR",
+      "quote": "USDT",
+      "pair_id": "CHR_USDT",
+      "exchange_id": "poloniex"
+    },
+    {
+      "base": "CHR",
+      "quote": "BTC",
+      "pair_id": "CHR_BTC",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "CHR",
+      "quote": "HT",
+      "pair_id": "CHR_HT",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "CHR",
+      "quote": "BTC",
+      "pair_id": "CHR_BTC",
+      "exchange_id": "poloniex"
+    },
+    {
+      "base": "CHR",
+      "quote": "USDT",
+      "pair_id": "CHR_USDT",
+      "exchange_id": "bithumb_global"
+    },
+    {
+      "base": "CHR",
+      "quote": "INR",
+      "pair_id": "CHR_INR",
+      "exchange_id": "coindcx"
+    },
+    {
+      "base": "CHR",
+      "quote": "USDT",
+      "pair_id": "CHR_USDT",
+      "exchange_id": "bitmax"
+    },
+    {
+      "base": "CHR",
+      "quote": "TRX",
+      "pair_id": "CHR_TRX",
+      "exchange_id": "poloniex"
+    },
+    {
+      "base": "CHR",
+      "quote": "BTC",
+      "pair_id": "CHR_BTC",
+      "exchange_id": "bitmax"
+    },
+    {
+      "base": "CHR",
+      "quote": "BTC",
+      "pair_id": "CHR_BTC",
+      "exchange_id": "upbit"
+    },
+    {
+      "base": "CHR",
+      "quote": "BTC",
+      "pair_id": "CHR_BTC",
+      "exchange_id": "jex"
+    },
+    {
+      "base": "CHR",
+      "quote": "USDT",
+      "pair_id": "CHR_USDT",
+      "exchange_id": "jex"
+    },
+    {
+      "base": "CHR",
+      "quote": "USDT",
+      "pair_id": "CHR_USDT",
+      "exchange_id": "huobi_korea"
+    },
+    {
+      "base": "CHR",
+      "quote": "BTC",
+      "pair_id": "CHR_BTC",
+      "exchange_id": "upbit_indonesia"
+    },
+    {
+      "base": "CHR",
+      "quote": "BTC",
+      "pair_id": "CHR_BTC",
+      "exchange_id": "huobi_korea"
+    },
+    {
+      "base": "CHR",
+      "quote": "ETH",
+      "pair_id": "CHR_ETH",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "CHR",
+      "quote": "HT",
+      "pair_id": "CHR_HT",
+      "exchange_id": "huobi_korea"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 500507075.481169,
+    "total_supply": 500507075.481169,
+    "circulating_supply": 449405999.246874
+  }
+}

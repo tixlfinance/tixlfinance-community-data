@@ -12,7 +12,7 @@
       "name": "Twitter",
       "url": "https://twitter.com/tixlcurrency",
       "handle": "tixlcurrency",
-      "search_strings": ["@TixlOrg", "#tixl", "$TXL"]
+      "search_strings": ["#tixl", "$TXL"]
     },
     {
       "name": "Telegram",

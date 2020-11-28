@@ -1,0 +1,73 @@
+{
+  "name": "Sentivate",
+  "symbol": "SNTVT",
+  "website": "https://sentivate.com",
+  "coingecko_id": "sentivate",
+  "coin_api_id": "SENTIVATE",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://www.twitter.com/sentivate",
+      "search_strings": [
+        "$SNTVT"
+      ]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/sentivate"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/sentivate/"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "0X7865AF71CF0B288B4E7F654F4F7851EB46A2B7F8",
+      "quote": "ETH",
+      "pair_id": "0X7865AF71CF0B288B4E7F654F4F7851EB46A2B7F8_ETH",
+      "exchange_id": "uniswap"
+    },
+    {
+      "base": "SNTVT",
+      "quote": "BTC",
+      "pair_id": "SNTVT_BTC",
+      "exchange_id": "kucoin"
+    },
+    {
+      "base": "SNTVT",
+      "quote": "ETH",
+      "pair_id": "SNTVT_ETH",
+      "exchange_id": "stocks_exchange"
+    },
+    {
+      "base": "SNTVT",
+      "quote": "ETH",
+      "pair_id": "SNTVT_ETH",
+      "exchange_id": "kucoin"
+    },
+    {
+      "base": "SNTVT",
+      "quote": "ETH",
+      "pair_id": "SNTVT_ETH",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "SNTVT",
+      "quote": "BTC",
+      "pair_id": "SNTVT_BTC",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "SNTVT",
+      "quote": "ETH",
+      "pair_id": "SNTVT_ETH",
+      "exchange_id": "idex"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 4200000000,
+    "total_supply": 4200000000,
+    "circulating_supply": 2413018269.3110185
+  }
+}

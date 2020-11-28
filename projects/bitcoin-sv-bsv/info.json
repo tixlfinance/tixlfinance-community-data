@@ -1,0 +1,615 @@
+{
+  "name": "Bitcoin SV",
+  "symbol": "BSV",
+  "website": "https://bitcoinsv.com/",
+  "coingecko_id": "bitcoin-cash-sv",
+  "coin_api_id": "BITCOIN-CASH-SV",
+  "socials": [],
+  "trading_pairs": [
+    {
+      "base": "BSV",
+      "quote": "BTC",
+      "pair_id": "BSV_BTC",
+      "exchange_id": "indoex"
+    },
+    {
+      "base": "BSV",
+      "quote": "USD",
+      "pair_id": "BSV_USD",
+      "exchange_id": "hitbtc"
+    },
+    {
+      "base": "BSV",
+      "quote": "USDT",
+      "pair_id": "BSV_USDT",
+      "exchange_id": "digifinex"
+    },
+    {
+      "base": "BSV",
+      "quote": "USDT",
+      "pair_id": "BSV_USDT",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "BSV",
+      "quote": "USDT",
+      "pair_id": "BSV_USDT",
+      "exchange_id": "indoex"
+    },
+    {
+      "base": "BSV",
+      "quote": "BTC",
+      "pair_id": "BSV_BTC",
+      "exchange_id": "hitbtc"
+    },
+    {
+      "base": "BSV",
+      "quote": "USDT",
+      "pair_id": "BSV_USDT",
+      "exchange_id": "coineal"
+    },
+    {
+      "base": "BSV",
+      "quote": "USDT",
+      "pair_id": "BSV_USDT",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "BSV",
+      "quote": "USDT",
+      "pair_id": "BSV_USDT",
+      "exchange_id": "floatsv"
+    },
+    {
+      "base": "BSV",
+      "quote": "BTC",
+      "pair_id": "BSV_BTC",
+      "exchange_id": "bitfinex"
+    },
+    {
+      "base": "BSV",
+      "quote": "USDT",
+      "pair_id": "BSV_USDT",
+      "exchange_id": "okex_korea"
+    },
+    {
+      "base": "BSV",
+      "quote": "KRW",
+      "pair_id": "BSV_KRW",
+      "exchange_id": "bithumb"
+    },
+    {
+      "base": "BSV",
+      "quote": "BTC",
+      "pair_id": "BSV_BTC",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "BCHSV",
+      "quote": "USDT",
+      "pair_id": "BCHSV_USDT",
+      "exchange_id": "gate"
+    },
+    {
+      "base": "BSV",
+      "quote": "USD",
+      "pair_id": "BSV_USD",
+      "exchange_id": "bitfinex"
+    },
+    {
+      "base": "BCHSV",
+      "quote": "USDT",
+      "pair_id": "BCHSV_USDT",
+      "exchange_id": "kucoin"
+    },
+    {
+      "base": "BSV",
+      "quote": "KRW",
+      "pair_id": "BSV_KRW",
+      "exchange_id": "upbit"
+    },
+    {
+      "base": "BSV",
+      "quote": "CNC",
+      "pair_id": "BSV_CNC",
+      "exchange_id": "aex"
+    },
+    {
+      "base": "BSV",
+      "quote": "BTC",
+      "pair_id": "BSV_BTC",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "BSV",
+      "quote": "USDT",
+      "pair_id": "BSV_USDT",
+      "exchange_id": "bw"
+    },
+    {
+      "base": "BSV",
+      "quote": "USDT",
+      "pair_id": "BSV_USDT",
+      "exchange_id": "aex"
+    },
+    {
+      "base": "BSV",
+      "quote": "BTC",
+      "pair_id": "BSV_BTC",
+      "exchange_id": "digifinex"
+    },
+    {
+      "base": "BCHSV",
+      "quote": "BTC",
+      "pair_id": "BCHSV_BTC",
+      "exchange_id": "cointiger"
+    },
+    {
+      "base": "BSV",
+      "quote": "BTC",
+      "pair_id": "BSV_BTC",
+      "exchange_id": "bittrex"
+    },
+    {
+      "base": "BSV",
+      "quote": "BTC",
+      "pair_id": "BSV_BTC",
+      "exchange_id": "floatsv"
+    },
+    {
+      "base": "BCH",
+      "quote": "BSV",
+      "pair_id": "BCH_BSV",
+      "exchange_id": "indoex"
+    },
+    {
+      "base": "BSV",
+      "quote": "BTC",
+      "pair_id": "BSV_BTC",
+      "exchange_id": "okex_korea"
+    },
+    {
+      "base": "BSV",
+      "quote": "ETH",
+      "pair_id": "BSV_ETH",
+      "exchange_id": "bibox"
+    },
+    {
+      "base": "BSV",
+      "quote": "BTC",
+      "pair_id": "BSV_BTC",
+      "exchange_id": "bibox"
+    },
+    {
+      "base": "BCHSV",
+      "quote": "USDT",
+      "pair_id": "BCHSV_USDT",
+      "exchange_id": "cointiger"
+    },
+    {
+      "base": "BSV",
+      "quote": "ETH",
+      "pair_id": "BSV_ETH",
+      "exchange_id": "indoex"
+    },
+    {
+      "base": "BSV",
+      "quote": "USDT",
+      "pair_id": "BSV_USDT",
+      "exchange_id": "bibox"
+    },
+    {
+      "base": "BSV",
+      "quote": "HUSD",
+      "pair_id": "BSV_HUSD",
+      "exchange_id": "huobi"
+    },
+    {
+      "base": "BTC",
+      "quote": "BSV",
+      "pair_id": "BTC_BSV",
+      "exchange_id": "indoex"
+    },
+    {
+      "base": "BSV",
+      "quote": "USDT",
+      "pair_id": "BSV_USDT",
+      "exchange_id": "hoo"
+    },
+    {
+      "base": "BSV",
+      "quote": "KRW",
+      "pair_id": "BSV_KRW",
+      "exchange_id": "coinone"
+    },
+    {
+      "base": "BSV",
+      "quote": "USDT",
+      "pair_id": "BSV_USDT",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "BSV",
+      "quote": "USDT",
+      "pair_id": "BSV_USDT",
+      "exchange_id": "mxc"
+    },
+    {
+      "base": "BSV",
+      "quote": "BTC",
+      "pair_id": "BSV_BTC",
+      "exchange_id": "aax"
+    },
+    {
+      "base": "BSV",
+      "quote": "USDT",
+      "pair_id": "BSV_USDT",
+      "exchange_id": "c2cx"
+    },
+    {
+      "base": "ETH",
+      "quote": "BSV",
+      "pair_id": "ETH_BSV",
+      "exchange_id": "indoex"
+    },
+    {
+      "base": "BSV",
+      "quote": "BTC",
+      "pair_id": "BSV_BTC",
+      "exchange_id": "coinex"
+    },
+    {
+      "base": "BSV",
+      "quote": "USDT",
+      "pair_id": "BSV_USDT",
+      "exchange_id": "dcoin"
+    },
+    {
+      "base": "BSV",
+      "quote": "USDT",
+      "pair_id": "BSV_USDT",
+      "exchange_id": "bittrex"
+    },
+    {
+      "base": "BSV",
+      "quote": "EUR",
+      "pair_id": "BSV_EUR",
+      "exchange_id": "indoex"
+    },
+    {
+      "base": "BSV",
+      "quote": "USDT",
+      "pair_id": "BSV_USDT",
+      "exchange_id": "coinex"
+    },
+    {
+      "base": "BSV",
+      "quote": "USD",
+      "pair_id": "BSV_USD",
+      "exchange_id": "indoex"
+    },
+    {
+      "base": "BSV",
+      "quote": "QC",
+      "pair_id": "BSV_QC",
+      "exchange_id": "bw"
+    },
+    {
+      "base": "USDT",
+      "quote": "BSV",
+      "pair_id": "USDT_BSV",
+      "exchange_id": "indoex"
+    },
+    {
+      "base": "BSV",
+      "quote": "USD",
+      "pair_id": "BSV_USD",
+      "exchange_id": "bittrex"
+    },
+    {
+      "base": "BSV",
+      "quote": "LTC",
+      "pair_id": "BSV_LTC",
+      "exchange_id": "indoex"
+    },
+    {
+      "base": "BSV",
+      "quote": "USDT",
+      "pair_id": "BSV_USDT",
+      "exchange_id": "zb"
+    },
+    {
+      "base": "BCHSV",
+      "quote": "BTC",
+      "pair_id": "BCHSV_BTC",
+      "exchange_id": "kucoin"
+    },
+    {
+      "base": "BSV",
+      "quote": "BTC",
+      "pair_id": "BSV_BTC",
+      "exchange_id": "hotbit"
+    },
+    {
+      "base": "BSV",
+      "quote": "USDT",
+      "pair_id": "BSV_USDT",
+      "exchange_id": "biki"
+    },
+    {
+      "base": "BCHSV",
+      "quote": "BTC",
+      "pair_id": "BCHSV_BTC",
+      "exchange_id": "poloniex"
+    },
+    {
+      "base": "BSV",
+      "quote": "USDK",
+      "pair_id": "BSV_USDK",
+      "exchange_id": "okex"
+    },
+    {
+      "base": "BSV",
+      "quote": "USDT",
+      "pair_id": "BSV_USDT",
+      "exchange_id": "aax"
+    },
+    {
+      "base": "LINK",
+      "quote": "BSV",
+      "pair_id": "LINK_BSV",
+      "exchange_id": "indoex"
+    },
+    {
+      "base": "BSV",
+      "quote": "USDT",
+      "pair_id": "BSV_USDT",
+      "exchange_id": "whitebit"
+    },
+    {
+      "base": "BSV",
+      "quote": "USDT",
+      "pair_id": "BSV_USDT",
+      "exchange_id": "bkex"
+    },
+    {
+      "base": "BSV",
+      "quote": "BTC",
+      "pair_id": "BSV_BTC",
+      "exchange_id": "biki"
+    },
+    {
+      "base": "BSV",
+      "quote": "EUR",
+      "pair_id": "BSV_EUR",
+      "exchange_id": "whitebit"
+    },
+    {
+      "base": "BSV",
+      "quote": "BTC",
+      "pair_id": "BSV_BTC",
+      "exchange_id": "bitmart"
+    },
+    {
+      "base": "BCHSV",
+      "quote": "USDT",
+      "pair_id": "BCHSV_USDT",
+      "exchange_id": "poloniex"
+    },
+    {
+      "base": "BSV",
+      "quote": "USD",
+      "pair_id": "BSV_USD",
+      "exchange_id": "whitebit"
+    },
+    {
+      "base": "BSV",
+      "quote": "QC",
+      "pair_id": "BSV_QC",
+      "exchange_id": "zb"
+    },
+    {
+      "base": "BSV",
+      "quote": "USDT",
+      "pair_id": "BSV_USDT",
+      "exchange_id": "xt"
+    },
+    {
+      "base": "BSV",
+      "quote": "BTC",
+      "pair_id": "BSV_BTC",
+      "exchange_id": "bw"
+    },
+    {
+      "base": "BSV",
+      "quote": "SXC",
+      "pair_id": "BSV_SXC",
+      "exchange_id": "xt"
+    },
+    {
+      "base": "BCHSV",
+      "quote": "ETH",
+      "pair_id": "BCHSV_ETH",
+      "exchange_id": "kucoin"
+    },
+    {
+      "base": "BSV",
+      "quote": "ETH",
+      "pair_id": "BSV_ETH",
+      "exchange_id": "bittrex"
+    },
+    {
+      "base": "BSV",
+      "quote": "USDT",
+      "pair_id": "BSV_USDT",
+      "exchange_id": "bitmart"
+    },
+    {
+      "base": "BSV",
+      "quote": "EUR",
+      "pair_id": "BSV_EUR",
+      "exchange_id": "bittrex"
+    },
+    {
+      "base": "BSV",
+      "quote": "USDT",
+      "pair_id": "BSV_USDT",
+      "exchange_id": "bitforex"
+    },
+    {
+      "base": "BSV",
+      "quote": "BTC",
+      "pair_id": "BSV_BTC",
+      "exchange_id": "xt"
+    },
+    {
+      "base": "BSV",
+      "quote": "BCH",
+      "pair_id": "BSV_BCH",
+      "exchange_id": "coinex"
+    },
+    {
+      "base": "BSV",
+      "quote": "THB",
+      "pair_id": "BSV_THB",
+      "exchange_id": "bitkub"
+    },
+    {
+      "base": "DFI",
+      "quote": "BSV",
+      "pair_id": "DFI_BSV",
+      "exchange_id": "indoex"
+    },
+    {
+      "base": "BSV",
+      "quote": "KRW",
+      "pair_id": "BSV_KRW",
+      "exchange_id": "probit"
+    },
+    {
+      "base": "BSV",
+      "quote": "USDT",
+      "pair_id": "BSV_USDT",
+      "exchange_id": "bigone"
+    },
+    {
+      "base": "BCHSV",
+      "quote": "IDR",
+      "pair_id": "BCHSV_IDR",
+      "exchange_id": "indodax"
+    },
+    {
+      "base": "BSV",
+      "quote": "PLN",
+      "pair_id": "BSV_PLN",
+      "exchange_id": "bitbay"
+    },
+    {
+      "base": "BCHSV",
+      "quote": "USDT",
+      "pair_id": "BCHSV_USDT",
+      "exchange_id": "bigone"
+    },
+    {
+      "base": "BSV",
+      "quote": "USDT",
+      "pair_id": "BSV_USDT",
+      "exchange_id": "probit"
+    },
+    {
+      "base": "BSV",
+      "quote": "USDT",
+      "pair_id": "BSV_USDT",
+      "exchange_id": "emirex"
+    },
+    {
+      "base": "BSV",
+      "quote": "BRL",
+      "pair_id": "BSV_BRL",
+      "exchange_id": "novadax"
+    },
+    {
+      "base": "BSV",
+      "quote": "USDT",
+      "pair_id": "BSV_USDT",
+      "exchange_id": "bithumb_global"
+    },
+    {
+      "base": "BSV",
+      "quote": "USDC",
+      "pair_id": "BSV_USDC",
+      "exchange_id": "coinex"
+    },
+    {
+      "base": "BSV",
+      "quote": "BTC",
+      "pair_id": "BSV_BTC",
+      "exchange_id": "bigone"
+    },
+    {
+      "base": "BCHSV",
+      "quote": "BTC",
+      "pair_id": "BCHSV_BTC",
+      "exchange_id": "bigone"
+    },
+    {
+      "base": "BSV",
+      "quote": "USDT",
+      "pair_id": "BSV_USDT",
+      "exchange_id": "fatbtc"
+    },
+    {
+      "base": "BCHSV",
+      "quote": "TWD",
+      "pair_id": "BCHSV_TWD",
+      "exchange_id": "bitopro"
+    },
+    {
+      "base": "BSV",
+      "quote": "USDT",
+      "pair_id": "BSV_USDT",
+      "exchange_id": "altilly"
+    },
+    {
+      "base": "BSV",
+      "quote": "USDT",
+      "pair_id": "BSV_USDT",
+      "exchange_id": "changelly"
+    },
+    {
+      "base": "BSV",
+      "quote": "BTC",
+      "pair_id": "BSV_BTC",
+      "exchange_id": "changelly"
+    },
+    {
+      "base": "BSV",
+      "quote": "USDT",
+      "pair_id": "BSV_USDT",
+      "exchange_id": "jex"
+    },
+    {
+      "base": "BSV",
+      "quote": "USDT",
+      "pair_id": "BSV_USDT",
+      "exchange_id": "bidesk"
+    },
+    {
+      "base": "BSV",
+      "quote": "USDT",
+      "pair_id": "BSV_USDT",
+      "exchange_id": "hbtc"
+    },
+    {
+      "base": "BSV",
+      "quote": "USDT",
+      "pair_id": "BSV_USDT",
+      "exchange_id": "tokok"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 0,
+    "total_supply": 21000000,
+    "circulating_supply": 18583064.1444233
+  }
+}
