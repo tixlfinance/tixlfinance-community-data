@@ -9,45 +9,45 @@ import axios, { AxiosResponse } from "axios";
 const projectDirectoryPath = path.join(__dirname, "./../projects");
 
 const symbolsWeNeed = [
-  'USDT',
-  'LINK',
-  'BCH',
-  'BNB',
-  'DOT',
-  'BSV',
-  'TRX',
-  'XTZ',
-  'VET',
-  'MIOTA',
-  'DASH',
-  'YFI',
-  'EWT',
-  'OCEAN',
-  'RSR',
-  'RUNE',
-  'BAND',
-  'EGLD',
-  'MATIC',
-  'UTK',
-  'DAG',
-  'NPXS',
-  'TRB',
-  'PNK',
-  'DIA',
-  'VIDT',
-  'LTO',
-  'OM',
-  'INJ',
-  'DMG',
-  'CHR',
-  'SNTVT',
-  'CVP',
-  'MRPH',
-  'ALEPH',
-  'OCTO',
-  'SRN',
-  'LCX',
-  'RFUEL',
+  "USDT",
+  "LINK",
+  "BCH",
+  "BNB",
+  "DOT",
+  "BSV",
+  "TRX",
+  "XTZ",
+  "VET",
+  "MIOTA",
+  "DASH",
+  "YFI",
+  "EWT",
+  "OCEAN",
+  "RSR",
+  "RUNE",
+  "BAND",
+  "EGLD",
+  "MATIC",
+  "UTK",
+  "DAG",
+  "NPXS",
+  "TRB",
+  "PNK",
+  "DIA",
+  "VIDT",
+  "LTO",
+  "OM",
+  "INJ",
+  "DMG",
+  "CHR",
+  "SNTVT",
+  "CVP",
+  "MRPH",
+  "ALEPH",
+  "OCTO",
+  "SRN",
+  "LCX",
+  "RFUEL",
 ];
 
 const main = async () => {
@@ -76,7 +76,7 @@ const main = async () => {
 
     if (coinDetail.links.twitter_screen_name) {
       coin.socials.push({
-        name: 'Twitter',
+        name: "Twitter",
         url: `https://www.twitter.com/${coinDetail.links.twitter_screen_name}`,
         search_strings: [`$${item.symbol}`],
       });
@@ -105,7 +105,9 @@ const main = async () => {
       });
     });
 
-    const coinDirectoryPath = `${projectDirectoryPath}/${item.name.toLowerCase()}-${item.symbol}`;
+    const coinDirectoryPath = `${projectDirectoryPath}/${item.name.toLowerCase()}-${
+      item.symbol
+    }`;
     if (!fs.existsSync(coinDirectoryPath)) {
       fs.mkdirSync(coinDirectoryPath);
     }
