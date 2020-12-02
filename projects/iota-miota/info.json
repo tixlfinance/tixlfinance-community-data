@@ -90,12 +90,6 @@
     },
     {
       "base": "IOTA",
-      "quote": "KRW",
-      "pair_id": "IOTA_KRW",
-      "exchange_id": "upbit.com"
-    },
-    {
-      "base": "IOTA",
       "quote": "ETH",
       "pair_id": "IOTA_ETH",
       "exchange_id": "binance.com"

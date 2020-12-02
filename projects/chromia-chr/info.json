@@ -30,12 +30,6 @@
     },
     {
       "base": "CHR",
-      "quote": "KRW",
-      "pair_id": "CHR_KRW",
-      "exchange_id": "bithumb.com"
-    },
-    {
-      "base": "CHR",
       "quote": "USDT",
       "pair_id": "CHR_USDT",
       "exchange_id": "bkex"
@@ -141,12 +135,6 @@
       "quote": "BTC",
       "pair_id": "CHR_BTC",
       "exchange_id": "bitmax"
-    },
-    {
-      "base": "CHR",
-      "quote": "BTC",
-      "pair_id": "CHR_BTC",
-      "exchange_id": "upbit.com"
     },
     {
       "base": "CHR",

@@ -80,12 +80,6 @@
     },
     {
       "base": "BSV",
-      "quote": "KRW",
-      "pair_id": "BSV_KRW",
-      "exchange_id": "bithumb.com"
-    },
-    {
-      "base": "BSV",
       "quote": "BTC",
       "pair_id": "BSV_BTC",
       "exchange_id": "huobi.com"
@@ -107,12 +101,6 @@
       "quote": "USDT",
       "pair_id": "BCHSV_USDT",
       "exchange_id": "kucoin.com"
-    },
-    {
-      "base": "BSV",
-      "quote": "KRW",
-      "pair_id": "BSV_KRW",
-      "exchange_id": "upbit.com"
     },
     {
       "base": "BSV",

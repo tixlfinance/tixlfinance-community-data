@@ -65,12 +65,6 @@
       "exchange_id": "zb"
     },
     {
-      "base": "BUSD",
-      "quote": "USDT",
-      "pair_id": "BUSD_USDT",
-      "exchange_id": "binance.com"
-    },
-    {
       "base": "ETH",
       "quote": "USDT",
       "pair_id": "ETH_USDT",

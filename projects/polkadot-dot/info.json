@@ -126,12 +126,6 @@
     },
     {
       "base": "DOT",
-      "quote": "KRW",
-      "pair_id": "DOT_KRW",
-      "exchange_id": "upbit.com"
-    },
-    {
-      "base": "DOT",
       "quote": "USDT",
       "pair_id": "DOT_USDT",
       "exchange_id": "bibox"
@@ -438,12 +432,6 @@
     },
     {
       "base": "DOT",
-      "quote": "KRW",
-      "pair_id": "DOT_KRW",
-      "exchange_id": "bithumb.com"
-    },
-    {
-      "base": "DOT",
       "quote": "USD",
       "pair_id": "DOT_USD",
       "exchange_id": "cex"
@@ -477,12 +465,6 @@
       "quote": "USD",
       "pair_id": "DOT_USD",
       "exchange_id": "bitcoin_com"
-    },
-    {
-      "base": "DOT",
-      "quote": "BTC",
-      "pair_id": "DOT_BTC",
-      "exchange_id": "upbit.com"
     },
     {
       "base": "DOT",

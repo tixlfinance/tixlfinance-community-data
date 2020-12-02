@@ -244,12 +244,6 @@
       "base": "RSR",
       "quote": "BTC",
       "pair_id": "RSR_BTC",
-      "exchange_id": "upbit.com"
-    },
-    {
-      "base": "RSR",
-      "quote": "BTC",
-      "pair_id": "RSR_BTC",
       "exchange_id": "coinex"
     },
     {

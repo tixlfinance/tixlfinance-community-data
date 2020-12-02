@@ -164,12 +164,6 @@
     },
     {
       "base": "BCH",
-      "quote": "KRW",
-      "pair_id": "BCH_KRW",
-      "exchange_id": "bithumb.com"
-    },
-    {
-      "base": "BCH",
       "quote": "USDC",
       "pair_id": "BCH_USDC",
       "exchange_id": "indoex"
@@ -359,12 +353,6 @@
       "quote": "BTC",
       "pair_id": "BCH_BTC",
       "exchange_id": "currency"
-    },
-    {
-      "base": "BCH",
-      "quote": "KRW",
-      "pair_id": "BCH_KRW",
-      "exchange_id": "upbit.com"
     },
     {
       "base": "BCH",

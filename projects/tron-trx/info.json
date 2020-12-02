@@ -106,12 +106,6 @@
     },
     {
       "base": "TRX",
-      "quote": "KRW",
-      "pair_id": "TRX_KRW",
-      "exchange_id": "upbit.com"
-    },
-    {
-      "base": "TRX",
       "quote": "BTC",
       "pair_id": "TRX_BTC",
       "exchange_id": "hitbtc"
@@ -142,8 +136,14 @@
     },
     {
       "base": "TRX",
-      "quote": "KRW",
-      "pair_id": "TRX_KRW",
+      "quote": "USDT",
+      "pair_id": "TRX_USDT",
+      "exchange_id": "bithumb.com"
+    },
+    {
+      "base": "TRX",
+      "quote": "BTC",
+      "pair_id": "TRX_BTC",
       "exchange_id": "bithumb.com"
     },
     {

@@ -144,12 +144,6 @@
     },
     {
       "base": "YFI",
-      "quote": "KRW",
-      "pair_id": "YFI_KRW",
-      "exchange_id": "bithumb.com"
-    },
-    {
-      "base": "YFI",
       "quote": "BTC",
       "pair_id": "YFI_BTC",
       "exchange_id": "nominex"

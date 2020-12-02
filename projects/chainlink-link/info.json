@@ -156,12 +156,6 @@
     },
     {
       "base": "LINK",
-      "quote": "KRW",
-      "pair_id": "LINK_KRW",
-      "exchange_id": "bithumb.com"
-    },
-    {
-      "base": "LINK",
       "quote": "USDT",
       "pair_id": "LINK_USDT",
       "exchange_id": "okex_korea"
@@ -189,12 +183,6 @@
       "quote": "USDT",
       "pair_id": "LINK_USDT",
       "exchange_id": "pro.btcturk.com"
-    },
-    {
-      "base": "LINK",
-      "quote": "KRW",
-      "pair_id": "LINK_KRW",
-      "exchange_id": "upbit.com"
     },
     {
       "base": "LINK",

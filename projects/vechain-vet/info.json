@@ -102,12 +102,6 @@
     },
     {
       "base": "VET",
-      "quote": "KRW",
-      "pair_id": "VET_KRW",
-      "exchange_id": "bithumb.com"
-    },
-    {
-      "base": "VET",
       "quote": "ETH",
       "pair_id": "VET_ETH",
       "exchange_id": "binance.com"
@@ -135,12 +129,6 @@
       "quote": "USDT",
       "pair_id": "VET_USDT",
       "exchange_id": "kucoin.com"
-    },
-    {
-      "base": "VET",
-      "quote": "KRW",
-      "pair_id": "VET_KRW",
-      "exchange_id": "upbit.com"
     },
     {
       "base": "VET",

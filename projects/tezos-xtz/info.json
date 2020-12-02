@@ -168,12 +168,6 @@
     },
     {
       "base": "XTZ",
-      "quote": "KRW",
-      "pair_id": "XTZ_KRW",
-      "exchange_id": "bithumb.com"
-    },
-    {
-      "base": "XTZ",
       "quote": "USDT",
       "pair_id": "XTZ_USDT",
       "exchange_id": "mxc"
@@ -201,12 +195,6 @@
       "quote": "BTC",
       "pair_id": "XTZ_BTC",
       "exchange_id": "crypto_com"
-    },
-    {
-      "base": "XTZ",
-      "quote": "KRW",
-      "pair_id": "XTZ_KRW",
-      "exchange_id": "upbit.com"
     },
     {
       "base": "XTZ",

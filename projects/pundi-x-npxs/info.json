@@ -22,12 +22,6 @@
   "trading_pairs": [
     {
       "base": "NPXS",
-      "quote": "KRW",
-      "pair_id": "NPXS_KRW",
-      "exchange_id": "bithumb.com"
-    },
-    {
-      "base": "NPXS",
       "quote": "USDT",
       "pair_id": "NPXS_USDT",
       "exchange_id": "digifinex"
@@ -139,12 +133,6 @@
       "quote": "BTC",
       "pair_id": "NPXS_BTC",
       "exchange_id": "hitbtc"
-    },
-    {
-      "base": "NPXS",
-      "quote": "KRW",
-      "pair_id": "NPXS_KRW",
-      "exchange_id": "upbit.com"
     },
     {
       "base": "NPXS",

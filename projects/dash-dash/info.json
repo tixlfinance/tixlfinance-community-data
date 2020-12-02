@@ -312,12 +312,6 @@
     },
     {
       "base": "DASH",
-      "quote": "KRW",
-      "pair_id": "DASH_KRW",
-      "exchange_id": "bithumb.com"
-    },
-    {
-      "base": "DASH",
       "quote": "ETH",
       "pair_id": "DASH_ETH",
       "exchange_id": "bitubu"

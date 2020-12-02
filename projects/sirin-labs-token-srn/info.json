@@ -22,12 +22,6 @@
   "trading_pairs": [
     {
       "base": "SRN",
-      "quote": "KRW",
-      "pair_id": "SRN_KRW",
-      "exchange_id": "upbit.com"
-    },
-    {
-      "base": "SRN",
       "quote": "BTC",
       "pair_id": "SRN_BTC",
       "exchange_id": "huobi.com"
@@ -67,12 +61,6 @@
       "quote": "BTC",
       "pair_id": "SRN_BTC",
       "exchange_id": "hitbtc"
-    },
-    {
-      "base": "SRN",
-      "quote": "BTC",
-      "pair_id": "SRN_BTC",
-      "exchange_id": "upbit.com"
     },
     {
       "base": "SRN",
