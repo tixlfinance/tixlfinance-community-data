@@ -581,12 +581,6 @@
       "exchange_id": "oceanex"
     },
     {
-      "base": "VET",
-      "quote": "BTC",
-      "pair_id": "VET_BTC",
-      "exchange_id": "upbit.com"
-    },
-    {
       "base": "JUR",
       "quote": "VET",
       "pair_id": "JUR_VET",
