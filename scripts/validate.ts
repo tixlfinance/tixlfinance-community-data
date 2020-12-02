@@ -37,7 +37,7 @@ fs.readdir(directoryPath, (err, dirsAndFiles) => {
             resolve(`Successfully validated: ${filePath}`);
           }
         } catch (err) {
-          console.info(`Current file path ${filePath}`)
+          console.info(`Current file path ${filePath}`);
           reject(err);
         }
       });
