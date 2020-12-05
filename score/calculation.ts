@@ -83,11 +83,13 @@ export const getLiquidityScoreFromSlippage = (
   const slippageFactorBase =
     (slippage10000Usd ?? 0.25) + 1.5 * (slippage100000Usd ?? 0.5);
 
-  let liquidityScoreBase = SCORE_MAX_VALUE - (slippageFactorBase ?? 1) * SCORE_MAX_VALUE;
+  let liquidityScoreBase =
+    SCORE_MAX_VALUE - (slippageFactorBase ?? 1) * SCORE_MAX_VALUE;
   let liquidityScoreTop = 0;
 
   if (slippage1000000Usd !== null) {
-    liquidityScoreTop = SCORE_MAX_VALUE - (slippage1000000Usd ?? 1) * SCORE_MAX_VALUE;
+    liquidityScoreTop =
+      SCORE_MAX_VALUE - (slippage1000000Usd ?? 1) * SCORE_MAX_VALUE;
   }
 
   if (liquidityScoreBase < 0) {
@@ -126,7 +128,7 @@ export function calcScore(asset: Asset, sentimentData: SentimentData): Score {
 
   // the volume score is defined by
   if (asset.market_cap_usd && asset.volume_24h_usd) {
-    let volumeScoreRatio = (asset.volume_24h_usd / asset.market_cap_usd) * 100;
+    let volumeScoreRatio = asset.volume_24h_usd / asset.market_cap_usd;
 
     if (volumeScoreRatio > 1) {
       volumeScoreRatio = 1;
