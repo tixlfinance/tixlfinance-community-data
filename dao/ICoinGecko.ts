@@ -7,7 +7,6 @@ import {
   PublicInterestStats,
   Rates,
   Ticker,
-  TrustScore,
 } from "@coingecko/cg-api-ts/dist/types/model/type";
 
 export interface LinksData {
