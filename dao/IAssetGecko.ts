@@ -1,5 +1,6 @@
 export interface IAsset {
-  _id: string;
+  id: string;
+  name: string;
   coingecko_id: string;
   market_cap_usd: number;
   price_usd: number;

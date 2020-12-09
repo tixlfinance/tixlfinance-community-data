@@ -8,13 +8,15 @@ import { ICoinCompare } from "./../dao/IAssetGecko";
 import PromisePool from "@supercharge/promise-pool";
 
 function checkRangeValue(source: number, target: number): boolean {
-  return source * 0.98 >= target && source * 1.02 <= target;
+  return target >= source * 0.98 && target <= source * 1.02;
 }
 
 async function getAllAssetFormBlockfyre(): Promise<IAsset[]> {
   const query = gql`
     {
       assets {
+        id
+        name
         coingecko_id
         market_cap_usd
         price_usd
@@ -23,7 +25,7 @@ async function getAllAssetFormBlockfyre(): Promise<IAsset[]> {
   `;
 
   const result: IAssets = await request(
-    "https://blockfyre-main-api-staging.herokuapp.com/graphql",
+    "https://tixlfinance-backend-tmfcf.ondigitalocean.app/graphql",
     query
   );
 
@@ -38,14 +40,19 @@ async function main(): Promise<ICoinCompare[]> {
     .process(async (item: IAsset) => {
       const result: ICoinsId = await coinGecko.getCoinDetail(item.coingecko_id);
       return {
-        id: item._id,
+        id: item.id,
+        name: item.name,
         coingecko_id: item.coingecko_id,
+        market_cap_usd: item.market_cap_usd,
+        market_cap_usd_coin_gecko: result.market_data.market_cap.usd,
+        price_usd: item.price_usd,
+        price_usd_coin_gecko: result.market_data.current_price.usd,
         priceIsWithIn: checkRangeValue(
-          Number(result.market_data.current_price),
+          Number(result.market_data.current_price.usd),
           item.price_usd
         ),
         marketCapIsWithIn: checkRangeValue(
-          Number(result.market_data.market_cap),
+          Number(result.market_data.market_cap.usd),
           item.market_cap_usd
         ),
       };
