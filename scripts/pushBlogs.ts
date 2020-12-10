@@ -25,11 +25,13 @@ fs.readdir(directoryPath, (err, _) => {
         const logoPath = "/exchanges/" + dirChange[1] + "/preview_image.png";
         return new Promise((resolve, _) => {
           fs.readFile(filePath, "utf8", (_, data) => {
-            const parsed = JSON.parse(data);
-            resolve({
-              ...parsed,
-              logo: parsed.logo || logoPath,
-            });
+            if(data) {
+              const parsed = JSON.parse(data);
+              resolve({
+                ...parsed,
+                logo: parsed.logo || logoPath,
+              });
+            }
           });
         });
       }
@@ -53,7 +55,7 @@ fs.readdir(directoryPath, (err, _) => {
           });
 
           const existsQuery = gql`
-            query {blogByBlogId(blog_id: "${blog.blog_id}") {id}}
+            query {blogByBlogId(blog_id: "${blog.blog_id}") {_id}}
           `;
 
           const existsResponse = await graphQLClient.request(existsQuery);
@@ -65,7 +67,7 @@ fs.readdir(directoryPath, (err, _) => {
           const mutation = gql`
             mutation CreateBlog($data: BlogInput!) {
               ${mutationToUse}(data: $data) {
-                id
+                _id
               }
             }
           `;
@@ -79,9 +81,7 @@ fs.readdir(directoryPath, (err, _) => {
             throw new Error("No response from mutation call");
           }
           console.info(
-            `${alreadyExists ? "Updated" : "Created"} blog ${
-              blog.blog_id
-            }`
+            `${alreadyExists ? "Updated" : "Created"} blog ${blog.blog_id}`
           );
         }
       })
