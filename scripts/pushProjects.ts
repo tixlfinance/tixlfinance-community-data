@@ -23,13 +23,24 @@ fs.readdir(directoryPath, (err, _) => {
       if (dir.includes("projects") && dir.includes("json")) {
         const filePath = directoryPath + "/" + dirChange[1] + "/info.json";
         const logoPath = "/projects/" + dirChange[1] + "/logo.png";
+        const descriptionPath =
+          directoryPath + "/" + dirChange[1] + "/description.md";
+
         return new Promise((resolve, _) => {
           fs.readFile(filePath, "utf8", (_, data) => {
-            const parsed = JSON.parse(data);
-            resolve({
-              ...parsed,
-              logo: parsed.logo || logoPath,
-              asset_id: dirChange[1],
+            fs.readFile(descriptionPath, "utf8", (_, descriptionData) => {
+              if (data) {
+                const parsed = JSON.parse(data);
+                resolve({
+                  ...parsed,
+                  logo: parsed.logo || logoPath,
+                  asset_id: dirChange[1],
+                  description_markdown:
+                    parsed.description_markdown || descriptionPath,
+                  description_markdown_text:
+                    parsed.description_markdown_text || descriptionData,
+                });
+              }
             });
           });
         });
