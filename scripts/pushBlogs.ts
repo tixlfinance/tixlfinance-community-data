@@ -22,14 +22,16 @@ fs.readdir(directoryPath, (err, _) => {
       const dirChange = dir.split("/", 3);
       if (dir.includes("blogs") && dir.includes("json")) {
         const filePath = directoryPath + "/" + dirChange[1] + "/info.json";
-        const logoPath = "/exchanges/" + dirChange[1] + "/preview_image.png";
+        const logoPath = "/blogs/" + dirChange[1] + "/preview_image.png";
+        const markdownPath = "/blogs/" + dirChange[1] + "/blog.md";
         return new Promise((resolve, _) => {
           fs.readFile(filePath, "utf8", (_, data) => {
-            if(data) {
+            if (data) {
               const parsed = JSON.parse(data);
               resolve({
                 ...parsed,
                 logo: parsed.logo || logoPath,
+                markdown_content: parsed.markdown || markdownPath,
               });
             }
           });
@@ -67,7 +69,7 @@ fs.readdir(directoryPath, (err, _) => {
           const mutation = gql`
             mutation CreateBlog($data: BlogInput!) {
               ${mutationToUse}(data: $data) {
-                _id
+                blog_id
               }
             }
           `;

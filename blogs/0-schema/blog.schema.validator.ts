@@ -25,9 +25,6 @@ export const BLogSchemaSchema = {
     blog_id: {
       type: "string",
     },
-    markdown_content: {
-      type: "string",
-    },
     preview_headline: {
       type: "string",
     },
@@ -37,7 +34,6 @@ export const BLogSchemaSchema = {
   },
   required: [
     "blog_id",
-    "markdown_content",
     "preview_headline",
     "preview_subtitle",
   ],

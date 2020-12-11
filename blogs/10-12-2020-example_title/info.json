@@ -1,6 +1,5 @@
 {
-  "blog_id": "test_gh_blog_id",
-  "markdown_content": "Hallo hier ist mal ein wenig Text",
-  "preview_headline": "Erster Blog Eintrag",
+  "blog_id": "test_gh_blog_id_with_markdown_2",
+  "preview_headline": "Erster Blog Eintrag mit Markdown file",
   "preview_subtitle": "Erster Blog Eintrag description"
 }
