@@ -14,6 +14,7 @@
     "prettier": "prettier --write scripts/**/*.ts",
     "push:projects": "ts-node scripts/pushProjects.ts",
     "push:exchanges": "ts-node scripts/pushExchanges.ts",
+    "push:blogs": "ts-node scripts/pushBlogs.ts",
     "scores:calculate": "ts-node score/scripts/calcScoresAndGenerateCsv.ts",
     "prepare": "npm run build"
   },
