@@ -23,17 +23,21 @@ fs.readdir(directoryPath, (err, _) => {
       if (dir.includes("blogs") && dir.includes("json")) {
         const filePath = directoryPath + "/" + dirChange[1] + "/info.json";
         const logoPath = "/blogs/" + dirChange[1] + "/preview_image.png";
-        const markdownPath = "/blogs/" + dirChange[1] + "/blog.md";
+        const markdownPath = directoryPath + "/" + dirChange[1] + "/blog.md";
         return new Promise((resolve, _) => {
           fs.readFile(filePath, "utf8", (_, data) => {
-            if (data) {
-              const parsed = JSON.parse(data);
-              resolve({
-                ...parsed,
-                logo: parsed.logo || logoPath,
-                markdown_content: parsed.markdown || markdownPath,
-              });
-            }
+            fs.readFile(markdownPath, "utf8", (_, blogData) => {
+              console.log(blogData)
+              if (data) {
+                const parsed = JSON.parse(data);
+                resolve({
+                  ...parsed,
+                  logo: parsed.logo || logoPath,
+                  markdown_file: parsed.markdown_file || markdownPath,
+                  markdown_content: parsed.markdown_content || blogData,
+                });
+              }
+            });
           });
         });
       }
