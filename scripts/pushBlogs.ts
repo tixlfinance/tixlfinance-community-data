@@ -20,7 +20,7 @@ fs.readdir(directoryPath, (err, _) => {
   const updatedBlogs = changedFiles
     .map((dir) => {
       const dirChange = dir.split("/", 3);
-      if (dir.includes("blogs") && dir.includes("json")) {
+      if (dir.includes("blogs")) {
         const filePath = directoryPath + "/" + dirChange[1] + "/info.json";
         const logoPath = "/blogs/" + dirChange[1] + "/preview_image.png";
         const markdownPath = directoryPath + "/" + dirChange[1] + "/blog.md";

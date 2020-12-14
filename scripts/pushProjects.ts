@@ -20,7 +20,7 @@ fs.readdir(directoryPath, (err, _) => {
   const updatedProjects = changedFiles
     .map((dir) => {
       const dirChange = dir.split("/", 3);
-      if (dir.includes("projects") && dir.includes("json")) {
+      if (dir.includes("projects")) {
         const filePath = directoryPath + "/" + dirChange[1] + "/info.json";
         const logoPath = "/projects/" + dirChange[1] + "/logo.png";
         const descriptionPath =
