@@ -27,7 +27,6 @@ fs.readdir(directoryPath, (err, _) => {
         return new Promise((resolve, _) => {
           fs.readFile(filePath, "utf8", (_, data) => {
             fs.readFile(markdownPath, "utf8", (_, blogData) => {
-              console.log(blogData)
               if (data) {
                 const parsed = JSON.parse(data);
                 resolve({
