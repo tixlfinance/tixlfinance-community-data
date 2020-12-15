@@ -65,7 +65,7 @@ fs.readdir(directoryPath, (err, _) => {
             : "createCategoryFromGithub";
 
           const mutation = gql`
-                    mutation CreateCategory($data: CategoryInput!) {
+                    mutation CreateCategory($data: CategoriesInput!) {
                         ${mutationToUse}(data: $data) {
                         category_id
                     }
