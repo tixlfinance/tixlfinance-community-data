@@ -81,7 +81,9 @@ fs.readdir(directoryPath, (err, _) => {
             throw new Error("No response from mutation call");
           }
           console.info(
-            `${alreadyExists ? "Updated" : "Created"} category ${category.category_id}`
+            `${alreadyExists ? "Updated" : "Created"} category ${
+              category.category_id
+            }`
           );
         }
       })
