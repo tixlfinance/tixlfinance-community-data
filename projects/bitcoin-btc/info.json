@@ -7,6 +7,7 @@
   "website": "https://bitcoin.org",
   "source_code": "https://github.com/bitcoin",
   "white_paper": "https://bitcoin.org/bitcoin.pdf",
+  "category_tags": ["Cryptocurrency"],
   "socials": [
     {
       "name": "Twitter",
