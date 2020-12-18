@@ -4,6 +4,7 @@
   "website": "https://tether.to/",
   "coingecko_id": "tether",
   "coin_api_id": "TETHER",
+  "category_tags": ["cryptocurrencies", "yield_farming"],
   "socials": [
     {
       "name": "Twitter",
