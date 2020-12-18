@@ -55,6 +55,7 @@
         "type": "pieChart",
         "charts": [
           {
+            "dropdownLabel": "",
             "popoverUnit": "TXL",
             "valueUnit": "%",
             "labelsAndValues": [
