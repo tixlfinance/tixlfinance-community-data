@@ -48,7 +48,7 @@
         "content": "Tixl Tokenomics"
       },
       {
-        "type": "description",
+        "type": "text",
         "content": "This page gives an overview of the Tokenomics of the Tixl project and its token TXL. In case you want to find out the current or historic price of TXL, please use CoinMarketCap or CoinGecko for that."
       },
       {
@@ -117,7 +117,7 @@
                 "label": "Community/Investor Wallets",
                 "value": 6.8,
                 "popoverValue": 61415823
-              },
+              }
             ]
           }
         ]
