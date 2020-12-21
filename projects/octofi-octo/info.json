@@ -7,8 +7,12 @@
   "socials": [
     {
       "name": "Twitter",
-      "url": "https://www.twitter.com/octofinance",
+      "url": "https://twitter.com/octofinance",
       "search_strings": ["$OCTO"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/OctoFiCommunity"
     }
   ],
   "trading_pairs": [

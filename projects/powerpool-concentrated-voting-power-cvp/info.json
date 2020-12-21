@@ -7,8 +7,16 @@
   "socials": [
     {
       "name": "Twitter",
-      "url": "https://www.twitter.com/powerpoolcvp",
+      "url": "https://twitter.com/powerpoolcvp",
       "search_strings": ["$CVP"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/powerpoolcvp"
+    },
+    {
+      "name": "Medium",
+      "url": "https://link.medium.com/bWcPgVnpN8"
     }
   ],
   "trading_pairs": [

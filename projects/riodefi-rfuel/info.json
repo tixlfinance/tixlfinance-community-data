@@ -13,6 +13,22 @@
     {
       "name": "Facebook",
       "url": "https://www.facebook.com/riodefiofficial"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/riodefi"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/Riodefiofficial"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/channel/UCJjaFCkXVeqdrNG9QGxSegQ"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@riodefiofficial"
     }
   ],
   "trading_pairs": [

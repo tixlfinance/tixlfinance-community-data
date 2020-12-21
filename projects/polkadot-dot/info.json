@@ -12,7 +12,23 @@
     },
     {
       "name": "Reddit",
-      "url": "https://www.reddit.com"
+      "url": "https://www.reddit.com/r/Polkadot"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/polkadotnetwork"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/PolkadotOfficial"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/channel/UCB7PbjuZLEba_znc7mEGNgw"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@polkadotnetwork"
     }
   ],
   "trading_pairs": [

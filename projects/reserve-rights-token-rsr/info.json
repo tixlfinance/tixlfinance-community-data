@@ -9,6 +9,26 @@
       "name": "Twitter",
       "url": "https://www.twitter.com/reserveprotocol",
       "search_strings": ["$RSR"]
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/ReserveProtocol"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/reserveprotocol"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/reservecurrency"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/channel/UCnRo3DExogUR28iJV39lhFA"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/reserve-currency"
     }
   ],
   "trading_pairs": [

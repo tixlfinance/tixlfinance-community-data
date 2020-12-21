@@ -7,8 +7,24 @@
   "socials": [
     {
       "name": "Twitter",
-      "url": "https://www.twitter.com/WeAreTellor",
+      "url": "https://twitter.com/WeAreTellor",
       "search_strings": ["$TRB"]
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/Tellor_/"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/tellor"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/channel/UCJteW6bsm1wn34i2hSAZBiw"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/tellor"
     }
   ],
   "trading_pairs": [

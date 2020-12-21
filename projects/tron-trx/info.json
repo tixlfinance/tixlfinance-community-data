@@ -17,6 +17,18 @@
     {
       "name": "Reddit",
       "url": "https://www.reddit.com/r/Tronix"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/tronnetworkEN"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/channel/UC5OPOGRq02iK-0T9sKse_kA"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/tron-foundation"
     }
   ],
   "trading_pairs": [

@@ -7,7 +7,7 @@
   "socials": [
     {
       "name": "Twitter",
-      "url": "https://www.twitter.com/MRPHSupplyChain",
+      "url": "https://twitter.com/MRPHSupplyChain",
       "search_strings": ["$MRPH"]
     },
     {
@@ -17,6 +17,18 @@
     {
       "name": "Reddit",
       "url": "https://www.reddit.com/r/MorpheusNetwork"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/themorpheusnetwork"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/channel/UCM2dmyvv3AGMTCW1LERbT1A"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/morpheus-network"
     }
   ],
   "trading_pairs": [
