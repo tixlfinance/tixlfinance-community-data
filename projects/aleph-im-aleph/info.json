@@ -11,8 +11,16 @@
       "search_strings": ["$ALEPH"]
     },
     {
+      "name": "Telegram",
+      "url": "https://t.me/alephim"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/aleph-im"
+    },
+    {
       "name": "Reddit",
-      "url": "https://www.reddit.com/r/Aleph_im/"
+      "url": "https://www.reddit.com/r/Aleph_im"
     }
   ],
   "trading_pairs": [

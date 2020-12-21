@@ -7,12 +7,24 @@
   "socials": [
     {
       "name": "Twitter",
-      "url": "https://www.twitter.com/chromia",
+      "url": "https://twitter.com/Chromia",
       "search_strings": ["CHR"]
     },
     {
       "name": "Facebook",
-      "url": "https://www.facebook.com/chromaway"
+      "url": "https://www.facebook.com/teamchromia"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://t.me/hellochromia"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/chainlinkofficial"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/channel/UCM_FvcRzwoZUmc60fYFjdSQ?view_as=subscriber"
     }
   ],
   "trading_pairs": [

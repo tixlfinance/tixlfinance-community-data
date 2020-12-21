@@ -17,6 +17,14 @@
     {
       "name": "Reddit",
       "url": "https://www.reddit.com/r/constellation/"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/constellationcommunity"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/constellationlabs/tagged/constellation"
     }
   ],
   "trading_pairs": [

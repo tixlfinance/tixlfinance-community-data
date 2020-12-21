@@ -19,6 +19,14 @@
       "name": "Reddit",
       "url": "https://reddit.com/r/Bitcoin",
       "handle": "Bitcoin"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/www_Bitcoin_com"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/c/BitcoinCashorg/videos"
     }
   ],
   "tokenomics": {

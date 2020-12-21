@@ -7,12 +7,20 @@
   "socials": [
     {
       "name": "Twitter",
-      "url": "https://www.twitter.com/InjectiveLabs",
+      "url": "https://twitter.com/injectivelabs",
       "search_strings": ["$INJ"]
     },
     {
       "name": "Reddit",
       "url": "https://www.reddit.com/r/injective/"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/joininjective"
+    },
+    {
+      "name": "Medium",
+      "url": "https://injectiveprotocol.medium.com"
     }
   ],
   "trading_pairs": [

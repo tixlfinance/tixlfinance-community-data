@@ -13,6 +13,14 @@
     {
       "name": "Reddit",
       "url": "https://www.reddit.comr/DIAdata"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/DIAdata_org"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/dia-insights"
     }
   ],
   "trading_pairs": [
