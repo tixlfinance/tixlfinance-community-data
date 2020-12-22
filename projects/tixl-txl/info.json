@@ -34,6 +34,11 @@
       "name": "Youtube",
       "url": "https://www.youtube.com/playlist?list=PLjOyvZEIlYaJPTOnhbruA2emVaHom0XsV",
       "handle": "Tixl"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/Tixl.Finance",
+      "handle": "Tixl"
     }
   ],
   "tokenomics": {
