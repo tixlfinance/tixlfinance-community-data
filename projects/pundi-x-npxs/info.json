@@ -17,6 +17,10 @@
     {
       "name": "Reddit",
       "url": "https://www.reddit.com/r/PundiX/"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/pundix"
     }
   ],
   "trading_pairs": [

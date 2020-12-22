@@ -17,6 +17,10 @@
     {
       "name": "Reddit",
       "url": "https://www.reddit.com/r/Tronix"
+    },
+    {
+      "name": "Medium",
+      "url": "https://tronfoundation.medium.com"
     }
   ],
   "trading_pairs": [
