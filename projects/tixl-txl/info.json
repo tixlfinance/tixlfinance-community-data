@@ -11,23 +11,23 @@
   "socials": [
     {
       "name": "Twitter",
-      "url": "https://twitter.com/tixlcurrency",
+      "url": "https://twitter.com/TixlOrg",
       "handle": "tixlcurrency",
       "search_strings": ["#tixl", "$TXL"]
     },
     {
       "name": "Telegram",
-      "url": "https://t.me/tixlcurrency",
+      "url": "https://t.me/tixlorg",
       "handle": "tixlcurrency"
     },
     {
       "name": "Medium",
-      "url": "https://medium.com/tixlcurrency",
+      "url": "https://medium.com/tixlorg",
       "handle": "tixlcurrency"
     },
     {
       "name": "Reddit",
-      "url": "https://www.reddit.com/r/tixlcurrency",
+      "url": "https://www.reddit.com/r/tixl",
       "handle": "tixlcurrency"
     },
     {
