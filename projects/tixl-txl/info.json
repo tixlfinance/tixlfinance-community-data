@@ -41,6 +41,90 @@
     "total_supply": 899994670,
     "circulating_supply": 58594704
   },
+  "token": {
+    "sections": [
+      {
+        "type": "headline",
+        "content": "Tixl Tokenomics "
+      },
+      {
+        "type": "text",
+        "content": "This page gives an overview of the Tokenomics of the Tixl project and its token TXL. In case you want to find out the current or historic price of TXL, please use CoinMarketCap or CoinGecko for that."
+      },
+      {
+        "type": "pieChart",
+        "charts": [
+          {
+            "dropdownLabel": "",
+            "popoverUnit": "TXL",
+            "valueUnit": "%",
+            "labelsAndValues": [
+              {
+                "label": "Development",
+                "value": 28.5,
+                "popoverValue": 256406917
+              },
+              {
+                "label": "Marketing",
+                "value": 20.3,
+                "popoverValue": 183147798
+              },
+              {
+                "label": "Autobahn Network Nodes",
+                "value": 8.1,
+                "popoverValue": 73259119
+              },
+              {
+                "label": "Legal",
+                "value": 6.1,
+                "popoverValue": 54944339
+              },
+              {
+                "label": "Security Audits",
+                "value": 6.1,
+                "popoverValue": 54944339
+              },
+              {
+                "label": "Advisory Board",
+                "value": 4.9,
+                "popoverValue": 43955471
+              },
+              {
+                "label": "Partnerships",
+                "value": 4.1,
+                "popoverValue": 36629560
+              },
+              {
+                "label": "Admin & others",
+                "value": 3.3,
+                "popoverValue": 29303648
+              },
+              {
+                "label": "Sold/assigned distributed tokens",
+                "value": 1.4,
+                "popoverValue": 12218635
+              },
+              {
+                "label": "Future Hodlers Rewards",
+                "value": 5.4,
+                "popoverValue": 48769021
+              },
+              {
+                "label": "Founder Wallets",
+                "value": 5.0,
+                "popoverValue": 45000000
+              },
+              {
+                "label": "Community/Investor Wallets",
+                "value": 6.8,
+                "popoverValue": 61415823
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "trading_pairs": [
     {
       "base": "0x8eef5a82e6aa222a60f009ac18c24ee12dbf4b41",
