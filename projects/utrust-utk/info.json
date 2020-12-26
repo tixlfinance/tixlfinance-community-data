@@ -17,6 +17,18 @@
     {
       "name": "Reddit",
       "url": "https://www.reddit.com/r/UTRUST_Official"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/utrustofficial"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/channel/UCJGArTMLKNJwO9r2E6TN9pQ"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/utrust"
     }
   ],
   "trading_pairs": [

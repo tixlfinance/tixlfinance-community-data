@@ -19,6 +19,18 @@
       "name": "Reddit",
       "url": "https://www.reddit.com/r/ethereum",
       "handle": "ethereum"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/ethereumproject"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://telegram.me/ether"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/channel/UCNOfzGXD_C9YMYmnefmPH0g"
     }
   ],
   "tokenomics": {

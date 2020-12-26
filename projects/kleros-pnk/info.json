@@ -16,7 +16,19 @@
     },
     {
       "name": "Reddit",
-      "url": "https://www.reddit.com/r/Kleros/"
+      "url": "https://reddit.com/r/Kleros/"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/kleros"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/channel/UCEjwygFVVrSXhPNEKfweypA"
+    },
+    {
+      "name": "Medium",
+      "url": "https://blog.kleros.io/"
     }
   ],
   "trading_pairs": [

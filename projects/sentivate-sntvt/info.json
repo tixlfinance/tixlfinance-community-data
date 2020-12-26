@@ -16,7 +16,19 @@
     },
     {
       "name": "Reddit",
-      "url": "https://www.reddit.com/r/sentivate/"
+      "url": "https://www.reddit.com/r/sentivate"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/sentivate"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/channel/UCFoai5_Qc_Ai64jn5fN0Gsg"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@Sentivate"
     }
   ],
   "trading_pairs": [

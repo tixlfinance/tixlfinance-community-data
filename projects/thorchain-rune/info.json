@@ -17,6 +17,18 @@
     {
       "name": "Reddit",
       "url": "https://www.reddit.com/r/thorchain"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/thorchain_org"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/channel/UC6ZiZuysJZRFQKv8Zn8OG0g"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/thorchain"
     }
   ],
   "trading_pairs": [

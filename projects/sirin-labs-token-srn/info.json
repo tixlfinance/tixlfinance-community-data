@@ -17,6 +17,18 @@
     {
       "name": "Reddit",
       "url": "https://www.reddit.com/r/SirinLabs"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/sirinlabs"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/channel/UCC7rV8n9pEI761byufyT8VA"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@sirinlabs"
     }
   ],
   "trading_pairs": [

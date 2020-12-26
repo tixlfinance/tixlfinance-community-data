@@ -10,6 +10,18 @@
       "url": "https://twitter.com/UniswapProtocol",
       "handle": "@UniswapProtocol",
       "search_strings": ["$UNI"]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/Uniswap.Exchange"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/Uniswap"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/uniswapgroup"
     }
   ],
   "tokenomics": {

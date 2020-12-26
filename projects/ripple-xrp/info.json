@@ -11,6 +11,18 @@
       "url": "https://twitter.com/ripple",
       "handle": "ripple",
       "search_strings": ["#xrp", "#xrparmy", "$XRP"]
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/Ripple"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/Ripple"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/channel/UCjok1uTSBUgvRYQaASz6YWw"
     }
   ],
   "tokenomics": {

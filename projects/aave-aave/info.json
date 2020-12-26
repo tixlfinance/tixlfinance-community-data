@@ -9,6 +9,22 @@
       "name": "Twitter",
       "url": "https://twitter.com/AaveAave",
       "search_strings": ["$AAVE"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/Aavesome"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/aave"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/Aave_Official"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/c/AaveWow/videos"
     }
   ],
   "tokenomics": {

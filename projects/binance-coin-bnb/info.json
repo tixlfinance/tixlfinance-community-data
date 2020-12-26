@@ -17,6 +17,18 @@
     {
       "name": "Reddit",
       "url": "https://www.reddit.com/r/binance"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/BinanceExchange"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/binanceexchange"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/c/BinanceYoutube/videos"
     }
   ],
   "trading_pairs": [

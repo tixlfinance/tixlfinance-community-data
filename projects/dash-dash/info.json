@@ -13,6 +13,22 @@
     {
       "name": "Reddit",
       "url": "https://www.reddit.com/r/dashpay"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/dash_chat"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/c/DashOrg"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/DashPay"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@dashcoinxc"
     }
   ],
   "trading_pairs": [
