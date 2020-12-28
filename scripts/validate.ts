@@ -2,16 +2,18 @@ import fs from "fs";
 import path from "path";
 import validateProject from "../projects/0-schema/project.schema.validator";
 import validateExchange from "../exchanges/0-schema/exchange.schema.validator";
+import validateInfluencer from "../influencers/0-schema/influencer.schema.validator";
 
 // should be "projects" or "exchanges"
 const type = process.argv[2];
-if (!["projects", "exchanges"].includes(type)) {
+if (!["projects", "exchanges", "influencers"].includes(type)) {
   throw new Error("Unsupported type");
 }
 
 const validateFunctions = {
   exchanges: validateExchange,
   projects: validateProject,
+  influencers: validateInfluencer,
 };
 
 const directoryPath = path.join(__dirname, `./../${type}`);
@@ -34,7 +36,21 @@ fs.readdir(directoryPath, (err, dirsAndFiles) => {
         if (err) throw err;
         try {
           if (validateFunctions[type](JSON.parse(data))) {
-            resolve(`Successfully validated: ${filePath}`);
+            if (type === "influencers") {
+              const obj: any = JSON.parse(data);
+              if (
+                !obj.twitter_username &&
+                !obj.facebook_username &&
+                !obj.youtube_username &&
+                !obj.instagram_username
+              ) {
+                reject("At least one social username should be available Twitter, YouTube, Facebook or Instagram.");
+              } else {
+                resolve(`Successfully validated: ${filePath}`);
+              }
+            } else {
+              resolve(`Successfully validated: ${filePath}`);
+            }
           }
         } catch (err) {
           console.info(`Current file path ${filePath}`);
