@@ -44,7 +44,9 @@ fs.readdir(directoryPath, (err, dirsAndFiles) => {
                 !obj.youtube_username &&
                 !obj.instagram_username
               ) {
-                reject("At least one social username should be available Twitter, YouTube, Facebook or Instagram.");
+                reject(
+                  "At least one social username should be available Twitter, YouTube, Facebook or Instagram."
+                );
               } else {
                 resolve(`Successfully validated: ${filePath}`);
               }
