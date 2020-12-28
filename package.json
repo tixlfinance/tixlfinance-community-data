@@ -17,7 +17,7 @@
     "push:exchanges": "ts-node scripts/pushExchanges.ts",
     "push:categories": "ts-node scripts/pushCategories.ts",
     "push:blogs": "ts-node scripts/pushBlogs.ts",
-    "push:influencer": "ts-node scripts/pushInfluencers.ts",
+    "push:influencers": "ts-node scripts/pushInfluencers.ts",
     "scores:calculate": "ts-node score/scripts/calcScoresAndGenerateCsv.ts",
     "prepare": "npm run build"
   },
