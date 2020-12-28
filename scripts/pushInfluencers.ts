@@ -26,6 +26,9 @@ fs.readdir(directoryPath, (err, _) => {
           fs.readFile(filePath, "utf8", (_, data) => {
             if (data) {
               const parsed = JSON.parse(data);
+              parsed.influencer_id = dirChange[1]
+                ?.toLowerCase()
+                ?.replace(" ", "_");
               resolve({ ...parsed });
             }
           });
