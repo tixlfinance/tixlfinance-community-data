@@ -8,7 +8,8 @@
     "test": "echo \"We don't have tests yet.\" && exit 0",
     "generate:schema:project": "npx typescript-json-validator projects/0-schema/project.schema.ts ProjectSchema",
     "generate:schema:exchange": "npx typescript-json-validator exchanges/0-schema/exchange.schema.ts ExchangeSchema",
-    "validate": "ts-node scripts/validate.ts projects && ts-node scripts/validate.ts exchanges",
+    "generate:schema:influencer": "npx typescript-json-validator influencers/0-schema/influencer.schema.ts InfluencerSchema",
+    "validate": "ts-node scripts/validate.ts projects && ts-node scripts/validate.ts exchanges && ts-node scripts/validate.ts influencers",
     "lint": "tslint scripts/**/*.ts{,x}",
     "lint:fix": "tslint scripts/**/*.ts{,x} --fix",
     "prettier": "prettier --write scripts/**/*.ts",
@@ -16,6 +17,7 @@
     "push:exchanges": "ts-node scripts/pushExchanges.ts",
     "push:categories": "ts-node scripts/pushCategories.ts",
     "push:blogs": "ts-node scripts/pushBlogs.ts",
+    "push:influencers": "ts-node scripts/pushInfluencers.ts",
     "scores:calculate": "ts-node score/scripts/calcScoresAndGenerateCsv.ts",
     "prepare": "npm run build"
   },
