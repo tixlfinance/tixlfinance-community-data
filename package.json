@@ -15,6 +15,7 @@
     "push:projects": "ts-node scripts/pushProjects.ts",
     "push:exchanges": "ts-node scripts/pushExchanges.ts",
     "push:categories": "ts-node scripts/pushCategories.ts",
+    "push:newsprovider": "ts-node scripts/pushNewsprovider.ts",
     "push:blogs": "ts-node scripts/pushBlogs.ts",
     "scores:calculate": "ts-node score/scripts/calcScoresAndGenerateCsv.ts",
     "prepare": "npm run build"
