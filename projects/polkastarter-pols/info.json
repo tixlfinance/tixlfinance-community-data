@@ -11,6 +11,22 @@
       "url": "https://twitter.com/polkastarter",
       "handle": "polkastarter",
       "search_strings": ["$POLS"]
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/Polkastarter"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/polkastarter"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/polkastarter"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@polkastarter"
     }
   ],
   "tokenomics": {

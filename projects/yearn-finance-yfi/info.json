@@ -7,12 +7,24 @@
   "socials": [
     {
       "name": "Twitter",
-      "url": "https://www.twitter.com/iearnfinance",
+      "url": "https://twitter.com/iearnfinance",
       "search_strings": ["$YFI"]
     },
     {
       "name": "Reddit",
       "url": "https://www.reddit.com/r/yearn_finance/"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/Yearnfinance-243002030194265"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/yearnfinance"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/iearn"
     }
   ],
   "trading_pairs": [

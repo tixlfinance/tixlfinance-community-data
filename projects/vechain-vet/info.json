@@ -13,6 +13,22 @@
     {
       "name": "Reddit",
       "url": "https://www.reddit.com/r/Vechain"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/groups/VechainThor"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/vechain_official_english"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/channel/UCqKEWPu5hkEl4o3sxlj3N5A"
+    },
+    {
+      "name": "Medium",
+      "url": "https://vechainofficial.medium.com"
     }
   ],
   "trading_pairs": [

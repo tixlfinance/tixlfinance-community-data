@@ -9,6 +9,22 @@
       "name": "Twitter",
       "url": "https://twitter.com/BitcoinCom",
       "search_strings": ["$BCH"]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/bitcoincashorg"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/bitcoin_cash"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/bitcoincashfork"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/c/BinanceYoutube/videos"
     }
   ],
   "trading_pairs": [

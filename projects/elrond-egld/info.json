@@ -13,6 +13,18 @@
     {
       "name": "Reddit",
       "url": "https://www.reddit.com/r/elrondnetwork/"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/ElrondNetwork"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/channel/UCRLKQHcjuWW_-JOZ-DqQTXw"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/elrondnetwork"
     }
   ],
   "trading_pairs": [

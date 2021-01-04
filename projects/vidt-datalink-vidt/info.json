@@ -17,6 +17,18 @@
     {
       "name": "Reddit",
       "url": "https://www.reddit.com/r/vidt/"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/VIDTokenCommunity"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/channel/UCh6xfbjMUeYFUO-2O_wRSBA/videos"
+    },
+    {
+      "name": "Medium",
+      "url": "https://vidtdatalink.medium.com"
     }
   ],
   "trading_pairs": [

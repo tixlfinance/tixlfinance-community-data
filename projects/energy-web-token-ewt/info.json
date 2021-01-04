@@ -12,11 +12,23 @@
     },
     {
       "name": "Facebook",
-      "url": "https://www.facebook.com/EnergyWebFoundation"
+      "url": "https://www.facebook.com/energywebx/"
     },
     {
       "name": "Reddit",
       "url": "https://www.reddit.com/r/EnergyWeb/"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/energyweb"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/channel/UC3y_C3oZnzVO3KF_yn6m45w"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/energy-web-insights"
     }
   ],
   "trading_pairs": [

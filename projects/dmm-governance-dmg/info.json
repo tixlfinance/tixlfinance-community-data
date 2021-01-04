@@ -9,6 +9,14 @@
       "name": "Twitter",
       "url": "https://www.twitter.com/DMMDAO",
       "search_strings": ["$DMG"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/DmmOfficial"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/dmm-dao"
     }
   ],
   "trading_pairs": [

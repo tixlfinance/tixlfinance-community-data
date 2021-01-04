@@ -11,6 +11,22 @@
       "url": "https://twitter.com/cardano",
       "handle": "cardano",
       "search_strings": ["#cardano", "$ADA"]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/groups/CardanoCommunity"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/cardano"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/CardanoAnnouncements"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/channel/UCbQ9vGfezru1YRI1zDCtTGg"
     }
   ],
   "tokenomics": {

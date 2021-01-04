@@ -7,12 +7,28 @@
   "socials": [
     {
       "name": "Twitter",
-      "url": "https://www.twitter.com/ltonetwork",
+      "url": "https://twitter.com/ltonetwork",
       "search_strings": ["$LTO"]
     },
     {
       "name": "Reddit",
-      "url": "https://www.reddit.com/r/LTONetwork/"
+      "url": "https://www.reddit.com/r/LTONetwork"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/LCX.exchange"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/ltonetwork"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/channel/UCaHcF-xterKYTKSpY4xgKiw"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@LTOnetwork"
     }
   ],
   "trading_pairs": [

@@ -13,6 +13,14 @@
     {
       "name": "Reddit",
       "url": "https://www.reddit.com/r/bandprotocol"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/bandprotocol"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/bandprotocol"
     }
   ],
   "trading_pairs": [

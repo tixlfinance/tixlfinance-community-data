@@ -9,6 +9,14 @@
       "name": "Twitter",
       "url": "https://twitter.com/BitcoinSVNode",
       "search_strings": ["$BSV"]
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/bitcoinsv"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/BSVchat"
     }
   ],
   "trading_pairs": [

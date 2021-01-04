@@ -7,12 +7,28 @@
   "socials": [
     {
       "name": "Twitter",
-      "url": "https://www.twitter.com/lcx",
+      "url": "https://twitter.com/lcx",
       "search_strings": ["$LCX"]
     },
     {
       "name": "Facebook",
-      "url": "https://www.facebook.com/lcx.exchange"
+      "url": "https://www.facebook.com/LCX.exchange"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/LCXcommunity"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/JoinLCX"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/channel/UCNj78acRE-ywQPim-wZ8RTQ"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@LCX.exchange"
     }
   ],
   "trading_pairs": [

@@ -13,6 +13,22 @@
     {
       "name": "Reddit",
       "url": "https://www.reddit.com/r/oceanprotocol/"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/oceanprotocol/"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/OceanProtocol_Community"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/channel/UCH8TXwmWWAE9TZO0yTBHB3A"
+    },
+    {
+      "name": "Medium",
+      "url": "https://blog.oceanprotocol.com"
     }
   ],
   "trading_pairs": [

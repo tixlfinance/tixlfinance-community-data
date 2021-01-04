@@ -12,7 +12,19 @@
     },
     {
       "name": "Reddit",
-      "url": "https://www.reddit.com/r/Chainlink/"
+      "url": "https://www.reddit.com/r/Chainlink"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/chainlinkofficial"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/chainlinkofficial"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/chainlink"
     }
   ],
   "trading_pairs": [
