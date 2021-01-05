@@ -136,6 +136,12 @@
       "quote": "ETH",
       "pair_id": "0x0fdc86703c938e3e1cbc9e14f21c6bf709c13acc",
       "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "TXL",
+      "quote": "ETH",
+      "pair_id": "",
+      "exchange_id": "bilaxy.com"
     }
   ],
   "__triggerUpdate": 6
