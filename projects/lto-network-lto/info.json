@@ -53,7 +53,7 @@
     {
       "base": "0X3DB6BA6AB6F95EFED1A6E794CAD492FAAABF294D",
       "quote": "ETH",
-      "pair_id": "0X3DB6BA6AB6F95EFED1A6E794CAD492FAAABF294D_ETH",
+      "pair_id": "0X3DB6BA6AB6F95EFED1A6E794CAD492FAAABF294D",
       "exchange_id": "uniswap.exchange"
     },
     {

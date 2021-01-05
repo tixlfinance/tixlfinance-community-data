@@ -109,7 +109,7 @@
     {
       "base": "0X0BA45A8B5D5575935B8158A88C631E9F9C95A2E5",
       "quote": "ETH",
-      "pair_id": "0X0BA45A8B5D5575935B8158A88C631E9F9C95A2E5_ETH",
+      "pair_id": "0X0BA45A8B5D5575935B8158A88C631E9F9C95A2E5",
       "exchange_id": "uniswap.exchange"
     },
     {

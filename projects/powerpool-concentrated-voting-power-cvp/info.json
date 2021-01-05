@@ -23,7 +23,7 @@
     {
       "base": "0X38E4ADB44EF08F22F5B5B76A8F0C2D0DCBE7DCA1",
       "quote": "ETH",
-      "pair_id": "0X38E4ADB44EF08F22F5B5B76A8F0C2D0DCBE7DCA1_ETH",
+      "pair_id": "0X38E4ADB44EF08F22F5B5B76A8F0C2D0DCBE7DCA1",
       "exchange_id": "uniswap.exchange"
     },
     {

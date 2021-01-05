@@ -35,7 +35,7 @@
     {
       "base": "0XAF9F549774ECEDBD0966C52F250ACC548D3F36E5",
       "quote": "ETH",
-      "pair_id": "0XAF9F549774ECEDBD0966C52F250ACC548D3F36E5_ETH",
+      "pair_id": "0XAF9F549774ECEDBD0966C52F250ACC548D3F36E5",
       "exchange_id": "uniswap.exchange"
     },
     {

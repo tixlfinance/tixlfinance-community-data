@@ -210,7 +210,7 @@
     {
       "base": "0XDAC17F958D2EE523A2206206994597C13D831EC7",
       "quote": "ETH",
-      "pair_id": "0XDAC17F958D2EE523A2206206994597C13D831EC7_ETH",
+      "pair_id": "0XDAC17F958D2EE523A2206206994597C13D831EC7",
       "exchange_id": "uniswap.exchange"
     },
     {

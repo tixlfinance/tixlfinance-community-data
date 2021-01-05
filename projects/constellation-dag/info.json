@@ -61,7 +61,7 @@
     {
       "base": "0XA8258ABC8F2811DD48ECCD209DB68F25E3E34667",
       "quote": "ETH",
-      "pair_id": "0XA8258ABC8F2811DD48ECCD209DB68F25E3E34667_ETH",
+      "pair_id": "0XA8258ABC8F2811DD48ECCD209DB68F25E3E34667",
       "exchange_id": "uniswap.exchange"
     }
   ],
