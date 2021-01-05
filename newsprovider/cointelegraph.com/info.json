@@ -3,11 +3,11 @@
   "url": "https://cointelegraph.com",
   "rssFeeds": [
     {
-      "url": "https://de.cointelegraph.com/rss/tag/altcoin",
+      "url": "https://cointelegraph.com/rss/tag/altcoin",
       "name": "Altcoinfeed"
     },
     {
-      "url": "https://de.cointelegraph.com/rss/tag/bitcoin",
+      "url": "https://cointelegraph.com/rss/tag/bitcoin",
       "name": "Bitcoinfeed"
     }
   ]
