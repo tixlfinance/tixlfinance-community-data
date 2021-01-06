@@ -4,6 +4,7 @@
   "website": "http://www.tellor.io/",
   "coingecko_id": "tellor",
   "coin_api_id": "TELLOR",
+  "category_tags": ["defi", "business_services", "oracle"],
   "socials": [
     {
       "name": "Twitter",

@@ -4,6 +4,7 @@
   "website": "https://oceanprotocol.com/",
   "coingecko_id": "ocean-protocol",
   "coin_api_id": "OCEAN-PROTOCOL",
+  "category_tags": ["protocol", "storage", "dot_ecosystem"],
   "socials": [
     {
       "name": "Twitter",

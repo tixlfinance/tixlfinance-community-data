@@ -5,6 +5,7 @@
   "coin_api_id": "ADA",
   "website": "https://cardano.org/",
   "source_code": "https://github.com/cardano-foundation",
+  "category_tags": ["smart_contract_platform"],
   "socials": [
     {
       "name": "Twitter",

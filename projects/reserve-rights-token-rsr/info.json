@@ -4,6 +4,7 @@
   "website": "https://reserve.org/",
   "coingecko_id": "reserve-rights-token",
   "coin_api_id": "RESERVE-RIGHTS-TOKEN",
+  "category_tags": ["defi"],
   "socials": [
     {
       "name": "Twitter",

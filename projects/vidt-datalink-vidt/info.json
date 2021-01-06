@@ -4,6 +4,7 @@
   "website": "https://about.v-id.org/",
   "coingecko_id": "v-id-blockchain",
   "coin_api_id": "V-ID-BLOCKCHAIN",
+  "category_tags": ["business_services"],
   "socials": [
     {
       "name": "Twitter",

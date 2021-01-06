@@ -4,6 +4,7 @@
   "website": "https://elrond.com",
   "coingecko_id": "elrond-erd-2",
   "coin_api_id": "ELROND-ERD-2",
+  "category_tags": ["protocol", "smart_contract_platform"],
   "socials": [
     {
       "name": "Twitter",
