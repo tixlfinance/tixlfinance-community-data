@@ -107,3 +107,20 @@ jobs:
         run: |
           npm run push:influencers --files ${{ steps.files.outputs.all }}
         shell: bash
+  push-newsprovider-files:
+    needs: validate-files
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: NPM Install
+        run: npm install
+        shell: bash
+      - id: files
+        uses: jitterbit/get-changed-files@v1
+      - name: Push assets to server
+        env:
+          API_ASSETS_KEY: ${{ secrets.API_ASSETS_KEY }}
+          MAIN_API_ENDPOINT: ${{ secrets.MAIN_API_ENDPOINT }}
+        run: |
+          npm run push:newsprovider --files ${{ steps.files.outputs.all }}
+        shell: bash
