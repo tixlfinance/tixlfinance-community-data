@@ -4,6 +4,7 @@
   "website": "https://www.tezos.com/",
   "coingecko_id": "tezos",
   "coin_api_id": "TEZOS",
+  "category_tags": ["smart_contract_platform"],
   "socials": [
     {
       "name": "Twitter",

@@ -1,0 +1,11 @@
+{
+    "name": "Ambcrypto",
+    "url": "https://ambcrypto.com",
+    "rssFeeds": [
+      {
+        "url": "https://ambcrypto.com/feed",
+        "name": "Allnews"
+      }
+    ]
+  }
+  

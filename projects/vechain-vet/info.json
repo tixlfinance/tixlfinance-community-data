@@ -4,6 +4,7 @@
   "website": "https://www.vechain.org",
   "coingecko_id": "vechain",
   "coin_api_id": "VECHAIN",
+  "category_tags": ["iot", "artifact_intelligence", "business_platform"],
   "socials": [
     {
       "name": "Twitter",

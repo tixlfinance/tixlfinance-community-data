@@ -4,6 +4,7 @@
   "website": "https://riodefi.com/",
   "coingecko_id": "rio-defi",
   "coin_api_id": "RIO-DEFI",
+  "category_tags": ["dot_ecosystem"],
   "socials": [
     {
       "name": "Twitter",

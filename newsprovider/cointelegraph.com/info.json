@@ -9,6 +9,26 @@
     {
       "url": "https://cointelegraph.com/rss/tag/bitcoin",
       "name": "Bitcoinfeed"
+    },
+    {
+      "url": "https://cointelegraph.com/rss/tag/blockchain",
+      "name": "Blockchainfeed"
+    },
+    {
+      "url": "https://cointelegraph.com/rss/tag/ethereum",
+      "name": "Ethereumfeed"
+    },
+    {
+      "url": "https://cointelegraph.com/rss/tag/litecoin",
+      "name": "Litecoinfeed"
+    },
+    {
+      "url": "https://cointelegraph.com/rss/tag/monero",
+      "name": "Monerofeed"
+    },
+    {
+      "url": "https://cointelegraph.com/rss/tag/regulation",
+      "name": "Regulationfeed"
     }
   ]
 }

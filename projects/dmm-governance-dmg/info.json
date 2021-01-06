@@ -4,6 +4,7 @@
   "website": "https://defimoneymarket.com",
   "coingecko_id": "dmm-governance",
   "coin_api_id": "DMM-GOVERNANCE",
+  "category_tags": ["defi"],
   "socials": [
     {
       "name": "Twitter",

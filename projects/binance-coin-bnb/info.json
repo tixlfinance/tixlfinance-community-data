@@ -4,6 +4,7 @@
   "website": "https://www.binance.com/",
   "coingecko_id": "binancecoin",
   "coin_api_id": "BINANCECOIN",
+  "category_tags": ["exchange_base_token"],
   "socials": [
     {
       "name": "Twitter",

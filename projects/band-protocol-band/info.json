@@ -4,6 +4,7 @@
   "website": "https://bandprotocol.com/",
   "coingecko_id": "band-protocol",
   "coin_api_id": "BAND-PROTOCOL",
+  "category_tags": ["defi"],
   "socials": [
     {
       "name": "Twitter",

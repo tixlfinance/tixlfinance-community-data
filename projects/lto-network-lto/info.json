@@ -4,6 +4,7 @@
   "website": "https://lto.network/",
   "coingecko_id": "lto-network",
   "coin_api_id": "LTO-NETWORK",
+  "category_tags": ["finance_banking"],
   "socials": [
     {
       "name": "Twitter",

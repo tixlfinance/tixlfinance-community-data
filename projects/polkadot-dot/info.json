@@ -4,6 +4,7 @@
   "website": "https://polkadot.network/",
   "coingecko_id": "polkadot",
   "coin_api_id": "POLKADOT",
+  "category_tags": ["dot_ecosystem"],
   "socials": [
     {
       "name": "Twitter",

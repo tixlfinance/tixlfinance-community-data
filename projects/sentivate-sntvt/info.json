@@ -4,6 +4,7 @@
   "website": "https://sentivate.com",
   "coingecko_id": "sentivate",
   "coin_api_id": "SENTIVATE",
+  "category_tags": ["iot"],
   "socials": [
     {
       "name": "Twitter",

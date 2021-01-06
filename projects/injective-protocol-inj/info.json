@@ -4,6 +4,7 @@
   "website": "https://injectiveprotocol.com/",
   "coingecko_id": "injective-protocol",
   "coin_api_id": "INJECTIVE-PROTOCOL",
+  "category_tags": ["dex", "exchange_base_token"],
   "socials": [
     {
       "name": "Twitter",

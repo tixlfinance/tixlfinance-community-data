@@ -4,6 +4,7 @@
   "website": "https://chain.link/",
   "coingecko_id": "chainlink",
   "coin_api_id": "CHAINLINK",
+  "category_tags": ["defi"],
   "socials": [
     {
       "name": "Twitter",

@@ -4,6 +4,7 @@
   "website": "https://chromia.com/",
   "coingecko_id": "chromaway",
   "coin_api_id": "CHROMAWAY",
+  "category_tags": ["smart_contract_platform"],
   "socials": [
     {
       "name": "Twitter",

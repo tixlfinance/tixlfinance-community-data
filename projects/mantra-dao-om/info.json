@@ -4,6 +4,7 @@
   "website": "https://www.mantradao.com/",
   "coingecko_id": "mantra-dao",
   "coin_api_id": "MANTRA-DAO",
+  "category_tags": ["dot_ecosystem"],
   "socials": [
     {
       "name": "Twitter",
