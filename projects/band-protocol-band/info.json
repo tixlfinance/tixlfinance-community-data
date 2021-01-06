@@ -4,6 +4,7 @@
   "website": "https://bandprotocol.com/",
   "coingecko_id": "band-protocol",
   "coin_api_id": "BAND-PROTOCOL",
+  "uniswap_id": "0xba11d00c5f74255f56a5e366f4f77f5a186d7f55",
   "category_tags": ["defi"],
   "socials": [
     {
@@ -182,9 +183,9 @@
       "exchange_id": "hotbit"
     },
     {
-      "base": "0XBA11D00C5F74255F56A5E366F4F77F5A186D7F55",
+      "base": "0xba11d00c5f74255f56a5e366f4f77f5a186d7f55",
       "quote": "ETH",
-      "pair_id": "0XBA11D00C5F74255F56A5E366F4F77F5A186D7F55",
+      "pair_id": "0xf421c3f2e695c2d4c0765379ccace8ade4a480d9",
       "exchange_id": "uniswap.exchange"
     },
     {

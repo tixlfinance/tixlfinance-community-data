@@ -57,12 +57,6 @@
       "exchange_id": "uniswap.exchange"
     },
     {
-      "base": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
-      "quote": "ETH",
-      "pair_id": "0xbb2b8038a1640196fbe3e38816f3e67cba72d940",
-      "exchange_id": "uniswap.exchange"
-    },
-    {
       "base": "0x6b175474e89094c44da98b954eedeac495271d0f",
       "quote": "ETH",
       "pair_id": "0xa478c2975ab1ea89e8196811f51a7b7ade33eb11",

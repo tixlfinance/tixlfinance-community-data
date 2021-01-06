@@ -4,6 +4,7 @@
   "website": "https://utrust.com",
   "coingecko_id": "utrust",
   "coin_api_id": "UTRUST",
+  "uniswap_id": "0xdc9ac3c20d1ed0b540df9b1fedc10039df13f99c",
   "socials": [
     {
       "name": "Twitter",
@@ -69,9 +70,9 @@
       "exchange_id": "binance.com"
     },
     {
-      "base": "0XDC9AC3C20D1ED0B540DF9B1FEDC10039DF13F99C",
+      "base": "0xdc9ac3c20d1ed0b540df9b1fedc10039df13f99c",
       "quote": "ETH",
-      "pair_id": "0XDC9AC3C20D1ED0B540DF9B1FEDC10039DF13F99C",
+      "pair_id": "0xc0fc2e4cbaf48b36948971c4afd487a90272ddfe",
       "exchange_id": "uniswap.exchange"
     },
     {

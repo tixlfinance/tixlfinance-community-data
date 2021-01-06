@@ -4,6 +4,7 @@
   "website": "https://www.energyweb.org/",
   "coingecko_id": "energy-web-token",
   "coin_api_id": "ENERGY-WEB-TOKEN",
+  "uniswap_id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
   "socials": [
     {
       "name": "Twitter",
@@ -39,9 +40,9 @@
       "exchange_id": "kucoin.com"
     },
     {
-      "base": "0X178C820F862B14F316509EC36B13123DA19A6054",
+      "base": "0x178c820f862b14f316509ec36b13123da19a6054",
       "quote": "ETH",
-      "pair_id": "0X178C820F862B14F316509EC36B13123DA19A6054",
+      "pair_id": "0xdc7d8cc3a22fe0ec69770e02931f43451b7b975e",
       "exchange_id": "uniswap.exchange"
     },
     {

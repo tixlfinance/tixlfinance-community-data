@@ -4,6 +4,7 @@
   "website": "https://pundix.com",
   "coingecko_id": "pundi-x",
   "coin_api_id": "PUNDI-X",
+  "uniswap_id": "0xa15c7ebe1f07caf6bff097d8a589fb8ac49ae5b3",
   "socials": [
     {
       "name": "Twitter",
@@ -315,9 +316,9 @@
       "exchange_id": "bitbns"
     },
     {
-      "base": "0XA15C7EBE1F07CAF6BFF097D8A589FB8AC49AE5B3",
+      "base": "0xa15c7ebe1f07caf6bff097d8a589fb8ac49ae5b3",
       "quote": "ETH",
-      "pair_id": "0XA15C7EBE1F07CAF6BFF097D8A589FB8AC49AE5B3",
+      "pair_id": "0x5d81b25054833fdfa023a1c46ad9dc2cdb8eaddf",
       "exchange_id": "uniswap.exchange"
     },
     {

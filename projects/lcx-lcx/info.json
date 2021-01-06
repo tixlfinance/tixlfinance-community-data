@@ -4,6 +4,7 @@
   "website": "https://www.LCX.com",
   "coingecko_id": "lcx",
   "coin_api_id": "LCX",
+  "uniswap_id": "0x037a54aab062628c9bbae1fdb1583c195585fe41",
   "category_tags": ["finance_banking"],
   "socials": [
     {
@@ -34,9 +35,9 @@
   ],
   "trading_pairs": [
     {
-      "base": "0X037A54AAB062628C9BBAE1FDB1583C195585FE41",
+      "base": "0x037a54aab062628c9bbae1fdb1583c195585fe41",
       "quote": "ETH",
-      "pair_id": "0X037A54AAB062628C9BBAE1FDB1583C195585FE41",
+      "pair_id": "0xfcb910d871d7e94f5a566b7b32fb2b19583c09d7",
       "exchange_id": "uniswap.exchange"
     },
     {

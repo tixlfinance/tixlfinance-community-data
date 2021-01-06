@@ -4,6 +4,7 @@
   "website": "https://constellationlabs.io/",
   "coingecko_id": "constellation-labs",
   "coin_api_id": "CONSTELLATION-LABS",
+  "uniswap_id": "0xa8258abc8f2811dd48eccd209db68f25e3e34667",
   "socials": [
     {
       "name": "Twitter",
@@ -59,9 +60,9 @@
       "exchange_id": "hitbtc"
     },
     {
-      "base": "0XA8258ABC8F2811DD48ECCD209DB68F25E3E34667",
+      "base": "0xa8258abc8f2811dd48eccd209db68f25e3e34667",
       "quote": "ETH",
-      "pair_id": "0XA8258ABC8F2811DD48ECCD209DB68F25E3E34667",
+      "pair_id": "0x59147a106630029529e0add2c173e8b94b7eef17",
       "exchange_id": "uniswap.exchange"
     }
   ],

@@ -4,6 +4,7 @@
   "website": "https://sentivate.com",
   "coingecko_id": "sentivate",
   "coin_api_id": "SENTIVATE",
+  "uniswap_id": "0x7865af71cf0b288b4e7f654f4f7851eb46a2b7f8",
   "category_tags": ["iot"],
   "socials": [
     {
@@ -34,9 +35,9 @@
   ],
   "trading_pairs": [
     {
-      "base": "0X7865AF71CF0B288B4E7F654F4F7851EB46A2B7F8",
+      "base": "0x7865af71cf0b288b4e7f654f4f7851eb46a2b7f8",
       "quote": "ETH",
-      "pair_id": "0X7865AF71CF0B288B4E7F654F4F7851EB46A2B7F8",
+      "pair_id": "0xab9bef8242c2b97772ae239a5d71c60496a06334",
       "exchange_id": "uniswap.exchange"
     },
     {

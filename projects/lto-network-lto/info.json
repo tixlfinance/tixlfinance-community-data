@@ -4,6 +4,7 @@
   "website": "https://lto.network/",
   "coingecko_id": "lto-network",
   "coin_api_id": "LTO-NETWORK",
+  "uniswap_id": "0x3db6ba6ab6f95efed1a6e794cad492faaabf294d",
   "category_tags": ["finance_banking"],
   "socials": [
     {
@@ -52,9 +53,9 @@
       "exchange_id": "bilaxy.com"
     },
     {
-      "base": "0X3DB6BA6AB6F95EFED1A6E794CAD492FAAABF294D",
+      "base": "0x3db6ba6ab6f95efed1a6e794cad492faaabf294d",
       "quote": "ETH",
-      "pair_id": "0X3DB6BA6AB6F95EFED1A6E794CAD492FAAABF294D",
+      "pair_id": "0x9cd7403ac4856071581e1f5a298317d9a72a19cf",
       "exchange_id": "uniswap.exchange"
     },
     {

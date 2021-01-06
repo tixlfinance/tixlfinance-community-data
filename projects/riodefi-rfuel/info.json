@@ -4,6 +4,7 @@
   "website": "https://riodefi.com/",
   "coingecko_id": "rio-defi",
   "coin_api_id": "RIO-DEFI",
+  "uniswap_id": "0xaf9f549774ecedbd0966c52f250acc548d3f36e5",
   "category_tags": ["dot_ecosystem"],
   "socials": [
     {
@@ -34,9 +35,9 @@
   ],
   "trading_pairs": [
     {
-      "base": "0XAF9F549774ECEDBD0966C52F250ACC548D3F36E5",
+      "base": "0xaf9f549774ecedbd0966c52f250acc548d3f36e5",
       "quote": "ETH",
-      "pair_id": "0XAF9F549774ECEDBD0966C52F250ACC548D3F36E5",
+      "pair_id": "0x05f21e62952566cefb77f5153ec6b83c14fb6b1d",
       "exchange_id": "uniswap.exchange"
     },
     {

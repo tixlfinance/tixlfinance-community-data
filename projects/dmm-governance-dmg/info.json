@@ -4,6 +4,7 @@
   "website": "https://defimoneymarket.com",
   "coingecko_id": "dmm-governance",
   "coin_api_id": "DMM-GOVERNANCE",
+  "uniswap_id": "0xed91879919b71bb6905f23af0a68d231ecf87b14",
   "category_tags": ["defi"],
   "socials": [
     {
@@ -22,9 +23,9 @@
   ],
   "trading_pairs": [
     {
-      "base": "0XED91879919B71BB6905F23AF0A68D231ECF87B14",
+      "base": "0xed91879919b71bb6905f23af0a68d231ecf87b14",
       "quote": "ETH",
-      "pair_id": "0XED91879919B71BB6905F23AF0A68D231ECF87B14",
+      "pair_id": "0x8175362afbeee32afb22d05adc0bbd08de32f5ae",
       "exchange_id": "uniswap.exchange"
     },
     {

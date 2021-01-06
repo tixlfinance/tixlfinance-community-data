@@ -4,6 +4,7 @@
   "website": "https://matic.network",
   "coingecko_id": "matic-network",
   "coin_api_id": "MATIC-NETWORK",
+  "uniswap_id": "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0",
   "socials": [
     {
       "name": "Twitter",
@@ -159,9 +160,9 @@
       "exchange_id": "emirex"
     },
     {
-      "base": "0X7D1AFA7B718FB893DB30A3ABC0CFC608AACFEBB0",
+      "base": "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0",
       "quote": "ETH",
-      "pair_id": "0X7D1AFA7B718FB893DB30A3ABC0CFC608AACFEBB0",
+      "pair_id": "0x819f3450da6f110ba6ea52195b3beafa246062de",
       "exchange_id": "uniswap.exchange"
     },
     {

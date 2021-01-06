@@ -4,6 +4,7 @@
   "website": "https://www.mantradao.com/",
   "coingecko_id": "mantra-dao",
   "coin_api_id": "MANTRA-DAO",
+  "uniswap_id": "0x2baecdf43734f22fd5c152db08e3c27233f0c7d2",
   "category_tags": ["dot_ecosystem"],
   "socials": [
     {
@@ -34,9 +35,9 @@
   ],
   "trading_pairs": [
     {
-      "base": "0X2BAECDF43734F22FD5C152DB08E3C27233F0C7D2",
+      "base": "0x2baecdf43734f22fd5c152db08e3c27233f0c7d2",
       "quote": "ETH",
-      "pair_id": "0X2BAECDF43734F22FD5C152DB08E3C27233F0C7D2",
+      "pair_id": "0x99b1db3318aa3040f336fb65c55400e164ddcd7f",
       "exchange_id": "uniswap.exchange"
     },
     {

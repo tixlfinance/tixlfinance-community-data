@@ -4,6 +4,7 @@
   "website": "https://octo.fi",
   "coingecko_id": "octofi",
   "coin_api_id": "OCTOFI",
+  "uniswap_id": "0x7240ac91f01233baaf8b064248e80feaa5912ba3",
   "category_tags": ["governance", "yield_farming"],
   "socials": [
     {
@@ -18,9 +19,9 @@
   ],
   "trading_pairs": [
     {
-      "base": "0X7240AC91F01233BAAF8B064248E80FEAA5912BA3",
+      "base": "0x7240ac91f01233baaf8b064248e80feaa5912ba3",
       "quote": "ETH",
-      "pair_id": "0X7240AC91F01233BAAF8B064248E80FEAA5912BA3",
+      "pair_id": "0xd7cfbcadaaf6475321cfcf3884f15a93400be658",
       "exchange_id": "uniswap.exchange"
     },
     {

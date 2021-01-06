@@ -4,6 +4,7 @@
   "website": "https://about.v-id.org/",
   "coingecko_id": "v-id-blockchain",
   "coin_api_id": "V-ID-BLOCKCHAIN",
+  "uniswap_id": "0xfef4185594457050cc9c23980d301908fe057bb1",
   "category_tags": ["business_services"],
   "socials": [
     {
@@ -52,9 +53,9 @@
       "exchange_id": "binance.com"
     },
     {
-      "base": "0XFEF4185594457050CC9C23980D301908FE057BB1",
+      "base": "0xfef4185594457050cc9c23980d301908fe057bb1",
       "quote": "ETH",
-      "pair_id": "0XFEF4185594457050CC9C23980D301908FE057BB1",
+      "pair_id": "0xc7fe3e6bb510708462168258dcb2a369ed0759e5",
       "exchange_id": "uniswap.exchange"
     },
     {
