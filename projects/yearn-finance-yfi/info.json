@@ -5,6 +5,13 @@
   "coingecko_id": "yearn-finance",
   "coin_api_id": "YEARN-FINANCE",
   "uniswap_id": "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e",
+  "category_tags": [
+    "yield_aggregator",
+    "yearn_ecosystem",
+    "defi",
+    "governance",
+    "yield_farming"
+  ],
   "socials": [
     {
       "name": "Twitter",
@@ -255,7 +262,7 @@
       "base": "YFI",
       "quote": "USDT",
       "pair_id": "YFI_USDT",
-      "exchange_id": "bilaxy"
+      "exchange_id": "bilaxy.com"
     },
     {
       "base": "0X0BC529C00C6401AEF6D220BE8C6EA1667F6AD93E",

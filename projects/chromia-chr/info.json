@@ -4,6 +4,7 @@
   "website": "https://chromia.com/",
   "coingecko_id": "chromaway",
   "coin_api_id": "CHROMAWAY",
+  "category_tags": ["smart_contract_platform"],
   "socials": [
     {
       "name": "Twitter",
@@ -68,7 +69,7 @@
       "base": "CHR",
       "quote": "USDT",
       "pair_id": "CHR_USDT",
-      "exchange_id": "bilaxy"
+      "exchange_id": "bilaxy.com"
     },
     {
       "base": "CHR",

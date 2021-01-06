@@ -4,6 +4,7 @@
   "website": "https://www.dash.org",
   "coingecko_id": "dash",
   "coin_api_id": "DASH",
+  "category_tags": ["cryptocurrency"],
   "socials": [
     {
       "name": "Twitter",

@@ -1,0 +1,11 @@
+{
+    "name": "Cryptovibes",
+    "url": "https://www.cryptovibes.com",
+    "rssFeeds": [
+      {
+        "url": "https://www.cryptovibes.com/feed",
+        "name": "Allnews"
+      }
+    ]
+  }
+  

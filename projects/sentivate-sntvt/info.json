@@ -5,6 +5,7 @@
   "coingecko_id": "sentivate",
   "coin_api_id": "SENTIVATE",
   "uniswap_id": "0x7865af71cf0b288b4e7f654f4f7851eb46a2b7f8",
+  "category_tags": ["iot"],
   "socials": [
     {
       "name": "Twitter",

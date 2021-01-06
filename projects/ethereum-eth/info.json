@@ -7,7 +7,7 @@
   "website": "https://ethereum.org/",
   "source_code": "https://github.com/ethereum",
   "white_paper": "https://github.com/ethereum/wiki/wiki/White-Paper",
-  "category_tags": ["cryptocurrency"],
+  "category_tags": ["cryptocurrency", "smart_contract_platform"],
   "socials": [
     {
       "name": "Twitter",

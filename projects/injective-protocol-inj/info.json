@@ -5,6 +5,7 @@
   "coingecko_id": "injective-protocol",
   "coin_api_id": "INJECTIVE-PROTOCOL",
   "uniswap_id": "0xe28b3b32b6c345a34ff64674606124dd5aceca30",
+  "category_tags": ["dex", "exchange_base_token"],
   "socials": [
     {
       "name": "Twitter",

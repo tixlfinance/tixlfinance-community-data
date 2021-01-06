@@ -5,6 +5,7 @@
   "coingecko_id": "reserve-rights-token",
   "coin_api_id": "RESERVE-RIGHTS-TOKEN",
   "uniswap_id": "0x8762db106b2c2a0bccb3a80d1ed41273552616e8",
+  "category_tags": ["defi"],
   "socials": [
     {
       "name": "Twitter",
@@ -85,7 +86,7 @@
       "base": "RSR",
       "quote": "USDT",
       "pair_id": "RSR_USDT",
-      "exchange_id": "bilaxy"
+      "exchange_id": "bilaxy.com"
     },
     {
       "base": "RSR",

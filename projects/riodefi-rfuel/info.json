@@ -5,6 +5,7 @@
   "coingecko_id": "rio-defi",
   "coin_api_id": "RIO-DEFI",
   "uniswap_id": "0xaf9f549774ecedbd0966c52f250acc548d3f36e5",
+  "category_tags": ["dot_ecosystem"],
   "socials": [
     {
       "name": "Twitter",
@@ -91,7 +92,7 @@
       "base": "RFUEL",
       "quote": "ETH",
       "pair_id": "RFUEL_ETH",
-      "exchange_id": "bilaxy"
+      "exchange_id": "bilaxy.com"
     },
     {
       "base": "RFUEL",

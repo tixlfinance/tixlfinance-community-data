@@ -4,6 +4,7 @@
   "website": "https://thorchain.org/",
   "coingecko_id": "thorchain",
   "coin_api_id": "THORCHAIN",
+  "category_tags": ["dex", "infrastructure", "exchange_base_token", "defi"],
   "socials": [
     {
       "name": "Twitter",
@@ -126,7 +127,7 @@
       "base": "RUNE",
       "quote": "USDT",
       "pair_id": "RUNE_USDT",
-      "exchange_id": "bilaxy"
+      "exchange_id": "bilaxy.com"
     },
     {
       "base": "RUNE-B1A",

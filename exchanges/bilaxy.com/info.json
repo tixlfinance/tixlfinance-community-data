@@ -1,0 +1,16 @@
+{
+  "exchange_id": "bilaxy.com",
+  "name": "Bilaxy",
+  "logo": "https://assets.coingecko.com/markets/images/193/large/bilaxy.png?1575876562",
+  "coingecko_id": "bilaxy",
+  "coin_api_id": "BILAXY",
+  "website": "https://bilaxy.com/",
+  "exchange_score": {
+    "decentralization_score": 0,
+    "regulation_score": 30,
+    "adoption_score": 50,
+    "wash_trading_score": 0,
+    "total_score": 40
+  },
+  "__triggerUpdate": 6
+}

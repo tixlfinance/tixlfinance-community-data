@@ -4,6 +4,7 @@
   "website": "https://polkadot.network/",
   "coingecko_id": "polkadot",
   "coin_api_id": "POLKADOT",
+  "category_tags": ["dot_ecosystem"],
   "socials": [
     {
       "name": "Twitter",
@@ -216,7 +217,7 @@
       "base": "DOT",
       "quote": "USDT",
       "pair_id": "DOT_USDT",
-      "exchange_id": "bilaxy"
+      "exchange_id": "bilaxy.com"
     },
     {
       "base": "DOT",

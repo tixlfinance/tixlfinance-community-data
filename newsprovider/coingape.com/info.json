@@ -1,0 +1,11 @@
+{
+    "name": "Coingape",
+    "url": "https://coingape.com",
+    "rssFeeds": [
+      {
+        "url": "https://coingape.com/feed",
+        "name": "Altcoinfeed"
+      }
+    ]
+  }
+  

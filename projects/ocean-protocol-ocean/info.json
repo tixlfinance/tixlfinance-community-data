@@ -5,6 +5,7 @@
   "coingecko_id": "ocean-protocol",
   "coin_api_id": "OCEAN-PROTOCOL",
   "uniswap_id": "0x967da4048cd07ab37855c090aaf366e4ce1b9f48",
+  "category_tags": ["protocol", "storage", "dot_ecosystem"],
   "socials": [
     {
       "name": "Twitter",

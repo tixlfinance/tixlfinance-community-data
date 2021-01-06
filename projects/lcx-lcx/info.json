@@ -5,6 +5,7 @@
   "coingecko_id": "lcx",
   "coin_api_id": "LCX",
   "uniswap_id": "0x037a54aab062628c9bbae1fdb1583c195585fe41",
+  "category_tags": ["finance_banking"],
   "socials": [
     {
       "name": "Twitter",
@@ -49,7 +50,7 @@
       "base": "LCX",
       "quote": "ETH",
       "pair_id": "LCX_ETH",
-      "exchange_id": "bilaxy"
+      "exchange_id": "bilaxy.com"
     },
     {
       "base": "LCX",

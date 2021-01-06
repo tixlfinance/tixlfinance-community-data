@@ -60,7 +60,7 @@
         "type": "pieChart",
         "charts": [
           {
-            "dropdownLabel": "",
+            "dropdownLabel": "Detailed",
             "popoverUnit": "TXL",
             "valueUnit": "%",
             "labelsAndValues": [
@@ -125,6 +125,28 @@
                 "popoverValue": 61415823
               }
             ]
+          },
+          {
+            "dropdownLabel": "Overview",
+            "popoverUnit": "TXL",
+            "valueUnit": "%",
+            "labelsAndValues": [
+              {
+                "label": "For Future ",
+                "value": 81.5,
+                "popoverValue": 733611020
+              },
+              {
+                "label": "Allocated",
+                "value": 11.6,
+                "popoverValue": 104617827
+              },
+              {
+                "label": "Circulating",
+                "value": 6.9,
+                "popoverValue": 61765823
+              }
+            ]
           }
         ]
       }
@@ -136,6 +158,12 @@
       "quote": "ETH",
       "pair_id": "0x0fdc86703c938e3e1cbc9e14f21c6bf709c13acc",
       "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "TXL",
+      "quote": "ETH",
+      "pair_id": "",
+      "exchange_id": "bilaxy.com"
     }
   ],
   "__triggerUpdate": 6

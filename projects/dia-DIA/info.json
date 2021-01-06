@@ -5,6 +5,7 @@
   "coingecko_id": "dia-data",
   "coin_api_id": "DIA-DATA",
   "uniswap_id": "0x84ca8bc7997272c7cfb4d0cd3d55cd942b3c9419",
+  "category_tags": ["oracle"],
   "socials": [
     {
       "name": "Twitter",

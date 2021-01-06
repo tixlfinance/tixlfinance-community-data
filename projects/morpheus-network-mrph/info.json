@@ -5,6 +5,7 @@
   "coingecko_id": "morpheus-network",
   "coin_api_id": "MORPHEUS-NETWORK",
   "uniswap_id": "0x7b0c06043468469967dba22d1af33d77d44056c8",
+  "category_tags": ["infrastructure"],
   "socials": [
     {
       "name": "Twitter",
@@ -37,7 +38,7 @@
       "base": "MRPH",
       "quote": "ETH",
       "pair_id": "MRPH_ETH",
-      "exchange_id": "bilaxy"
+      "exchange_id": "bilaxy.com"
     },
     {
       "base": "0x7b0c06043468469967dba22d1af33d77d44056c8",

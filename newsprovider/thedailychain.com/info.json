@@ -1,0 +1,11 @@
+{
+    "name": "Thedailychain",
+    "url": "https://thedailychain.com",
+    "rssFeeds": [
+      {
+        "url": "https://thedailychain.com/feed",
+        "name": "Allnews"
+      }
+    ]
+  }
+  

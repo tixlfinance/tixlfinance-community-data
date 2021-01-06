@@ -5,6 +5,7 @@
   "coingecko_id": "band-protocol",
   "coin_api_id": "BAND-PROTOCOL",
   "uniswap_id": "0xba11d00c5f74255f56a5e366f4f77f5a186d7f55",
+  "category_tags": ["defi"],
   "socials": [
     {
       "name": "Twitter",
@@ -137,7 +138,7 @@
       "base": "BAND",
       "quote": "USDT",
       "pair_id": "BAND_USDT",
-      "exchange_id": "bilaxy"
+      "exchange_id": "bilaxy.com"
     },
     {
       "base": "BAND",
