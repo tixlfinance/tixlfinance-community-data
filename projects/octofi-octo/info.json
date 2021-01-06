@@ -19,7 +19,7 @@
     {
       "base": "0X7240AC91F01233BAAF8B064248E80FEAA5912BA3",
       "quote": "ETH",
-      "pair_id": "0X7240AC91F01233BAAF8B064248E80FEAA5912BA3_ETH",
+      "pair_id": "0X7240AC91F01233BAAF8B064248E80FEAA5912BA3",
       "exchange_id": "uniswap.exchange"
     },
     {

@@ -1,5 +1,8 @@
-#Tixl´s interoperable layer 1 network enables any asset (incl. BTC) to be transferred instantly & with 0 to almost 0 costs.
+**Tixl** (previously MTXLT) is the native token of Tixl's Ecosystem and Autobahn Network. TXL serves as the fuel for the Autobahn Network and is used for transaction fees and other DeFi related revenue sources.
 
-## This is a second headline
+Apart from the high speed and AML-compliant privacy for authorized service providers, TXL itself can be transferred in the Autobahn Network without any fees. While the Tixl ecosystem is being developed, TXL runs on Ethereum as a ERC-20 token.
 
-### THis is a third headline 3.0
+- Super Fast
+- Private
+- Zero Fees
+- Mining Free

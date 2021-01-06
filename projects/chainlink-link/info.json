@@ -121,7 +121,7 @@
     {
       "base": "0X514910771AF9CA656AF840DFF83E8264ECF986CA",
       "quote": "ETH",
-      "pair_id": "0X514910771AF9CA656AF840DFF83E8264ECF986CA_ETH",
+      "pair_id": "0X514910771AF9CA656AF840DFF83E8264ECF986CA",
       "exchange_id": "uniswap.exchange"
     },
     {

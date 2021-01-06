@@ -91,7 +91,7 @@
     {
       "base": "0X0BC529C00C6401AEF6D220BE8C6EA1667F6AD93E",
       "quote": "ETH",
-      "pair_id": "0X0BC529C00C6401AEF6D220BE8C6EA1667F6AD93E_ETH",
+      "pair_id": "0X0BC529C00C6401AEF6D220BE8C6EA1667F6AD93E",
       "exchange_id": "uniswap.exchange"
     },
     {

@@ -77,7 +77,7 @@
     {
       "base": "0X8762DB106B2C2A0BCCB3A80D1ED41273552616E8",
       "quote": "ETH",
-      "pair_id": "0X8762DB106B2C2A0BCCB3A80D1ED41273552616E8_ETH",
+      "pair_id": "0X8762DB106B2C2A0BCCB3A80D1ED41273552616E8",
       "exchange_id": "uniswap.exchange"
     },
     {

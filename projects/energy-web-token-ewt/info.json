@@ -41,7 +41,7 @@
     {
       "base": "0X178C820F862B14F316509EC36B13123DA19A6054",
       "quote": "ETH",
-      "pair_id": "0X178C820F862B14F316509EC36B13123DA19A6054_ETH",
+      "pair_id": "0X178C820F862B14F316509EC36B13123DA19A6054",
       "exchange_id": "uniswap.exchange"
     },
     {
