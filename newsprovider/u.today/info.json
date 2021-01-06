@@ -1,0 +1,11 @@
+{
+    "name": "Utoday",
+    "url": "https://u.today",
+    "rssFeeds": [
+      {
+        "url": "https://u.today/rss",
+        "name": "Allnews"
+      }
+    ]
+  }
+  

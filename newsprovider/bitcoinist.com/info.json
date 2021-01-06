@@ -1,0 +1,11 @@
+{
+    "name": "Bitcoinist",
+    "url": "https://bitcoinist.com",
+    "rssFeeds": [
+      {
+        "url": "http://bitcoinist.com/feed",
+        "name": "Allnews"
+      }
+    ]
+  }
+  
