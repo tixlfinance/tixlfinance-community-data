@@ -1,0 +1,11 @@
+{
+    "name": "Zycrypto",
+    "url": "https://zycrypto.com",
+    "rssFeeds": [
+      {
+        "url": "https://zycrypto.com/feed",
+        "name": "Allnews"
+      }
+    ]
+  }
+  
