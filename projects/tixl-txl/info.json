@@ -60,7 +60,7 @@
         "type": "pieChart",
         "charts": [
           {
-            "dropdownLabel": "",
+            "dropdownLabel": "Detailed",
             "popoverUnit": "TXL",
             "valueUnit": "%",
             "labelsAndValues": [
@@ -123,6 +123,28 @@
                 "label": "Community/Investor Wallets",
                 "value": 6.8,
                 "popoverValue": 61415823
+              }
+            ]
+          },
+          {
+            "dropdownLabel": "Overview",
+            "popoverUnit": "TXL",
+            "valueUnit": "%",
+            "labelsAndValues": [
+              {
+                "label": "For Future ",
+                "value": 81.5,
+                "popoverValue": 733611020
+              },
+              {
+                "label": "Allocated",
+                "value": 11.6,
+                "popoverValue": 104617827
+              },
+              {
+                "label": "Circulating",
+                "value": 6.9,
+                "popoverValue": 61765823
               }
             ]
           }
