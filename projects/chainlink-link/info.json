@@ -4,6 +4,7 @@
   "website": "https://chain.link/",
   "coingecko_id": "chainlink",
   "coin_api_id": "CHAINLINK",
+  "uniswap_id": "0x514910771af9ca656af840dff83e8264ecf986ca",
   "socials": [
     {
       "name": "Twitter",
@@ -121,7 +122,7 @@
     {
       "base": "0X514910771AF9CA656AF840DFF83E8264ECF986CA",
       "quote": "ETH",
-      "pair_id": "0X514910771AF9CA656AF840DFF83E8264ECF986CA",
+      "pair_id": "0xa2107fa5b38d9bbd2c461d6edf11b11a50f6b974",
       "exchange_id": "uniswap.exchange"
     },
     {

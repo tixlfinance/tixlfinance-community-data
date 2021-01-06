@@ -4,6 +4,7 @@
   "website": "http://www.tellor.io/",
   "coingecko_id": "tellor",
   "coin_api_id": "TELLOR",
+  "uniswap_id": "0x0ba45a8b5d5575935b8158a88c631e9f9c95a2e5",
   "socials": [
     {
       "name": "Twitter",
@@ -107,9 +108,9 @@
       "exchange_id": "biki"
     },
     {
-      "base": "0X0BA45A8B5D5575935B8158A88C631E9F9C95A2E5",
+      "base": "0x0ba45a8b5d5575935b8158a88c631e9f9c95a2e5",
       "quote": "ETH",
-      "pair_id": "0X0BA45A8B5D5575935B8158A88C631E9F9C95A2E5",
+      "pair_id": "0x70258aa9830c2c84d855df1d61e12c256f6448b4",
       "exchange_id": "uniswap.exchange"
     },
     {

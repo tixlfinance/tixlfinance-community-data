@@ -4,6 +4,7 @@
   "website": "https://injectiveprotocol.com/",
   "coingecko_id": "injective-protocol",
   "coin_api_id": "INJECTIVE-PROTOCOL",
+  "uniswap_id": "0xe28b3b32b6c345a34ff64674606124dd5aceca30",
   "socials": [
     {
       "name": "Twitter",
@@ -109,9 +110,9 @@
       "exchange_id": "pancakeswap"
     },
     {
-      "base": "0XE28B3B32B6C345A34FF64674606124DD5ACECA30",
+      "base": "0xe28b3b32b6c345a34ff64674606124dd5aceca30",
       "quote": "ETH",
-      "pair_id": "0XE28B3B32B6C345A34FF64674606124DD5ACECA30",
+      "pair_id": "0x3c70f4faea49e50adc8305f2e1aa0ea326a54ffc",
       "exchange_id": "uniswap.exchange"
     },
     {

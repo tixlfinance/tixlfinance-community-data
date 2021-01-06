@@ -4,6 +4,7 @@
   "website": "https://oceanprotocol.com/",
   "coingecko_id": "ocean-protocol",
   "coin_api_id": "OCEAN-PROTOCOL",
+  "uniswap_id": "0x967da4048cd07ab37855c090aaf366e4ce1b9f48",
   "socials": [
     {
       "name": "Twitter",
@@ -87,9 +88,9 @@
       "exchange_id": "mxc"
     },
     {
-      "base": "0X967DA4048CD07AB37855C090AAF366E4CE1B9F48",
+      "base": "0x967da4048cd07ab37855c090aaf366e4ce1b9f48",
       "quote": "ETH",
-      "pair_id": "0X967DA4048CD07AB37855C090AAF366E4CE1B9F48",
+      "pair_id": "0x9b7dad79fc16106b47a3dab791f389c167e15eb0",
       "exchange_id": "uniswap.exchange"
     },
     {

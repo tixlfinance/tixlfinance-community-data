@@ -4,6 +4,7 @@
   "website": "https://kleros.io",
   "coingecko_id": "kleros",
   "coin_api_id": "KLEROS",
+  "uniswap_id": "0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d",
   "socials": [
     {
       "name": "Twitter",
@@ -39,9 +40,9 @@
       "exchange_id": "balancer"
     },
     {
-      "base": "0X93ED3FBE21207EC2E8F2D3C3DE6E058CB73BC04D",
+      "base": "0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d",
       "quote": "ETH",
-      "pair_id": "0X93ED3FBE21207EC2E8F2D3C3DE6E058CB73BC04D",
+      "pair_id": "0x343fd171caf4f0287ae6b87d75a8964dc44516ab",
       "exchange_id": "uniswap.exchange"
     },
     {

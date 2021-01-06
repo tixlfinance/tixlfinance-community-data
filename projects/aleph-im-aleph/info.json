@@ -4,6 +4,7 @@
   "website": "https://aleph.im",
   "coingecko_id": "aleph",
   "coin_api_id": "ALEPH",
+  "uniswap_id": "0x27702a26126e0b3702af63ee09ac4d1a084ef628",
   "socials": [
     {
       "name": "Twitter",
@@ -25,9 +26,9 @@
   ],
   "trading_pairs": [
     {
-      "base": "0X27702A26126E0B3702AF63EE09AC4D1A084EF628",
+      "base": "0x27702a26126e0b3702af63ee09ac4d1a084ef628",
       "quote": "ETH",
-      "pair_id": "0X27702A26126E0B3702AF63EE09AC4D1A084EF628",
+      "pair_id": "0x29ba3d899e8a819cf920adaff53ef1cf31969e66",
       "exchange_id": "uniswap.exchange"
     },
     {

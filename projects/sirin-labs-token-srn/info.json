@@ -4,6 +4,7 @@
   "website": "https://www.sirinlabs.com",
   "coingecko_id": "sirin-labs-token",
   "coin_api_id": "SIRIN-LABS-TOKEN",
+  "uniswap_id": "0x68d57c9a1c35f63e2c83ee8e49a64e9d70528d25",
   "socials": [
     {
       "name": "Twitter",
@@ -99,9 +100,9 @@
       "exchange_id": "huobi_korea"
     },
     {
-      "base": "0X68D57C9A1C35F63E2C83EE8E49A64E9D70528D25",
+      "base": "0x68d57c9a1c35f63e2c83ee8e49a64e9d70528d25",
       "quote": "ETH",
-      "pair_id": "0X68D57C9A1C35F63E2C83EE8E49A64E9D70528D25",
+      "pair_id": "0x005aa85499bfe43849ea167c5b78076f3510131b",
       "exchange_id": "uniswap.exchange"
     }
   ],

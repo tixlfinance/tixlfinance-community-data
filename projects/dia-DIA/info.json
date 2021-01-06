@@ -4,6 +4,7 @@
   "website": "https://diadata.org/",
   "coingecko_id": "dia-data",
   "coin_api_id": "DIA-DATA",
+  "uniswap_id": "0x84ca8bc7997272c7cfb4d0cd3d55cd942b3c9419",
   "socials": [
     {
       "name": "Twitter",
@@ -37,9 +38,9 @@
       "exchange_id": "binance.com"
     },
     {
-      "base": "0X84CA8BC7997272C7CFB4D0CD3D55CD942B3C9419",
+      "base": "0x84ca8bc7997272c7cfb4d0cd3d55cd942b3c9419",
       "quote": "ETH",
-      "pair_id": "0X84CA8BC7997272C7CFB4D0CD3D55CD942B3C9419",
+      "pair_id": "0x4dc02e1bb2ec1ce4c50c351e6e06505e7b1dce8d",
       "exchange_id": "uniswap.exchange"
     },
     {

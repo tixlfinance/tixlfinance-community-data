@@ -4,6 +4,7 @@
   "website": "https://reserve.org/",
   "coingecko_id": "reserve-rights-token",
   "coin_api_id": "RESERVE-RIGHTS-TOKEN",
+  "uniswap_id": "0x8762db106b2c2a0bccb3a80d1ed41273552616e8",
   "socials": [
     {
       "name": "Twitter",
@@ -75,9 +76,9 @@
       "exchange_id": "okex.com"
     },
     {
-      "base": "0X8762DB106B2C2A0BCCB3A80D1ED41273552616E8",
+      "base": "0x8762db106b2c2a0bccb3a80d1ed41273552616e8",
       "quote": "ETH",
-      "pair_id": "0X8762DB106B2C2A0BCCB3A80D1ED41273552616E8",
+      "pair_id": "0xba65016890709dbc9491ca7bf5de395b8441dc8b",
       "exchange_id": "uniswap.exchange"
     },
     {
