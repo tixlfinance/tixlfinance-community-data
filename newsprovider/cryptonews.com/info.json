@@ -1,0 +1,11 @@
+{
+    "name": "Cryptonews",
+    "url": "https://cryptonews.com",
+    "rssFeeds": [
+      {
+        "url": "https://cryptonews.com/news/feed",
+        "name": "Allnews"
+      }
+    ]
+  }
+  

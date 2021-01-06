@@ -1,0 +1,27 @@
+{
+    "name": "BlockchainNews",
+    "url": "https://blockchain.news",
+    "rssFeeds": [
+      {
+        "url": "https://Blockchain.News/RSS",
+        "name": "Allnews"
+      },
+      {
+        "url": "https://Blockchain.News/RSS?key=0HLM7O77P8TQ9",
+        "name": "Interview"
+      },
+      {
+        "url": "https://Blockchain.News/RSS?key=0HLT964UPFK4J",
+        "name": "Wiki"
+      },
+      {
+        "url": "https://Blockchain.News/RSS?key=0HLTA5KUS6IPK",
+        "name": "Analysis"
+      },
+      {
+        "url": "https://Blockchain.News/RSS?key=0HM0B8QFN3GEO",
+        "name": "Bitcoin"
+      }
+    ]
+  }
+  

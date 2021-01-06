@@ -1,0 +1,11 @@
+{
+    "name": "Cryptoticker",
+    "url": "https://cryptoticker.io",
+    "rssFeeds": [
+      {
+        "url": "https://cryptoticker.io/en/feed",
+        "name": "Allnews"
+      }
+    ]
+  }
+  

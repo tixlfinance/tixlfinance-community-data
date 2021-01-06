@@ -1,0 +1,11 @@
+{
+    "name": "BitcoinExchangeGuide",
+    "url": "https://bitcoinexchangeguide.com",
+    "rssFeeds": [
+      {
+        "url": "https://bitcoinexchangeguide.com/feed",
+        "name": "Allnews"
+      }
+    ]
+  }
+  

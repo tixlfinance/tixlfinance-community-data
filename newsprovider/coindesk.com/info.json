@@ -1,0 +1,11 @@
+{
+    "name": "Coindesk",
+    "url": "https://www.coindesk.com",
+    "rssFeeds": [
+      {
+        "url": "https://www.coindesk.com/feed",
+        "name": "Allnews"
+      }
+    ]
+  }
+  
