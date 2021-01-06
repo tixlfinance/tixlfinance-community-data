@@ -4,6 +4,14 @@
   "website": "https://uniswap.org",
   "coingecko_id": "uniswap",
   "coin_api_id": "UNI",
+  "category_tags": [
+    "dex",
+    "defi",
+    "exchange_base_token",
+    "governance",
+    "yield_farming",
+    "automated_market_maker"
+  ],
   "socials": [
     {
       "name": "Twitter",

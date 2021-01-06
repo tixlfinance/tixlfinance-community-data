@@ -4,6 +4,7 @@
   "website": "https://aleph.im",
   "coingecko_id": "aleph",
   "coin_api_id": "ALEPH",
+  "category_tags": ["defi"],
   "socials": [
     {
       "name": "Twitter",

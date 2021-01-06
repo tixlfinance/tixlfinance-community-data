@@ -4,6 +4,7 @@
   "website": "https://morpheus.network",
   "coingecko_id": "morpheus-network",
   "coin_api_id": "MORPHEUS-NETWORK",
+  "category_tags": ["infrastructure"],
   "socials": [
     {
       "name": "Twitter",

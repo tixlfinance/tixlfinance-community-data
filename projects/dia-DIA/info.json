@@ -4,6 +4,7 @@
   "website": "https://diadata.org/",
   "coingecko_id": "dia-data",
   "coin_api_id": "DIA-DATA",
+  "category_tags": ["oracle"],
   "socials": [
     {
       "name": "Twitter",

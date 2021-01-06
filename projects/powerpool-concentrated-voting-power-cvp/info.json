@@ -4,6 +4,7 @@
   "website": "https://powerpool.finance",
   "coingecko_id": "concentrated-voting-power",
   "coin_api_id": "CONCENTRATED-VOTING-POWER",
+  "category_tags": ["defi", "yearn-ecosystem", "governance"],
   "socials": [
     {
       "name": "Twitter",

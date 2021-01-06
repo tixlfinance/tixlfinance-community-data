@@ -4,6 +4,7 @@
   "website": "https://octo.fi",
   "coingecko_id": "octofi",
   "coin_api_id": "OCTOFI",
+  "category_tags": ["governance", "yield_farming"],
   "socials": [
     {
       "name": "Twitter",

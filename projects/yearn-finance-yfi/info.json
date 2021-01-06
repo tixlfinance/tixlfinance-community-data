@@ -4,6 +4,13 @@
   "website": "https://yearn.finance",
   "coingecko_id": "yearn-finance",
   "coin_api_id": "YEARN-FINANCE",
+  "category_tags": [
+    "yield_aggregator",
+    "yearn_ecosystem",
+    "defi",
+    "governance",
+    "yield_farming"
+  ],
   "socials": [
     {
       "name": "Twitter",
