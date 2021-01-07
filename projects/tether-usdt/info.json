@@ -5,8 +5,7 @@
   "coingecko_id": "tether",
   "coin_api_id": "TETHER",
   "uniswap_id": "0xdac17f958d2ee523a2206206994597c13d831ec7",
-  "category_tags": ["cryptocurrency", "yield_farming"],
-  "category_tags": ["stablecoin", "usd_stablecoin"],
+  "category_tags": ["stablecoin", "usd_stablecoin", "yield_farming"],
   "socials": [
     {
       "name": "Twitter",

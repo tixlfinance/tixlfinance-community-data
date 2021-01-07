@@ -4,7 +4,6 @@
   "website": "https://bch.info/",
   "coingecko_id": "bitcoin-cash",
   "coin_api_id": "BITCOIN-CASH",
-  "category_tags": ["cryptocurrency"],
   "socials": [
     {
       "name": "Twitter",
