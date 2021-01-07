@@ -1,0 +1,11 @@
+{
+    "name": "Decrypto",
+    "url": "https://decrypt.co",
+    "rssFeeds": [
+      {
+        "url": "https://decrypt.co/feed",
+        "name": "Allnews"
+      }
+    ]
+  }
+  
