@@ -15,11 +15,6 @@
       "search_strings": ["#Monero", "$XMR"]
     },
     {
-      "name": "Stellar",
-      "url": "https://reddit.com/r/Stellar",
-      "handle": "Stellar"
-    },
-    {
       "name": "Telegram",
       "url": "https://telegram.me/monero",
       "handle": "Monero XMR"
