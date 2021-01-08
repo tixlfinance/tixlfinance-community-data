@@ -2,7 +2,6 @@ interface ExchangeScoreSchema {
   decentralization_score?: number;
   regulation_score?: number;
   adoption_score?: number;
-  total_score: number;
   wash_trading_score?: number;
 }
 
