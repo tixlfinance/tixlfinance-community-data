@@ -1,0 +1,36 @@
+{
+  "name": "Dai",
+  "symbol": "dai",
+  "coingecko_id": "dai",
+  "coin_api_id": "DAI",
+  "website": "https://www.makerdao.com",
+  "source_code": "https://github.com/makerdao",
+  "category_tags": ["stablecoin"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/thedaomaker",
+      "handle": "TheDAOMaker",
+      "search_strings": ["#DAI", "$DAI"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/makerdaoofficial",
+      "handle": "MakerDAO Chat"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "DAI",
+      "quote": "USDT",
+      "pair_id": "binance.com_DAI_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "DAI",
+      "quote": "ETH",
+      "pair_id": "binance.com_DAI_ETH",
+      "exchange_id": "binance.com"
+    }
+  ]
+}
