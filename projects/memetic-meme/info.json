@@ -18,5 +18,13 @@
       "url": "https://t.me/pepecoins",
       "handle": "pepecoins"
     }
+  ],
+  "trading_pairs": [
+    {
+      "base": "MEME",
+      "quote": "BTC",
+      "pair_id": "",
+      "exchange_id": "bittrex.com"
+    }
   ]
 }
