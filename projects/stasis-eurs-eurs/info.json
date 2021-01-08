@@ -6,6 +6,7 @@
   "website": "https://eurs.stasis.net/",
   "source_code": "https://github.com/STASISNET",
   "category_tags": ["stablecoin"],
+  "isStableCoin": true,
   "socials": [
     {
       "name": "Twitter",

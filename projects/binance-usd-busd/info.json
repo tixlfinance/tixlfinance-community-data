@@ -5,6 +5,7 @@
   "coin_api_id": "BUSDT",
   "website": "https://www.binance.com/en/busd",
   "source_code": "",
+  "isStableCoin": true,
   "category_tags": ["stablecoin"],
   "socials": [
     {

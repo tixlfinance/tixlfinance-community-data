@@ -6,6 +6,7 @@
   "website": "https://www.makerdao.com",
   "source_code": "https://github.com/makerdao",
   "category_tags": ["stablecoin"],
+  "isStableCoin": true,
   "socials": [
     {
       "name": "Twitter",

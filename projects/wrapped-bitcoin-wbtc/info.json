@@ -6,6 +6,7 @@
   "website": "https://wbtc.network/",
   "source_code": "https://github.com/WrappedBTC",
   "category_tags": ["stablecoin"],
+  "isStableCoin": true,
   "socials": [
     {
       "name": "Twitter",
