@@ -1,0 +1,36 @@
+{
+  "name": "STASIS EURO",
+  "symbol": "eurs",
+  "coingecko_id": "stasis-eurs",
+  "coin_api_id": "EURS",
+  "website": "https://eurs.stasis.net/",
+  "source_code": "https://github.com/STASISNET",
+  "category_tags": ["stablecoin"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/stasisnet",
+      "handle": "STASIS/EURS",
+      "search_strings": ["#EURS", "$EURS"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/stasis_community",
+      "handle": "STASIS GLOBAL_COMMUNITY"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "0xdb25f211ab05b1c97d595516f45794528a807ad8",
+      "quote": "USDT",
+      "pair_id": "0x885e214cffd19e1d30f3c9f55056f9e8d99ee1b5",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "EURS",
+      "quote": "USD",
+      "pair_id": "bitfinex.com_EURS_USD",
+      "exchange_id": "bitfinex.com"
+    }
+  ]
+}
