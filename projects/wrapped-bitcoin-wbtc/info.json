@@ -1,0 +1,31 @@
+{
+  "name": "Wrapped Bitcoin",
+  "symbol": "wbtc",
+  "coingecko_id": "wrapped-bitcoin",
+  "coin_api_id": "WBTC",
+  "website": "https://wbtc.network/",
+  "source_code": "https://github.com/WrappedBTC",
+  "category_tags": ["stablecoin"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/wrappedbtc",
+      "handle": "WrappedBTC",
+      "search_strings": ["#WBTC", "$WBTC"]
+    },
+  ],
+  "trading_pairs": [
+    {
+      "base": "WBTC",
+      "quote": "BTC",
+      "pair_id": "binance.com_WBTC_BTC",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "WBTC",
+      "quote": "BTC",
+      "pair_id": "coinbase.com_WBTC_BTC",
+      "exchange_id": "coinbase.com"
+    }
+  ]
+}
