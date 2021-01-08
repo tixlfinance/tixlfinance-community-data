@@ -7,10 +7,10 @@
   "website": "https://gate.io",
   "exchange_score": {
     "decentralization_score": 0,
-    "regulation_score": 0,
+    "regulation_score": 30,
     "adoption_score": 20,
-    "wash_trading_score": 0,
-    "total_score": 20
+    "wash_trading_score": 20,
+    "total_score": 70
   },
   "__triggerUpdate": 1
 }

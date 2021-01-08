@@ -9,8 +9,8 @@
     "decentralization_score": 0,
     "regulation_score": 30,
     "adoption_score": 50,
-    "wash_trading_score": 0,
-    "total_score": 80
+    "wash_trading_score": 30,
+    "total_score": 110
   },
   "__triggerUpdate": 6
 }

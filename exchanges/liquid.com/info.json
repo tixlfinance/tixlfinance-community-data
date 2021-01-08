@@ -7,10 +7,10 @@
   "website": "https://liquid.com",
   "exchange_score": {
     "decentralization_score": 0,
-    "regulation_score": 0,
-    "adoption_score": 20,
-    "wash_trading_score": 0,
-    "total_score": 20
+    "regulation_score": 30,
+    "adoption_score": 40,
+    "wash_trading_score": 30,
+    "total_score": 100
   },
   "__triggerUpdate": 1
 }
