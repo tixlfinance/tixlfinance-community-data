@@ -1,0 +1,42 @@
+{
+  "name": "Binance USD",
+  "symbol": "busd",
+  "coingecko_id": "binance-usd",
+  "coin_api_id": "BUSDT",
+  "website": "https://www.binance.com/en/busd",
+  "source_code": "",
+  "category_tags": ["stablecoin"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/busd_official",
+      "handle": "BUSD_official",
+      "search_strings": ["#BUSD", "$BUSD"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/BUSDEnglish",
+      "handle": "BUSD Official"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "BUSD",
+      "quote": "BTC",
+      "pair_id": "binance.com_BUSD_BTC",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "BUSD",
+      "quote": "ETH",
+      "pair_id": "binance.com_BUSD_ETH",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "BUSD",
+      "quote": "USDT",
+      "pair_id": "binance.com_BUSD_USDT",
+      "exchange_id": "binance.com"
+    }
+  ]
+}
