@@ -7,6 +7,17 @@
   "website": "https://tixl.me",
   "source_code": "https://github.com/tixlcurrency",
   "white_paper": "https://tixl.me/whitepaper",
+  "isStableCoin": false,
+  "additionalLinks": [
+    {
+      "label": "Wallet",
+      "url": "https://wallet.tixl.org/"
+    },
+    {
+      "label": "Team",
+      "url": "https://tixl.org/team"
+    }
+  ],
   "category_tags": ["defi", "l1s"],
   "socials": [
     {

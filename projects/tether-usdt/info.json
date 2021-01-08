@@ -5,6 +5,7 @@
   "coingecko_id": "tether",
   "coin_api_id": "TETHER",
   "uniswap_id": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+  "isStableCoin": true,
   "category_tags": ["stablecoin", "usd_stablecoin", "yield_farming"],
   "socials": [
     {
@@ -620,6 +621,7 @@
   "tokenomics": {
     "max_supply": 0,
     "total_supply": 19044288051.7054,
-    "circulating_supply": 19044288051.7054
+    "circulating_supply": 19044288051.7054,
+    "isInflationary": true
   }
 }
