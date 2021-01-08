@@ -1,0 +1,71 @@
+{
+  "name": "Monero",
+  "symbol": "xmr",
+  "coingecko_id": "xmr",
+  "coin_api_id": "XMR",
+  "website": "https://www.getmonero.org/",
+  "source_code": "https://github.com/monero-project/monero",
+  "white_paper": "https://github.com/monero-project/research-lab/blob/master/whitepaper/whitepaper.pdf",
+  "category_tags": ["l1s"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/monero",
+      "handle": "monero",
+      "search_strings": ["#Monero", "$XMR"]
+    },
+    {
+      "name": "Stellar",
+      "url": "https://reddit.com/r/Stellar",
+      "handle": "Stellar"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://telegram.me/monero",
+      "handle": "Monero XMR"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/Monero/",
+      "handle": "Monero"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 17807479,
+    "total_supply": 17807479,
+    "circulating_supply": 17807479
+  },
+  "trading_pairs": [
+    {
+      "base": "XMR",
+      "quote": "USDT",
+      "pair_id": "binance.com_XMR_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "XMR",
+      "quote": "BTC",
+      "pair_id": "binance.com_XMR_BTC",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "XMR",
+      "quote": "ETH",
+      "pair_id": "binance.com_XMR_ETH",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "XLM",
+      "quote": "USD",
+      "pair_id": "coinbase.com_XLM_USD",
+      "exchange_id": "coinbase.com"
+    },
+    {
+      "base": "XMR",
+      "quote": "USDT",
+      "pair_id": "huobi.com_XMR_USDT",
+      "exchange_id": "huobi.com"
+    }
+  ],
+  "__triggerUpdate": 7
+}
