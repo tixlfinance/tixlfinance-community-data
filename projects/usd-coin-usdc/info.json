@@ -1,0 +1,37 @@
+{
+  "name": "USD Coin",
+  "symbol": "usdc",
+  "coingecko_id": "usd-coin",
+  "coin_api_id": "USDC",
+  "website": "https://www.centre.io/usdc",
+  "source_code": "https://github.com/cetrehq",
+  "category_tags": ["stablecoin"],
+  "isStableCoin": true,
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/usdcoin",
+      "handle": "usdcoin",
+      "search_strings": ["#USDC", "$USDC"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/USDCoins",
+      "handle": "USDC Group"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "USDC",
+      "quote": "BTC",
+      "pair_id": "binance.com_USDC_BTC",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "USDC",
+      "quote": "USDT",
+      "pair_id": "binance.com_USDC_USDT",
+      "exchange_id": "binance.com"
+    }
+  ]
+}

@@ -7,10 +7,9 @@
   "website": "https://pro.btcturk.com",
   "exchange_score": {
     "decentralization_score": 0,
-    "regulation_score": 0,
-    "adoption_score": 10,
-    "wash_trading_score": 0,
-    "total_score": 10
+    "regulation_score": 20,
+    "adoption_score": 20,
+    "wash_trading_score": 20
   },
   "__triggerUpdate": 1
 }

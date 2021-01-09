@@ -32,14 +32,10 @@ export const ExchangeSchemaSchema = {
         regulation_score: {
           type: "number",
         },
-        total_score: {
-          type: "number",
-        },
         wash_trading_score: {
           type: "number",
         },
       },
-      required: ["total_score"],
       type: "object",
     },
   },

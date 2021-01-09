@@ -1,0 +1,30 @@
+{
+  "name": "Memetic",
+  "symbol": "meme",
+  "coingecko_id": "memetic",
+  "coin_api_id": "MEME",
+  "website": "https://www.memetic.ai/",
+  "source_code": "https://github.com/pepeteam/pepecoin",
+  "category_tags": ["nft"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/pepecoins",
+      "handle": "pepecoins",
+      "search_strings": ["#pepecoin", "$MEME"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/pepecoins",
+      "handle": "pepecoins"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "MEME",
+      "quote": "BTC",
+      "pair_id": "",
+      "exchange_id": "bittrex.com"
+    }
+  ]
+}

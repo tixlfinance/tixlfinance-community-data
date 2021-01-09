@@ -1,0 +1,36 @@
+{
+  "name": "Rarible",
+  "symbol": "rari",
+  "coingecko_id": "rarible",
+  "coin_api_id": "RARI",
+  "website": "https://rarible.com/",
+  "source_code": "https://github.com/rarible",
+  "category_tags": ["nft"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/rariblecom",
+      "handle": "rariblecom",
+      "search_strings": ["#pepecoin", "$RARI"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/rarible",
+      "handle": "rarible"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "0x0362eb0cbb99175a8148c57b87f0d11b5af74714",
+      "quote": "ETH",
+      "pair_id": "0x86fef14c27c78deaeb4349fd959caa11fc5b5d75",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "RARI",
+      "quote": "ETH",
+      "pair_id": "",
+      "exchange_id": "bilaxy.com"
+    }
+  ]
+}

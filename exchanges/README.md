@@ -37,10 +37,10 @@ The exchange score is calculated by using different factors. It is a subjective 
   - 0: 0 star crypto exchange
 - Wash Trading Score
 
-  - 30: Almost only wash trading. A lot of volume but bad liquidity.
-  - 20: Medium fake volume.
-  - 10: Some trading bots, but pretty good liquidity as well.
-  - 0: Only real volume
+  - 30: Only real volume
+  - 20: Some trading bots, but pretty good liquidity as well.
+  - 10: Medium fake volume.
+  - 0: Almost only wash trading. A lot of volume but bad liquidity.
 
 - Total Score
 

@@ -1,0 +1,66 @@
+{
+  "name": "Zcash",
+  "symbol": "zec",
+  "coingecko_id": "zec",
+  "coin_api_id": "ZEC",
+  "website": "https://z.cash/",
+  "source_code": "https://github.com/zcash/zcash",
+  "white_paper": "https://github.com/zcash/zips/blob/master/protocol/protocol.pdf",
+  "category_tags": ["l1s"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/electriccoinco",
+      "handle": "ElectricCoinCo",
+      "search_strings": ["#Zcash", "$ZEC"]
+    },
+    {
+      "name": "Zcash",
+      "url": "https://reddit.com/r/zec",
+      "handle": "Zcash"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://telegram.me/ZCashco",
+      "handle": "Zcash ZEC"
+    },
+  ],
+  "tokenomics": {
+    "max_supply": 21000000,
+    "total_supply": 21000000,
+    "circulating_supply": 10863856
+  },
+  "trading_pairs": [
+    {
+      "base": "ZEC",
+      "quote": "USDT",
+      "pair_id": "binance.com_ZEC_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "ZEC",
+      "quote": "BTC",
+      "pair_id": "binance.com_ZEC_BTC",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "ZEC",
+      "quote": "ETH",
+      "pair_id": "binance.com_ZEC_ETH",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "ZEC",
+      "quote": "USD",
+      "pair_id": "coinbase.com_ZEC_USD",
+      "exchange_id": "coinbase.com"
+    },
+    {
+      "base": "ZEC",
+      "quote": "USDT",
+      "pair_id": "huobi.com_ZEC_USDT",
+      "exchange_id": "huobi.com"
+    }
+  ],
+  "__triggerUpdate": 7
+}

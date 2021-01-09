@@ -1,0 +1,69 @@
+{
+  "name": "Tomochain",
+  "symbol": "tomo",
+  "coingecko_id": "tomochain",
+  "coin_api_id": "TOMO",
+  "website": "https://tomochain.com",
+  "source_code": "https://github.com/tomochain",
+  "white_paper": "https://tomochain.com/docs/technical-whitepaper--1.0.pdf",
+  "category_tags": ["defi"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/tomochainann",
+      "handle": "TomoChainANN",
+      "search_strings": ["#TomoChain", "$TOMO"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/tomochain",
+      "handle": "TomoChain"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/tomochain",
+      "handle": "TomoChain"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/Tomochain",
+      "handle": "TomoChain"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=JNSK6M3qwSw&list=PLuqf1yr-JvSzx-UuF4tEEIQg9460UotUp&index=1",
+      "handle": "TomoChain"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/tomochainofficial",
+      "handle": "TomoChain"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 100000000,
+    "total_supply": 100000000,
+    "circulating_supply": 76559275
+  },
+  "trading_pairs": [
+    {
+      "base": "TOMO",
+      "quote": "USDT",
+      "pair_id": "TOMO_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "TOMO",
+      "quote": "BTC",
+      "pair_id": "TOMO_BTC",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "TOMO",
+      "quote": "BUSD",
+      "pair_id": "TOMO_BUSD",
+      "exchange_id": "binance.com"
+    }
+  ],
+  "__triggerUpdate": 6
+}

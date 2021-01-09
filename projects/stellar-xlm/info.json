@@ -1,0 +1,60 @@
+{
+  "name": "Stellar",
+  "symbol": "xlm",
+  "coingecko_id": "xlm",
+  "coin_api_id": "XLM",
+  "website": "https://stellar.org",
+  "source_code": "https://github.com/stellar",
+  "white_paper": "https://www.stellar.org/papers/stellar-consensus-protocol",
+  "category_tags": ["l1s"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/stellarorg",
+      "handle": "StellarOrg",
+      "search_strings": ["#Stellar", "$XLM"]
+    },
+    {
+      "name": "Stellar",
+      "url": "https://reddit.com/r/Stellar",
+      "handle": "Stellar"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/StellarLumens",
+      "handle": "Stellar Lumens XLM/STR"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 50001806812,
+    "total_supply": 50001806812,
+    "circulating_supply": 22002650186
+  },
+  "trading_pairs": [
+    {
+      "base": "XLM",
+      "quote": "USDT",
+      "pair_id": "binance.com_XLM_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "XLM",
+      "quote": "BTC",
+      "pair_id": "binance.com_XLM_BTC",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "XLM",
+      "quote": "USD",
+      "pair_id": "coinbase.com_XLM_USD",
+      "exchange_id": "coinbase.com"
+    },
+    {
+      "base": "XLM",
+      "quote": "EUR",
+      "pair_id": "coinbase.com_XLM_EUR",
+      "exchange_id": "coinbase.com"
+    }
+  ],
+  "__triggerUpdate": 7
+}
