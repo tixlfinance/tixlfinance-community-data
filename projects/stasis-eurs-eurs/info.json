@@ -28,9 +28,9 @@
       "exchange_id": "uniswap.exchange"
     },
     {
-      "base": "EURS",
+      "base": "EUS",
       "quote": "USD",
-      "pair_id": "bitfinex.com_EURS_USD",
+      "pair_id": "bitfinex.com_EUS_USD",
       "exchange_id": "bitfinex.com"
     }
   ]
