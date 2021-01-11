@@ -44,7 +44,7 @@
       "quote": "USDT",
       "pair_id": "FTM_USDT",
       "exchange_id": "okex.com"
-    },
+    }
   ],
   "tokenomics": {
     "max_supply": 3175000000,
