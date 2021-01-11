@@ -28,8 +28,8 @@
       "exchange_id": "binance.com"
     },
     {
-      "base": "DAI",
-      "quote": "ETH",
+      "base": "ETH",
+      "quote": "DAI",
       "pair_id": "binance.com_DAI_ETH",
       "exchange_id": "binance.com"
     }
