@@ -6,10 +6,10 @@
   "coin_api_id": "",
   "website": "https://uniswap.exchange",
   "exchange_score": {
-    "decentralization_score": 50,
+    "decentralization_score": 40,
     "regulation_score": 0,
-    "adoption_score": 50,
-    "wash_trading_score": 30
+    "adoption_score": 40,
+    "wash_trading_score": 20
   },
   "__triggerUpdate": 1
 }
