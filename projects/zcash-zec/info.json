@@ -1,7 +1,7 @@
 {
   "name": "Zcash",
   "symbol": "ZEC",
-  "coingecko_id": "zec",
+  "coingecko_id": "zcash",
   "coin_api_id": "ZEC",
   "website": "https://z.cash/",
   "source_code": "https://github.com/zcash/zcash",
