@@ -58,12 +58,6 @@
       "quote": "BTC",
       "pair_id": "DAG_BTC",
       "exchange_id": "hitbtc"
-    },
-    {
-      "base": "0xa8258abc8f2811dd48eccd209db68f25e3e34667",
-      "quote": "ETH",
-      "pair_id": "0x59147a106630029529e0add2c173e8b94b7eef17",
-      "exchange_id": "uniswap.exchange"
     }
   ],
   "tokenomics": {
@@ -71,5 +65,6 @@
     "total_supply": 3711998690,
     "circulating_supply": 1266911931,
     "isInflationary": false
-  }
+  },
+  "__triggerUpdate": 1
 }
