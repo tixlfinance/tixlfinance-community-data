@@ -5,6 +5,7 @@
   "coin_api_id": "EURS",
   "website": "https://eurs.stasis.net/",
   "source_code": "https://github.com/STASISNET",
+  "uniswap_id": "0xdb25f211ab05b1c97d595516f45794528a807ad8",
   "category_tags": ["stablecoin"],
   "isStableCoin": true,
   "socials": [
@@ -23,8 +24,8 @@
   "trading_pairs": [
     {
       "base": "0xdb25f211ab05b1c97d595516f45794528a807ad8",
-      "quote": "USDT",
-      "pair_id": "0x885e214cffd19e1d30f3c9f55056f9e8d99ee1b5",
+      "quote": "USDC",
+      "pair_id": "0x767055e2a9f15783b1ec5ef134a89acf3165332f",
       "exchange_id": "uniswap.exchange"
     },
     {
