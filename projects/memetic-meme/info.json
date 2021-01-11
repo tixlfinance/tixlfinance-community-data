@@ -4,6 +4,7 @@
   "coingecko_id": "memetic",
   "coin_api_id": "MEME",
   "website": "https://www.memetic.ai/",
+  "uniswap_id": "0xd5525d397898e5502075ea5e830d8914f6f0affe",
   "source_code": "https://github.com/pepeteam/pepecoin",
   "category_tags": ["nft"],
   "tokenomics": {
@@ -31,6 +32,12 @@
       "quote": "BTC",
       "pair_id": "",
       "exchange_id": "bittrex.com"
+    },
+    {
+      "base": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "quote": "0xd5525d397898e5502075ea5e830d8914f6f0affe",
+      "pair_id": "0x5dfbe95925ffeb68f7d17920be7b313289a1a583",
+      "exchange_id": "uniswap.exchange"
     }
   ]
 }
