@@ -1,12 +1,17 @@
 {
   "name": "Zcash",
   "symbol": "ZEC",
-  "coingecko_id": "zec",
+  "coingecko_id": "zcash",
   "coin_api_id": "ZEC",
   "website": "https://z.cash/",
   "source_code": "https://github.com/zcash/zcash",
   "white_paper": "https://github.com/zcash/zips/blob/master/protocol/protocol.pdf",
   "category_tags": ["l1s"],
+  "tokenomics": {
+    "max_supply": 21000000,
+    "total_supply": 21000000,
+    "circulating_supply": 10863856
+  },
   "socials": [
     {
       "name": "Twitter",
@@ -25,11 +30,6 @@
       "handle": "Zcash ZEC"
     }
   ],
-  "tokenomics": {
-    "max_supply": 21000000,
-    "total_supply": 21000000,
-    "circulating_supply": 10863856
-  },
   "trading_pairs": [
     {
       "base": "ZEC",

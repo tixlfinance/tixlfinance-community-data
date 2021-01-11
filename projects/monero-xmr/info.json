@@ -1,7 +1,7 @@
 {
   "name": "Monero",
   "symbol": "XMR",
-  "coingecko_id": "xmr",
+  "coingecko_id": "monero",
   "coin_api_id": "XMR",
   "website": "https://www.getmonero.org/",
   "source_code": "https://github.com/monero-project/monero",
