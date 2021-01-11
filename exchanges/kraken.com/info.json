@@ -7,9 +7,9 @@
   "website": "https://kraken.com",
   "exchange_score": {
     "decentralization_score": 0,
-    "regulation_score": 50,
-    "adoption_score": 50,
-    "wash_trading_score": 30
+    "regulation_score": 40,
+    "adoption_score": 40,
+    "wash_trading_score": 20
   },
   "__triggerUpdate": 1
 }

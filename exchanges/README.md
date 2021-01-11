@@ -16,32 +16,32 @@ The exchange score is calculated by using different factors. It is a subjective 
 
 - Decentralization
 
-  - 50: Fully decentralized (no centralized dependencies e.g. Infura)
-  - 40: Almost fully decentralized (no custody, exchange trough decentralized protocol)
-  - 20: Semi-decentralized
+  - 40: Fully decentralized (no centralized dependencies e.g. Infura)
+  - 30: Almost fully decentralized (no custody, exchange trough decentralized protocol)
+  - 15: Semi-decentralized
   - 0: Centralized
 
 - Regulated Exchange
 
-  - 50: Licence in top tier countries (US, Western Europe)
-  - 30: Licence in another country (Malta, Georgia, Asia)
-  - 20: Licence in low reputation country
+  - 40: Licence in top tier countries (US, Western Europe)
+  - 20: Licence in another country (Malta, Georgia, Asia)
+  - 10: Licence in low reputation country
   - 0: no licence
 
 - Adoption
-  - 50: 5 star crypto exchange
-  - 40: 4 star crypto exchange
-  - 30: 3 star crypto exchange
-  - 20: 2 star crypto exchange
-  - 10: 1 star crypto exchange
+  - 40: 5 star crypto exchange
+  - 30: 4 star crypto exchange
+  - 20: 3 star crypto exchange
+  - 10: 2 star crypto exchange
+  - 5: 1 star crypto exchange
   - 0: 0 star crypto exchange
 - Wash Trading Score
 
-  - 30: Only real volume
-  - 20: Some trading bots, but pretty good liquidity as well.
-  - 10: Medium fake volume.
+  - 20: Only real volume
+  - 10: Some trading bots, but pretty good liquidity as well.
+  - 5: Medium fake volume.
   - 0: Almost only wash trading. A lot of volume but bad liquidity.
 
 - Total Score
 
-Sum of the previous values minus wash_trading_score. The total score has a maximum of 10.
+Sum of the all values. The total score has a maximum of 100.
