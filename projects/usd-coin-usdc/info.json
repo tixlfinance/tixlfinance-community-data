@@ -1,6 +1,6 @@
 {
   "name": "USD Coin",
-  "symbol": "usdc",
+  "symbol": "USDC",
   "coingecko_id": "usd-coin",
   "coin_api_id": "USDC",
   "website": "https://www.centre.io/usdc",

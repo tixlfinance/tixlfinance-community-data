@@ -1,6 +1,6 @@
 {
   "name": "Monero",
-  "symbol": "xmr",
+  "symbol": "XMR",
   "coingecko_id": "xmr",
   "coin_api_id": "XMR",
   "website": "https://www.getmonero.org/",
