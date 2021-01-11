@@ -1,6 +1,6 @@
 {
   "name": "Binance USD",
-  "symbol": "busd",
+  "symbol": "BUSD",
   "coingecko_id": "binance-usd",
   "coin_api_id": "BUSD",
   "website": "https://www.binance.com/en/busd",
