@@ -7,6 +7,12 @@
   "source_code": "https://github.com/makerdao",
   "category_tags": ["stablecoin"],
   "isStableCoin": true,
+  "tokenomics": {
+    "max_supply": 1333905266,
+    "total_supply": 1333905266,
+    "circulating_supply": 1333905266,
+    "isInflationary": true
+  },
   "socials": [
     {
       "name": "Twitter",
@@ -28,8 +34,8 @@
       "exchange_id": "binance.com"
     },
     {
-      "base": "DAI",
-      "quote": "ETH",
+      "base": "ETH",
+      "quote": "DAI",
       "pair_id": "binance.com_DAI_ETH",
       "exchange_id": "binance.com"
     }

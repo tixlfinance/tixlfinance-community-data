@@ -6,6 +6,12 @@
   "website": "https://rarible.com/",
   "source_code": "https://github.com/rarible",
   "category_tags": ["nft"],
+  "uniswap_id": "0x0362eb0cbb99175a8148c57b87f0d11b5af74714",
+  "tokenomics": {
+    "max_supply": 25000000,
+    "total_supply": 25000000,
+    "circulating_supply": 855330
+  },
   "socials": [
     {
       "name": "Twitter",

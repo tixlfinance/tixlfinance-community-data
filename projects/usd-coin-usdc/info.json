@@ -7,6 +7,12 @@
   "source_code": "https://github.com/cetrehq",
   "category_tags": ["stablecoin"],
   "isStableCoin": true,
+  "tokenomics": {
+    "max_supply": 4651348913,
+    "total_supply": 4651348913,
+    "circulating_supply": 4651348913,
+    "isInflationary": true
+  },
   "socials": [
     {
       "name": "Twitter",
