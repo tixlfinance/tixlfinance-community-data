@@ -8,6 +8,9 @@
   "category_tags": ["stablecoin"],
   "isStableCoin": true,
   "tokenomics": {
+    "max_supply": 1333905266,
+    "total_supply": 1333905266,
+    "circulating_supply": 1333905266,
     "isInflationary": true
   },
   "socials": [

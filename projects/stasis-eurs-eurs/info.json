@@ -8,6 +8,12 @@
   "uniswap_id": "0xdb25f211ab05b1c97d595516f45794528a807ad8",
   "category_tags": ["stablecoin"],
   "isStableCoin": true,
+  "tokenomics": {
+    "max_supply": 31979207,
+    "total_supply": 31979207,
+    "circulating_supply": 31979207,
+    "isInflationary": true
+  },
   "socials": [
     {
       "name": "Twitter",
