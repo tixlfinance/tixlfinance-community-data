@@ -7,7 +7,7 @@ assignees: smuibrig
 
 ---
 
-<!-- ⚠️ If you do not respect this template your bug report issue will be closed. -->
+<!-- ⚠️ If you do not respect this template your issue will be closed. -->
 
 ### Title
 
