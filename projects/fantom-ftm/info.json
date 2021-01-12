@@ -1,0 +1,54 @@
+{
+  "name": "Fantom",
+  "symbol": "FTM",
+  "website": "https://fantom.foundation/",
+  "coingecko_id": "fantom",
+  "coin_api_id": "FTM",
+  "source_code": "https://github.com/Fantom-Foundation",
+  "white_paper": "https://whitepaper.io/document/438/fantom-whitepaper",
+  "category_tags": ["l1s"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://www.twitter.com/FantomFDN",
+      "search_strings": ["$FTM"]
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.comr/FantomFoundation"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/Fantom_English"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/fantomfoundation"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "FTM",
+      "quote": "USDT",
+      "pair_id": "FTM_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "FTM",
+      "quote": "BTC",
+      "pair_id": "FTM_BTC",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "FTM",
+      "quote": "USDT",
+      "pair_id": "FTM_USDT",
+      "exchange_id": "okex.com"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 3175000000,
+    "total_supply": 3175000000,
+    "circulating_supply": 2541152731
+  }
+}
