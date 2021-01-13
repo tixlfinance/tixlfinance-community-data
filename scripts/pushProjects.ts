@@ -1,14 +1,14 @@
-import fs from 'fs';
-import path from 'path';
-import dotenv from 'dotenv';
-import { GraphQLClient, gql } from 'graphql-request';
-import { Headers } from 'cross-fetch';
+import fs from "fs";
+import path from "path";
+import dotenv from "dotenv";
+import { GraphQLClient, gql } from "graphql-request";
+import { Headers } from "cross-fetch";
 
 export const pushProjects = async (isPreview?: boolean) => {
   dotenv.config();
   global.Headers = global.Headers || Headers;
 
-  const directoryPath = path.join(__dirname, './../projects');
+  const directoryPath = path.join(__dirname, "./../projects");
 
   const changedFiles = process.argv.slice(2);
 
@@ -17,19 +17,19 @@ export const pushProjects = async (isPreview?: boolean) => {
       throw err;
     }
 
-    console.log('changedFiles', JSON.stringify(changedFiles));
+    console.log("changedFiles", JSON.stringify(changedFiles));
     const updatedProjects = changedFiles
       .map((dir) => {
-        const dirChange = dir.split('/', 3);
-        if (dir.includes('projects')) {
-          const filePath = directoryPath + '/' + dirChange[1] + '/info.json';
-          const logoPath = '/projects/' + dirChange[1] + '/logo.png';
+        const dirChange = dir.split("/", 3);
+        if (dir.includes("projects")) {
+          const filePath = directoryPath + "/" + dirChange[1] + "/info.json";
+          const logoPath = "/projects/" + dirChange[1] + "/logo.png";
           const descriptionPath =
-            directoryPath + '/' + dirChange[1] + '/description.md';
+            directoryPath + "/" + dirChange[1] + "/description.md";
 
           return new Promise((resolve, _) => {
-            fs.readFile(filePath, 'utf8', (_, data) => {
-              fs.readFile(descriptionPath, 'utf8', (_, descriptionData) => {
+            fs.readFile(filePath, "utf8", (_, data) => {
+              fs.readFile(descriptionPath, "utf8", (_, descriptionData) => {
                 if (data) {
                   const parsed = {
                     ...JSON.parse(data),
@@ -57,12 +57,12 @@ export const pushProjects = async (isPreview?: boolean) => {
       Promise.all(updatedProjects)
         .then(async (projects: any[]) => {
           for (const project of projects) {
-            console.log('Processing project', JSON.stringify(project));
+            console.log("Processing project", JSON.stringify(project));
             delete project.__triggerUpdate;
 
             const endpoint = process.env.MAIN_API_ENDPOINT as string;
             if (!endpoint) {
-              throw new Error('API endpoint invalid');
+              throw new Error("API endpoint invalid");
             }
             const graphQLClient = new GraphQLClient(endpoint);
             graphQLClient.setHeaders({
@@ -80,8 +80,8 @@ export const pushProjects = async (isPreview?: boolean) => {
             const existsResponse = await graphQLClient.request(existsQuery);
             const alreadyExists = existsResponse.assetByAssetId !== null;
             const mutationToUse = alreadyExists
-              ? 'updateAssetFromGithub'
-              : 'createAssetFromGithub';
+              ? "updateAssetFromGithub"
+              : "createAssetFromGithub";
 
             const mutation = gql`
               mutation CreateAsset($data: AssetInput!) {
@@ -97,10 +97,10 @@ export const pushProjects = async (isPreview?: boolean) => {
 
             const response = await graphQLClient.request(mutation, variables);
             if (!response) {
-              throw new Error('No response from mutation call');
+              throw new Error("No response from mutation call");
             }
             console.info(
-              `${alreadyExists ? 'Updated' : 'Created'} project ${
+              `${alreadyExists ? "Updated" : "Created"} project ${
                 project.asset_id
               }`
             );
@@ -116,7 +116,7 @@ export const pushProjects = async (isPreview?: boolean) => {
 
 pushProjects()
   .then(() => {
-    console.log('Pushing Projects to server');
+    console.log("Pushing Projects to server");
   })
   .catch((err) => {
     console.log(err);
