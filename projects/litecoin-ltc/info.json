@@ -1,0 +1,66 @@
+{
+    "name": "Litecoin",
+    "symbol": "LTC",
+    "website": "https://litecoin.com/",
+    "coingecko_id": "litecoin",
+    "coin_api_id": "LTC",
+    "source_code": "https://github.com/litecoin-project",
+    "socials": [
+        {
+            "name": "Twitter",
+            "url": "https://twitter.com/LTCFoundation",
+            "search_strings": [
+                "$LTC"
+            ]
+        },
+        {
+            "name": "Facebook",
+            "url": "https://www.facebook.com/1404300819808248"
+        },
+        {
+            "name": "Reddit",
+            "url": "https://reddit.com/r/litecoin"
+        },
+        {
+            "name": "Telegram",
+            "url": "https://t.me/Litecoin"
+        }
+    ],
+    "trading_pairs": [
+        {
+            "base": "LTC",
+            "quote": "USDT",
+            "pair_id": "huobi.com_LTC_USDT",
+            "exchange_id": "huobi.com"
+        },
+        {
+            "base": "LTC",
+            "quote": "USDT",
+            "pair_id": "binance.com_LTC_USDT",
+            "exchange_id": "binance.com"
+        },
+        {
+            "base": "LTC",
+            "quote": "USDT",
+            "pair_id": "LTC_USDT",
+            "exchange_id": "okex.com"
+        },
+        {
+            "base": "LTC",
+            "quote": "USD",
+            "pair_id": "kraken.com_LTC_USD",
+            "exchange_id": "kraken.com"
+        },
+        {
+            "base": "LTC",
+            "quote": "USD",
+            "pair_id": "bitfinex.com_LTC_USD",
+            "exchange_id": "bitfinex.com"
+        }
+    ],
+    "tokenomics": {
+        "max_supply": 84000000,
+        "total_supply": 84000000,
+        "circulating_supply": 66256803
+    }
+}
