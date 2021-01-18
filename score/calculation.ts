@@ -119,7 +119,12 @@ export const calcLiquidityScore = (
   );
 };
 
-export function calcScore(asset: Asset, sentimentData: SentimentData): Score {
+export function calcScore(
+  asset: Asset,
+  sentimentData: SentimentData,
+  volumeAthBTC: number,
+  volumeBTC: number
+): Score {
   let volumeScore = SCORE_UNDEFINED;
   let liquidityScore = SCORE_UNDEFINED;
   let exchangesScore = SCORE_UNDEFINED;
@@ -127,14 +132,20 @@ export function calcScore(asset: Asset, sentimentData: SentimentData): Score {
   let supplyScore = SCORE_UNDEFINED;
 
   // the volume score is defined by
-  if (asset.market_cap_usd && asset.volume_24h_usd) {
-    let volumeScoreRatio = asset.volume_24h_usd / asset.market_cap_usd;
-
-    if (volumeScoreRatio > 1) {
-      volumeScoreRatio = 1;
+  if (
+    asset.market_cap_usd &&
+    asset.volume_24h_usd &&
+    volumeAthBTC &&
+    volumeBTC
+  ) {
+    if (asset.asset_id === 'bitcoin-btc') {
+      volumeScore =
+        (asset.volume_24h_usd / (0.8 * volumeAthBTC)) * SCORE_MAX_VALUE;
+    } else {
+      volumeScore = (asset.volume_24h_usd / volumeBTC) * SCORE_MAX_VALUE;
     }
 
-    volumeScore = volumeScoreRatio * SCORE_MAX_VALUE;
+    volumeScore = Math.min(volumeScore, SCORE_MAX_VALUE);
   }
 
   if (asset.exchanges_data?.length > 0) {
