@@ -8,7 +8,11 @@ import validateBlogs from "../blogs/0-schema/blog.schema.validator";
 
 // should be "projects" or "exchanges"
 const type = process.argv[2];
-if (!["projects", "exchanges", "influencers", "categories", "blogs"].includes(type)) {
+if (
+  !["projects", "exchanges", "influencers", "categories", "blogs"].includes(
+    type
+  )
+) {
   throw new Error("Unsupported type");
 }
 
