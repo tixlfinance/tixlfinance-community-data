@@ -1,16 +1,16 @@
-import fs from "fs";
-import dotenv from "dotenv";
-import { Headers } from "cross-fetch";
-import { GraphQLClient, gql } from "graphql-request";
-import path from "path";
-import { calcScore } from "../calculation";
+import fs from 'fs';
+import dotenv from 'dotenv';
+import { Headers } from 'cross-fetch';
+import { GraphQLClient, gql } from 'graphql-request';
+import path from 'path';
+import { calcScore } from '../calculation';
 
 dotenv.config();
 global.Headers = global.Headers || Headers;
 
 const endpoint = process.env.MAIN_API_ENDPOINT as string;
 if (!endpoint) {
-  throw new Error("API endpoint invalid");
+  throw new Error('API endpoint invalid');
 }
 
 const graphQLClient = new GraphQLClient(endpoint);
@@ -19,11 +19,11 @@ graphQLClient.setHeaders({
 });
 
 async function calcScoresAndGenerateCsv() {
-  const projectsPath = path.join(__dirname, "./../projects");
+  const projectsPath = path.join(__dirname, './../projects');
 
   // print the CSV header line
   console.log(
-    "asset_id;volume_score;real_liquidity_score;exchanges_score;supply_score;sentiment_score;total_score"
+    'asset_id;volume_score;real_liquidity_score;exchanges_score;supply_score;sentiment_score;total_score'
   );
 
   fs.readdir(projectsPath, async (err, dirNames) => {
@@ -32,7 +32,7 @@ async function calcScoresAndGenerateCsv() {
     }
 
     for (const dirName of dirNames) {
-      if (dirName.startsWith(".")) {
+      if (dirName.startsWith('.')) {
         continue;
       }
 
@@ -62,6 +62,37 @@ async function calcScoresAndGenerateCsv() {
       `;
       const assetResponse = await graphQLClient.request(assetQuery);
 
+      const btcQuery = gql`
+        query {
+          assetByAssetId(asset_id: "bitcoin-btc") {
+            asset_id
+            exchanges_data {
+              _id
+              pair
+              exchange {
+                _id
+                exchange_score {
+                  total_score
+                }
+              }
+            }
+            id
+            market_cap_usd
+            volume_24h_ath {
+              volume_usd
+            }
+            tokenomics {
+              circulating_supply
+              total_supply
+            }
+            volume_24h_usd
+            slippage_10000USD
+            slippage_100000USD
+          }
+        }
+      `;
+      const btcResponse = await graphQLClient.request(btcQuery);
+
       const sentimentDataQuery = gql`
         query { tixlScoreSentimentInputDataByAssetId(asset_id: "${dirName}") {
           socialVolumeNormalizationFactor,
@@ -74,7 +105,9 @@ async function calcScoresAndGenerateCsv() {
 
       const score = calcScore(
         assetResponse.assetByAssetId,
-        sentimentDataResponse.tixlScoreSentimentInputDataByAssetId
+        sentimentDataResponse.tixlScoreSentimentInputDataByAssetId,
+        btcResponse.volume_24h_ath,
+        btcResponse.volume_24h_usd
       );
       console.log(
         `${assetResponse.assetByAssetId.asset_id};${score.volume_score};${score.real_liquidity_score};${score.exchanges_score};${score.supply_score};${score.sentiment_score};${score.total_score}`
