@@ -38,7 +38,7 @@ export const BLogSchemaSchema = {
       type: "string",
     },
   },
-  required: ["blog_id", "preview_headline", "preview_subtitle", "markdown_file", "markdown_content"],
+  required: ["blog_id", "preview_headline", "preview_subtitle"],
   type: "object",
 };
 export type ValidateFunction<T> = ((data: unknown) => data is T) &
