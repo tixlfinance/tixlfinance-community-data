@@ -4,7 +4,6 @@
   "coingecko_id": "binance-usd",
   "coin_api_id": "BUSD",
   "website": "https://www.binance.com/en/busd",
-  "source_code": "",
   "isStableCoin": true,
   "category_tags": ["stablecoin"],
   "tokenomics": {

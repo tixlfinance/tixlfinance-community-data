@@ -1,0 +1,11 @@
+{
+    "name": "Altcoinbuzz",
+    "url": "https://www.altcoinbuzz.io",
+    "rssFeeds": [
+      {
+        "url": "https://www.altcoinbuzz.io/feed",
+        "name": "Allnews"
+      }
+    ]
+  }
+  

@@ -3,14 +3,22 @@ import path from "path";
 import validateProject from "../projects/0-schema/project.schema.validator";
 import validateExchange from "../exchanges/0-schema/exchange.schema.validator";
 import validateInfluencer from "../influencers/0-schema/influencer.schema.validator";
+import validateCategories from "../categories/0-schema/categories.schema.validator";
+import validateBlogs from "../blogs/0-schema/blog.schema.validator";
 
 // should be "projects" or "exchanges"
 const type = process.argv[2];
-if (!["projects", "exchanges", "influencers"].includes(type)) {
+if (
+  !["projects", "exchanges", "influencers", "categories", "blogs"].includes(
+    type
+  )
+) {
   throw new Error("Unsupported type");
 }
 
 const validateFunctions = {
+  blogs: validateBlogs,
+  categories: validateCategories,
   exchanges: validateExchange,
   projects: validateProject,
   influencers: validateInfluencer,
