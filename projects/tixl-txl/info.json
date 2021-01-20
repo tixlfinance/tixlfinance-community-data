@@ -185,6 +185,11 @@
                 "popoverValue": 73259119
               },
               {
+                "label": "Community/Investor Wallets",
+                "value": 6.8,
+                "popoverValue": 61415823
+              },
+              {
                 "label": "Legal",
                 "value": 6.1,
                 "popoverValue": 54944339
@@ -193,6 +198,16 @@
                 "label": "Security Audits",
                 "value": 6.1,
                 "popoverValue": 54944339
+              },
+              {
+                "label": "Future Hodlers Rewards",
+                "value": 5.4,
+                "popoverValue": 48769021
+              },
+              {
+                "label": "Founder Wallets",
+                "value": 5.0,
+                "popoverValue": 45000000
               },
               {
                 "label": "Advisory Board",
@@ -213,21 +228,6 @@
                 "label": "Sold/assigned distributed tokens",
                 "value": 1.4,
                 "popoverValue": 12218635
-              },
-              {
-                "label": "Future Hodlers Rewards",
-                "value": 5.4,
-                "popoverValue": 48769021
-              },
-              {
-                "label": "Founder Wallets",
-                "value": 5.0,
-                "popoverValue": 45000000
-              },
-              {
-                "label": "Community/Investor Wallets",
-                "value": 6.8,
-                "popoverValue": 61415823
               }
             ]
           }
