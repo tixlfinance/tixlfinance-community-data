@@ -30,7 +30,8 @@
     },
     {
       "name": "Youtube",
-      "url": "https://www.youtube.com/watch?v=mCOfz50Wcmo&list=UUNOfzGXD_C9YMYmnefmPH0g"
+      "url": "https://www.youtube.com/watch?v=mCOfz50Wcmo&list=UUNOfzGXD_C9YMYmnefmPH0g",
+      "handle": "UCNOfzGXD_C9YMYmnefmPH0g"
     }
   ],
   "tokenomics": {

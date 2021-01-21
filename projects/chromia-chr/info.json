@@ -25,7 +25,8 @@
     },
     {
       "name": "Youtube",
-      "url": "https://www.youtube.com/watch?v=xl43IyxbitU&list=UUM_FvcRzwoZUmc60fYFjdSQ&index=1"
+      "url": "https://www.youtube.com/watch?v=xl43IyxbitU&list=UUM_FvcRzwoZUmc60fYFjdSQ&index=1",
+      "handle": "UCM_FvcRzwoZUmc60fYFjdSQ"
     }
   ],
   "trading_pairs": [
