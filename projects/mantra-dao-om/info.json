@@ -30,7 +30,8 @@
     },
     {
       "name": "Medium",
-      "url": "https://medium.com/mantra-dao"
+      "url": "https://medium.com/mantra-dao",
+      "handle": "mantra-dao"
     }
   ],
   "trading_pairs": [

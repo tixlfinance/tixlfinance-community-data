@@ -30,7 +30,8 @@
     },
     {
       "name": "Medium",
-      "url": "https://medium.com/morpheus-network"
+      "url": "https://medium.com/morpheus-network",
+      "handle": "morpheus-network"
     }
   ],
   "trading_pairs": [

@@ -28,7 +28,8 @@
     },
     {
       "name": "Medium",
-      "url": "https://medium.com/@dashcoinxc"
+      "url": "https://medium.com/@dashcoinxc",
+      "handle": "dashcoinxc"
     }
   ],
   "trading_pairs": [

@@ -29,7 +29,8 @@
     },
     {
       "name": "Medium",
-      "url": "https://medium.com/@polkadotnetwork"
+      "url": "https://medium.com/@polkadotnetwork",
+      "handle": "@polkadotnetwork"
     }
   ],
   "trading_pairs": [

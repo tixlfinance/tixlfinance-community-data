@@ -30,7 +30,8 @@
     },
     {
       "name": "Medium",
-      "url": "https://medium.com/@LCX.exchange"
+      "url": "https://medium.com/@LCX.exchange",
+      "handle": "@LCX.exchange"
     }
   ],
   "trading_pairs": [

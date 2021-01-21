@@ -22,7 +22,8 @@
     },
     {
       "name": "Medium",
-      "url": "https://medium.com/dia-insights"
+      "url": "https://medium.com/dia-insights",
+      "handle": "dia-insights"
     }
   ],
   "trading_pairs": [

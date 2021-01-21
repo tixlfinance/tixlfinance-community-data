@@ -27,7 +27,8 @@
     },
     {
       "name": "Medium",
-      "url": "https://medium.com/@polkastarter"
+      "url": "https://medium.com/@polkastarter",
+      "handle": "@polkastarter"
     }
   ],
   "tokenomics": {

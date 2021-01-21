@@ -23,7 +23,8 @@
     },
     {
       "name": "Medium",
-      "url": "https://medium.com/fantomfoundation"
+      "url": "https://medium.com/fantomfoundation",
+      "handle": "fantomfoundation"
     }
   ],
   "trading_pairs": [

@@ -26,7 +26,8 @@
     },
     {
       "name": "Medium",
-      "url": "https://medium.com/tellor"
+      "url": "https://medium.com/tellor",
+      "handle": "tellor"
     }
   ],
   "trading_pairs": [

@@ -30,7 +30,8 @@
     },
     {
       "name": "Medium",
-      "url": "https://medium.com/@Sentivate"
+      "url": "https://medium.com/@Sentivate",
+      "handle": "@Sentivate"
     }
   ],
   "trading_pairs": [

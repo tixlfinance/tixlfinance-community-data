@@ -18,7 +18,8 @@
     },
     {
       "name": "Medium",
-      "url": "https://medium.com/dmm-dao"
+      "url": "https://medium.com/dmm-dao",
+      "handle": "dmm-dao"
     }
   ],
   "trading_pairs": [

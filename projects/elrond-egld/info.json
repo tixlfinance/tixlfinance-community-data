@@ -25,7 +25,8 @@
     },
     {
       "name": "Medium",
-      "url": "https://medium.com/elrondnetwork"
+      "url": "https://medium.com/elrondnetwork",
+      "handle": "elrondnetwork"
     }
   ],
   "trading_pairs": [

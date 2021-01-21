@@ -29,7 +29,8 @@
     },
     {
       "name": "Medium",
-      "url": "https://medium.com/pundix"
+      "url": "https://medium.com/pundix",
+      "handle": "pundix"
     }
   ],
   "trading_pairs": [

@@ -30,7 +30,8 @@
     },
     {
       "name": "Medium",
-      "url": "https://medium.com/reserve-currency"
+      "url": "https://medium.com/reserve-currency",
+      "handle": "reserve-currency"
     }
   ],
   "trading_pairs": [

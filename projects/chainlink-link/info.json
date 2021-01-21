@@ -26,7 +26,8 @@
     },
     {
       "name": "Medium",
-      "url": "https://medium.com/chainlink"
+      "url": "https://medium.com/chainlink",
+      "handle": "chainlink"
     }
   ],
   "trading_pairs": [

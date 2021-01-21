@@ -29,7 +29,8 @@
     },
     {
       "name": "Medium",
-      "url": "https://medium.com/energy-web-insights"
+      "url": "https://medium.com/energy-web-insights",
+      "handle": "energy-web-insights"
     }
   ],
   "trading_pairs": [

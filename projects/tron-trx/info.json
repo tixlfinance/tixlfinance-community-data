@@ -29,7 +29,8 @@
     },
     {
       "name": "Medium",
-      "url": "https://medium.com/tron-foundation"
+      "url": "https://medium.com/tron-foundation",
+      "handle": "tron-foundation"
     }
   ],
   "trading_pairs": [

@@ -25,7 +25,8 @@
     },
     {
       "name": "Medium",
-      "url": "https://medium.com/tezos"
+      "url": "https://medium.com/tezos",
+      "handle": "tezos"
     }
   ],
   "trading_pairs": [
