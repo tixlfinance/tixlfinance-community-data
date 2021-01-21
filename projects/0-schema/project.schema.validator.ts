@@ -44,6 +44,9 @@ export const ProjectSchemaSchema = {
           format: "url",
           type: "string",
         },
+        handle: {
+          type: "string"
+        }
       },
       required: ["name", "url"],
       type: "object",
