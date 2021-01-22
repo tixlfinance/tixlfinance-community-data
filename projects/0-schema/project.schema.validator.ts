@@ -110,9 +110,6 @@ export const ProjectSchemaSchema = {
     symbol: {
       type: "string",
     },
-    token: {
-      $ref: "#/definitions/TokenSchema",
-    },
     tokenomics: {
       $ref: "#/definitions/TokenomicsSchema",
     },
