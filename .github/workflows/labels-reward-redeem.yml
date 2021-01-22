@@ -10,7 +10,6 @@ jobs:
         steps:
             # - uses: actions/checkout@v2
             # - uses: actions/setup-node@v1
-            - run: env
             - run: cat $GITHUB_EVENT_PATH
             # - run: npm install -g bats
             # - run: bats -v
