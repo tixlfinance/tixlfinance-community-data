@@ -8,6 +8,29 @@ interface SocialSchema {
   search_strings?: string[];
 }
 
+interface TokenSchema {
+  sections: Section[];
+}
+
+interface Section {
+  type: string
+  content?: string;
+  charts?: Chart[];
+}
+
+interface Chart {
+  dropdownLabel?: string
+  popoverUnit: string
+  valueUnit: string
+  labelsAndValues: LabelsAndValues[]
+}
+
+interface LabelsAndValues {
+  label: string;
+  value: number
+  popoverValue: number
+}
+
 interface LinkSchema {
   label: string;
   /**
@@ -56,4 +79,5 @@ export default interface ProjectSchema {
   tokenomics: TokenomicsSchema;
   tokenomics_url?: string;
   trading_pairs: TradingPair[];
+  token?: TokenSchema;
 }
