@@ -1,0 +1,15 @@
+name: Manage labels of reward redeem flow
+on:
+    pull_request:
+        types: [opened, labeled, closed, merged]
+    issues:
+        types: [opened, labeled, closed]
+jobs:
+    redeem-rewards:
+        runs-on: ubuntu-latest
+        steps:
+            # - uses: actions/checkout@v2
+            # - uses: actions/setup-node@v1
+            - run: env
+            # - run: npm install -g bats
+            # - run: bats -v
