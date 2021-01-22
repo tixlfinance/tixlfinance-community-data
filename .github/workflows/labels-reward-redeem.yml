@@ -8,8 +8,7 @@ jobs:
     redeem-rewards:
         runs-on: ubuntu-latest
         steps:
-            # - uses: actions/checkout@v2
-            # - uses: actions/setup-node@v1
-            - run: cat $GITHUB_EVENT_PATH
-            # - run: npm install -g bats
+            - uses: actions/checkout@v2
+            - uses: actions/setup-node@v1
+            # - run: npm install
             # - run: bats -v
