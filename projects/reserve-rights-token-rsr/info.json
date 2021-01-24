@@ -2,7 +2,7 @@
   "name": "Reserve Rights Token",
   "symbol": "RSR",
   "website": "https://reserve.org/",
-  "whitepaper" : "https://reserve.org/whitepaper.pdf",
+  "white_paper" : "https://reserve.org/whitepaper.pdf",
   "coingecko_id": "reserve-rights-token",
   "coin_api_id": "RESERVE-RIGHTS-TOKEN",
   "uniswap_id": "0x8762db106b2c2a0bccb3a80d1ed41273552616e8",
