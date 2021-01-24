@@ -2,6 +2,7 @@
   "name": "Reserve Rights Token",
   "symbol": "RSR",
   "website": "https://reserve.org/",
+  "whitepaper" : "https://reserve.org/whitepaper.pdf",
   "coingecko_id": "reserve-rights-token",
   "coin_api_id": "RESERVE-RIGHTS-TOKEN",
   "uniswap_id": "0x8762db106b2c2a0bccb3a80d1ed41273552616e8",
@@ -431,5 +432,49 @@
     "max_supply": 100000000000,
     "total_supply": 100000000000,
     "circulating_supply": 9347804000
+  },
+  "token": {
+    "sections": [
+      {
+        "type": "headline",
+        "content": "Reserve Rights Token Structure"
+      },
+      {
+        "type": "text",
+        "content": "Team and Advisors Release Period: Vest over 6 months after main net launch, which is expected in 2020. Partners Release Period: Vest over 6 months after main net launch, which is expected in 2020. Foundation Release Period: 2.85% of total tokens are held by the foundation, unlocked. Unlocked tokens can be used at the team’s discretion for additional fundraising or other purposes. 55.75% of total tokens are held by the foundation with a specialized lockup, and are stored in a smart contract referred to as the \"slow wallet.\" Slow wallet tokens are locked, and can only be withdrawn with four-week delay visible on-chain including message from the team explaining the withdrawal. This mechanism was designed by the Reserve team to give the project the ability to release tokens for fundraising and other purposes, while allowing the market to price in that information well before any newly released tokens can be sold by the project. Note: It was previously stated that “slow wallet” withdrawals could be executed with a two week delay. The project chose to increase this to four weeks to allow for additional time for market participants to track project token movements. The contract address of the “slow wallet” is: https://etherscan.io/token/0x8762db106b2c2a0bccb3a80d1ed41273552616e8?a=0x4903dc97816f99410e8dfff51149fa4c3cdad1b8"
+      },
+      {
+        "type": "pieChart",
+        "charts": [
+          {
+            "dropdownLabel": "Detailed",
+            "popoverUnit": "RSR",
+            "valueUnit": "%",
+            "labelsAndValues": [
+              {
+                "label": "Foundation",
+                "value": 58.6,
+                "popoverValue": 58600000000
+              },
+              {
+                "label": "Team and Advisors",
+                "value": 20,
+                "popoverValue": 20000000000
+              },
+              {
+                "label": "Current Project Funding",
+                "value": 16.4,
+                "popoverValue": 16400000000
+              },
+              {
+                "label": "Strategic Partners",
+                "value": 5,
+                "popoverValue": 5000000000
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 }
