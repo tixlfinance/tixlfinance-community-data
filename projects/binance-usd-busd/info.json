@@ -27,8 +27,8 @@
   ],
   "trading_pairs": [
     {
-      "base": "BUSD",
-      "quote": "BTC",
+      "base": "BTC",
+      "quote": "BUSD",
       "pair_id": "binance.com_BUSD_BTC",
       "exchange_id": "binance.com"
     },
