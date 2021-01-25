@@ -22,6 +22,7 @@ async function main() {
     const body = fs.readFileSync(path, "utf8");
     const event = JSON.parse(body);
 
+    // Little comment
     console.log(body as string);
 
     const mutation = gql`
