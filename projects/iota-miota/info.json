@@ -3,7 +3,7 @@
   "symbol": "MIOTA",
   "website": "http://iota.org/",
   "coingecko_id": "iota",
-  "coin_api_id": "IOTA",
+  "coin_api_id": "",
   "category_tags": ["smart_contract_platform", "iot"],
   "socials": [
     {
@@ -32,26 +32,8 @@
   "trading_pairs": [
     {
       "base": "IOT",
-      "quote": "JPY",
-      "pair_id": "IOT_JPY",
-      "exchange_id": "bitfinex.com"
-    },
-    {
-      "base": "IOT",
       "quote": "USD",
       "pair_id": "IOT_USD",
-      "exchange_id": "bitfinex.com"
-    },
-    {
-      "base": "IOT",
-      "quote": "GBP",
-      "pair_id": "IOT_GBP",
-      "exchange_id": "bitfinex.com"
-    },
-    {
-      "base": "IOT",
-      "quote": "EUR",
-      "pair_id": "IOT_EUR",
       "exchange_id": "bitfinex.com"
     },
     {
@@ -173,12 +155,6 @@
       "quote": "USDT",
       "pair_id": "IOTA_USDT",
       "exchange_id": "coinex"
-    },
-    {
-      "base": "IOTA",
-      "quote": "ETH",
-      "pair_id": "IOTA_ETH",
-      "exchange_id": "huobi.com"
     },
     {
       "base": "IOTA",
