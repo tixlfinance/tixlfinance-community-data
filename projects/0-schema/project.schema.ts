@@ -13,22 +13,22 @@ interface TokenSchema {
 }
 
 interface Section {
-  type: string
+  type: string;
   content?: string;
   charts?: Chart[];
 }
 
 interface Chart {
-  dropdownLabel?: string
-  popoverUnit: string
-  valueUnit: string
-  labelsAndValues: LabelsAndValues[]
+  dropdownLabel?: string;
+  popoverUnit: string;
+  valueUnit: string;
+  labelsAndValues: LabelsAndValues[];
 }
 
 interface LabelsAndValues {
   label: string;
-  value: number
-  popoverValue: number
+  value: number;
+  popoverValue: number;
 }
 
 interface LinkSchema {
@@ -56,6 +56,7 @@ interface TradingPair {
 export default interface ProjectSchema {
   name: string;
   symbol: string;
+  additionalSymbols: string[];
   coingecko_id?: string;
   coin_api_id?: string;
   isStableCoin?: boolean;
