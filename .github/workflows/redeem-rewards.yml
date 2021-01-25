@@ -32,6 +32,7 @@ jobs:
             - name: Push assets to server
               env:
                   MAIN_API_ENDPOINT: ${{ secrets.MAIN_API_ENDPOINT }}
+                  MAIN_API_TOKEN: ${{ secrets.API_ASSETS_KEY }}
               run: |
                   npm run redeem:rewards
               shell: bash
