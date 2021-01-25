@@ -21,8 +21,6 @@ async function main() {
     const path = process.env.GITHUB_EVENT_PATH as string;
     const event = JSON.parse(fs.readFileSync(path, "utf8"));
 
-    console.log(event);
-
     const mutation = gql`
         mutation upsert($issue: IssueInput!) {
             upsertIssue(data: $issue) {
@@ -33,17 +31,16 @@ async function main() {
                 github_id
                 title
                 url
-                user_id
-                transaction_id
             }
         }
     `;
 
+    const data = event.issue || event.pull_request;
     const issue = {
-        github_id: event.issue.id.toString(),
-        title: event.issue.title,
-        labels: event.issue.labels.map((label) => label.name),
-        url: event.issue.url,
+        github_id: data.id.toString(),
+        title: data.title,
+        labels: data.labels.map((label) => label.name),
+        url: data.url,
     };
 
     const response = await graphQLClient.request(mutation, { issue });
@@ -51,7 +48,7 @@ async function main() {
         throw new Error("No response from mutation call");
     }
 
-    console.log("It worked!: ", response);
+    console.log("Response: ", response);
 }
 
 main();
