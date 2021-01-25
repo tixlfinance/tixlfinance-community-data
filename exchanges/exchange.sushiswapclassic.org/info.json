@@ -1,0 +1,15 @@
+{
+    "exchange_id": "exchange.sushiswapclassic.org",
+    "name": "SushiSwap",
+    "logo": "https://assets.coingecko.com/markets/images/576/large/2048x2048_Logo.png?1609208464",
+    "coingecko_id": "sushiswap",
+    "coin_api_id": "SUSHISWAP",
+    "website": "https://exchange.sushiswapclassic.org/",
+    "exchange_score": {
+        "decentralization_score": 40,
+        "regulation_score": 0,
+        "adoption_score": 40,
+        "wash_trading_score": 20
+    },
+    "__triggerUpdate": 1
+}
