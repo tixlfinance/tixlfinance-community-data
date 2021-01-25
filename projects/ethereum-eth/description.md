@@ -5,3 +5,5 @@ Ethereum is the transactional token of the Ethereum network, which itself is a g
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jxLkbJozKbY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Unlike bitcoin in which the creator who is known as Satoshi Nakamoto is unknown. The founding team of Ethereum are known individuals which includes Vitalik Buterin, Mihai Alisie, Anthony Di lorio, Charles Hoskinson, Amir Chetrit, Joseph Lubin, Gavin Wood, and Jeffrey Wilke. Not all the founding members are still with the Ethereum Foundation, as some has moved on to work on other projects.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l6RQ0x02QA8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -28,9 +28,9 @@
   ],
   "trading_pairs": [
     {
-      "base": "USDC",
-      "quote": "BTC",
-      "pair_id": "binance.com_USDC_BTC",
+      "base": "BTC",
+      "quote": "USDC",
+      "pair_id": "binance.com_BTC_USDC",
       "exchange_id": "binance.com"
     },
     {

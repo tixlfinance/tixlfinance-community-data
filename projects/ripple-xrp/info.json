@@ -54,12 +54,6 @@
     {
       "base": "XRP",
       "quote": "USD",
-      "pair_id": "coinbase.com_XRP_USD",
-      "exchange_id": "coinbase.com"
-    },
-    {
-      "base": "XRP",
-      "quote": "USD",
       "pair_id": "bittrex.com_XRP_USD",
       "exchange_id": "bittrex.com"
     },
