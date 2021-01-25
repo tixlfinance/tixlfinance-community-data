@@ -1,0 +1,59 @@
+{
+  "name": "Constellation",
+  "symbol": "DAG",
+  "website": "https://constellationnetwork.io/",
+  "coingecko_id": "constellation-labs",
+  "coin_api_id": "",
+  "category_tags": [],
+  "source_code": "https://github.com/Constellation-Labs/constellation",
+  "white_paper": "https://github.com/Constellation-Labs/whitepaper-technical",
+  "isStableCoin": false,
+  "additionalLinks": [
+    {
+      "label": "Team",
+      "url": "https://constellationnetwork.io/about/"
+    },
+    {
+      "label": "Token economics explained",
+      "url": "https://medium.com/@mateo_gold/token-economics-and-the-role-of-dag-in-the-constellation-network-74b73f4c3d5b"
+    }
+  ],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Conste11ation",
+      "search_strings": ["$DAG"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/constellationcommunity"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/constellationlabs",
+      "handle": "constellationlabs"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/constellation"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=CWMayIxyHN8",
+      "handle": "UChMBV4al3p_iO4bnfzcIzVQ"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 3711998690,
+    "total_supply": 3711998690,
+    "circulating_supply": 1266911931
+  },
+  "trading_pairs": [
+    {
+      "base": "DAG",
+      "quote": "USDT",
+      "pair_id": "DAG_USDT",
+      "exchange_id": "kucoin.com"
+    }
+  ]
+}
