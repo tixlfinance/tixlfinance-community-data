@@ -61,11 +61,11 @@
     "sections": [
       {
         "type": "headline",
-        "content": "Tixl Tokenomics "
+        "content": "Tixl Tokenomics"
       },
       {
         "type": "text",
-        "content": "This page gives an overview of the Tokenomics of the Tixl project and its token TXL."
+        "content": "This page gives an overview of the Tokenomics of the Tixl project and its token TXL.\nMost of the not yet circulating supply is time-locked. Having a long-term vision and goal, all future tokens will only be released slowly. The founder wallets are fully locked until mid of 2021. Thereafter, only 1% being released monthly until 2029. Other future tokens will also be time-locked to avoid high inflation. A maximum of 20,000,000 TXL shall be added to circulation each year starting 2021."
       },
       {
         "type": "pieChart",

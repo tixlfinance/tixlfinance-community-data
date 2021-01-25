@@ -10,7 +10,13 @@
     {
       "name": "Twitter",
       "url": "https://www.twitter.com/DIAdata_org",
+      "handle": "DIAdata_org",
       "search_strings": ["$DIA"]
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=kSkzrKw3wNw&list=UUKux4QtgB1IUZMK6UviyiFA",
+      "handle": "UCKux4QtgB1IUZMK6UviyiFA"
     },
     {
       "name": "Reddit",
