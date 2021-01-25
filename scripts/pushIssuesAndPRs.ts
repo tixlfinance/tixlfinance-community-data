@@ -23,6 +23,8 @@ async function main() {
 
     console.log(event);
 
+    // A little change to test the PR workflow
+
     const mutation = gql`
         mutation upsert($issue: IssueInput!) {
             upsertIssue(data: $issue) {
