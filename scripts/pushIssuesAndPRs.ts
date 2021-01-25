@@ -19,7 +19,9 @@ async function main() {
     graphQLClient.setHeaders({ authorization: `Bearer ${authToken}` });
 
     const path = process.env.GITHUB_EVENT_PATH as string;
-    const event = JSON.parse(fs.readFileSync(path, "utf8"));
+    const body = fs.readFileSync(path, "utf8");
+    console.log(body);
+    const event = JSON.parse(body);
 
     const mutation = gql`
         mutation upsert($issue: IssueInput!) {
