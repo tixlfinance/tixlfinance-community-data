@@ -1,11 +1,10 @@
 {
-  "name": "Memetic",
+  "name": "Meme",
   "symbol": "MEME",
   "coingecko_id": "degenerator",
   "coin_api_id": "",
-  "website": "https://www.memetic.ai/",
+  "website": "https://dontbuymeme.com/",
   "uniswap_id": "0xd5525d397898e5502075ea5e830d8914f6f0affe",
-  "source_code": "https://github.com/pepeteam/pepecoin",
   "category_tags": ["nft"],
   "tokenomics": {
     "max_supply": 28000,
