@@ -1,8 +1,8 @@
 {
   "name": "Memetic",
   "symbol": "MEME",
-  "coingecko_id": "memetic",
-  "coin_api_id": "MEME",
+  "coingecko_id": "degenerator",
+  "coin_api_id": "",
   "website": "https://www.memetic.ai/",
   "uniswap_id": "0xd5525d397898e5502075ea5e830d8914f6f0affe",
   "source_code": "https://github.com/pepeteam/pepecoin",
@@ -16,23 +16,17 @@
   "socials": [
     {
       "name": "Twitter",
-      "url": "https://twitter.com/pepecoins",
-      "handle": "pepecoins",
-      "search_strings": ["#pepecoin", "$MEME"]
+      "url": "https://twitter.com/DontBuyMeme",
+      "handle": "DontBuyMeme",
+      "search_strings": ["$MEME"]
     },
     {
       "name": "Telegram",
-      "url": "https://t.me/pepecoins",
-      "handle": "pepecoins"
+      "url": "https://t.me/thedegenerator",
+      "handle": "thedegenerator"
     }
   ],
   "trading_pairs": [
-    {
-      "base": "MEME",
-      "quote": "BTC",
-      "pair_id": "",
-      "exchange_id": "bittrex.com"
-    },
     {
       "base": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
       "quote": "0xd5525d397898e5502075ea5e830d8914f6f0affe",
