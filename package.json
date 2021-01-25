@@ -21,8 +21,8 @@
     "push:newsprovider": "ts-node scripts/pushNewsprovider.ts",
     "push:blogs": "ts-node scripts/pushBlogs.ts",
     "push:influencers": "ts-node scripts/pushInfluencers.ts",
+    "push:issues-and-prs": "ts-node scripts/pushIssuesAndPRs.ts",
     "scores:calculate": "ts-node score/scripts/calcScoresAndGenerateCsv.ts",
-    "redeem:rewards": "ts-node scripts/redeemRewards.ts",
     "prepare": "npm run build"
   },
   "repository": {
