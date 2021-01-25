@@ -45,6 +45,60 @@
     "total_supply": 100000000,
     "circulating_supply": 76559275
   },
+  "token": {
+    "sections": [
+      {
+        "type": "headline",
+        "content": "Reserve Rights Token Structure"
+      },
+      {
+        "type": "text",
+        "content": "TomoCoin supply is ﬁxed at 100 million tokens. The allocation is as follows: 50 million is going to the token sale event; 35 million is going to Reward Engine/Ecosystem Building program and will be distributed to users and developers based on relative contributions to the network over an 8 year period; 15 million is going to the software company which allocates the coin to team members and advisors over a vesting schedule in a 4 years-period."
+      },
+      {
+        "type": "pieChart",
+        "charts": [
+          {
+            "dropdownLabel": "Overview",
+            "popoverUnit": "TOMO",
+            "valueUnit": "%",
+            "labelsAndValues": [
+              {
+                "label": "Reward Engine",
+                "value": 35,
+                "popoverValue": 35000000
+              },
+              {
+                "label": "Product/Engineering",
+                "value": 25,
+                "popoverValue": 25000000
+              },
+              {
+                "label": "Team, Advisors",
+                "value": 15,
+                "popoverValue": 15000000
+              },
+              {
+                "label": "Marketing/Community",
+                "value": 15,
+                "popoverValue": 15000000
+              },
+              {
+                "label": "Administration/Legal",
+                "value": 5,
+                "popoverValue": 5000000
+              },
+              {
+                "label": "Reserves",
+                "value": 5,
+                "popoverValue": 5000000
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "trading_pairs": [
     {
       "base": "TOMO",
