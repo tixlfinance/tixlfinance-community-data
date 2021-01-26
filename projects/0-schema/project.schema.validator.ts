@@ -66,6 +66,34 @@ export const ProjectSchemaSchema = {
       },
       type: 'object',
     },
+    RoadmapSchema: {
+      defaultProperties: [],
+      properties: {
+        description: {
+          type: 'string',
+        },
+        image: {
+          type: 'string',
+        },
+        link: {
+          type: 'string',
+        },
+        title: {
+          type: 'string',
+        },
+        day: {
+          type: 'number',
+        },
+        month: {
+          type: 'number',
+        },
+        year: {
+          type: 'number',
+        },
+      },
+      required: ['description', 'title', 'year'],
+      type: 'object',
+    },
     TradingPair: {
       defaultProperties: [],
       properties: {
@@ -115,6 +143,9 @@ export const ProjectSchemaSchema = {
         type: 'string',
       },
       type: 'array',
+    },
+    roadmap: {
+      $ref: '#/definitions/RoadmapSchema',
     },
     tokenomics: {
       $ref: '#/definitions/TokenomicsSchema',

@@ -12,6 +12,16 @@ interface TokenSchema {
   sections: Section[];
 }
 
+interface RoadmapSchema {
+  description: string
+  image?: string
+  link?: string
+  day?: number
+  month?: number
+  title: string
+  year: number
+}
+
 interface Section {
   type: string;
   content?: string;
@@ -77,6 +87,10 @@ export default interface ProjectSchema {
    */
   socials: SocialSchema[];
   additionalLinks: LinkSchema[];
+  /**
+   * Roadmap is a premium feature
+   */
+  roadmap?: RoadmapSchema[];
   tokenomics: TokenomicsSchema;
   tokenomics_url?: string;
   trading_pairs: TradingPair[];
