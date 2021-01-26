@@ -4,6 +4,7 @@
   "website": "https://bitcoinsv.com/",
   "coingecko_id": "bitcoin-cash-sv",
   "coin_api_id": "BITCOIN-CASH-SV",
+  "additionalSymbols": ["BCHSV"],
   "socials": [
     {
       "name": "Twitter",
