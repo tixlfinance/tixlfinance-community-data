@@ -1,27 +1,28 @@
-import fs from "fs";
-import dotenv from "dotenv";
-import { GraphQLClient, gql } from "graphql-request";
+import fs from 'fs';
+import dotenv from 'dotenv';
+import { GraphQLClient, gql } from 'graphql-request';
 
 dotenv.config();
 
 async function main() {
   const authToken = process.env.MAIN_API_TOKEN as string;
   if (!authToken) {
-    throw new Error("API token invalid");
+    throw new Error('API token invalid');
   }
 
   const endpoint = process.env.MAIN_API_ENDPOINT as string;
   if (!endpoint) {
-    throw new Error("API endpoint invalid");
+    throw new Error('API endpoint invalid');
   }
 
   const graphQLClient = new GraphQLClient(endpoint);
   graphQLClient.setHeaders({ authorization: `Bearer ${authToken}` });
 
   const path = process.env.GITHUB_EVENT_PATH as string;
-  const event = JSON.parse(fs.readFileSync(path, "utf8"));
+  const body = fs.readFileSync(path, 'utf8');
+  const event = JSON.parse(body);
 
-  console.log(event);
+  console.log(body as string);
 
   const mutation = gql`
     mutation upsert($issue: IssueInput!) {
@@ -33,25 +34,24 @@ async function main() {
         github_id
         title
         url
-        user_id
-        transaction_id
       }
     }
   `;
 
+  const data = event.issue || event.pull_request;
   const issue = {
-    github_id: event.issue.id.toString(),
-    title: event.issue.title,
-    labels: event.issue.labels.map((label) => label.name),
-    url: event.issue.url,
+    github_id: data.id.toString(),
+    title: data.title,
+    labels: data.labels.map((label) => label.name),
+    url: data.url,
   };
 
   const response = await graphQLClient.request(mutation, { issue });
   if (!response) {
-    throw new Error("No response from mutation call");
+    throw new Error('No response from mutation call');
   }
 
-  console.log("It worked!: ", response);
+  console.log('Response: ', response);
 }
 
 main();
