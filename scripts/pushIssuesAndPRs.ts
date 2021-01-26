@@ -1,25 +1,25 @@
-import fs from 'fs';
-import dotenv from 'dotenv';
-import { GraphQLClient, gql } from 'graphql-request';
+import fs from "fs";
+import dotenv from "dotenv";
+import { GraphQLClient, gql } from "graphql-request";
 
 dotenv.config();
 
 async function main() {
   const authToken = process.env.MAIN_API_TOKEN as string;
   if (!authToken) {
-    throw new Error('API token invalid');
+    throw new Error("API token invalid");
   }
 
   const endpoint = process.env.MAIN_API_ENDPOINT as string;
   if (!endpoint) {
-    throw new Error('API endpoint invalid');
+    throw new Error("API endpoint invalid");
   }
 
   const graphQLClient = new GraphQLClient(endpoint);
   graphQLClient.setHeaders({ authorization: `Bearer ${authToken}` });
 
   const path = process.env.GITHUB_EVENT_PATH as string;
-  const body = fs.readFileSync(path, 'utf8');
+  const body = fs.readFileSync(path, "utf8");
   const event = JSON.parse(body);
 
   console.log(body as string);
@@ -48,10 +48,10 @@ async function main() {
 
   const response = await graphQLClient.request(mutation, { issue });
   if (!response) {
-    throw new Error('No response from mutation call');
+    throw new Error("No response from mutation call");
   }
 
-  console.log('Response: ', response);
+  console.log("Response: ", response);
 }
 
 main();
