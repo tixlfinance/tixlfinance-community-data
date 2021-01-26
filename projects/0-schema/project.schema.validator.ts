@@ -66,6 +66,21 @@ export const ProjectSchemaSchema = {
       },
       type: 'object',
     },
+    Erc20Schema: {
+      defaultProperties: [],
+      properties: {
+        tokenAddress: {
+          items: {
+            type: 'string',
+          },
+          type: 'array',
+        },
+        nonCirculatingWallets: {
+          type: 'number',
+        },
+      },
+      type: 'object',
+    },
     TradingPair: {
       defaultProperties: [],
       properties: {
@@ -116,6 +131,7 @@ export const ProjectSchemaSchema = {
       },
       type: 'array',
     },
+
     tokenomics: {
       $ref: '#/definitions/TokenomicsSchema',
     },

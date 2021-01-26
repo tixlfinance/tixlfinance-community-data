@@ -6,6 +6,13 @@
   "uniswap_id": "0x83e6f1e41cdd28eaceb20cb649155049fac3d5aa",
   "website": "https://www.polkastarter.com/",
   "category_tags": ["dot_ecosystem", "dex"],
+  "erc20": {
+    "tokenAddress": "0x83e6f1E41cdd28eAcEB20Cb649155049Fac3D5Aa",
+    "nonCirculatingWallets": [
+      "0xa8ff9e209e70ccbde820b75c51ece964ee165e04",
+      "0xdd2aa97fb05ae47d1227faac488ad8678e8ea4f2"
+    ]
+  },
   "socials": [
     {
       "name": "Twitter",

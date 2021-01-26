@@ -8,6 +8,13 @@
   "source_code": "https://github.com/tixlcurrency",
   "white_paper": "https://tixl.me/whitepaper",
   "isStableCoin": false,
+  "erc20": {
+    "tokenAddress": "0x8eEF5a82E6Aa222a60F009ac18c24EE12dBf4b41",
+    "nonCirculatingWallets": [
+      "0x3c26af250d607d4849df2aa5ff761a64defcd80b",
+      "0x2ac6a511184cca85c727c68c553e58218f7cd1c0"
+    ]
+  },
   "additionalLinks": [
     {
       "label": "Wallet",

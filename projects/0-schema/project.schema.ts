@@ -53,11 +53,17 @@ interface TradingPair {
   exchange_id: string;
 }
 
+interface Erc20Schema {
+  tokenAddress: string;
+  nonCirculatingWallets: string[];
+}
+
 export default interface ProjectSchema {
   name: string;
   symbol: string;
   additionalSymbols: string[];
   coingecko_id?: string;
+  erc20: Erc20Schema;
   coin_api_id?: string;
   isStableCoin?: boolean;
   /**
