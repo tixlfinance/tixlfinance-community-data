@@ -1,7 +1,7 @@
 {
   "name": "IOTA",
   "symbol": "MIOTA",
-  "additionalSymbols": ["IOTA"],
+  "additionalSymbols": ["IOTA", "IOT"],
   "website": "http://iota.org/",
   "coingecko_id": "iota",
   "coin_api_id": "",
