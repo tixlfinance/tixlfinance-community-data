@@ -77,11 +77,11 @@ export const pushProjects = async (isPreview?: boolean) => {
             query {assetByAssetId(asset_id: "${project.asset_id}-preview") {id}}
           `;
 
-            //looking, if the asset already exists
+            // looking, if the asset already exists
             const existsResponse = await graphQLClient.request(existsQuery);
             let alreadyExists = existsResponse.assetByAssetId !== null;
 
-            //if it does and it is a preview asset, removing it to delete outdated data
+            // if it does and it is a preview asset, removing it to delete outdated data
             if (isPreview && alreadyExists) {
               const removePreviousPreviewBuildQuery = gql`
               mutation {deletePreviewAsset(asset_id: "${project.asset_id}-preview") {id}}
