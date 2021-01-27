@@ -15,6 +15,26 @@
       "0x2ac6a511184cca85c727c68c553e58218f7cd1c0"
     ]
   },
+  "favoriteTweets": [
+    {
+      "tweetUrl": "https://twitter.com/TixlOrg/status/1353748813127806977?s=20"
+    },
+    {
+      "tweetUrl": "https://twitter.com/TixlOrg/status/1353701745629790209?s=20"
+    },
+    {
+      "tweetUrl": "https://twitter.com/TixlOrg/status/1349739341527085058?s=20"
+    },
+    {
+      "tweetUrl": "https://twitter.com/TixlOrg/status/1347551489556946947?s=20"
+    },
+    {
+      "tweetUrl": "https://twitter.com/TixlOrg/status/1344973107921096704?s=20"
+    },
+    {
+      "tweetUrl": "https://twitter.com/TixlOrg/status/1339959695155613702?s=20"
+    }
+  ],
   "additionalLinks": [
     {
       "label": "Wallet",
