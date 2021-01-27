@@ -31,6 +31,7 @@ export const ProjectSchemaSchema = {
             'Telegram',
             'Twitter',
             'Youtube',
+            'Telegram Announcements',
           ],
           type: 'string',
         },
@@ -80,33 +81,49 @@ export const ProjectSchemaSchema = {
         },
       },
     },
+    FavoriteTweetsSchema: {
+      defaultProperties: [],
+      items: {
+        properties: {
+          description: {
+            tweetUrl: { type: 'string', format: 'url' },
+          },
+        },
+        required: ['tweetUrl'],
+        type: 'object',
+      },
+      type: 'array',
+    },
     RoadmapSchema: {
       defaultProperties: [],
-      properties: {
-        description: {
-          type: 'string',
+      items: {
+        properties: {
+          description: {
+            type: 'string',
+          },
+          image: {
+            type: 'string',
+          },
+          link: {
+            type: 'string',
+          },
+          title: {
+            type: 'string',
+          },
+          day: {
+            type: 'number',
+          },
+          month: {
+            type: 'number',
+          },
+          year: {
+            type: 'number',
+          },
         },
-        image: {
-          type: 'string',
-        },
-        link: {
-          type: 'string',
-        },
-        title: {
-          type: 'string',
-        },
-        day: {
-          type: 'number',
-        },
-        month: {
-          type: 'number',
-        },
-        year: {
-          type: 'number',
-        },
+        required: ['description', 'title', 'year'],
+        type: 'object',
       },
-      required: ['description', 'title', 'year'],
-      type: 'object',
+      type: 'array',
     },
     TradingPair: {
       defaultProperties: [],
@@ -160,6 +177,9 @@ export const ProjectSchemaSchema = {
     },
     roadmap: {
       $ref: '#/definitions/RoadmapSchema',
+    },
+    favoriteTweets: {
+      $ref: '#/definitions/FavoriteTweetsSchema',
     },
     tokenomics: {
       $ref: '#/definitions/TokenomicsSchema',

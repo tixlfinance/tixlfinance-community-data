@@ -13,13 +13,13 @@ interface TokenSchema {
 }
 
 interface RoadmapSchema {
-  description: string
-  image?: string
-  link?: string
-  day?: number
-  month?: number
-  title: string
-  year: number
+  description: string;
+  image?: string;
+  link?: string;
+  day?: number;
+  month?: number;
+  title: string;
+  year: number;
 }
 
 interface Section {
@@ -68,6 +68,10 @@ interface Erc20Schema {
   nonCirculatingWallets: string[];
 }
 
+interface FavoriteTweetSchema {
+  tweetUrl: string;
+}
+
 export default interface ProjectSchema {
   name: string;
   symbol: string;
@@ -92,6 +96,7 @@ export default interface ProjectSchema {
    * @minItems 1
    */
   socials: SocialSchema[];
+  favoriteTweets: FavoriteTweetSchema[];
   additionalLinks: LinkSchema[];
   /**
    * Roadmap is a premium feature
