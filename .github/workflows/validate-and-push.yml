@@ -1,4 +1,4 @@
-name: Push assets to server
+name: Push projects, exchanges, blogs, influencer and news-provider to server
 
 on:
   push:
