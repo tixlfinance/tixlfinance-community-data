@@ -32,7 +32,8 @@
     },
     {
       "name": "Medium",
-      "url": "https://medium.com/iearn"
+      "url": "https://medium.com/iearn",
+      "handle": "iearn"
     }
   ],
   "trading_pairs": [

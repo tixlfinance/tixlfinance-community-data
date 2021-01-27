@@ -22,11 +22,13 @@
     },
     {
       "name": "Youtube",
-      "url": "https://www.youtube.com/watch?v=JwBKQlxpdLc&list=UUJteW6bsm1wn34i2hSAZBiw"
+      "url": "https://www.youtube.com/watch?v=JwBKQlxpdLc&list=UUJteW6bsm1wn34i2hSAZBiw",
+      "handle": "UCJteW6bsm1wn34i2hSAZBiw"
     },
     {
       "name": "Medium",
-      "url": "https://medium.com/tellor"
+      "url": "https://medium.com/tellor",
+      "handle": "tellor"
     }
   ],
   "trading_pairs": [

@@ -15,7 +15,7 @@
     },
     {
       "name": "Reddit",
-      "url": "https://www.reddit.comr/FantomFoundation"
+      "url": "https://www.reddit.com/r/FantomFoundation"
     },
     {
       "name": "Telegram",
@@ -23,7 +23,8 @@
     },
     {
       "name": "Medium",
-      "url": "https://medium.com/fantomfoundation"
+      "url": "https://medium.com/fantomfoundation",
+      "handle": "fantomfoundation"
     }
   ],
   "trading_pairs": [

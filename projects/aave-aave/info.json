@@ -17,7 +17,8 @@
     },
     {
       "name": "Medium",
-      "url": "https://medium.com/aave"
+      "url": "https://medium.com/aave",
+      "handle": "aave"
     },
     {
       "name": "Reddit",
@@ -25,7 +26,8 @@
     },
     {
       "name": "Youtube",
-      "url": "https://www.youtube.com/watch?v=cbUO9yb2bjU&list=UUZUFYgrvO7xpxzMjijgqWyQ&index=1"
+      "url": "https://www.youtube.com/watch?v=cbUO9yb2bjU&list=UUZUFYgrvO7xpxzMjijgqWyQ&index=1",
+      "handle": "UCZUFYgrvO7xpxzMjijgqWyQ"
     }
   ],
   "tokenomics": {

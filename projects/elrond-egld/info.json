@@ -21,11 +21,13 @@
     },
     {
       "name": "Youtube",
-      "url": "https://www.youtube.com/watch?v=8s4mWBGe_o0&list=UURLKQHcjuWW_-JOZ-DqQTXw"
+      "url": "https://www.youtube.com/watch?v=8s4mWBGe_o0&list=UURLKQHcjuWW_-JOZ-DqQTXw",
+      "handle": "UCRLKQHcjuWW_-JOZ-DqQTXw"
     },
     {
       "name": "Medium",
-      "url": "https://medium.com/elrondnetwork"
+      "url": "https://medium.com/elrondnetwork",
+      "handle": "elrondnetwork"
     }
   ],
   "trading_pairs": [

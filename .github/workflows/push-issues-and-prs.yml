@@ -1,0 +1,21 @@
+name: Push issues and PRs to the tixlfinance-backend
+on:
+    pull_request:
+        types: [opened, labeled, closed, merged]
+    issues:
+        types: [opened, labeled, closed]
+jobs:
+    push-issues-and-prs:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+            - name: NPM Install
+              run: npm install
+              shell: bash
+            - name: Push issues and PRs
+              env:
+                  MAIN_API_ENDPOINT: ${{ secrets.MAIN_API_ENDPOINT }}
+                  MAIN_API_TOKEN: ${{ secrets.API_ASSETS_KEY }}
+              run: |
+                  npm run push:issues-and-prs
+              shell: bash

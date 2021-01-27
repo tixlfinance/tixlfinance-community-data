@@ -22,11 +22,13 @@
     },
     {
       "name": "Youtube",
-      "url": "https://www.youtube.com/watch?v=zMPIhRpAN7E&list=UUnjkrlqaWEBSnKZQ71gdyFA&index=1"
+      "url": "https://www.youtube.com/watch?v=zMPIhRpAN7E&list=UUnjkrlqaWEBSnKZQ71gdyFA&index=1",
+      "handle": "UCnjkrlqaWEBSnKZQ71gdyFA"
     },
     {
       "name": "Medium",
-      "url": "https://medium.com/chainlink"
+      "url": "https://medium.com/chainlink",
+      "handle": "chainlink"
     }
   ],
   "trading_pairs": [

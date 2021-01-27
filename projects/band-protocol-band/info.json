@@ -22,7 +22,8 @@
     },
     {
       "name": "Medium",
-      "url": "https://medium.com/bandprotocol"
+      "url": "https://medium.com/bandprotocol",
+      "handle": "bandprotocol"
     }
   ],
   "trading_pairs": [

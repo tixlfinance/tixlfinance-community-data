@@ -4,6 +4,7 @@
   "website": "https://bitcoinsv.com/",
   "coingecko_id": "bitcoin-cash-sv",
   "coin_api_id": "BITCOIN-CASH-SV",
+  "additionalSymbols": ["BCHSV"],
   "socials": [
     {
       "name": "Twitter",
@@ -20,7 +21,8 @@
     },
     {
       "name": "Youtube",
-      "url": "https://www.youtube.com/watch?v=MX-eCgmRHLs&list=UUUDIA7neg0XWrvxXmiLDfCQ&index=1"
+      "url": "https://www.youtube.com/watch?v=MX-eCgmRHLs&list=UUUDIA7neg0XWrvxXmiLDfCQ&index=1",
+      "handle": "UCUDIA7neg0XWrvxXmiLDfCQ"
     }
   ],
   "trading_pairs": [

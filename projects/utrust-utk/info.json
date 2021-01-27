@@ -17,7 +17,8 @@
     },
     {
       "name": "Reddit",
-      "url": "https://www.reddit.com/r/UTRUST_Official"
+      "url": "https://www.reddit.com/r/UTRUST_Official",
+      "handle": "UTRUST_Official"
     },
     {
       "name": "Telegram",
@@ -25,11 +26,13 @@
     },
     {
       "name": "Youtube",
-      "url": "https://www.youtube.com/watch?v=baa4V-qHIsU&list=UUJGArTMLKNJwO9r2E6TN9pQ&index=1"
+      "url": "https://youtu.be/vib3tbOY8fk",
+      "handle": "UCJGArTMLKNJwO9r2E6TN9pQ"
     },
     {
       "name": "Medium",
-      "url": "https://medium.com/utrust"
+      "url": "https://medium.com/utrust",
+      "handle": "utrust"
     }
   ],
   "trading_pairs": [

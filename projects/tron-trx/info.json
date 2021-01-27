@@ -25,11 +25,13 @@
     },
     {
       "name": "Youtube",
-      "url": "https://www.youtube.com/watch?v=hJduluraOSw&list=UU5OPOGRq02iK-0T9sKse_kA&index=1"
+      "url": "https://www.youtube.com/watch?v=hJduluraOSw&list=UU5OPOGRq02iK-0T9sKse_kA&index=1",
+      "handle": "UC5OPOGRq02iK-0T9sKse_kA"
     },
     {
       "name": "Medium",
-      "url": "https://medium.com/tron-foundation"
+      "url": "https://medium.com/tron-foundation",
+      "handle": "tron-foundation"
     }
   ],
   "trading_pairs": [

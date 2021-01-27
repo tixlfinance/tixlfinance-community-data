@@ -26,11 +26,13 @@
     },
     {
       "name": "Youtube",
-      "url": "https://www.youtube.com/watch?v=JIoG2xVplOE&list=UUJjaFCkXVeqdrNG9QGxSegQ"
+      "url": "https://www.youtube.com/watch?v=JIoG2xVplOE&list=UUJjaFCkXVeqdrNG9QGxSegQ",
+      "handle": "UCJjaFCkXVeqdrNG9QGxSegQ"
     },
     {
       "name": "Medium",
-      "url": "https://medium.com/@riodefiofficial"
+      "url": "https://medium.com/@riodefiofficial",
+      "handle": "@riodefiofficial"
     }
   ],
   "trading_pairs": [

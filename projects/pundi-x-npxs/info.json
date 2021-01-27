@@ -25,11 +25,13 @@
     },
     {
       "name": "Youtube",
-      "url": "https://www.youtube.com/watch?v=gr0GVyU7ENQ&list=UUOIf6WeLEzZi3DQxzenTZeA&index=1"
+      "url": "https://www.youtube.com/watch?v=gr0GVyU7ENQ&list=UUOIf6WeLEzZi3DQxzenTZeA&index=1",
+      "handle": "UCOIf6WeLEzZi3DQxzenTZeA"
     },
     {
       "name": "Medium",
-      "url": "https://medium.com/pundix"
+      "url": "https://medium.com/pundix",
+      "handle": "pundix"
     }
   ],
   "trading_pairs": [

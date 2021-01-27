@@ -26,11 +26,13 @@
     },
     {
       "name": "Youtube",
-      "url": "https://www.youtube.com/watch?v=yxLkPRm0nUU&list=UUZVnH1eLWshhfrDVTeDgCdg"
+      "url": "https://www.youtube.com/watch?v=yxLkPRm0nUU&list=UUZVnH1eLWshhfrDVTeDgCdg",
+      "handle": "UCZVnH1eLWshhfrDVTeDgCdg"
     },
     {
       "name": "Medium",
-      "url": "https://medium.com/mantra-dao"
+      "url": "https://medium.com/mantra-dao",
+      "handle": "mantra-dao"
     }
   ],
   "trading_pairs": [

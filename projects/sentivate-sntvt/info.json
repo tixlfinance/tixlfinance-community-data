@@ -26,11 +26,13 @@
     },
     {
       "name": "Youtube",
-      "url": "https://www.youtube.com/watch?v=VYiY1H9z9Ko&list=UUFoai5_Qc_Ai64jn5fN0Gsg&index=1"
+      "url": "https://www.youtube.com/watch?v=VYiY1H9z9Ko&list=UUFoai5_Qc_Ai64jn5fN0Gsg&index=1",
+      "handle": "UCFoai5_Qc_Ai64jn5fN0Gsg"
     },
     {
       "name": "Medium",
-      "url": "https://medium.com/@Sentivate"
+      "url": "https://medium.com/@Sentivate",
+      "handle": "@Sentivate"
     }
   ],
   "trading_pairs": [

@@ -4,7 +4,41 @@ interface SocialSchema {
    * @format url
    */
   url: string;
+  handle?: string;
   search_strings?: string[];
+}
+
+interface TokenSchema {
+  sections: Section[];
+}
+
+interface RoadmapSchema {
+  description: string;
+  image?: string;
+  link?: string;
+  day?: number;
+  month?: number;
+  title: string;
+  year: number;
+}
+
+interface Section {
+  type: string;
+  content?: string;
+  charts?: Chart[];
+}
+
+interface Chart {
+  dropdownLabel?: string;
+  popoverUnit: string;
+  valueUnit: string;
+  labelsAndValues: LabelsAndValues[];
+}
+
+interface LabelsAndValues {
+  label: string;
+  value: number;
+  popoverValue: number;
 }
 
 interface LinkSchema {
@@ -29,10 +63,21 @@ interface TradingPair {
   exchange_id: string;
 }
 
+interface Erc20Schema {
+  tokenAddress: string;
+  nonCirculatingWallets: string[];
+}
+
+interface FavoriteTweetSchema {
+  tweetUrl: string;
+}
+
 export default interface ProjectSchema {
   name: string;
   symbol: string;
+  additionalSymbols: string[];
   coingecko_id?: string;
+  erc20: Erc20Schema;
   coin_api_id?: string;
   isStableCoin?: boolean;
   /**
@@ -51,8 +96,14 @@ export default interface ProjectSchema {
    * @minItems 1
    */
   socials: SocialSchema[];
+  favoriteTweets: FavoriteTweetSchema[];
   additionalLinks: LinkSchema[];
+  /**
+   * Roadmap is a premium feature
+   */
+  roadmap?: RoadmapSchema[];
   tokenomics: TokenomicsSchema;
   tokenomics_url?: string;
   trading_pairs: TradingPair[];
+  token?: TokenSchema;
 }

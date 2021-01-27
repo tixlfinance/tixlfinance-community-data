@@ -1,0 +1,66 @@
+{
+  "name": "Ampleforth",
+  "symbol": "AMPL",
+  "website": "https://www.ampleforth.org/",
+  "coingecko_id": "ampleforth",
+  "coin_api_id": "",
+  "uniswap_id": "0xd46ba6d942050d489dbd938a2c909a5d5039a161",
+  "category_tags": ["defi"],
+  "source_code": "https://github.com/ampleforth",
+  "white_paper": "https://www.ampleforth.org/papers/",
+  "isStableCoin": false,
+  "additionalLinks": [
+    {
+      "label": "Team",
+      "url": "https://www.ampleforth.org/about/"
+    },
+    {
+      "label": "Advanced Reading",
+      "url": "https://www.ampleforth.org/redbook/"
+    }
+  ],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/ampleforthorg",
+      "search_strings": ["$AMPL"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/Ampleforth"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/ampleforth",
+      "handle": "ampleforth"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/AmpleforthCrypto"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=H18QAN3VpOY&list=PLARltDnPvIVa0U8y4KqQ1i7LHCbAQg9FV",
+      "handle": "UC7-TK23giI9IllWZ3PHQhiA"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 395345190,
+    "total_supply": 336295881,
+    "circulating_supply": 197400544
+  },
+  "trading_pairs": [
+    {
+      "base": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "quote": "0xd46ba6d942050d489dbd938a2c909a5d5039a161",
+      "pair_id": "0xc5be99a02c6857f9eac67bbce58df5572498f40c",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "AMPL",
+      "quote": "USDT",
+      "pair_id": "AMPL_USDT",
+      "exchange_id": "kucoin.com"
+    }
+  ]
+}

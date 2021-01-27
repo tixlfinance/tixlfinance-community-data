@@ -25,11 +25,13 @@
     },
     {
       "name": "Youtube",
-      "url": "https://www.youtube.com/watch?v=dZbL_cuX52w&list=UUvjEq17wWLHFVYwU3OOXPtQ&index=1"
+      "url": "https://www.youtube.com/watch?v=dZbL_cuX52w&list=UUvjEq17wWLHFVYwU3OOXPtQ&index=1",
+      "handle": "UCvjEq17wWLHFVYwU3OOXPtQ"
     },
     {
       "name": "Medium",
-      "url": "https://medium.com/matic-network"
+      "url": "https://medium.com/matic-network",
+      "handle": "matic-network"
     }
   ],
   "trading_pairs": [
