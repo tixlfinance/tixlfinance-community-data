@@ -1,14 +1,14 @@
-import fs from 'fs';
-import path from 'path';
-import dotenv from 'dotenv';
-import { GraphQLClient, gql } from 'graphql-request';
-import { Headers } from 'cross-fetch';
+import fs from "fs";
+import path from "path";
+import dotenv from "dotenv";
+import { GraphQLClient, gql } from "graphql-request";
+import { Headers } from "cross-fetch";
 
 export const removeProjects = async (isPreview?: boolean) => {
   dotenv.config();
   global.Headers = global.Headers || Headers;
 
-  const directoryPath = path.join(__dirname, './../../projects');
+  const directoryPath = path.join(__dirname, "./../../projects");
 
   const mergedFiles = process.argv.slice(2);
 
@@ -19,16 +19,16 @@ export const removeProjects = async (isPreview?: boolean) => {
 
     const mergedProjects = mergedFiles
       .map((dir) => {
-        const dirChange = dir.split('/', 3);
-        if (dir.includes('projects')) {
-          const filePath = directoryPath + '/' + dirChange[1] + '/info.json';
-          const logoPath = '/projects/' + dirChange[1] + '/logo.png';
+        const dirChange = dir.split("/", 3);
+        if (dir.includes("projects")) {
+          const filePath = directoryPath + "/" + dirChange[1] + "/info.json";
+          const logoPath = "/projects/" + dirChange[1] + "/logo.png";
           const descriptionPath =
-            directoryPath + '/' + dirChange[1] + '/description.md';
+            directoryPath + "/" + dirChange[1] + "/description.md";
 
           return new Promise((resolve, _) => {
-            fs.readFile(filePath, 'utf8', (_, data) => {
-              fs.readFile(descriptionPath, 'utf8', (_, descriptionData) => {
+            fs.readFile(filePath, "utf8", (_, data) => {
+              fs.readFile(descriptionPath, "utf8", (_, descriptionData) => {
                 if (data) {
                   const parsed = {
                     ...JSON.parse(data),
@@ -37,7 +37,7 @@ export const removeProjects = async (isPreview?: boolean) => {
                   resolve({
                     ...parsed,
                     logo: parsed.logo || logoPath,
-                    asset_id: `${dirChange[1]}${isPreview ? '-preview' : ''}`,
+                    asset_id: `${dirChange[1]}${isPreview ? "-preview" : ""}`,
                     isPreview,
                     description_markdown:
                       parsed.description_markdown || descriptionPath,
@@ -60,7 +60,7 @@ export const removeProjects = async (isPreview?: boolean) => {
 
             const endpoint = process.env.MAIN_API_ENDPOINT as string;
             if (!endpoint) {
-              throw new Error('API endpoint invalid');
+              throw new Error("API endpoint invalid");
             }
             const graphQLClient = new GraphQLClient(endpoint);
             graphQLClient.setHeaders({
@@ -73,7 +73,7 @@ export const removeProjects = async (isPreview?: boolean) => {
 
             // looking, if the asset already exists
             const existsResponse = await graphQLClient.request(existsQuery);
-            let alreadyExists = existsResponse.assetByAssetId !== null;
+            const alreadyExists = existsResponse.assetByAssetId !== null;
 
             // if it does and it is a preview asset, removing it to delete outdated data
             if (isPreview && alreadyExists) {
@@ -84,14 +84,14 @@ export const removeProjects = async (isPreview?: boolean) => {
               const removeResponse = await graphQLClient.request(
                 removePreviousPreviewBuildQuery
               );
-              console.log('removeResponse', removeResponse);
+              console.log("removeResponse", removeResponse);
             }
 
             console.info(
-              `${alreadyExists ? 'Removed' : 'Not Removed'} project ${
+              `${alreadyExists ? "Removed" : "Not Removed"} project ${
                 project.asset_id
               }. ${
-                alreadyExists ? '' : 'There was no preview for that project.'
+                alreadyExists ? "" : "There was no preview for that project."
               }`
             );
           }
