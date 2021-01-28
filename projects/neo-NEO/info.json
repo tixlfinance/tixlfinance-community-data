@@ -6,7 +6,7 @@
   "website": "https://neo.org/",
   "source_code": "https://github.com/neo-project",
   "white_paper": "https://docs.neo.org/docs/en-us/basic/whitepaper.html",
-  "category_tags": ["smart_contract_platform"],
+  "category_tags": ["NFT"],
   "socials": [
     {
       "name": "Twitter",
@@ -30,7 +30,7 @@
     {
       "name": "Youtube",
       "url": "https://www.youtube.com/channel/UCl1AwEDN0w5lTmfJEMsY5Vw/videos",
-      "handle": "Neo Smart Economy"
+      "handle": "UCl1AwEDN0w5lTmfJEMsY5Vw"
     }
   ],
   "tokenomics": {
