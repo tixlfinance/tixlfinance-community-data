@@ -41,6 +41,7 @@ async function main() {
   const data = event.issue || event.pull_request;
   const issue = {
     github_id: data.id.toString(),
+    github_user_login: data.user.login,
     title: data.title,
     labels: data.labels.map((label) => label.name),
     url: data.url,
