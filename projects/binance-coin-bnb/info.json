@@ -9,7 +9,8 @@
     {
       "name": "Twitter",
       "url": "https://www.twitter.com/binance",
-      "search_strings": ["$BNB"]
+      "search_strings": ["$BNB"],
+      "handle": "binance"
     },
     {
       "name": "Facebook",

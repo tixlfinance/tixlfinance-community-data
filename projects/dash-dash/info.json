@@ -8,7 +8,8 @@
     {
       "name": "Twitter",
       "url": "https://www.twitter.com/dashpay",
-      "search_strings": ["$DASH"]
+      "search_strings": ["$DASH"],
+      "handle": "Dashpay"
     },
     {
       "name": "Reddit",

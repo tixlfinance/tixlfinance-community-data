@@ -10,7 +10,8 @@
     {
       "name": "Twitter",
       "url": "https://www.twitter.com/chainlink",
-      "search_strings": ["$LINK", "#linkmarines"]
+      "search_strings": ["$LINK", "#linkmarines"],
+      "handle": "chainlink"
     },
     {
       "name": "Reddit",

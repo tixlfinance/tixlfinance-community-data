@@ -10,7 +10,8 @@
     {
       "name": "Twitter",
       "url": "https://www.twitter.com/DMMDAO",
-      "search_strings": ["$DMG"]
+      "search_strings": ["$DMG"],
+      "handle": "DMMDAO"
     },
     {
       "name": "Telegram",

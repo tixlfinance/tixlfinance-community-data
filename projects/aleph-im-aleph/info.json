@@ -10,7 +10,8 @@
     {
       "name": "Twitter",
       "url": "https://www.twitter.com/aleph_im",
-      "search_strings": ["$ALEPH"]
+      "search_strings": ["$ALEPH"],
+      "handle": "aleph_im"
     },
     {
       "name": "Telegram",

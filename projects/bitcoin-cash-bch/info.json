@@ -7,8 +7,9 @@
   "socials": [
     {
       "name": "Twitter",
-      "url": "https://twitter.com/BitcoinCom",
-      "search_strings": ["$BCH"]
+      "url": "https://twitter.com/bitcoincashorg",
+      "search_strings": ["$BCH"],
+      "handle": "bitcoincashorg"
     },
     {
       "name": "Facebook",

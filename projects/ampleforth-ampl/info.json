@@ -23,7 +23,8 @@
     {
       "name": "Twitter",
       "url": "https://twitter.com/ampleforthorg",
-      "search_strings": ["$AMPL"]
+      "search_strings": ["$AMPL"],
+      "handle": "AmpleforthOrg"
     },
     {
       "name": "Telegram",

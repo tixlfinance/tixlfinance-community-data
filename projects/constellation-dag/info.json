@@ -22,7 +22,8 @@
     {
       "name": "Twitter",
       "url": "https://twitter.com/Conste11ation",
-      "search_strings": ["$DAG"]
+      "search_strings": ["$DAG"],
+      "handle": "Conste11ation"
     },
     {
       "name": "Telegram",

@@ -9,7 +9,8 @@
     {
       "name": "Twitter",
       "url": "https://twitter.com/Chromia",
-      "search_strings": ["CHR"]
+      "search_strings": ["CHR"],
+      "handle": "Chromia"
     },
     {
       "name": "Facebook",
