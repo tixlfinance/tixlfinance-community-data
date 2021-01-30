@@ -24,7 +24,6 @@
     "push:influencers": "ts-node scripts/pushInfluencers.ts",
     "push:issues-and-prs": "ts-node scripts/pushIssuesAndPRs.ts",
     "remove:projects:preview": "ts-node scripts/removePreviewProjects.ts",
-    "scores:calculate": "ts-node score/scripts/calcScoresAndGenerateCsv.ts",
     "prepare": "npm run build"
   },
   "repository": {
