@@ -9,7 +9,8 @@
     {
       "name": "Twitter",
       "url": "https://twitter.com/AaveAave",
-      "search_strings": ["$AAVE"]
+      "search_strings": ["$AAVE"],
+      "handle": "AaveAave"
     },
     {
       "name": "Telegram",

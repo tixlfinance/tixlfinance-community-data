@@ -9,7 +9,8 @@
     {
       "name": "Twitter",
       "url": "https://www.twitter.com/elrondnetwork",
-      "search_strings": ["$EGLD"]
+      "search_strings": ["$EGLD"],
+      "handle": "ElrondNetwork"
     },
     {
       "name": "Reddit",

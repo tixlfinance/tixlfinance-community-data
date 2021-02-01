@@ -1,5 +1,5 @@
 {
-  "name": "@tixlfinance/tixlfinance-db",
+  "name": "@tixlfinance/tixlfinance-community-data",
   "version": "1.4.8",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -25,11 +25,12 @@
     "push:issues-and-prs": "ts-node scripts/pushIssuesAndPRs.ts",
     "scrape:tether": "ts-node scripts/scrapeTether.ts",
     "scores:calculate": "ts-node score/scripts/calcScoresAndGenerateCsv.ts",
+    "remove:projects:preview": "ts-node scripts/removePreviewProjects.ts",
     "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tixlfinance/tixlfinance-db.git"
+    "url": "git+https://github.com/tixlfinance/tixlfinance-community-data.git"
   },
   "husky": {
     "hooks": {
@@ -61,8 +62,8 @@
   "author": "",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/tixlfinance/tixlfinance-db/issues"
+    "url": "https://github.com/tixlfinance/tixlfinance-community-data/issues"
   },
-  "homepage": "https://github.com/tixlfinance/tixlfinance-db#readme",
-  "description": "## Contribution Quick Start"
+  "homepage": "https://github.com/tixlfinance/tixlfinance-community-data#readme",
+  "description": "Community database for tixl.finance"
 }

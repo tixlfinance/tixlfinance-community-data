@@ -9,8 +9,9 @@
   "socials": [
     {
       "name": "Twitter",
-      "url": "https://twitter.com/ltonetwork",
-      "search_strings": ["$LTO"]
+      "url": "https://twitter.com/TheLTONetwork",
+      "search_strings": ["$LTO"],
+      "handle": "TheLTONetwork"
     },
     {
       "name": "Reddit",

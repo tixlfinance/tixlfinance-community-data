@@ -10,7 +10,8 @@
     {
       "name": "Twitter",
       "url": "https://www.twitter.com/bandprotocol",
-      "search_strings": ["$BAND"]
+      "search_strings": ["$BAND"],
+      "handle": "BandProtocol"
     },
     {
       "name": "Reddit",

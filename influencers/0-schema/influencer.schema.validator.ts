@@ -13,7 +13,6 @@ export const ajv = new Ajv({
   useDefaults: true,
 });
 
-
 ajv.addMetaSchema(require("ajv/lib/refs/json-schema-draft-06.json"));
 
 export { InfluencerSchema };
@@ -34,6 +33,9 @@ export const InfluencerSchemaSchema = {
       minLength: 1,
       type: "string",
     },
+    twitter_user_id: {
+      type: "string",
+    },
     twitter_username: {
       type: "string",
     },
@@ -43,7 +45,6 @@ export const InfluencerSchemaSchema = {
   },
   required: ["name"],
   type: "object",
-  anyRequired: ["foo", "bar"],
 };
 export type ValidateFunction<T> = ((data: unknown) => data is T) &
   Pick<Ajv.ValidateFunction, "errors">;

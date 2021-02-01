@@ -4,21 +4,20 @@ import dotenv from "dotenv";
 import { GraphQLClient, gql } from "graphql-request";
 import { Headers } from "cross-fetch";
 
-export const pushProjects = async (isPreview?: boolean) => {
+export const removeProjects = async (isPreview?: boolean) => {
   dotenv.config();
   global.Headers = global.Headers || Headers;
 
   const directoryPath = path.join(__dirname, "./../../projects");
 
-  const changedFiles = process.argv.slice(2);
+  const mergedFiles = process.argv.slice(2);
 
   fs.readdir(directoryPath, (err, _) => {
     if (err) {
       throw err;
     }
 
-    console.log("changedFiles", JSON.stringify(changedFiles));
-    const updatedProjects = changedFiles
+    const mergedProjects = mergedFiles
       .map((dir) => {
         const dirChange = dir.split("/", 3);
         if (dir.includes("projects")) {
@@ -53,11 +52,10 @@ export const pushProjects = async (isPreview?: boolean) => {
       })
       .filter((file) => !!file);
 
-    if (updatedProjects.length > 0) {
-      Promise.all(updatedProjects)
+    if (mergedProjects.length > 0) {
+      Promise.all(mergedProjects)
         .then(async (projects: any[]) => {
           for (const project of projects) {
-            console.log("Processing project", JSON.stringify(project));
             delete project.__triggerUpdate;
 
             const endpoint = process.env.MAIN_API_ENDPOINT as string;
@@ -75,14 +73,10 @@ export const pushProjects = async (isPreview?: boolean) => {
 
             // looking, if the asset already exists
             const existsResponse = await graphQLClient.request(existsQuery);
-            let alreadyExists = existsResponse.assetByAssetId !== null;
+            const alreadyExists = existsResponse.assetByAssetId !== null;
 
-            const historicalDataChangeNecessary =
-              project?.coingecko_id !==
-              existsResponse?.assetByAssetId?.coingecko_id;
-
-            // if it does and it is a preview asset and a historicaldata-change is necessary, removing it to delete outdated data
-            if (isPreview && alreadyExists && historicalDataChangeNecessary) {
+            // if it does and it is a preview asset, removing it to delete outdated data
+            if (isPreview && alreadyExists) {
               const removePreviousPreviewBuildQuery = gql`
               mutation {deletePreviewAsset(asset_id: "${project.asset_id}") {id}}
             `;
@@ -91,33 +85,13 @@ export const pushProjects = async (isPreview?: boolean) => {
                 removePreviousPreviewBuildQuery
               );
               console.log("removeResponse", removeResponse);
-              alreadyExists = false;
-            }
-
-            const mutationToUse = alreadyExists
-              ? "updateAssetFromGithub"
-              : "createAssetFromGithub";
-
-            const mutation = gql`
-              mutation CreateAsset($data: AssetInput!) {
-                ${mutationToUse}(data: $data) {
-                  id
-                }
-              }
-            `;
-
-            const variables = {
-              data: project,
-            };
-
-            const response = await graphQLClient.request(mutation, variables);
-            if (!response) {
-              throw new Error("No response from mutation call");
             }
 
             console.info(
-              `${alreadyExists ? "Updated" : "Created"} project ${
+              `${alreadyExists ? "Removed" : "Not Removed"} project ${
                 project.asset_id
+              }. ${
+                alreadyExists ? "" : "There was no preview for that project."
               }`
             );
           }
