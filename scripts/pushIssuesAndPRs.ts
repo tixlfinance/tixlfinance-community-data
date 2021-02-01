@@ -6,7 +6,7 @@ dotenv.config();
 
 async function main() {
   const authToken = process.env.MAIN_API_TOKEN as string;
-  if (!authToken) {
+  if (!authToken) 
     throw new Error("API token invalid");
   }
 

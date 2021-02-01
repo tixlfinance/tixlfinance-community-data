@@ -23,6 +23,7 @@
     "push:blogs": "ts-node scripts/pushBlogs.ts",
     "push:influencers": "ts-node scripts/pushInfluencers.ts",
     "push:issues-and-prs": "ts-node scripts/pushIssuesAndPRs.ts",
+    "scrape:tether": "ts-node scripts/scrapeTether.ts",
     "scores:calculate": "ts-node score/scripts/calcScoresAndGenerateCsv.ts",
     "prepare": "npm run build"
   },
@@ -36,6 +37,9 @@
     }
   },
   "dependencies": {
+    "@types/cheerio": "^0.22.23",
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5",
     "cross-fetch": "^3.0.6",
     "dotenv": "^8.2.0",
     "graphql": "^15.3.0",
