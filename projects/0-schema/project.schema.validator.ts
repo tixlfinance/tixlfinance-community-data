@@ -20,9 +20,137 @@ export const ProjectSchemaSchema = {
   $schema: "http://json-schema.org/draft-07/schema#",
   defaultProperties: [],
   definitions: {
+    Chart: {
+      defaultProperties: [],
+      properties: {
+        dropdownLabel: {
+          type: "string",
+        },
+        labelsAndValues: {
+          items: {
+            $ref: "#/definitions/LabelsAndValues",
+          },
+          type: "array",
+        },
+        popoverUnit: {
+          type: "string",
+        },
+        valueUnit: {
+          type: "string",
+        },
+      },
+      required: ["labelsAndValues", "popoverUnit", "valueUnit"],
+      type: "object",
+    },
+    Erc20Schema: {
+      defaultProperties: [],
+      properties: {
+        nonCirculatingWallets: {
+          items: {
+            type: "string",
+          },
+          type: "array",
+        },
+        tokenAddress: {
+          type: "string",
+        },
+      },
+      required: ["nonCirculatingWallets", "tokenAddress"],
+      type: "object",
+    },
+    FavoriteTweetSchema: {
+      defaultProperties: [],
+      properties: {
+        tweetUrl: {
+          type: "string",
+        },
+      },
+      required: ["tweetUrl"],
+      type: "object",
+    },
+    LabelsAndValues: {
+      defaultProperties: [],
+      properties: {
+        label: {
+          type: "string",
+        },
+        popoverValue: {
+          type: "number",
+        },
+        value: {
+          type: "number",
+        },
+      },
+      required: ["label", "popoverValue", "value"],
+      type: "object",
+    },
+    LinkSchema: {
+      defaultProperties: [],
+      properties: {
+        label: {
+          type: "string",
+        },
+        url: {
+          format: "url",
+          type: "string",
+        },
+      },
+      required: ["label", "url"],
+      type: "object",
+    },
+    RoadmapSchema: {
+      defaultProperties: [],
+      properties: {
+        day: {
+          type: "number",
+        },
+        description: {
+          type: "string",
+        },
+        image: {
+          type: "string",
+        },
+        link: {
+          type: "string",
+        },
+        month: {
+          type: "number",
+        },
+        title: {
+          type: "string",
+        },
+        year: {
+          type: "number",
+        },
+      },
+      required: ["description", "title", "year"],
+      type: "object",
+    },
+    Section: {
+      defaultProperties: [],
+      properties: {
+        charts: {
+          items: {
+            $ref: "#/definitions/Chart",
+          },
+          type: "array",
+        },
+        content: {
+          type: "string",
+        },
+        type: {
+          type: "string",
+        },
+      },
+      required: ["type"],
+      type: "object",
+    },
     SocialSchema: {
       defaultProperties: [],
       properties: {
+        handle: {
+          type: "string",
+        },
         name: {
           enum: [
             "Facebook",
@@ -31,7 +159,6 @@ export const ProjectSchemaSchema = {
             "Telegram",
             "Twitter",
             "Youtube",
-            "Telegram Announcements",
           ],
           type: "string",
         },
@@ -45,11 +172,21 @@ export const ProjectSchemaSchema = {
           format: "url",
           type: "string",
         },
-        handle: {
-          type: "string",
-        },
       },
       required: ["name", "url"],
+      type: "object",
+    },
+    TokenSchema: {
+      defaultProperties: [],
+      properties: {
+        sections: {
+          items: {
+            $ref: "#/definitions/Section",
+          },
+          type: "array",
+        },
+      },
+      required: ["sections"],
       type: "object",
     },
     TokenomicsSchema: {
@@ -57,6 +194,9 @@ export const ProjectSchemaSchema = {
       properties: {
         circulating_supply: {
           type: "number",
+        },
+        isInflationary: {
+          type: "boolean",
         },
         max_supply: {
           type: "number",
@@ -66,130 +206,6 @@ export const ProjectSchemaSchema = {
         },
       },
       type: "object",
-    },
-    LabelsAndValuesSchema: {
-      defaultProperties: [],
-      properties: {
-        label: {
-          type: "string",
-        },
-        value: {
-          type: "number",
-        },
-        popoverValue: {
-          type: "number",
-        },
-      },
-      required: ["label", "value", "popoverValue"],
-    },
-    ChartSchema: {
-      defaultProperties: [],
-      properties: {
-        dropdownLabel: {
-          type: "string",
-        },
-        popoverUnit: {
-          type: "string",
-        },
-        valueUnit: {
-          type: "string",
-        },
-        labelsAndValues: {
-          items: {
-            $ref: "#/definitions/LabelsAndValuesSchema",
-          },
-          type: "array"
-        }
-      },
-      required: ["popoverUnit", "valueUnit", "labelsAndValues"],
-    },
-    SectionSchema: {
-      defaultProperties: [],
-      properties: {
-        "type": {
-          type: "string",
-        },
-        content: {
-          type: "string",
-        },
-        charts: {
-          items: {
-            $ref: "#/definitions/ChartSchema",
-          },
-          type: "array"
-        }
-      },
-      required: ["type"],
-    },
-    TokenSchema: {
-      defaultProperties: [],
-      properties: {
-        sections: {
-          items: {
-            $ref: "#/definitions/SectionSchema",
-          },
-          type: "array"
-        }
-      },
-      required: ["sections"],
-    },
-    Erc20Schema: {
-      defaultProperties: [],
-      properties: {
-        tokenAddress: {
-          items: {
-            type: "string",
-          },
-          type: "array",
-        },
-        nonCirculatingWallets: {
-          type: "number",
-        },
-      },
-    },
-    FavoriteTweetsSchema: {
-      defaultProperties: [],
-      items: {
-        properties: {
-          description: {
-            tweetUrl: { type: "string", format: "url" },
-          },
-        },
-        required: ["tweetUrl"],
-        type: "object",
-      },
-      type: "array",
-    },
-    RoadmapSchema: {
-      defaultProperties: [],
-      items: {
-        properties: {
-          description: {
-            type: "string",
-          },
-          image: {
-            type: "string",
-          },
-          link: {
-            type: "string",
-          },
-          title: {
-            type: "string",
-          },
-          day: {
-            type: "number",
-          },
-          month: {
-            type: "number",
-          },
-          year: {
-            type: "number",
-          },
-        },
-        required: ["description", "title", "year"],
-        type: "object",
-      },
-      type: "array",
     },
     TradingPair: {
       defaultProperties: [],
@@ -212,14 +228,45 @@ export const ProjectSchemaSchema = {
     },
   },
   properties: {
+    additionalLinks: {
+      items: {
+        $ref: "#/definitions/LinkSchema",
+      },
+      type: "array",
+    },
+    additionalSymbols: {
+      items: {
+        type: "string",
+      },
+      type: "array",
+    },
     coin_api_id: {
       type: "string",
     },
     coingecko_id: {
       type: "string",
     },
+    erc20: {
+      $ref: "#/definitions/Erc20Schema",
+    },
+    favoriteTweets: {
+      items: {
+        $ref: "#/definitions/FavoriteTweetSchema",
+      },
+      type: "array",
+    },
+    isStableCoin: {
+      type: "boolean",
+    },
     name: {
       type: "string",
+    },
+    roadmap: {
+      description: "Roadmap is a premium feature",
+      items: {
+        $ref: "#/definitions/RoadmapSchema",
+      },
+      type: "array",
     },
     socials: {
       items: {
@@ -235,17 +282,8 @@ export const ProjectSchemaSchema = {
     symbol: {
       type: "string",
     },
-    additionalSymbols: {
-      items: {
-        type: "string",
-      },
-      type: "array",
-    },
-    roadmap: {
-      $ref: "#/definitions/RoadmapSchema",
-    },
-    favoriteTweets: {
-      $ref: "#/definitions/FavoriteTweetsSchema",
+    token: {
+      $ref: "#/definitions/TokenSchema",
     },
     tokenomics: {
       $ref: "#/definitions/TokenomicsSchema",
@@ -259,12 +297,6 @@ export const ProjectSchemaSchema = {
       },
       type: "array",
     },
-    token: {
-      items: {
-        $ref: "#/definitions/TokenSchema",
-      },
-      type: "object",
-    },
     website: {
       format: "url",
       type: "string",
@@ -275,6 +307,10 @@ export const ProjectSchemaSchema = {
     },
   },
   required: [
+    "additionalLinks",
+    "additionalSymbols",
+    "erc20",
+    "favoriteTweets",
     "name",
     "socials",
     "symbol",
