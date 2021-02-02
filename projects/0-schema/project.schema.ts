@@ -17,6 +17,7 @@ interface RoadmapSchema {
   image?: string;
   link?: string;
   day?: number;
+  quarter?: string;
   month?: number;
   title: string;
   year: number;

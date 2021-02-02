@@ -116,6 +116,9 @@ export const ProjectSchemaSchema = {
         month: {
           type: "number",
         },
+        quarter: {
+          type: "string",
+        },
         title: {
           type: "string",
         },

@@ -188,12 +188,14 @@
     {
       "description": "In addition to our own TXL token and ETH, other ERC-20 tokens can be sent on the Autobahn Network.",
       "title": "ERC-20 Integration",
+      "quarter": "Q1",
       "year": 2021,
       "image": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Ethereum_re_0m68.svg"
     },
     {
       "description": "The Tixl Wallet will get more features, including friend onboarding, UX improvements, etc.",
       "title": "Tixl Wallet Features",
+      "quarter": "Q1",
       "year": 2021,
       "image": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/wallet_aym5.svg"
     },
