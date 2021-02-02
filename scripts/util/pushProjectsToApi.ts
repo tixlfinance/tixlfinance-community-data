@@ -9,7 +9,6 @@ export const pushProjects = async (isPreview?: boolean) => {
   global.Headers = global.Headers || Headers;
 
   const directoryPath = path.join(__dirname, "./../../projects");
-
   const changedFiles = process.argv.slice(2);
 
   fs.readdir(directoryPath, (err, _) => {
@@ -23,31 +22,47 @@ export const pushProjects = async (isPreview?: boolean) => {
         const dirChange = dir.split("/", 3);
         if (dir.includes("projects")) {
           const filePath = directoryPath + "/" + dirChange[1] + "/info.json";
+          const fileRoadmapPath =
+            directoryPath + "/" + dirChange[1] + "/roadmap.json";
+          const fileTokenPath =
+            directoryPath + "/" + dirChange[1] + "/token.json";
           const logoPath = "/projects/" + dirChange[1] + "/logo.png";
           const descriptionPath =
             directoryPath + "/" + dirChange[1] + "/description.md";
-
           return new Promise((resolve, _) => {
-            fs.readFile(filePath, "utf8", (_, data) => {
-              fs.readFile(descriptionPath, "utf8", (_, descriptionData) => {
-                if (data) {
-                  const parsed = {
-                    ...JSON.parse(data),
-                    isPreview: isPreview ?? false,
-                  };
-                  resolve({
-                    ...parsed,
-                    logo: parsed.logo || logoPath,
-                    asset_id: `${dirChange[1]}${isPreview ? "-preview" : ""}`,
-                    isPreview,
-                    description_markdown:
-                      parsed.description_markdown || descriptionPath,
-                    description_markdown_text:
-                      parsed.description_markdown_text || descriptionData,
-                  });
-                }
+            const data = fs.readFileSync(filePath).toString();
+            const descriptionData = fs.readFileSync(descriptionPath).toString();
+            let roadmap: string = "";
+            let token: string = "";
+            if (fs.existsSync(fileRoadmapPath)) {
+              roadmap = fs.readFileSync(fileRoadmapPath).toString();
+            }
+            if (fs.existsSync(fileRoadmapPath)) {
+              token = fs.readFileSync(fileTokenPath).toString();
+            }
+            if (data) {
+              const tokenData = JSON.parse(data);
+              if (roadmap) {
+                tokenData.roadmap = JSON.parse(roadmap.toString()).roadmap;
+              }
+              if (token) {
+                tokenData.token = JSON.parse(token.toString()).token;
+              }
+              const parsed = {
+                ...tokenData,
+                isPreview: isPreview ?? false,
+              };
+              resolve({
+                ...parsed,
+                logo: parsed.logo || logoPath,
+                asset_id: `${dirChange[1]}${isPreview ? "-preview" : ""}`,
+                isPreview,
+                description_markdown:
+                  parsed.description_markdown || descriptionPath,
+                description_markdown_text:
+                  parsed.description_markdown_text || descriptionData,
               });
-            });
+            }
           });
         }
       })
@@ -57,7 +72,7 @@ export const pushProjects = async (isPreview?: boolean) => {
       Promise.all(updatedProjects)
         .then(async (projects: any[]) => {
           for (const project of projects) {
-            console.log("Processing project", JSON.stringify(project));
+            console.log("Processing project", JSON.stringify(project, null, 2));
             delete project.__triggerUpdate;
 
             const endpoint = process.env.MAIN_API_ENDPOINT as string;
@@ -70,8 +85,8 @@ export const pushProjects = async (isPreview?: boolean) => {
             });
 
             const existsQuery = gql`
-            query {assetByAssetId(asset_id: "${project.asset_id}") {id coingecko_id}}
-          `;
+                query {assetByAssetId(asset_id: "${project.asset_id}") {id coingecko_id}}
+              `;
 
             // looking, if the asset already exists
             const existsResponse = await graphQLClient.request(existsQuery);
@@ -84,8 +99,8 @@ export const pushProjects = async (isPreview?: boolean) => {
             // if it does and it is a preview asset and a historicaldata-change is necessary, removing it to delete outdated data
             if (isPreview && alreadyExists && historicalDataChangeNecessary) {
               const removePreviousPreviewBuildQuery = gql`
-              mutation {deletePreviewAsset(asset_id: "${project.asset_id}") {id}}
-            `;
+                  mutation {deletePreviewAsset(asset_id: "${project.asset_id}") {id}}
+                `;
 
               const removeResponse = await graphQLClient.request(
                 removePreviousPreviewBuildQuery
@@ -99,12 +114,12 @@ export const pushProjects = async (isPreview?: boolean) => {
               : "createAssetFromGithub";
 
             const mutation = gql`
-              mutation CreateAsset($data: AssetInput!) {
-                ${mutationToUse}(data: $data) {
-                  id
-                }
-              }
-            `;
+                  mutation CreateAsset($data: AssetInput!) {
+                    ${mutationToUse}(data: $data) {
+                      id
+                    }
+                  }
+                `;
 
             const variables = {
               data: project,
