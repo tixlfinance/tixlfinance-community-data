@@ -1,0 +1,61 @@
+{
+  "name": "Neo",
+  "symbol": "NEO",
+  "coingecko_id": "neo",
+  "coin_api_id": "NEO",
+  "website": "https://neo.org/",
+  "source_code": "https://github.com/neo-project",
+  "white_paper": "https://docs.neo.org/docs/en-us/basic/whitepaper.html",
+  "category_tags": ["NFT"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/neo_blockchain",
+      "handle": "Neo Smart Economy",
+      "search_strings": ["#Neo", "$NEO", "$GAS"]
+    },
+    {
+      "name": "Reddit",
+      "url": "https://reddit.com/r/NEO",
+      "handle": "Neo"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/NeoBlockchainOfficial/"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://telegram.me/NEO_EN"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/channel/UCl1AwEDN0w5lTmfJEMsY5Vw/videos",
+      "handle": "UCl1AwEDN0w5lTmfJEMsY5Vw"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 100000000,
+    "total_supply": 100000000,        
+    "circulating_supply": 70538831
+  },
+  "trading_pairs": [
+    {
+      "base": "NEO",
+      "quote": "USD",
+      "pair_id": "bitfinex.com_NEO_USD",
+      "exchange_id": "bitfinex.com"
+    },
+    {
+      "base": "NEO",
+      "quote": "USDT",
+      "pair_id": "bittrex.com_USDT_NEO",
+      "exchange_id": "bittrex.com"
+    },
+    {
+      "base": "NEO",
+      "quote": "USDT",
+      "pair_id": "binance.com_NEO_USDT",
+      "exchange_id": "binance.com"
+    }
+  ],
+}
