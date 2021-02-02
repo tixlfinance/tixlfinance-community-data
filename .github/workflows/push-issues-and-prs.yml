@@ -12,6 +12,9 @@ jobs:
             - name: NPM Install
               run: npm install
               shell: bash
+            - name: Log event body
+              run: |
+                  cat $GITHUB_EVENT_PATH
             - name: Push issues and PRs
               env:
                   MAIN_API_ENDPOINT: ${{ secrets.MAIN_API_ENDPOINT }}
