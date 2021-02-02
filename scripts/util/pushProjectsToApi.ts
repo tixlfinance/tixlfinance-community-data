@@ -31,14 +31,17 @@ export const pushProjects = async (isPreview?: boolean) => {
             directoryPath + "/" + dirChange[1] + "/description.md";
           return new Promise((resolve, _) => {
             const data = fs.readFileSync(filePath).toString();
-            const descriptionData = fs.readFileSync(descriptionPath).toString();
             let roadmap: string = "";
             let token: string = "";
+            let descriptionData: string = "";
             if (fs.existsSync(fileRoadmapPath)) {
               roadmap = fs.readFileSync(fileRoadmapPath).toString();
             }
             if (fs.existsSync(fileRoadmapPath)) {
               token = fs.readFileSync(fileTokenPath).toString();
+            }
+            if (fs.existsSync(descriptionPath)) {
+              descriptionData = fs.readFileSync(descriptionPath).toString();
             }
             if (data) {
               const tokenData = JSON.parse(data);
@@ -58,7 +61,9 @@ export const pushProjects = async (isPreview?: boolean) => {
                 asset_id: `${dirChange[1]}${isPreview ? "-preview" : ""}`,
                 isPreview,
                 description_markdown:
-                  parsed.description_markdown || descriptionPath,
+                  parsed.description_markdown || descriptionData
+                    ? descriptionPath
+                    : "",
                 description_markdown_text:
                   parsed.description_markdown_text || descriptionData,
               });
@@ -85,8 +90,8 @@ export const pushProjects = async (isPreview?: boolean) => {
             });
 
             const existsQuery = gql`
-                query {assetByAssetId(asset_id: "${project.asset_id}") {id coingecko_id}}
-              `;
+                  query {assetByAssetId(asset_id: "${project.asset_id}") {id coingecko_id}}
+                `;
 
             // looking, if the asset already exists
             const existsResponse = await graphQLClient.request(existsQuery);
@@ -99,8 +104,8 @@ export const pushProjects = async (isPreview?: boolean) => {
             // if it does and it is a preview asset and a historicaldata-change is necessary, removing it to delete outdated data
             if (isPreview && alreadyExists && historicalDataChangeNecessary) {
               const removePreviousPreviewBuildQuery = gql`
-                  mutation {deletePreviewAsset(asset_id: "${project.asset_id}") {id}}
-                `;
+                    mutation {deletePreviewAsset(asset_id: "${project.asset_id}") {id}}
+                  `;
 
               const removeResponse = await graphQLClient.request(
                 removePreviousPreviewBuildQuery
@@ -114,12 +119,12 @@ export const pushProjects = async (isPreview?: boolean) => {
               : "createAssetFromGithub";
 
             const mutation = gql`
-                  mutation CreateAsset($data: AssetInput!) {
-                    ${mutationToUse}(data: $data) {
-                      id
+                    mutation CreateAsset($data: AssetInput!) {
+                      ${mutationToUse}(data: $data) {
+                        id
+                      }
                     }
-                  }
-                `;
+                  `;
 
             const variables = {
               data: project,
