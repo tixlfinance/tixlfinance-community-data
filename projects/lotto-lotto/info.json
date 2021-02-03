@@ -6,9 +6,17 @@
   "website": "https://www.lotto.finance/",
   "isStableCoin": false,
   "erc20": {
-    "tokenAddress": "0xb57a7fed1076e44338ab808e0f02978290a0f965",
+    "tokenAddress": "0xb0dfd28d3cf7a5897c694904ace292539242f858",
     "nonCirculatingWallets": [
-      "0xcc1c91e33ee9974aafc7bfd2f3972937e6353f07"
+      "0xd534d423c3b546425ae61864762272c1251bf66a",
+      "0x2a860493ed91d69c6553489f44e32d51ed3911de",
+      "0x4dfbd2271d9273b99a62fb5d6373704b9d51e321",
+      "0x9142c6434c7231480b193bbb1d58c1d45b39a33b",
+      "0xa3bde96ef0038e1fb2fb8d4d8366e1c426a3e6b3",
+      "0x5ef143ce620c1c4cb1b41396cb42a5750ccc8ed4",
+      "0x62ba4855767fe7b72f6756af7479a3e340fdfa21",
+      "0xc545384331c78203a447b0b16268c14e0ad7a8d4",
+      "0x0b06f49915f3457f8a7c3819632de7713a43d1fb"
     ]
   },
   "category_tags": ["defi"],
@@ -46,8 +54,8 @@
     }
   ],
   "tokenomics": {
-    "total_supply": 7777777777,
-    "circulating_supply": 0
+    "total_supply": 2000000000,
+    "circulating_supply": 3303566
   },
   "trading_pairs": [
     {
