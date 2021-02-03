@@ -1,0 +1,57 @@
+{
+  "name": "Insured Finance",
+  "symbol": "INFI",
+  "coingecko_id": "insured-finance",
+  "uniswap_id": "0x159751323a9e0415dd3d6d42a1212fe9f4a0848c",
+  "website": "https://insured.finance/",
+  "isStableCoin": false,
+  "erc20": {
+    "tokenAddress": "0x159751323a9e0415dd3d6d42a1212fe9f4a0848c",
+    "nonCirculatingWallets": [
+      "0x4555f0a5622a7d971610518b80ae708591ce5202",
+      "0x69fa3ab56665561e95f90247436cd2069c8f0243",
+      "0x6201fb31229c6ed6c91793ec349d3b33e7318e54",
+      "0xd58fd30080ec5e863ef1de776faa44324ea6d122",
+      "0xe9b8864fb6553bfd291cc2eea9f1b1468d7a001a",
+      "0xe085b0e25632496dae7843bc86b44c30b88b4c4c",
+      "0x0a90d8a9e6ca64fb166f3d6df50d29c8602562d4"
+    ]
+  },
+  "category_tags": ["defi", "smart contract platform"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/insuredfin",
+      "handle": "InsuredFin",
+      "search_strings": ["#INFI", "$INFI"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/insuredfinance",
+      "handle": "Insured Finance | Official ENG"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@insuredfinance",
+      "handle": "insuredfinance"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 120000000,
+    "circulating_supply": 31467000
+  },
+  "trading_pairs": [
+    {
+      "base": "0x159751323a9e0415dd3d6d42a1212fe9f4a0848c",
+      "quote": "ETH",
+      "pair_id": "0xe7607a563105f7dba8beb87ad7f5b3a9ec793958",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "INFI",
+      "quote": "ETH",
+      "pair_id": "",
+      "exchange_id": "bilaxy.com"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "roadmap": [
+    {
+      "description": "Equity Funding, Going Public, Token-Private Sale.",
+      "title": "Kickoff",
+      "year": 2020,
+      "quarter": "Q4"
+    },
+    {
+      "description": "PR and Community Building, Token Launch, Listing on Exchanges, Product Development, Testing, First Beta Desktop Version.",
+      "title": "Beta launch",
+      "year": 2021,
+      "quarter": "Q1"
+    },
+    {
+      "description": "Beta to Live Version Desktop, Beta App IOS, Extended Structured Products, Beta Rating System.",
+      "title": "BEta to live",
+      "year": 2021,
+      "quarter": "Q2"
+    },
+    {
+      "description": "Multi-Collateral Escrow, Shift to DAO Governance, Fixed Liquidity Provider Structure.",
+      "quarter": "Q3",
+      "title": "DAO shift",
+      "year": 2021
+    },
+    {
+      "description": "Enough Instant Liquidity for major assets, P2P Insurance for Re-Insurance.",
+      "quarter": "Q4",
+      "title": "P2P",
+      "year": 2021
+    },
+    {
+      "description": "Liquidity Mining, Live Protocol Rating System, Live Exchange Rating System, Live User Rating System.",
+      "quarter": "Q1",
+      "title": "Liquidity mining",
+      "year": 2022
+    },
+    {
+      "description": "System Integration with Exchanges, System Integration with Trading Terminals.",
+      "quarter": "Q2",
+      "title": "Exchanges",
+      "year": 2022
+    },
+    {
+      "description": "Safe and Insured Purchase of Crypto Assets with Fiat, Insured Crypto Debit Card.",
+      "quarter": "Q3",
+      "title": "Insured Purchases",
+      "year": 2022
+    },
+    {
+      "description": "Insured Finance Eco-System Improvements, Governance Incentives, Blockchain Contract Insurance.",
+      "quarter": "Q4",
+      "title": "Insured finance eco-system",
+      "year": 2022
+    }
+  ]
+}
