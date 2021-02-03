@@ -1,0 +1,60 @@
+{
+  "name": "Lotto",
+  "symbol": "lotto",
+  "coingecko_id": "lotto",
+  "uniswap_id": "0xb0dfd28d3cf7a5897c694904ace292539242f858",
+  "website": "https://www.lotto.finance/",
+  "isStableCoin": false,
+  "erc20": {
+    "tokenAddress": "0xb57a7fed1076e44338ab808e0f02978290a0f965",
+    "nonCirculatingWallets": [
+      "0xcc1c91e33ee9974aafc7bfd2f3972937e6353f07"
+    ]
+  },
+  "category_tags": ["defi"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/LottoFinance",
+      "handle": "LottoFinance",
+      "search_strings": ["#lotto", "$lotto"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/insuredfinance",
+      "handle": "Insured Finance | Official ENG"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/lottofinance",
+      "handle": "lottofinance"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/LottoFinance/",
+      "handle": "LottoFinance"
+    }
+  ],
+  "additionalLinks": [
+    {
+      "label": "Claim your LOTTO",
+      "url": "https://www.lotto.finance/claim"
+    },
+    {
+      "label": "Team",
+      "url": "https://www.lotto.finance/about"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 7777777777,
+    "circulating_supply": 0
+  },
+  "trading_pairs": [
+    {
+      "base": "0xb0dfd28d3cf7a5897c694904ace292539242f858",
+      "quote": "ETH",
+      "pair_id": "0x4f85f6b36355a4b49c49635be49f95ac3f57c14c",
+      "exchange_id": "uniswap.exchange"
+    }
+  ]
+}
