@@ -5,3 +5,4 @@ Once an insurance request is fulfilled, smart contracts are fully collateralized
 
 
 INFI token holders can access the most secure crypto insurance marketplace, can provide coverage and earn the full premium on insurances, get access to the hottest private sale deals in the industry, stake their INFI and participate in lending.
+ 
