@@ -4,8 +4,6 @@
   "coingecko_id": "insured-finance",
   "uniswap_id": "0x159751323a9e0415dd3d6d42a1212fe9f4a0848c",
   "website": "https://insured.finance/",
-  //TODO: gibt es das?
-  "white_paper": "https://tixl.me/whitepaper",
   "isStableCoin": false,
   "erc20": {
     "tokenAddress": "0x159751323a9e0415dd3d6d42a1212fe9f4a0848c",

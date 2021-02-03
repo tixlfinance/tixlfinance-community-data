@@ -160,6 +160,7 @@ export const ProjectSchemaSchema = {
             "Medium",
             "Reddit",
             "Telegram",
+            "Telegram Announcements",
             "Twitter",
             "Youtube",
           ],
@@ -310,10 +311,6 @@ export const ProjectSchemaSchema = {
     },
   },
   required: [
-    "additionalLinks",
-    "additionalSymbols",
-    "erc20",
-    "favoriteTweets",
     "name",
     "socials",
     "symbol",

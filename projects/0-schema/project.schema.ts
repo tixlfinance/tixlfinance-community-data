@@ -1,5 +1,5 @@
 interface SocialSchema {
-  name: 'Twitter' | 'Telegram' | 'Medium' | 'Reddit' | 'Youtube' | 'Facebook';
+  name: 'Twitter' | 'Telegram' | 'Telegram Announcements' | 'Medium' | 'Reddit' | 'Youtube' | 'Facebook';
   /**
    * @format url
    */
@@ -76,9 +76,9 @@ interface FavoriteTweetSchema {
 export default interface ProjectSchema {
   name: string;
   symbol: string;
-  additionalSymbols: string[];
+  additionalSymbols?: string[];
   coingecko_id?: string;
-  erc20: Erc20Schema;
+  erc20?: Erc20Schema;
   coin_api_id?: string;
   isStableCoin?: boolean;
   /**
@@ -97,8 +97,8 @@ export default interface ProjectSchema {
    * @minItems 1
    */
   socials: SocialSchema[];
-  favoriteTweets: FavoriteTweetSchema[];
-  additionalLinks: LinkSchema[];
+  favoriteTweets?: FavoriteTweetSchema[];
+  additionalLinks?: LinkSchema[];
   /**
    * Roadmap is a premium feature
    */
