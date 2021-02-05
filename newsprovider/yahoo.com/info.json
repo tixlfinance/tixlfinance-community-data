@@ -1,0 +1,10 @@
+{
+  "name": "Yahoo",
+  "url": "https://finance.yahoo.com/news",
+  "rssFeeds": [
+    {
+      "url": "https://finance.yahoo.com/news/rssindex",
+      "name": "Allnews"
+    }
+  ]
+}
