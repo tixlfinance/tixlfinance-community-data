@@ -1,0 +1,101 @@
+{
+  "name": "OMG Network",
+  "symbol": "omg",
+  "coingecko_id": "omisego",
+  "coin_api_id": "OMG",
+  "website": "https://omg.network/",
+  "source_code": "https://github.com/omgnetwork",
+  "category_tags": ["token", "smart contract platform"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/omgnetworkhq",
+      "handle": "omgnetworkhq",
+      "search_strings": ["$OMG"]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/omgnetworkhq/"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://telegram.me/omisego"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/omise_go"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=w-tKyhA4QzE&list=PLCBKCDnQRuS8Zgisvs8-q5QwQxVWooHpg",
+      "handle": "UC-NfGRxTkJfVbFgyJoOxzCQ"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 140245398.245133,
+    "max_supply": 140245398.245133,
+    "circulating_supply": 140245398.245133
+  },
+  "trading_pairs": [
+    {
+      "base": "OMG",
+      "quote": "USDT",
+      "pair_id": "OMG_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "OMG",
+      "quote": "USDT",
+      "pair_id": "OMG_USDT",
+      "exchange_id": "gate.io"
+    },
+    {
+      "base": "OMG",
+      "quote": "USDT",
+      "pair_id": "OMG_USDT",
+      "exchange_id": "bilaxy.com"
+    },
+    {
+      "base": "OMG",
+      "quote": "USDT",
+      "pair_id": "OMG_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "OMG",
+      "quote": "USDT",
+      "pair_id": "OMG_USDT",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "OMG",
+      "quote": "USD",
+      "pair_id": "OMG_USD",
+      "exchange_id": "bitfinex.com"
+    },
+    {
+      "base": "OMG",
+      "quote": "USD",
+      "pair_id": "OMG_USD",
+      "exchange_id": "ftx_spot"
+    },
+    {
+      "base": "OMG",
+      "quote": "USD",
+      "pair_id": "OMG_USD",
+      "exchange_id": "coinbase.com"
+    },
+    {
+      "base": "OMG",
+      "quote": "USD",
+      "pair_id": "OMG_USD",
+      "exchange_id": "kraken.com"
+    },
+    {
+      "base": "OMG",
+      "quote": "USD",
+      "pair_id": "OMG_USD",
+      "exchange_id": "bitstamp.net"
+    }
+  ]
+}
