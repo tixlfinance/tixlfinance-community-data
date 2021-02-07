@@ -1,0 +1,30 @@
+{
+  "name": "Compound",
+  "symbol": "comp",
+  "coingecko_id": "compound-coin",
+  "coin_api_id": "COMP",
+  "website": "https://compound.finance/governance/comp",
+  "source_code": "https://github.com/compound-finance",
+  "category_tags": ["token", "defi", "yield farming", "governance"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/compoundfinance",
+      "handle": "compoundfinance",
+      "search_strings": ["$COMP"]
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/compound-finance"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/Compound/"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 8999999999999,
+    "max_supply": null,
+    "circulating_supply": 92233205386.4423
+  }
+}

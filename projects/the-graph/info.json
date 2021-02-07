@@ -1,0 +1,93 @@
+{
+  "name": "The Graph",
+  "symbol": "grt",
+  "coingecko_id": "the-graph",
+  "coin_api_id": "GRT",
+  "website": "https://thegraph.com/",
+  "source_code": "https://github.com/graphprotocol",
+  "category_tags": [
+    "token",
+    "defi",
+    "business services",
+    "infrastructure",
+    "analytics",
+    "smart contract platform"
+  ],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/graphprotocol",
+      "handle": "graphprotocol",
+      "search_strings": ["$GRT", "#GRT"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/graphprotocol"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/thegraph/"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 10000000000,
+    "max_supply": 10000000000,
+    "circulating_supply": 1224999438
+  },
+  "trading_pairs": [
+    {
+      "base": "GRT",
+      "quote": "USDT",
+      "pair_id": "GRT_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "GRT",
+      "quote": "USDT",
+      "pair_id": "GRT_USDT",
+      "exchange_id": "gate.io"
+    },
+    {
+      "base": "GRT",
+      "quote": "USDT",
+      "pair_id": "GRT_USDT",
+      "exchange_id": "bilaxy.com"
+    },
+    {
+      "base": "GRT",
+      "quote": "USDT",
+      "pair_id": "GRT_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "GRT",
+      "quote": "USDT",
+      "pair_id": "GRT_USDT",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "GRT",
+      "quote": "USDT",
+      "pair_id": "GRT_USDT",
+      "exchange_id": "kucoin.com"
+    },
+    {
+      "base": "GRT",
+      "quote": "USD",
+      "pair_id": "GRT_USD",
+      "exchange_id": "ftx_spot"
+    },
+    {
+      "base": "GRT",
+      "quote": "USD",
+      "pair_id": "GRT_USD",
+      "exchange_id": "coinbase.com"
+    },
+    {
+      "base": "GRT",
+      "quote": "USD",
+      "pair_id": "GRT_USD",
+      "exchange_id": "kraken.com"
+    }
+  ]
+}
