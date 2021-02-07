@@ -1,0 +1,144 @@
+{
+  "name": "Theta Network",
+  "symbol": "theta",
+  "coingecko_id": "theta-token",
+  "coin_api_id": "theta",
+  "website": "https://www.thetatoken.org/",
+  "source_code": "https://github.com/thetatoken",
+  "white_paper": "https://s3.us-east-2.amazonaws.com/assets.thetatoken.org/Theta-white-paper-latest.pdf",
+  "category_tags": ["entertainment"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Theta_Network",
+      "handle": "Theta_Network",
+      "search_strings": ["#Theta"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/thetanetwork"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/thetatoken"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=ao8mnAxl0oA&list=PLq1YHqadYPfP9NjsWBUuq_BYJprDKZb70",
+      "handle": "UCTLBcj0nqZR9lrAhHccoPgQ"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/ThetaNetwork",
+      "handle": "ThetaNetwork"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/theta-network",
+      "handle": "theta-network"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": null,
+    "total_supply": 1000000000,
+    "circulating_supply": 1000000000
+  },
+  "trading_pairs": [
+    {
+      "base": "THETA",
+      "quote": "USD",
+      "pair_id": "hitbtc.com_THETA_USD",
+      "exchange_id": "hitbtc.com"
+    },
+    {
+      "base": "THETA",
+      "quote": "USDT",
+      "pair_id": "binance.com_THETA_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "THETA",
+      "quote": "USDT",
+      "pair_id": "digifinex.com_THETA_USDT",
+      "exchange_id": "digifinex.com"
+    },
+    {
+      "base": "THETA",
+      "quote": "USDT",
+      "pair_id": "huobi.com_THETA_USDT",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "THETA",
+      "quote": "USDT",
+      "pair_id": "okex.com_THETA_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "THETA",
+      "quote": "USDT",
+      "pair_id": "okex.co.kr_THETA_USDT",
+      "exchange_id": "okex.co.kr"
+    },
+    {
+      "base": "THETA",
+      "quote": "USDT",
+      "pair_id": "bkex.com_THETA_USDT",
+      "exchange_id": "bkex.com"
+    },
+    {
+      "base": "THETA",
+      "quote": "USDT",
+      "pair_id": "gate.io_THETA_USDT",
+      "exchange_id": "gate.io"
+    },
+    {
+      "base": "THETA",
+      "quote": "USDT",
+      "pair_id": "biki.com_THETA_USDT",
+      "exchange_id": "biki.com"
+    },
+    {
+      "base": "THETA",
+      "quote": "USDT",
+      "pair_id": "hotbit.io_THETA_USDT",
+      "exchange_id": "hotbit.io"
+    },
+    {
+      "base": "THETA",
+      "quote": "USDT",
+      "pair_id": "atomars.com_THETA_USDT",
+      "exchange_id": "atomars.com"
+    },
+    {
+      "base": "THETA",
+      "quote": "USDT",
+      "pair_id": "wazirx.com_THETA_USDT",
+      "exchange_id": "wazirx.com"
+    },
+    {
+      "base": "THETA",
+      "quote": "USDT",
+      "pair_id": "bitmart.com_THETA_USDT",
+      "exchange_id": "bitmart.com"
+    },
+    {
+      "base": "THETA",
+      "quote": "USDT",
+      "pair_id": "dragonex.io_THETA_USDT",
+      "exchange_id": "dragonex.io"
+    },
+    {
+      "base": "THETA",
+      "quote": "USDT",
+      "pair_id": "huobi.com_THETA_USDT",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "THETA",
+      "quote": "USDT",
+      "pair_id": "emirex.com_THETA_USDT",
+      "exchange_id": "emirex.com"
+    }
+  ]
+}

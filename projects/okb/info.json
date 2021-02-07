@@ -1,0 +1,193 @@
+{
+  "name": "OKB",
+  "symbol": "okb",
+  "coingecko_id": "okb",
+  "coin_api_id": "okb",
+  "website": "https://www.okex.com/okb",
+  "source_code": "https://github.com/okex",
+  "white_paper": "",
+  "category_tags": ["exchange-based tokens"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/OKEx",
+      "handle": "OKEx",
+      "search_strings": ["#OKB", "#OKEx"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/okexofficial_en"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/OKEx"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=ezkqdYl56dM&list=PLwd2gX1QJxP02R3BiAHHJGI3ZeqMB67nd",
+      "handle": "UCZEp9q993DknUPrhIL51lcw"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/okex-blog",
+      "handle": "okex-blog"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": null,
+    "total_supply": 300000000,
+    "circulating_supply": 271451284.95
+  },
+  "trading_pairs": [
+    {
+      "base": "OKB",
+      "quote": "USD",
+      "pair_id": "bitfinex.com_OKB_USD",
+      "exchange_id": "bitfinex.com"
+    },
+    {
+      "base": "OKB",
+      "quote": "USD",
+      "pair_id": "ftx.com_OKB_USD",
+      "exchange_id": "ftx.com"
+    },
+    {
+      "base": "OKB",
+      "quote": "USDT",
+      "pair_id": "binance.com_OKB_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "OKB",
+      "quote": "USDT",
+      "pair_id": "hoo.com_OKB_USDT",
+      "exchange_id": "hoo.com"
+    },
+    {
+      "base": "OKB",
+      "quote": "USDT",
+      "pair_id": "bitmart.com_OKB_USDT",
+      "exchange_id": "bitmart.com"
+    },
+    {
+      "base": "OKB",
+      "quote": "USDT",
+      "pair_id": "bitmax.io_OKB_USDT",
+      "exchange_id": "bitmax.io"
+    },
+    {
+      "base": "OKB",
+      "quote": "USDT",
+      "pair_id": "bkex.com_OKB_USDT",
+      "exchange_id": "bkex.com"
+    },
+    {
+      "base": "OKB",
+      "quote": "USDT",
+      "pair_id": "coinbene.com_OKB_USDT",
+      "exchange_id": "coinbene.com"
+    },
+    {
+      "base": "OKB",
+      "quote": "USDT",
+      "pair_id": "coinex.com_OKB_USDT",
+      "exchange_id": "coinex.com"
+    },
+    {
+      "base": "OKB",
+      "quote": "USDT",
+      "pair_id": "biki.com_OKB_USDT",
+      "exchange_id": "biki.com"
+    },
+    {
+      "base": "OKB",
+      "quote": "USDT",
+      "pair_id": "gate.io_OKB_USDT",
+      "exchange_id": "gate.io"
+    },
+    {
+      "base": "OKB",
+      "quote": "USDT",
+      "pair_id": "lbank.info_OKB_USDT",
+      "exchange_id": "lbank.info"
+    },
+    {
+      "base": "OKB",
+      "quote": "USDT",
+      "pair_id": "probit.com_OKB_USDT",
+      "exchange_id": "probit.com"
+    },
+    {
+      "base": "OKB",
+      "quote": "USDT",
+      "pair_id": "bione.me_OKB_USDT",
+      "exchange_id": "bione.me"
+    },
+    {
+      "base": "OKB",
+      "quote": "USDT",
+      "pair_id": "bhex.com_OKB_USDT",
+      "exchange_id": "bhex.com"
+    },
+    {
+      "base": "OKB",
+      "quote": "USDT",
+      "pair_id": "dragonex.io_OKB_USDT",
+      "exchange_id": "dragonex.io"
+    },
+    {
+      "base": "OKB",
+      "quote": "USDT",
+      "pair_id": "whaleex.com_OKB_USDT",
+      "exchange_id": "whaleex.com"
+    },
+    {
+      "base": "OKB",
+      "quote": "USDT",
+      "pair_id": "yunex.io_OKB_USDT",
+      "exchange_id": "yunex.io"
+    },
+    {
+      "base": "OKB",
+      "quote": "USDT",
+      "pair_id": "hotbit.io_OKB_USDT",
+      "exchange_id": "hotbit.io"
+    },
+    {
+      "base": "OKB",
+      "quote": "USDT",
+      "pair_id": "bitsten.com_OKB_USDT",
+      "exchange_id": "bitsten.com"
+    },
+    {
+      "base": "OKB",
+      "quote": "USDT",
+      "pair_id": "hotbit.io_OKB_USDT",
+      "exchange_id": "hotbit.io"
+    },
+    {
+      "base": "OKB",
+      "quote": "USDT",
+      "pair_id": "bitsten.com_OKB_USDT",
+      "exchange_id": "bitsten.com"
+    },
+    {
+      "base": "OKB",
+      "quote": "USDT",
+      "pair_id": "exx.com_OKB_USDT",
+      "exchange_id": "exx.com"
+    },
+    {
+      "base": "OKB",
+      "quote": "USDT",
+      "pair_id": "floatsv.com_OKB_USDT",
+      "exchange_id": "floatsv.com"
+    },
+    {
+      "base": "OKB",
+      "quote": "USDT",
+      "pair_id": "coinall.com_OKB_USDT",
+      "exchange_id": "coinall.com"
+    }
+  ]
+}
