@@ -1,0 +1,90 @@
+{
+  "name": "EOS",
+  "symbol": "eos",
+  "coingecko_id": "eos",
+  "coin_api_id": "EOS",
+  "website": "https://eos.io/",
+  "source_code": "https://github.com/EOSIO",
+  "white_paper": "https://github.com/EOSIO/Documentation/blob/master/TechnicalWhitePaper.md",
+  "category_tags": ["token", "smart contract platform"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/block_one_",
+      "handle": "EOSIO",
+      "search_strings": ["#EOSIO", "$EOS"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/EOSproject"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/eos/"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/blockoneofficial"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=ldoj7XHSP5g&list=PLms6VPyMSYTxM5FWhj87GfyQ4dWwYWdwa",
+      "handle": "UCbc7vIgwb-sPSckU0FbWmRg"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": null,
+    "max_supply": null,
+    "circulating_supply": 951862142
+  },
+  "trading_pairs": [
+    {
+      "base": "EOS",
+      "quote": "USDT",
+      "pair_id": "EOS_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "EOS",
+      "quote": "USDT",
+      "pair_id": "EOS_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "EOS",
+      "quote": "USDT",
+      "pair_id": "EOS_USDT",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "EOS",
+      "quote": "USD",
+      "pair_id": "EOS_USD",
+      "exchange_id": "bitfinex.com"
+    },
+    {
+      "base": "EOS",
+      "quote": "USDT",
+      "pair_id": "EOS_USDT",
+      "exchange_id": "bittrex.com"
+    },
+    {
+      "base": "EOS",
+      "quote": "USD",
+      "pair_id": "EOS_USD",
+      "exchange_id": "coinbase.com"
+    },
+    {
+      "base": "EOS",
+      "quote": "USDT",
+      "pair_id": "EOS_USDT",
+      "exchange_id": "gemini.com"
+    },
+    {
+      "base": "EOS",
+      "quote": "USD",
+      "pair_id": "EOS_USD",
+      "exchange_id": "kraken.com"
+    }
+  ]
+}

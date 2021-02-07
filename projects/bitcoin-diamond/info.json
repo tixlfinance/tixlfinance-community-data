@@ -1,0 +1,49 @@
+{
+  "name": "Bitcoin Diamond",
+  "symbol": "bcd",
+  "coingecko_id": "bitcoin-diamond",
+  "coin_api_id": "BCD",
+  "website": "https://www.bitcoindiamond.org/",
+  "category_tags": ["cryptocurrency"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/BitcoinDiamond_",
+      "handle": "BCD",
+      "search_strings": ["$BCD"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/BCDcommunity"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/btdbitcoin/"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 210000000,
+    "max_supply": null,
+    "circulating_supply": 188156898
+  },
+  "trading_pairs": [
+    {
+      "base": "BCD",
+      "quote": "USDT",
+      "pair_id": "BCD_USD",
+      "exchange_id": "gate.io"
+    },
+    {
+      "base": "BCD",
+      "quote": "BTC",
+      "pair_id": "BCD_BTC",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "BCD",
+      "quote": "USDT",
+      "pair_id": "BCD_USD",
+      "exchange_id": "okex.com"
+    }
+  ]
+}

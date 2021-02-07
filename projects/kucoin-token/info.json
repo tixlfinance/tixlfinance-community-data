@@ -1,0 +1,46 @@
+{
+  "name": "KuCoin Token",
+  "symbol": "kcs",
+  "coingecko_id": "kucoin-shares",
+  "coin_api_id": "KCS",
+  "website": "https://www.kucoin.com/#/",
+  "category_tags": ["token", "exchange-based tokens"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/kucoincom",
+      "handle": "KuCoin",
+      "search_strings": ["#KuCoin"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/kucoin_de"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/kucoin/"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=6ousgjFB3ZE&list=PLDGw10EWQvfSVW53Eif02lBdX6uHkCIan",
+      "handle": "KuCoinExchange"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/kucoinexchange"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 170118638,
+    "max_supply": null,
+    "circulating_supply": 80118638
+  },
+  "trading_pairs": [
+    {
+      "base": "KCS",
+      "quote": "USDT",
+      "pair_id": "KCS_USDT",
+      "exchange_id": "kucoin.com"
+    }
+  ]
+}

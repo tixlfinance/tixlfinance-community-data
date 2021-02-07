@@ -35,7 +35,7 @@
     {
       "base": "DOGE",
       "quote": "USDT",
-      "pair_id": "DOGE_USD",
+      "pair_id": "DOGE_USDT",
       "exchange_id": "bittrex.com"
     },
     {
