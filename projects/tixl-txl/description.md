@@ -1,5 +1,6 @@
 Backed by well-known investors, the German **Tixl** Organization consists of an experienced team currently building the interoperable Tixl Ecosystem for Decentralized Finance (DeFi). Tixl’s Autobahn is a network for interoperable Smart Contracts and dApps - with instant & minimal-fee txs for any transfer of data, not just digital assets or tokens.
 
+
 With interoperable Smart Contracts & dApps for Tixl’s low-fee, instant transaction Autobahn Network, anything from Cross-Chain Liquidity Pools for Decentralized Exchanges (DEX) to any Payment or Point of Sale (PoS) or banking solution can be set up. Think of
 - Interoperable swapping with super-low fees
 - PoS Payments using NFC
