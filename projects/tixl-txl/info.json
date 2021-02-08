@@ -37,6 +37,10 @@
   ],
   "additionalLinks": [
     {
+      "label": "Explorer",
+      "url": "https://etherscan.io/token/0x8eEF5a82E6Aa222a60F009ac18c24EE12dBf4b41"
+    },
+    {
       "label": "Wallet",
       "url": "https://wallet.tixl.org/"
     },
@@ -45,7 +49,7 @@
       "url": "https://tixl.org/team"
     }
   ],
-  "category_tags": ["defi", "l1s"],
+  "category_tags": ["defi", "l1s", "smart_contract_platform"],
   "socials": [
     {
       "name": "Twitter",

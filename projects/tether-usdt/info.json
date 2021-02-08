@@ -6,6 +6,20 @@
   "coin_api_id": "TETHER",
   "uniswap_id": "0xdac17f958d2ee523a2206206994597c13d831ec7",
   "isStableCoin": true,
+  "additionalLinks": [
+    {
+      "label": "Omni Explorer",
+      "url": "https://www.omniexplorer.info/asset/31"
+    },
+    {
+      "label": "Ethereum Explorer",
+      "url": "https://etherscan.io/token/0xdac17f958d2ee523a2206206994597c13d831ec7"
+    },
+    {
+      "label": "Tron Explorer",
+      "url": "https://tronscan.org/#/token20/TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t"
+    }
+  ],
   "category_tags": ["stablecoin", "usd_stablecoin", "yield_farming"],
   "socials": [
     {
@@ -620,9 +634,8 @@
     }
   ],
   "tokenomics": {
-    "max_supply": 0,
-    "total_supply": 19044288051.7054,
-    "circulating_supply": 19044288051.7054,
+    "total_supply": 28777833441,
+    "circulating_supply": 28777833441,
     "isInflationary": true
   }
 }
