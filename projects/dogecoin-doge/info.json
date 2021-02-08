@@ -1,0 +1,45 @@
+{
+  "name": "Dogecoin",
+  "symbol": "DOGE",
+  "logo": "https://github.com/tixlfinance/tixlfinance-community-data/blob/master/projects/dogecoin-doge/logo.png?raw=true",
+  "coingecko_id": "doge",
+  "coin_api_id": "DOGE",
+  "website": "https://dogecoin.com/",
+  "source_code": "https://github.com/dogecoin",
+  "white_paper": "https://github.com/dogecoin/dogecoin/blob/master/README.md",
+  "category_tags": ["l1s"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/dogecoin",
+      "handle": "Dogecoin",
+      "search_strings": ["#dogecoin"]
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/dogecoin",
+      "handle": "Dogecoin"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/OfficialDogecoin/"
+    }
+  ],
+  "tokenomics": {
+    "circulating_supply": 128233897816
+  },
+  "trading_pairs": [
+    {
+      "base": "DOGE",
+      "quote": "USDT",
+      "pair_id": "bittrex.com_DOGE_USD",
+      "exchange_id": "bittrex.com"
+    },
+    {
+      "base": "DOGE",
+      "quote": "USDT",
+      "pair_id": "binance.com_DOGE_USDT",
+      "exchange_id": "binance.com"
+    }
+  ]
+}
