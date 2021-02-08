@@ -1,0 +1,46 @@
+{
+  "name": "NEXO",
+  "symbol": "nexo",
+  "coingecko_id": "nexo",
+  "coin_api_id": "NEXO",
+  "website": "https://nexo.io",
+  "source_code": "https://github.com/nexofinance",
+  "white_paper": "https://nexo.io/assets/downloads/Nexo-Whitepaper.pdf?=1",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/NexoFinance",
+      "handle": "@NexoFinance",
+      "search_strings": ["$NEXO"]
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/Nexo"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/nexofinance"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/nexo"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/nexofinance",
+      "handle": "nexofinance"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 1000000000,
+    "circulating_supply": 560000010.0064
+  },
+  "trading_pairs": [
+    {
+      "base": "NEXO",
+      "quote": "USDT",
+      "pair_id": "NEXO_USDT",
+      "exchange_id": "huobi.com"
+    }
+  ]
+}

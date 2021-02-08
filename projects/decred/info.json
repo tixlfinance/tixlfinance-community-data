@@ -1,0 +1,80 @@
+{
+  "name": "Decred",
+  "symbol": "dcr",
+  "coingecko_id": "decred",
+  "coin_api_id": "DCR",
+  "website": "https://www.decred.org",
+  "source_code": "https://github.com/decred",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/decredproject",
+      "handle": "@decredproject",
+      "search_strings": ["#Decred", "#DCR"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/Decred"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/decred"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/decredproject",
+      "handle": "decredproject"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/decredchannel",
+      "handle": "decredchannel"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/decred"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 21000000,
+    "circulating_supply": 12578393.9580491
+  },
+  "trading_pairs": [
+    {
+      "base": "DCR",
+      "quote": "USD",
+      "pair_id": "DCR_USD",
+      "exchange_id": "bittrex.com"
+    },
+    {
+      "base": "DCR",
+      "quote": "USDT",
+      "pair_id": "DCR_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "DCR",
+      "quote": "USDT",
+      "pair_id": "DCR_USDT",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "DCR",
+      "quote": "USDT",
+      "pair_id": "DCR_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "DCR",
+      "quote": "USDT",
+      "pair_id": "DCR_USDT",
+      "exchange_id": "gate.io"
+    },
+    {
+      "base": "DCR",
+      "quote": "USDT",
+      "pair_id": "DCR_USDT",
+      "exchange_id": "bittrex.com"
+    }
+  ]
+}

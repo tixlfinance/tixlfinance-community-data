@@ -5,21 +5,12 @@
   "coin_api_id": "atom",
   "website": "https://www.sushiswap.fi",
   "source_code": "https://github.com/sushiswap",
-  "white_paper": "",
-  "category_tags": [
-    "yearn ecosystem",
-    "decentralized exchange",
-    "exchange-based tokens",
-    "automated market maker",
-    "yield farming",
-    "defi",
-    "governance"
-  ],
+  "category_tags": ["defi"],
   "socials": [
     {
       "name": "Twitter",
       "url": "https://twitter.com/sushiswap",
-      "handle": "sushiswap",
+      "handle": "@sushiswap",
       "search_strings": ["#SUSHI"]
     },
     {

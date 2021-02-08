@@ -6,12 +6,11 @@
   "website": "https://www.thetatoken.org/",
   "source_code": "https://github.com/thetatoken",
   "white_paper": "https://s3.us-east-2.amazonaws.com/assets.thetatoken.org/Theta-white-paper-latest.pdf",
-  "category_tags": ["entertainment"],
   "socials": [
     {
       "name": "Twitter",
       "url": "https://twitter.com/Theta_Network",
-      "handle": "Theta_Network",
+      "handle": "@Theta_Network",
       "search_strings": ["#Theta"]
     },
     {
@@ -39,7 +38,6 @@
     }
   ],
   "tokenomics": {
-    "max_supply": null,
     "total_supply": 1000000000,
     "circulating_supply": 1000000000
   },

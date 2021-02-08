@@ -4,12 +4,11 @@
   "coingecko_id": "kucoin-shares",
   "coin_api_id": "KCS",
   "website": "https://www.kucoin.com/#/",
-  "category_tags": ["token", "exchange-based tokens"],
   "socials": [
     {
       "name": "Twitter",
       "url": "https://twitter.com/kucoincom",
-      "handle": "KuCoin",
+      "handle": "@kucoincom",
       "search_strings": ["#KuCoin"]
     },
     {
@@ -32,7 +31,6 @@
   ],
   "tokenomics": {
     "total_supply": 170118638,
-    "max_supply": null,
     "circulating_supply": 80118638
   },
   "trading_pairs": [

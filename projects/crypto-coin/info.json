@@ -6,12 +6,11 @@
   "website": "https://chain.crypto.com",
   "source_code": "https://github.com/crypto-com",
   "white_paper": "https://crypto.com/images/crypto_com_whitepaper.pdf",
-  "category_tags": ["cosmos ecosystem"],
   "socials": [
     {
       "name": "Twitter",
       "url": "https://twitter.com/cryptocom",
-      "handle": "cryptocom",
+      "handle": "@cryptocom",
       "search_strings": ["#CRO"]
     },
     {
@@ -34,7 +33,6 @@
     }
   ],
   "tokenomics": {
-    "max_supply": null,
     "total_supply": 100000000000,
     "circulating_supply": 23031050226.977177
   },

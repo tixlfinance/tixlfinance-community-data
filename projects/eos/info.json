@@ -6,12 +6,12 @@
   "website": "https://eos.io/",
   "source_code": "https://github.com/EOSIO",
   "white_paper": "https://github.com/EOSIO/Documentation/blob/master/TechnicalWhitePaper.md",
-  "category_tags": ["token", "smart contract platform"],
+  "category_tags": ["smart contract platform"],
   "socials": [
     {
       "name": "Twitter",
       "url": "https://twitter.com/block_one_",
-      "handle": "EOSIO",
+      "handle": "@block_one_",
       "search_strings": ["#EOSIO", "$EOS"]
     },
     {
@@ -33,8 +33,6 @@
     }
   ],
   "tokenomics": {
-    "total_supply": null,
-    "max_supply": null,
     "circulating_supply": 951862142
   },
   "trading_pairs": [

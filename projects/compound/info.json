@@ -5,12 +5,12 @@
   "coin_api_id": "COMP",
   "website": "https://compound.finance/governance/comp",
   "source_code": "https://github.com/compound-finance",
-  "category_tags": ["token", "defi", "yield farming", "governance"],
+  "category_tags": ["defi"],
   "socials": [
     {
       "name": "Twitter",
       "url": "https://twitter.com/compoundfinance",
-      "handle": "compoundfinance",
+      "handle": "@compoundfinance",
       "search_strings": ["$COMP"]
     },
     {
@@ -24,7 +24,6 @@
   ],
   "tokenomics": {
     "total_supply": 8999999999999,
-    "max_supply": null,
     "circulating_supply": 92233205386.4423
   }
 }

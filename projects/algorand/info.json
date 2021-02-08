@@ -1,0 +1,107 @@
+{
+  "name": "Algorand",
+  "symbol": "algo",
+  "coingecko_id": "algorand",
+  "coin_api_id": "ALGO",
+  "website": "https://www.algorand.com",
+  "source_code": "https://github.com/algorand",
+  "white_paper": "https://www.algorand.com/resources/white-papers",
+  "category_tags": ["smart contract platform"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/algorand",
+      "handle": "@algorand",
+      "search_strings": ["$ALGO", "#Algorand"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/algorand"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/algorand"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/algorand"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/algorand",
+      "handle": "algorand"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 10000000000,
+    "circulating_supply": 803088849
+  },
+  "trading_pairs": [
+    {
+      "base": "ALGO",
+      "quote": "USD",
+      "pair_id": "ALGO_USD",
+      "exchange_id": "coinbase.com"
+    },
+    {
+      "base": "ALGO",
+      "quote": "USD",
+      "pair_id": "ALGO_USD",
+      "exchange_id": "kraken.com"
+    },
+    {
+      "base": "ALGO",
+      "quote": "USD",
+      "pair_id": "ALGO_USD",
+      "exchange_id": "bitfinex.com"
+    },
+    {
+      "base": "ALGO",
+      "quote": "USD",
+      "pair_id": "ALGO_USD",
+      "exchange_id": "bittrex.com"
+    },
+    {
+      "base": "ALGO",
+      "quote": "USDT",
+      "pair_id": "ALGO_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "ALGO",
+      "quote": "USDT",
+      "pair_id": "ALGO_USDT",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "ALGO",
+      "quote": "USDT",
+      "pair_id": "ALGO_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "ALGO",
+      "quote": "USDT",
+      "pair_id": "ALGO_USDT",
+      "exchange_id": "bilaxy.com"
+    },
+    {
+      "base": "ALGO",
+      "quote": "USDT",
+      "pair_id": "ALGO_USDT",
+      "exchange_id": "gate.io"
+    },
+    {
+      "base": "ALGO",
+      "quote": "USDT",
+      "pair_id": "ALGO_USDT",
+      "exchange_id": "bittrex.com"
+    },
+    {
+      "base": "ALGO",
+      "quote": "USDT",
+      "pair_id": "ALGO_USDT",
+      "exchange_id": "kucoin.com"
+    }
+  ]
+}

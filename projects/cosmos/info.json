@@ -6,12 +6,11 @@
   "website": "https://cosmos.network",
   "source_code": "https://github.com/cosmos",
   "white_paper": "https://cosmos.network/resources/whitepaper",
-  "category_tags": ["cosmos ecosystem", "cryptocurrency"],
   "socials": [
     {
       "name": "Twitter",
       "url": "https://twitter.com/cosmos",
-      "handle": "cosmos",
+      "handle": "@cosmos",
       "search_strings": ["#Cosmos", "#ATOM"]
     },
     {
@@ -29,8 +28,6 @@
     }
   ],
   "tokenomics": {
-    "max_supply": null,
-    "total_supply": null,
     "circulating_supply": 238526146.88641
   },
   "trading_pairs": [

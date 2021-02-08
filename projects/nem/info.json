@@ -10,7 +10,7 @@
     {
       "name": "Twitter",
       "url": "https://twitter.com/NEMofficial",
-      "handle": "NEM",
+      "handle": "@NEMofficial",
       "search_strings": ["#NEM", "$XEM"]
     },
     {
@@ -37,7 +37,6 @@
   ],
   "tokenomics": {
     "total_supply": 8999999999,
-    "max_supply": null,
     "circulating_supply": 8999999999
   },
   "trading_pairs": [

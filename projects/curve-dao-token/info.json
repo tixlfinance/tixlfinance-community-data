@@ -1,0 +1,107 @@
+{
+  "name": "Curve DAO Token",
+  "symbol": "crv",
+  "coingecko_id": "curve-dao-token",
+  "coin_api_id": "CRV",
+  "website": "https://www.curve.fi",
+  "source_code": "https://github.com/curvefi",
+  "white_paper": "https://www.curve.fi/stableswap-paper.pdf",
+  "category_tags": ["defi"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/curvefinance",
+      "handle": "@curvefinance",
+      "search_strings": ["$CRV"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/curvefi"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 1428581829.78165,
+    "max_supply": 3303030299,
+    "circulating_supply": 216480450.06881207
+  },
+  "trading_pairs": [
+    {
+      "base": "CRV",
+      "quote": "USD",
+      "pair_id": "CRV_USD",
+      "exchange_id": "kraken.com"
+    },
+    {
+      "base": "CRV",
+      "quote": "USD",
+      "pair_id": "CRV_USD",
+      "exchange_id": "gemini.com"
+    },
+    {
+      "base": "CRV",
+      "quote": "USD",
+      "pair_id": "CRV_USD",
+      "exchange_id": "ftx.com"
+    },
+    {
+      "base": "CRV",
+      "quote": "USDT",
+      "pair_id": "CRV_USDT",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "CRV",
+      "quote": "USDT",
+      "pair_id": "CRV_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "CRV",
+      "quote": "USDT",
+      "pair_id": "CRV_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "CRV",
+      "quote": "USDT",
+      "pair_id": "CRV_USDT",
+      "exchange_id": "gate.io"
+    },
+    {
+      "base": "CRV",
+      "quote": "USDT",
+      "pair_id": "CRV_USDT",
+      "exchange_id": "bilaxy.com"
+    },
+    {
+      "base": "CRV",
+      "quote": "USDT",
+      "pair_id": "CRV_USDT",
+      "exchange_id": "kucoin.com"
+    },
+    {
+      "base": "CRV",
+      "quote": "USDT",
+      "pair_id": "CRV_USDT",
+      "exchange_id": "kucoin.com"
+    },
+    {
+      "base": "CRV",
+      "quote": "USDT",
+      "pair_id": "CRV_USDT",
+      "exchange_id": "bithumb.com"
+    },
+    {
+      "base": "CRV",
+      "quote": "USDT",
+      "pair_id": "CRV_USDT",
+      "exchange_id": "poloniex.com"
+    },
+    {
+      "base": "CRV",
+      "quote": "USDT",
+      "pair_id": "CRV_USDT",
+      "exchange_id": "poloniex.com"
+    }
+  ]
+}

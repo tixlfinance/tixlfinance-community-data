@@ -10,7 +10,7 @@
     {
       "name": "Twitter",
       "url": "https://twitter.com/eth_classic",
-      "handle": "EthereumClassic",
+      "handle": "@eth_classic",
       "search_strings": ["#EthereumClassic", "$ETC"]
     },
     {
@@ -24,7 +24,6 @@
   ],
   "tokenomics": {
     "total_supply": 210700000,
-    "max_supply": null,
     "circulating_supply": 116319790
   },
   "trading_pairs": [

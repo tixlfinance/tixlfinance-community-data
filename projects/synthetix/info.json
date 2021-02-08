@@ -1,0 +1,89 @@
+{
+  "name": "Synthetix Network Token",
+  "symbol": "snx",
+  "coingecko_id": "havven",
+  "coin_api_id": "SNX",
+  "website": "https://www.synthetix.io",
+  "source_code": "https://github.com/Synthetixio",
+  "white_paper": "https://docs.synthetix.io/litepaper",
+  "category_tags": ["defi"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/synthetix_io",
+      "handle": "@synthetix_io",
+      "search_strings": ["$SNX"]
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/synthetix_io"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 217293196.725454,
+    "max_supply": 217293196.725454,
+    "circulating_supply": 144070573.49551168
+  },
+  "trading_pairs": [
+    {
+      "base": "SNX",
+      "quote": "USD",
+      "pair_id": "SNX_USD",
+      "exchange_id": "gemini.com"
+    },
+    {
+      "base": "SNX",
+      "quote": "USD",
+      "pair_id": "SNX_USD",
+      "exchange_id": "bitfinex.com"
+    },
+    {
+      "base": "SNX",
+      "quote": "USD",
+      "pair_id": "SNX_USD",
+      "exchange_id": "kraken.com"
+    },
+    {
+      "base": "SNX",
+      "quote": "USD",
+      "pair_id": "SNX_USD",
+      "exchange_id": "ftx.com"
+    },
+    {
+      "base": "SNX",
+      "quote": "USD",
+      "pair_id": "SNX_USD",
+      "exchange_id": "coinbase.com"
+    },
+    {
+      "base": "SNX",
+      "quote": "USDT",
+      "pair_id": "SNX_USDT",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "SNX",
+      "quote": "USDT",
+      "pair_id": "SNX_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "SNX",
+      "quote": "USDT",
+      "pair_id": "SNX_USDT",
+      "exchange_id": "bilaxy.com"
+    },
+    {
+      "base": "SNX",
+      "quote": "USDT",
+      "pair_id": "SNX_USDT",
+      "exchange_id": "poloniex.com"
+    },
+    {
+      "base": "SNX",
+      "quote": "USDT",
+      "pair_id": "SNX_USDT",
+      "exchange_id": "gate.io"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "name": "Waves",
+  "symbol": "waves",
+  "coingecko_id": "waves",
+  "coin_api_id": "WAVES",
+  "website": "https://waves.tech",
+  "source_code": "https://github.com/wavesplatform",
+  "white_paper": "https://medium.com/wavesprotocol/waves-whitepaper-164dd6ca6a23",
+  "category_tags": ["smart contract platform"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/wavesprotocol",
+      "handle": "@wavesprotocol",
+      "search_strings": ["$WAVES", "#Waves"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/wavesnews"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/Wavesplatform"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/wavesprotocol"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/channel/UCYDQN4Fo4rGnOZ22L5plNIw",
+      "handle": "UCYDQN4Fo4rGnOZ22L5plNIw"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 100000000,
+    "circulating_supply": 100000000
+  },
+  "trading_pairs": [
+    {
+      "base": "WAVES",
+      "quote": "USD",
+      "pair_id": "WAVES_USD",
+      "exchange_id": "kraken.com"
+    },
+    {
+      "base": "WAVES",
+      "quote": "USD",
+      "pair_id": "WAVES_USD",
+      "exchange_id": "ftx.com"
+    },
+    {
+      "base": "WAVES",
+      "quote": "USDT",
+      "pair_id": "WAVES_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "WAVES",
+      "quote": "USDT",
+      "pair_id": "WAVES_USDT",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "WAVES",
+      "quote": "USDT",
+      "pair_id": "WAVES_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "WAVES",
+      "quote": "USDT",
+      "pair_id": "WAVES_USDT",
+      "exchange_id": "kucoin.com"
+    },
+    {
+      "base": "WAVES",
+      "quote": "USDT",
+      "pair_id": "WAVES_USDT",
+      "exchange_id": "gate.io"
+    }
+  ]
+}

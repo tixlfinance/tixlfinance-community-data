@@ -5,13 +5,11 @@
   "coin_api_id": "okb",
   "website": "https://www.okex.com/okb",
   "source_code": "https://github.com/okex",
-  "white_paper": "",
-  "category_tags": ["exchange-based tokens"],
   "socials": [
     {
       "name": "Twitter",
       "url": "https://twitter.com/OKEx",
-      "handle": "OKEx",
+      "handle": "@OKEx",
       "search_strings": ["#OKB", "#OKEx"]
     },
     {
@@ -34,7 +32,6 @@
     }
   ],
   "tokenomics": {
-    "max_supply": null,
     "total_supply": 300000000,
     "circulating_supply": 271451284.95
   },

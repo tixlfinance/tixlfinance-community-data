@@ -5,19 +5,12 @@
   "coin_api_id": "GRT",
   "website": "https://thegraph.com/",
   "source_code": "https://github.com/graphprotocol",
-  "category_tags": [
-    "token",
-    "defi",
-    "business services",
-    "infrastructure",
-    "analytics",
-    "smart contract platform"
-  ],
+  "category_tags": ["defi", "smart contract platform"],
   "socials": [
     {
       "name": "Twitter",
       "url": "https://twitter.com/graphprotocol",
-      "handle": "graphprotocol",
+      "handle": "@graphprotocol",
       "search_strings": ["$GRT", "#GRT"]
     },
     {

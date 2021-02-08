@@ -1,0 +1,71 @@
+{
+  "name": "LEO Token",
+  "symbol": "leo",
+  "coingecko_id": "leo-token",
+  "coin_api_id": "LEO",
+  "website": "https://www.bitfinex.com",
+  "white_paper": "https://www.bitfinex.com/wp-2019-05.pdf",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/bitfinex",
+      "handle": "@bitfinex",
+      "search_strings": ["#LEOToken ", "#LEO"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/bfxtelegram"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/bitfinex"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/bitfinex1",
+      "handle": "bitfinex1"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 985239504,
+    "circulating_supply": 964798460.9
+  },
+  "trading_pairs": [
+    {
+      "base": "LEO",
+      "quote": "USD",
+      "pair_id": "LEO_USD",
+      "exchange_id": "bitfinex.com"
+    },
+    {
+      "base": "LEO",
+      "quote": "USD",
+      "pair_id": "LEO_USD",
+      "exchange_id": "bitfinex.com"
+    },
+    {
+      "base": "LEO",
+      "quote": "USDT",
+      "pair_id": "LEO_USD",
+      "exchange_id": "ftx.com"
+    },
+    {
+      "base": "LEO",
+      "quote": "USDT",
+      "pair_id": "LEO_USDT",
+      "exchange_id": "Gate.io"
+    },
+    {
+      "base": "LEO",
+      "quote": "USDT",
+      "pair_id": "LEO_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "LEO",
+      "quote": "USDT",
+      "pair_id": "LEO_USDT",
+      "exchange_id": "ftx.com"
+    }
+  ]
+}

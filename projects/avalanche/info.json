@@ -1,0 +1,73 @@
+{
+  "name": "Avalanche",
+  "symbol": "AVAX",
+  "coingecko_id": "avalanche-2",
+  "coin_api_id": "AVAX",
+  "website": "https://www.avalabs.org",
+  "source_code": "https://github.com/ava-labs",
+  "white_paper": "https://www.avalabs.org/whitepapers",
+  "category_tags": ["smart contract platform"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/avalancheavax",
+      "handle": "@avalancheavax",
+      "search_strings": ["$AVAX"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/avalancheavax"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/avax"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/avalancheavax",
+      "handle": "avalancheavax"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/c/AvalancheAVAX",
+      "handle": "AvalancheAVAX"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 360000000,
+    "max_supply": 720000000,
+    "circulating_supply": 76937055.27646953
+  },
+  "trading_pairs": [
+    {
+      "base": "AVAX",
+      "quote": "USD",
+      "pair_id": "AVAX_USD",
+      "exchange_id": "bitfinex.com"
+    },
+    {
+      "base": "AVAX",
+      "quote": "USDT",
+      "pair_id": "AVAX_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "AVAX",
+      "quote": "USDT",
+      "pair_id": "AVAX_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "AVAX",
+      "quote": "USDT",
+      "pair_id": "AVAX_USDT",
+      "exchange_id": "gate.io"
+    },
+    {
+      "base": "AVAX",
+      "quote": "USDT",
+      "pair_id": "AVAX_USDT",
+      "exchange_id": "huobi.com"
+    }
+  ]
+}

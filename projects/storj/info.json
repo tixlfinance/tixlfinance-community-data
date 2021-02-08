@@ -6,12 +6,12 @@
   "website": "https://storj.io/",
   "source_code": "https://github.com/storj",
   "white_paper": "https://storj.io/storj.pdf",
-  "category_tags": ["token", "storage"],
+  "category_tags": ["storage"],
   "socials": [
     {
       "name": "Twitter",
       "url": "https://twitter.com/storjproject",
-      "handle": "STORJ",
+      "handle": "@storjproject",
       "search_strings": ["$STORJ"]
     },
     {
@@ -34,7 +34,6 @@
   ],
   "tokenomics": {
     "total_supply": 424999998,
-    "max_supply": null,
     "circulating_supply": 143787439
   },
   "trading_pairs": [

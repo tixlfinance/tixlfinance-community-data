@@ -5,12 +5,12 @@
   "coin_api_id": "FIL",
   "website": "https://filecoin.io/",
   "source_code": "https://github.com/filecoin-project",
-  "category_tags": ["infrastructure", "storage"],
+  "category_tags": ["storage"],
   "socials": [
     {
       "name": "Twitter",
       "url": "https://twitter.com/Filecoin",
-      "handle": "bittorrent",
+      "handle": "@Filecoin",
       "search_strings": ["#Filecoin", "$FIL"]
     },
     {

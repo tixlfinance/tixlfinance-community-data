@@ -1,0 +1,36 @@
+{
+  "name": "renBTC",
+  "symbol": "renbtc",
+  "coingecko_id": "renbtc",
+  "coin_api_id": "RENBTC",
+  "website": "https://renproject.io",
+  "source_code": "https://github.com/renproject",
+  "white_paper": "https://github.com/renproject/ren/wiki",
+  "category_tags": ["defi"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/renprotocol",
+      "handle": "@renprotocol",
+      "search_strings": ["$renBTC"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/renproject"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/republicprotocol"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/renproject"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 17049.85386849,
+    "max_supply": 17049.85386849,
+    "circulating_supply": 17049.85386849
+  },
+  "trading_pairs": []
+}

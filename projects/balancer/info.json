@@ -6,19 +6,12 @@
   "website": "https://balancer.finance",
   "source_code": "https://github.com/balancer-labs",
   "white_paper": "https://balancer.finance/whitepaper",
-  "category_tags": [
-    "decentralized exchange",
-    "exchange based tokens",
-    "automated market maker",
-    "yield farming",
-    "defi",
-    "governance"
-  ],
+  "category_tags": ["defi"],
   "socials": [
     {
       "name": "Twitter",
       "url": "https://twitter.com/BalancerLabs",
-      "handle": "BalancerLabs",
+      "handle": "@BalancerLabs",
       "search_strings": ["#BAL", "#BalancerLabs"]
     },
     {

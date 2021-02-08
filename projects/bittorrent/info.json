@@ -4,12 +4,12 @@
   "coingecko_id": "bittorrent-2",
   "coin_api_id": "BTT",
   "website": "https://www.bittorrent.com/token/btt/",
-  "category_tags": ["token", "protocol", "storage"],
+  "category_tags": ["storage"],
   "socials": [
     {
       "name": "Twitter",
       "url": "https://twitter.com/bittorrent",
-      "handle": "bittorrent",
+      "handle": "@bittorrent",
       "search_strings": ["#BTT", "$BTT"]
     },
     {
@@ -32,7 +32,6 @@
   ],
   "tokenomics": {
     "total_supply": 990000000000,
-    "max_supply": null,
     "circulating_supply": 659071882049
   },
   "trading_pairs": [

@@ -5,12 +5,11 @@
   "coin_api_id": "ANT",
   "website": "https://aragon.org/",
   "source_code": "https://github.com/aragon",
-  "category_tags": ["token", "governance", "software"],
   "socials": [
     {
       "name": "Twitter",
       "url": "https://twitter.com/AragonProject",
-      "handle": "Aragon",
+      "handle": "@AragonProject",
       "search_strings": ["#Aragon"]
     },
     {
@@ -30,7 +29,6 @@
   ],
   "tokenomics": {
     "total_supply": 39609524,
-    "max_supply": null,
     "circulating_supply": 34642691
   },
   "trading_pairs": [

@@ -6,17 +6,12 @@
   "website": "https://gnosis.io",
   "source_code": "https://github.com/gnosis",
   "white_paper": "https://github.com/gnosis/research/blob/master/gnosis-whitepaper.pdf",
-  "category_tags": [
-    "prediction markets",
-    "decentralized exchange",
-    "protocol",
-    "defi"
-  ],
+  "category_tags": ["defi"],
   "socials": [
     {
       "name": "Twitter",
       "url": "https://twitter.com/gnosisPM",
-      "handle": "gnosisPM",
+      "handle": "@gnosisPM",
       "search_strings": ["#GNO", "#GnosisDAO"]
     },
     {

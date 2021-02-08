@@ -4,12 +4,11 @@
   "coingecko_id": "bitcoin-diamond",
   "coin_api_id": "BCD",
   "website": "https://www.bitcoindiamond.org/",
-  "category_tags": ["cryptocurrency"],
   "socials": [
     {
       "name": "Twitter",
       "url": "https://twitter.com/BitcoinDiamond_",
-      "handle": "BCD",
+      "handle": "@BitcoinDiamond_",
       "search_strings": ["$BCD"]
     },
     {
@@ -23,7 +22,6 @@
   ],
   "tokenomics": {
     "total_supply": 210000000,
-    "max_supply": null,
     "circulating_supply": 188156898
   },
   "trading_pairs": [

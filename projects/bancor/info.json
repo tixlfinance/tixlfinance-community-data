@@ -1,0 +1,74 @@
+{
+  "name": "Bancor Network Token",
+  "symbol": "bnt",
+  "coingecko_id": "bancor",
+  "coin_api_id": "BNT",
+  "website": "https://app.bancor.network",
+  "source_code": "https://github.com/bancorprotocol",
+  "white_paper": "https://drive.google.com/file/d/0B3HPNP-GDn7aLXFWOFpTZEgyaEk/view",
+  "category_tags": ["defi"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Bancor",
+      "handle": "@Bancor",
+      "search_strings": ["#Bancor", "$BNT"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/bancor"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/Bancor"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/bancor",
+      "handle": "bancor"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 119131923.486582,
+    "max_supply": 119131923.486582,
+    "circulating_supply": 112549273.81097049
+  },
+  "trading_pairs": [
+    {
+      "base": "BNT",
+      "quote": "USD",
+      "pair_id": "BNT_USD",
+      "exchange_id": "bitfinex.com"
+    },
+    {
+      "base": "BNT",
+      "quote": "USD",
+      "pair_id": "BNT_USD",
+      "exchange_id": "coinbase.com"
+    },
+    {
+      "base": "BNT",
+      "quote": "USD",
+      "pair_id": "BNT_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "BNT",
+      "quote": "USDT",
+      "pair_id": "BNT_USDT",
+      "exchange_id": "bilaxy.com"
+    },
+    {
+      "base": "BNT",
+      "quote": "USDT",
+      "pair_id": "BNT_USDT",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "BNT",
+      "quote": "USDT",
+      "pair_id": "BNT_USDT",
+      "exchange_id": "okex.com"
+    }
+  ]
+}

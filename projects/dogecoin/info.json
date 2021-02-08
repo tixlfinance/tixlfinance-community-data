@@ -6,12 +6,12 @@
   "website": "https://dogecoin.com/",
   "source_code": "https://github.com/dogecoin",
   "white_paper": "https://github.com/dogecoin/dogecoin/blob/master/README.md",
-  "category_tags": ["l1s", "cryptocurrency"],
+  "category_tags": ["l1s"],
   "socials": [
     {
       "name": "Twitter",
       "url": "https://twitter.com/dogecoin",
-      "handle": "Dogecoin",
+      "handle": "@dogecoin",
       "search_strings": ["#dogecoin"]
     },
     {
