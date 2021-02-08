@@ -1,0 +1,45 @@
+{
+  "name": "Power Ledger",
+  "symbol": "powr",
+  "coingecko_id": "power-ledger",
+  "coin_api_id": "POWR",
+  "website": "https://www.powerledger.io/",
+  "white_paper": "https://www.powerledger.io/wp-content/uploads/2019/11/power-ledger-whitepaper.pdf",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/PowerLedger_io",
+      "handle": "@PowerLedger_io",
+      "search_strings": ["powerledger", "$powr"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/powerledger"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/PowerLedger/"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/powerledger/"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=uSvYUDoFUnA&list=PLf0INdEOAjLjuZYLZdvBkou1Ujd8J01Am",
+      "handle": "UCB_IQppQmk08jWhVEBx0_jw"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 1000000000,
+    "circulating_supply": 429712891.919905
+  },
+  "trading_pairs": [
+    {
+      "base": "POWR",
+      "quote": "USDT",
+      "pair_id": "STORJ_USDT",
+      "exchange_id": "gate.io"
+    }
+  ]
+}
