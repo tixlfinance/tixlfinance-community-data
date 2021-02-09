@@ -32,5 +32,12 @@
     "total_supply": 1000000000,
     "circulating_supply": 0
   },
-  "trading_pairs": []
+  "trading_pairs": [
+    {
+      "base": "HEDG",
+      "quote": "BTC",
+      "pair_id": "bittrex.com_HEDG_BTC",
+      "exchange_id": "bittrex.com"
+    }
+  ]
 }
