@@ -58,12 +58,6 @@
     },
     {
       "base": "ANT",
-      "quote": "USDT",
-      "pair_id": "ANT_USDT",
-      "exchange_id": "coinbase.com"
-    },
-    {
-      "base": "ANT",
       "quote": "USD",
       "pair_id": "ANT_USD",
       "exchange_id": "bitfinex.com"
