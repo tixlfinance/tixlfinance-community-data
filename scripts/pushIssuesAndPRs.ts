@@ -37,8 +37,7 @@ async function main() {
       }
     }
   `;
-
-  
+ 
   let data;
   if (event.issue) {
     data = event.issue;
