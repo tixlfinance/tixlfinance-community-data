@@ -33,15 +33,15 @@
   },
   "trading_pairs": [
     {
-      "base": "BTC",
-      "quote": "ANT",
-      "pair_id": "BTC_ANT",
+      "base": "ANT",
+      "quote": "BTC",
+      "pair_id": "ANT_BTC",
       "exchange_id": "bittrex.com"
     },
     {
-      "base": "ETH",
-      "quote": "ANT",
-      "pair_id": "ETH_ANT",
+      "base": "ANT",
+      "quote": "ETH",
+      "pair_id": "ANT_ETH",
       "exchange_id": "bittrex.com"
     },
     {
