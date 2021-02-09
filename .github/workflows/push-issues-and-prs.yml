@@ -3,10 +3,9 @@ on:
     pull_request:
         types: [closed]
     issues:
-        types: [opened, labeled, closed]
+        types: [closed]
 jobs:
     push-issues-and-prs:
-        if: github.event.pull_request.merged == true | github.event.issue == true
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v2
