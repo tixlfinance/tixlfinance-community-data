@@ -4,7 +4,13 @@
   "website": "https://polkadot.network/",
   "coingecko_id": "polkadot",
   "coin_api_id": "POLKADOT",
-  "category_tags": ["dot_ecosystem", "l1s"],
+  "additionalLinks": [
+    {
+      "label": "Explorer",
+      "url": "http://polkascan.io/"
+    }
+  ],
+  "category_tags": ["dot_ecosystem", "l1s", "smart_contract_platform"],
   "socials": [
     {
       "name": "Twitter",
@@ -14,11 +20,7 @@
     },
     {
       "name": "Reddit",
-      "url": "https://www.reddit.com/r/Polkadot"
-    },
-    {
-      "name": "Facebook",
-      "url": "https://www.facebook.com/polkadotnetwork"
+      "url": "https://www.reddit.com/r/dot"
     },
     {
       "name": "Telegram",
@@ -531,7 +533,7 @@
   ],
   "tokenomics": {
     "max_supply": 0,
-    "total_supply": 1026663287,
+    "total_supply": 1041917313,
     "circulating_supply": 945714154
   }
 }

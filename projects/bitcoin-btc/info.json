@@ -7,6 +7,12 @@
   "website": "https://bitcoin.org",
   "source_code": "https://github.com/bitcoin",
   "white_paper": "https://bitcoin.org/bitcoin.pdf",
+  "additionalLinks": [
+    {
+      "label": "Explorer",
+      "url": "https://blockchair.com/bitcoin"
+    }
+  ],
   "category_tags": ["l1s"],
   "socials": [
     {
@@ -19,15 +25,6 @@
       "name": "Reddit",
       "url": "https://reddit.com/r/Bitcoin",
       "handle": "Bitcoin"
-    },
-    {
-      "name": "Telegram",
-      "url": "https://t.me/www_Bitcoin_com"
-    },
-    {
-      "name": "Youtube",
-      "url": "https://www.youtube.com/watch?v=o5TdY5-g2GA&list=UUetxkZolEBHX47BqtZktbkg&index=1",
-      "handle": "UCetxkZolEBHX47BqtZktbkg"
     }
   ],
   "tokenomics": {

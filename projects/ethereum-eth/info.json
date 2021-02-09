@@ -8,6 +8,12 @@
   "source_code": "https://github.com/ethereum",
   "white_paper": "https://github.com/ethereum/wiki/wiki/White-Paper",
   "category_tags": ["smart_contract_platform", "l1s"],
+  "additionalLinks": [
+    {
+      "label": "Explorer",
+      "url": "https://etherscan.io/"
+    }
+  ],
   "socials": [
     {
       "name": "Twitter",
@@ -21,22 +27,14 @@
       "handle": "ethereum"
     },
     {
-      "name": "Facebook",
-      "url": "https://www.facebook.com/ethereumproject"
-    },
-    {
-      "name": "Telegram",
-      "url": "https://telegram.me/ether"
-    },
-    {
       "name": "Youtube",
       "url": "https://www.youtube.com/watch?v=mCOfz50Wcmo&list=UUNOfzGXD_C9YMYmnefmPH0g",
       "handle": "UCNOfzGXD_C9YMYmnefmPH0g"
     }
   ],
   "tokenomics": {
-    "total_supply": 113306020,
-    "circulating_supply": 113306020
+    "total_supply": 114493477,
+    "circulating_supply": 114493477
   },
   "trading_pairs": [
     {
