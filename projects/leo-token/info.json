@@ -63,7 +63,7 @@
     },
     {
       "base": "LEO",
-      "quote": "USDT",
+      "quote": "USD",
       "pair_id": "LEO_USD",
       "exchange_id": "ftx.com"
     }
