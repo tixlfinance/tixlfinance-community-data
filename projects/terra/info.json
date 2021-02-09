@@ -1,0 +1,62 @@
+{
+  "name": "Terra",
+  "symbol": "luna",
+  "coingecko_id": "terra-luna",
+  "coin_api_id": "LUNA",
+  "website": "https://terra.money",
+  "source_code": "https://github.com/terra-project",
+  "white_paper": "https://terra.money/static/Terra_White_Paper.pdf",
+  "category_tags": ["defi"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/terra_money",
+      "handle": "terra_money",
+      "search_strings": ["$LUNA"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/TerraLunaChat"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/terra-money"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 993687839.720883,
+    "circulating_supply": 484153403.126849
+  },
+  "trading_pairs": [
+    {
+      "base": "LUNA",
+      "quote": "USDT",
+      "pair_id": "LUNA_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "LUNA",
+      "quote": "USDT",
+      "pair_id": "LUNA_USDT",
+      "exchange_id": "kucoin.com"
+    },
+    {
+      "base": "LUNA",
+      "quote": "USDT",
+      "pair_id": "LUNA_USDT",
+      "exchange_id": "gate.io"
+    },
+    {
+      "base": "LUNA",
+      "quote": "USDT",
+      "pair_id": "LUNA_USDT",
+      "exchange_id": "bittrex.com"
+    },
+    {
+      "base": "LUNA",
+      "quote": "USDT",
+      "pair_id": "LUNA_USDT",
+      "exchange_id": "bittrex.com"
+    }
+  ]
+}

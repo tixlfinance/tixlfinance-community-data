@@ -1,0 +1,88 @@
+{
+  "name": "Gnosis",
+  "symbol": "gno",
+  "coingecko_id": "gnosis",
+  "coin_api_id": "gno",
+  "website": "https://gnosis.io",
+  "source_code": "https://github.com/gnosis",
+  "white_paper": "https://github.com/gnosis/research/blob/master/gnosis-whitepaper.pdf",
+  "category_tags": ["defi"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/gnosisPM",
+      "handle": "gnosisPM",
+      "search_strings": ["#GNO", "#GnosisDAO"]
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/gnosisPM"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/Gnosis.pm",
+      "handle": "Gnosis.pm"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 10000000,
+    "total_supply": 10000000,
+    "circulating_supply": 1504587.0012636958
+  },
+  "trading_pairs": [
+    {
+      "base": "GNO",
+      "quote": "USD",
+      "pair_id": "trade.kraken.com_GNO_USD",
+      "exchange_id": "trade.kraken.com"
+    },
+    {
+      "base": "GNO",
+      "quote": "USD",
+      "pair_id": "bitfinex.com_GNO_USD",
+      "exchange_id": "bitfinex.com"
+    },
+    {
+      "base": "GNO",
+      "quote": "USD",
+      "pair_id": "yobit.net_GNO_USD",
+      "exchange_id": "yobit.net"
+    },
+    {
+      "base": "GNO",
+      "quote": "USDT",
+      "pair_id": "aex.com_GNO_USDT",
+      "exchange_id": "aex.com"
+    },
+    {
+      "base": "GNO",
+      "quote": "USDT",
+      "pair_id": "coinex.com_GNO_USDT",
+      "exchange_id": "coinex.com"
+    },
+    {
+      "base": "GNO",
+      "quote": "USDT",
+      "pair_id": "bvnex.com_GNO_USDT",
+      "exchange_id": "bvnex.com"
+    },
+    {
+      "base": "GNO",
+      "quote": "USDT",
+      "pair_id": "hoo.com_GNO_USDT",
+      "exchange_id": "hoo.com"
+    },
+    {
+      "base": "GNO",
+      "quote": "USDT",
+      "pair_id": "hotbit.io_GNO_USDT",
+      "exchange_id": "hotbit.io"
+    },
+    {
+      "base": "GNO",
+      "quote": "USDT",
+      "pair_id": "app.stex.com_GNO_USDT",
+      "exchange_id": "app.stex.com"
+    }
+  ]
+}

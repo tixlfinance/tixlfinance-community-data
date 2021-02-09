@@ -1,0 +1,85 @@
+{
+  "name": "Ethereum Classic",
+  "symbol": "etc",
+  "coingecko_id": "ethereum-classic",
+  "coin_api_id": "ETC",
+  "website": "https://ethereumclassic.org/",
+  "source_code": "https://github.com/ethereumclassic/",
+  "category_tags": ["smart contract platform"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/eth_classic",
+      "handle": "eth_classic",
+      "search_strings": ["#EthereumClassic", "$ETC"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/ethclassic"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/EthereumClassic/"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 210700000,
+    "circulating_supply": 116319790
+  },
+  "trading_pairs": [
+    {
+      "base": "ETC",
+      "quote": "USDT",
+      "pair_id": "ETC_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "ETC",
+      "quote": "USDT",
+      "pair_id": "ETC_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "ETC",
+      "quote": "USDT",
+      "pair_id": "ETC_USDT",
+      "exchange_id": "poloniex.com"
+    },
+    {
+      "base": "ETC",
+      "quote": "USDT",
+      "pair_id": "ETC_USDT",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "ETC",
+      "quote": "USD",
+      "pair_id": "ETC_USD",
+      "exchange_id": "bitfinex.com"
+    },
+    {
+      "base": "ETC",
+      "quote": "USDT",
+      "pair_id": "ETC_USDT",
+      "exchange_id": "bittrex.com"
+    },
+    {
+      "base": "ETC",
+      "quote": "USD",
+      "pair_id": "ETC_USD",
+      "exchange_id": "bittrex.com"
+    },
+    {
+      "base": "ETC",
+      "quote": "USD",
+      "pair_id": "ETC_USD",
+      "exchange_id": "coinbase.com"
+    },
+    {
+      "base": "ETC",
+      "quote": "USD",
+      "pair_id": "ETC_USD",
+      "exchange_id": "kraken.com"
+    }
+  ]
+}

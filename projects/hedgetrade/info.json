@@ -1,0 +1,36 @@
+{
+  "name": "HedgeTrade",
+  "symbol": "hedg",
+  "coingecko_id": "hedgetrade",
+  "coin_api_id": "HEDG",
+  "website": "https://hedgetrade.com",
+  "source_code": "https://github.com/rublixdev",
+  "white_paper": "https://hedgetrade.com/pages/hedgetrade_whitepaper.pdf",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/hedgetradehq",
+      "handle": "hedgetradehq",
+      "search_strings": ["#HedgeTrade", "$HEDG"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/HedgeTradeHQ"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/hedgetradehq",
+      "handle": "hedgetradehq"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/c/HedgeTrade/featured",
+      "handle": "HedgeTrade"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 1000000000,
+    "circulating_supply": 0
+  },
+  "trading_pairs": []
+}

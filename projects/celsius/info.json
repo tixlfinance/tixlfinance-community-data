@@ -1,0 +1,53 @@
+{
+  "name": "Celsius Network",
+  "symbol": "cel",
+  "coingecko_id": "celsius-degree-token",
+  "coin_api_id": "CEL",
+  "website": "https://celsius.network",
+  "source_code": "https://github.com/CelsiusNetwork",
+  "white_paper": "https://celsius.network/wp-content/uploads/2018/03/celsius_whitepaper-march14-2.pdf",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/celsiusnetwork",
+      "handle": "celsiusnetwork",
+      "search_strings": ["#Celsians", "$CEL"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/celsiusnetwork"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/CelsiusNetwork"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/CelsiusNetwork",
+      "handle": "CelsiusNetwork"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/channel/UC3yZY7UVs-zPKBuyNuPinbQ",
+      "handle": "UC3yZY7UVs-zPKBuyNuPinbQ"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 695658160.9671,
+    "circulating_supply": 383306566.4471
+  },
+  "trading_pairs": [
+    {
+      "base": "CEL",
+      "quote": "USD",
+      "pair_id": "CEL_USD",
+      "exchange_id": "ftx.com"
+    },
+    {
+      "base": "CEL",
+      "quote": "USDT",
+      "pair_id": "CEL_USDT",
+      "exchange_id": "liquid.com"
+    }
+  ]
+}

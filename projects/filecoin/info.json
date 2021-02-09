@@ -1,0 +1,91 @@
+{
+  "name": "Filecoin",
+  "symbol": "fil",
+  "coingecko_id": "filecoin",
+  "coin_api_id": "FIL",
+  "website": "https://filecoin.io/",
+  "source_code": "https://github.com/filecoin-project",
+  "category_tags": ["storage"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Filecoin",
+      "handle": "Filecoin",
+      "search_strings": ["#Filecoin", "$FIL"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/filecoin"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/filecoin/"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=7GxY37pY9WY&list=PL_0VrY55uV18HR_5qUr4XfqJtpYXY98B4",
+      "handle": "UCPyYmtJYQwxM-EUyRUTp5DA"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 1984435151,
+    "max_supply": 1984435151,
+    "circulating_supply": 48896152
+  },
+  "trading_pairs": [
+    {
+      "base": "FIL",
+      "quote": "USDT",
+      "pair_id": "FIL_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "FIL",
+      "quote": "USDT",
+      "pair_id": "FIL_USDT",
+      "exchange_id": "bilaxy.com"
+    },
+    {
+      "base": "FIL",
+      "quote": "USDT",
+      "pair_id": "FIL_USDT",
+      "exchange_id": "gate.io"
+    },
+    {
+      "base": "FIL",
+      "quote": "USD",
+      "pair_id": "FIL_USDT",
+      "exchange_id": "bittrex.io"
+    },
+    {
+      "base": "FIL",
+      "quote": "USDT",
+      "pair_id": "FIL_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "FIL",
+      "quote": "USDT",
+      "pair_id": "FIL_USDT",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "FIL",
+      "quote": "USD",
+      "pair_id": "FIL_USD",
+      "exchange_id": "kraken.com"
+    },
+    {
+      "base": "FIL",
+      "quote": "USD",
+      "pair_id": "FIL_USD",
+      "exchange_id": "gemini.com"
+    },
+    {
+      "base": "FIL",
+      "quote": "USD",
+      "pair_id": "FIL_USD",
+      "exchange_id": "bitfinex.com"
+    }
+  ]
+}

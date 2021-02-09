@@ -1,0 +1,77 @@
+{
+  "name": "UMA",
+  "symbol": "uma",
+  "coingecko_id": "uma",
+  "coin_api_id": "UMA",
+  "website": "https://umaproject.org",
+  "source_code": "https://github.com/umaprotocol",
+  "white_paper": "https://umaproject.org/UMA-whitepaper.pdf",
+  "category_tags": ["defi"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/UMAprotocol",
+      "handle": "UMAprotocol",
+      "search_strings": ["$UMA"]
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/uma-project"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 101399688.327897,
+    "max_supply": 101399688.327897,
+    "circulating_supply": 55775057.44193059
+  },
+  "trading_pairs": [
+    {
+      "base": "UMA",
+      "quote": "USD",
+      "pair_id": "UMA_USD",
+      "exchange_id": "coinbase.com"
+    },
+    {
+      "base": "UMA",
+      "quote": "USD",
+      "pair_id": "UMA_USD",
+      "exchange_id": "gemini.com"
+    },
+    {
+      "base": "UMA",
+      "quote": "USDT",
+      "pair_id": "UMA_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "UMA",
+      "quote": "USDT",
+      "pair_id": "UMA_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "UMA",
+      "quote": "USDT",
+      "pair_id": "UMA_USDT",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "UMA",
+      "quote": "USDT",
+      "pair_id": "UMA_USDT",
+      "exchange_id": "bilaxy.com"
+    },
+    {
+      "base": "UMA",
+      "quote": "USDT",
+      "pair_id": "UMA_USDT",
+      "exchange_id": "gate.io"
+    },
+    {
+      "base": "UMA",
+      "quote": "USDT",
+      "pair_id": "UMA_USDT",
+      "exchange_id": "kucoin.com"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "name": "Aragon",
+  "symbol": "ant",
+  "coingecko_id": "aragon",
+  "coin_api_id": "ANT",
+  "website": "https://aragon.org/",
+  "source_code": "https://github.com/aragon",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/AragonProject",
+      "handle": "AragonProject",
+      "search_strings": ["#Aragon"]
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/aragonproject/",
+      "handle": "Aragon"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=sO3WVSFd5ng&list=PLdbM67oXoBoaWOw4aCxvnnjlkupx-X61L",
+      "handle": "UCODiU_-FWhr4SVOoBlm-qaQ"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/AragonProject"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 39609524,
+    "circulating_supply": 34642691
+  },
+  "trading_pairs": [
+    {
+      "base": "ANT",
+      "quote": "USDT",
+      "pair_id": "ANT_USDT",
+      "exchange_id": "bittrex.com"
+    },
+    {
+      "base": "ANT",
+      "quote": "USDT",
+      "pair_id": "ANT_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "ANT",
+      "quote": "USDT",
+      "pair_id": "ANT_USDT",
+      "exchange_id": "ftx_spot"
+    },
+    {
+      "base": "ANT",
+      "quote": "USDT",
+      "pair_id": "ANT_USDT",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "ANT",
+      "quote": "USDT",
+      "pair_id": "ANT_USDT",
+      "exchange_id": "coinbase.com"
+    },
+    {
+      "base": "ANT",
+      "quote": "USD",
+      "pair_id": "ANT_USD",
+      "exchange_id": "bitfinex.com"
+    },
+    {
+      "base": "ANT",
+      "quote": "USD",
+      "pair_id": "ANT_USD",
+      "exchange_id": "kraken.com"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "name": "BitTorrent",
+  "symbol": "btt",
+  "coingecko_id": "bittorrent-2",
+  "coin_api_id": "BTT",
+  "website": "https://www.bittorrent.com/token/btt/",
+  "category_tags": ["storage"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/bittorrent",
+      "handle": "bittorrent",
+      "search_strings": ["#BTT", "$BTT"]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/bittorrent/"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/BTTBitTorrent"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/Bittorrent/"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=RcVRN86mbwc&list=PLMRNYJPJuiBEjvB4RgYY_60xBVvHunPiX",
+      "handle": "UCzYgPFi_9RqlZI6I7YQDh_Q"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 990000000000,
+    "circulating_supply": 659071882049
+  },
+  "trading_pairs": [
+    {
+      "base": "BTT",
+      "quote": "USDT",
+      "pair_id": "BTT_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "BTT",
+      "quote": "USDT",
+      "pair_id": "BTT_USDT",
+      "exchange_id": "poloniex.com"
+    },
+    {
+      "base": "BTT",
+      "quote": "USDT",
+      "pair_id": "BTT_USDT",
+      "exchange_id": "kucoin.com"
+    },
+    {
+      "base": "BTT",
+      "quote": "USDT",
+      "pair_id": "BTT_USDT",
+      "exchange_id": "gate.io"
+    },
+    {
+      "base": "BTT",
+      "quote": "USDT",
+      "pair_id": "BTT_USDT",
+      "exchange_id": "bittrex.io"
+    },
+    {
+      "base": "BTT",
+      "quote": "USDT",
+      "pair_id": "BTT_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "BTT",
+      "quote": "USDT",
+      "pair_id": "BTT_USDT",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "BTT",
+      "quote": "USD",
+      "pair_id": "BTT_USD",
+      "exchange_id": "bitfinex.com"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Revain",
+  "symbol": "rev",
+  "coingecko_id": "revain",
+  "coin_api_id": "REV",
+  "website": "https://revain.org",
+  "source_code": "https://github.com/Revain",
+  "white_paper": "https://revain.org/assets/en-wp.pdf",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Revain_org",
+      "handle": "Revain_org",
+      "search_strings": ["$REV"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/revainorg"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/revain_org"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/revain.org",
+      "handle": "revain.org"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 60550308334.0016,
+    "circulating_supply": 484450000
+  },
+  "trading_pairs": [
+    {
+      "base": "REV",
+      "quote": "USDT",
+      "pair_id": "REV_USDT",
+      "exchange_id": "bittrex.com"
+    },
+    {
+      "base": "REV",
+      "quote": "USDT",
+      "pair_id": "REV_USDT",
+      "exchange_id": "kucoin.com"
+    },
+    {
+      "base": "REV",
+      "quote": "USDT",
+      "pair_id": "REV_USDT",
+      "exchange_id": "bilaxy.com"
+    }
+  ]
+}

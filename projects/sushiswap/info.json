@@ -1,0 +1,368 @@
+{
+  "name": "Sushi",
+  "symbol": "sushi",
+  "coingecko_id": "sushi",
+  "coin_api_id": "atom",
+  "website": "https://www.sushiswap.fi",
+  "source_code": "https://github.com/sushiswap",
+  "category_tags": ["defi"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/sushiswap",
+      "handle": "sushiswap",
+      "search_strings": ["#SUSHI"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/sushiswap"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/SushiSwap"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 250000000,
+    "total_supply": 193370852.854216,
+    "circulating_supply": 127244443.19451292
+  },
+  "trading_pairs": [
+    {
+      "base": "SUSHI",
+      "quote": "USD",
+      "pair_id": "bitfinex.com_SUSHI_USD",
+      "exchange_id": "bitfinex.com"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USD",
+      "pair_id": "ftx.com_SUSHI_USD",
+      "exchange_id": "ftx.com"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USD",
+      "pair_id": "tokenize.exchange_SUSHI_USD",
+      "exchange_id": "tokenize.exchange"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USD",
+      "pair_id": "ftx.us_SUSHI_USD",
+      "exchange_id": "ftx.us"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USD",
+      "pair_id": "hitbtc.com_SUSHI_USD",
+      "exchange_id": "hitbtc.com"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USD",
+      "pair_id": "coinflex.com_SUSHI_USD",
+      "exchange_id": "coinflex.com"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USD",
+      "pair_id": "matcha.xyz_SUSHI_USD",
+      "exchange_id": "matcha.xyz"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USD",
+      "pair_id": "cex.io_SUSHI_USD",
+      "exchange_id": "cex.io"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "binance.com_SUSHI_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "hbg.com_SUSHI_USDT",
+      "exchange_id": "hbg.com"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "okex.com_SUSHI_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "dex-trade.com_SUSHI_USDT",
+      "exchange_id": "dex-trade.com"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "gate.io_SUSHI_USDT",
+      "exchange_id": "gate.io"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "coinsbit.io_SUSHI_USDT",
+      "exchange_id": "coinsbit.io"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "bkex.com_SUSHI_USDT",
+      "exchange_id": "bkex.com"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "digifinex.com_SUSHI_USDT",
+      "exchange_id": "digifinex.com"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "bitmart.com_SUSHI_USDT",
+      "exchange_id": "bitmart.com"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "coineal.com_SUSHI_USDT",
+      "exchange_id": "coineal.com"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "bilaxy.com_SUSHI_USDT",
+      "exchange_id": "bilaxy.com"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "mxc.com_SUSHI_USDT",
+      "exchange_id": "mxc.com"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "coinbene.com_SUSHI_USDT",
+      "exchange_id": "coinbene.com"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "aex.com_SUSHI_USDT",
+      "exchange_id": "aex.com"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "ftx.com_SUSHI_USDT",
+      "exchange_id": "ftx.com"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "kucoin.com_SUSHI_USDT",
+      "exchange_id": "kucoin.com"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "trans.zb.com_SUSHI_USDT",
+      "exchange_id": "trans.zb.com"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "hotbit.io_SUSHI_USDT",
+      "exchange_id": "hotbit.io"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "dcoin.com_SUSHI_USDT",
+      "exchange_id": "dcoin.com"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "atomars.com_SUSHI_USDT",
+      "exchange_id": "atomars.com"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "ftx.us_SUSHI_USDT",
+      "exchange_id": "ftx.us"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "poloniex.com_SUSHI_USDT",
+      "exchange_id": "poloniex.com"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "poloniex.com_SUSHI_USDT",
+      "exchange_id": "poloniex.com"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "bibox.com_SUSHI_USDT",
+      "exchange_id": "bibox.com"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "lbank.info_SUSHI_USDT",
+      "exchange_id": "lbank.info"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "coinex.com_SUSHI_USDT",
+      "exchange_id": "coinex.com"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "bw.com_SUSHI_USDT",
+      "exchange_id": "bw.com"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "big.one_SUSHI_USDT",
+      "exchange_id": "big.one"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "xt.com_SUSHI_USDT",
+      "exchange_id": "xt.com"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "virgox.com_SUSHI_USDT",
+      "exchange_id": "virgox.com"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "wazirx.com_SUSHI_USDT",
+      "exchange_id": "wazirx.com"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "global.bithumb.pro_SUSHI_USDT",
+      "exchange_id": "global.bithumb.pro"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "probit.com_SUSHI_USDT",
+      "exchange_id": "probit.com"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "vcc.exchange_SUSHI_USDT",
+      "exchange_id": "vcc.exchange"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "huobi.com.co_SUSHI_USDT",
+      "exchange_id": "huobi.com.co"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "bhex.com_SUSHI_USDT",
+      "exchange_id": "bhex.com"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "dragonex.io_SUSHI_USDT",
+      "exchange_id": "dragonex.io"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "bit-z.com_SUSHI_USDT",
+      "exchange_id": "bit-z.com"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "tokok.com_SUSHI_USDT",
+      "exchange_id": "tokok.com"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "whaleex.com_SUSHI_USDT",
+      "exchange_id": "whaleex.com"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "coinpark.com_SUSHI_USDT",
+      "exchange_id": "coinpark.com"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "zg.com_SUSHI_USDT",
+      "exchange_id": "zg.com"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "swap.projectserum.com_SUSHI_USDT",
+      "exchange_id": "swap.projectserum.com"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "huobi.co.kr_SUSHI_USDT",
+      "exchange_id": "huobi.co.kr"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "tokenlon.im_SUSHI_USDT",
+      "exchange_id": "tokenlon.im"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "biki.com_SUSHI_USDT",
+      "exchange_id": "biki.com"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "hoo.com_SUSHI_USDT",
+      "exchange_id": "hoo.com"
+    },
+    {
+      "base": "SUSHI",
+      "quote": "USDT",
+      "pair_id": "latoken.com_SUSHI_USDT",
+      "exchange_id": "latoken.com"
+    }
+  ]
+}

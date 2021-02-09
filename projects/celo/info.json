@@ -1,0 +1,79 @@
+{
+  "name": "Celo",
+  "symbol": "celo",
+  "coingecko_id": "celo-gold",
+  "coin_api_id": "CELO",
+  "website": "https://www.celocamp.com",
+  "source_code": "https://github.com/upright-vc",
+  "white_paper": "https://celo.org/papers",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/CeloOrg",
+      "handle": "CeloOrg",
+      "search_strings": ["$CELO"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/celocamp"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/the-upright-blog"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 1000000000,
+    "circulating_supply": 97947715
+  },
+  "trading_pairs": [
+    {
+      "base": "CGLD",
+      "quote": "USD",
+      "pair_id": "CGLD_USD",
+      "exchange_id": "coinbase.com"
+    },
+    {
+      "base": "CELO",
+      "quote": "USD",
+      "pair_id": "CELO_USD",
+      "exchange_id": "bittrex.com"
+    },
+    {
+      "base": "CELO",
+      "quote": "USDT",
+      "pair_id": "CELO_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "CELO",
+      "quote": "USDT",
+      "pair_id": "CELO_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "CELO",
+      "quote": "USDT",
+      "pair_id": "CELO_USDT",
+      "exchange_id": "bittrex.com"
+    },
+    {
+      "base": "CELO",
+      "quote": "USDT",
+      "pair_id": "CELO_USDT",
+      "exchange_id": "bilaxy.com"
+    },
+    {
+      "base": "CGLD",
+      "quote": "USDT",
+      "pair_id": "CGLD_USDT",
+      "exchange_id": "bilaxy.com"
+    },
+    {
+      "base": "CELO",
+      "quote": "USDT",
+      "pair_id": "CELO_USDT",
+      "exchange_id": "gate.io"
+    }
+  ]
+}

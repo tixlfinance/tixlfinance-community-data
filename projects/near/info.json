@@ -1,0 +1,69 @@
+{
+  "name": "Near",
+  "symbol": "near",
+  "coingecko_id": "near",
+  "coin_api_id": "NEAR",
+  "website": "https://near.org",
+  "source_code": "https://github.com/nearprotocol",
+  "white_paper": "https://near.org/papers/the-official-near-white-paper/#abstract",
+  "category_tags": ["smart contract platform"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/nearprotocol",
+      "handle": "nearprotocol",
+      "search_strings": ["#NEAR"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/cryptonear"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/NEARProtocol",
+      "handle": "NEARProtocol"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/channel/UCuKdIYVN8iE3fv8alyk1aMw",
+      "handle": "UCuKdIYVN8iE3fv8alyk1aMw"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 1000000000,
+    "max_supply": 1000000000,
+    "circulating_supply": 279272211
+  },
+  "trading_pairs": [
+    {
+      "base": "NEAR",
+      "quote": "USDT",
+      "pair_id": "NEAR_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "NEAR",
+      "quote": "USDT",
+      "pair_id": "NEAR_USDT",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "NEAR",
+      "quote": "USDT",
+      "pair_id": "NEAR_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "NEAR",
+      "quote": "USDT",
+      "pair_id": "NEAR_USDT",
+      "exchange_id": "bilaxy.com"
+    },
+    {
+      "base": "NEAR",
+      "quote": "USDT",
+      "pair_id": "NEAR_USDT",
+      "exchange_id": "gate.io"
+    }
+  ]
+}

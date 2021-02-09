@@ -1,0 +1,115 @@
+{
+  "name": "REN",
+  "symbol": "ren",
+  "coingecko_id": "republic-protocol",
+  "coin_api_id": "REN",
+  "website": "https://renproject.io",
+  "source_code": "https://github.com/renproject",
+  "white_paper": "https://republicprotocol.github.io/whitepaper/republic-whitepaper.pdf",
+  "category_tags": ["defi"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/renprotocol",
+      "handle": "renprotocol",
+      "search_strings": ["$REN"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/renproject"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/republicprotocol"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/renproject"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 1000000000,
+    "max_supply": 1000000000,
+    "circulating_supply": 881153018.7549117
+  },
+  "trading_pairs": [
+    {
+      "base": "REN",
+      "quote": "USD",
+      "pair_id": "REN_USD",
+      "exchange_id": "coinbase.com"
+    },
+    {
+      "base": "REN",
+      "quote": "USD",
+      "pair_id": "REN_USD",
+      "exchange_id": "gemini.com"
+    },
+    {
+      "base": "REN",
+      "quote": "USD",
+      "pair_id": "REN_USD",
+      "exchange_id": "ftx.com"
+    },
+    {
+      "base": "REN",
+      "quote": "USD",
+      "pair_id": "REN_USD",
+      "exchange_id": "bittrex.com"
+    },
+    {
+      "base": "REN",
+      "quote": "USDT",
+      "pair_id": "REN_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "REN",
+      "quote": "USDT",
+      "pair_id": "REN_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "REN",
+      "quote": "USDT",
+      "pair_id": "REN_USDT",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "REN",
+      "quote": "USDT",
+      "pair_id": "REN_USDT",
+      "exchange_id": "bilaxy.com"
+    },
+    {
+      "base": "REN",
+      "quote": "USDT",
+      "pair_id": "REN_USDT",
+      "exchange_id": "gate.io"
+    },
+    {
+      "base": "REN",
+      "quote": "USDT",
+      "pair_id": "REN_USDT",
+      "exchange_id": "kucoin.com"
+    },
+    {
+      "base": "REN",
+      "quote": "USDT",
+      "pair_id": "REN_USDT",
+      "exchange_id": "poloniex.com"
+    },
+    {
+      "base": "REN",
+      "quote": "USDT",
+      "pair_id": "REN_USDT",
+      "exchange_id": "bittrex.com"
+    },
+    {
+      "base": "REN",
+      "quote": "USDT",
+      "pair_id": "REN_USDT",
+      "exchange_id": "liquid.com"
+    }
+  ]
+}

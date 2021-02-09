@@ -1,0 +1,74 @@
+{
+  "name": "NEM",
+  "symbol": "nem",
+  "coingecko_id": "nem",
+  "coin_api_id": "XEM",
+  "website": "https://nem.io/",
+  "source_code": "https://github.com/nemtech",
+  "category_tags": ["smart contract platform"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/NEMofficial",
+      "handle": "NEMofficial",
+      "search_strings": ["#NEM", "$XEM"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/nemred"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/nem/"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/ourNEM/"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/nemofficial"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=gFTgULTTokc&list=PLldOn7xb83R7PzU4f072fs3T2jP_KNpvF",
+      "handle": "nemofficial"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 8999999999,
+    "circulating_supply": 8999999999
+  },
+  "trading_pairs": [
+    {
+      "base": "XEM",
+      "quote": "USDT",
+      "pair_id": "XEM_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "XEM",
+      "quote": "USDT",
+      "pair_id": "XEM_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "XEM",
+      "quote": "USDT",
+      "pair_id": "XEM_USDT",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "XEM",
+      "quote": "USDT",
+      "pair_id": "XEM_USDT",
+      "exchange_id": "kucoin.com"
+    },
+    {
+      "base": "XEM",
+      "quote": "USDT",
+      "pair_id": "XEM_USDT",
+      "exchange_id": "gate.io"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "name": "Storj",
+  "symbol": "storj",
+  "coingecko_id": "storj",
+  "coin_api_id": "STORJ",
+  "website": "https://storj.io/",
+  "source_code": "https://github.com/storj",
+  "white_paper": "https://storj.io/storj.pdf",
+  "category_tags": ["storage"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/storjproject",
+      "handle": "storjproject",
+      "search_strings": ["$STORJ"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/storjproject"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/storj/"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/storjproject/"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=CmP6rqnn3bg&list=PLNq8osZgyMoAT_UzMI41Lu8DBAXoHT0iC",
+      "handle": "storjlabs"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 424999998,
+    "circulating_supply": 143787439
+  },
+  "trading_pairs": [
+    {
+      "base": "STORJ",
+      "quote": "USDT",
+      "pair_id": "STORJ_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "STORJ",
+      "quote": "USDT",
+      "pair_id": "STORJ_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "STORJ",
+      "quote": "USDT",
+      "pair_id": "STORJ_USDT",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "STJ",
+      "quote": "USD",
+      "pair_id": "STJ_USD",
+      "exchange_id": "bitfinex"
+    },
+    {
+      "base": "STORJ",
+      "quote": "USDT",
+      "pair_id": "STORJ_USDT",
+      "exchange_id": "gemini.com"
+    },
+    {
+      "base": "STORJ",
+      "quote": "USD",
+      "pair_id": "STORJ_USD",
+      "exchange_id": "kraken.com"
+    }
+  ]
+}
