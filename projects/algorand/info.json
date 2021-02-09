@@ -50,7 +50,7 @@
       "exchange_id": "kraken.com"
     },
     {
-      "base": "ALGO",
+      "base": "ALG",
       "quote": "USD",
       "pair_id": "ALGO_USD",
       "exchange_id": "bitfinex.com"
