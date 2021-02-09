@@ -2,7 +2,7 @@
   "name": "Dogecoin",
   "symbol": "DOGE",
   "logo": "https://github.com/tixlfinance/tixlfinance-community-data/blob/master/projects/dogecoin-doge/logo.png?raw=true",
-  "coingecko_id": "doge",
+  "coingecko_id": "dogecoin",
   "coin_api_id": "DOGE",
   "website": "https://dogecoin.com/",
   "source_code": "https://github.com/dogecoin",
@@ -26,7 +26,8 @@
     }
   ],
   "tokenomics": {
-    "circulating_supply": 128233897816
+    "circulating_supply": 128233897816,
+    "isInflationary": true
   },
   "trading_pairs": [
     {
