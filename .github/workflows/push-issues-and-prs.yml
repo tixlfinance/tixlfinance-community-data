@@ -3,7 +3,7 @@ on:
     pull_request:
         types: [closed]
     issues:
-        types: [closed]
+        types: [opened, labeled, closed]
 jobs:
     push-issues-and-prs:
         runs-on: ubuntu-latest

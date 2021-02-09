@@ -38,7 +38,19 @@ async function main() {
     }
   `;
 
-  const data = event.issue || event.pull_request;
+  
+  let data;
+  if (event.issue) {
+    data = event.issue;
+  } else if (event.pull_request && event.pull_request.merged) {
+    data = event.pull_request;
+  }
+
+  if (!data) {
+    console.log("No valid issue or pull request. Exiting...")
+    return
+  }
+
   const issue = {
     github_id: data.id.toString(),
     github_user_login: data.user.login,
