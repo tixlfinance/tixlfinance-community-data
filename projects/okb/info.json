@@ -51,12 +51,6 @@
     {
       "base": "OKB",
       "quote": "USDT",
-      "pair_id": "binance.com_OKB_USDT",
-      "exchange_id": "binance.com"
-    },
-    {
-      "base": "OKB",
-      "quote": "USDT",
       "pair_id": "hoo.com_OKB_USDT",
       "exchange_id": "hoo.com"
     },
