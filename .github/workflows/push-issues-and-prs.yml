@@ -1,6 +1,6 @@
 name: Push issues and PRs to the tixlfinance-backend
 on:
-    pull_request:
+    pull_request_target:
         types: [closed]
     issues:
         types: [opened, labeled, closed]
