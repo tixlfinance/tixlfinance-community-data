@@ -56,9 +56,9 @@
       "exchange_id": "binance.us"
     },
     {
-      "base": "ATOM",
+      "base": "ATO",
       "quote": "USD",
-      "pair_id": "bitfinex.com_ATOM_USD",
+      "pair_id": "bitfinex.com_ATO_USD",
       "exchange_id": "bitfinex.com"
     },
     {
