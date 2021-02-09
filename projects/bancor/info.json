@@ -48,7 +48,7 @@
     },
     {
       "base": "BNT",
-      "quote": "USD",
+      "quote": "USDT",
       "pair_id": "BNT_USDT",
       "exchange_id": "binance.com"
     },
