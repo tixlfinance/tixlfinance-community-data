@@ -28,7 +28,9 @@
     }
   ],
   "tokenomics": {
-    "circulating_supply": 238526146.88641
+    "circulating_supply": 210142171,
+    "total_supply": 267926774,
+    "isInflationary": true
   },
   "trading_pairs": [
     {
