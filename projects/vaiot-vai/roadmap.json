@@ -1,0 +1,70 @@
+{
+  "roadmap": [
+    {
+      "description": "Commercial implementations of the intelligent Service distribution channel for insurance companies.",
+      "title": "Commercial implementations",
+      "year": 2021,
+      "quarter": "Q1"
+    },
+    {
+      "description": "Public Sale starts.",
+      "title": "Public Sale",
+      "year": 2021,
+      "quarter": "Q1"
+    },
+    {
+      "description": "Exchange Listing starts.",
+      "title": "Exchange Listing",
+      "year": 2021,
+      "quarter": "Q1"
+    },
+    {
+      "description": "Community building starts.",
+      "title": "Community building ",
+      "year": 2021,
+      "quarter": "Q1"
+    },
+    {
+      "description": "Virtual AI Sales Assistant final release.",
+      "quarter": "Q2",
+      "title": "AI Sales Assistant",
+      "year": 2021
+    },
+    {
+      "description": "Release of the Virtual AI Insurance Aggregator & Broker.",
+      "quarter": "Q3",
+      "title": "AI Release",
+      "year": 2021
+    },
+    {
+      "description": "Migration to the proprietary blockchain solution.",
+      "quarter": "Q4",
+      "title": "Blockchain migration",
+      "year": 2021
+    },
+    {
+      "description": "Migration bridge developed and audited.",
+      "quarter": "Q4",
+      "title": "Migration bridge",
+      "year": 2021
+    },
+    {
+      "description": "Launch of Virtual AI Legal Assistant for Consumers (flagship application).",
+      "quarter": "Q1",
+      "title": "AI Launch",
+      "year": 2022
+    },
+    {
+      "description": "Intelligent Contracts are capable of interoperability; intelligent contract can be deployed on various other blockchains.",
+      "quarter": "Q2",
+      "title": "Intelligent Interoperable Contracts",
+      "year": 2022
+    },
+    {
+      "description": "AI Assistant acts as an interface for multiple blockchain applications.",
+      "quarter": "Q2",
+      "title": "AI Assistant Interface",
+      "year": 2022
+    }
+  ]
+}

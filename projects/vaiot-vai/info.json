@@ -1,0 +1,83 @@
+{
+  "name": "Vaiot",
+  "symbol": "VAI",
+  "website": "https://vaiot.ai",
+  "source_code": "https://github.com/VAIoT",
+  "white_paper": "https://vaiot.ai/assets/files/VAIOT_Whitepaper.pdf",
+  "isStableCoin": false,
+  "erc20": {
+    "tokenAddress": "0x9f801c1f02af03cc240546dadef8e56cd46ea2e9",
+  //TODO: anpassen
+    "nonCirculatingWallets": [
+      "0x3c26af250d607d4849df2aa5ff761a64defcd80b",
+      "0x2ac6a511184cca85c727c68c553e58218f7cd1c0"
+    ]
+  },
+  "favoriteTweets": [
+    {
+      "tweetUrl": "https://twitter.com/VAIOT_LTD/status/1357713744453853185"
+    },
+    {
+      "tweetUrl": "https://twitter.com/VAIOT_LTD/status/1350054930707599360"
+    },
+    {
+      "tweetUrl": "https://twitter.com/VAIOT_LTD/status/1337370372640038914"
+    },
+    {
+      "tweetUrl": "https://twitter.com/VAIOT_LTD/status/1328287723682140167"
+    },
+    {
+      "tweetUrl": "https://twitter.com/VAIOT_LTD/status/1326083069619671041"
+    },
+    {
+      "tweetUrl": "https://twitter.com/VAIOT_LTD/status/1324314425852076034"
+    }
+  ],
+  "additionalLinks": [
+    {
+      "label": "Explorer",
+      "url": "https://etherscan.io/address/0x9f801c1f02af03cc240546dadef8e56cd46ea2e9"
+    },
+    {
+      "label": "Project overview",
+      "url": "https://daomaker.com/sho/vaiot"
+    },
+    {
+      "label": "Team",
+      "url": "https://vaiot.ai/#/"
+    }
+  ],
+  "category_tags": [],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/VAIOT_LTD",
+      "handle": "VAIOT_LTD",
+      "search_strings": ["#VAIOT", "$VAI"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/VAIOT_Community",
+      "handle": "VAIOT Community Channel"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@vaiotltd",
+      "handle": "vaiotltd"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/VAIOTLTD",
+      "handle": "VAIOTLTD"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=WIyDsGXNENc&list=UUPGVxOCWjYAj_PNIVdXBVzA&index=1",
+      "handle": "UCPGVxOCWjYAj_PNIVdXBVzA"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 400000000,
+    "total_supply": 400000000
+  }
+}
