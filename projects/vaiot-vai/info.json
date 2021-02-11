@@ -5,14 +5,6 @@
   "source_code": "https://github.com/VAIoT",
   "white_paper": "https://vaiot.ai/assets/files/VAIOT_Whitepaper.pdf",
   "isStableCoin": false,
-  "erc20": {
-    "tokenAddress": "0x9f801c1f02af03cc240546dadef8e56cd46ea2e9",
-  //TODO: anpassen
-    "nonCirculatingWallets": [
-      "0x3c26af250d607d4849df2aa5ff761a64defcd80b",
-      "0x2ac6a511184cca85c727c68c553e58218f7cd1c0"
-    ]
-  },
   "favoriteTweets": [
     {
       "tweetUrl": "https://twitter.com/VAIOT_LTD/status/1357713744453853185"
@@ -41,10 +33,6 @@
     {
       "label": "Project overview",
       "url": "https://daomaker.com/sho/vaiot"
-    },
-    {
-      "label": "Team",
-      "url": "https://vaiot.ai/#/"
     }
   ],
   "category_tags": [],
@@ -78,6 +66,7 @@
   ],
   "tokenomics": {
     "max_supply": 400000000,
-    "total_supply": 400000000
+    "total_supply": 400000000,
+    "circulating_supply": 0
   }
 }
