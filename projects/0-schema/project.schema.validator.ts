@@ -262,6 +262,9 @@ export const ProjectSchemaSchema = {
     isStableCoin: {
       type: "boolean",
     },
+    isUpcomingProject: {
+      type: "boolean",
+    },
     name: {
       type: "string",
     },
@@ -310,14 +313,7 @@ export const ProjectSchemaSchema = {
       type: "string",
     },
   },
-  required: [
-    "name",
-    "socials",
-    "symbol",
-    "tokenomics",
-    "trading_pairs",
-    "website",
-  ],
+  required: ["name", "socials", "symbol", "tokenomics", "website"],
   type: "object",
 };
 export type ValidateFunction<T> = ((data: unknown) => data is T) &

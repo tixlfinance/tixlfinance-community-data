@@ -5,6 +5,7 @@
   "source_code": "https://github.com/VAIoT",
   "white_paper": "https://vaiot.ai/assets/files/VAIOT_Whitepaper.pdf",
   "isStableCoin": false,
+  "isUpcomingProject": true,
   "favoriteTweets": [
     {
       "tweetUrl": "https://twitter.com/VAIOT_LTD/status/1357713744453853185"
@@ -35,7 +36,7 @@
       "url": "https://daomaker.com/sho/vaiot"
     }
   ],
-  "category_tags": [],
+  "category_tags": ["upcoming_projects"],
   "socials": [
     {
       "name": "Twitter",

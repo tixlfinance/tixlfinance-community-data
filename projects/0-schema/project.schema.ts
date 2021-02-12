@@ -81,6 +81,7 @@ export default interface ProjectSchema {
   erc20?: Erc20Schema;
   coin_api_id?: string;
   isStableCoin?: boolean;
+  isUpcomingProject?: boolean;
   /**
    * @format url
    */
@@ -105,6 +106,6 @@ export default interface ProjectSchema {
   roadmap?: RoadmapSchema[];
   tokenomics: TokenomicsSchema;
   tokenomics_url?: string;
-  trading_pairs: TradingPair[];
+  trading_pairs?: TradingPair[];
   token?: TokenSchema;
 }
