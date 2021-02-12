@@ -6,4 +6,4 @@ According to the company, the cryptocurrency USDT is 100% backed by their reserv
 
 Tether is primarily used on the Ethereum and Omni but is been extended to other networks such as Tron, EOS, Liquid and Algorand.
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=GsSSLDzKCOE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GsSSLDzKCOE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

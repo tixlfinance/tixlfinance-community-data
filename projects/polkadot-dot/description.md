@@ -6,4 +6,4 @@ The infrastructure of Polkadot is constitued by the Relay Chain which is the cen
 
 Polkadot founder is Gavin Wood, who is one of the co-founder of Ethereum and the inventor of the Solidity smart contract language and is been working on it since 2016.
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=_-k0xkooSlA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_-k0xkooSlA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
