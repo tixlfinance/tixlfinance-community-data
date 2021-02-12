@@ -23,8 +23,8 @@ export const pushProjects = async (isPreview?: boolean) => {
         const dirChange = dir.split("/", 3);
         if (dir.includes("projects")) {
           // Only execute once per project to avoid multiple added assets with a github action
-          if (!blacklist.includes(dirChange[2])) {
-            blacklist.push(dirChange[2]);
+          if (!blacklist.includes(dirChange[1]) && dirChange[1] !== '0-schema') {
+            blacklist.push(dirChange[1]);
             const filePath = directoryPath + "/" + dirChange[1] + "/info.json";
             const fileRoadmapPath =
               directoryPath + "/" + dirChange[1] + "/roadmap.json";
