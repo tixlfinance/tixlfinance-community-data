@@ -16,59 +16,64 @@ export const pushProjects = async (isPreview?: boolean) => {
       throw err;
     }
 
+    const blacklist: string[] = [];
     console.log("changedFiles", JSON.stringify(changedFiles));
     const updatedProjects = changedFiles
       .map((dir) => {
         const dirChange = dir.split("/", 3);
         if (dir.includes("projects")) {
-          const filePath = directoryPath + "/" + dirChange[1] + "/info.json";
-          const fileRoadmapPath =
-            directoryPath + "/" + dirChange[1] + "/roadmap.json";
-          const fileTokenPath =
-            directoryPath + "/" + dirChange[1] + "/token.json";
-          const logoPath = "/projects/" + dirChange[1] + "/logo.png";
-          const descriptionPath =
-            directoryPath + "/" + dirChange[1] + "/description.md";
-          return new Promise((resolve, _) => {
-            const data = fs.readFileSync(filePath).toString();
-            let roadmap: string = "";
-            let token: string = "";
-            let descriptionData: string = "";
-            if (fs.existsSync(fileRoadmapPath)) {
-              roadmap = fs.readFileSync(fileRoadmapPath).toString();
-            }
-            if (fs.existsSync(fileRoadmapPath)) {
-              token = fs.readFileSync(fileTokenPath).toString();
-            }
-            if (fs.existsSync(descriptionPath)) {
-              descriptionData = fs.readFileSync(descriptionPath).toString();
-            }
-            if (data) {
-              const tokenData = JSON.parse(data);
-              if (roadmap) {
-                tokenData.roadmap = JSON.parse(roadmap.toString()).roadmap;
+          // Only execute once per project to avoid multiple added assets with a github action
+          if (!blacklist.includes(dirChange[2])) {
+            blacklist.push(dirChange[2]);
+            const filePath = directoryPath + "/" + dirChange[1] + "/info.json";
+            const fileRoadmapPath =
+              directoryPath + "/" + dirChange[1] + "/roadmap.json";
+            const fileTokenPath =
+              directoryPath + "/" + dirChange[1] + "/token.json";
+            const logoPath = "/projects/" + dirChange[1] + "/logo.png";
+            const descriptionPath =
+              directoryPath + "/" + dirChange[1] + "/description.md";
+            return new Promise((resolve, _) => {
+              const data = fs.readFileSync(filePath).toString();
+              let roadmap: string = "";
+              let token: string = "";
+              let descriptionData: string = "";
+              if (fs.existsSync(fileRoadmapPath)) {
+                roadmap = fs.readFileSync(fileRoadmapPath).toString();
               }
-              if (token) {
-                tokenData.token = JSON.parse(token.toString()).token;
+              if (fs.existsSync(fileRoadmapPath)) {
+                token = fs.readFileSync(fileTokenPath).toString();
               }
-              const parsed = {
-                ...tokenData,
-                isPreview: isPreview ?? false,
-              };
-              resolve({
-                ...parsed,
-                logo: parsed.logo || logoPath,
-                asset_id: `${dirChange[1]}${isPreview ? "-preview" : ""}`,
-                isPreview,
-                description_markdown:
-                  parsed.description_markdown || descriptionData
-                    ? descriptionPath
-                    : "",
-                description_markdown_text:
-                  parsed.description_markdown_text || descriptionData,
-              });
-            }
-          });
+              if (fs.existsSync(descriptionPath)) {
+                descriptionData = fs.readFileSync(descriptionPath).toString();
+              }
+              if (data) {
+                const tokenData = JSON.parse(data);
+                if (roadmap) {
+                  tokenData.roadmap = JSON.parse(roadmap.toString()).roadmap;
+                }
+                if (token) {
+                  tokenData.token = JSON.parse(token.toString()).token;
+                }
+                const parsed = {
+                  ...tokenData,
+                  isPreview: isPreview ?? false,
+                };
+                resolve({
+                  ...parsed,
+                  logo: parsed.logo || logoPath,
+                  asset_id: `${dirChange[1]}${isPreview ? "-preview" : ""}`,
+                  isPreview,
+                  description_markdown:
+                    parsed.description_markdown || descriptionData
+                      ? descriptionPath
+                      : "",
+                  description_markdown_text:
+                    parsed.description_markdown_text || descriptionData,
+                });
+              }
+            });
+          }
         }
       })
       .filter((file) => !!file);
