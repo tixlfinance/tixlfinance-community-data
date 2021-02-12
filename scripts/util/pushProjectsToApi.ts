@@ -41,7 +41,7 @@ export const pushProjects = async (isPreview?: boolean) => {
               if (fs.existsSync(fileRoadmapPath)) {
                 roadmap = fs.readFileSync(fileRoadmapPath).toString();
               }
-              if (fs.existsSync(fileRoadmapPath)) {
+              if (fs.existsSync(fileTokenPath)) {
                 token = fs.readFileSync(fileTokenPath).toString();
               }
               if (fs.existsSync(descriptionPath)) {
