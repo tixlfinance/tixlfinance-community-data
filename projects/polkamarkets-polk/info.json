@@ -1,0 +1,39 @@
+{
+  "name": "Polkamarkets",
+  "symbol": "POLK",
+  "uniswap_id": "0x8eef5a82e6aa222a60f009ac18c24ee12dbf4b41",
+  "website": "https://www.polkamarkets.com/",
+  "source_code": "https://github.com/tixlcurrency",
+  "white_paper": "https://docs.google.com/presentation/d/1HO0VAHnMXscW4Wa_GI3MqExVj65RTDSPCNKhMhX8E_U/edit?usp=sharing",
+  "isStableCoin": false,
+  "additionalLinks": [
+    {
+      "label": "About",
+      "url": "https://www.polkamarkets.com/about"
+    }
+  ],
+  "category_tags": ["defi"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/polkamarkets",
+      "handle": "polkamarkets",
+      "search_strings": ["$POLK"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/polkamarkets",
+      "handle": "Polkamarkets Official"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@polkamarkets",
+      "handle": "polkamarkets"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 100000000,
+    "total_supply": 100000000,
+    "circulating_supply": 0
+  }
+}
