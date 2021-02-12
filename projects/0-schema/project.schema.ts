@@ -1,5 +1,12 @@
 interface SocialSchema {
-  name: 'Twitter' | 'Telegram' | 'Telegram Announcements' | 'Medium' | 'Reddit' | 'Youtube' | 'Facebook';
+  name:
+    | 'Twitter'
+    | 'Telegram'
+    | 'Telegram Announcements'
+    | 'Medium'
+    | 'Reddit'
+    | 'Youtube'
+    | 'Facebook';
   /**
    * @format url
    */
@@ -73,6 +80,12 @@ interface FavoriteTweetSchema {
   tweetUrl: string;
 }
 
+interface LaunchTokenInfoElement {
+  type: string;
+  value: number;
+  label: string;
+}
+
 export default interface ProjectSchema {
   name: string;
   symbol: string;
@@ -82,6 +95,7 @@ export default interface ProjectSchema {
   coin_api_id?: string;
   isStableCoin?: boolean;
   isUpcomingProject?: boolean;
+  launchTokenInfos?: LaunchTokenInfoElement[];
   /**
    * @format url
    */

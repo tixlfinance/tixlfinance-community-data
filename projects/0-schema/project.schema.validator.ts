@@ -84,6 +84,22 @@ export const ProjectSchemaSchema = {
       required: ["label", "popoverValue", "value"],
       type: "object",
     },
+    LaunchTokenInfoElement: {
+      defaultProperties: [],
+      properties: {
+        label: {
+          type: "string",
+        },
+        type: {
+          type: "string",
+        },
+        value: {
+          type: "number",
+        },
+      },
+      required: ["label", "type", "value"],
+      type: "object",
+    },
     LinkSchema: {
       defaultProperties: [],
       properties: {
@@ -264,6 +280,12 @@ export const ProjectSchemaSchema = {
     },
     isUpcomingProject: {
       type: "boolean",
+    },
+    launchTokenInfos: {
+      items: {
+        $ref: "#/definitions/LaunchTokenInfoElement",
+      },
+      type: "array",
     },
     name: {
       type: "string",
