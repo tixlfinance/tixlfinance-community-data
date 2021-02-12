@@ -6,13 +6,14 @@
   "source_code": "https://github.com/tixlcurrency",
   "white_paper": "https://docs.google.com/presentation/d/1HO0VAHnMXscW4Wa_GI3MqExVj65RTDSPCNKhMhX8E_U/edit?usp=sharing",
   "isStableCoin": false,
+  "isUpcomingProject": true,
   "additionalLinks": [
     {
       "label": "About",
       "url": "https://www.polkamarkets.com/about"
     }
   ],
-  "category_tags": ["defi"],
+  "category_tags": ["defi", "upcoming_projects"],
   "socials": [
     {
       "name": "Twitter",
