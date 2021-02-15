@@ -86,6 +86,12 @@ interface LaunchTokenInfoElement {
   label: string;
 }
 
+interface ChartsSectionElement {
+  title: string;
+  description: string;
+  charts: Chart[];
+}
+
 export default interface ProjectSchema {
   name: string;
   symbol: string;
@@ -97,6 +103,7 @@ export default interface ProjectSchema {
   isUpcomingProject?: boolean;
   launchTokenInfos?: LaunchTokenInfoElement[];
   socialShareInfos?: string[];
+  chartsSection?: ChartsSectionElement[];
   /**
    * @format url
    */

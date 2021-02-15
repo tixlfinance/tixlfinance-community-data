@@ -42,6 +42,25 @@ export const ProjectSchemaSchema = {
       required: ["labelsAndValues", "popoverUnit", "valueUnit"],
       type: "object",
     },
+    ChartsSectionElement: {
+      defaultProperties: [],
+      properties: {
+        charts: {
+          items: {
+            $ref: "#/definitions/Chart",
+          },
+          type: "array",
+        },
+        description: {
+          type: "string",
+        },
+        title: {
+          type: "string",
+        },
+      },
+      required: ["charts", "description", "title"],
+      type: "object",
+    },
     Erc20Schema: {
       defaultProperties: [],
       properties: {
@@ -257,6 +276,12 @@ export const ProjectSchemaSchema = {
     additionalSymbols: {
       items: {
         type: "string",
+      },
+      type: "array",
+    },
+    chartsSection: {
+      items: {
+        $ref: "#/definitions/ChartsSectionElement",
       },
       type: "array",
     },
