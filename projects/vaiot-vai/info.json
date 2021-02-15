@@ -70,7 +70,7 @@
     "total_supply": 400000000,
     "circulating_supply": 0
   },
-  "isUpcomingProject": true,
+  "isUpcomingProject": false,
   "socialShareInfos": [
     "The initial price will be $0.12",
     "Uniswap launch will be at Feb 15, 3 PM UTC"
