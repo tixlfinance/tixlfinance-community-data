@@ -18,6 +18,51 @@
     "Date for Uniswap launch will be announced soon"
   ],
   "socialShareOgMessage": "Uniswap launch coming soon",
+  "chartsSection": [
+    {
+      "title": "Token distribution",
+      "description": "This diagram shows the token distribution of $Polk by utilisation.",
+      "charts": [
+        {
+          "dropdownLabel": "Overview",
+          "popoverUnit": "Token",
+          "valueUnit": "%",
+          "labelsAndValues": [
+            {
+              "label": "Strategic sale",
+              "value": 25.0,
+              "popoverValue": 25000000
+            },
+            {
+              "label": "Public Sale",
+              "value": 3.0,
+              "popoverValue": 3000000
+            },
+            {
+              "label": "Liquidity Fund",
+              "value": 22.0,
+              "popoverValue": 22000000
+            },
+            {
+              "label": "Foundational Reserve",
+              "value": 20.0,
+              "popoverValue": 20000000
+            },
+            {
+              "label": "Team & Advisors",
+              "value": 10.0,
+              "popoverValue": 10000000
+            },
+            {
+              "label": "Marketing",
+              "value": 20.0,
+              "popoverValue": 20000000
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "favoriteTweets": [
     {
       "tweetUrl": "https://twitter.com/polkamarkets/status/1361000377978601479"
