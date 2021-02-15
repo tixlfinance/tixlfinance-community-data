@@ -81,6 +81,12 @@
       "quote": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
       "pair_id": "0x454d7156b0f62f61e7f2ad6a65d29ce681d6d354",
       "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "VAI",
+      "quote": "ETH",
+      "pair_id": "VAI_ETH",
+      "exchange_id": "bilaxy.com"
     }
   ]
 }
