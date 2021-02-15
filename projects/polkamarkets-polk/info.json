@@ -13,6 +13,10 @@
     { "label": "Initial Uniswap Liquidity", "value": 200000, "type": "amount" },
     { "label": "Uniswap Listing Price", "value": 0.05, "type": "price" }
   ],
+  "socialShareInfos": [
+    "The initial price will be $0.05",
+    "Date for Uniswap launch will be announced soon"
+  ],
   "additionalLinks": [
     {
       "label": "About",

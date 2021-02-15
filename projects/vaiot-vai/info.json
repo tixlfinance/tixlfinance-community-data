@@ -70,8 +70,8 @@
     "circulating_supply": 0
   },
   "isUpcomingProject": true,
-  "socialShareInfos": {
-    "initialUSDPrice": 0.12,
-    "dateOfLaunch": "2021-02-15T15:00:00.000Z"
-  }
+  "socialShareInfos": [
+    "The initial price will be $0.12",
+    "Uniswap launch will be at Feb 15, 3 PM UTC"
+  ]
 }

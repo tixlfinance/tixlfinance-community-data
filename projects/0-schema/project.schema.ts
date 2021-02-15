@@ -86,11 +86,6 @@ interface LaunchTokenInfoElement {
   label: string;
 }
 
-interface SocialShareInfo {
-  initialUSDPrice: number;
-  dateOfLaunch: string;
-}
-
 export default interface ProjectSchema {
   name: string;
   symbol: string;
@@ -101,7 +96,7 @@ export default interface ProjectSchema {
   isStableCoin?: boolean;
   isUpcomingProject?: boolean;
   launchTokenInfos?: LaunchTokenInfoElement[];
-  socialShareInfos?: SocialShareInfo;
+  socialShareInfos?: string[];
   /**
    * @format url
    */
