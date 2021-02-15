@@ -1,70 +1,46 @@
 {
   "roadmap": [
     {
-      "description": "Commercial implementations of the intelligent Service distribution channel for insurance companies.",
-      "title": "Commercial implementations",
+      "description": "Public Sale, Exchange Listing, Community building, Commercial implementations of the intelligent Service distribution channel for insurance companies",
+      "title": "",
       "year": 2021,
-      "quarter": "Q1"
+      "quarter": "Q1",
+      "image": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/crypto_portfolio_2jy5.svg"
     },
     {
-      "description": "Public Sale starts.",
-      "title": "Public Sale",
-      "year": 2021,
-      "quarter": "Q1"
-    },
-    {
-      "description": "Exchange Listing starts.",
-      "title": "Exchange Listing",
-      "year": 2021,
-      "quarter": "Q1"
-    },
-    {
-      "description": "Community building starts.",
-      "title": "Community building ",
-      "year": 2021,
-      "quarter": "Q1"
-    },
-    {
-      "description": "Virtual AI Sales Assistant final release.",
+      "description": "",
       "quarter": "Q2",
-      "title": "AI Sales Assistant",
-      "year": 2021
+      "title": "Virtual AI Sales Assistant final release",
+      "year": 2021,
+      "image": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Ethereum_re_0m68.svg"
     },
     {
-      "description": "Release of the Virtual AI Insurance Aggregator & Broker.",
+      "description": "",
       "quarter": "Q3",
-      "title": "AI Release",
-      "year": 2021
+      "title": "Release of the Virtual AI Insurance Aggregator & Broker.",
+      "year": 2021,
+      "image": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/ethereum_desire_wy1b.svg"
     },
     {
-      "description": "Migration to the proprietary blockchain solution.",
+      "description": "Migration to the proprietary blockchain solution, Migration bridge developed and audited, Release of proprietary blockchain solution based on COSMOS SDK",
       "quarter": "Q4",
-      "title": "Blockchain migration",
-      "year": 2021
-    },
-    {
-      "description": "Migration bridge developed and audited.",
-      "quarter": "Q4",
-      "title": "Migration bridge",
-      "year": 2021
+      "title": "",
+      "year": 2021,
+      "image": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Bitcoin_P2P_re_1xqa.svg"
     },
     {
       "description": "Launch of Virtual AI Legal Assistant for Consumers (flagship application).",
       "quarter": "Q1",
-      "title": "AI Launch",
-      "year": 2022
+      "title": "",
+      "year": 2022,
+      "image": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/nakamoto_2iv6.svg"
     },
     {
-      "description": "Intelligent Contracts are capable of interoperability; intelligent contract can be deployed on various other blockchains.",
+      "description": "Intelligent Contracts are capable of interoperability; intelligent contract can be deployed on various other blockchains, AI Assistant acts as an interface for multiple blockchain applications",
       "quarter": "Q2",
-      "title": "Intelligent Interoperable Contracts",
-      "year": 2022
-    },
-    {
-      "description": "AI Assistant acts as an interface for multiple blockchain applications.",
-      "quarter": "Q2",
-      "title": "AI Assistant Interface",
-      "year": 2022
+      "title": "",
+      "year": 2022,
+      "image": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/stock_prices_afrt.svg"
     }
   ]
 }
