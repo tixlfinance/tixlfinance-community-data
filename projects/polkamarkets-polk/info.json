@@ -13,6 +13,23 @@
     { "label": "Initial Uniswap Liquidity", "value": 200000, "type": "amount" },
     { "label": "Uniswap Listing Price", "value": 0.05, "type": "price" }
   ],
+  "favoriteTweets": [
+    {
+      "tweetUrl": "https://twitter.com/polkamarkets/status/1361000377978601479"
+    },
+    {
+      "tweetUrl": "https://twitter.com/polkamarkets/status/1361021430847197186"
+    },
+    {
+      "tweetUrl": "https://twitter.com/polkamarkets/status/1360239369622274049"
+    },
+    {
+      "tweetUrl": "https://twitter.com/polkamarkets/status/1359911437586620416"
+    },
+    {
+      "tweetUrl": "https://twitter.com/polkamarkets/status/1358782918785703939"
+    }
+  ],
   "additionalLinks": [
     {
       "label": "About",
