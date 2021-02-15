@@ -196,6 +196,19 @@ export const ProjectSchemaSchema = {
       required: ["name", "url"],
       type: "object",
     },
+    SocialShareInfo: {
+      defaultProperties: [],
+      properties: {
+        dateOfLaunch: {
+          type: "string",
+        },
+        initialUSDPrice: {
+          type: "number",
+        },
+      },
+      required: ["dateOfLaunch", "initialUSDPrice"],
+      type: "object",
+    },
     TokenSchema: {
       defaultProperties: [],
       properties: {
@@ -296,6 +309,9 @@ export const ProjectSchemaSchema = {
         $ref: "#/definitions/RoadmapSchema",
       },
       type: "array",
+    },
+    socialShareInfos: {
+      $ref: "#/definitions/SocialShareInfo",
     },
     socials: {
       items: {
