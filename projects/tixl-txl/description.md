@@ -10,4 +10,4 @@ With interoperable Smart Contracts & dApps for Tixl’s low-fee, instant transac
 
 The business model for Tixl’s Autobahn Network is based on its Tixl Token TXL. It is used for covering transaction & trading fees, as a utility in our partner’s data platform Tixl Finance and in any other own or 3rd party product. Fiat revenues collected from partner projects (Tixl Finance or the Social Mining Club) will be utilized for buy-backs or token burns.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/w3hDTFfj3Lw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ynyvwZetb8s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

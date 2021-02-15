@@ -6,5 +6,5 @@ Buy & Sell fractions of event outcomes, or even create your own events where oth
 
 Participate & Provide Liquidity to Earn.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/H7cMacMxrFw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DALQkVYvypc?start=920" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
