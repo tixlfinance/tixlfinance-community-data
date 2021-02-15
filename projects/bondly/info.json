@@ -1,0 +1,43 @@
+{
+  "name": "Bondly",
+  "symbol": "bondly",
+  "coingecko_id": "bondly",
+  "coin_api_id": "BONDLY",
+  "website": "https://www.bondly.finance/",
+  "category_tags": ["nft"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/bondlyfinance",
+      "handle": "BondlyFinance",
+      "search_strings": ["$BONDLY"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/bondlyfinance"
+    },
+    {
+      "name": "Medium",
+      "url": "https://bondlyfinance.medium.com/",
+      "handle": "bondlyfinance"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 983620758.62069,
+    "circulating_supply": 103978855.86003377
+  },
+  "trading_pairs": [
+    {
+      "base": "0xd2dda223b2617cb616c1580db421e4cfae6a8a85",
+      "quote": "ETH",
+      "pair_id": "0x9dc696f1067a6b9929986283f6d316be9c9198fd",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "0xd2dda223b2617cb616c1580db421e4cfae6a8a85",
+      "quote": "USDT",
+      "pair_id": "0xdc43e671428b4e7b7848ea92cd8691ac1b80903c",
+      "exchange_id": "uniswap.exchange"
+    }
+  ]
+}

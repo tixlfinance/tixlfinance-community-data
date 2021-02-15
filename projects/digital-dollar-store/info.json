@@ -1,0 +1,38 @@
+{
+  "name": "DDS.Store",
+  "symbol": "dds",
+  "coingecko_id": "dds-store",
+  "coin_api_id": "DDS",
+  "website": "https://dds.store",
+  "source_code": "https://github.com/dds-store",
+  "category_tags": ["nft"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/dds_store_",
+      "handle": "dds_store_",
+      "search_strings": ["$DDS"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/digitaldollarstore"
+    },
+    {
+      "name": "Medium",
+      "url": "https://digitaldollarstore.medium.com/",
+      "handle": "DigitalDollarStore"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 1300000,
+    "circulating_supply": 0
+  },
+  "trading_pairs": [
+    {
+      "base": "0xf9fbaefde7112f78fa9bfe813341f0f49f888cb3",
+      "quote": "ETH",
+      "pair_id": "0xeedcd34acd9f87aae1eb47f06e42868e81ad2924",
+      "exchange_id": "uniswap.exchange"
+    }
+  ]
+}
