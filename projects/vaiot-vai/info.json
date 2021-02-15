@@ -5,7 +5,6 @@
   "source_code": "https://github.com/VAIoT",
   "white_paper": "https://vaiot.ai/assets/files/VAIOT_Whitepaper.pdf",
   "isStableCoin": false,
-  "isUpcomingProject": true,
   "favoriteTweets": [
     {
       "tweetUrl": "https://twitter.com/VAIOT_LTD/status/1357713744453853185"
@@ -69,5 +68,10 @@
     "max_supply": 400000000,
     "total_supply": 400000000,
     "circulating_supply": 0
-  }
+  },
+  "isUpcomingProject": true,
+  "socialShareInfos": [
+    "The initial price will be $0.12",
+    "Uniswap launch will be at Feb 15, 3 PM UTC"
+  ]
 }

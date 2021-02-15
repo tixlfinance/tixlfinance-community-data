@@ -297,6 +297,12 @@ export const ProjectSchemaSchema = {
       },
       type: "array",
     },
+    socialShareInfos: {
+      items: {
+        type: "string",
+      },
+      type: "array",
+    },
     socials: {
       items: {
         $ref: "#/definitions/SocialSchema",

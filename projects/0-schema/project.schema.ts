@@ -96,6 +96,7 @@ export default interface ProjectSchema {
   isStableCoin?: boolean;
   isUpcomingProject?: boolean;
   launchTokenInfos?: LaunchTokenInfoElement[];
+  socialShareInfos?: string[];
   /**
    * @format url
    */
