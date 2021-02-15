@@ -4,6 +4,7 @@
   "website": "https://vaiot.ai",
   "source_code": "https://github.com/VAIoT",
   "white_paper": "https://vaiot.ai/assets/files/VAIOT_Whitepaper.pdf",
+  "uniswap_id": "0x9f801c1f02af03cc240546dadef8e56cd46ea2e9",
   "isStableCoin": false,
   "favoriteTweets": [
     {
@@ -73,5 +74,13 @@
   "socialShareInfos": [
     "The initial price will be $0.12",
     "Uniswap launch will be at Feb 15, 3 PM UTC"
+  ],
+  "trading_pairs": [
+    {
+      "base": "0x9f801c1f02af03cc240546dadef8e56cd46ea2e9",
+      "quote": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "pair_id": "0x454d7156b0f62f61e7f2ad6a65d29ce681d6d354",
+      "exchange_id": "uniswap.exchange"
+    }
   ]
 }
