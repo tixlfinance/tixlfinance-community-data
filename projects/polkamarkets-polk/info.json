@@ -18,9 +18,15 @@
     "Date for Uniswap launch will be announced soon"
   ],
   "socialShareOgMessage": "Uniswap launch coming soon",
+  "videosSection": {
+    "title": "PolkaMarket DeFi",
+    "description": "",
+    "video": "https://www.youtube.com/watch?v=tboxNbUrR-A"
+  },
   "chartsSection": [
     {
       "title": "Token distribution",
+      "type": "pieChart",
       "description": "This diagram shows the token distribution of $Polk by utilisation.",
       "charts": [
         {
