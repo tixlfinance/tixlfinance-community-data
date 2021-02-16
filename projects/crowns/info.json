@@ -1,0 +1,55 @@
+{
+  "name": "Crowns",
+  "symbol": "cws",
+  "coingecko_id": "crowns",
+  "coin_api_id": "CWS",
+  "website": "https://www.seascape.network/",
+  "source_code": "https://github.com/blocklords/crowns",
+  "category_tags": ["nft"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/seascapenetwork",
+      "handle": "seascapenetwork",
+      "search_strings": ["$CWS"]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/blocklordsgame"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/seascapenetwork"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/seascape-network",
+      "handle": "seascape-network"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 10000000,
+    "max_supply": 10000000,
+    "circulating_supply": 0
+  },
+  "trading_pairs": [
+    {
+      "base": "0xac0104cca91d167873b8601d2e71eb3d4d8c33e0",
+      "quote": "ETH",
+      "pair_id": "0x40449d1f4c2d4f88dfd5b18868c76738a4e52fd4",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "CWS",
+      "quote": "USDT",
+      "pair_id": "gate.io_CWS_USDT",
+      "exchange_id": "gate.io"
+    },
+    {
+      "base": "CWS",
+      "quote": "ETH",
+      "pair_id": "gate.io_CWS_ETH",
+      "exchange_id": "gate.io"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Terra Virtua Kolect",
+  "symbol": "tvk",
+  "coingecko_id": "terra-virtua-kolect",
+  "coin_api_id": "TVK",
+  "website": "https://www.terravirtua.io",
+  "category_tags": ["nft"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/terra_virtua",
+      "handle": "terra_virtua",
+      "search_strings": ["$TVK"]
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=3ywBry274ZQ&list=PLc1cHcp6dLXIv7Ym1TyTQ8R-Lk2D8xq21",
+      "handle": "UCi2y4UBnoMzjjQU411jjY9A"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/OfficialTerraVirtua/"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/TerraVirtua"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@terravirtua",
+      "handle": "@terravirtua"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/user/terravirtua"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 1200000000,
+    "max_supply": 1200000000,
+    "circulating_supply": 88660097.8
+  },
+  "trading_pairs": [
+    {
+      "base": "0xd084b83c305dafd76ae3e1b4e1f1fe2ecccb3988",
+      "quote": "ETH",
+      "pair_id": "0x0f5a2eb364d8b722cba4e1e30e2cf57b6f515b2a",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "TVK",
+      "quote": "ETH",
+      "pair_id": "TVK_ETH",
+      "exchange_id": "bilaxy.com"
+    }
+  ]
+}

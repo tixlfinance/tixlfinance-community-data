@@ -1,0 +1,87 @@
+{
+  "name": "Decentraland",
+  "symbol": "mana",
+  "coingecko_id": "decentraland",
+  "coin_api_id": "MANA",
+  "website": "https://decentraland.org/",
+  "white_paper": "https://decentraland.org/whitepaper.pdf",
+  "source_code": "https://github.com/decentraland",
+  "category_tags": ["nft"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/decentraland",
+      "handle": "decentraland",
+      "search_strings": ["$MANA"]
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/decentraland"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/decentralandTG"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 2194811127.32015,
+    "max_supply": 2194811127.32015,
+    "circulating_supply": 1327372145.9864838
+  },
+  "trading_pairs": [
+    {
+      "base": "0x0f5d2fb29fb7d3cfee444a200298f468908cc942",
+      "quote": "ETH",
+      "pair_id": "0x11b1f53204d03e5529f09eb3091939e4fd8c9cf3",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "0x0f5d2fb29fb7d3cfee444a200298f468908cc942",
+      "quote": "USDT",
+      "pair_id": "0xc31508fa519e5b3f1287759b15eb7150cf76b7ef",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "0x0f5d2fb29fb7d3cfee444a200298f468908cc942",
+      "quote": "DAI",
+      "pair_id": "0x9d090ffd76ddfd94f49040df91edd6977e30e6c6",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "MANA",
+      "quote": "ETH",
+      "pair_id": "MANA_ETH",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "MANA",
+      "quote": "USD",
+      "pair_id": "MANA_USD",
+      "exchange_id": "kraken.com"
+    },
+    {
+      "base": "MANA",
+      "quote": "USD",
+      "pair_id": "MANA_USD",
+      "exchange_id": "gemini.com"
+    },
+    {
+      "base": "MANA",
+      "quote": "USD",
+      "pair_id": "MANA_USD",
+      "exchange_id": "bitfinex.com"
+    },
+    {
+      "base": "MANA",
+      "quote": "USDT",
+      "pair_id": "MANA_USDT",
+      "exchange_id": "poloniex.com"
+    },
+    {
+      "base": "MANA",
+      "quote": "USDT",
+      "pair_id": "MANA_USDT",
+      "exchange_id": "binance.com"
+    }
+  ]
+}
