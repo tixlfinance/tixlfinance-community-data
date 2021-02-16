@@ -6,6 +6,18 @@
   "white_paper": "https://vaiot.ai/assets/files/VAIOT_Whitepaper.pdf",
   "uniswap_id": "0x9f801c1f02af03cc240546dadef8e56cd46ea2e9",
   "isStableCoin": false,
+  "erc20": {
+    "tokenAddress": "0x9f801c1f02af03cc240546dadef8e56cd46ea2e9",
+    "nonCirculatingWallets": [
+      "0xd334e4a1E1D74626E60b2c93c403Fb61f67d8a61",
+      "0x1454005232E1f754a558dE3bfF608EC906f1F8D3",
+      "0x03aad40e301032f5afd552cfed94eca92a222e06",
+      "0x7b474aca2abd7057f35fa34db86026476e1f0095",
+      "0xb7b6e8c7b6673308c075274c6b36107d007debe2",
+      "0x00c6693fd7224b5219a7b5387cb1e549950c35c3",
+      "0xccb98161cfa048614895ab4012952c70363e2b77"
+    ]
+  },
   "favoriteTweets": [
     {
       "tweetUrl": "https://twitter.com/VAIOT_LTD/status/1357713744453853185"
