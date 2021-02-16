@@ -89,7 +89,14 @@ interface LaunchTokenInfoElement {
 interface ChartsSectionElement {
   title: string;
   description: string;
+  type: string;
   charts: Chart[];
+}
+
+interface VideosSectionElement {
+  title: string;
+  description: string;
+  video: string;
 }
 
 export default interface ProjectSchema {
@@ -104,6 +111,7 @@ export default interface ProjectSchema {
   launchTokenInfos?: LaunchTokenInfoElement[];
   socialShareInfos?: string[];
   chartsSection?: ChartsSectionElement[];
+  videosSection?: VideosSectionElement[];
   /**
    * @format url
    */

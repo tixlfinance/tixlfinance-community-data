@@ -57,8 +57,11 @@ export const ProjectSchemaSchema = {
         title: {
           type: "string",
         },
+        type: {
+          type: "string",
+        },
       },
-      required: ["charts", "description", "title"],
+      required: ["charts", "description", "title", "type"],
       type: "object",
     },
     Erc20Schema: {
@@ -265,6 +268,22 @@ export const ProjectSchemaSchema = {
       required: ["base", "exchange_id", "pair_id", "quote"],
       type: "object",
     },
+    VideosSectionElement: {
+      defaultProperties: [],
+      properties: {
+        description: {
+          type: "string",
+        },
+        title: {
+          type: "string",
+        },
+        video: {
+          type: "string",
+        },
+      },
+      required: ["description", "title", "video"],
+      type: "object",
+    },
   },
   properties: {
     additionalLinks: {
@@ -354,6 +373,12 @@ export const ProjectSchemaSchema = {
     trading_pairs: {
       items: {
         $ref: "#/definitions/TradingPair",
+      },
+      type: "array",
+    },
+    videosSection: {
+      items: {
+        $ref: "#/definitions/VideosSectionElement",
       },
       type: "array",
     },
