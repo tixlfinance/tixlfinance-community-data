@@ -1,0 +1,10 @@
+{
+    "name": "voicebot.ai",
+    "url": "https://voicebot.ai",
+    "rssFeeds": [
+      {
+        "url": "https://voicebot.ai/feed/",
+        "name": "Allnews"
+      }
+    ]
+  }
