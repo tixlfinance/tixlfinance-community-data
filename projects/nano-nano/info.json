@@ -1,0 +1,73 @@
+{
+  "name": "Nano",
+  "symbol": "NANO",
+  "coingecko_id": "nano",
+  "coin_api_id": "NANO",
+  "website": "https://nano.org/",
+  "source_code": "https://github.com/nanocurrency",
+  "additionalLinks": [
+    {
+      "label": "Explorer",
+      "url": "https://nanocrawler.cc/"
+    }
+  ],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/nano",
+      "handle": "nano",
+      "search_strings": ["#nano", "$nano"]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/nanofoundation/"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/nanocurrency"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/nanocurrency"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/nanocurrency"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/nanocurrency"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 133248290,
+    "total_supply": 133248290,
+    "circulating_supply": 133248290
+  },
+  "trading_pairs": [
+    {
+      "base": "NANO",
+      "quote": "USD",
+      "pair_id": "kraken.com_NANO_USD",
+      "exchange_id": "kraken.com"
+    },
+    {
+      "base": "NANO",
+      "quote": "USD",
+      "pair_id": "binance.us_NANO_USD",
+      "exchange_id": "binance.us"
+    },
+    {
+      "base": "NANO",
+      "quote": "USDT",
+      "pair_id": "kucoin.com_NANO_USDT",
+      "exchange_id": "kucoin.com"
+    },
+    {
+      "base": "NANO",
+      "quote": "EUR",
+      "pair_id": "bitvavo.com_NANO_EUR",
+      "exchange_id": "bitvavo.com"
+    }
+  ]
+}
