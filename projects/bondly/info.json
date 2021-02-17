@@ -3,6 +3,7 @@
   "symbol": "bondly",
   "coingecko_id": "bondly",
   "coin_api_id": "BONDLY",
+  "uniswap_id": "0xd2dda223b2617cb616c1580db421e4cfae6a8a85",
   "website": "https://www.bondly.finance/",
   "category_tags": ["nft"],
   "socials": [

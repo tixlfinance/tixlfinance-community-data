@@ -3,6 +3,7 @@
   "symbol": "mana",
   "coingecko_id": "decentraland",
   "coin_api_id": "MANA",
+  "uniswap_id": "0x0f5d2fb29fb7d3cfee444a200298f468908cc942",
   "website": "https://decentraland.org/",
   "white_paper": "https://decentraland.org/whitepaper.pdf",
   "source_code": "https://github.com/decentraland",
@@ -36,18 +37,6 @@
       "exchange_id": "uniswap.exchange"
     },
     {
-      "base": "0x0f5d2fb29fb7d3cfee444a200298f468908cc942",
-      "quote": "USDT",
-      "pair_id": "0xc31508fa519e5b3f1287759b15eb7150cf76b7ef",
-      "exchange_id": "uniswap.exchange"
-    },
-    {
-      "base": "0x0f5d2fb29fb7d3cfee444a200298f468908cc942",
-      "quote": "DAI",
-      "pair_id": "0x9d090ffd76ddfd94f49040df91edd6977e30e6c6",
-      "exchange_id": "uniswap.exchange"
-    },
-    {
       "base": "MANA",
       "quote": "ETH",
       "pair_id": "MANA_ETH",
@@ -66,9 +55,9 @@
       "exchange_id": "gemini.com"
     },
     {
-      "base": "MANA",
+      "base": "MNA",
       "quote": "USD",
-      "pair_id": "MANA_USD",
+      "pair_id": "MNA_USD",
       "exchange_id": "bitfinex.com"
     },
     {

@@ -3,6 +3,7 @@
   "symbol": "nem",
   "coingecko_id": "nem",
   "coin_api_id": "XEM",
+  "additionalSymbols": ["XEM"],
   "website": "https://nem.io/",
   "source_code": "https://github.com/nemtech",
   "category_tags": ["smart contract platform"],
