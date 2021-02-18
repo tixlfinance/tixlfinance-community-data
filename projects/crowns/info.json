@@ -31,7 +31,7 @@
   "tokenomics": {
     "total_supply": 10000000,
     "max_supply": 10000000,
-    "circulating_supply": 0
+    "circulating_supply": 528000
   },
   "trading_pairs": [
     {
