@@ -5,12 +5,19 @@
   "coin_api_id": "NANO",
   "website": "https://nano.org/",
   "source_code": "https://github.com/nanocurrency",
+  "white_paper": "https://docs.nano.org/whitepaper/english/",
+  "isStableCoin": false,
   "additionalLinks": [
     {
       "label": "Explorer",
       "url": "https://nanocrawler.cc/"
+    },
+    {
+      "label": "Team",
+      "url": "https://nano.org/foundation#team"
     }
   ],
+  "category_tags": ["l1s"],
   "socials": [
     {
       "name": "Twitter",
@@ -40,9 +47,9 @@
     }
   ],
   "tokenomics": {
-    "max_supply": 133248290,
-    "total_supply": 133248290,
-    "circulating_supply": 133248290
+    "max_supply": 133248297,
+    "total_supply": 133248297,
+    "circulating_supply": 133248297
   },
   "trading_pairs": [
     {
@@ -60,8 +67,38 @@
     {
       "base": "NANO",
       "quote": "USDT",
+      "pair_id": "binance.com_NANO_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "NANO",
+      "quote": "USDT",
+      "pair_id": "gate.io_NANO_USDT",
+      "exchange_id": "gate.io"
+    },
+    {
+      "base": "NANO",
+      "quote": "USDT",
+      "pair_id": "huobi.com_NANO_USDT",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "NANO",
+      "quote": "USDT",
       "pair_id": "kucoin.com_NANO_USDT",
       "exchange_id": "kucoin.com"
+    },
+    {
+      "base": "NANO",
+      "quote": "USDT",
+      "pair_id": "okex.com_NANO_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "NANO",
+      "quote": "USDT",
+      "pair_id": "probit.com_NANO_USDT",
+      "exchange_id": "probit.com"
     },
     {
       "base": "NANO",
