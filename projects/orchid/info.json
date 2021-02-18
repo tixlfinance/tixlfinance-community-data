@@ -1,0 +1,102 @@
+{
+  "name": "Orchid Protocol",
+  "symbol": "oxt",
+  "coingecko_id": "orchid-protocol",
+  "coin_api_id": "OXT",
+  "uniswap_id": "0x4575f41308ec1483f3d399aa9a2826d74da13deb",
+  "website": "https://www.orchid.com",
+  "source_code": "https://github.com/OrchidTechnologies",
+  "white_paper": "https://www.orchid.com/assets/whitepaper/whitepaper.pdf",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/OrchidProtocol",
+      "handle": "@OrchidProtocol",
+      "search_strings": ["$OXT"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/OrchidOfficial"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/orchid"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/OrchidProtocol",
+      "handle": "OrchidProtocol"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=RievS-hcxNs&list=PLKT-Ti431yd7m0MubHehJdo8cLwpnbsZF",
+      "handle": "UCIH_BKBlNemsCzDhPYZBlHw"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 1000000000,
+    "circulating_supply": 0
+  },
+  "trading_pairs": [
+    {
+      "base": "OXT",
+      "quote": "USD",
+      "pair_id": "OXT_USD",
+      "exchange_id": "coinbase.com"
+    },
+    {
+      "base": "OXT",
+      "quote": "USD",
+      "pair_id": "OXT_USD",
+      "exchange_id": "gemini.com"
+    },
+    {
+      "base": "OXT",
+      "quote": "USD",
+      "pair_id": "OXT_USD",
+      "exchange_id": "kraken.com"
+    },
+    {
+      "base": "OXT",
+      "quote": "USD",
+      "pair_id": "OXT_USD",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "OXT",
+      "quote": "USDT",
+      "pair_id": "OXT_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "OXT",
+      "quote": "USDT",
+      "pair_id": "OXT_USDT",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "OXT",
+      "quote": "USDT",
+      "pair_id": "OXT_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "OXT",
+      "quote": "USDT",
+      "pair_id": "OXT_USDT",
+      "exchange_id": "bilaxy.com"
+    },
+    {
+      "base": "OXT",
+      "quote": "USDT",
+      "pair_id": "OXT_USDT",
+      "exchange_id": "bittrex.com"
+    },
+    {
+      "base": "0x4575f41308ec1483f3d399aa9a2826d74da13deb",
+      "quote": "ETH",
+      "pair_id": "0x9b533f1ceaa5ceb7e5b8994ef16499e47a66312d",
+      "exchange_id": "uniswap.exchange"
+    }
+  ]
+}

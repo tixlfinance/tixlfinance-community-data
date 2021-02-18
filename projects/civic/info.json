@@ -1,0 +1,73 @@
+{
+  "name": "Civic",
+  "symbol": "cvc",
+  "coingecko_id": "civic",
+  "coin_api_id": "CVC",
+  "uniswap_id": "0x41e5560054824ea6b0732e656e3ad64e20e94e45",
+  "website": "https://www.civic.com",
+  "source_code": "https://github.com/civicteam",
+  "white_paper": "https://tokensale.civic.com/CivicTokenSaleWhitePaper.pdf",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/civickey",
+      "handle": "civickey",
+      "search_strings": ["$CVC"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/civicplatform"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/civictechnologiesinc",
+      "handle": "civictechnologiesinc"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/civicplatform"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 1000000000,
+    "circulating_supply": 670000000
+  },
+  "trading_pairs": [
+    {
+      "base": "CVC",
+      "quote": "USDT",
+      "pair_id": "CVC_USDT",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "CVC",
+      "quote": "USDT",
+      "pair_id": "CVC_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "CVC",
+      "quote": "USDT",
+      "pair_id": "CVC_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "CVC",
+      "quote": "USDT",
+      "pair_id": "CVC_USDT",
+      "exchange_id": "bilaxy.com"
+    },
+    {
+      "base": "CVC",
+      "quote": "USDT",
+      "pair_id": "CVC_USDT",
+      "exchange_id": "gate.io"
+    },
+    {
+      "base": "0x41e5560054824ea6b0732e656e3ad64e20e94e45",
+      "quote": "ETH",
+      "pair_id": "0x123fca7e8272a8e9c3bb7113c259abc4901e792b",
+      "exchange_id": "uniswap.exchange"
+    }
+  ]
+}

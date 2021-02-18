@@ -1,0 +1,61 @@
+{
+  "name": "Oasis Network",
+  "symbol": "rose",
+  "coingecko_id": "oasis-network",
+  "coin_api_id": "ROSE",
+  "website": "https://oasisprotocol.org",
+  "source_code": "https://github.com/oasisprotocol",
+  "white_paper": "https://oasisprotocol.org/papers",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/oasisprotocol",
+      "handle": "oasisprotocol",
+      "search_strings": ["$ROSE"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/oasisprotocolcommunity"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/oasislabs"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=dy4FqJ-ODlI&list=PL95nAPefnkfxW6tUgjzcmmVSBgRlnK9D9",
+      "handle": "UC35UFPcZ2F1wjPxhPrSsESQ"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 10000000000,
+    "max_supply": 10000000000,
+    "circulating_supply": 1500000000
+  },
+  "trading_pairs": [
+    {
+      "base": "ROSE",
+      "quote": "USDT",
+      "pair_id": "ROSE_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "ROSE",
+      "quote": "USDT",
+      "pair_id": "ROSE_USDT",
+      "exchange_id": "kucoin.com"
+    },
+    {
+      "base": "ROSE",
+      "quote": "USDT",
+      "pair_id": "ROSE_USDT",
+      "exchange_id": "bilaxy.com"
+    },
+    {
+      "base": "ROSE",
+      "quote": "USDT",
+      "pair_id": "ROSE_USDT",
+      "exchange_id": "gate.io"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "PancakeSwap",
+  "symbol": "cake",
+  "coingecko_id": "pancakeswap-token",
+  "coin_api_id": "CAKE",
+  "website": "https://pancakeswap.finance",
+  "source_code": "https://github.com/pancakeswap",
+  "category_tags": ["defi"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/pancakeswap",
+      "handle": "pancakeswap",
+      "search_strings": ["$CAKE"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/PancakeSwap"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/pancakeswap"
+    },
+    {
+      "name": "Medium",
+      "url": "https://pancakeswap.medium.com"
+    }
+  ],
+  "tokenomics": {
+    "circulating_supply": 112813465.708587
+  },
+  "trading_pairs": [
+    {
+      "base": "CAKE",
+      "quote": "USDT",
+      "pair_id": "CAKE_USDT",
+      "exchange_id": "gate.io"
+    }
+  ]
+}

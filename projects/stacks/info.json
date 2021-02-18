@@ -1,0 +1,43 @@
+{
+  "name": "Stacks",
+  "symbol": "stx",
+  "coingecko_id": "blockstack",
+  "coin_api_id": "STX",
+  "website": "https://www.stacks.co",
+  "source_code": "https://github.com/blockstack",
+  "white_paper": "https://gaia.blockstack.org/hub/1AxyPunHHAHiEffXWESKfbvmBpGQv138Fp/stacks.pdf",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Stacks",
+      "handle": "Stacks",
+      "search_strings": ["$STX"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/BlockstackChat"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=oyvg-h0obFw&list=PLXS8JJHIn4nEj_pbHQn2kKy6rtRI94gwO",
+      "handle": "UC3J2iHnyt2JtOvtGVf_jpHQ"
+    }
+  ],
+  "tokenomics": {
+    "circulating_supply": 918007935.682165
+  },
+  "trading_pairs": [
+    {
+      "base": "STX",
+      "quote": "USDT",
+      "pair_id": "STX_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "STX",
+      "quote": "USDT",
+      "pair_id": "STX_USDT",
+      "exchange_id": "kucoin.com"
+    }
+  ]
+}

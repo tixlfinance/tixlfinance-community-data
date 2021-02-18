@@ -1,0 +1,45 @@
+{
+  "name": "Flow-Dapper Labs",
+  "symbol": "flow",
+  "coingecko_id": "flow",
+  "coin_api_id": "Flow",
+  "website": "https://www.onflow.org",
+  "source_code": "https://github.com/onflow",
+  "white_paper": "https://assets.website-files.com/5f6294c0c7a8cdd643b1c820/5f6c23fa870a5d0beb0752c6_Flow%20Primer%20(1).pdf",
+  "category_tags": ["nft"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/flow_blockchain",
+      "handle": "flow_blockchain",
+      "search_strings": ["$KNC"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/flow_blockchain"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=WR_gVaSKeAo&list=PL0qVMKzYEBROYcNM-dNZ4ma5ITAWsVzU9",
+      "handle": "UCs9r5lqmYQsKCpLB9jKwocg"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 1250000000,
+    "circulating_supply": 23301002
+  },
+  "trading_pairs": [
+    {
+      "base": "FLOW",
+      "quote": "USD",
+      "pair_id": "FLOW_USD",
+      "exchange_id": "kraken.com"
+    },
+    {
+      "base": "FLOW",
+      "quote": "USDT",
+      "pair_id": "FLOW_USDT",
+      "exchange_id": "huobi.com"
+    }
+  ]
+}

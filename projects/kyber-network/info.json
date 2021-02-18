@@ -1,0 +1,114 @@
+{
+  "name": "Kyber Network",
+  "symbol": "knc",
+  "coingecko_id": "kyber-network",
+  "coin_api_id": "KNC",
+  "uniswap_id": "0xdd974d5c2e2928dea5f71b9825b8b646686bd200",
+  "website": "https://kyber.network",
+  "source_code": "https://github.com/kybernetwork",
+  "white_paper": "https://files.kyber.network/Kyber_Protocol_22_April_v0.1.pdf",
+  "category_tags": ["defi"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/kybernetwork",
+      "handle": "kybernetwork",
+      "search_strings": ["$KNC"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/officialkybernetwork"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/kybernetwork"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/kybernetwork",
+      "handle": "kybernetwork"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=gN_C4fXNdq8&list=PLEfvCH7DHUGQNXxn_hv3jxsd4IP8A6NRQ",
+      "handle": "UCQ-8mEqsKM3x9dTT6rrqgJw"
+    },
+    {
+      "name": "Medium",
+      "url": "https://blog.kyber.network/"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 210271998.656675,
+    "max_supply": 226000000,
+    "circulating_supply": 204333500.93781087
+  },
+  "trading_pairs": [
+    {
+      "base": "KNC",
+      "quote": "USD",
+      "pair_id": "KNC_USD",
+      "exchange_id": "coinbase.com"
+    },
+    {
+      "base": "KNC",
+      "quote": "USD",
+      "pair_id": "KNC_USD",
+      "exchange_id": "gemini.com"
+    },
+    {
+      "base": "KNC",
+      "quote": "USD",
+      "pair_id": "KNC_USD",
+      "exchange_id": "kraken.com"
+    },
+    {
+      "base": "KNC",
+      "quote": "USD",
+      "pair_id": "KNC_USD",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "KNC",
+      "quote": "USD",
+      "pair_id": "KNC_USD",
+      "exchange_id": "gitfinex.com"
+    },
+    {
+      "base": "KNC",
+      "quote": "USDT",
+      "pair_id": "KNC_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "KNC",
+      "quote": "USDT",
+      "pair_id": "KNC_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "KNC",
+      "quote": "USDT",
+      "pair_id": "KNC_USDT",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "KNC",
+      "quote": "USDT",
+      "pair_id": "KNC_USDT",
+      "exchange_id": "gate.io"
+    },
+    {
+      "base": "0xdd974d5c2e2928dea5f71b9825b8b646686bd200",
+      "quote": "ETH",
+      "pair_id": "0xf49c43ae0faf37217bdcb00df478cf793edd6687",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "0xdd974d5c2e2928dea5f71b9825b8b646686bd200",
+      "quote": "USDT",
+      "pair_id": "0x248aba53cafb77ebe6eefac3b4de8a9d0d2134ec",
+      "exchange_id": "uniswap.exchange"
+    }
+  ]
+}

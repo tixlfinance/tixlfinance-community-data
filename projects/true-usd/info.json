@@ -1,0 +1,84 @@
+{
+  "name": "TrueUSD",
+  "symbol": "tusd",
+  "coingecko_id": "true-usd",
+  "coin_api_id": "TUSD",
+  "uniswap_id": "0x0000000000085d4780b73119b644ae5ecd22b376",
+  "website": "https://www.trusttoken.com",
+  "source_code": "https://github.com/trusttoken",
+  "category_tags": ["stablecoin"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/TrustToken",
+      "handle": "TrustToken",
+      "search_strings": ["$TUSD"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/joinchat/HihkMkTja1gIyBRM1J1_vg"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=waX3BnWsRqo&list=PLHCf8xWF4_GCcV7yhx0_HNyk4rHyUSgm8",
+      "handle": "UCePpU7NPWENI6rdmFb7HALA"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/TrustToken",
+      "handle": "TrustToken"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/TrustToken"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 320154391.86,
+    "circulating_supply": 320154391.86
+  },
+  "trading_pairs": [
+    {
+      "base": "TUSD",
+      "quote": "USD",
+      "pair_id": "TUSD_USD",
+      "exchange_id": "bittrex.com"
+    },
+    {
+      "base": "TUSD",
+      "quote": "USD",
+      "pair_id": "TUSD_USD",
+      "exchange_id": "bitfinex.com"
+    },
+    {
+      "base": "TUSD",
+      "quote": "USDT",
+      "pair_id": "TUSD_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "TUSD",
+      "quote": "USDT",
+      "pair_id": "TUSD_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "TUSD",
+      "quote": "USDT",
+      "pair_id": "TUSD_USDT",
+      "exchange_id": "bittrex.com"
+    },
+    {
+      "base": "TUSD",
+      "quote": "USDT",
+      "pair_id": "TUSD_USDT",
+      "exchange_id": "gate.io"
+    },
+    {
+      "base": "0x0000000000085d4780b73119b644ae5ecd22b376",
+      "quote": "ETH",
+      "pair_id": "0xb4d0d9df2738abe81b87b66c80851292492d1404",
+      "exchange_id": "uniswap.exchange"
+    }
+  ]
+}

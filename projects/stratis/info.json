@@ -1,0 +1,51 @@
+{
+  "name": "Stratis",
+  "symbol": "strax",
+  "coingecko_id": "stratis",
+  "coin_api_id": "STRAX",
+  "uniswap_id": "0x8f19b1f780b98c2699f825ae4f1fbe4d27cb641f",
+  "website": "https://www.stratisplatform.com",
+  "source_code": "https://github.com/stratisproject",
+  "white_paper": "https://www.stratisplatform.com/files/Stratis_Whitepaper.pdf",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/stratisplatform",
+      "handle": "stratisplatform",
+      "search_strings": ["#strax", "$STRAX"]
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/stratisplatform"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=XkNtsp6DPbk&list=UUPAMEJ4ya6xbfo_aW6o3Ysg",
+      "handle": "UCPAMEJ4ya6xbfo_aW6o3Ysg"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 128057426,
+    "circulating_supply": 100074480.170045
+  },
+  "trading_pairs": [
+    {
+      "base": "STRAX",
+      "quote": "USDT",
+      "pair_id": "STRAX_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "STRAX",
+      "quote": "USDT",
+      "pair_id": "STRAX_USDT",
+      "exchange_id": "gate.io"
+    },
+    {
+      "base": "0x8f19b1f780b98c2699f825ae4f1fbe4d27cb641f",
+      "quote": "ETH",
+      "pair_id": "0x70bb21562459c77100369f351fb800f07fdaa004",
+      "exchange_id": "uniswap.exchange"
+    }
+  ]
+}
