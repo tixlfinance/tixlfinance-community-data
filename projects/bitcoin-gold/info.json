@@ -1,0 +1,57 @@
+{
+  "name": "Bitcoin Gold",
+  "symbol": "btg",
+  "coingecko_id": "bitcoin-gold",
+  "coin_api_id": "BTG",
+  "website": "https://bitcoingold.org",
+  "source_code": "https://github.com/BTCGPU",
+  "white_paper": "https://bitcoingold.org/wp-content/uploads/2017/10/BitcoinGold-Roadmap.pdf",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/bitcoingold",
+      "handle": "bitcoingold",
+      "search_strings": ["$BTG", "#btg"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/BitcoinGoldHQ"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/BitcoinGoldHQ"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/bitcoingoldofficial",
+      "handle": "bitcoingoldofficial"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=EjyzwlZSOXY&list=PL8oyInAhqLtDRqLhqvVmc3NoLElYBiprD",
+      "handle": "UCmYIP4GQdsBIevQtx8k6Bcw"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@btcgpu"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 21000000,
+    "circulating_supply": 17513924
+  },
+  "trading_pairs": [
+    {
+      "base": "BTG",
+      "quote": "USD",
+      "pair_id": "BTG_USD",
+      "exchange_id": "bitfinex.com"
+    },
+    {
+      "base": "BTG",
+      "quote": "USDT",
+      "pair_id": "BTG_USDT",
+      "exchange_id": "okex.com"
+    }
+  ]
+}

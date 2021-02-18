@@ -1,0 +1,61 @@
+{
+  "name": "Kava.io",
+  "symbol": "kava",
+  "coingecko_id": "kava",
+  "coin_api_id": "KAVA",
+  "website": "https://www.kava.io",
+  "source_code": "https://github.com/Kava-Labs",
+  "category_tags": ["defi"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/kava_labs",
+      "handle": "kava_labs",
+      "search_strings": ["$Kava"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/kavalabs"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@kava-labs"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 116638257,
+    "circulating_supply": 58524186
+  },
+  "trading_pairs": [
+    {
+      "base": "KAVA",
+      "quote": "USD",
+      "pair_id": "KAVA_USD",
+      "exchange_id": "kraken.com"
+    },
+    {
+      "base": "KAVA",
+      "quote": "USDT",
+      "pair_id": "KAVA_USDT",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "KAVA",
+      "quote": "USDT",
+      "pair_id": "KAVA_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "KAVA",
+      "quote": "USDT",
+      "pair_id": "KAVA_USDT",
+      "exchange_id": "bilaxy.com"
+    },
+    {
+      "base": "KAVA",
+      "quote": "USDT",
+      "pair_id": "KAVA_USDT",
+      "exchange_id": "gate.io"
+    }
+  ]
+}

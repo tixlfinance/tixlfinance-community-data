@@ -1,0 +1,95 @@
+{
+  "name": "Qtum",
+  "symbol": "qtum",
+  "coingecko_id": "qtum",
+  "coin_api_id": "QTUM",
+  "website": "https://qtum.org/en",
+  "source_code": "https://github.com/qtumproject",
+  "white_paper": "https://qtum.org/user/pages/01.home/Qtum%20New%20Whitepaper_en.pdf",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/qtum",
+      "handle": "qtum",
+      "search_strings": ["#QTUM"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/qtumofficial"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/QtumOfficial",
+      "handle": "QtumOfficial"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/Qtum"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=aKvGJL9t2ww&list=PLTB0JNnxbA3JG29c9JKdAIhyxKD1P0bih",
+      "handle": "UCa4iVp5iMC8gijxBvzZI3UA"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 107822406,
+    "circulating_supply": 103168500
+  },
+  "trading_pairs": [
+    {
+      "base": "QTUM",
+      "quote": "USD",
+      "pair_id": "QTUM_USD",
+      "exchange_id": "kraken.com"
+    },
+    {
+      "base": "QTUM",
+      "quote": "USD",
+      "pair_id": "QTUM_USD",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "QTUM",
+      "quote": "USD",
+      "pair_id": "QTUM_USD",
+      "exchange_id": "bitfinex.com"
+    },
+    {
+      "base": "QTUM",
+      "quote": "USDT",
+      "pair_id": "QTUM_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "QTUM",
+      "quote": "USDT",
+      "pair_id": "QTUM_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "QTUM",
+      "quote": "USDT",
+      "pair_id": "QTUM_USDT",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "QTUM",
+      "quote": "USDT",
+      "pair_id": "QTUM_USDT",
+      "exchange_id": "gate.io"
+    },
+    {
+      "base": "QTUM",
+      "quote": "USDT",
+      "pair_id": "QTUM_USDT",
+      "exchange_id": "poloniex.com"
+    },
+    {
+      "base": "QTUM",
+      "quote": "USDT",
+      "pair_id": "QTUM_USDT",
+      "exchange_id": "bithumb.com"
+    }
+  ]
+}

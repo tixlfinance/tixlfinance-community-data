@@ -1,0 +1,76 @@
+{
+  "name": "IoTeX",
+  "symbol": "iotx",
+  "coingecko_id": "iotex",
+  "coin_api_id": "iotx",
+  "uniswap_id": "0x6fb3e0a217407efff7ca062d46c26e5d60a14d69",
+  "website": "https://iotex.io",
+  "source_code": "https://github.com/iotexproject",
+  "white_paper": "https://v1.iotex.io/white-paper",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/iotex_io",
+      "handle": "iotex_io",
+      "search_strings": ["$IOTX"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/IoTeXGroup"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/IoTeX"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/iotex.io",
+      "handle": "iotex.io"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=ocHB3d_F_No&list=PLOD_OdAxOoc3IXwSNSnJ6Rk2FeuAIzidn",
+      "handle": "UCdj3xY3LCktuamvuFusWOZw"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/iotex"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 9734304443,
+    "circulating_supply": 6092094330.50564
+  },
+  "trading_pairs": [
+    {
+      "base": "IOTX",
+      "quote": "USDT",
+      "pair_id": "IOTX_USDT",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "IOTX",
+      "quote": "USDT",
+      "pair_id": "IOTX_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "IOTX",
+      "quote": "USDT",
+      "pair_id": "IOTX_USDT",
+      "exchange_id": "gate.io"
+    },
+    {
+      "base": "0x6fb3e0a217407efff7ca062d46c26e5d60a14d69",
+      "quote": "ETH",
+      "pair_id": "0x3aacfbc97573ed2f57f3feedbacc99c52cdeeab6",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "0x6fb3e0a217407efff7ca062d46c26e5d60a14d69",
+      "quote": "USDT",
+      "pair_id": "0xc1e80a6480f9e455f63ffc7f95f8bee0ed288802",
+      "exchange_id": "uniswap.exchange"
+    }
+  ]
+}

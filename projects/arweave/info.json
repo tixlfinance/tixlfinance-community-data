@@ -1,0 +1,52 @@
+{
+  "name": "Arweave",
+  "symbol": "ar",
+  "coingecko_id": "arweave",
+  "coin_api_id": "AR",
+  "website": "https://www.arweave.org",
+  "source_code": "https://github.com/ArweaveTeam",
+  "white_paper": "https://www.arweave.org/yellow-paper.pdf",
+  "category_tags": ["storage"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/arweaveteam",
+      "handle": "arweaveteam",
+      "search_strings": ["$AR"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/arweave"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/ArweaveTeam",
+      "handle": "ArweaveTeam"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 66000000,
+    "max_supply": 66000000,
+    "circulating_supply": 43825615
+  },
+  "trading_pairs": [
+    {
+      "base": "AR",
+      "quote": "USDT",
+      "pair_id": "AR_USDT",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "AR",
+      "quote": "USDT",
+      "pair_id": "AR_USDT",
+      "exchange_id": "bilaxy.com"
+    },
+    {
+      "base": "AR",
+      "quote": "USDT",
+      "pair_id": "AR_USDT",
+      "exchange_id": "gate.io"
+    }
+  ]
+}

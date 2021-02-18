@@ -1,0 +1,60 @@
+{
+  "name": "Lisk",
+  "symbol": "lsk",
+  "coingecko_id": "lisk",
+  "coin_api_id": "LSK",
+  "website": "https://lisk.io",
+  "source_code": "https://github.com/LiskHQ",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/LiskHQ",
+      "handle": "LiskHQ",
+      "search_strings": ["#Lisk", "$LSK"]
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/Lisk"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/LiskHQ",
+      "handle": "LiskHQ"
+    }
+  ],
+  "tokenomics": {
+    "circulating_supply": 143237111
+  },
+  "trading_pairs": [
+    {
+      "base": "LSK",
+      "quote": "USD",
+      "pair_id": "LSK_USD",
+      "exchange_id": "kraken.com"
+    },
+    {
+      "base": "LSK",
+      "quote": "USDT",
+      "pair_id": "LSK_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "LSK",
+      "quote": "USDT",
+      "pair_id": "LSK_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "LSK",
+      "quote": "USDT",
+      "pair_id": "LSK_USDT",
+      "exchange_id": "gate.io"
+    },
+    {
+      "base": "LSK",
+      "quote": "USDT",
+      "pair_id": "LSK_USDT",
+      "exchange_id": "poloniex.com"
+    }
+  ]
+}

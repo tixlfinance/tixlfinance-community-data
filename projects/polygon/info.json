@@ -1,0 +1,77 @@
+{
+  "name": "Polygon",
+  "symbol": "matic",
+  "coingecko_id": "matic-network",
+  "coin_api_id": "MATIC",
+  "website": "https://matic.network",
+  "source_code": "https://github.com/maticnetwork",
+  "white_paper": "https://polygon.technology/lightpaper-polygon.pdf",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/maticnetwork",
+      "handle": "maticnetwork"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/maticnetwork"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/maticnetwork"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@matic-network"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 10000000000,
+    "max_supply": 10000000000,
+    "circulating_supply": 4966397110
+  },
+  "trading_pairs": [
+    {
+      "base": "MATIC",
+      "quote": "USD",
+      "pair_id": "MATIC_USD",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "MATIC",
+      "quote": "USDT",
+      "pair_id": "MATIC_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "MATIC",
+      "quote": "USDT",
+      "pair_id": "MATIC_USDT",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "MATIC",
+      "quote": "USDT",
+      "pair_id": "MATIC_USDT",
+      "exchange_id": "bilaxy.com"
+    },
+    {
+      "base": "MATIC",
+      "quote": "USDT",
+      "pair_id": "MATIC_USDT",
+      "exchange_id": "gate.io"
+    },
+    {
+      "base": "MATIC",
+      "quote": "USDT",
+      "pair_id": "MATIC_USDT",
+      "exchange_id": "poloniex.com"
+    },
+    {
+      "base": "MATIC",
+      "quote": "USDT",
+      "pair_id": "MATIC_USDT",
+      "exchange_id": "bittrex.com"
+    }
+  ]
+}

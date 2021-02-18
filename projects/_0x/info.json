@@ -1,0 +1,112 @@
+{
+  "name": "0x",
+  "symbol": "0x",
+  "coingecko_id": "0x",
+  "coin_api_id": "ZRX",
+  "additionalSymbols": ["ZRX"],
+  "website": "https://0x.org",
+  "source_code": "https://github.com/0xProject",
+  "white_paper": "https://0x.org/pdfs/0x_white_paper.pdf",
+  "category_tags": ["defi"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/0xproject",
+      "handle": "0xProject",
+      "search_strings": ["$ZRX"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/official_0x"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/0xProject"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 1000000000,
+    "max_supply": 1000000000,
+    "circulating_supply": 750306450.6899117
+  },
+  "trading_pairs": [
+    {
+      "base": "ZRX",
+      "quote": "USD",
+      "pair_id": "ZRX_USD",
+      "exchange_id": "bitfinex.com"
+    },
+    {
+      "base": "ZRX",
+      "quote": "USD",
+      "pair_id": "ZRX_USD",
+      "exchange_id": "coinbase.com"
+    },
+    {
+      "base": "ZRX",
+      "quote": "USD",
+      "pair_id": "ZRX_USD",
+      "exchange_id": "gemini.com"
+    },
+    {
+      "base": "ZRX",
+      "quote": "USD",
+      "pair_id": "ZRX_USD",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "ZRX",
+      "quote": "USD",
+      "pair_id": "ZRX_USD",
+      "exchange_id": "bittrex.com"
+    },
+    {
+      "base": "ZRX",
+      "quote": "USD",
+      "pair_id": "ZRX_USD",
+      "exchange_id": "bitfinex.com"
+    },
+    {
+      "base": "ZRX",
+      "quote": "USDT",
+      "pair_id": "ZRX_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "ZRX",
+      "quote": "USDT",
+      "pair_id": "ZRX_USDT",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "ZRX",
+      "quote": "USDT",
+      "pair_id": "ZRX_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "ZRX",
+      "quote": "USDT",
+      "pair_id": "ZRX_USDT",
+      "exchange_id": "bilaxy.com"
+    },
+    {
+      "base": "ZRX",
+      "quote": "USDT",
+      "pair_id": "ZRX_USDT",
+      "exchange_id": "bittrex.com"
+    },
+    {
+      "base": "ZRX",
+      "quote": "USDT",
+      "pair_id": "ZRX_USDT",
+      "exchange_id": "poloniex.com"
+    },
+    {
+      "base": "ZRX",
+      "quote": "USDT",
+      "pair_id": "ZRX_USDT",
+      "exchange_id": "gate.io"
+    }
+  ]
+}
