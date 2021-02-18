@@ -35,6 +35,12 @@
       "quote": "USDT",
       "pair_id": "CAKE_USDT",
       "exchange_id": "gate.io"
+    },
+    {
+      "base": "CAKE",
+      "quote": "BUSD",
+      "pair_id": "CAKE_BUSD",
+      "exchange_id": "binance.com"
     }
   ]
 }
