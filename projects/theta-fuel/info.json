@@ -1,0 +1,45 @@
+{
+  "name": "Theta Fuel",
+  "symbol": "tfuel",
+  "coingecko_id": "theta-fuel",
+  "coin_api_id": "TFUEL",
+  "website": "https://www.thetatoken.org",
+  "source_code": "https://github.com/thetatoken",
+  "white_paper": "https://s3.us-east-2.amazonaws.com/assets.thetatoken.org/Theta-white-paper-latest.pdf?v=1553657855.509",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Theta_Network",
+      "handle": "Theta_Network",
+      "search_strings": ["$TFUEL"]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/ThetaNetwork",
+      "handle": "ThetaNetwork"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/theta-network",
+      "handle": "theta-network"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 5000000000,
+    "circulating_supply": 0
+  },
+  "trading_pairs": [
+    {
+      "base": "TFUEL",
+      "quote": "USDT",
+      "pair_id": "TFUEL_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "TFUEL",
+      "quote": "USDT",
+      "pair_id": "TFUEL_USDT",
+      "exchange_id": "gate.io"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "name": "ontology",
+  "symbol": "ont",
+  "coingecko_id": "ontology",
+  "coin_api_id": "ONT",
+  "website": "https://ont.io",
+  "source_code": "https://github.com/ontio",
+  "white_paper": "https://medium.com/ontologynetwork/ontology-network-releases-its-technology-white-paper-829848e4707a",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/OntologyNetwork",
+      "handle": "OntologyNetwork",
+      "search_strings": ["$ONT"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/OntologyNetwork"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/OntologyNetwork"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/ONTnetwork",
+      "handle": "ONTnetwork"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 1000000000,
+    "circulating_supply": 807932992
+  },
+  "trading_pairs": [
+    {
+      "base": "ONT",
+      "quote": "USD",
+      "pair_id": "ONT_USD",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "ONT",
+      "quote": "USDT",
+      "pair_id": "ONT_USDT",
+      "exchange_id": "binace.com"
+    },
+    {
+      "base": "ONT",
+      "quote": "USDT",
+      "pair_id": "ONT_USDT",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "ONT",
+      "quote": "USDT",
+      "pair_id": "ONT_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "ONT",
+      "quote": "USDT",
+      "pair_id": "ONT_USDT",
+      "exchange_id": "gate.io"
+    },
+    {
+      "base": "ONT",
+      "quote": "USDT",
+      "pair_id": "ONT_USDT",
+      "exchange_id": "kucoin.com"
+    },
+    {
+      "base": "ONT",
+      "quote": "USDT",
+      "pair_id": "ONT_USDT",
+      "exchange_id": "bittrex.com"
+    }
+  ]
+}

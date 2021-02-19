@@ -1,0 +1,46 @@
+{
+  "name": "OriginTrail",
+  "symbol": "trac",
+  "coingecko_id": "origintrail",
+  "coin_api_id": "TRAC",
+  "website": "https://oasisprotocol.org",
+  "source_code": "https://github.com/oasisprotocol",
+  "white_paper": "https://oasisprotocol.org/papers",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/origin_trail",
+      "handle": "origin_trail",
+      "search_strings": ["$trac"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/origintrail"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/origintrail"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=GfFLUaUhoqQ&list=PLbpq0wLI-bB09tLQRFsyALITRsE7GuLHa",
+      "handle": "UCEgUXocRtqe3Q8xy9ALhyzA"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@origintrail"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 500000000,
+    "circulating_supply": 289917477.8015273
+  },
+  "trading_pairs": [
+    {
+      "base": "TRAC",
+      "quote": "USDT",
+      "pair_id": "TRAC_USDT",
+      "exchange_id": "bittrex.com"
+    }
+  ]
+}

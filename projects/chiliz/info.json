@@ -1,0 +1,65 @@
+{
+  "name": "Chiliz",
+  "symbol": "chz",
+  "coingecko_id": "chiliz",
+  "coin_api_id": "CHZ",
+  "website": "https://www.chiliz.com",
+  "source_code": "https://github.com/chiliz",
+  "white_paper": "https://www.chiliz.com/docs/CHZ_whitepaper.pdf",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/chiliz",
+      "handle": "chiliz",
+      "search_strings": ["$CHZ"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/chiliz_io"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/Chilizdotcom",
+      "handle": "Chilizdotcom"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=6_Ze3axfEEM&list=PLfsCO3MOcQJQSujgma6gZyZErTmSComR_",
+      "handle": "UCyRKX_JvGZw58GHvrlc-mjA"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@chiliz"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 8888888888,
+    "circulating_supply": 5344064580
+  },
+  "trading_pairs": [
+    {
+      "base": "CHZ",
+      "quote": "USD",
+      "pair_id": "CHZ_USD",
+      "exchange_id": "bitfinex.com"
+    },
+    {
+      "base": "CHZ",
+      "quote": "USDT",
+      "pair_id": "CHZ_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "CHZ",
+      "quote": "USDT",
+      "pair_id": "CHZ_USDT",
+      "exchange_id": "bilaxy.com"
+    },
+    {
+      "base": "CHZ",
+      "quote": "USDT",
+      "pair_id": "CHZ_USDT",
+      "exchange_id": "gate.io"
+    }
+  ]
+}

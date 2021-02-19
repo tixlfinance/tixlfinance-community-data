@@ -1,0 +1,61 @@
+{
+  "name": "Verge",
+  "symbol": "xvg",
+  "coingecko_id": "verge",
+  "coin_api_id": "XVG",
+  "website": "https://vergecurrency.com",
+  "source_code": "hhttps://github.com/vergecurrency?tab=repositories",
+  "white_paper": "https://vergecurrency.com/static/blackpaper/verge-blackpaper-v5.0.pdf",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/vergecurrency",
+      "handle": "vergecurrency",
+      "search_strings": ["$XVG"]
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/vergecurrency"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/VERGEcurrency",
+      "handle": "VERGEcurrency"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=cxP6t43dZsQ&list=PL3BfmX7uZNoZ0qEpWspdNM9NQBWpDRnhq",
+      "handle": "VergeCurrencyOfficial"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 16555000000,
+    "circulating_supply": 16430655865.6918
+  },
+  "trading_pairs": [
+    {
+      "base": "XVG",
+      "quote": "USD",
+      "pair_id": "XVG_USD",
+      "exchange_id": "bitfinex.com"
+    },
+    {
+      "base": "XVG",
+      "quote": "USDT",
+      "pair_id": "XVG_USDT",
+      "exchange_id": "gate.io"
+    },
+    {
+      "base": "XVG",
+      "quote": "USDT",
+      "pair_id": "XVG_USDT",
+      "exchange_id": "bittrex.com"
+    },
+    {
+      "base": "XVG",
+      "quote": "USDT",
+      "pair_id": "XVG_USDT",
+      "exchange_id": "bittrex.com"
+    }
+  ]
+}

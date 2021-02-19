@@ -1,0 +1,87 @@
+{
+  "name": "Loopring",
+  "symbol": "lrc",
+  "coingecko_id": "loopring",
+  "coin_api_id": "LRC",
+  "website": "https://loopring.org",
+  "source_code": "https://github.com/Loopring",
+  "white_paper": "https://github.com/Loopring/whitepaper",
+  "category_tags": ["defi"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/loopringorg",
+      "handle": "loopringorg",
+      "search_strings": ["$LRC"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/loopring_en"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/loopringorg"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 1374378440.44246,
+    "max_supply": 1374513896,
+    "circulating_supply": 1246496468.94246
+  },
+  "trading_pairs": [
+    {
+      "base": "LRC",
+      "quote": "USD",
+      "pair_id": "LRC_USD",
+      "exchange_id": "coinbase.com"
+    },
+    {
+      "base": "LRC",
+      "quote": "USD",
+      "pair_id": "LRC_USD",
+      "exchange_id": "bitfinex.com"
+    },
+    {
+      "base": "LRC",
+      "quote": "USDT",
+      "pair_id": "LRC_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "LRC",
+      "quote": "USDT",
+      "pair_id": "LRC_USDT",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "LRC",
+      "quote": "USDT",
+      "pair_id": "LRC_USDT",
+      "exchange_id": "gate.io"
+    },
+    {
+      "base": "LRC",
+      "quote": "USDT",
+      "pair_id": "LRC_USDT",
+      "exchange_id": "okex.io"
+    },
+    {
+      "base": "LRC",
+      "quote": "USDT",
+      "pair_id": "LRC_USDT",
+      "exchange_id": "coinbase.com"
+    },
+    {
+      "base": "LRC",
+      "quote": "USDT",
+      "pair_id": "LRC_USDT",
+      "exchange_id": "kucoin.com"
+    },
+    {
+      "base": "LRC",
+      "quote": "USDT",
+      "pair_id": "LRC_USDT",
+      "exchange_id": "poloniex.com"
+    }
+  ]
+}

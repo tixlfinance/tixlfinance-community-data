@@ -1,0 +1,39 @@
+{
+  "name": "HUSD",
+  "symbol": "husd",
+  "coingecko_id": "husd",
+  "coin_api_id": "HUSD",
+  "uniswap_id": "0xdf574c24545e5ffecb9a659c229253d4111d87e1",
+  "website": "https://www.stcoins.com",
+  "category_tags": ["stablecoin"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Stablecoin_HUSD",
+      "handle": "Stablecoin_HUSD",
+      "search_strings": ["$HUSD"]
+    },
+    {
+      "name": "Medium",
+      "url": "https://stablecoin-husd.medium.com"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 493621223.055502,
+    "circulating_supply": 493621223.055502
+  },
+  "trading_pairs": [
+    {
+      "base": "0xdf574c24545e5ffecb9a659c229253d4111d87e1",
+      "quote": "ETH",
+      "pair_id": "0x8749068c5b45fdaa369319e5daa1e5f332419c6d",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "0xdf574c24545e5ffecb9a659c229253d4111d87e1",
+      "quote": "USDT",
+      "pair_id": "0x3c7bcaf39cc579e3a978cb371d00a13f5ab7e4da",
+      "exchange_id": "uniswap.exchange"
+    }
+  ]
+}

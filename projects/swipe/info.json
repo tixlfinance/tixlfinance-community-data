@@ -1,0 +1,75 @@
+{
+  "name": "Swipe",
+  "symbol": "sxp",
+  "coingecko_id": "swipe",
+  "coin_api_id": "STRAX",
+  "uniswap_id": "0x8ce9137d39326ad0cd6491fb5cc0cba0e089b6a9",
+  "website": "https://www.swipe.io",
+  "source_code": "https://github.com/SwipeWallet",
+  "white_paper": "https://www.swipe.io/Whitepaper.pdf",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/SwipeWallet",
+      "handle": "SwipeWallet",
+      "search_strings": ["#Swipe", "$SXP"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/SwipeWallet"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@swipe"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 286157669.150935,
+    "max_supply": 286157669.150935,
+    "circulating_supply": 85414284.150935
+  },
+  "trading_pairs": [
+    {
+      "base": "SXP",
+      "quote": "USDT",
+      "pair_id": "SXP_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "SXP",
+      "quote": "USDT",
+      "pair_id": "SXP_USDT",
+      "exchange_id": "bilaxy.com"
+    },
+    {
+      "base": "SXP",
+      "quote": "USDT",
+      "pair_id": "SXP_USDT",
+      "exchange_id": "kucoin.com"
+    },
+    {
+      "base": "SXP",
+      "quote": "USDT",
+      "pair_id": "SXP_USDT",
+      "exchange_id": "gate.io"
+    },
+    {
+      "base": "SXP",
+      "quote": "USDT",
+      "pair_id": "SXP_USDT",
+      "exchange_id": "poloniex.com"
+    },
+    {
+      "base": "0x8ce9137d39326ad0cd6491fb5cc0cba0e089b6a9",
+      "quote": "ETH",
+      "pair_id": "0xac317d14738a454ff20b191ba3504aa97173045b",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "0x8ce9137d39326ad0cd6491fb5cc0cba0e089b6a9",
+      "quote": "USDT",
+      "pair_id": "0x3334f98928c387132bdad0946c74752a65198c37",
+      "exchange_id": "uniswap.exchange"
+    }
+  ]
+}
