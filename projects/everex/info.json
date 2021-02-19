@@ -1,0 +1,42 @@
+{
+  "name": "Everex",
+  "symbol": "evx",
+  "coingecko_id": "everex",
+  "coin_api_id": "EVX",
+  "uniswap_id": "0xf3db5fa2c66b7af3eb0c0b782510816cbe4813b8",
+  "website": "https://everex.io",
+  "source_code": "https://github.com/EverexIO",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/everexio",
+      "handle": "everexio",
+      "search_strings": ["$EVX"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/everexio"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/Everex"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/everex.io",
+      "handle": "everex.io"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 25000000,
+    "circulating_supply": 21800000
+  },
+  "trading_pairs": [
+    {
+      "base": "0xf3db5fa2c66b7af3eb0c0b782510816cbe4813b8",
+      "quote": "ETH",
+      "pair_id": "0x90fc780e2a7add0ef532cb33d2b733ba2fa6277a",
+      "exchange_id": "uniswap.exchange"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "name": "HEX",
+  "symbol": "hex",
+  "coingecko_id": "hex",
+  "coin_api_id": "HEX",
+  "uniswap_id": "0x2b591e99afe9f32eaa6214f7b7629768c40eeb39",
+  "website": "https://hex.com",
+  "source_code": "https://github.com/BitcoinHEX",
+  "white_paper": "https://hex.com/techspecs",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/HEXcrypto",
+      "handle": "HEXcrypto",
+      "search_strings": ["$HEX"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/HEXcrypto"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/HEXcrypto",
+      "handle": "HEXcrypto"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/HEXcrypto"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 568408684890.232,
+    "circulating_supply": 0
+  },
+  "trading_pairs": [
+    {
+      "base": "0x2b591e99afe9f32eaa6214f7b7629768c40eeb39",
+      "quote": "ETH",
+      "pair_id": "0x55d5c232d921b9eaa6b37b5845e439acd04b4dba",
+      "exchange_id": "uniswap.exchange"
+    }
+  ]
+}
