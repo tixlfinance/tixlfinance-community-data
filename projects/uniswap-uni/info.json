@@ -29,7 +29,8 @@
     },
     {
       "name": "Telegram",
-      "url": "https://t.me/uniswapgroup"
+      "url": "https://t.me/uniswapgroup",
+      "handle": "uniswapgroup"
     }
   ],
   "tokenomics": {

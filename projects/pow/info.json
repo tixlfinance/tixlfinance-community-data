@@ -14,7 +14,8 @@
     },
     {
       "name": "Telegram",
-      "url": "https://t.me/powerledger"
+      "url": "https://t.me/powerledger",
+      "handle": "powerledger"
     },
     {
       "name": "Reddit",

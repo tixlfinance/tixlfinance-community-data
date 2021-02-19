@@ -19,7 +19,8 @@
     },
     {
       "name": "Telegram",
-      "url": "https://t.me/tellor"
+      "url": "https://t.me/tellor",
+      "handle": "tellor"
     },
     {
       "name": "Youtube",

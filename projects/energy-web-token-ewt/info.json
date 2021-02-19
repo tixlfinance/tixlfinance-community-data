@@ -22,7 +22,8 @@
     },
     {
       "name": "Telegram",
-      "url": "https://t.me/energyweb"
+      "url": "https://t.me/energyweb",
+      "handle": "energyweb"
     },
     {
       "name": "Youtube",

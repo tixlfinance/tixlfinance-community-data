@@ -16,7 +16,8 @@
     },
     {
       "name": "Telegram",
-      "url": "https://t.me/storjproject"
+      "url": "https://t.me/storjproject",
+      "handle": "storjproject"
     },
     {
       "name": "Reddit",

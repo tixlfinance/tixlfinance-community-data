@@ -18,7 +18,8 @@
     },
     {
       "name": "Telegram",
-      "url": "https://t.me/tezosplatform"
+      "url": "https://t.me/tezosplatform",
+      "handle": "tezosplatform"
     },
     {
       "name": "Youtube",

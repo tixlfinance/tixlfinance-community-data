@@ -15,7 +15,8 @@
     },
     {
       "name": "Telegram",
-      "url": "https://t.me/graphprotocol"
+      "url": "https://t.me/graphprotocol",
+      "handle": "graphprotocol"
     },
     {
       "name": "Reddit",

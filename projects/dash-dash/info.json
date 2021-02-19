@@ -17,7 +17,8 @@
     },
     {
       "name": "Telegram",
-      "url": "https://t.me/dash_chat"
+      "url": "https://t.me/dash_chat",
+      "handle": "dash_chat"
     },
     {
       "name": "Youtube",

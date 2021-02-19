@@ -15,7 +15,8 @@
     },
     {
       "name": "Telegram",
-      "url": "https://t.me/ethclassic"
+      "url": "https://t.me/ethclassic",
+      "handle": "ethclassic"
     },
     {
       "name": "Reddit",

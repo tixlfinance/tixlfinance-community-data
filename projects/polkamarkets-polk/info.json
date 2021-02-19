@@ -18,11 +18,11 @@
     "Date for Uniswap launch will be announced soon"
   ],
   "socialShareOgMessage": "Uniswap launch coming soon",
-  "videosSection": {
+  "videosSection": [{
     "title": "PolkaMarket DeFi",
     "description": "",
     "video": "https://www.youtube.com/watch?v=tboxNbUrR-A"
-  },
+  }],
   "chartsSection": [
     {
       "title": "Token distribution",
@@ -103,7 +103,7 @@
     {
       "name": "Telegram",
       "url": "https://t.me/polkamarkets",
-      "handle": "Polkamarkets Official"
+      "handle": "polkamarkets"
     },
     {
       "name": "Medium",

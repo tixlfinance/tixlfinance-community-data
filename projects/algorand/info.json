@@ -16,7 +16,8 @@
     },
     {
       "name": "Telegram",
-      "url": "https://t.me/algorand"
+      "url": "https://t.me/algorand",
+      "handle": "algorand"
     },
     {
       "name": "Reddit",

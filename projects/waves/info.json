@@ -16,7 +16,8 @@
     },
     {
       "name": "Telegram",
-      "url": "https://t.me/wavesnews"
+      "url": "https://t.me/wavesnews",
+      "handle": "wavesnews"
     },
     {
       "name": "Reddit",

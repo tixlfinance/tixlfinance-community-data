@@ -29,7 +29,8 @@
     },
     {
       "name": "Telegram",
-      "url": "https://t.me/CardanoAnnouncements"
+      "url": "https://t.me/CardanoAnnouncements",
+      "handle": "CardanoAnnouncements"
     },
     {
       "name": "Youtube",

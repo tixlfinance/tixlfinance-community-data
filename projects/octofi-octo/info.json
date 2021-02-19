@@ -15,7 +15,8 @@
     },
     {
       "name": "Telegram",
-      "url": "https://t.me/OctoFiCommunity"
+      "url": "https://t.me/OctoFiCommunity",
+      "handle": "OctoFiCommunity"
     }
   ],
   "trading_pairs": [

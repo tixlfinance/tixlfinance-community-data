@@ -25,7 +25,8 @@
     },
     {
       "name": "Telegram",
-      "url": "https://t.me/TheDogeHouse"
+      "url": "https://t.me/TheDogeHouse",
+      "handle": "TheDogeHouse"
     }
   ],
   "tokenomics": {

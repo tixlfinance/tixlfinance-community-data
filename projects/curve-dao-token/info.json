@@ -16,7 +16,8 @@
     },
     {
       "name": "Telegram",
-      "url": "https://t.me/curvefi"
+      "url": "https://t.me/curvefi",
+      "handle": "curvefi"
     }
   ],
   "tokenomics": {

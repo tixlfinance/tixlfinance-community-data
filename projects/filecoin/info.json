@@ -15,7 +15,8 @@
     },
     {
       "name": "Telegram",
-      "url": "https://t.me/filecoin"
+      "url": "https://t.me/filecoin",
+      "handle": "filecoin"
     },
     {
       "name": "Reddit",
