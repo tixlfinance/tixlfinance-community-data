@@ -1,0 +1,47 @@
+{
+  "name": "Syntropy",
+  "symbol": "syntropy",
+  "coingecko_id": "noia-network",
+  "coin_api_id": "NOIA",
+  "uniswap_id": "0xa8c8cfb141a3bb59fea1e2ea6b79b5ecbcd7b6ca",
+  "website": "https://www.syntropynet.com",
+  "source_code": "https://github.com/SyntropyNet",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Syntropynet",
+      "handle": "Syntropynet",
+      "search_strings": ["$NOIA"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/SyntropyNet"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/SyntropyNet"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/Syntropynet"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 1000000000,
+    "circulating_supply": 362886483.43612814
+  },
+  "trading_pairs": [
+    {
+      "base": "0xa8c8cfb141a3bb59fea1e2ea6b79b5ecbcd7b6ca",
+      "quote": "ETH",
+      "pair_id": "0xb8a1a865e4405281311c5bc0f90c240498472d3e",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "NOIA",
+      "quote": "USDT",
+      "pair_id": "NOIA_USDT",
+      "exchange_id": "kucoin.com"
+    }
+  ]
+}

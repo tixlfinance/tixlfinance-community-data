@@ -1,0 +1,60 @@
+{
+  "name": "BitShares",
+  "symbol": "bts",
+  "coingecko_id": "bitshares",
+  "coin_api_id": "BTS",
+  "website": "https://bitshares.org",
+  "source_code": "https://github.com/bitshares",
+  "white_paper": "https://cryptorating.eu/whitepapers/BitShares/bitshares-general.pdf",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/_bitshares",
+      "handle": "_bitshares",
+      "search_strings": ["$BTS"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/BitSharesDAC"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/BitShares"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/officialbitshares",
+      "handle": "officialbitshares"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 3600570502,
+    "circulating_supply": 2710195991.53075
+  },
+  "trading_pairs": [
+    {
+      "base": "BTS",
+      "quote": "USDT",
+      "pair_id": "BTS_USDT",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "BTS",
+      "quote": "USDT",
+      "pair_id": "BTS_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "BTS",
+      "quote": "USDT",
+      "pair_id": "BTS_USDT",
+      "exchange_id": "gate.io"
+    },
+    {
+      "base": "BTS",
+      "quote": "USDT",
+      "pair_id": "BTS_USDT",
+      "exchange_id": "binance.com"
+    }
+  ]
+}

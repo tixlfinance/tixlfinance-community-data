@@ -1,0 +1,48 @@
+{
+  "name": "Steem",
+  "symbol": "steem",
+  "coingecko_id": "steem",
+  "coin_api_id": "STEEM",
+  "website": "https://steem.com",
+  "source_code": "https://github.com/steemit",
+  "white_paper": "https://steem.com/",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/SteemNetwork",
+      "handle": "SteemNetwork",
+      "search_strings": ["$STEEM"]
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/steemit"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/steemit"
+    }
+  ],
+  "tokenomics": {
+    "circulating_supply": 377768538.67
+  },
+  "trading_pairs": [
+    {
+      "base": "STEEM",
+      "quote": "USDT",
+      "pair_id": "STEEM_USDT",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "STEEM",
+      "quote": "USDT",
+      "pair_id": "STEEM_USDT",
+      "exchange_id": "gate.io"
+    },
+    {
+      "base": "STEEM",
+      "quote": "USDT",
+      "pair_id": "STEEM_USDT",
+      "exchange_id": "poloniex.com"
+    }
+  ]
+}

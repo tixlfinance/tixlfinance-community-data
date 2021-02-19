@@ -1,0 +1,35 @@
+{
+  "name": "Huobi BTC",
+  "symbol": "hbtc",
+  "coingecko_id": "huobi-btc",
+  "coin_api_id": "HBTC",
+  "uniswap_id": "0x0316eb71485b0ab14103307bf65a021042c6d380",
+  "website": "https://www.htokens.finance",
+  "source_code": "https://github.com/huobi",
+  "category_tags": ["defi"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/HuobiGlobal",
+      "handle": "HuobiGlobal",
+      "search_strings": ["$HBTC"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/huobiglobalofficial"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 21906.38145999,
+    "max_supply": 21906.38145999,
+    "circulating_supply": 21906.38145999
+  },
+  "trading_pairs": [
+    {
+      "base": "0x0316eb71485b0ab14103307bf65a021042c6d380",
+      "quote": "ETH",
+      "pair_id": "0xa6f4eae7fdaa20e632c45d4cd39e4f3961892322",
+      "exchange_id": "uniswap.exchange"
+    }
+  ]
+}

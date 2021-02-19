@@ -1,0 +1,30 @@
+{
+  "name": "MonaCoin",
+  "symbol": "mona",
+  "coingecko_id": "monacoin",
+  "coin_api_id": "MONA",
+  "website": "https://monacoin.org",
+  "source_code": "https://github.com/monacoinproject",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/tcejorpniocanom",
+      "handle": "tcejorpniocanom",
+      "search_strings": ["$MONA"]
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/monacoin"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/Monacoin2014",
+      "handle": "Monacoin2014"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 105120000,
+    "circulating_supply": 72754999.9716242
+  },
+  "trading_pairs": []
+}

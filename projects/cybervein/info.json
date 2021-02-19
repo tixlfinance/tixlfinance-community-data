@@ -1,0 +1,53 @@
+{
+  "name": "CyberVeinToken",
+  "symbol": "cvt",
+  "coingecko_id": "cybervein",
+  "coin_api_id": "CVT",
+  "website": "https://www.cybervein.org",
+  "source_code": "https://github.com/Cybervein-official/CyberVeinChain",
+  "white_paper": "https://cybervein.obs.cn-east-3.myhuaweicloud.com/Whitepaper_V3_CyberVein%20English.pdf",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/cyberveingroup",
+      "handle": "cyberveingroup",
+      "search_strings": ["$CVT"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/joinchat/CyberVeinCommunity"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/CyberVeinOfficial"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/cyberveinteam",
+      "handle": "cyberveinteam"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=TGUmM7dPiXY&list=PLzHWkmuUeiW-I4duaVM0GRlmwQdDfQQ5P",
+      "handle": "UCpIgOnNTu4FPFsa9LBdQjCw?view_as=subscriber"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 2147483648,
+    "circulating_supply": 0
+  },
+  "trading_pairs": [
+    {
+      "base": "CVT",
+      "quote": "USDT",
+      "pair_id": "CVT_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "CVT",
+      "quote": "USDT",
+      "pair_id": "CVT_USDT",
+      "exchange_id": "poloniex.com"
+    }
+  ]
+}

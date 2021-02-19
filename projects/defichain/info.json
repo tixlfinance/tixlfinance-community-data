@@ -1,0 +1,53 @@
+{
+  "name": "DeFiChain",
+  "symbol": "dfi",
+  "coingecko_id": "defichain",
+  "coin_api_id": "DFI",
+  "website": "https://defichain.com",
+  "source_code": "https://github.com/DeFiCh/ain",
+  "white_paper": "https://defichain.com/white-paper",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/defichain",
+      "handle": "defichain",
+      "search_strings": ["$DFI"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/defiblockchain"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/defiblockchain"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/cakedefi",
+      "handle": "cakedefi"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=ky0_3Brv-eI&list=PLDhj9Lev9Ohgk2lKVVPhyggWEy7hllM1d",
+      "handle": "DeFiChain"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 1200000000,
+    "circulating_supply": 0
+  },
+  "trading_pairs": [
+    {
+      "base": "DFI",
+      "quote": "USDT",
+      "pair_id": "DFI_USDT",
+      "exchange_id": "bittrex.com"
+    },
+    {
+      "base": "DFI",
+      "quote": "USDT",
+      "pair_id": "DFI_USDT",
+      "exchange_id": "kucoin.com"
+    }
+  ]
+}

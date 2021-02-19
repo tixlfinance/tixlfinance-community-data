@@ -1,0 +1,54 @@
+{
+  "name": "Trust Wallet Token",
+  "symbol": "twt",
+  "coingecko_id": "trust-wallet-token",
+  "coin_api_id": "TWT",
+  "website": "https://trustwallet.com",
+  "source_code": "https://github.com/trustwallet",
+  "white_paper": "https://pdfhost.io/v/7kEISzHai_Trust_Swap_WP_1_1pdf.pdf",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/trustswap",
+      "handle": "trustswap",
+      "search_strings": ["$SWAP"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/TrustSwap"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/trustapp"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/trustwalletapp",
+      "handle": "trustwalletapp"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 1000000000,
+    "circulating_supply": 346951186
+  },
+  "trading_pairs": [
+    {
+      "base": "TWT",
+      "quote": "USDT",
+      "pair_id": "TWT_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "TWT",
+      "quote": "USDT",
+      "pair_id": "TWT_USDT",
+      "exchange_id": "bilaxy.com"
+    },
+    {
+      "base": "TWT",
+      "quote": "USDT",
+      "pair_id": "TWT_USDT",
+      "exchange_id": "gate.io"
+    }
+  ]
+}

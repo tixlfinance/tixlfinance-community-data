@@ -1,0 +1,54 @@
+{
+  "name": "Bytom",
+  "symbol": "btm",
+  "coingecko_id": "bytom",
+  "coin_api_id": "BTM",
+  "website": "https://bytom.io",
+  "source_code": "https://github.com/bytom",
+  "white_paper": "https://cdn.bytom.io/res/Bytom-Technical-White-Paper-EN.pdf", 
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Bytom_Official",
+      "handle": "Bytom_Official",
+      "search_strings": ["$BTM"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/BytomInternational"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/bytomofficial",
+      "handle": "bytomofficial"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/BytomBlockchain"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 2100000000,
+    "circulating_supply": 1657119375
+  },
+  "trading_pairs": [
+    {
+      "base": "BTM",
+      "quote": "USDT",
+      "pair_id": "BTM_USDT",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "BTM",
+      "quote": "USDT",
+      "pair_id": "BTM_USDT",
+      "exchange_id": "gate.io"
+    },
+    {
+      "base": "BTM",
+      "quote": "USDT",
+      "pair_id": "BTM_USDT",
+      "exchange_id": "okex.com"
+    }
+  ]
+}

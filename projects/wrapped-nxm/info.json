@@ -1,0 +1,64 @@
+{
+  "name": "Wrapped NXM",
+  "symbol": "wnxm",
+  "coingecko_id": "wrapped-nxm",
+  "coin_api_id": "WNXM",
+  "uniswap_id": "0x0d438f3b5175bebc262bf23753c1e53d03432bde",
+  "website": "https://nexusmutual.io",
+  "source_code": "https://github.com/NexusMutual",
+  "white_paper": "https://nexusmutual.io/assets/docs/nmx_white_paperv2_3.pdf",
+  "category_tags": ["defi"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/NexusMutual",
+      "handle": "NexusMutual",
+      "search_strings": ["$WNXM"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/joinchat/K_g-fA-3CmFwXumCKQUXkw"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/nexus-mutual"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 1605762.2611369,
+    "max_supply": 1605762.2611369,
+    "circulating_supply": 1605762.2611369
+  },
+  "trading_pairs": [
+    {
+      "base": "0x0d438f3b5175bebc262bf23753c1e53d03432bde",
+      "quote": "ETH",
+      "pair_id": "0x23bff8ca20aac06efdf23cee3b8ae296a30dfd27",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "WNXM",
+      "quote": "USDT",
+      "pair_id": "WNXM_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "WNXM",
+      "quote": "USDT",
+      "pair_id": "WNXM_USDT",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "WNXM",
+      "quote": "USDT",
+      "pair_id": "WNXM_USDT",
+      "exchange_id": "gate.io"
+    },
+    {
+      "base": "WNXM",
+      "quote": "USDT",
+      "pair_id": "WNXM_USDT",
+      "exchange_id": "poloniex.com"
+    }
+  ]
+}
