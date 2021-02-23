@@ -1,0 +1,238 @@
+{
+  "roadmap": [
+    {
+      "description": "Founders work on first concept and take care of the legal preparation.",
+      "title": "Kickoff",
+      "year": 2018
+    },
+    {
+      "description": "Foundation of the non-profit company Tixl gGmbH.",
+      "month": 1,
+      "title": "Company launch",
+      "year": 2019,
+      "link": "https://medium.com/tixlorg/efforts-to-protect-tixl-investors-7daef7340014"
+    },
+    {
+      "description": "Launch of the Tixl website and release of the first version of the Tixl Whitepaper.",
+      "month": 3,
+      "title": "Going public",
+      "year": 2019,
+      "image": "https://tixl.org/images/Tixl-Cover.png",
+      "link": "https://tixl.org"
+    },
+    {
+      "description": "We are pleased to be able to report about the progress Tixl has made in recent weeks.",
+      "month": 5,
+      "title": "Status Update #1",
+      "year": 2019,
+      "image": "https://miro.medium.com/max/1400/1*azecie00fgLZyC-a2OvuzA.png",
+      "link": "https://medium.com/tixlorg/tixl-status-update-1-bac612c3c4e8"
+    },
+    {
+      "description": "We are pleased to be able to report about the progress Tixl has made in recent weeks.",
+      "month": 7,
+      "title": "Status Update #2",
+      "year": 2019,
+      "image": "https://miro.medium.com/max/1400/1*dvq0z57h0oCVv8fthLA4mg.png",
+      "link": "https://medium.com/tixlorg/tixl-status-update-2-74df40053bca"
+    },
+    {
+      "description": "This is a really exciting time. We have just entered...",
+      "month": 8,
+      "title": "Status Update #3",
+      "year": 2019,
+      "image": "https://miro.medium.com/max/1400/1*oHZJ47hb-b_Tz9rbLsCm8g.png",
+      "link": "https://medium.com/tixlorg/tixl-status-update-3-57bcd60d3257"
+    },
+    {
+      "description": "We’re excited to announce that the Tixl Token [MTXLT] will be listed on Binance DEX on August 28.",
+      "month": 8,
+      "title": "First exchange listing",
+      "year": 2019,
+      "image": "https://miro.medium.com/max/1400/1*NIQgmyVa7bb10A6NSy09MQ.png",
+      "link": "https://medium.com/tixlorg/tixl-mtxlt-will-be-listed-on-binance-dex-5964c7efbb88"
+    },
+    {
+      "description": "A reward program designed specifically for our early investors.",
+      "month": 10,
+      "title": "Tixl Hodlers Club",
+      "year": 2019,
+      "image": "https://miro.medium.com/max/1400/0*W0OUID8JDAP4pAPL",
+      "link": "https://medium.com/tixlorg/introducing-the-tixl-hodlers-club-6f7cded224d3"
+    },
+    {
+      "description": "Probit is the first exchange to allow the trading of MTXLT directly with BTC.",
+      "month": 11,
+      "title": "MTXLT listed on Probit",
+      "year": 2019,
+      "image": "https://miro.medium.com/max/1400/1*LhvmqIbfEmmwam6gWUIR4g.png",
+      "link": "https://medium.com/tixlorg/tixl-mtxlt-listed-on-probit-exchange-137d9e9d3d9b"
+    },
+    {
+      "description": "We are excited to introduce the Tixl Global Reserve (TGR).",
+      "month": 11,
+      "title": "Tixl Global Reserve",
+      "year": 2019,
+      "image": "https://miro.medium.com/max/1400/0*1UsJSk-S6XHiI6Pc",
+      "link": "https://medium.com/tixlorg/tixl-global-reserve-tgr-update-c59bee09c66d"
+    },
+    {
+      "description": "TXL support, fast transactions (sub 25sec), amount encryption.",
+      "month": 12,
+      "title": "Testnet Altona",
+      "year": 2019,
+      "image": "https://miro.medium.com/max/1400/0*xaXq_es3l4Q6zbZ0",
+      "link": "https://medium.com/tixlorg/tixl-testnet-rc-altona-e3198c88af02"
+    },
+    {
+      "description": "Happy New Year and welcome to our fourth major status update of the Tixl project.",
+      "month": 1,
+      "title": "Status Update #4",
+      "year": 2020,
+      "image": "https://miro.medium.com/max/1400/0*PaHKjNqYeohW4bwi",
+      "link": "https://medium.com/tixlorg/tixl-status-update-4-8d0c19750dfb"
+    },
+    {
+      "description": "The Astronauts Club is a marketing campaign by Tixl.",
+      "month": 4,
+      "title": "Astronauts Club",
+      "year": 2020,
+      "image": "https://miro.medium.com/max/1400/0*suHQS6McJ2McpxiY",
+      "link": "https://medium.com/tixlorg/official-launch-of-the-tixl-social-reward-program-29bb35ae46dc"
+    },
+    {
+      "description": "Enjoy your Bitcoin in the fastlane. Autobahn is the German name for a highway.",
+      "month": 4,
+      "title": "Autobahn Network",
+      "year": 2020,
+      "image": "https://miro.medium.com/max/1400/0*JSZcfvNyFE0JIB7Z",
+      "link": "https://medium.com/tixlorg/the-autobahn-network-enjoy-your-btc-in-the-fastlane-8516c1bef349"
+    },
+    {
+      "description": "Bitcoin support, faster transactions (sub 10sec), improved privacy.",
+      "month": 5,
+      "title": "Testnet Blankenese",
+      "year": 2020,
+      "image": "https://miro.medium.com/max/1400/1*U_fxN9yggRzcZhe-sIX4NA.jpeg",
+      "link": "https://medium.com/tixlorg/autobahn-network-testnet-blankenese-4250e7171e7c"
+    },
+    {
+      "description": "In this update, we will provide an insight detailing the next steps on the road to the Mainnet release.",
+      "month": 6,
+      "title": "Status Update #5",
+      "year": 2020,
+      "image": "https://miro.medium.com/max/1400/0*rPr4-ZKurkvlfrAr",
+      "link": "https://medium.com/tixlorg/tixl-status-update-5-76b3ad7b5cff"
+    },
+    {
+      "description": "A new star is born! We are proud to finally introduce TXL.",
+      "month": 8,
+      "title": "Introducing TXL",
+      "year": 2020,
+      "image": "https://miro.medium.com/max/1400/0*KMJJ-YCtNFJyWXfZ",
+      "link": "https://medium.com/tixlorg/introducing-txl-with-uniswap-listing-c8721b135056"
+    },
+    {
+      "description": "We are excited to have signed this investment and to be supporting Tixl as a strategic partner.",
+      "month": 8,
+      "title": "Moonrock Capital",
+      "year": 2020,
+      "image": "https://miro.medium.com/max/1400/1*s7zIADGw0p6neKD0WYtWWA@2x.jpeg",
+      "link": "https://medium.com/@moonrockcapital/moonrock-capital-joins-tixl-as-a-strategic-investor-713f120a7fd6"
+    },
+    {
+      "description": "It’s official: On the 9th of September, our new TXL (ERC-20) token gets listed on Uniswap.",
+      "month": 9,
+      "title": "TXL Uniswap Listing",
+      "year": 2020,
+      "image": "https://miro.medium.com/max/1256/1*7T332FPt2iqSIMCkFa7pwg.png",
+      "link": "https://medium.com/tixlorg/trading-and-earning-from-liquidity-pools-on-uniswap-fb02b32daa45"
+    },
+    {
+      "description": "Web-Wallet Redesign, Stability & Performance",
+      "month": 10,
+      "title": "Testnet Cranz",
+      "year": 2020,
+      "image": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/mobile_browsers_lib5.svg"
+    },
+    {
+      "description": "We will provide a SDK that can be used with the current testnet.",
+      "month": 10,
+      "title": "Autobahn SDK/API",
+      "year": 2020,
+      "image": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/factory_dy0a.svg"
+    },
+    {
+      "description": "Support easy-to-use Bitcoin deposits into the Autobahn Network for fast BTC transfers.",
+      "month": 11,
+      "title": "Bitcoin Integration",
+      "year": 2020,
+      "image": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/digital_currency_qpak.svg"
+    },
+    {
+      "description": "The Release of the Autobahn Network Mainnet v0.1 together with the Tixl Wallet.",
+      "day": 6,
+      "month": 12,
+      "title": "Mainnet v0.1 & Wallet",
+      "year": 2020,
+      "image": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Online_party_re_7t6g.svg"
+    },
+    {
+      "description": "A first version of our unique, AI-powered crypto data solution.",
+      "day": 25,
+      "month": 1,
+      "title": "Tixl Finance Release",
+      "year": 2021,
+      "image": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/crypto_portfolio_2jy5.svg"
+    },
+    {
+      "description": "In addition to our own TXL token and ETH, other ERC-20 tokens can be sent on the Autobahn Network.",
+      "title": "ERC-20 Integration",
+      "quarter": "Q1",
+      "year": 2021,
+      "image": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Ethereum_re_0m68.svg"
+    },
+    {
+      "description": "The Tixl Wallet will get more features, including friend onboarding, UX improvements, etc.",
+      "title": "Tixl Wallet Features",
+      "quarter": "Q1",
+      "year": 2021,
+      "image": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/wallet_aym5.svg"
+    },
+    {
+      "description": "The Tixl Wallet will be available as a native app on iOS and Android.",
+      "title": "Tixl Wallet App",
+      "year": 2021,
+      "image": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/app_data_516s.svg"
+    },
+    {
+      "description": "The Autobahn Network Mainnet v0.1 needs to be security-audited by an external auditor.",
+      "title": "Security Audits",
+      "year": 2021,
+      "image": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Security_on_ff2u.svg"
+    },
+    {
+      "description": "We are not only working on an exchange using Tixl´s Autobahn Network, but also more exchange listings.",
+      "title": "Exchanges",
+      "year": 2021,
+      "image": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/business_deal_cpi9.svg"
+    },
+    {
+      "description": "We´ll offer token bridges so swapping between ecosystems will be possible.",
+      "title": "Bridges",
+      "year": 2021,
+      "image": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/Golden_gate_bridge_jkph.svg"
+    },
+    {
+      "description": "Our goal is to fully decentralize the Tixl Autobahn Network and make it open-source as soon as possible.",
+      "title": "Decentral & Open Source",
+      "year": 2021,
+      "image": "https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/open_source_1qxw.svg"
+    },
+    {
+      "description": "Tixl's Autobahn technology can be utilized for any other DeFi product.",
+      "title": "Extend Tixl Ecosystem",
+      "year": 2021
+    } 
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "name": "Marketing Preview Tixl (isHidden)",
+  "symbol": "TXL",
+  "coingecko_id": "tixl-new",
+  "coin_api_id": "TXL",
+  "uniswap_id": "0x8eef5a82e6aa222a60f009ac18c24ee12dbf4b41",
+  "website": "https://tixl.org",
+  "source_code": "https://github.com/tixlcurrency",
+  "white_paper": "https://tixl.me/whitepaper",
+  "isStableCoin": false,
+  "isHidden": true,
+  "erc20": {
+    "tokenAddress": "0x8eEF5a82E6Aa222a60F009ac18c24EE12dBf4b41",
+    "nonCirculatingWallets": [
+      "0x3c26af250d607d4849df2aa5ff761a64defcd80b",
+      "0x2ac6a511184cca85c727c68c553e58218f7cd1c0"
+    ]
+  },
+  "favoriteTweets": [
+    {
+      "tweetUrl": " https://twitter.com/TixlOrg/status/1357682791253704706"
+    },
+    {
+      "tweetUrl": "https://twitter.com/TixlOrg/status/1356633778052071426"
+    },
+    {
+      "tweetUrl": "https://twitter.com/TixlOrg/status/1347578569791328259"
+    },
+    {
+      "tweetUrl": "https://twitter.com/TixlOrg/status/1339959695155613702"
+    },
+    {
+      "tweetUrl": "https://twitter.com/TixlOrg/status/1337436770712084481"
+    }
+  ],
+  "additionalLinks": [
+    {
+      "label": "Explorer",
+      "url": "https://etherscan.io/token/0x8eEF5a82E6Aa222a60F009ac18c24EE12dBf4b41"
+    },
+    {
+      "label": "Wallet",
+      "url": "https://wallet.tixl.org/"
+    },
+    {
+      "label": "Team",
+      "url": "https://tixl.org/team"
+    }
+  ],
+  "category_tags": ["defi", "l1s", "smart_contract_platform"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/TixlOrg",
+      "handle": "TixlOrg",
+      "search_strings": ["#tixl", "$TXL"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/tixlorg",
+      "handle": "tixlorg"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/tixlorg",
+      "handle": "tixlorg"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/tixl",
+      "handle": "Tixl"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/playlist?list=PLjOyvZEIlYaJPTOnhbruA2emVaHom0XsV",
+      "handle": "UCo0U8FPLV9hqju-gSN2Nang"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 900000000,
+    "total_supply": 899994670,
+    "circulating_supply": 58594704
+  },
+  "trading_pairs": [
+    {
+      "base": "0x8eef5a82e6aa222a60f009ac18c24ee12dbf4b41",
+      "quote": "ETH",
+      "pair_id": "0x0fdc86703c938e3e1cbc9e14f21c6bf709c13acc",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "TXL",
+      "quote": "ETH",
+      "pair_id": "",
+      "exchange_id": "bilaxy.com"
+    }
+  ],
+  "__triggerUpdate": 8
+}
