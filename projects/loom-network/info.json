@@ -1,0 +1,38 @@
+{
+  "name": "Loom Network",
+  "symbol": "loom",
+  "coingecko_id": "loom-network",
+  "coin_api_id": "LOOM",
+  "website": "https://loomx.io/",
+  "source_code": "https://github.com/loomnetwork/loom-js",
+  "white_paper": "https://medium.com/loom-network/introducing-loom-network-scaling-ethereum-today-9ea26b5b57c",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/loomnetwork",
+      "handle": "loomnetwork",
+      "search_strings": ["$LOOM"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/loomnetwork"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://reddit.com/r/loomnetwork"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "0xa4e8c3ec456107ea67d3075bf9e3df3a75823db0",
+      "quote": "ETH",
+      "pair_id": "0x8a4615a8a1ad94257567762c16007d02f76ede00",
+      "exchange_id": "uniswap.exchange"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 1000000000,
+    "circulating_supply": 833914552
+  },
+  "uniswap_id": "0xa4e8c3ec456107ea67d3075bf9e3df3a75823db0"
+}

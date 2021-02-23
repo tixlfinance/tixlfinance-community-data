@@ -1,0 +1,49 @@
+{
+  "name": "FunFair",
+  "symbol": "fun",
+  "coingecko_id": "funfair",
+  "coin_api_id": "FUN",
+  "website": "https://funfair.io/",
+  "white_paper": "https://funfair.io/how-it-works/whitepapers/",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/FunFairTech",
+      "handle": "FunFairTech",
+      "search_strings": ["$FUN"]
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/FunfairTech"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/joinchat/HtUKhUpG0FCu_X25mnU2Bg"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "FUN",
+      "quote": "USDT",
+      "pair_id": "FUN_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "0x419d0d8bdd9af5e606ae2232ed285aff190e711b",
+      "quote": "ETH",
+      "pair_id": "0x05b0c1d8839ef3a989b33b6b63d3aa96cb7ec142",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "FUN",
+      "quote": "USD",
+      "pair_id": "FUN_USD",
+      "exchange_id": "bitfinex.com"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 10999873621,
+    "circulating_supply": 6014092389.175264
+  },
+  "uniswap_id": "0x419d0d8bdd9af5e606ae2232ed285aff190e711b"
+}

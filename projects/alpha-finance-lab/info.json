@@ -1,0 +1,48 @@
+{
+  "name": "Alpha Finance Lab",
+  "symbol": "alpha",
+  "coingecko_id": "alpha-finance-lab",
+  "coin_api_id": "ALPHA",
+  "website": "https://alphafinance.io/",
+  "source_code": "https://github.com/AlphaFinanceLab/alphahomora",
+  "white_paper": "https://github.com/AlphaFinanceLab/alpha-lending-smart-contract/blob/master/documents/Alpha%20Lending%20Whitepaper.pdf",
+  "category_tags": ["defi"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/alphafinancelab",
+      "handle": "alphafinancelab",
+      "search_strings": ["$ALPHA"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/AlphaFinanceLab"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "ALPHA",
+      "quote": "USDT",
+      "pair_id": "ALPHA_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "0xa1faa113cbe53436df28ff0aee54275c13b40975",
+      "quote": "ETH",
+      "pair_id": "0x60b2cc2c6ecd3dd89b4fd76818ef83186e2f2931",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "ALPHA",
+      "quote": "USDT",
+      "pair_id": "ALPHA_USDT",
+      "exchange_id": "bilaxy.com"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 1000000000,
+    "circulating_supply": 250153035,
+    "max_supply": 1000000000
+  },
+  "uniswap_id": "0xa1faa113cbe53436df28ff0aee54275c13b40975"
+}

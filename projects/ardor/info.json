@@ -1,0 +1,38 @@
+{
+  "name": "Ardor",
+  "symbol": "ardr",
+  "coingecko_id": "ardor",
+  "coin_api_id": "ARDR",
+  "website": "https://www.jelurida.com/ardor",
+  "source_code": "https://bitbucket.org/Jelurida/ardor",
+  "white_paper": "https://ardordocs.jelurida.com",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/ArdorPlatform",
+      "handle": "ArdorPlatform",
+      "search_strings": ["$ARDR"]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/ardorplatform",
+      "handle": "ArdorPlatform"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/Ardor/"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "ARDR",
+      "quote": "USDT",
+      "pair_id": "ARDR_USDT",
+      "exchange_id": "binance.com"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 998999495,
+    "circulating_supply": 998999495
+  }
+}

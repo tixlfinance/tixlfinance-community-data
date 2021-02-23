@@ -1,0 +1,57 @@
+{
+  "name": "PAX Gold",
+  "symbol": "paxg",
+  "coingecko_id": "pax-gold",
+  "coin_api_id": "PAXG",
+  "website": "https://www.paxos.com/paxgold/",
+  "source_code": "https://github.com/paxosglobal/paxos-gold-contract",
+  "white_paper": "https://www.paxos.com/pax-gold-whitepaper",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/paxosglobal",
+      "handle": "paxosglobal",
+      "search_strings": ["$PAXG"]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/paxosglobal",
+      "handle": "paxosglobal"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/paxos"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "PAXG",
+      "quote": "USDT",
+      "pair_id": "PAXG_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "PAXG",
+      "quote": "USD",
+      "pair_id": "PAXG_USD",
+      "exchange_id": "kraken.com"
+    },
+    {
+      "base": "PAXG",
+      "quote": "USD",
+      "pair_id": "PAXG_USD",
+      "exchange_id": "gemini.com"
+    },
+    {
+      "base": "0x45804880de22913dafe09f4980848ece6ecbaf78",
+      "quote": "ETH",
+      "pair_id": "0x9c4fe5ffd9a9fc5678cfbd93aa2d4fd684b67c4c",
+      "exchange_id": "uniswap.exchange"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 70129.463,
+    "circulating_supply": 70129.463
+  },
+  "uniswap_id": "0x45804880de22913dafe09f4980848ece6ecbaf78"
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Reef",
+  "symbol": "reef",
+  "coingecko_id": "reef",
+  "coin_api_id": "REEF",
+  "website": "https://reef.finance/",
+  "source_code": "http://github.com/reef-defi",
+  "white_paper": "https://reef.finance/resources/ReefLitePaper_v100c.pdf",
+  "category_tags": ["dot_ecosystem"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/ReefDeFi",
+      "handle": "ReefDeFi",
+      "search_strings": ["$REEF"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/reefdefi"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/ReefDeFi/"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@reefdefi"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "REEF",
+      "quote": "USDT",
+      "pair_id": "REEF_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "0xfe3e6a25e6b192a42a44ecddcd13796471735acf",
+      "quote": "ETH",
+      "pair_id": "",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "REEF",
+      "quote": "USDT",
+      "pair_id": "REEF_USDT",
+      "exchange_id": "bilaxy.com"
+    },
+    {
+      "base": "REEF",
+      "quote": "USDT",
+      "pair_id": "REEF_USDT",
+      "exchange_id": "poloniex.com"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 4191294990.65114
+  },
+  "uniswap_id": "0xfe3e6a25e6b192a42a44ecddcd13796471735acf"
+}

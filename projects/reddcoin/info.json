@@ -1,0 +1,50 @@
+{
+  "name": "ReddCoin",
+  "symbol": "rdd",
+  "coingecko_id": "redd",
+  "coin_api_id": "RDD",
+  "website": "http://www.reddcoin.com/",
+  "source_code": "https://github.com/reddcoin-project/reddcoin",
+  "white_paper": "https://wiki.reddcoin.com/Technical_Information",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/reddcoin",
+      "handle": "reddcoin",
+      "search_strings": ["$RDD"]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/reddcoin",
+      "handle": "reddcoin"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/ReddcoinOfficial"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@techadept"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/reddCoin/"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=QT2KP8QA4pk&list=PLtowt-RtoU1FLNyUJCRyI95CXshPxnvw9",
+      "handle": "ReddProject"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "RDD",
+      "quote": "USDT",
+      "pair_id": "RDD_USDT",
+      "exchange_id": "bittrex.com"
+    }
+  ],
+  "tokenomics": {
+    "circulating_supply": 30013557126.4741
+  }
+}

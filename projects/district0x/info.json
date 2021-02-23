@@ -1,0 +1,44 @@
+{
+  "name": "district0x",
+  "symbol": "dnt",
+  "coingecko_id": "district0x",
+  "coin_api_id": "DNT",
+  "website": "https://district0x.io/",
+  "source_code": "https://github.com/district0x/name-bazaar",
+  "white_paper": "https://district0x.io/docs/district0x-whitepaper.pdf",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/district0x",
+      "handle": "district0x",
+      "search_strings": ["$DNT"]
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/district0x"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@district0x"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "DNT",
+      "quote": "USDT",
+      "pair_id": "DNT_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "0x0abdace70d3790235af448c88547603b945604ea",
+      "quote": "ETH",
+      "pair_id": "0xb062fcbb48154fd385f104b38a2f9f3ffd82ffe0",
+      "exchange_id": "uniswap.exchange"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 1000000000,
+    "circulating_supply": 751221716.3251766
+  },
+  "uniswap_id": "0x0abdace70d3790235af448c88547603b945604ea"
+}

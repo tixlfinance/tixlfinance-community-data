@@ -1,0 +1,48 @@
+{
+  "name": "SingularityNET",
+  "symbol": "agi",
+  "coingecko_id": "singularitynet",
+  "coin_api_id": "AGI",
+  "website": "https://singularitynet.io/",
+  "source_code": "https://github.com/singnet/singnet",
+  "white_paper": "https://public.singularitynet.io/whitepaper.pdf",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/singularity_net",
+      "handle": "singularity_net",
+      "search_strings": ["$AGI"]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/singularityNET.io",
+      "handle": "singularity_net"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/singularitynet"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/SingularityNetsub/"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=XLgVjIIM6D0&list=PLAJnaovHtaFSNa3NPEZYWX2yC3wejsdsV",
+      "handle": "UCbTE8vfz5zuEK5uRnc2yjrw"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "0x8eb24319393716668d768dcec29356ae9cffe285",
+      "quote": "ETH",
+      "pair_id": "0x3d2d3c4446e8a82445418523b9b5b376765e55a8",
+      "exchange_id": "uniswap.exchange"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 1000000000,
+    "circulating_supply": 958449128.0710626
+  },
+  "uniswap_id": "0x8eb24319393716668d768dcec29356ae9cffe285"
+}

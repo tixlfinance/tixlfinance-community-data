@@ -1,0 +1,41 @@
+{
+  "name": "Gemini Dollar",
+  "symbol": "gusd",
+  "coingecko_id": "gemini-dollar",
+  "coin_api_id": "GUSD",
+  "website": "https://gemini.com/dollar/",
+  "source_code": "https://github.com/gemini/dollar",
+  "white_paper": "https://gemini.com/wp-content/themes/gemini/assets/img/dollar/gemini-dollar-whitepaper.pdf",
+  "category_tags": ["stablecoin"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/GeminiDotCom",
+      "handle": "GeminiDotCom",
+      "search_strings": ["$GUSD"]
+    },
+    {
+      "name": "Reddit",
+      "url": "https://reddit.com/r/Gemini"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "GUSD",
+      "quote": "USDT",
+      "pair_id": "GUSD_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "0x056fd409e1d7a124bd7017459dfea2f387b6d5cd",
+      "quote": "ETH",
+      "pair_id": "0x61247d8aca1c485a50728e1336d9b26c8339e701",
+      "exchange_id": "uniswap.exchange"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 119952941.36,
+    "circulating_supply": 119952941.36
+  },
+  "uniswap_id": "0x056fd409e1d7a124bd7017459dfea2f387b6d5cd"
+}

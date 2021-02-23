@@ -1,0 +1,46 @@
+{
+  "name": "NuCypher",
+  "symbol": "nu",
+  "coingecko_id": "nucypher",
+  "coin_api_id": "NU",
+  "website": "https://nucypher.com",
+  "source_code": "https://github.com/nucypher/",
+  "white_paper": "https://www.nucypher.com/static/whitepapers/english.pdf",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/nucypher",
+      "search_strings": ["$NU"]
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/nucypher"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "NU",
+      "quote": "USDT",
+      "pair_id": "NU_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "0x4fe83213d56308330ec302a8bd641f1d0113a4cc",
+      "quote": "ETH",
+      "pair_id": "0x3a8afc58b70b34a0a5615d3a5ffe623ca1fa92b8",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "NU",
+      "quote": "USDT",
+      "pair_id": "NU_USDT",
+      "exchange_id": "poloniex.com"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 3885390081.74825,
+    "circulating_supply": 349429711.09603846,
+    "max_supply": 3885390081.74825
+  },
+  "uniswap_id": "0x4fe83213d56308330ec302a8bd641f1d0113a4cc"
+}

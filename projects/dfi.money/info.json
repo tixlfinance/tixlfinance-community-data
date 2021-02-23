@@ -1,0 +1,59 @@
+{
+  "name": "DFI.Money",
+  "symbol": "yfii",
+  "coingecko_id": "yearn-finance-ii",
+  "coin_api_id": "YFII",
+  "website": "https://dfi.money/#/",
+  "source_code": "https://github.com/yfii",
+  "category_tags": ["defi"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/DfiMoney",
+      "handle": "DfiMoney",
+      "search_strings": ["$YFII"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/yfiifinance"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "YFII",
+      "quote": "USDT",
+      "pair_id": "YFII_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "YFII",
+      "quote": "USDT",
+      "pair_id": "YFII_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "YFII",
+      "quote": "USDT",
+      "pair_id": "YFII_USDT",
+      "exchange_id": "bilaxy.com"
+    },
+    {
+      "base": "YFII",
+      "quote": "USDT",
+      "pair_id": "YFII_USDT",
+      "exchange_id": "poloniex.com"
+    },
+    {
+      "base": "0xa1d0e215a23d7030842fc67ce582a6afa3ccab83",
+      "quote": "ETH",
+      "pair_id": "0x8973be4402bf0a39448f419c2d64bd3591dd2299",
+      "exchange_id": "uniswap.exchange"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 39999.994635582,
+    "circulating_supply": 39730.956864256834,
+    "max_supply": 40000
+  },
+  "uniswap_id": "0xa1d0e215a23d7030842fc67ce582a6afa3ccab83"
+}

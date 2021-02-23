@@ -1,0 +1,74 @@
+{
+  "name": "Enjin Coin",
+  "symbol": "enj",
+  "coingecko_id": "enjin-coin",
+  "coin_api_id": "ENJ",
+  "website": "https://enjin.io/",
+  "source_code": "https://github.com/enjin/erc-1155",
+  "white_paper": "https://docs.enjin.io/",
+  "category_tags": ["nft"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/enjin",
+      "handle": "enjin",
+      "search_strings": ["$ENJ"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/enjin"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/EnjinCoin"
+    },{
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=1YB2yqr-KJQ&list=PLpuc74Nf22miqxteWPmZfB3lQtndv3Ita",
+      "handle": "enjintv"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "ENJ",
+      "quote": "USDT",
+      "pair_id": "ENJ_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c",
+      "quote": "ETH",
+      "pair_id": "",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "ENJ",
+      "quote": "USDT",
+      "pair_id": "ENJ_USDT",
+      "exchange_id": "bittrex.com"
+    },
+    {
+      "base": "ENJ",
+      "quote": "USDT",
+      "pair_id": "ENJ_USDT",
+      "exchange_id": "bilaxy.com"
+    },
+    {
+      "base": "ENJ",
+      "quote": "USD",
+      "pair_id": "ENJ_USD",
+      "exchange_id": "bittrex.com"
+    },
+    {
+      "base": "ENJ",
+      "quote": "USD",
+      "pair_id": "ENJ_USD",
+      "exchange_id": "bitfinex.com"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 1000000000,
+    "circulating_supply": 929334633.3092238,
+    "max_supply": 1000000000
+  },
+  "uniswap_id": "0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c"
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Golem",
+  "symbol": "glm",
+  "coingecko_id": "golem-network-tokens",
+  "coin_api_id": "GLM",
+  "website": "https://golem.network/",
+  "source_code": "https://github.com/golemfactory/golem",
+  "white_paper": "https://golem.network/doc/Golemwhitepaper.pdf",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/golemproject",
+      "handle": "golemproject",
+      "search_strings": ["$GLM"]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/golemproject",
+      "handle": "golemproject"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/GolemProject"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "0x7dd9c5cba05e151c895fde1cf355c9a1d5da6429",
+      "quote": "ETH",
+      "pair_id": "0xb5f790a03b7559312d9e738df5056a4b4c8459f4",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "GLM",
+      "quote": "USDT",
+      "pair_id": "GLM_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "GLM",
+      "quote": "USDT",
+      "pair_id": "GLM_USDT",
+      "exchange_id": "poloniex.com"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 1000000000,
+    "circulating_supply": 1000000000
+  },
+  "uniswap_id": "0x7dd9c5cba05e151c895fde1cf355c9a1d5da6429"
+}

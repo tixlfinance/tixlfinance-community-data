@@ -1,0 +1,46 @@
+{
+  "name": "Unibright",
+  "symbol": "ubt",
+  "coingecko_id": "unibright",
+  "coin_api_id": "UBT",
+  "website": "https://unibright.io/",
+  "white_paper": "https://unibright.io/download/unibright_whitepaper.pdf",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Unibrightio",
+      "handle": "Unibrightio",
+      "search_strings": ["$UBT"]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/Unibright.IO",
+      "handle": "Unibrightio"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/Unibright_IO"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@UnibrightIO"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/Unibright/"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "0x8400d94a5cb0fa0d041a3788e395285d61c9ee5e",
+      "quote": "ETH",
+      "pair_id": "0xb27de0ba2abfbfdf15667a939f041b52118af5ba",
+      "exchange_id": "uniswap.exchange"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 150000000,
+    "circulating_supply": 139600000
+  },
+  "uniswap_id": "0x8400d94a5cb0fa0d041a3788e395285d61c9ee5e"
+}
