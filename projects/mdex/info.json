@@ -1,0 +1,39 @@
+{
+  "name": "Mdex",
+  "symbol": "mdx",
+  "coingecko_id": "mdex",
+  "coin_api_id": "MDX",
+  "website": "https://mdex.com",
+  "source_code": "https://github.com/insight-chain",
+  "white_paper": "https://mdex.medium.com/mdex-economic-whitepaper-1bdc882e20c9",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Mdextech",
+      "handle": "Mdextech",
+      "search_strings": ["$MDX"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/MixDex"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 224962458.70145455,
+    "circulating_supply": 124962458.70145455
+  },
+  "trading_pairs": [
+    {
+      "base": "MDX",
+      "quote": "USDT",
+      "pair_id": "MDX_USDT",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "MDX",
+      "quote": "USDT",
+      "pair_id": "MDX_USDT",
+      "exchange_id": "gate.io"
+    }
+  ]
+}

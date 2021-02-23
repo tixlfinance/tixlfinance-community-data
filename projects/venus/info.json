@@ -1,0 +1,51 @@
+{
+  "name": "Venus",
+  "symbol": "xvs",
+  "coingecko_id": "venus",
+  "coin_api_id": "XVS",
+  "website": "https://venus.io",
+  "source_code": "https://github.com/VenusProtocol/Venus-Protocol",
+  "white_paper": "https://venus.io/Whitepaper.pdf",
+  "category_tags": ["defi"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/VenusProtocol",
+      "handle": "VenusProtocol",
+      "search_strings": ["$XVS"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/VenusProtocol"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/venusprotocol"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 30000000,
+    "max_supply": 30000000,
+    "circulating_supply": 8573526.159975316
+  },
+  "trading_pairs": [
+    {
+      "base": "XVS",
+      "quote": "USDT",
+      "pair_id": "XVS_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "XVS",
+      "quote": "USDT",
+      "pair_id": "XVS_USDT",
+      "exchange_id": "gate.io"
+    },
+    {
+      "base": "XVS",
+      "quote": "USDT",
+      "pair_id": "XVS_USDT",
+      "exchange_id": "bithumb.com"
+    }
+  ]
+}
