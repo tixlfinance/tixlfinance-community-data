@@ -1,0 +1,44 @@
+{
+  "name": "TerraUSD",
+  "symbol": "ust",
+  "coingecko_id": "terrausd",
+  "coin_api_id": "UST",
+  "website": "https://terra.money",
+  "source_code": "https://github.com/terra-project",
+  "white_paper": "https://terra.money/Terra_White_paper.pdf",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/terra_money",
+      "handle": "terra_money",
+      "search_strings": ["$UST"]
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/terra-money"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/TerraLunaChat"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "0xa47c8bf37f92abed4a126bda807a7b7498661acd",
+      "quote": "ETH",
+      "pair_id": "0xc628da629c615909c961b1c69c3bcac0c3fad8a9",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "UST",
+      "quote": "USDT",
+      "pair_id": "UST_USDT",
+      "exchange_id": "bittrex.com"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 588417014.788068,
+    "circulating_supply": 588418845.861088
+  },
+  "uniswap_id": "0xa47c8bf37f92abed4a126bda807a7b7498661acd"
+}

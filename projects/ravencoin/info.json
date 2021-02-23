@@ -1,0 +1,70 @@
+{
+  "name": "Ravencoin",
+  "symbol": "rvn",
+  "coingecko_id": "ravencoin",
+  "coin_api_id": "RVN",
+  "website": "https://ravencoin.org/",
+  "source_code": "https://github.com/RavenProject/Ravencoin",
+  "white_paper": "https://ravencoin.org/whitepaper/",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/ravencoin",
+      "handle": "ravencoin",
+      "search_strings": ["$RVN"]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/Ravencoinofficial",
+      "handle": "ravencoin"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/RavencoinDev"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@ravencoin"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/Ravencoin"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "RVN",
+      "quote": "USDT",
+      "pair_id": "RVN_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "RVN",
+      "quote": "USDT",
+      "pair_id": "RVN_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "RVN",
+      "quote": "USD",
+      "pair_id": "RVN_USD",
+      "exchange_id": "bittrex.com"
+    },
+    {
+      "base": "RVN",
+      "quote": "USDT",
+      "pair_id": "RVN_USDT",
+      "exchange_id": "bittrex.com"
+    },
+    {
+      "base": "RVN",
+      "quote": "USDT",
+      "pair_id": "RVN_USDT",
+      "exchange_id": "upbit.com"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 21000000000,
+    "circulating_supply": 8195380000
+  }
+}

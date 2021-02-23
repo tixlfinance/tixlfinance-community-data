@@ -1,0 +1,76 @@
+{
+  "name": "Basic Attention Token",
+  "symbol": "bat",
+  "coingecko_id": "basic-attention-token",
+  "coin_api_id": "BAT",
+  "uniswap_id": "0x0d8775f648430679a709e98d2b0cb6250d2887ef",
+  "website": "https://basicattentiontoken.org/",
+  "source_code": "https://github.com/brave-intl/publishers",
+  "white_paper": "https://basicattentiontoken.org/BasicAttentionTokenWhitePaper-4.pdf",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/AttentionToken",
+      "handle": "AttentionToken",
+      "search_strings": ["$BAT"]
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/BATProject"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "BAT",
+      "quote": "USDT",
+      "pair_id": "BAT_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "BAT",
+      "quote": "USDT",
+      "pair_id": "BAT_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "BAT",
+      "quote": "USD",
+      "pair_id": "BAT_USD",
+      "exchange_id": "kraken.com"
+    },
+    {
+      "base": "0x0d8775f648430679a709e98d2b0cb6250d2887ef",
+      "quote": "ETH",
+      "pair_id": "0xb6909b960dbbe7392d405429eb2b3649752b4838",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "BAT",
+      "quote": "USDT",
+      "pair_id": "BAT_USDT",
+      "exchange_id": "bilaxy.com"
+    },
+    {
+      "base": "BAT",
+      "quote": "USD",
+      "pair_id": "BAT_USD",
+      "exchange_id": "bittrex.com"
+    },
+    {
+      "base": "BAT",
+      "quote": "USDT",
+      "pair_id": "BAT_USDT",
+      "exchange_id": "bittrex.com"
+    },
+    {
+      "base": "BAT",
+      "quote": "USD",
+      "pair_id": "BAT_USD",
+      "exchange_id": "bitfinex.com"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 1500000000,
+    "circulating_supply": 1488572312.6224163
+  }
+}

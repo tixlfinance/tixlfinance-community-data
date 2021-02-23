@@ -1,0 +1,70 @@
+{
+  "name": "Augur",
+  "symbol": "rep",
+  "coingecko_id": "augur",
+  "coin_api_id": "REP",
+  "website": "http://www.augur.net/",
+  "source_code": "https://github.com/AugurProject/augur-core",
+  "category_tags": ["defi"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/AugurProject",
+      "handle": "AugurProject",
+      "search_strings": ["$REP"]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/augurproject",
+      "handle": "AugurProject"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/Augur"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "REP",
+      "quote": "USDT",
+      "pair_id": "REP_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "REP",
+      "quote": "USDT",
+      "pair_id": "REP_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "0x221657776846890989a759ba2973e427dff5c9bb",
+      "quote": "ETH",
+      "pair_id": "0x8979a3ef9d540480342ac0f56e9d4c88807b1cba",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "REP",
+      "quote": "USD",
+      "pair_id": "REP_USD",
+      "exchange_id": "bitfinex.com"
+    },
+    {
+      "base": "REP",
+      "quote": "USD",
+      "pair_id": "REP_USD",
+      "exchange_id": "kraken.com"
+    },
+    {
+      "base": "0x221657776846890989a759ba2973e427dff5c9bb",
+      "quote": "ETH",
+      "pair_id": "0x8979a3ef9d540480342ac0f56e9d4c88807b1cba",
+      "exchange_id": "uniswap.exchange"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 5913843.07788885,
+    "circulating_supply": 5913843.07788885,
+    "max_supply": 5913843.07788885
+  },
+  "uniswap_id": "0x221657776846890989a759ba2973e427dff5c9bb"
+}

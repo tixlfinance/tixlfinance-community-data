@@ -1,0 +1,55 @@
+{
+  "name": "iExec RLC",
+  "symbol": "rlc",
+  "coingecko_id": "rlc",
+  "coin_api_id": "RLC",
+  "website": "https://iex.ec/",
+  "source_code": "https://github.com/iExecBlockchainComputing/iexec-sdk",
+  "white_paper": "https://iex.ec/app/uploads/2017/04/iExec-WPv2.0-English.pdf",
+  "category_tags": ["dot_ecosystem"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/iEx_ec",
+      "handle": "iEx_ec",
+      "search_strings": ["$RLC"]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/iexecteam",
+      "handle": "iEx_ec"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/iexec"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/iexec_discussion"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=nvK86-vnwvc&list=PLeSpOM_8d0BVsSEArjvX78uCNiTphFMs0",
+      "handle": "UCwWxZWvKVHn3CXnmDooLWtA"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "RLC",
+      "quote": "USDT",
+      "pair_id": "RLC_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "0x607f4c5bb672230e8672085532f7e901544a7375",
+      "quote": "ETH",
+      "pair_id": "0x6d57a53a45343187905aad6ad8ed532d105697c1",
+      "exchange_id": "uniswap.exchange"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 86999784,
+    "circulating_supply": 70733547.07841186
+  },
+  "uniswap_id": "0x607f4c5bb672230e8672085532f7e901544a7375"
+}

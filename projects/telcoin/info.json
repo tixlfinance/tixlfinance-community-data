@@ -1,0 +1,54 @@
+{
+  "name": "Telcoin",
+  "symbol": "tel",
+  "coingecko_id": "telcoin",
+  "coin_api_id": "TEL",
+  "website": "https://www.telco.in/",
+  "source_code": "https://github.com/telcoin/ico",
+  "white_paper": "https://www.telco.in/docs/whitepaper.pdf",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/telcoin_team",
+      "handle": "telcoin_team",
+      "search_strings": ["$TEL"]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/telcoin",
+      "handle": "telcoin_team"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/telcoincommunity"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/Telcoin/"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=bx0uoQZDl9Q&list=PLyHero206eAmWlzb1E0zr0G_---T1VkRP",
+      "handle": "https://www.youtube.com/channel/UCBEKBh64cZy7U3O7VtKsLOg"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "TEL",
+      "quote": "USDT",
+      "pair_id": "TEL_USDT",
+      "exchange_id": "kucoin.com"
+    },
+    {
+      "base": "0x467bccd9d29f223bce8043b84e8c8b282827790f",
+      "quote": "ETH",
+      "pair_id": "0x291c69fdaebd3cbe953843da243f8605a766a268",
+      "exchange_id": "uniswap.exchange"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 100000000000,
+    "circulating_supply": 54255406904.06
+  },
+  "uniswap_id": "0x467bccd9d29f223bce8043b84e8c8b282827790f"
+}

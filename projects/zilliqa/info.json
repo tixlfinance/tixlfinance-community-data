@@ -1,0 +1,54 @@
+{
+  "name": "Zilliqa",
+  "symbol": "zil",
+  "coingecko_id": "zilliqa",
+  "coin_api_id": "ZIL",
+  "website": "https://www.zilliqa.com/",
+  "source_code": "https://github.com/Zilliqa/Zilliqa",
+  "white_paper": "https://docs.zilliqa.com/whitepaper.pdf",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/zilliqa",
+      "handle": "zilliqa",
+      "search_strings": ["$ZIL"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/zilliqachat"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/zilliqa/"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=zEX_-8ZlMe4&list=PLo0ddf4DBUYs4TEK1c2NMx80i-4FIWvlx",
+      "handle": "UCvinnFbf0u71cajoxKcfZIQ"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "ZIL",
+      "quote": "USDT",
+      "pair_id": "ZIL_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "ZIL",
+      "quote": "USDT",
+      "pair_id": "ZIL_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "ZIL",
+      "quote": "USD",
+      "pair_id": "ZIL_USD",
+      "exchange_id": "bitfinex.com"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 21000000000,
+    "circulating_supply": 11733294126.4133
+  }
+}

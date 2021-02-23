@@ -1,0 +1,73 @@
+{
+  "name": "Kusama",
+  "symbol": "ksm",
+  "coingecko_id": "kusama",
+  "coin_api_id": "KSM",
+  "website": "https://kusama.network/",
+  "source_code": "https://github.com/kusamanetwork/kusama.network",
+  "category_tags": ["dot_ecosystem"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/kusamanetwork",
+      "handle": "kusamanetwork",
+      "search_strings": ["$KSM"]
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/polkadot-network/kusama-network-7446706b8f4c"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/Kusama"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=VmSoHbVGo4k&list=PL5iFq6rVsyFbYrlPPTMEgAaX1hWdmawO-",
+      "handle": "UCq4MRrQhdoIR0b44GxcCPxw"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "KSM",
+      "quote": "USDT",
+      "pair_id": "KSM_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "KSM",
+      "quote": "USDT",
+      "pair_id": "KSM_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "KSM",
+      "quote": "USD",
+      "pair_id": "KSM_USD",
+      "exchange_id": "kraken.com"
+    },
+    {
+      "base": "KSM",
+      "quote": "USDT",
+      "pair_id": "KSM_USDT",
+      "exchange_id": "kucoin.com"
+    },
+    {
+      "base": "KSM",
+      "quote": "USD",
+      "pair_id": "KSM_USD",
+      "exchange_id": "bitfinex.com"
+    },
+    {
+      "base": "KSM",
+      "quote": "USDT",
+      "pair_id": "KSM_USDT",
+      "exchange_id": "bittrex.com"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 10000000,
+    "circulating_supply": 8980098.074112339,
+    "max_supply": 10000000
+  }
+}
