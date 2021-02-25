@@ -1,99 +1,119 @@
 {
-  "name": "Marketing Preview Tixl (isHidden)",
-  "symbol": "TXL",
-  "coingecko_id": "tixl-new",
-  "coin_api_id": "TXL",
+  "name": "Polkamarkets upcoming project example",
+  "symbol": "POLK",
   "uniswap_id": "0x8eef5a82e6aa222a60f009ac18c24ee12dbf4b41",
-  "website": "https://tixl.org",
+  "website": "https://www.polkamarkets.com/",
   "source_code": "https://github.com/tixlcurrency",
-  "white_paper": "https://tixl.me/whitepaper",
+  "white_paper": "https://docs.google.com/presentation/d/1HO0VAHnMXscW4Wa_GI3MqExVj65RTDSPCNKhMhX8E_U/edit?usp=sharing",
   "isStableCoin": false,
-  "isHidden": true,
-  "erc20": {
-    "tokenAddress": "0x8eEF5a82E6Aa222a60F009ac18c24EE12dBf4b41",
-    "nonCirculatingWallets": [
-      "0x3c26af250d607d4849df2aa5ff761a64defcd80b",
-      "0x2ac6a511184cca85c727c68c553e58218f7cd1c0"
-    ]
-  },
+  "isUpcomingProject": true,
+  "launchTokenInfos": [
+    { "label": "Initial Marketcap", "value": 610000, "type": "price" },
+    { "label": "Total Raise", "value": 715000, "type": "price" },
+    { "label": "Initial Uniswap Liquidity", "value": 200000, "type": "amount" },
+    { "label": "Uniswap Listing Price", "value": 0.05, "type": "price" }
+  ],
+  "socialShareInfos": [
+    "The initial price will be $0.05",
+    "Date for Uniswap launch will be announced soon"
+  ],
+  "socialShareOgMessage": "Uniswap launch coming soon",
+  "videosSection": [{
+    "title": "PolkaMarket DeFi",
+    "description": "",
+    "video": "https://www.youtube.com/watch?v=tboxNbUrR-A"
+  }],
+  "chartsSection": [
+    {
+      "title": "Token distribution",
+      "type": "pieChart",
+      "description": "This diagram shows the token distribution of $Polk by utilisation.",
+      "charts": [
+        {
+          "dropdownLabel": "Overview",
+          "popoverUnit": "Token",
+          "valueUnit": "%",
+          "labelsAndValues": [
+            {
+              "label": "Strategic sale",
+              "value": 25.0,
+              "popoverValue": 25000000
+            },
+            {
+              "label": "Public Sale",
+              "value": 3.0,
+              "popoverValue": 3000000
+            },
+            {
+              "label": "Liquidity Fund",
+              "value": 22.0,
+              "popoverValue": 22000000
+            },
+            {
+              "label": "Foundational Reserve",
+              "value": 20.0,
+              "popoverValue": 20000000
+            },
+            {
+              "label": "Team & Advisors",
+              "value": 10.0,
+              "popoverValue": 10000000
+            },
+            {
+              "label": "Marketing",
+              "value": 20.0,
+              "popoverValue": 20000000
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "favoriteTweets": [
     {
-      "tweetUrl": " https://twitter.com/TixlOrg/status/1357682791253704706"
+      "tweetUrl": "https://twitter.com/polkamarkets/status/1361000377978601479"
     },
     {
-      "tweetUrl": "https://twitter.com/TixlOrg/status/1356633778052071426"
+      "tweetUrl": "https://twitter.com/polkamarkets/status/1361021430847197186"
     },
     {
-      "tweetUrl": "https://twitter.com/TixlOrg/status/1347578569791328259"
+      "tweetUrl": "https://twitter.com/polkamarkets/status/1360239369622274049"
     },
     {
-      "tweetUrl": "https://twitter.com/TixlOrg/status/1339959695155613702"
+      "tweetUrl": "https://twitter.com/polkamarkets/status/1359911437586620416"
     },
     {
-      "tweetUrl": "https://twitter.com/TixlOrg/status/1337436770712084481"
+      "tweetUrl": "https://twitter.com/polkamarkets/status/1358782918785703939"
     }
   ],
   "additionalLinks": [
     {
-      "label": "Explorer",
-      "url": "https://etherscan.io/token/0x8eEF5a82E6Aa222a60F009ac18c24EE12dBf4b41"
-    },
-    {
-      "label": "Wallet",
-      "url": "https://wallet.tixl.org/"
-    },
-    {
-      "label": "Team",
-      "url": "https://tixl.org/team"
+      "label": "About",
+      "url": "https://www.polkamarkets.com/about"
     }
   ],
-  "category_tags": ["defi", "l1s", "smart_contract_platform"],
+  "category_tags": ["defi", "upcoming_projects"],
   "socials": [
     {
       "name": "Twitter",
-      "url": "https://twitter.com/TixlOrg",
-      "handle": "TixlOrg",
-      "search_strings": ["#tixl", "$TXL"]
+      "url": "https://twitter.com/polkamarkets",
+      "handle": "polkamarkets",
+      "search_strings": ["$POLK"]
     },
     {
       "name": "Telegram",
-      "url": "https://t.me/tixlorg",
-      "handle": "tixlorg"
+      "url": "https://t.me/polkamarkets",
+      "handle": "polkamarkets"
     },
     {
       "name": "Medium",
-      "url": "https://medium.com/tixlorg",
-      "handle": "tixlorg"
-    },
-    {
-      "name": "Reddit",
-      "url": "https://www.reddit.com/r/tixl",
-      "handle": "Tixl"
-    },
-    {
-      "name": "Youtube",
-      "url": "https://www.youtube.com/playlist?list=PLjOyvZEIlYaJPTOnhbruA2emVaHom0XsV",
-      "handle": "UCo0U8FPLV9hqju-gSN2Nang"
+      "url": "https://medium.com/@polkamarkets",
+      "handle": "polkamarkets"
     }
   ],
   "tokenomics": {
-    "max_supply": 900000000,
-    "total_supply": 899994670,
-    "circulating_supply": 58594704
-  },
-  "trading_pairs": [
-    {
-      "base": "0x8eef5a82e6aa222a60f009ac18c24ee12dbf4b41",
-      "quote": "ETH",
-      "pair_id": "0x0fdc86703c938e3e1cbc9e14f21c6bf709c13acc",
-      "exchange_id": "uniswap.exchange"
-    },
-    {
-      "base": "TXL",
-      "quote": "ETH",
-      "pair_id": "",
-      "exchange_id": "bilaxy.com"
-    }
-  ],
-  "__triggerUpdate": 8
+    "max_supply": 100000000,
+    "total_supply": 100000000,
+    "circulating_supply": 0
+  }
 }
