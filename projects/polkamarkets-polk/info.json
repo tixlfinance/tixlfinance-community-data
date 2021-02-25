@@ -1,12 +1,12 @@
 {
   "name": "Polkamarkets",
   "symbol": "POLK",
-  "uniswap_id": "0x8eef5a82e6aa222a60f009ac18c24ee12dbf4b41",
+  "uniswap_id": "0xd478161c952357f05f0292b56012cd8457f1cfbf",
   "website": "https://www.polkamarkets.com/",
   "source_code": "https://github.com/tixlcurrency",
   "white_paper": "https://docs.google.com/presentation/d/1HO0VAHnMXscW4Wa_GI3MqExVj65RTDSPCNKhMhX8E_U/edit?usp=sharing",
   "isStableCoin": false,
-  "isUpcomingProject": true,
+  "isUpcomingProject": false,
   "launchTokenInfos": [
     { "label": "Initial Marketcap", "value": 610000, "type": "price" },
     { "label": "Total Raise", "value": 715000, "type": "price" },
@@ -18,11 +18,13 @@
     "Date for Uniswap launch will be announced soon"
   ],
   "socialShareOgMessage": "Uniswap launch coming soon",
-  "videosSection": [{
-    "title": "PolkaMarket DeFi",
-    "description": "",
-    "video": "https://www.youtube.com/watch?v=tboxNbUrR-A"
-  }],
+  "videosSection": [
+    {
+      "title": "PolkaMarket DeFi",
+      "description": "",
+      "video": "https://www.youtube.com/watch?v=tboxNbUrR-A"
+    }
+  ],
   "chartsSection": [
     {
       "title": "Token distribution",
@@ -115,5 +117,13 @@
     "max_supply": 100000000,
     "total_supply": 100000000,
     "circulating_supply": 0
-  }
+  },
+  "trading_pairs": [
+    {
+      "base": "ETH",
+      "quote": "0xd478161c952357f05f0292b56012cd8457f1cfbf",
+      "pair_id": "0x05f04f112a286c4c551897fb19ed2300272656c8",
+      "exchange_id": "uniswap.exchange"
+    }
+  ]
 }
