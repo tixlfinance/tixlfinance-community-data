@@ -1,7 +1,6 @@
 {
   "name": "Dogecoin",
   "symbol": "DOGE",
-  "logo": "https://github.com/tixlfinance/tixlfinance-community-data/blob/master/projects/dogecoin-doge/logo.png?raw=true",
   "coingecko_id": "dogecoin",
   "website": "https://dogecoin.com/",
   "source_code": "https://github.com/dogecoin",
@@ -22,6 +21,11 @@
     {
       "name": "Facebook",
       "url": "https://www.facebook.com/OfficialDogecoin/"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/TheDogeHouse",
+      "handle": "TheDogeHouse"
     }
   ],
   "tokenomics": {
@@ -40,6 +44,18 @@
       "quote": "USDT",
       "pair_id": "binance.com_DOGE_USDT",
       "exchange_id": "binance.com"
+    },
+    {
+      "base": "DOGE",
+      "quote": "USDT",
+      "pair_id": "DOGE_USDT",
+      "exchange_id": "ftx_spot"
+    },
+    {
+      "base": "DOGE",
+      "quote": "USDT",
+      "pair_id": "DOGE_USDT",
+      "exchange_id": "huobi.com"
     }
   ]
 }
