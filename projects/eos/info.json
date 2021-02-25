@@ -2,7 +2,6 @@
   "name": "EOS",
   "symbol": "eos",
   "coingecko_id": "eos",
-  "coin_api_id": "EOS",
   "website": "https://eos.io/",
   "source_code": "https://github.com/EOSIO",
   "white_paper": "https://github.com/EOSIO/Documentation/blob/master/TechnicalWhitePaper.md",

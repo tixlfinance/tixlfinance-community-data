@@ -2,7 +2,6 @@
   "name": "HedgeTrade",
   "symbol": "HEDG",
   "coingecko_id": "hedgetrade",
-  "coin_api_id": "HEDG",
   "website": "https://hedgetrade.com",
   "source_code": "https://github.com/rublixdev",
   "white_paper": "https://hedgetrade.com/pages/hedgetrade_whitepaper.pdf",

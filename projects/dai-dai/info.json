@@ -2,7 +2,6 @@
   "name": "Dai",
   "symbol": "DAI",
   "coingecko_id": "dai",
-  "coin_api_id": "DAI",
   "website": "https://www.makerdao.com",
   "source_code": "https://github.com/makerdao",
   "category_tags": ["stablecoin"],

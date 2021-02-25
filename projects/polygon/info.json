@@ -2,7 +2,6 @@
   "name": "Polygon",
   "symbol": "matic",
   "coingecko_id": "matic-network",
-  "coin_api_id": "MATIC",
   "website": "https://matic.network",
   "source_code": "https://github.com/maticnetwork",
   "white_paper": "https://polygon.technology/lightpaper-polygon.pdf",

@@ -2,7 +2,6 @@
   "name": "Huobi Token",
   "symbol": "ht",
   "coingecko_id": "huobi-token",
-  "coin_api_id": "ht",
   "website": "https://www.huobi.com",
   "source_code": "https://github.com/huobiapi",
   "socials": [

@@ -105,7 +105,6 @@ export default interface ProjectSchema {
   additionalSymbols?: string[];
   coingecko_id?: string;
   erc20?: Erc20Schema;
-  coin_api_id?: string;
   isStableCoin?: boolean;
   isUpcomingProject?: boolean;
   launchTokenInfos?: LaunchTokenInfoElement[];

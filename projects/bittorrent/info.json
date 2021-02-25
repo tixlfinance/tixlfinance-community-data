@@ -2,7 +2,6 @@
   "name": "BitTorrent",
   "symbol": "btt",
   "coingecko_id": "bittorrent-2",
-  "coin_api_id": "BTT",
   "website": "https://www.bittorrent.com/token/btt/",
   "category_tags": ["storage"],
   "socials": [

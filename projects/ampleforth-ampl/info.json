@@ -3,7 +3,6 @@
   "symbol": "AMPL",
   "website": "https://www.ampleforth.org/",
   "coingecko_id": "ampleforth",
-  "coin_api_id": "",
   "uniswap_id": "0xd46ba6d942050d489dbd938a2c909a5d5039a161",
   "category_tags": ["defi"],
   "source_code": "https://github.com/ampleforth",

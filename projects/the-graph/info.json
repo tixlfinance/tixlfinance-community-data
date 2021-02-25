@@ -2,7 +2,6 @@
   "name": "The Graph",
   "symbol": "grt",
   "coingecko_id": "the-graph",
-  "coin_api_id": "GRT",
   "website": "https://thegraph.com/",
   "source_code": "https://github.com/graphprotocol",
   "category_tags": ["defi", "smart contract platform"],

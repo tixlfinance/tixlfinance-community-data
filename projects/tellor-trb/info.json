@@ -3,7 +3,6 @@
   "symbol": "TRB",
   "website": "http://www.tellor.io/",
   "coingecko_id": "tellor",
-  "coin_api_id": "TELLOR",
   "uniswap_id": "0x0ba45a8b5d5575935b8158a88c631e9f9c95a2e5",
   "category_tags": ["defi", "business_services", "oracle"],
   "socials": [

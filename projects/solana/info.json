@@ -2,7 +2,6 @@
   "name": "Solana",
   "symbol": "sol",
   "coingecko_id": "solana",
-  "coin_api_id": "SOL",
   "website": "https://solana.com",
   "source_code": "https://github.com/solana-labs",
   "white_paper": "https://solana.com/solana-whitepaper.pdf",

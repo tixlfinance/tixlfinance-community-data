@@ -2,7 +2,6 @@
   "name": "Terra",
   "symbol": "luna",
   "coingecko_id": "terra-luna",
-  "coin_api_id": "LUNA",
   "website": "https://terra.money",
   "source_code": "https://github.com/terra-project",
   "white_paper": "https://terra.money/static/Terra_White_Paper.pdf",

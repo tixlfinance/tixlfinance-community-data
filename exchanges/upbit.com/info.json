@@ -3,7 +3,6 @@
   "name": "Upbit",
   "logo": "https://assets.coingecko.com/markets/images/117/small/upbit.png?1520388800",
   "coingecko_id": "upbit",
-  "coin_api_id": "UPBIT",
   "website": "https://upbit.com",
   "exchange_score": {
     "decentralization_score": 0,

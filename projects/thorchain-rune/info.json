@@ -3,7 +3,6 @@
   "symbol": "RUNE",
   "website": "https://thorchain.org/",
   "coingecko_id": "thorchain",
-  "coin_api_id": "THORCHAIN",
   "category_tags": ["dex", "infrastructure", "exchange_base_token", "defi"],
   "socials": [
     {

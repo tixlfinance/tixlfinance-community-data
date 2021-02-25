@@ -2,7 +2,6 @@
   "name": "DigiCol Token",
   "symbol": "dgcl",
   "coingecko_id": "digicol-token",
-  "coin_api_id": "DGCL",
   "website": "https://www.digicol.io/",
   "category_tags": ["nft"],
   "socials": [

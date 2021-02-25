@@ -2,7 +2,6 @@
   "name": "Cosmos",
   "symbol": "atom",
   "coingecko_id": "cosmos",
-  "coin_api_id": "atom",
   "website": "https://cosmos.network",
   "source_code": "https://github.com/cosmos",
   "white_paper": "https://cosmos.network/resources/whitepaper",

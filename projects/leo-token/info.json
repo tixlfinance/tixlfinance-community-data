@@ -2,7 +2,6 @@
   "name": "LEO Token",
   "symbol": "leo",
   "coingecko_id": "leo-token",
-  "coin_api_id": "LEO",
   "website": "https://www.bitfinex.com",
   "white_paper": "https://www.bitfinex.com/wp-2019-05.pdf",
   "socials": [

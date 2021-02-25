@@ -3,7 +3,6 @@
   "symbol": "TRX",
   "website": "https://tron.network",
   "coingecko_id": "tron",
-  "coin_api_id": "TRON",
   "category_tags": ["smart_contract_platform"],
   "socials": [
     {

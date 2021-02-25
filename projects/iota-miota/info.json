@@ -4,7 +4,6 @@
   "additionalSymbols": ["IOTA", "IOT"],
   "website": "http://iota.org/",
   "coingecko_id": "iota",
-  "coin_api_id": "",
   "category_tags": ["smart_contract_platform", "iot"],
   "socials": [
     {

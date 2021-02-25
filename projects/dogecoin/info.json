@@ -2,7 +2,6 @@
   "name": "Dogecoin",
   "symbol": "DOGE",
   "coingecko_id": "dogecoin",
-  "coin_api_id": "DOGE",
   "website": "https://dogecoin.com/",
   "source_code": "https://github.com/dogecoin",
   "white_paper": "https://github.com/dogecoin/dogecoin/blob/master/README.md",

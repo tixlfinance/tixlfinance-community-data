@@ -2,7 +2,6 @@
   "name": "KuCoin Token",
   "symbol": "kcs",
   "coingecko_id": "kucoin-shares",
-  "coin_api_id": "KCS",
   "website": "https://www.kucoin.com/#/",
   "socials": [
     {

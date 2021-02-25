@@ -2,7 +2,6 @@
   "name": "Waves",
   "symbol": "waves",
   "coingecko_id": "waves",
-  "coin_api_id": "WAVES",
   "website": "https://waves.tech",
   "source_code": "https://github.com/wavesplatform",
   "white_paper": "https://medium.com/wavesprotocol/waves-whitepaper-164dd6ca6a23",

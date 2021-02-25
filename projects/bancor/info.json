@@ -2,7 +2,6 @@
   "name": "Bancor Network Token",
   "symbol": "bnt",
   "coingecko_id": "bancor",
-  "coin_api_id": "BNT",
   "website": "https://app.bancor.network",
   "source_code": "https://github.com/bancorprotocol",
   "white_paper": "https://drive.google.com/file/d/0B3HPNP-GDn7aLXFWOFpTZEgyaEk/view",

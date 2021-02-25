@@ -3,7 +3,6 @@
   "name": "Gemini",
   "logo": "https://assets.coingecko.com/markets/images/50/small/gemini.jpg?1519701179",
   "coingecko_id": "gemini",
-  "coin_api_id": "GEMINI",
   "website": "https://gemini.com",
   "exchange_score": {
     "decentralization_score": 0,

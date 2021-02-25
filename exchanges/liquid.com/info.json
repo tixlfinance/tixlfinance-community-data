@@ -3,7 +3,6 @@
   "name": "Liquid",
   "logo": "https://assets.coingecko.com/markets/images/40/small/liquid.png?1536133472",
   "coingecko_id": "quoine",
-  "coin_api_id": "QUOINE",
   "website": "https://liquid.com",
   "exchange_score": {
     "decentralization_score": 0,

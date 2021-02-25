@@ -2,7 +2,6 @@
   "name": "Synthetix Network Token",
   "symbol": "snx",
   "coingecko_id": "havven",
-  "coin_api_id": "SNX",
   "website": "https://www.synthetix.io",
   "source_code": "https://github.com/Synthetixio",
   "white_paper": "https://docs.synthetix.io/litepaper",

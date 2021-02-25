@@ -3,7 +3,6 @@
   "symbol": "DOT",
   "website": "https://polkadot.network/",
   "coingecko_id": "polkadot",
-  "coin_api_id": "POLKADOT",
   "additionalLinks": [
     {
       "label": "Explorer",

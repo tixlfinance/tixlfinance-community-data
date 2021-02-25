@@ -2,7 +2,6 @@
   "name": "Bitcoin Diamond",
   "symbol": "bcd",
   "coingecko_id": "bitcoin-diamond",
-  "coin_api_id": "BCD",
   "website": "https://www.bitcoindiamond.org/",
   "socials": [
     {

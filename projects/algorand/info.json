@@ -2,7 +2,6 @@
   "name": "Algorand",
   "symbol": "algo",
   "coingecko_id": "algorand",
-  "coin_api_id": "ALGO",
   "website": "https://www.algorand.com",
   "source_code": "https://github.com/algorand",
   "white_paper": "https://www.algorand.com/resources/white-papers",

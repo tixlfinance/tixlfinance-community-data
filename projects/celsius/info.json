@@ -2,7 +2,6 @@
   "name": "Celsius Network",
   "symbol": "cel",
   "coingecko_id": "celsius-degree-token",
-  "coin_api_id": "CEL",
   "website": "https://celsius.network",
   "source_code": "https://github.com/CelsiusNetwork",
   "white_paper": "https://celsius.network/wp-content/uploads/2018/03/celsius_whitepaper-march14-2.pdf",

@@ -3,7 +3,6 @@
   "name": "Coinbase Pro",
   "logo": "https://assets.coingecko.com/markets/images/23/small/fe290a14-ac8f-4c90-9aed-5e72abf271f0.jpeg?1527171545",
   "coingecko_id": "gdax",
-  "coin_api_id": "COINBASE",
   "website": "https://coinbase.com",
   "exchange_score": {
     "decentralization_score": 0,

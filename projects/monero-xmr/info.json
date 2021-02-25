@@ -2,7 +2,6 @@
   "name": "Monero",
   "symbol": "XMR",
   "coingecko_id": "monero",
-  "coin_api_id": "XMR",
   "website": "https://www.getmonero.org/",
   "source_code": "https://github.com/monero-project/monero",
   "white_paper": "https://github.com/monero-project/research-lab/blob/master/whitepaper/whitepaper.pdf",

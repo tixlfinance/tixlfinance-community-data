@@ -2,7 +2,6 @@
   "name": "REN",
   "symbol": "ren",
   "coingecko_id": "republic-protocol",
-  "coin_api_id": "REN",
   "website": "https://renproject.io",
   "source_code": "https://github.com/renproject",
   "white_paper": "https://republicprotocol.github.io/whitepaper/republic-whitepaper.pdf",

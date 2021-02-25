@@ -2,7 +2,6 @@
   "name": "Crypto.com Coin",
   "symbol": "cro",
   "coingecko_id": "crypto-com-chain",
-  "coin_api_id": "cro",
   "website": "https://chain.crypto.com",
   "source_code": "https://github.com/crypto-com",
   "white_paper": "https://crypto.com/images/crypto_com_whitepaper.pdf",

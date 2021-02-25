@@ -2,7 +2,6 @@
   "name": "Zcash",
   "symbol": "ZEC",
   "coingecko_id": "zcash",
-  "coin_api_id": "ZEC",
   "website": "https://z.cash/",
   "source_code": "https://github.com/zcash/zcash",
   "white_paper": "https://github.com/zcash/zips/blob/master/protocol/protocol.pdf",

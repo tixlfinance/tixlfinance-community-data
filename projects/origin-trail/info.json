@@ -2,7 +2,6 @@
   "name": "OriginTrail",
   "symbol": "trac",
   "coingecko_id": "origintrail",
-  "coin_api_id": "TRAC",
   "website": "https://oasisprotocol.org",
   "source_code": "https://github.com/oasisprotocol",
   "white_paper": "https://oasisprotocol.org/papers",

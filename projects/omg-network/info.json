@@ -2,7 +2,6 @@
   "name": "OMG Network",
   "symbol": "omg",
   "coingecko_id": "omisego",
-  "coin_api_id": "OMG",
   "website": "https://omg.network/",
   "source_code": "https://github.com/omgnetwork",
   "category_tags": ["smart contract platform"],

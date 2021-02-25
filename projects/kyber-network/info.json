@@ -2,7 +2,6 @@
   "name": "Kyber Network",
   "symbol": "knc",
   "coingecko_id": "kyber-network",
-  "coin_api_id": "KNC",
   "uniswap_id": "0xdd974d5c2e2928dea5f71b9825b8b646686bd200",
   "website": "https://kyber.network",
   "source_code": "https://github.com/kybernetwork",

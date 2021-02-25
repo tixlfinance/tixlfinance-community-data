@@ -2,7 +2,6 @@
   "name": "Maker",
   "symbol": "mkr",
   "coingecko_id": "maker",
-  "coin_api_id": "mkr",
   "website": "https://makerdao.com",
   "source_code": "https://github.com/makerdao",
   "white_paper": "https://makerdao.com/whitepaper/White%20Paper%20-The%20Maker%20Protocol_%20MakerDAO%E2%80%99s%20Multi-Collateral%20Dai%20(MCD)%20System-FINAL-%20021720.pdf",
