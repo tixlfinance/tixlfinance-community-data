@@ -7,6 +7,7 @@
   "white_paper": "https://docs.google.com/presentation/d/1HO0VAHnMXscW4Wa_GI3MqExVj65RTDSPCNKhMhX8E_U/edit?usp=sharing",
   "isStableCoin": false,
   "isUpcomingProject": true,
+  "isHidden": true,
   "launchTokenInfos": [
     { "label": "Initial Marketcap", "value": 610000, "type": "price" },
     { "label": "Total Raise", "value": 715000, "type": "price" },
