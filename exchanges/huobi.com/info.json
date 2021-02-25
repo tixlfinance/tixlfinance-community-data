@@ -3,7 +3,6 @@
   "name": "Huobi Global",
   "logo": "https://assets.coingecko.com/markets/images/25/small/1481589873352_.pic_hd.jpg?1589962155",
   "coingecko_id": "huobi",
-  "coin_api_id": "HUOBI",
   "website": "https://huobi.com",
   "exchange_score": {
     "decentralization_score": 0,

@@ -2,7 +2,6 @@
   "name": "Storj",
   "symbol": "storj",
   "coingecko_id": "storj",
-  "coin_api_id": "STORJ",
   "website": "https://storj.io/",
   "source_code": "https://github.com/storj",
   "white_paper": "https://storj.io/storj.pdf",

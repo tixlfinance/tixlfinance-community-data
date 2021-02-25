@@ -2,7 +2,6 @@
   "name": "Balancer",
   "symbol": "bal",
   "coingecko_id": "balancer",
-  "coin_api_id": "bal",
   "website": "https://balancer.finance",
   "source_code": "https://github.com/balancer-labs",
   "white_paper": "https://balancer.finance/whitepaper",

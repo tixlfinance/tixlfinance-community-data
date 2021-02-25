@@ -2,7 +2,6 @@
   "name": "Kava.io",
   "symbol": "kava",
   "coingecko_id": "kava",
-  "coin_api_id": "KAVA",
   "website": "https://www.kava.io",
   "source_code": "https://github.com/Kava-Labs",
   "category_tags": ["defi"],

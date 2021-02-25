@@ -2,7 +2,6 @@
   "name": "Tixl",
   "symbol": "TXL",
   "coingecko_id": "tixl-new",
-  "coin_api_id": "TXL",
   "uniswap_id": "0x8eef5a82e6aa222a60f009ac18c24ee12dbf4b41",
   "website": "https://tixl.org",
   "source_code": "https://github.com/tixlcurrency",

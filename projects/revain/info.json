@@ -2,7 +2,6 @@
   "name": "Revain",
   "symbol": "rev",
   "coingecko_id": "revain",
-  "coin_api_id": "REV",
   "website": "https://revain.org",
   "source_code": "https://github.com/Revain",
   "white_paper": "https://revain.org/assets/en-wp.pdf",

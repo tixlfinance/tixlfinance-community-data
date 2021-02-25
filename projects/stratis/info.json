@@ -2,7 +2,6 @@
   "name": "Stratis",
   "symbol": "strax",
   "coingecko_id": "stratis",
-  "coin_api_id": "STRAX",
   "uniswap_id": "0x8f19b1f780b98c2699f825ae4f1fbe4d27cb641f",
   "website": "https://www.stratisplatform.com",
   "source_code": "https://github.com/stratisproject",

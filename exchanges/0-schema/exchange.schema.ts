@@ -9,7 +9,6 @@ export default interface ExchangeSchema {
   exchange_id: string;
   name: string;
   coingecko_id?: string;
-  coin_api_id?: string;
   /**
    * @format url
    */

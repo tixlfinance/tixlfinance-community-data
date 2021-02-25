@@ -2,7 +2,6 @@
   "name": "Stellar",
   "symbol": "XLM",
   "coingecko_id": "stellar",
-  "coin_api_id": "XLM",
   "website": "https://stellar.org",
   "source_code": "https://github.com/stellar",
   "white_paper": "https://www.stellar.org/papers/stellar-consensus-protocol",

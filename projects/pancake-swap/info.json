@@ -2,7 +2,6 @@
   "name": "PancakeSwap",
   "symbol": "cake",
   "coingecko_id": "pancakeswap-token",
-  "coin_api_id": "CAKE",
   "website": "https://pancakeswap.finance",
   "source_code": "https://github.com/pancakeswap",
   "category_tags": ["defi"],

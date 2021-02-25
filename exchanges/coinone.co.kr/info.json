@@ -3,7 +3,6 @@
   "name": "Coinone",
   "logo": "https://assets.coingecko.com/markets/images/20/small/coinone.jpg?1519639596",
   "coingecko_id": "coinone",
-  "coin_api_id": "COINONE",
   "website": "https://coinone.co.kr",
   "exchange_score": {
     "decentralization_score": 0,

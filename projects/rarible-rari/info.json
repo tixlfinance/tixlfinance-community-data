@@ -2,7 +2,6 @@
   "name": "Rarible",
   "symbol": "RARI",
   "coingecko_id": "rarible",
-  "coin_api_id": "RARI",
   "website": "https://rarible.com/",
   "source_code": "https://github.com/rarible",
   "category_tags": ["nft"],

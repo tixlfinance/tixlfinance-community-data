@@ -2,7 +2,6 @@
   "name": "Flow-Dapper Labs",
   "symbol": "flow",
   "coingecko_id": "flow",
-  "coin_api_id": "Flow",
   "website": "https://www.onflow.org",
   "source_code": "https://github.com/onflow",
   "white_paper": "https://assets.website-files.com/5f6294c0c7a8cdd643b1c820/5f6c23fa870a5d0beb0752c6_Flow%20Primer%20(1).pdf",

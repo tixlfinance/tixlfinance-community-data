@@ -40,9 +40,6 @@ export const ExchangeSchemaSchema = {
     },
   },
   properties: {
-    coin_api_id: {
-      type: "string",
-    },
     coingecko_id: {
       type: "string",
     },

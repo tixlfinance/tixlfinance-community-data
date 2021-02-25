@@ -3,7 +3,6 @@
   "symbol": "DOGE",
   "logo": "https://github.com/tixlfinance/tixlfinance-community-data/blob/master/projects/dogecoin-doge/logo.png?raw=true",
   "coingecko_id": "dogecoin",
-  "coin_api_id": "DOGE",
   "website": "https://dogecoin.com/",
   "source_code": "https://github.com/dogecoin",
   "white_paper": "https://github.com/dogecoin/dogecoin/blob/master/README.md",

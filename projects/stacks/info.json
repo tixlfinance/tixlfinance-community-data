@@ -2,7 +2,6 @@
   "name": "Stacks",
   "symbol": "stx",
   "coingecko_id": "blockstack",
-  "coin_api_id": "STX",
   "website": "https://www.stacks.co",
   "source_code": "https://github.com/blockstack",
   "white_paper": "https://gaia.blockstack.org/hub/1AxyPunHHAHiEffXWESKfbvmBpGQv138Fp/stacks.pdf",

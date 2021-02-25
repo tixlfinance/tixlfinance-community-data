@@ -2,7 +2,6 @@
   "name": "Loopring",
   "symbol": "lrc",
   "coingecko_id": "loopring",
-  "coin_api_id": "LRC",
   "website": "https://loopring.org",
   "source_code": "https://github.com/Loopring",
   "white_paper": "https://github.com/Loopring/whitepaper",

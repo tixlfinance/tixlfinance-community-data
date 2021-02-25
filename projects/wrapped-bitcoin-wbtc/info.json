@@ -2,7 +2,6 @@
   "name": "Wrapped Bitcoin",
   "symbol": "WBTC",
   "coingecko_id": "wrapped-bitcoin",
-  "coin_api_id": "WBTC",
   "website": "https://wbtc.network/",
   "source_code": "https://github.com/WrappedBTC",
   "category_tags": ["stablecoin"],

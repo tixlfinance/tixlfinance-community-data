@@ -3,7 +3,6 @@
   "symbol": "YFI",
   "website": "https://yearn.finance",
   "coingecko_id": "yearn-finance",
-  "coin_api_id": "YEARN-FINANCE",
   "uniswap_id": "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e",
   "category_tags": [
     "yield_aggregator",

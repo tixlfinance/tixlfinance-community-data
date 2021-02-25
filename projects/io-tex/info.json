@@ -2,7 +2,6 @@
   "name": "IoTeX",
   "symbol": "iotx",
   "coingecko_id": "iotex",
-  "coin_api_id": "iotx",
   "uniswap_id": "0x6fb3e0a217407efff7ca062d46c26e5d60a14d69",
   "website": "https://iotex.io",
   "source_code": "https://github.com/iotexproject",

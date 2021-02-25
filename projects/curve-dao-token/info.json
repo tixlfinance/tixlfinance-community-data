@@ -2,7 +2,6 @@
   "name": "Curve DAO Token",
   "symbol": "crv",
   "coingecko_id": "curve-dao-token",
-  "coin_api_id": "CRV",
   "website": "https://www.curve.fi",
   "source_code": "https://github.com/curvefi",
   "white_paper": "https://www.curve.fi/stableswap-paper.pdf",

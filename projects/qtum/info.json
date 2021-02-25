@@ -2,7 +2,6 @@
   "name": "Qtum",
   "symbol": "qtum",
   "coingecko_id": "qtum",
-  "coin_api_id": "QTUM",
   "website": "https://qtum.org/en",
   "source_code": "https://github.com/qtumproject",
   "white_paper": "https://qtum.org/user/pages/01.home/Qtum%20New%20Whitepaper_en.pdf",

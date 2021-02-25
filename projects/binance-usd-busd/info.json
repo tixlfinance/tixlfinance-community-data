@@ -2,7 +2,6 @@
   "name": "Binance USD",
   "symbol": "BUSD",
   "coingecko_id": "binance-usd",
-  "coin_api_id": "BUSD",
   "website": "https://www.binance.com/en/busd",
   "isStableCoin": true,
   "category_tags": ["stablecoin"],

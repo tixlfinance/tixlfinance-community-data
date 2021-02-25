@@ -2,7 +2,6 @@
   "name": "Near",
   "symbol": "near",
   "coingecko_id": "near",
-  "coin_api_id": "NEAR",
   "website": "https://near.org",
   "source_code": "https://github.com/nearprotocol",
   "white_paper": "https://near.org/papers/the-official-near-white-paper/#abstract",

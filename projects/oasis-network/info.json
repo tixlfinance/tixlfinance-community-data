@@ -2,7 +2,6 @@
   "name": "Oasis Network",
   "symbol": "rose",
   "coingecko_id": "oasis-network",
-  "coin_api_id": "ROSE",
   "website": "https://oasisprotocol.org",
   "source_code": "https://github.com/oasisprotocol",
   "white_paper": "https://oasisprotocol.org/papers",

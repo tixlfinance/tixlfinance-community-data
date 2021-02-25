@@ -3,7 +3,6 @@
     "symbol": "LTC",
     "website": "https://litecoin.com/",
     "coingecko_id": "litecoin",
-    "coin_api_id": "LTC",
     "source_code": "https://github.com/litecoin-project",
     "socials": [
         {

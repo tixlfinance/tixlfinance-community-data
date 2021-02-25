@@ -2,7 +2,6 @@
   "name": "Filecoin",
   "symbol": "fil",
   "coingecko_id": "filecoin",
-  "coin_api_id": "FIL",
   "website": "https://filecoin.io/",
   "source_code": "https://github.com/filecoin-project",
   "category_tags": ["storage"],

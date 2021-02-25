@@ -3,7 +3,6 @@
   "name": "OKEx",
   "logo": "https://assets.coingecko.com/markets/images/96/small/okEX.jpg?1519349636",
   "coingecko_id": "okex",
-  "coin_api_id": "OKEX",
   "website": "https://okex.com",
   "exchange_score": {
     "decentralization_score": 0,

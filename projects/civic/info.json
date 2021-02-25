@@ -2,7 +2,6 @@
   "name": "Civic",
   "symbol": "cvc",
   "coingecko_id": "civic",
-  "coin_api_id": "CVC",
   "uniswap_id": "0x41e5560054824ea6b0732e656e3ad64e20e94e45",
   "website": "https://www.civic.com",
   "source_code": "https://github.com/civicteam",

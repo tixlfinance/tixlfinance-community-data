@@ -2,7 +2,6 @@
   "name": "Gnosis",
   "symbol": "gno",
   "coingecko_id": "gnosis",
-  "coin_api_id": "gno",
   "website": "https://gnosis.io",
   "source_code": "https://github.com/gnosis",
   "white_paper": "https://github.com/gnosis/research/blob/master/gnosis-whitepaper.pdf",

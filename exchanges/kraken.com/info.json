@@ -3,7 +3,6 @@
   "name": "Kraken",
   "logo": "https://assets.coingecko.com/markets/images/29/small/kraken.jpg?1584251255",
   "coingecko_id": "kraken",
-  "coin_api_id": "KRAKEN",
   "website": "https://kraken.com",
   "exchange_score": {
     "decentralization_score": 0,

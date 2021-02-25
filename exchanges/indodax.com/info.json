@@ -3,7 +3,6 @@
   "name": "Indodax",
   "logo": "https://assets.coingecko.com/markets/images/3/small/logogram-Indodax-new-_JPG_format.jpg?1580974378",
   "coingecko_id": "indodax",
-  "coin_api_id": "BITCOINID",
   "website": "https://indodax.com",
   "exchange_score": {
     "decentralization_score": 0,

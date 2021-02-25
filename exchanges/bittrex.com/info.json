@@ -3,7 +3,6 @@
   "name": "Bittrex",
   "logo": "https://assets.coingecko.com/markets/images/10/small/BG-color-250x250_icon.png?1596167574",
   "coingecko_id": "bittrex",
-  "coin_api_id": "BITTREX",
   "website": "https://bittrex.com",
   "exchange_score": {
     "decentralization_score": 0,

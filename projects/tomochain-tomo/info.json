@@ -2,7 +2,6 @@
   "name": "Tomochain",
   "symbol": "TOMO",
   "coingecko_id": "tomochain",
-  "coin_api_id": "TOMO",
   "website": "https://tomochain.com",
   "source_code": "https://github.com/tomochain",
   "white_paper": "https://tomochain.com/docs/technical-whitepaper--1.0.pdf",

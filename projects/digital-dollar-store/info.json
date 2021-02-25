@@ -2,7 +2,6 @@
   "name": "DDS.Store",
   "symbol": "dds",
   "coingecko_id": "dds-store",
-  "coin_api_id": "DDS",
   "uniswap_id": "0xf9fbaefde7112f78fa9bfe813341f0f49f888cb3",
   "website": "https://dds.store",
   "source_code": "https://github.com/dds-store",

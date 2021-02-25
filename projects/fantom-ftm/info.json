@@ -3,7 +3,6 @@
   "symbol": "FTM",
   "website": "https://fantom.foundation/",
   "coingecko_id": "fantom",
-  "coin_api_id": "FTM",
   "source_code": "https://github.com/Fantom-Foundation",
   "white_paper": "https://whitepaper.io/document/438/fantom-whitepaper",
   "category_tags": ["l1s"],

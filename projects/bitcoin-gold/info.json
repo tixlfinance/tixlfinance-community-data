@@ -2,7 +2,6 @@
   "name": "Bitcoin Gold",
   "symbol": "btg",
   "coingecko_id": "bitcoin-gold",
-  "coin_api_id": "BTG",
   "website": "https://bitcoingold.org",
   "source_code": "https://github.com/BTCGPU",
   "white_paper": "https://bitcoingold.org/wp-content/uploads/2017/10/BitcoinGold-Roadmap.pdf",

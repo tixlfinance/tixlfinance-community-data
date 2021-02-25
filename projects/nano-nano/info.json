@@ -2,7 +2,6 @@
   "name": "Nano",
   "symbol": "NANO",
   "coingecko_id": "nano",
-  "coin_api_id": "NANO",
   "website": "https://nano.org/",
   "source_code": "https://github.com/nanocurrency",
   "white_paper": "https://docs.nano.org/whitepaper/english/",

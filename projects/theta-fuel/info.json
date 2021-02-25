@@ -2,7 +2,6 @@
   "name": "Theta Fuel",
   "symbol": "tfuel",
   "coingecko_id": "theta-fuel",
-  "coin_api_id": "TFUEL",
   "website": "https://www.thetatoken.org",
   "source_code": "https://github.com/thetatoken",
   "white_paper": "https://s3.us-east-2.amazonaws.com/assets.thetatoken.org/Theta-white-paper-latest.pdf?v=1553657855.509",

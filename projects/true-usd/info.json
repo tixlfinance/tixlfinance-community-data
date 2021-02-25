@@ -2,7 +2,6 @@
   "name": "TrueUSD",
   "symbol": "tusd",
   "coingecko_id": "true-usd",
-  "coin_api_id": "TUSD",
   "uniswap_id": "0x0000000000085d4780b73119b644ae5ecd22b376",
   "website": "https://www.trusttoken.com",
   "source_code": "https://github.com/trusttoken",

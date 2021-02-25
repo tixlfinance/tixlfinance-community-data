@@ -2,7 +2,6 @@
   "name": "HUSD",
   "symbol": "husd",
   "coingecko_id": "husd",
-  "coin_api_id": "HUSD",
   "uniswap_id": "0xdf574c24545e5ffecb9a659c229253d4111d87e1",
   "website": "https://www.stcoins.com",
   "category_tags": ["stablecoin"],

@@ -2,7 +2,6 @@
   "name": "Ripple",
   "symbol": "XRP",
   "coingecko_id": "ripple",
-  "coin_api_id": "XRP",
   "website": "https://ripple.com/",
   "source_code": "https://github.com/ripple",
   "white_paper": "https://ripple.com/files/ripple_consensus_whitepaper.pdf",

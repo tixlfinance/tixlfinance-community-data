@@ -2,7 +2,6 @@
   "name": "Crowns",
   "symbol": "cws",
   "coingecko_id": "crowns",
-  "coin_api_id": "CWS",
   "uniswap_id": "0xac0104cca91d167873b8601d2e71eb3d4d8c33e0",
   "website": "https://www.seascape.network/",
   "source_code": "https://github.com/blocklords/crowns",

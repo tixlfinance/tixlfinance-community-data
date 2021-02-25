@@ -3,7 +3,6 @@
   "symbol": "UNI",
   "website": "https://uniswap.org",
   "coingecko_id": "uniswap",
-  "coin_api_id": "UNI",
   "category_tags": [
     "dex",
     "defi",

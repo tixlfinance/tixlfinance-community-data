@@ -3,7 +3,6 @@
   "name": "bitFlyer",
   "logo": "https://assets.coingecko.com/markets/images/5/small/bitflyer.jpg?1519611556",
   "coingecko_id": "bitflyer",
-  "coin_api_id": "BITFLYERLTNG",
   "website": "https://bitflyer.com",
   "exchange_score": {
     "decentralization_score": 0,

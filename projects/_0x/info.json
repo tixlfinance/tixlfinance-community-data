@@ -2,7 +2,6 @@
   "name": "0x",
   "symbol": "0x",
   "coingecko_id": "0x",
-  "coin_api_id": "ZRX",
   "additionalSymbols": ["ZRX"],
   "website": "https://0x.org",
   "source_code": "https://github.com/0xProject",
