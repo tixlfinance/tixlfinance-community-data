@@ -4,6 +4,7 @@
   "coingecko_id": "fuse-network-token",
   "website": "https://fuse.io",
   "source_code": "https://github.com/fuseio",
+  "uniswap_id": "0x970B9bB2C0444F5E81e9d0eFb84C8ccdcdcAf84d",
   "additionalLinks": [
     {
       "label": "Explorer",
@@ -36,7 +37,7 @@
     },
     {
       "name": "Medium",
-      "url": "https://medium.com/fusenet"
+      "url": "https://medium.com/fusenet",
       "handle": "fusenet"
     },
     {
@@ -54,12 +55,6 @@
       "base": "0x970B9bB2C0444F5E81e9d0eFb84C8ccdcdcAf84d",
       "quote": "ETH",
       "pair_id": "0x4ce3687fed17e19324f23e305593ab13bbd55c4d",
-      "exchange_id": "uniswap.exchange"
-    },
-    {
-      "base": "0x970B9bB2C0444F5E81e9d0eFb84C8ccdcdcAf84d",
-      "quote": "USDC",
-      "pair_id": "0x611805ce4071c096f5b44557b45685802d8a46fe",
       "exchange_id": "uniswap.exchange"
     },
     {
