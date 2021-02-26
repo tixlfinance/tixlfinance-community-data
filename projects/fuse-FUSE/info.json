@@ -26,17 +26,18 @@
     {
       "name": "Twitter",
       "url": "https://twitter.com/Fuse_network/",
-      "handle": "Fuse_network/",
+      "handle": "Fuse_network",
       "search_strings": ["$FUSE", "#Fusenetwork"]
     },
     {
       "name": "Telegram",
       "url": "https://t.me/fuseio",
-      "handle": "Fuse"
+      "handle": "fuseio"
     },
     {
       "name": "Medium",
       "url": "https://medium.com/fusenet"
+      "handle": "fusenet"
     },
     {
       "name": "Youtube",
