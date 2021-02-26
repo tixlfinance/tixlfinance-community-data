@@ -1,0 +1,84 @@
+{
+  "name": "Fuse",
+  "symbol": "FUSE",
+  "coingecko_id": "fuse-network-token",
+  "website": "https://fuse.io",
+  "source_code": "https://github.com/fuseio",
+  "additionalLinks": [
+    {
+      "label": "Explorer",
+      "url": "https://explorer.fuse.io/"
+    },
+    {
+      "label": "Fuse Studio",
+      "url": "https://studio.fuse.io/"
+    },
+    {
+      "label": "Staking",
+      "url": "https://staking.fuse.io/"
+    },
+    {
+      "label": "LP Rewards",
+      "url": "https://rewards.fuse.io/"
+    }
+  ],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Fuse_network/",
+      "handle": "Fuse_network",
+      "search_strings": ["$FUSE", "#Fusenetwork"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/fuseio",
+      "handle": "fuseio"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/fusenet"
+      "handle": "fusenet"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/channel/UC7NaJ0UhmyHi5MvZSk61akA",
+      "handle": "UC7NaJ0UhmyHi5MvZSk61akA"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 315346341,
+    "circulating_supply": 57148406
+  },
+  "trading_pairs": [
+    {
+      "base": "0x970B9bB2C0444F5E81e9d0eFb84C8ccdcdcAf84d",
+      "quote": "ETH",
+      "pair_id": "0x4ce3687fed17e19324f23e305593ab13bbd55c4d",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "0x970B9bB2C0444F5E81e9d0eFb84C8ccdcdcAf84d",
+      "quote": "USDC",
+      "pair_id": "0x611805ce4071c096f5b44557b45685802d8a46fe",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "0x970B9bB2C0444F5E81e9d0eFb84C8ccdcdcAf84d",
+      "quote": "USDC",
+      "pair_id": "0x611805ce4071c096f5b44557b45685802d8a46fe",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "FUSE",
+      "quote": "ETH",
+      "pair_id": "FUSE_ETH",
+      "exchange_id": "kyber_network"
+    },
+    {
+      "base": "FUSE",
+      "quote": "ETH",
+      "pair_id": "FUSE_ETH",
+      "exchange_id": "bilaxy.com"
+    }
+  ]
+}
