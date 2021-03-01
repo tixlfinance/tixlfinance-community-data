@@ -49,6 +49,36 @@
       "quote": "ETH",
       "pair_id": "0xffa98a091331df4600f87c9164cd27e8a5cd2405",
       "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "POLS",
+      "quote": "USDT",
+      "pair_id": "POLS_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "POLS",
+      "quote": "ETH",
+      "pair_id": "POLS_ETH",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "POLS",
+      "quote": "USDT",
+      "pair_id": "POLS_USDT",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "POLS",
+      "quote": "ETH",
+      "pair_id": "POLS_ETH",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "POLS",
+      "quote": "BTC",
+      "pair_id": "POLS_BTC",
+      "exchange_id": "huobi.com"
     }
   ],
   "__triggerUpdate": 12
