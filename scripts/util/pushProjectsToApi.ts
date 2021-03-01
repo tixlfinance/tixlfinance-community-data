@@ -36,11 +36,14 @@ export const pushProjects = async (isPreview?: boolean) => {
             const logoPath = "/projects/" + dirChange[1] + "/logo.png";
             const descriptionPath =
               directoryPath + "/" + dirChange[1] + "/description.md";
+            const upcomingPath =
+              directoryPath + "/" + dirChange[1] + "/upcoming.json";
             return new Promise((resolve, _) => {
               const data = fs.readFileSync(filePath).toString();
               let roadmap: string = "";
               let token: string = "";
               let descriptionData: string = "";
+              let upcomingData: any;
               if (fs.existsSync(fileRoadmapPath)) {
                 roadmap = fs.readFileSync(fileRoadmapPath).toString();
               }
@@ -50,6 +53,9 @@ export const pushProjects = async (isPreview?: boolean) => {
               if (fs.existsSync(descriptionPath)) {
                 descriptionData = fs.readFileSync(descriptionPath).toString();
               }
+              if (fs.existsSync(upcomingPath)) {
+                upcomingData = fs.readFileSync(upcomingPath).toString();
+              }
               if (data) {
                 const tokenData = JSON.parse(data);
                 if (roadmap) {
@@ -58,10 +64,19 @@ export const pushProjects = async (isPreview?: boolean) => {
                 if (token) {
                   tokenData.token = JSON.parse(token.toString()).token;
                 }
-                const parsed = {
-                  ...tokenData,
-                  isPreview: isPreview ?? false,
-                };
+                let parsed: any;
+                if (upcomingData) {
+                  parsed = {
+                    ...tokenData,
+                    ...JSON.parse(upcomingData),
+                    isPreview: isPreview ?? false,
+                  };
+                } else {
+                  parsed = {
+                    ...tokenData,
+                    isPreview: isPreview ?? false,
+                  };
+                }
                 resolve({
                   ...parsed,
                   logo: parsed.logo || logoPath,
