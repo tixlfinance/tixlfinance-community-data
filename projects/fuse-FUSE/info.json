@@ -5,6 +5,19 @@
   "website": "https://fuse.io",
   "source_code": "https://github.com/fuseio",
   "uniswap_id": "0x970B9bB2C0444F5E81e9d0eFb84C8ccdcdcAf84d",
+  "erc20": {
+    "tokenAddress": "0x970b9bb2c0444f5e81e9d0efb84c8ccdcdcaf84d",
+    "nonCirculatingWallets": [
+      "0x805D65Db7F4B532B9dE0c308f8ee41dA25eAc065",
+      "0x3014ca10b91cb3D0AD85fEf7A3Cb95BCAc9c0f79",
+      "0xd60ac9e98d5025455E3F68F17AB4a1F962Be5fe7",
+      "0xd9176e84898a0054680aEc3f7C056b200c3d96C3",
+      "0x841471619EB0126f48A087bFfBff86b9Df3E1E38",
+      "0xD418c5d0c4a3D87a6c555B7aA41f13EF87485Ec6",
+      "0xd617774b9708F79187Dc7F03D3Bdce0a623F6988",
+      "0x907c0c8642Aa827136A315491dA248071D43B83c"
+    ]
+  },
   "additionalLinks": [
     {
       "label": "Explorer",
