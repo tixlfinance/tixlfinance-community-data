@@ -43,7 +43,7 @@ export const pushProjects = async (isPreview?: boolean) => {
               let roadmap: string = "";
               let token: string = "";
               let descriptionData: string = "";
-              let upcomingData: any;
+              let upcomingData: string = "";
               if (fs.existsSync(fileRoadmapPath)) {
                 roadmap = fs.readFileSync(fileRoadmapPath).toString();
               }
@@ -65,7 +65,7 @@ export const pushProjects = async (isPreview?: boolean) => {
                   tokenData.token = JSON.parse(token.toString()).token;
                 }
                 let parsed: any;
-                if (upcomingData) {
+                if (upcomingData.length > 0) {
                   parsed = {
                     ...tokenData,
                     ...JSON.parse(upcomingData),
