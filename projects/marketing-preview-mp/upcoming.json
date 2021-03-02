@@ -1,0 +1,67 @@
+{
+  "isUpcomingProject": true,
+  "launchTokenInfos": [
+    { "label": "Initial Marketcap", "value": 610000, "type": "price" },
+    { "label": "Total Raise", "value": 715000, "type": "price" },
+    { "label": "Initial Uniswap Liquidity", "value": 200000, "type": "amount" },
+    { "label": "Uniswap Listing Price", "value": 0.05, "type": "price" }
+  ],
+  "socialShareInfos": [
+    "The initial price will be $0.05",
+    "Date for Uniswap launch will be announced soon"
+  ],
+  "socialShareOgMessage": "Uniswap launch coming soon",
+  "videosSection": [
+    {
+      "title": "PolkaMarket DeFi",
+      "description": "",
+      "video": "https://www.youtube.com/watch?v=tboxNbUrR-A"
+    }
+  ],
+  "chartsSection": [
+    {
+      "title": "Token distribution",
+      "type": "pieChart",
+      "description": "This diagram shows the token distribution of $Polk by utilisation.",
+      "charts": [
+        {
+          "dropdownLabel": "Overview",
+          "popoverUnit": "Token",
+          "valueUnit": "%",
+          "labelsAndValues": [
+            {
+              "label": "Strategic sale",
+              "value": 25.0,
+              "popoverValue": 25000000
+            },
+            {
+              "label": "Public Sale",
+              "value": 3.0,
+              "popoverValue": 3000000
+            },
+            {
+              "label": "Liquidity Fund",
+              "value": 22.0,
+              "popoverValue": 22000000
+            },
+            {
+              "label": "Foundational Reserve",
+              "value": 20.0,
+              "popoverValue": 20000000
+            },
+            {
+              "label": "Team & Advisors",
+              "value": 10.0,
+              "popoverValue": 10000000
+            },
+            {
+              "label": "Marketing",
+              "value": 20.0,
+              "popoverValue": 20000000
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
