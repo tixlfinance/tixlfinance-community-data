@@ -60,9 +60,10 @@
     }
   ],
   "tokenomics": {
-    "total_supply": 315346341,
+    "total_supply": 316034525.254619382292251862,
     "circulating_supply": 57148406
   },
+  "tokenomics_url": "https://bot.fuse.io/api/v1/stats/circulating_simple",
   "trading_pairs": [
     {
       "base": "0x970B9bB2C0444F5E81e9d0eFb84C8ccdcdcAf84d",
