@@ -5,6 +5,7 @@
   "uniswap_id": "0xdf574c24545e5ffecb9a659c229253d4111d87e1",
   "website": "https://www.stcoins.com",
   "category_tags": ["stablecoin"],
+  "isStableCoin": true,
   "socials": [
     {
       "name": "Twitter",
@@ -19,7 +20,8 @@
   ],
   "tokenomics": {
     "total_supply": 493621223.055502,
-    "circulating_supply": 493621223.055502
+    "circulating_supply": 493621223.055502,
+    "isInflationary": true
   },
   "trading_pairs": [
     {
