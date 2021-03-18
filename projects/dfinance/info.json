@@ -1,0 +1,33 @@
+{
+  "name": "Dfinance",
+  "symbol": "xfi",
+  "coingecko_id": "dfinance",
+  "coin_api_id": "XFI",
+  "uniswap_id": "0xe4e822c0d5b329e8bb637972467d2e313824efa0",
+  "website": "https://dfinance.co",
+  "source_code": "https://github.com/dfinance",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/dfinance_co",
+      "handle": "dfinance_co",
+      "search_strings": ["$XFI"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/dfinance_co",
+      "handle": "dfinance_co"
+    }
+  ],
+  "tokenomics": {
+    "circulating_supply": 0
+  },
+  "trading_pairs": [
+    {
+      "base": "0xe4e822c0d5b329e8bb637972467d2e313824efa0",
+      "quote": "ETH",
+      "pair_id": "0x5befbb272290dd5b8521d4a938f6c4757742c430",
+      "exchange_id": "uniswap.exchange"
+    }
+  ]
+}

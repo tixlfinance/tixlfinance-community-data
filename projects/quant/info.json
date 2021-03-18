@@ -1,0 +1,60 @@
+{
+  "name": "Quant",
+  "symbol": "qnt",
+  "coingecko_id": "quant",
+  "coin_api_id": "QNT",
+  "uniswap_id": "0x4a220e6096b25eadb88358cb44068a3248254675",
+  "website": "https://quant.network/",
+  "source_code": "https://github.com/quantnetwork/Overledger-Interfaces",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/quant_network",
+      "handle": "quant_network",
+      "search_strings": ["$QNT"]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/quantnetwork",
+      "handle": "quant_network"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/quantnetworkannouncements",
+      "handle": "quantnetworkannouncements"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/QuantNetwork/"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=qnqyaWEfa74&t=14s",
+      "handle": "QuantNetwork"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 14612493,
+    "circulating_supply": 12563322.969289193
+  },
+  "trading_pairs": [
+    {
+      "base": "0x4a220e6096b25eadb88358cb44068a3248254675",
+      "quote": "ETH",
+      "pair_id": "0x0c4a68cf6857cc76fe946d04fe85fac5fae9625e",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "QNT",
+      "quote": "USDT",
+      "pair_id": "QNT_USDT",
+      "exchange_id": "gate.io"
+    },
+    {
+      "base": "QNT",
+      "quote": "USDT",
+      "pair_id": "QNT_USDT",
+      "exchange_id": "kucoin.com"
+    }
+  ]
+}

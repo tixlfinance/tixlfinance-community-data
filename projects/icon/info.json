@@ -1,0 +1,71 @@
+{
+  "name": "ICON",
+  "symbol": "icx",
+  "coingecko_id": "icon",
+  "coin_api_id": "ICX",
+  "website": "https://iconrepublic.org/",
+  "source_code": "https://github.com/icon-project/loopchain",
+  "white_paper": "http://docs.icon.foundation/ICON-Whitepaper-EN-Draft.pdf",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/helloiconworld",
+      "handle": "helloiconworld",
+      "search_strings": ["$INB"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/hello_iconworld",
+      "handle": "hello_iconworld"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/helloicon"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/helloicon"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=SbayxOHAlVU&list=PLMAOrLWDgCoaCXBcUV85hZxEYTrUAbPJk",
+      "handle": "UC5SrWL7CKY09cVtuDxHtizw"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 800460000,
+    "circulating_supply": 590286346.954667
+  },
+  "trading_pairs": [
+    {
+      "base": "ICX",
+      "quote": "USDT",
+      "pair_id": "ICX_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "ICX",
+      "quote": "USDT",
+      "pair_id": "ICX_USDT",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "ICX",
+      "quote": "USDT",
+      "pair_id": "ICX_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "ICX",
+      "quote": "USD",
+      "pair_id": "ICX_USD",
+      "exchange_id": "kraken.com"
+    },
+    {
+      "base": "ICX",
+      "quote": "ETH",
+      "pair_id": "ICX_ETH",
+      "exchange_id": "kraken.com"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "name": "Status",
+  "symbol": "SNT",
+  "coingecko_id": "status",
+  "coin_api_id": "SNT",
+  "uniswap_id": "0x744d70fdbe2ba4cf95131626614a1763df805b9e",
+  "website": "https://status.im",
+  "source_code": "https://github.com/status-im",
+  "white_paper": "https://status.im/whitepaper.pdf",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/ethstatus",
+      "handle": "ethstatus",
+      "search_strings": ["$SNT"]
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/statusim"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=F8gJ8KVTlGg&list=PLbrz7IuP1hrjHqseFVj6jAJuqXiQP8u3q",
+      "handle": "statusim"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/ethstatus",
+      "handle": "ethstatus"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 6804870174,
+    "circulating_supply": 3880483788.3096976
+  },
+  "trading_pairs": [
+    {
+      "base": "0x744d70fdbe2ba4cf95131626614a1763df805b9e",
+      "quote": "ETH",
+      "pair_id": "0x59e7bee6374a3f6ecb33180ece978fd4f2b7cea2",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "SNT",
+      "quote": "USD",
+      "pair_id": "SNT_USD",
+      "exchange_id": "bitfinex.com"
+    },
+    {
+      "base": "SNT",
+      "quote": "USD",
+      "pair_id": "SNT_USD",
+      "exchange_id": "bitfinex.com"
+    },
+    {
+      "base": "SNT",
+      "quote": "USDT",
+      "pair_id": "SNT_USDT",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "SNT",
+      "quote": "USDT",
+      "pair_id": "SNT_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "SNT",
+      "quote": "USDT",
+      "pair_id": "SNT_USDT",
+      "exchange_id": "gate.io"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "name": "DODO",
+  "symbol": "dodo",
+  "coingecko_id": "dodo",
+  "coin_api_id": "DODO",
+  "uniswap_id": "0x43dfc4159d86f3a37a5a4b3d4580b888ad7d4ddd",
+  "website": "https://dodoex.io/",
+  "white_paper": "https://dodoex.github.io/docs/docs/",
+  "category_tags": ["defi"],
+  "tokenomics": {
+    "total_supply": 1000000000,
+    "circulating_supply": 97215665.12755135
+  },
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/BreederDodo",
+      "handle": "BreederDodo",
+      "search_strings": ["$DODO"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/dodoex_official",
+      "handle": "dodoex_official"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/DodoEx/"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/dodoex"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "0x43dfc4159d86f3a37a5a4b3d4580b888ad7d4ddd",
+      "quote": "ETH",
+      "pair_id": "0x68fa181c720c07b7ff7412220e2431ce90a65a14",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "DODO",
+      "quote": "USDT",
+      "pair_id": "DODO_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "DODO",
+      "quote": "USDT",
+      "pair_id": "DODO_USDT",
+      "exchange_id": "gate.io"
+    },
+    {
+      "base": "DODO",
+      "quote": "ETH",
+      "pair_id": "DODO_ETH",
+      "exchange_id": "gate.io"
+    }
+  ]
+}

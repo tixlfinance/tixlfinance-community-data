@@ -1,0 +1,60 @@
+{
+  "name": "Bitmax Token",
+  "symbol": "bmax",
+  "coingecko_id": "bmax",
+  "coin_api_id": "BTMX",
+  "additionalSymbols": ["BTMX"],
+  "uniswap_id": "0xcca0c9c383076649604ee31b20248bc04fdf61ca",
+  "website": "https://bitmax.io/en/global-digital-asset-platform#/home",
+  "source_code": "https://github.com/bitmax-exchange",
+  "white_paper": "https://www.allcryptowhitepapers.com/wp-content/uploads/2019/01/Bitmax-Token-Whitepaper.pdf",
+  "category_tags": [],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/BitMax_Official",
+      "handle": "BitMax_Official",
+      "search_strings": ["$BTMX"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/BitMaxioEnglishOfficial"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/BitMax"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/BitMaxOfficial",
+      "handle": "BitMaxOfficial"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/channel/UCqd6zelqTz03nkl2A3KHKtw",
+      "handle": "UCqd6zelqTz03nkl2A3KHKtw"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/bitmax-io"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 749317256.394,
+    "circulating_supply": 749317256.394
+  },
+  "trading_pairs": [
+    {
+      "base": "0xcca0c9c383076649604ee31b20248bc04fdf61ca",
+      "quote": "ETH",
+      "pair_id": "0xa3bc32ccc6edacc429a577572b51a118c3a4c562",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "BTMX",
+      "quote": "USDT",
+      "pair_id": "BTMX_USDT",
+      "exchange_id": "gate.io"
+    }
+  ]
+}
