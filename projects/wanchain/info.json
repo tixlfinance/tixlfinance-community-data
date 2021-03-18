@@ -1,0 +1,43 @@
+{
+  "name": "Wanchain",
+  "symbol": "wan",
+  "coingecko_id": "wanchain",
+  "coin_api_id": "WAN",
+  "website": "https://www.wanchain.org",
+  "source_code": "https://github.com/wanchain",
+  "white_paper": "https://wanchain.org/files/Wanchain-Whitepaper-EN-version.pdf",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/wanchain_org",
+      "handle": "wanchain_org",
+      "search_strings": ["$WAN"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/WanchainANN"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/wanchain"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/wanchainfoundation",
+      "handle": "wanchainfoundation"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 210000000,
+    "max_supply": 210000000,
+    "circulating_supply": 164312266.815822
+  },
+  "trading_pairs": [
+    {
+      "base": "WAN",
+      "quote": "USDT",
+      "pair_id": "WAN_USDT",
+      "exchange_id": "binance.com"
+    }
+  ]
+}

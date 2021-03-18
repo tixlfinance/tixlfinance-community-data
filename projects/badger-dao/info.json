@@ -1,0 +1,59 @@
+{
+  "name": "Badger DAO",
+  "symbol": "badger",
+  "coingecko_id": "badger-dao",
+  "coin_api_id": "BADGER",
+  "uniswap_id": "0x3472a5a71965499acd81997a54bba8d852c6e53d",
+  "website": "https://app.badger.finance",
+  "source_code": "https://github.com/Badger-Finance",
+  "category_tags": ["defi"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/badgerdao",
+      "handle": "badgerdao",
+      "search_strings": ["$BADGER"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/badger_dao"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 21000000,
+    "max_supply": 21000000,
+    "circulating_supply": 2513161.3716537734
+  },
+  "trading_pairs": [
+    {
+      "base": "0x3472a5a71965499acd81997a54bba8d852c6e53d",
+      "quote": "ETH",
+      "pair_id": "0x97524f602706cdb64f9dfa71909ace06e98200b6",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "BADGER",
+      "quote": "USDT",
+      "pair_id": "BADGER_USDT",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "BADGER",
+      "quote": "USDT",
+      "pair_id": "BADGER_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "BADGER",
+      "quote": "USDT",
+      "pair_id": "BADGER_USDT",
+      "exchange_id": "gate.io"
+    },
+    {
+      "base": "BADGER",
+      "quote": "USDT",
+      "pair_id": "BADGER_USDT",
+      "exchange_id": "ploniex.com"
+    }
+  ]
+}

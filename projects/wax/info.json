@@ -1,0 +1,61 @@
+{
+  "name": "WAX",
+  "symbol": "waxp",
+  "coingecko_id": "wax",
+  "coin_api_id": "WAXP",
+  "website": "https://on.wax.io/wax-io",
+  "source_code": "https://github.com/worldwide-asset-exchange",
+  "white_paper": "https://github.com/worldwide-asset-exchange/whitepaper",
+  "category_tags": ["nft"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/WAX_io",
+      "handle": "WAX_io",
+      "search_strings": ["$WAXP"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/wax_io"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/WAX_io"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/wax-io"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 3770303327,
+    "max_supply": 3770303327,
+    "circulating_supply": 1512122981.88266
+  },
+  "trading_pairs": [
+    {
+      "base": "WAXP",
+      "quote": "USD",
+      "pair_id": "WAXP_USD",
+      "exchange_id": "bittrex.com"
+    },
+    {
+      "base": "WAXP",
+      "quote": "USD",
+      "pair_id": "WAXP_USD",
+      "exchange_id": "bitfinex.com"
+    },
+    {
+      "base": "WAXP",
+      "quote": "USDT",
+      "pair_id": "WAXP_USDT",
+      "exchange_id": "bittrex.com"
+    },
+    {
+      "base": "WAXP",
+      "quote": "USDT",
+      "pair_id": "WAXP_USDT",
+      "exchange_id": "huobi.com"
+    }
+  ]
+}

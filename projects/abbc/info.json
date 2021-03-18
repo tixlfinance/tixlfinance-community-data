@@ -1,0 +1,47 @@
+{
+  "name": "ABBC",
+  "symbol": "abbc",
+  "coingecko_id": "alibabacoin",
+  "coin_api_id": "ABBC",
+  "website": "https://abbccoin.com",
+  "source_code": "https://github.com/alibabacoin",
+  "white_paper": "https://abbccoin.com/whitepaper.pdf",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/abbcfoundation",
+      "handle": "abbcfoundation",
+      "search_strings": ["$ABBC"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/abbcfoundation"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/ABBC"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/abbcfoundation",
+      "handle": "abbcfoundation"
+    }
+  ],
+  "tokenomics": {
+    "circulating_supply": 0
+  },
+  "trading_pairs": [
+    {
+      "base": "ABBC",
+      "quote": "USDT",
+      "pair_id": "ABBC_USDT",
+      "exchange_id": "gate.io"
+    },
+    {
+      "base": "ABBC",
+      "quote": "USDT",
+      "pair_id": "ABBC_USDT",
+      "exchange_id": "bithumb.com"
+    }
+  ]
+}

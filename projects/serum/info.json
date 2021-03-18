@@ -1,0 +1,66 @@
+{
+  "name": "Serum",
+  "symbol": "srm",
+  "coingecko_id": "serum",
+  "coin_api_id": "SRM",
+  "uniswap_id": "0x476c5e26a75bd202a9683ffd34359c0cc15be0ff",
+  "website": "https://projectserum.com",
+  "source_code": "https://github.com/project-serum",
+  "white_paper": "https://projectserum.com/serum_white_paper.pdf",
+  "category_tags": ["defi"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/projectserum",
+      "handle": "projectserum",
+      "search_strings": ["$SRM"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/ProjectSerum"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 161000001,
+    "max_supply": 10000000000,
+    "circulating_supply": 50000000
+  },
+  "trading_pairs": [
+    {
+      "base": "0x476c5e26a75bd202a9683ffd34359c0cc15be0ff",
+      "quote": "ETH",
+      "pair_id": "0xcc3d1ecef1f9fd25599dbea2755019dc09db3c54",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "SRM",
+      "quote": "USDT",
+      "pair_id": "SRM_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "SRM",
+      "quote": "USDT",
+      "pair_id": "SRM_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "SRM",
+      "quote": "USDT",
+      "pair_id": "SRM_USDT",
+      "exchange_id": "bilaxy.com"
+    },
+    {
+      "base": "SRM",
+      "quote": "USDT",
+      "pair_id": "SRM_USDT",
+      "exchange_id": "poloniex.com"
+    },
+    {
+      "base": "SRM",
+      "quote": "USDT",
+      "pair_id": "SRM_USDT",
+      "exchange_id": "gate.io"
+    }
+  ]
+}

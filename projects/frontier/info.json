@@ -1,0 +1,71 @@
+{
+  "name": "Frontier",
+  "symbol": "front",
+  "coingecko_id": "frontier-token",
+  "coin_api_id": "FRONT",
+  "uniswap_id": "0xf8c3527cc04340b208c854e985240c02f7b7793f",
+  "website": "https://frontier.xyz",
+  "source_code": "https://github.com/frontierdotxyz",
+  "category_tags": ["defi"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/FrontierDotXYZ",
+      "handle": "FrontierDotXYZ",
+      "search_strings": ["$FRONT"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/FrontierDotXYZ"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 100000000,
+    "max_supply": 100000000,
+    "circulating_supply": 23905007
+  },
+  "trading_pairs": [
+    {
+      "base": "0xf8c3527cc04340b208c854e985240c02f7b7793f",
+      "quote": "USDT",
+      "pair_id": "0x01388f9242964e2aaadef6379eb92276acb5520e",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "FRONT",
+      "quote": "USDT",
+      "pair_id": "FRONT_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "FRONT",
+      "quote": "USDT",
+      "pair_id": "FRONT_USDT",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "FRONT",
+      "quote": "USDT",
+      "pair_id": "FRONT_USDT",
+      "exchange_id": "kucoin.com"
+    },
+    {
+      "base": "FRONT",
+      "quote": "USDT",
+      "pair_id": "FRONT_USDT",
+      "exchange_id": "gate.io"
+    },
+    {
+      "base": "FRONT",
+      "quote": "USD",
+      "pair_id": "FRONT_USD",
+      "exchange_id": "bilaxy.com"
+    },
+    {
+      "base": "FRONT",
+      "quote": "USDT",
+      "pair_id": "FRONT_USDT",
+      "exchange_id": "poloniex.com"
+    }
+  ]
+}

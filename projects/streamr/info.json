@@ -1,0 +1,65 @@
+{
+  "name": "Streamr DATAcoin",
+  "symbol": "data",
+  "coingecko_id": "streamr-datacoin",
+  "coin_api_id": "DATA",
+  "uniswap_id": "0x0cf0ee63788a0849fe5297f3407f701e122cc023",
+  "website": "https://streamr.network",
+  "source_code": "https://github.com/streamr-dev",
+  "white_paper": "https://s3.amazonaws.com/streamr-public/streamr-datacoin-whitepaper-2017-07-25-v1_0.pdf",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/streamr",
+      "handle": "streamr",
+      "search_strings": ["$DATA"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/streamrdata"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/streamr"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=fJ42u4IiVTM&list=PLz4GDOpDozwUbvbkVRtRNqHLqXUyyRSYH",
+      "handle": "UCGWEA61RueG-9DV53s-ZyJQ"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/streamrblog"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 987154514,
+    "circulating_supply": 697152733.0536901
+  },
+  "trading_pairs": [
+    {
+      "base": "0x0cf0ee63788a0849fe5297f3407f701e122cc023",
+      "quote": "ETH",
+      "pair_id": "0xd6054455ca2e1aef02178e0462d9ab953bea4e23",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "DAT",
+      "quote": "USD",
+      "pair_id": "DAT_USD",
+      "exchange_id": "bitfinex.com"
+    },
+    {
+      "base": "DAT",
+      "quote": "USDT",
+      "pair_id": "DAT_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "DAT",
+      "quote": "USDT",
+      "pair_id": "DAT_USDT",
+      "exchange_id": "gate.io"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Trustswap",
+  "symbol": "swap",
+  "coingecko_id": "trustswap",
+  "coin_api_id": "SWAP",
+  "uniswap_id": "0xcc4304a31d09258b0029ea7fe63d032f52e44efe",
+  "website": "https://trustswap.org",
+  "source_code": "https://github.com/trustswap",
+  "white_paper": "https://pdfhost.io/v/7kEISzHai_Trust_Swap_WP_1_1pdf.pdf",
+  "category_tags": ["defi"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/trustswap",
+      "handle": "trustswap",
+      "search_strings": ["$SWAP"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/TrustSwap"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 99996810.6210997,
+    "max_supply": 100000000,
+    "circulating_supply": 64671249.99969619
+  },
+  "trading_pairs": [
+    {
+      "base": "0xcc4304a31d09258b0029ea7fe63d032f52e44efe",
+      "quote": "ETH",
+      "pair_id": "0xd90a1ba0cbaaaabfdc6c814cdf1611306a26e1f8",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "SWAP",
+      "quote": "USDT",
+      "pair_id": "SWAP_USDT",
+      "exchange_id": "bilaxy.com"
+    },
+    {
+      "base": "SWAP",
+      "quote": "USDT",
+      "pair_id": "SWAP_USDT",
+      "exchange_id": "poloniex.com"
+    },
+    {
+      "base": "SWAP",
+      "quote": "USDT",
+      "pair_id": "SWAP_USDT",
+      "exchange_id": "gate.io"
+    }
+  ]
+}

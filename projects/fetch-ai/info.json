@@ -1,0 +1,43 @@
+{
+  "name": "Fetch.ai",
+  "symbol": "fet",
+  "coingecko_id": "fetch-ai",
+  "coin_api_id": "FET",
+  "website": "https://fetch.ai",
+  "source_code": "https://github.com/fetchai",
+  "white_paper": "https://fetch.ai/wp-content/uploads/2019/10/Fetch.AI-Economics-white-paper.pdf",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/fetch_ai",
+      "handle": "fetch_ai",
+      "search_strings": ["$FET"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/fetch_ai"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/FetchAI_Community"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 1152997575,
+    "circulating_supply": 688117804.9994855
+  },
+  "trading_pairs": [
+    {
+      "base": "FET",
+      "quote": "USD",
+      "pair_id": "FET_USD",
+      "exchange_id": "bitfinex.com"
+    },
+    {
+      "base": "FET",
+      "quote": "USDT",
+      "pair_id": "FET_USDT",
+      "exchange_id": "binance.com"
+    }
+  ]
+}

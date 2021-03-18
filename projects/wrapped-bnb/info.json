@@ -1,0 +1,24 @@
+{
+  "name": "Wrapped BNB",
+  "symbol": "wbnb",
+  "coingecko_id": "wbnb",
+  "coin_api_id": "WBNB",
+  "website": "https://www.binance.org",
+  "source_code": "https://github.com/binance-chain",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/binancechain",
+      "handle": "binancechain",
+      "search_strings": ["$WBNB"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/BinanceDEXchange"
+    }
+  ],
+  "tokenomics": {
+    "circulating_supply": 0
+  },
+  "trading_pairs": []
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Bridge Oracle",
+  "symbol": "brg",
+  "coingecko_id": "bridge-oracle",
+  "coin_api_id": "BRG",
+  "website": "https://bridge.link",
+  "source_code": "https://github.com/cryptoland-blockchain-laboratory",
+  "white_paper": "https://bridge.link/Bridge_White_Paper.pdf",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/bridge_oracle",
+      "handle": "bridge_oracle",
+      "search_strings": ["$BRG"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/BridgeOracle"
+    }
+  ],
+  "tokenomics": {
+    "circulating_supply": 0
+  },
+  "trading_pairs": []
+}

@@ -1,0 +1,69 @@
+{
+  "name": "Origin Protocol",
+  "symbol": "ogn",
+  "coingecko_id": "origin-protocol",
+  "coin_api_id": "OGN",
+  "uniswap_id": "0x8207c1ffc5b6804f6024322ccf34f29c3541ae26",
+  "website": "https://www.originprotocol.com",
+  "source_code": "https://github.com/OriginProtocol",
+  "white_paper": "https://www.originprotocol.com/en/whitepaper",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/originprotocol",
+      "handle": "@originprotocol",
+      "search_strings": ["$OGN"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/originprotocol"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/originprotocol"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/originprotocol"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=52ohboDOLM0&list=PL8HSN_m2WbUdbsj3DOQTD8BU4zlpctxus",
+      "handle": "originprotocol"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/originprotocol"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 1000000000,
+    "circulating_supply": 211555966.02
+  },
+  "trading_pairs": [
+    {
+      "base": "0x8207c1ffc5b6804f6024322ccf34f29c3541ae26",
+      "quote": "ETH",
+      "pair_id": "0xce2cc0513634cef3a7c9c257e294ef5e3092f185",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "OGN",
+      "quote": "USDT",
+      "pair_id": "OGN_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "OGN",
+      "quote": "USDT",
+      "pair_id": "OGN_USDT",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "OGN",
+      "quote": "USDT",
+      "pair_id": "OGN_USDT",
+      "exchange_id": "bilaxy.com"
+    }
+  ]
+}

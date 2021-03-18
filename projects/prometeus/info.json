@@ -1,0 +1,38 @@
+{
+  "name": "Prometeus",
+  "symbol": "prom",
+  "coingecko_id": "prometeus",
+  "coin_api_id": "PROM",
+  "website": "https://prometeus.io",
+  "source_code": "https://github.com/Prometeus-Network",
+  "white_paper": "https://prometeus.io/whitepaper.pdf",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/prometeusnet",
+      "handle": "prometeusnet",
+      "search_strings": ["$PROM"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/promnetwork"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/prometeus-network"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 20000000,
+    "max_supply": 20000000,
+    "circulating_supply": 7209996
+  },
+  "trading_pairs": [
+    {
+      "base": "PROM",
+      "quote": "USDT",
+      "pair_id": "PROM_USDT",
+      "exchange_id": "bithumb.com"
+    }
+  ]
+}

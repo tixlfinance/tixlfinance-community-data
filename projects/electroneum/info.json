@@ -1,0 +1,42 @@
+{
+  "name": "Electroneum",
+  "symbol": "etn",
+  "coingecko_id": "electroneum",
+  "coin_api_id": "ETN",
+  "website": "https://electroneum.com",
+  "source_code": "https://github.com/electroneum",
+  "white_paper": "https://electroneum.com/overview-white-paper.pdf",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/electroneum",
+      "handle": "electroneum",
+      "search_strings": ["$ETN"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/joinchat/DxoSakHOdk5mqsE-LelfVg"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/Electroneum"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/electroneum",
+      "handle": "electroneum"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 21000000000,
+    "circulating_supply": 17839058117.97
+  },
+  "trading_pairs": [
+    {
+      "base": "ETN",
+      "quote": "USDT",
+      "pair_id": "ETN_USDT",
+      "exchange_id": "kucoin.com"
+    }
+  ]
+}

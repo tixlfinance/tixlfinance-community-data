@@ -1,0 +1,70 @@
+{
+  "name": "Hive",
+  "symbol": "hive",
+  "coingecko_id": "hive",
+  "coin_api_id": "HIVE",
+  "website": "https://hive.io",
+  "source_code": "https://github.com/openhive-network/hive",
+  "white_paper": "https://hive.io/whitepaper.pdf",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/hiveblocks",
+      "handle": "hiveblocks",
+      "search_strings": ["$HIVE"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/hiveblockchain"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/hiveblocks",
+      "handle": "hiveblocks"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=NcQ3LLkaIiw&list=PLtHY__d7ZTBr9KRDYrd_6SdU5MLl61fFC",
+      "handle": "UCwM89V7NzVIHizgWT3GxhwA"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@hiveblocks"
+    }
+  ],
+  "tokenomics": {
+    "circulating_supply": 371968555.228
+  },
+  "trading_pairs": [
+    {
+      "base": "HIVE",
+      "quote": "USD",
+      "pair_id": "HIVE_USD",
+      "exchange_id": "bittrex.com"
+    },
+    {
+      "base": "HIVE",
+      "quote": "USDT",
+      "pair_id": "HIVE_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "HIVE",
+      "quote": "USDT",
+      "pair_id": "HIVE_USD",
+      "exchange_id": "huobi.com"
+    },
+    {
+      "base": "HIVE",
+      "quote": "USDT",
+      "pair_id": "HIVE_USDT",
+      "exchange_id": "bittrex.com"
+    },
+    {
+      "base": "HIVE",
+      "quote": "USDT",
+      "pair_id": "HIVE_USDT",
+      "exchange_id": "gate.io"
+    }
+  ]
+}
