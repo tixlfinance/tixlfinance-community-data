@@ -1,0 +1,41 @@
+{
+  "name": "Haven Protocol",
+  "symbol": "xhv",
+  "coingecko_id": "haven-protocol",
+  "coin_api_id": "XHV",
+  "website": "https://havenprotocol.org/",
+  "source_code": "https://github.com/haven-protocol-org/haven",
+  "white_paper": "http://docs.havenprotocol.org/haven-protocol-wp-2_0.pdf",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/HavenXHV",
+      "handle": "HavenXHV",
+      "search_strings": ["$XHV"]
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@havencurrency"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/havenprotocol/"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/XHVHavenProtocol"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "XHV",
+      "quote": "USDT",
+      "pair_id": "XHV_USDT",
+      "exchange_id": "kucoin.com"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 18400000,
+    "circulating_supply": 14585478.2119868
+  }
+}

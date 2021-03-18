@@ -1,0 +1,46 @@
+{
+  "name": "Ark",
+  "symbol": "ark",
+  "coingecko_id": "ark",
+  "coin_api_id": "ARK",
+  "website": "http://ark.io/",
+  "source_code": "https://github.com/ArkEcosystem/core",
+  "white_paper": "https://ark.io/Whitepaper.pdf",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/arkecosystem",
+      "handle": "arkecosystem",
+      "search_strings": ["$ARK"]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/ArkEcosystem",
+      "handle": "arkecosystem"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/arkannouncements"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/ArkEcosystem"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=Si5JCS7Q-zk&list=PLPC6NICv9jfyPAiwDAy3s1ccL9ZzK0XYh",
+      "handle": "UCpc2k6zOOutGT9y56urDClg"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "ARK",
+      "quote": "USDT",
+      "pair_id": "ARK_USDT",
+      "exchange_id": "okex.com"
+    }
+  ],
+  "tokenomics": {
+    "circulating_supply": 155535462
+  }
+}

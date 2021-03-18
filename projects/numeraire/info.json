@@ -1,0 +1,64 @@
+{
+  "name": "Numeraire",
+  "symbol": "nmr",
+  "coingecko_id": "numeraire",
+  "coin_api_id": "NMR",
+  "website": "https://numer.ai/",
+  "source_code": "https://github.com/erasureprotocol/erasure-protocol",
+  "white_paper": "https://numer.ai/whitepaper.pdf",
+  "category_tags": ["defi"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/numerai",
+      "handle": "numerai",
+      "search_strings": ["$NMR"]
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/numerai"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/numerai"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "NMR",
+      "quote": "USDT",
+      "pair_id": "NMR_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "NMR",
+      "quote": "USDT",
+      "pair_id": "NMR_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "NMR",
+      "quote": "USDT",
+      "pair_id": "NMR_USDT",
+      "exchange_id": "bilaxy.com"
+    },
+    {
+      "base": "NMR",
+      "quote": "USDT",
+      "pair_id": "NMR_USDT",
+      "exchange_id": "bittrex.com"
+    },
+    {
+      "base": "0x1776e1f26f98b1a5df9cd347953a26dd3cb46671",
+      "quote": "ETH",
+      "pair_id": "0xb784ced6994c928170b417bbd052a096c6fb17e2",
+      "exchange_id": "uniswap.exchange"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 10973320.4928371,
+    "circulating_supply": 5318643.44564939,
+    "max_supply": 11000000
+  },
+  "uniswap_id": "0x1776e1f26f98b1a5df9cd347953a26dd3cb46671"
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Populous",
+  "symbol": "ppt",
+  "coingecko_id": "populous",
+  "coin_api_id": "PPT",
+  "website": "https://populous.world/",
+  "source_code": "https://github.com/bitpopulous/populous-smartcontracts",
+  "white_paper": "http://populous.co/populous_whitepaper.pdf",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/bitpopulous",
+      "handle": "bitpopulous",
+      "search_strings": ["$PPT"]
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=4JICHBUIwbg&list=PL1UDDBUxzjhY07rXiJ9ZhB2Fm9uVQqVoV",
+      "handle": "O3zFjYYjJCBxJ77faqw"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "PPT",
+      "quote": "USDT",
+      "pair_id": "PPT_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "0xd4fa1460f537bb9085d22c7bccb5dd450ef28e3a",
+      "quote": "ETH",
+      "pair_id": "0xb675215090ba998d5e9874c649e5afa093058c00",
+      "exchange_id": "uniswap.exchange"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 53252246,
+    "circulating_supply": 36226899.45992336
+  },
+  "uniswap_id": "0xd4fa1460f537bb9085d22c7bccb5dd450ef28e3a"
+}

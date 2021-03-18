@@ -1,0 +1,44 @@
+{
+  "name": "Ankr",
+  "symbol": "ankr",
+  "coingecko_id": "ankr",
+  "coin_api_id": "ANKR",
+  "website": "https://www.ankr.com/",
+  "source_code": "https://github.com/Ankr-network/dccn-common",
+  "category_tags": ["dot_ecosystem"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/ankr",
+      "handle": "ankr",
+      "search_strings": ["$ANKR"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/ankrnetwork"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/ankr-network"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "ANKR",
+      "quote": "USDT",
+      "pair_id": "ANKR_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "0x8290333cef9e6d528dd5618fb97a76f268f3edd4",
+      "quote": "ETH",
+      "pair_id": "0x5201883feeb05822ce25c9af8ab41fc78ca73fa9",
+      "exchange_id": "uniswap.exchange"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 10000000000,
+    "circulating_supply": 6496232711.125
+  },
+  "uniswap_id": "0x8290333cef9e6d528dd5618fb97a76f268f3edd4"
+}

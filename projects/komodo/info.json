@@ -1,0 +1,49 @@
+{
+  "name": "Komodo",
+  "symbol": "kmd",
+  "coingecko_id": "komodo",
+  "coin_api_id": "KMD",
+  "website": "https://komodoplatform.com/",
+  "source_code": "https://github.com/KomodoPlatform/KomodoPlatform",
+  "white_paper": "https://komodoplatform.com/whitepaper",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/KomodoPlatform",
+      "handle": "KomodoPlatform",
+      "search_strings": ["$KMD"]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/KomodoPlatform",
+      "handle": "KomodoPlatform"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/komodoplatform"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=OcBjYs5Yx4E&list=PL4_x6wStKZGBTS-gciK5Z6NTgQVv28SUn",
+      "handle": "UCtp7YrrEnZbW97sgPldyvKg"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "KMD",
+      "quote": "USDT",
+      "pair_id": "KMD_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "KMD",
+      "quote": "USD",
+      "pair_id": "KMD_USD",
+      "exchange_id": "bittrex.com"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 200000000,
+    "circulating_supply": 124409097.42027
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "xDai",
+  "symbol": "stake",
+  "coingecko_id": "xdai",
+  "coin_api_id": "STAKE",
+  "website": "http://xdaichain.com/",
+  "source_code": "https://github.com/xdaichain/stake-token",
+  "white_paper": "https://forum.poa.network/t/posdao-white-paper/2208",
+  "category_tags": ["defi"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/xdaichain",
+      "handle": "xdaichain",
+      "search_strings": ["$STAKE"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/xdaistable"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "0x0ae055097c6d159879521c384f1d2123d1f195e6",
+      "quote": "ETH",
+      "pair_id": "0x3b3d4eefdc603b232907a7f3d0ed1eea5c62b5f7",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "STAKE",
+      "quote": "USDT",
+      "pair_id": "STAKE_USDT",
+      "exchange_id": "poloniex.com"
+    },
+    {
+      "base": "STAKE",
+      "quote": "USDT",
+      "pair_id": "STAKE_USDT",
+      "exchange_id": "bilaxy.com"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 8586566.91801118,
+    "circulating_supply": 4080533.95639046,
+    "max_supply": 8586566.91801118
+  },
+  "uniswap_id": "0x0ae055097c6d159879521c384f1d2123d1f195e6"
+}

@@ -1,0 +1,39 @@
+{
+  "name": "saffron.finance",
+  "symbol": "sfi",
+  "coingecko_id": "saffron-finance",
+  "coin_api_id": "SFI",
+  "website": "https://saffron.finance/",
+  "source_code": "https://github.com/saffron-finance/saffron",
+  "category_tags": ["defi"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/saffronfinance_",
+      "handle": "saffronfinance_",
+      "search_strings": ["$SFI"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/saffronfinance"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/saffron-finance"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "0xb753428af26e81097e7fd17f40c88aaa3e04902c",
+      "quote": "ETH",
+      "pair_id": "0xc76225124f3caab07f609b1d147a31de43926cd6",
+      "exchange_id": "uniswap.exchange"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 89421.1053496542,
+    "circulating_supply": 80045.34257009129,
+    "max_supply": 100000
+  },
+  "uniswap_id": "0xb753428af26e81097e7fd17f40c88aaa3e04902c"
+}

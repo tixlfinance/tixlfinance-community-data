@@ -1,0 +1,45 @@
+{
+  "name": "Celer Network",
+  "symbol": "celr",
+  "coingecko_id": "celer-network",
+  "coin_api_id": "CELR",
+  "website": "https://www.celer.network/#",
+  "source_code": "https://github.com/celer-network/cChannel-eth",
+  "white_paper": "https://www.celer.network/assets/doc/CelerNetwork-Whitepaper.pdf",
+  "category_tags": ["dot_ecosystem"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/CelerNetwork",
+      "handle": "CelerNetwork",
+      "search_strings": ["$CELR"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/celernetwork"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/celer-network"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "CELR",
+      "quote": "USDT",
+      "pair_id": "CELR_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "0x4f9254c83eb525f9fcf346490bbb3ed28a81c667",
+      "quote": "ETH",
+      "pair_id": "0x75201d546585ed4190bb5c7f0ae4f48dfe1b0c62",
+      "exchange_id": "uniswap.exchange"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 10000000000,
+    "circulating_supply": 3948988985.56448
+  },
+  "uniswap_id": "0x4f9254c83eb525f9fcf346490bbb3ed28a81c667"
+}

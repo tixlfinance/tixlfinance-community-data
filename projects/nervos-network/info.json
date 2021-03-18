@@ -1,0 +1,63 @@
+{
+  "name": "Nervos Network",
+  "symbol": "ckb",
+  "coingecko_id": "nervos-network",
+  "coin_api_id": "CKB",
+  "website": "http://nervos.org/",
+  "source_code": "https://github.com/nervosnetwork/ckb",
+  "white_paper": "https://github.com/nervosnetwork/rfcs/blob/master/rfcs/0002-ckb/0002-ckb.md",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/nervosnetwork",
+      "handle": "nervosnetwork",
+      "search_strings": ["$CKB"]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/theNervosNetwork",
+      "handle": "nervosnetwork"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/nervosnetwork"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/nervosnetwork"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/NervosNetwork/"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "CKB",
+      "quote": "USDT",
+      "pair_id": "CKB_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "CKB",
+      "quote": "USDT",
+      "pair_id": "CKB_USDT",
+      "exchange_id": "kucoin.com"
+    },
+    {
+      "base": "CKB",
+      "quote": "USDT",
+      "pair_id": "CKB_USDT",
+      "exchange_id": "bilaxy.com"
+    },
+    {
+      "base": "CKB",
+      "quote": "USDT",
+      "pair_id": "CKB_USDT",
+      "exchange_id": "bittrex.com"
+    }
+  ],
+  "tokenomics": {
+    "circulating_supply": 24039562599.2673
+  }
+}
