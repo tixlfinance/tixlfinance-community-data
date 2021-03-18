@@ -1,0 +1,60 @@
+{
+  "name": "Holo",
+  "symbol": "hot",
+  "coingecko_id": "holo",
+  "coin_api_id": "HOT",
+  "uniswap_id": "0x6c6ee5e31d828de241282b9606c8e98ea48526e2",
+  "website": "https://holochain.org/",
+  "source_code": "https://github.com/holochain/holochain-rust",
+  "white_paper": "https://holo.host/whitepapers/",
+  "category_tags": ["storage"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/h_o_l_o_",
+      "handle": "h_o_l_o_",
+      "search_strings": ["$HOT"]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/holohost",
+      "handle": "h_o_l_o_"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/channelholo"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/h-o-l-o"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/holochain"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "HOT",
+      "quote": "USDT",
+      "pair_id": "HOT_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "HOT",
+      "quote": "USDT",
+      "pair_id": "HOT_USDT",
+      "exchange_id": "bilaxy.com"
+    },
+    {
+      "base": "0x6c6ee5e31d828de241282b9606c8e98ea48526e2",
+      "quote": "ETH",
+      "pair_id": "0xf5ef67632cd2256d939702a126fe2c047d0a07bf",
+      "exchange_id": "uniswap.exchange"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 177619433541.141,
+    "circulating_supply": 177619433541.141
+  }
+}

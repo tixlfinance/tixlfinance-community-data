@@ -1,0 +1,44 @@
+{
+  "name": "VeThor Token",
+  "symbol": "vtho",
+  "coingecko_id": "vethor-token",
+  "coin_api_id": "VTHO",
+  "website": "https://www.vechain.org/",
+  "source_code": "https://github.com/vechain/thor",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/vechainofficial",
+      "handle": "vechainofficial",
+      "search_strings": ["$VTHO"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/vechain_official_english"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@vechainofficial"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/Vechain/"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=__yfks8BK2A&list=PLUjflF1-UjDPcZMN6KiWB04MISVqTLqp-",
+      "handle": "UCqKEWPu5hkEl4o3sxlj3N5A"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "VTHO",
+      "quote": "USDT",
+      "pair_id": "VTHO_USDT",
+      "exchange_id": "binance.com"
+    }
+  ],
+  "tokenomics": {
+    "circulating_supply": 32622275001
+  }
+}

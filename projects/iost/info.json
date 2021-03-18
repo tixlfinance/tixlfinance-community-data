@@ -1,0 +1,51 @@
+{
+  "name": "IOST",
+  "symbol": "iost",
+  "coingecko_id": "iostoken",
+  "coin_api_id": "IOST",
+  "website": "http://iost.io/",
+  "source_code": "https://github.com/iost-official/go-iost",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/IOST_Official",
+      "handle": "IOST_Official",
+      "search_strings": ["$IOST"]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/IOSTofficial",
+      "handle": "IOST_Official"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/officialios"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@iostoken"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/IOStoken/"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "IOST",
+      "quote": "USDT",
+      "pair_id": "IOST_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "IOST",
+      "quote": "USDT",
+      "pair_id": "IOST_USDT",
+      "exchange_id": "okex.com"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 22378939720.5443,
+    "circulating_supply": 18487143669.65335
+  }
+}

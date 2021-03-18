@@ -1,0 +1,48 @@
+{
+  "name": "SwissBorg",
+  "symbol": "chsb",
+  "coingecko_id": "swissborg",
+  "coin_api_id": "CHSB",
+  "website": "https://swissborg.com/",
+  "source_code": "https://github.com/SwissBorg/sbci-token",
+  "white_paper": "https://swissborg.com/en/documents.html",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/swissborg",
+      "handle": "swissborg",
+      "search_strings": ["$CHSB"]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/swissborg",
+      "handle": "swissborg"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/swissborg"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/swissborg/"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=p9xYj-O6TXI&list=PLe2vFhKglBomi42MQmTXNd9T_l4UtquDN",
+      "handle": "UC_Jyx7gJXh3yHFxZSJIlIhQ"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "0xba9d4199fab4f26efe3551d490e3821486f135ba",
+      "quote": "ETH",
+      "pair_id": "0x8d9b9e25b208cac58415d915898c2ffa3a530aa1",
+      "exchange_id": "uniswap.exchange"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 1000000000,
+    "circulating_supply": 939100207.814276
+  },
+  "uniswap_id": "0xba9d4199fab4f26efe3551d490e3821486f135ba"
+}

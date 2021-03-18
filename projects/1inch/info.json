@@ -1,0 +1,68 @@
+{
+  "name": "1inch",
+  "symbol": "1inch",
+  "coingecko_id": "1inch",
+  "coin_api_id": "1INCH",
+  "uniswap_id": "0x111111111117dc0aa78b770fa6a738034120c302",
+  "website": "https://1inch.exchange/#/",
+  "source_code": "https://github.com/1inch-exchange/1inch-token",
+  "white_paper": "https://mooniswap.exchange/docs/MooniswapWhitePaper-v1.0.pdf",
+  "category_tags": ["defi"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/1inchExchange",
+      "search_strings": ["$1INCH"]
+    },
+    {
+      "name": "Medium",
+      "url": "https://1inch-exchange.medium.com/"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://reddit.com/r/1inch_exchange"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=RT9zNQawieY&list=PLHF7PiFqCHX-SHeHidNl5RQwlFpiL8kVE",
+      "handle": "UCk0nvK4bHpteQXZKv7lkq5w"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "1INCH",
+      "quote": "USDT",
+      "pair_id": "1INCH_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "1INCH",
+      "quote": "USDT",
+      "pair_id": "1INCH_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "0x111111111117dc0aa78b770fa6a738034120c302",
+      "quote": "ETH",
+      "pair_id": "0x26aad2da94c59524ac0d93f6d6cbf9071d7086f2",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "1INCH",
+      "quote": "USDT",
+      "pair_id": "1INCH_USDT",
+      "exchange_id": "bilaxy.com"
+    },
+    {
+      "base": "1INCH",
+      "quote": "USDT",
+      "pair_id": "1INCH_USDT",
+      "exchange_id": "kucoin.com"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 1500000000,
+    "circulating_supply": 96249017.09096631,
+    "max_supply": 1500000000
+  }
+}

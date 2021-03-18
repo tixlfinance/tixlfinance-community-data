@@ -1,0 +1,43 @@
+{
+  "name": "RSK Infrastructure Framework",
+  "symbol": "rif",
+  "coingecko_id": "rsk-infrastructure-framework",
+  "coin_api_id": "RIF",
+  "website": "https://www.rifos.org/",
+  "source_code": "https://github.com/riflabs/RIF-Token",
+  "white_paper": "https://developers.rsk.co/rif/",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/rif_os",
+      "handle": "rif_os",
+      "search_strings": ["$RIF"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/rif_os_community"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/rootstock/"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "RIF",
+      "quote": "USDT",
+      "pair_id": "RIF_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "RIF",
+      "quote": "USD",
+      "pair_id": "RIF_USD",
+      "exchange_id": "bitfinex.com"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 1000000000,
+    "circulating_supply": 699380010.102538
+  }
+}

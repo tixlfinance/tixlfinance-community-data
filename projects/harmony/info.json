@@ -1,0 +1,57 @@
+{
+  "name": "Harmony",
+  "symbol": "one",
+  "coingecko_id": "harmony",
+  "coin_api_id": "ONE",
+  "website": "https://www.harmony.one/",
+  "source_code": "https://github.com/harmony-one/harmony",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/harmonyprotocol",
+      "handle": "harmonyprotocol",
+      "search_strings": ["$ONE"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/harmony_one"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/harmony-one"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/harmony_one/"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=49hSCF7ktas&list=PLAzkb1vJXQOQOPTxDsAeBBhlThqEfHTxh",
+      "handle": "UCDfuhS7xu69IhK5AJSyiF0g"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "ONE",
+      "quote": "USDT",
+      "pair_id": "ONE_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "ONE",
+      "quote": "USDT",
+      "pair_id": "ONE_USDT",
+      "exchange_id": "kucoin.com"
+    },
+    {
+      "base": "ONE",
+      "quote": "USDT",
+      "pair_id": "ONE_USDT",
+      "exchange_id": "bilaxy.com"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 12636221766,
+    "circulating_supply": 9493513741.49999
+  }
+}

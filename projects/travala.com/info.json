@@ -1,0 +1,54 @@
+{
+  "name": "Travala.com",
+  "symbol": "ava",
+  "coingecko_id": "travala",
+  "coin_api_id": "AVA",
+  "website": "https://www.travala.com/",
+  "source_code": "https://github.com/travala/AVA-token",
+  "white_paper": "https://whitepaper.travala.com/",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/travalacom",
+      "handle": "travalacom",
+      "search_strings": ["$AVA"]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/travala",
+      "handle": "travalacom"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/travala"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/Travala"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "AVA",
+      "quote": "USDT",
+      "pair_id": "AVA_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "AVA",
+      "quote": "USDT",
+      "pair_id": "AVA_USDT",
+      "exchange_id": "kucoin.com"
+    },
+    {
+      "base": "AVA",
+      "quote": "USDT",
+      "pair_id": "AVA_USDT",
+      "exchange_id": "poloniex.com"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 61383832,
+    "circulating_supply": 38554254.10119754
+  }
+}

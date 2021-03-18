@@ -1,0 +1,75 @@
+{
+  "name": "Paxos Standard",
+  "symbol": "pax",
+  "coingecko_id": "paxos-standard",
+  "coin_api_id": "PAX",
+  "uniswap_id": "0x8e870d67f660d95d5be530380d0ec0bd388289e1",
+  "website": "https://paxos.com/standard",
+  "source_code": "https://github.com/paxosglobal/pax-contracts",
+  "white_paper": "https://standard.paxos.com/whitepaper.pdf",
+  "category_tags": ["stablecoin"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/PaxosStandard",
+      "handle": "PaxosStandard",
+      "search_strings": ["$PAX"]
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@PaxosStandard"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/paxosglobal"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "PAX",
+      "quote": "USD",
+      "pair_id": "PAX_USD",
+      "exchange_id": "bitfinex.com"
+    },
+    {
+      "base": "PAX",
+      "quote": "USDT",
+      "pair_id": "PAX_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "PAX",
+      "quote": "USD",
+      "pair_id": "PAX_USD",
+      "exchange_id": "bitstamp.com"
+    },
+    {
+      "base": "PAX",
+      "quote": "USD",
+      "pair_id": "PAX_USD",
+      "exchange_id": "bittrex.com"
+    },
+    {
+      "base": "PAX",
+      "quote": "USDT",
+      "pair_id": "PAX_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "0x8e870d67f660d95d5be530380d0ec0bd388289e1",
+      "quote": "ETH",
+      "pair_id": "0x598e7a017dace2534bc3f7496124c89425b1e165",
+      "exchange_id": "uniswap.exchange"
+    },
+    {
+      "base": "PAX",
+      "quote": "USDT",
+      "pair_id": "PAX_USDT",
+      "exchange_id": "poloniex.com"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 771733524.85,
+    "circulating_supply": 771733524.85
+  }
+}

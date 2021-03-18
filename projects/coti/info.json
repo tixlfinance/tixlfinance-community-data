@@ -1,0 +1,52 @@
+{
+  "name": "COTI",
+  "symbol": "coti",
+  "coingecko_id": "coti",
+  "coin_api_id": "COTI",
+  "website": "https://coti.io/",
+  "source_code": "https://github.com/coti-io",
+  "white_paper": "https://coti.io/files/COTI-technical-whitepaper.pdf",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/COTInetwork",
+      "handle": "COTInetwork",
+      "search_strings": ["$COTI"]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/COTInetwork",
+      "handle": "COTInetwork"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/COTInetwork"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/cotinetwork"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/cotinetwork"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "COTI",
+      "quote": "USDT",
+      "pair_id": "COTI_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "COTI",
+      "quote": "USDT",
+      "pair_id": "COTI_USDT",
+      "exchange_id": "kucoin.com"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 2000000000,
+    "circulating_supply": 669740238.21
+  }
+}

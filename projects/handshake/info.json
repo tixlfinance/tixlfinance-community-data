@@ -1,0 +1,38 @@
+{
+  "name": "Handshake ",
+  "symbol": "hns",
+  "coingecko_id": "handshake",
+  "coin_api_id": "HNS",
+  "website": "https://handshake.org/",
+  "source_code": "https://github.com/handshake-org/hsd",
+  "white_paper": "https://hsd-dev.org/",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/hns",
+      "handle": "hns",
+      "search_strings": ["$HNS"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/handshaketalk"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/handshake"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "HNS",
+      "quote": "USDT",
+      "pair_id": "HNS_USDT",
+      "exchange_id": "bittrex.com"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 2040000000,
+    "circulating_supply": 356591394.245669,
+    "max_supply": 2040000000
+  }
+}

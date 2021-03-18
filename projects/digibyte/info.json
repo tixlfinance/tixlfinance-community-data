@@ -1,0 +1,83 @@
+{
+  "name": "DigiByte",
+  "symbol": "dgb",
+  "coingecko_id": "digibyte",
+  "coin_api_id": "DGB",
+  "website": "http://www.digibyte.io/",
+  "source_code": "https://github.com/digibyte/digibyte",
+  "white_paper": "https://digibyte.io/docs/infopaper.pdf",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/digibytecoin",
+      "handle": "digibytecoin",
+      "search_strings": ["$DGB"]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/digibytecoin",
+      "handle": "digibytecoin"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/OfficialDigiByteGroups"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/Digibyte"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=QbSqf4cQN2E&list=PL8xahtUlbHa9KwVIjhr54RTPdBxmp8fwF",
+      "handle": "UC0LyKbC_naDVJJ"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "DGB",
+      "quote": "USDT",
+      "pair_id": "DGB_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "DGB",
+      "quote": "USDT",
+      "pair_id": "DGB_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "DGB",
+      "quote": "USD",
+      "pair_id": "DGB_USD",
+      "exchange_id": "bittrex.com"
+    },
+    {
+      "base": "DGB",
+      "quote": "USDT",
+      "pair_id": "DGB_USDT",
+      "exchange_id": "kucoin.com"
+    },
+    {
+      "base": "DGB",
+      "quote": "USDT",
+      "pair_id": "DGB_USDT",
+      "exchange_id": "bittrex.com"
+    },
+    {
+      "base": "DGB",
+      "quote": "USD",
+      "pair_id": "DGB_USD",
+      "exchange_id": "bitfinex.com"
+    },
+    {
+      "base": "DGB",
+      "quote": "USDT",
+      "pair_id": "DGB_USDT",
+      "exchange_id": "upbit.com"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 21000000000,
+    "circulating_supply": 14063326762.0436
+  }
+}

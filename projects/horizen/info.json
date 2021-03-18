@@ -1,0 +1,65 @@
+{
+  "name": "Horizen",
+  "symbol": "zen",
+  "coingecko_id": "horizen",
+  "coin_api_id": "ZEN",
+  "website": "https://horizen.global/",
+  "source_code": "https://github.com/HorizenOfficial",
+  "white_paper": "https://www.horizen.global/research/",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/horizenglobal",
+      "handle": "horizenglobal",
+      "search_strings": ["$ZEN"]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/zencash",
+      "handle": "horizenglobal"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/Horizen"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@Horizen"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=WXt6Yvv9uhY&list=PLhZisbhyYIXI4IPY072Q6HDDLi1hAYAp_",
+      "handle": "UCQ0v_lUnZHIKUQUXJzfgqOg"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "ZEN",
+      "quote": "USDT",
+      "pair_id": "ZEN_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "ZEN",
+      "quote": "USDT",
+      "pair_id": "ZEN_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "ZEN",
+      "quote": "USD",
+      "pair_id": "ZEN_USD",
+      "exchange_id": "bittrex.com"
+    },
+    {
+      "base": "ZEN",
+      "quote": "USDT",
+      "pair_id": "ZEN_USDT",
+      "exchange_id": "kucoin.com"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 21000000,
+    "circulating_supply": 10793981.25
+  }
+}

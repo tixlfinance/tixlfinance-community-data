@@ -1,0 +1,49 @@
+{
+  "name": "Hifi Finance",
+  "symbol": "mft",
+  "coingecko_id": "mainframe",
+  "coin_api_id": "MFT",
+  "website": "https://hifi.finance/",
+  "source_code": "https://github.com/hifi-finance",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/HifiFinance",
+      "handle": "HifiFinance",
+      "search_strings": ["$MFT"]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/MainframeHQ",
+      "handle": "HifiFinance"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/MainframeCommunity"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/mainframe/"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "MFT",
+      "quote": "USDT",
+      "pair_id": "MFT_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "0xdf2c7238198ad8b389666574f2d8bc411a4b7428",
+      "quote": "ETH",
+      "pair_id": "",
+      "exchange_id": "uniswap.exchange"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 10000000000,
+    "circulating_supply": 9386552598.643353,
+    "max_supply": 10000000000
+  },
+  "uniswap_id": "0xdf2c7238198ad8b389666574f2d8bc411a4b7428"
+}

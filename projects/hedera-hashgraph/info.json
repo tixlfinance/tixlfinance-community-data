@@ -1,0 +1,69 @@
+{
+  "name": "Hedera Hashgraph",
+  "symbol": "hbar",
+  "coingecko_id": "hedera-hashgraph",
+  "coin_api_id": "HBAR",
+  "website": "https://www.hedera.com/",
+  "source_code": "https://github.com/hashgraph",
+  "white_paper": "https://www.hedera.com/papers",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/hedera",
+      "handle": "hedera",
+      "search_strings": ["$HBAR"]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/hashgraph",
+      "handle": "hedera"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/hederahashgraph"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/hashgraph"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/hashgraph"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=Zpj39s294Ow&list=PLcaTa5RR9SuASaOFyphtrBY2_VfmAI_YZ",
+      "handle": "hederahashgraph"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "HBAR",
+      "quote": "USDT",
+      "pair_id": "HBAR_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "HBAR",
+      "quote": "USDT",
+      "pair_id": "HBAR_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "HBAR",
+      "quote": "USD",
+      "pair_id": "HBAR_USD",
+      "exchange_id": "bittrex.com"
+    },
+    {
+      "base": "HBAR",
+      "quote": "USDT",
+      "pair_id": "HBAR_USDT",
+      "exchange_id": "bittrex.com"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 50000000000,
+    "circulating_supply": 7350119048
+  }
+}

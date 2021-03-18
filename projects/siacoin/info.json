@@ -1,0 +1,74 @@
+{
+  "name": "Siacoin",
+  "symbol": "sc",
+  "coingecko_id": "siacoin",
+  "coin_api_id": "SC",
+  "website": "https://sia.tech/",
+  "source_code": "https://github.com/NebulousLabs/Sia",
+  "white_paper": "https://sia.tech/sia.pdf",
+  "category_tags": ["storage"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/SiaTechHQ",
+      "handle": "SiaTechHQ",
+      "search_strings": ["$SC"]
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/siacoin"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=fOmQ2B0DyYg&list=PLPv00ttW4uXMqEL8k_Th6ETtRtv-yiepp",
+      "handle": "siatvofficial"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "SC",
+      "quote": "USDT",
+      "pair_id": "SC_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "SC",
+      "quote": "USDT",
+      "pair_id": "SC_USDT",
+      "exchange_id": "okex.com"
+    },
+    {
+      "base": "SC",
+      "quote": "USD",
+      "pair_id": "SC_USD",
+      "exchange_id": "kraken.com"
+    },
+    {
+      "base": "SC",
+      "quote": "USD",
+      "pair_id": "SC_USD",
+      "exchange_id": "bittrex.com"
+    },
+    {
+      "base": "SC",
+      "quote": "USDT",
+      "pair_id": "SC_USDT",
+      "exchange_id": "bittrex.com"
+    },
+    {
+      "base": "SC",
+      "quote": "USDT",
+      "pair_id": "SC_USDT",
+      "exchange_id": "poloniex.com"
+    },
+    {
+      "base": "SC",
+      "quote": "USDT",
+      "pair_id": "SC_USDT",
+      "exchange_id": "upbit.com"
+    }
+  ],
+  "tokenomics": {
+    "circulating_supply": 47052285000
+  }
+}

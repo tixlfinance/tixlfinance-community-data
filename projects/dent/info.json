@@ -1,0 +1,48 @@
+{
+  "name": "Dent",
+  "symbol": "dent",
+  "coingecko_id": "dent",
+  "coin_api_id": "DENT",
+  "website": "https://www.dentwireless.com/",
+  "white_paper": "https://www.dentwireless.com/whitepaper",
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/dentcoin",
+      "handle": "dentcoin",
+      "search_strings": ["$DENT"]
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/dentcoin"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/dent/"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/watch?v=VClxbPQ60Gc&list=PLEstG3YDV9nXlzgopqUmKiKRtBtCaC6xI",
+      "handle": "DENTWireless"
+    }
+  ],
+  "trading_pairs": [
+    {
+      "base": "DENT",
+      "quote": "USDT",
+      "pair_id": "DENT_USDT",
+      "exchange_id": "binance.com"
+    },
+    {
+      "base": "0x3597bfd533a99c9aa083587b074434e61eb0a258",
+      "quote": "ETH",
+      "pair_id": "0x9a632cd9cb44f9383bf6f3117056c2455b30a6e0",
+      "exchange_id": "uniswap.exchange"
+    }
+  ],
+  "tokenomics": {
+    "total_supply": 100000000000,
+    "circulating_supply": 90006687214.73587
+  },
+  "uniswap_id": "0x3597bfd533a99c9aa083587b074434e61eb0a258"
+}
