@@ -1,0 +1,62 @@
+{
+  "name": "Sylo",
+  "symbol": "SYLO",
+  "coingecko_id": "sylo",
+  "website": "https://www.sylo.io/",
+  "white_paper": "https://www.sylo.io/whitepaper/",
+  "isStableCoin": false,
+  "additionalLinks": [
+    {
+      "label": "Explorer",
+      "url": "https://etherscan.io/token/0xf293d23bf2cdc05411ca0eddd588eb1977e8dcd4"
+    },
+    {
+      "label": "Team",
+      "url": "https://www.sylo.io/about/"
+    }
+  ],
+  "category_tags": ["l1s"],
+  "socials": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/sylo",
+      "handle": "sylo",
+      "search_strings": ["#SyloSmartWallet", "#SyloNetwork"]
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/sylo.io"
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com/r/sylo_io"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/sylo_io"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/c/sylo_io"
+    }
+  ],
+  "tokenomics": {
+    "max_supply": 10000000000,
+    "total_supply": 10000000000,
+    "circulating_supply": 2596619492
+  },
+  "trading_pairs": [
+    {
+      "base": "SYLO",
+      "quote": "USDT",
+      "pair_id": "kucoin.com_SYLO_USDT",
+      "exchange_id": "kucoin.com"
+    },
+    {
+      "base": "SYLO",
+      "quote": "USDT",
+      "pair_id": "gate.io_SYLO_USDT",
+      "exchange_id": "gate.io"
+    }
+  ]
+}
